@@ -1,0 +1,136 @@
+{
+ "inci": "Facial massage",
+ "slug": "facial-massage",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not an ingredient: the EU Cosmetics Regulation (EC) No 1223/2009 applies to ingredients, not to techniques; the composition of a massage oil or cream is checked separately.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Facial massage here means cosmetic massage of the face in healthy adults, by hand or with tools such as rollers and gua sha, including lymphatic-drainage-style and cosmetic-oil massage. The evidence found is limited: one systematic review (with only two manual-massage studies) judged the evidence insufficient to establish efficacy for skin appearance or facial contour; the other sources are small, short or uncontrolled studies, an ex vivo animal-skin model, and one observational study that recorded redness, contact dermatitis and acne-like eruptions after salon facial treatments. No studies with a non-treated control group showing wrinkle reduction, a lifting effect or reduced puffiness were included in this card. Medical lymphoedema therapy, post-surgical rehabilitation, microcurrent, radiofrequency or laser devices and injections are outside its scope. The included sources do not assess people with rosacea, active infection or damaged skin, the pressure applied, or tool hygiene. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "facial-massage-1",
+   "text_en": "A PRISMA-based systematic review of conservative mechanical facial rejuvenation techniques (12 studies, 321 women aged 30 to 70: 6 on facial exercises, 4 on myofunctional therapy, 2 on manual massage) reported improvements confined to localized regions such as the cheeks, jawline and periorbital areas and no adverse events, but concluded that, given heterogeneous methods and small samples, the evidence remains insufficient to establish efficacy with confidence.",
+   "evidence_level": "insufficient",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "41322034",
+     "doi": "10.1093/asjof/ojaf144",
+     "title": "Efficacy of Conservative Techniques for Mechanical Facial Rejuvenation: A Systematic Review.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41322034/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "facial-massage-2",
+   "text_en": "In a randomised trial of 34 women aged 20 to 50 assigned to facial roller (n = 17) or gua sha (n = 17) massage for 10 minutes, five times a week for 8 weeks, both groups showed reductions of a few millimetres in facial surface-distance measurements (2.23 to 2.40 mm with gua sha; 2.75 to 3.26 mm with the roller); muscle-tone parameters changed in the gua sha group and skin-elasticity indices (R2, R7) rose in the roller group. There was no non-massage control group, so changes cannot be separated from other factors; this is a single small study.",
+   "evidence_level": "C",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40439289",
+     "doi": "10.1111/jocd.70236",
+     "title": "Comparative Effects of Facial Roller and Gua Sha Massage on Facial Contour, Muscle Tone, and Skin Elasticity: Randomized Controlled Trial.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40439289/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "facial-massage-3",
+   "text_en": "In an observational study of 142 women in New Delhi beauty parlours (169 treatment episodes, 12 weeks of follow-up) who received salon facial treatments consisting of vigorous cream massage, steaming and a face mask, redness and puffiness appeared in 61 episodes and lasted 2 to 6 hours, mild dermatitis followed in 8 episodes, patch tests were positive to a treatment constituent in 4 women, and an acne-like eruption appeared 3 to 10 weeks later in 47 women (33.1%); women also reported feelings of freshness (59.1%) and, less often, delayed wrinkles (14.8%). The effects of massage cannot be separated from steaming, masks and comedone extraction, and benefits were self-reported.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "12121555",
+     "doi": "10.1046/j.1365-4362.2002.01511.x",
+     "title": "Rejuvenating facial massage--a bane or boon?",
+     "year": 2002,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12121555/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "facial-massage-4",
+   "text_en": "In a small prospective intra-subject study of 17 healthy women aged 38 to 55 who had a cosmetic product applied by a beautician with standardized facial gestures, a 60-second smoothing-and-press gesture was associated with lower stress, greater comfort and more positive emotional valence on EEG and questionnaires than a smoothing-only gesture. The findings concern short-term emotional response only; no skin outcomes were measured.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "41657126",
+     "doi": "10.1111/ics.70086",
+     "title": "Changes in emotional response towards different facial application gestures following skincare application: An electroencephalogram approach.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41657126/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "facial-massage-5",
+   "text_en": "In an ex vivo porcine ear skin model using fluorescent dyes as surrogates for active ingredients, professional cosmetic skin treatments that included massage were associated with higher skin hydration and greater dye penetration than treatments without massage, with results depending on treatment type, lipophilicity and timing. This is animal-skin laboratory evidence and does not show effects on human facial skin.",
+   "evidence_level": "insufficient",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "36145538",
+     "doi": "10.3390/pharmaceutics14091788",
+     "title": "Influence of Mechanical Skin Treatments on Dermal Penetration Efficacy of Active Ingredients.",
+     "year": 2022,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36145538/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Bu kartochkada yuz massaji deganda sog'lom kattalarda kosmetik maqsadda yuzni qo'l bilan yoki rolik va gua sha kabi asboblar bilan massaj qilish tushuniladi, jumladan limfatik drenaj uslubidagi va kosmetik moy bilan massaj. Topilgan dalillar cheklangan: bitta tizimli sharh (unda qo'l massaji bo'yicha faqat ikkita tadqiqot bor) teri ko'rinishi yoki yuz konturi bo'yicha samaradorlikni belgilash uchun dalil yetarli emas, degan xulosaga kelgan; qolgan manbalar kichik, qisqa muddatli yoki nazoratsiz tadqiqotlar, hayvon terisidagi ex vivo model hamda salon yuz muolajalaridan keyin qizarish, kontakt dermatit va aknega o'xshash toshmalar qayd etilgan bitta kuzatuv tadqiqotidir. Ushbu kartochkaga ajinlarning kamayishini, yuzning ko'tarilish ta'sirini yoki shishning kamayishini ko'rsatgan, davolanmagan nazorat guruhi bo'lgan tadqiqotlar kiritilmagan. Tibbiy limfedema terapiyasi, jarrohlikdan keyingi reabilitatsiya, mikrotok, radiochastota yoki lazer qurilmalari va ukollar qamrovdan tashqarida. Kiritilgan manbalarda rozatsea, faol infeksiya yoki shikastlangan terisi bor odamlar, qo'llanilgan bosim va asbob gigienasi baholanmagan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "facial-massage-1": "Yuzni yosharish uchun konservativ mexanik usullar bo'yicha PRISMA asosidagi tizimli sharhda (30 yoshdan 70 yoshgacha bo'lgan 321 nafar ayol ishtirok etgan 12 ta tadqiqot: 6 tasi yuz mashqlari, 4 tasi miofunksional terapiya, 2 tasi qo'l massaji haqida) yaxshilanishlar yonoq, jag' chizig'i va ko'z atrofi kabi chegaralangan hududlar bilan cheklangani va nojo'ya hodisalar qayd etilmagani aytilgan; biroq usullarning xilma-xilligi va namunalarning kichikligi sababli samaradorlikni ishonch bilan belgilash uchun dalil hali ham yetarli emas, degan xulosa qilingan.",
+    "facial-massage-2": "20 yoshdan 50 yoshgacha bo'lgan 34 nafar ayol ishtirok etgan randomizatsiyalangan tadqiqotda ishtirokchilar yuz roligi (n = 17) yoki gua sha (n = 17) massajiga taqsimlangan, massaj haftasiga besh marta 10 daqiqadan 8 hafta davomida o'tkazilgan; ikkala guruhda ham yuz sirtidagi masofa o'lchovlarida bir necha millimetrga kamayish kuzatilgan (gua shada 2,23 dan 2,40 mm gacha; rolikda 2,75 dan 3,26 mm gacha); mushak tonusi ko'rsatkichlari gua sha guruhida o'zgargan, teri elastikligi indekslari (R2, R7) esa rolik guruhida oshgan. Massaj qilinmagan nazorat guruhi bo'lmagan, shu sababli o'zgarishlarni boshqa omillardan ajratib bo'lmaydi; bu bitta kichik tadqiqotdir.",
+    "facial-massage-3": "Nyu-Dehlidagi go'zallik salonlarida 142 nafar ayol (169 ta muolaja, 12 haftalik kuzatuv) ishtirok etgan kuzatuv tadqiqotida, ular kuchli krem massaji, bug'lash va yuz niqobidan iborat salon yuz muolajalarini olgan; 61 ta muolajada qizarish va shish paydo bo'lib, 2 soatdan 6 soatgacha davom etgan, 8 ta muolajadan keyin yengil dermatit rivojlangan, 4 nafar ayolda sinama (patch) testlari muolaja tarkibiy qismlariga musbat chiqqan, 47 nafar ayolda (33,1%) 3 dan 10 haftagacha o'tib aknega o'xshash toshma paydo bo'lgan; ayollar shuningdek tetiklik hissini (59,1%) va kamroq hollarda ajinlarning kechikishini (14,8%) qayd etgan. Massaj ta'sirini bug'lash, niqoblar va komedonlarni olib tashlashdan ajratib bo'lmaydi, foydalar esa ishtirokchilarning o'z bahosiga asoslangan.",
+    "facial-massage-4": "Kosmetolog standartlashtirilgan yuz harakatlari bilan kosmetik vosita surtgan 38 yoshdan 55 yoshgacha bo'lgan 17 nafar sog'lom ayol ishtirok etgan kichik prospektiv ichki-sub'ekt tadqiqotida 60 soniyalik silash va bosish harakati faqat silash harakatiga nisbatan EEG va so'rovnomalarda pastroq stress, yuqoriroq qulaylik va ijobiyroq hissiy valentlik bilan bog'langan. Natijalar faqat qisqa muddatli hissiy javobga tegishli; teri ko'rsatkichlari o'lchanmagan.",
+    "facial-massage-5": "Faol moddalar o'rnini bosuvchi lyuminestsent bo'yoqlar ishlatilgan cho'chqa quloq terisidagi ex vivo modelda massajni o'z ichiga olgan professional kosmetik teri muolajalari massajsiz muolajalarga nisbatan terining yuqoriroq namlanishi va bo'yoqning kuchliroq kirib borishi bilan bog'langan; natijalar muolaja turi, lipofillik va vaqtga bog'liq bo'lgan. Bu hayvon terisida o'tkazilgan laboratoriya dalili bo'lib, odam yuz terisiga ta'sirni ko'rsatmaydi."
+   }
+  },
+  "ru": {
+   "summary": "В этой карточке под массажем лица понимается косметический массаж лица у здоровых взрослых руками или с помощью инструментов, таких как ролики и гуаша, включая массаж в стиле лимфодренажа и массаж с косметическими маслами. Найденные данные ограничены: один систематический обзор (в котором лишь два исследования ручного массажа) счёл данные недостаточными для установления эффективности в отношении внешнего вида кожи или контура лица; остальные источники это небольшие, краткосрочные или неконтролируемые исследования, ex vivo модель на коже животного и одно наблюдательное исследование, зафиксировавшее покраснение, контактный дерматит и акнеподобные высыпания после салонных процедур для лица. В эту карточку не включены исследования с неподвергавшейся воздействию контрольной группой, показывающие уменьшение морщин, подтягивающий эффект или уменьшение отёчности. Лечебная терапия лимфедемы, реабилитация после операций, устройства с микротоками, радиочастотой или лазером и инъекции выходят за рамки карточки. Включённые источники не оценивают людей с розацеа, активной инфекцией или повреждённой кожей, применяемое давление и гигиену инструментов. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "facial-massage-1": "В систематическом обзоре по методике PRISMA, посвящённом консервативным механическим методам омоложения лица (12 исследований, 321 женщина в возрасте от 30 до 70 лет: 6 по упражнениям для лица, 4 по миофункциональной терапии, 2 по ручному массажу), сообщалось об улучшениях, ограниченных отдельными зонами, такими как щёки, линия челюсти и область вокруг глаз, и об отсутствии нежелательных явлений; однако авторы пришли к выводу, что из-за разнородности методов и малых выборок данных по-прежнему недостаточно, чтобы уверенно установить эффективность.",
+    "facial-massage-2": "В рандомизированном исследовании с участием 34 женщин в возрасте от 20 до 50 лет, распределённых на массаж лицевым роликом (n = 17) или гуаша (n = 17) по 10 минут пять раз в неделю в течение 8 недель, в обеих группах отмечено уменьшение на несколько миллиметров показателей расстояний по поверхности лица (от 2,23 до 2,40 мм при гуаша; от 2,75 до 3,26 мм при ролике); показатели мышечного тонуса изменились в группе гуаша, а показатели эластичности кожи (R2, R7) выросли в группе ролика. Контрольной группы без массажа не было, поэтому изменения нельзя отделить от других факторов; это одно небольшое исследование.",
+    "facial-massage-3": "В наблюдательном исследовании с участием 142 женщин в салонах красоты Нью-Дели (169 процедур, наблюдение 12 недель), получавших салонные процедуры для лица, состоявшие из энергичного массажа с кремом, пропаривания и маски для лица, покраснение и отёчность появились после 61 процедуры и длились от 2 до 6 часов, лёгкий дерматит последовал после 8 процедур, патч-тесты оказались положительными на компонент процедуры у 4 женщин, а акнеподобные высыпания появились через 3–10 недель у 47 женщин (33,1%); женщины также сообщали о чувстве свежести (59,1%) и, реже, об отсрочке появления морщин (14,8%). Эффекты массажа нельзя отделить от пропаривания, масок и удаления комедонов, а пользу оценивали сами участницы.",
+    "facial-massage-4": "В небольшом проспективном внутрисубъектном исследовании с участием 17 здоровых женщин в возрасте от 38 до 55 лет, которым косметолог наносил косметическое средство стандартизированными движениями для лица, 60-секундное движение с разглаживанием и надавливанием было связано с более низким стрессом, большим комфортом и более положительной эмоциональной валентностью по данным ЭЭГ и опросников, чем движение только с разглаживанием. Результаты относятся лишь к кратковременной эмоциональной реакции; показатели кожи не измерялись.",
+    "facial-massage-5": "В ex vivo модели на коже свиного уха с флуоресцентными красителями в качестве заменителей активных ингредиентов профессиональные косметические процедуры для кожи, включавшие массаж, были связаны с более высокой гидратацией кожи и более выраженным проникновением красителя, чем процедуры без массажа; результаты зависели от вида процедуры, липофильности и времени. Это лабораторные данные на коже животного, и они не показывают эффектов на коже лица человека."
+   }
+  },
+  "ar": {
+   "summary": "يُقصد بتدليك الوجه في هذه البطاقة التدليك التجميلي للوجه لدى البالغين الأصحاء، باليد أو بأدوات مثل الأسطوانات (الرولر) وحجر الغواشا، بما في ذلك التدليك بأسلوب التصريف اللمفي والتدليك بالزيوت التجميلية. الأدلة التي وُجدت محدودة: مراجعة منهجية واحدة (لا تتضمن سوى دراستين عن التدليك اليدوي) رأت أن الأدلة غير كافية لإثبات الفعالية فيما يخص مظهر البشرة أو محيط الوجه؛ أما المصادر الأخرى فهي دراسات صغيرة أو قصيرة المدة أو غير مضبوطة، ونموذج خارج الجسم الحي (ex vivo) على جلد حيواني، ودراسة رصدية واحدة سجّلت احمرارًا والتهاب جلد تماسّيًا وطفحًا يشبه حب الشباب بعد جلسات العناية بالوجه في الصالونات. لم تُدرج في هذه البطاقة دراسات بمجموعة ضابطة غير معالَجة تُظهر تقليل التجاعيد أو تأثير الشد أو تقليل الانتفاخ. العلاج الطبي للوذمة اللمفية وإعادة التأهيل بعد الجراحة وأجهزة التيار الدقيق أو الترددات الراديوية أو الليزر والحقن خارج نطاقها. لا تقيّم المصادر المُدرجة الأشخاص المصابين بالوردية أو العدوى النشطة أو البشرة المتضررة، ولا الضغط المطبَّق، ولا نظافة الأدوات. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "facial-massage-1": "في مراجعة منهجية وفق منهجية PRISMA للتقنيات الميكانيكية المحافظة لتجديد شباب الوجه (12 دراسة شملت 321 امرأة تتراوح أعمارهن بين 30 و70 عامًا: 6 عن تمارين الوجه و4 عن العلاج الوظيفي العضلي و2 عن التدليك اليدوي)، أُبلغ عن تحسّنات اقتصرت على مناطق محددة مثل الخدين وخط الفك ومحيط العينين ولم تُسجَّل أحداث ضارة؛ لكن المراجعة خلصت إلى أنه، نظرًا لتباين الطرق وصغر العيّنات، لا تزال الأدلة غير كافية لإثبات الفعالية بثقة.",
+    "facial-massage-2": "في دراسة عشوائية شملت 34 امرأة تتراوح أعمارهن بين 20 و50 عامًا وُزّعن على تدليك بأسطوانة الوجه (n = 17) أو بحجر الغواشا (n = 17) لمدة 10 دقائق خمس مرات أسبوعيًا على مدى 8 أسابيع، أظهرت المجموعتان انخفاضًا بضعة مليمترات في قياسات المسافات على سطح الوجه (من 2.23 إلى 2.40 مم مع الغواشا؛ ومن 2.75 إلى 3.26 مم مع الأسطوانة)؛ وتغيّرت مؤشرات توتر العضلات في مجموعة الغواشا، بينما ارتفعت مؤشرات مرونة الجلد (R2 وR7) في مجموعة الأسطوانة. لم تكن هناك مجموعة ضابطة بلا تدليك، لذا لا يمكن فصل التغيرات عن عوامل أخرى؛ وهذه دراسة واحدة صغيرة.",
+    "facial-massage-3": "في دراسة رصدية شملت 142 امرأة في صالونات تجميل بنيودلهي (169 جلسة، ومتابعة 12 أسبوعًا) تلقّين جلسات عناية بالوجه في الصالونات تتألف من تدليك قوي بالكريم والتبخير وقناع للوجه، ظهر احمرار وانتفاخ في 61 جلسة واستمر من ساعتين إلى 6 ساعات، وتبعه التهاب جلد خفيف في 8 جلسات، وكانت اختبارات اللصقة (patch test) إيجابية تجاه أحد مكوّنات الجلسة لدى 4 نساء، وظهر طفح يشبه حب الشباب بعد 3 إلى 10 أسابيع لدى 47 امرأة (33.1%)؛ كما أبلغت النساء عن شعور بالانتعاش (59.1%) وبدرجة أقل عن تأخر ظهور التجاعيد (14.8%). لا يمكن فصل أثر التدليك عن التبخير والأقنعة واستخراج الرؤوس السوداء، وكانت الفوائد بتقدير المشاركات أنفسهن.",
+    "facial-massage-4": "في دراسة استباقية صغيرة داخل الأفراد شملت 17 امرأة سليمة تتراوح أعمارهن بين 38 و55 عامًا وضعت لهن أخصائية تجميل منتجًا تجميليًا بحركات وجه معيارية، ارتبطت حركة تنعيم وضغط مدتها 60 ثانية بتوتر أقل وراحة أكبر وقيمة انفعالية أكثر إيجابية بحسب تخطيط الدماغ (EEG) والاستبيانات مقارنةً بحركة تنعيم فقط. تتعلق النتائج بالاستجابة الانفعالية قصيرة المدى فقط؛ ولم تُقَس مؤشرات البشرة.",
+    "facial-massage-5": "في نموذج خارج الجسم الحي (ex vivo) على جلد أذن خنزير باستخدام أصباغ فلورية بديلة للمكوّنات الفعّالة، ارتبطت المعالجات التجميلية المهنية للبشرة التي شملت التدليك بترطيب أعلى للجلد وبنفاذ أكبر للصبغة مقارنةً بالمعالجات دون تدليك، وتوقفت النتائج على نوع المعالجة والألفة للدهون والتوقيت. هذه أدلة مخبرية على جلد حيواني ولا تُظهر تأثيرات على جلد وجه الإنسان."
+   }
+  }
+ }
+}

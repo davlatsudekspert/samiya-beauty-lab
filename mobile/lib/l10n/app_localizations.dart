@@ -935,6 +935,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'“Natural” does not automatically mean “safe”: allergy and irritation are possible. Test a new product on a small area of skin first.'**
   String get naturalNote;
+
+  /// No description provided for @filterPractice.
+  ///
+  /// In en, this message translates to:
+  /// **'Care techniques'**
+  String get filterPractice;
+
+  /// No description provided for @filterCaution.
+  ///
+  /// In en, this message translates to:
+  /// **'Home remedies: caution'**
+  String get filterCaution;
+
+  /// No description provided for @practiceNote.
+  ///
+  /// In en, this message translates to:
+  /// **'This is a care technique, not an ingredient: the evidence is often limited. If your skin is inflamed or damaged, talk to a professional first.'**
+  String get practiceNote;
+
+  /// No description provided for @cautionNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Information about a common home remedy: for some, cases of skin harm have been recorded; for others, evidence of safety and benefit is insufficient. Read it before using.'**
+  String get cautionNote;
+
+  /// No description provided for @practiceSectionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Care techniques'**
+  String get practiceSectionTitle;
 }
 
 class _AppLocalizationsDelegate

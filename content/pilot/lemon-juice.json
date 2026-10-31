@@ -1,0 +1,135 @@
+{
+ "inci": "Citrus Limon Fruit Juice",
+ "slug": "lemon-juice",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Lemon juice (INCI: Citrus Limon Fruit Juice; lime juice raises a similar concern) is sometimes applied undiluted to the face as a home practice for skin lightening, dark spots or acne. In the PubMed searches done for this card, no clinical study showing a skin benefit of directly applied lemon or lime juice was found. The published sources located are mainly case reports, one retrospective burn-centre study and narrative reviews; they describe sun-related skin injury (phytophotodermatitis) after contact with citrus juice or peel followed by sunlight exposure. Sources on the acidity (pH) of undiluted juice and on irritant or allergic reactions to the juice itself were not found, and these cases cannot show how often such reactions occur. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "lemon-juice-1",
+   "text_en": "A narrative review of phytophotodermatitis describes a non-immunologic skin reaction in which plant furanocoumarins and psoralens, followed by exposure to ultraviolet radiation from sunlight, can cause erythema, fluid blisters, edema and hyperpigmentation; it notes that limes containing furocoumarin have been linked to lime-induced photodermatitis. It is a narrative review and does not measure how often the reaction occurs.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "39202761",
+     "doi": "10.3390/life14081019",
+     "title": "New Insights Concerning Phytophotodermatitis Induced by Phototoxic Plants.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39202761/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "lemon-juice-2",
+   "text_en": "A case report described a 7-year-old girl who squeezed lemon juice onto her skin in strong sunshine and, within 24 hours, developed pain, erythema and blistering (first- and second-degree burn-like lesions) that led to a four-day hospital admission; the authors describe the progression from erythema to blisters to hyperpigmentation as a well-described triad. A single case cannot show how often this occurs.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "29324427",
+     "title": "Lemons in the Arizona Sunshine: The Effects of Furocoumarins Leading to Phytophotodermatitis and Burn-like Injuries.",
+     "year": 2017,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29324427/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "lemon-juice-3",
+   "text_en": "A retrospective analysis of 562 sun-related burns treated at one Brazilian burn institution over three years listed lemon juice (17.7%) among the main causes, alongside sun only (36.7%) and a fig-leaf 'tea' tanning lotion (17.7%); the authors discuss homemade plant-derived tanning lotions that can induce a photodermatitis reaction. Most burns returned to normal skin appearance (99.1%) and 0.7% healed with scarring. The study concerns tanning lotions rather than skin lightening, comes from a single centre and does not give the rate of burns among people who used lemon juice.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "1590921",
+     "doi": "10.1016/0305-4179(92)90003-d",
+     "title": "Sun tanning-related burns--a 3-year experience.",
+     "year": 1992,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/1590921/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "lemon-juice-4",
+   "text_en": "A case report of a bartender with hand dermatitis found allergic contact sensitivity to the peel of lemon, lime and orange but not to their juices; patch tests were positive for geraniol and citral and negative for d-limonene. This single case concerns peel oil components in an occupational setting and does not show whether juice applied to facial skin causes allergy.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "2526827",
+     "doi": "10.1016/s0190-9622(89)80043-x",
+     "title": "Allergic contact dermatitis resulting from sensitivity to citrus peel, geraniol, and citral.",
+     "year": 1989,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/2526827/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "lemon-juice-5",
+   "text_en": "A narrative review of Ayurvedic and natural skincare ingredients states that products such as concentrated lemon juice or homemade sunscreens lack scientific validation and have been implicated in various cosmetic and medical issues, and it advises healthcare providers to educate patients about the potential dangers of relying solely on natural products. It is a narrative review and does not report a trial of lemon juice.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "39552100",
+     "doi": "10.1111/jocd.16673",
+     "title": "Ayurvedic Ingredients in Dermatology: A Call for Research.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39552100/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Limon sharbati (INCI: Citrus Limon Fruit Juice; laym sharbati ham shunga o'xshash xavf tug'diradi) ba'zan terini oqartirish, dog'lar yoki akne uchun uy vositasi sifatida yuzga suyultirilmagan holda to'g'ridan-to'g'ri surtiladi. Ushbu kartochka uchun PubMed'da o'tkazilgan qidiruvlarda to'g'ridan-to'g'ri surtilgan limon yoki laym sharbatining teri uchun foydasini ko'rsatuvchi klinik tadqiqot topilmadi. Topilgan nashr etilgan manbalar asosan alohida hodisa hisobotlari, kuyish markazidagi bitta retrospektiv tadqiqot va hikoyaviy sharhlardan iborat; ular sitrus sharbati yoki po'stlog'i bilan teginishdan keyin quyosh nuri ta'siri natijasida teri shikastlanishini (fitofotodermatit) tasvirlaydi. Suyultirilmagan sharbatning kislotaliligi (pH) va sharbatning o'ziga bo'lgan ta'sirlanish yoki allergik reaksiyalar haqidagi manbalar topilmadi, bunday holatlar esa reaksiyalar qanchalik tez-tez uchrashini ko'rsata olmaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "lemon-juice-1": "Fitofotodermatit bo'yicha hikoyaviy sharhda bu immunologik bo'lmagan teri reaksiyasi sifatida tasvirlangan: o'simlik furanokumarinlari va psoralenlari ta'siridan keyin quyosh nuridan ultrabinafsha nurlanish ta'siri qizarish, suyuqlikli pufakchalar, shish va giperpigmentatsiyaga olib kelishi mumkin; furokumarin saqlovchi laymlar laym keltirib chiqargan fotodermatit bilan bog'langanligi qayd etilgan. Bu hikoyaviy sharh bo'lib, reaksiya qanchalik tez-tez uchrashini o'lchamaydi.",
+    "lemon-juice-2": "Hodisa hisobotida 7 yoshli qiz kuchli quyosh nuri ostida limon sharbatini terisiga siqib surtgani va 24 soat ichida og'riq, qizarish va pufakchalar (birinchi va ikkinchi darajali kuyishga o'xshash shikastlanishlar) paydo bo'lgani, bu esa to'rt kunlik kasalxonaga yotqizilishga olib kelgani tasvirlangan; mualliflar qizarishdan pufakchalar orqali giperpigmentatsiyagacha bo'lgan rivojlanishni yaxshi ma'lum triada deb ta'riflaydi. Bitta holat bunday hodisa qanchalik tez-tez uchrashini ko'rsata olmaydi.",
+    "lemon-juice-3": "Bitta Braziliya kuyish muassasasida uch yil davomida davolangan quyoshdan olingan 562 ta kuyishning retrospektiv tahlilida asosiy sabablar qatorida limon sharbati (17,7%) keltirilgan, shuningdek faqat quyosh (36,7%) va anjir bargi 'choyi' asosidagi qorayish losyoni (17,7%); mualliflar fotodermatit reaksiyasini keltirib chiqarishi mumkin bo'lgan uyda tayyorlangan o'simlik asosli qorayish losyonlarini muhokama qiladi. Kuyishlarning ko'pchiligida teri odatiy ko'rinishga qaytgan (99,1%), 0,7% da esa chandiq qolgan. Tadqiqot terini oqartirishga emas, balki qorayish losyonlariga oid bo'lib, bitta markazdan olingan va limon sharbati ishlatgan odamlar orasida kuyish uchrash darajasini bermaydi.",
+    "lemon-juice-4": "Qo'l dermatiti bo'lgan bir bartender haqidagi hodisa hisobotida limon, laym va apelsin po'stlog'iga, lekin ularning sharbatiga emas, allergik kontakt sezgirlik aniqlangan; patch-testlar geraniol va sitral uchun ijobiy, d-limonen uchun salbiy bo'lgan. Bu yagona holat kasbiy sharoitdagi po'stloq moyi komponentlariga oid bo'lib, yuz terisiga surtilgan sharbat allergiya keltirib chiqarishini ko'rsatmaydi.",
+    "lemon-juice-5": "Ayurveda va tabiiy teri parvarishi ingredientlari bo'yicha hikoyaviy sharhda konsentrlangan limon sharbati yoki uyda tayyorlangan quyoshdan himoya vositalari kabi mahsulotlar ilmiy tasdiqdan o'tmaganligi va turli kosmetik hamda tibbiy muammolar bilan bog'langanligi aytilgan, shuningdek sog'liqni saqlash xodimlariga bemorlarni faqat tabiiy mahsulotlarga tayanishning mumkin bo'lgan xavflari haqida ma'lumot berish tavsiya etilgan. Bu hikoyaviy sharh bo'lib, limon sharbati bo'yicha sinov haqida ma'lumot bermaydi."
+   }
+  },
+  "ru": {
+   "summary": "Лимонный сок (INCI: Citrus Limon Fruit Juice; сок лайма вызывает схожее опасение) иногда наносят на лицо в неразбавленном виде как домашнее средство для осветления кожи, против пятен или акне. В поисках по PubMed, выполненных для этой карточки, клинических исследований, показывающих пользу для кожи напрямую нанесённого сока лимона или лайма, найдено не было. Найденные опубликованные источники в основном представляют собой описания клинических случаев, одно ретроспективное исследование ожогового центра и нарративные обзоры; в них описано связанное с солнцем повреждение кожи (фитофотодерматит) после контакта с соком или кожурой цитрусовых и последующего пребывания на солнце. Источники о кислотности (pH) неразбавленного сока и о раздражающих или аллергических реакциях на сам сок найдены не были, а описания случаев не позволяют оценить, как часто такие реакции возникают. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "lemon-juice-1": "В нарративном обзоре о фитофотодерматите описана неиммунологическая кожная реакция, при которой фурокумарины и псоралены растений с последующим воздействием ультрафиолетового излучения солнечного света могут вызывать эритему, пузыри с жидкостью, отёк и гиперпигментацию; отмечено, что лаймы, содержащие фурокумарин, связывали с вызванным лаймом фотодерматитом. Это нарративный обзор, он не измеряет, как часто возникает такая реакция.",
+    "lemon-juice-2": "В описании клинического случая семилетняя девочка выжала лимонный сок на кожу под ярким солнцем и в течение 24 часов у неё появились боль, эритема и пузыри (ожогоподобные поражения первой и второй степени), что привело к четырёхдневной госпитализации; авторы описывают развитие от эритемы через пузыри к гиперпигментации как хорошо известную триаду. Один случай не позволяет оценить, как часто это происходит.",
+    "lemon-juice-3": "В ретроспективном анализе 562 солнечных ожогов, леченных в одном бразильском ожоговом учреждении в течение трёх лет, лимонный сок (17,7%) указан среди основных причин наряду с одним лишь солнцем (36,7%) и лосьоном для загара на основе «чая» из листьев инжира (17,7%); авторы обсуждают самодельные растительные лосьоны для загара, способные вызывать фотодерматитную реакцию. Большинство ожогов вернулись к нормальному виду кожи (99,1%), в 0,7% остались рубцы. Исследование касается лосьонов для загара, а не осветления кожи, проведено в одном центре и не даёт частоты ожогов среди людей, использовавших лимонный сок.",
+    "lemon-juice-4": "В описании случая у бармена с дерматитом рук выявлена аллергическая контактная сенсибилизация к кожуре лимона, лайма и апельсина, но не к их сокам; патч-тесты были положительными на гераниол и цитраль и отрицательными на d-лимонен. Этот единичный случай касается компонентов масла кожуры в профессиональных условиях и не показывает, вызывает ли сок, нанесённый на кожу лица, аллергию.",
+    "lemon-juice-5": "В нарративном обзоре об аюрведических и природных ингредиентах ухода за кожей говорится, что такие средства, как концентрированный лимонный сок или самодельные солнцезащитные средства, не имеют научного подтверждения и связывались с различными косметическими и медицинскими проблемами; работникам здравоохранения рекомендуется информировать пациентов о возможных опасностях опоры только на природные средства. Это нарративный обзор, он не сообщает об испытании лимонного сока."
+   }
+  },
+  "ar": {
+   "summary": "يُستخدم عصير الليمون (INCI: Citrus Limon Fruit Juice؛ ويثير عصير الليمون الأخضر (اللايم) قلقًا مشابهًا) أحيانًا غير مخفف على الوجه كوسيلة منزلية لتفتيح البشرة أو للبقع الداكنة أو حب الشباب. وفي عمليات البحث التي أُجريت في PubMed لإعداد هذه البطاقة، لم يُعثر على دراسة سريرية تُظهر فائدة للبشرة من وضع عصير الليمون أو اللايم مباشرة عليها. والمصادر المنشورة التي عُثر عليها هي في الغالب تقارير حالات ودراسة بأثر رجعي واحدة من مركز للحروق ومراجعات سردية؛ وهي تصف إصابات جلدية مرتبطة بالشمس (التهاب الجلد الضوئي النباتي، phytophotodermatitis) بعد ملامسة عصير الحمضيات أو قشرها ثم التعرض لضوء الشمس. ولم يُعثر على مصادر بشأن حموضة (pH) العصير غير المخفف ولا بشأن تفاعلات التهيج أو الحساسية للعصير نفسه، ولا تتيح تقارير الحالات معرفة مدى تكرر هذه التفاعلات. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "lemon-juice-1": "تصف مراجعة سردية حول التهاب الجلد الضوئي النباتي (phytophotodermatitis) تفاعلًا جلديًا غير مناعي، يمكن فيه أن تسبب الفيورانوكومارينات والبسورالينات النباتية، متبوعةً بالتعرض للأشعة فوق البنفسجية من ضوء الشمس، احمرارًا وفقاعات مملوءة بسائل ووذمة وفرط تصبغ؛ وتشير إلى أن ثمار اللايم المحتوية على الفوروكومارين ارتبطت بالتهاب الجلد الضوئي الناجم عن اللايم. وهي مراجعة سردية ولا تقيس مدى تكرر هذا التفاعل.",
+    "lemon-juice-2": "وصف تقرير حالة فتاة عمرها 7 سنوات عصرت عصير الليمون على جلدها تحت شمس قوية، فظهر لديها خلال 24 ساعة ألم واحمرار وفقاعات (آفات شبيهة بالحروق من الدرجتين الأولى والثانية) أدت إلى دخولها المستشفى أربعة أيام؛ ويصف المؤلفون التطور من الاحمرار إلى الفقاعات ثم فرط التصبغ بأنه ثلاثية معروفة جيدًا. ولا يمكن لحالة واحدة أن تبيّن مدى تكرر ذلك.",
+    "lemon-juice-3": "أدرج تحليل بأثر رجعي لـ 562 حرقًا مرتبطًا بالشمس عولجت في مؤسسة برازيلية واحدة للحروق على مدى ثلاث سنوات عصير الليمون (17.7%) ضمن الأسباب الرئيسية، إلى جانب الشمس وحدها (36.7%) ولوشن تسمير يعتمد على «شاي» أوراق التين (17.7%)؛ ويناقش المؤلفون لوشنات التسمير النباتية المصنوعة منزليًا التي قد تسبب تفاعل التهاب جلدي ضوئي. وعادت معظم الحروق إلى مظهر الجلد الطبيعي (99.1%) وتركت 0.7% منها ندبة. تتعلق الدراسة بلوشنات التسمير لا بتفتيح البشرة، وهي من مركز واحد ولا تعطي معدل الحروق بين من استخدموا عصير الليمون.",
+    "lemon-juice-4": "وجد تقرير حالة لنادل (بارتندر) مصاب بالتهاب جلدي في اليدين حساسية تماسّية تحسسية تجاه قشر الليمون والليمون الأخضر والبرتقال وليس تجاه عصيرها؛ وكانت اختبارات اللصقة (patch tests) إيجابية للجيرانيول والسيترال وسلبية للدي-ليمونين (d-limonene). تتعلق هذه الحالة الواحدة بمكونات زيت القشر في بيئة مهنية ولا تبيّن ما إذا كان العصير الموضوع على جلد الوجه يسبب الحساسية.",
+    "lemon-juice-5": "تذكر مراجعة سردية حول مكونات العناية بالبشرة الأيورفيدية والطبيعية أن منتجات مثل عصير الليمون المركّز أو واقيات الشمس المصنوعة منزليًا تفتقر إلى التحقق العلمي وقد ارتبطت بمشكلات تجميلية وطبية متنوعة، وتنصح مقدمي الرعاية الصحية بتثقيف المرضى حول المخاطر المحتملة للاعتماد على المنتجات الطبيعية وحدها. وهي مراجعة سردية ولا تورد تجربة على عصير الليمون."
+   }
+  }
+ }
+}

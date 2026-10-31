@@ -1,0 +1,135 @@
+{
+ "inci": "Olea Europaea Fruit Oil",
+ "slug": "olive-oil",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Olive oil (INCI: Olea Europaea Fruit Oil; often written as \"Olive Oil\") is a plant oil rich in oleic acid that is applied to the skin for dryness, baby skin care, massage and oil-based cleansing. This card covers topical (on-skin) use only. The published clinical evidence is limited: the human studies found are small, short and mostly done on forearm skin or on neonates, and they report mixed effects on hydration alongside signs of reduced stratum corneum integrity or lipid structure. Reviews attribute possible barrier-weakening effects to oleic acid, so caution is discussed especially for infants and for atopic skin. No PubMed study specifically on olive oil used as a cleansing oil was identified. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "olive-oil-1",
+   "text_en": "In a within-person randomised clinical trial of 54 healthy adult volunteers, extra virgin olive oil applied to the forearm was associated with higher stratum corneum hydration and lower erythema and skin temperature; a reduction in transepidermal water loss was reported for petrolatum but not for olive oil, and petrolatum had the stronger occlusive effect. The study was in healthy adults only and tested extra virgin olive oil, so it does not cover infants or atopic skin.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40649050",
+     "doi": "10.3390/jcm14134675",
+     "title": "Effects of Extra Virgin Olive Oil and Petrolatum on Skin Barrier Function and Microtopography.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40649050/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "olive-oil-2",
+   "text_en": "In a small randomised forearm-controlled mechanistic study of 19 adults with and without a history of atopic dermatitis, about four weeks of twice-daily olive oil was associated with a significant reduction in stratum corneum integrity and mild erythema, whereas sunflower seed oil preserved integrity. The authors suggested that olive oil may damage the skin barrier and discouraged its use for dry skin and infant massage. The sample was very small, the sites were forearms of adults, and no clinical outcomes were measured.",
+   "evidence_level": "C",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "22995032",
+     "doi": "10.1111/j.1525-1470.2012.01865.x",
+     "title": "Effect of olive and sunflower seed oil on the adult skin barrier: implications for neonatal skin care.",
+     "year": 2012,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22995032/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "olive-oil-3",
+   "text_en": "In a pilot assessor-blinded randomised controlled trial of 115 healthy full-term neonates assigned to olive oil, sunflower oil or no oil twice daily for four weeks, both oil groups had improved skin hydration but significantly less improvement in lipid lamellae structure than the no-oil group; there were no significant differences in transepidermal water loss, pH or erythema and skin scores. The study was a feasibility pilot not powered for clinical significance, and the authors advised caution when recommending oils for neonatal skin.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "26551528",
+     "doi": "10.2340/00015555-2279",
+     "title": "Olive Oil, Sunflower Oil or no Oil for Baby Dry Skin or Massage: A Pilot, Assessor-blinded, Randomized Controlled Trial (the Oil in Baby SkincaRE [OBSeRvE] Study).",
+     "year": 2016,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26551528/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "olive-oil-4",
+   "text_en": "A narrative review of natural oils for skin-barrier repair, which included olive oil, reported that oils with a higher linoleic acid to oleic acid ratio have better barrier repair potential, whereas oils with higher amounts of oleic acid, described as irritating, may be detrimental to skin-barrier function. This is a narrative review, so it does not by itself show that olive oil affects any individual person's skin barrier.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "28707186",
+     "doi": "10.1007/s40257-017-0301-1",
+     "title": "Natural Oils for Skin-Barrier Repair: Ancient Compounds Now Backed by Modern Science.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28707186/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "olive-oil-5",
+   "text_en": "Guidelines for paediatric skin care prepared by an Indian Academy of Pediatrics committee, based on a review of existing guidelines and expert discussion, state that oil massage for newborns is beneficial and that sunflower, coconut or mineral oil are preferred over vegetable oils such as olive oil and mustard oil, which were reported to be detrimental to barrier function. This is expert-committee guidance rather than a new clinical study, and it is not individual advice.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "33632947",
+     "title": "Indian Academy of Pediatrics Guidelines for Pediatric Skin Care.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33632947/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Zaytun moyi (INCI: Olea Europaea Fruit Oil; ko'pincha \"Olive Oil\" deb yoziladi) oleik kislotaga boy o'simlik moyi bo'lib, quruq teri, chaqaloq terisi parvarishi, massaj va moy bilan tozalash uchun teriga surtiladi. Bu kartochka faqat surtiladigan (teriga) qo'llanishni qamrab oladi. Chop etilgan klinik dalillar cheklangan: topilgan odam tadqiqotlari kichik, qisqa muddatli va asosan bilak terisida yoki yangi tug'ilgan chaqaloqlarda o'tkazilgan; ular namlanish bo'yicha aralash natijalarni, shox qavat yaxlitligi yoki lipid tuzilishining pasayishi belgilari bilan birga qayd etgan. Sharhlarda to'siqni zaiflashtirishi mumkin bo'lgan ta'sirlar oleik kislotaga bog'lanadi, shu sababli ayniqsa chaqaloqlar va atopik teri uchun ehtiyot choralari muhokama qilinadi. Zaytun moyining aynan tozalovchi moy sifatida qo'llanishi bo'yicha PubMed'da alohida tadqiqot topilmadi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "olive-oil-1": "54 nafar sog'lom kattalar ishtirok etgan, har bir ishtirokchi o'ziga nazorat bo'lgan randomizatsiyalangan klinik tadqiqotda bilakka surtilgan extra virgin zaytun moyi shox qavat namligining yuqoriroq bo'lishi hamda qizarish va teri haroratining pastroq bo'lishi bilan bog'langan; transepidermal suv yo'qotilishining kamayishi vazelin uchun qayd etilgan, zaytun moyi uchun esa qayd etilmagan, vazelinning to'sib qo'yuvchi (okklyuziv) ta'siri kuchliroq bo'lgan. Tadqiqot faqat sog'lom kattalarda o'tkazilgan va extra virgin zaytun moyi sinalgan, shu sababli u chaqaloqlar yoki atopik terini qamrab olmaydi.",
+    "olive-oil-2": "Atopik dermatit tarixi bor va bo'lmagan 19 nafar kattalar ishtirok etgan kichik randomizatsiyalangan, bilakda nazoratli mexanistik tadqiqotda taxminan to'rt hafta davomida kuniga ikki marta surtilgan zaytun moyi shox qavat yaxlitligining sezilarli pasayishi va yengil qizarish bilan bog'langan, kungaboqar urug'i moyi esa yaxlitlikni saqlagan. Mualliflar zaytun moyi teri to'sig'iga zarar yetkazishi mumkinligini ta'kidlab, uni quruq teri va chaqaloq massaji uchun qo'llashni tavsiya etmagan. Tanlanma juda kichik bo'lgan, joylar kattalarning bilak terisi bo'lgan va klinik natijalar o'lchanmagan.",
+    "olive-oil-3": "Sog'lom, muddatida tug'ilgan 115 nafar yangi tug'ilgan chaqaloq to'rt hafta davomida kuniga ikki marta zaytun moyi, kungaboqar moyi yoki moysiz guruhlarga tasodifiy taqsimlangan pilot, baholovchi ko'r randomizatsiyalangan nazoratli tadqiqotda ikkala moy guruhida teri namligi yaxshilangan, lekin lipid plastinkalar tuzilishidagi yaxshilanish moysiz guruhga nisbatan sezilarli darajada kamroq bo'lgan; transepidermal suv yo'qotilishi, pH va qizarish hamda teri ballari bo'yicha sezilarli farq bo'lmagan. Tadqiqot klinik ahamiyatni baholashga mo'ljallanmagan texnik-imkoniyat pilot tadqiqoti bo'lgan va mualliflar yangi tug'ilgan chaqaloq terisi uchun moylarni tavsiya qilishda ehtiyot bo'lishni maslahat bergan.",
+    "olive-oil-4": "Teri to'sig'ini tiklash uchun tabiiy moylar bo'yicha hikoyaviy sharhda, unga zaytun moyi ham kiritilgan, linol kislotasining oleik kislotaga nisbati yuqori bo'lgan moylarning to'siqni tiklash imkoniyati yaxshiroq ekani, tirnash xususiyatiga ega deb ta'riflangan oleik kislota miqdori yuqori bo'lgan moylar esa teri to'sig'i funksiyasiga zarar yetkazishi mumkinligi qayd etilgan. Bu hikoyaviy sharh bo'lgani uchun u o'z-o'zidan zaytun moyi biror kishining teri to'siqiga ta'sir qilishini isbotlamaydi.",
+    "olive-oil-5": "Hindiston pediatriya akademiyasi qo'mitasi tayyorlagan bolalar teri parvarishi bo'yicha qo'llanmada, mavjud qo'llanmalar sharhi va ekspertlar muhokamasiga asoslanib, yangi tug'ilgan chaqaloqlar uchun moy massaji foydali ekani va kungaboqar, kokos yoki mineral moy zaytun va xardal moyi kabi o'simlik moylaridan afzal ko'rilishi aytilgan; bu o'simlik moylari to'siq funksiyasiga zarar yetkazishi haqida xabar berilgan. Bu yangi klinik tadqiqot emas, ekspert qo'mitasi ko'rsatmasi bo'lib, individual maslahat emas."
+   }
+  },
+  "ru": {
+   "summary": "Оливковое масло (INCI: Olea Europaea Fruit Oil; часто пишут \"Olive Oil\") — растительное масло, богатое олеиновой кислотой, которое наносят на кожу при сухости, для ухода за кожей младенцев, массажа и очищения маслом. Эта карточка охватывает только наружное применение (на кожу). Опубликованные клинические данные ограничены: найденные исследования на людях небольшие, непродолжительные и в основном проведены на коже предплечья или у новорождённых; они сообщают о неоднозначных эффектах в отношении увлажнения наряду с признаками снижения целостности рогового слоя или изменения структуры липидов. В обзорах возможное ослабление барьера связывают с олеиновой кислотой, поэтому обсуждается осторожность, особенно для младенцев и атопичной кожи. Отдельного исследования в PubMed об оливковом масле именно как очищающем масле найдено не было. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "olive-oil-1": "В рандомизированном клиническом исследовании с внутриличностным контролем с участием 54 здоровых взрослых нерафинированное оливковое масло (extra virgin), нанесённое на предплечье, было связано с более высокой гидратацией рогового слоя и меньшими эритемой и температурой кожи; снижение трансэпидермальной потери воды отмечено для вазелина, но не для оливкового масла, при этом окклюзионный эффект вазелина был сильнее. Исследование проводилось только на здоровых взрослых и тестировало оливковое масло extra virgin, поэтому оно не охватывает младенцев или атопичную кожу.",
+    "olive-oil-2": "В небольшом рандомизированном механистическом исследовании с контролем на предплечьях с участием 19 взрослых с атопическим дерматитом в анамнезе и без него примерно четыре недели нанесения оливкового масла дважды в день были связаны со значимым снижением целостности рогового слоя и лёгкой эритемой, тогда как подсолнечное масло сохраняло целостность. Авторы предположили, что оливковое масло может повреждать кожный барьер, и не рекомендовали его для сухой кожи и массажа младенцев. Выборка была очень малой, участки — предплечья взрослых, клинические исходы не измерялись.",
+    "olive-oil-3": "В пилотном рандомизированном контролируемом исследовании с ослеплением оценщика, в котором 115 здоровых доношенных новорождённых были распределены на оливковое масло, подсолнечное масло или отсутствие масла дважды в день в течение четырёх недель, в обеих группах с маслом улучшилась гидратация кожи, но улучшение структуры липидных ламелл было значимо меньшим, чем в группе без масла; значимых различий по трансэпидермальной потере воды, pH, эритеме и кожным баллам не было. Исследование было пилотным (оценка осуществимости) и не рассчитано на клиническую значимость, а авторы советовали осторожность при рекомендации масел для кожи новорождённых.",
+    "olive-oil-4": "В нарративном обзоре природных масел для восстановления кожного барьера, включавшем оливковое масло, сообщается, что масла с более высоким соотношением линолевой и олеиновой кислот обладают лучшим потенциалом восстановления барьера, тогда как масла с большим содержанием олеиновой кислоты, описанной как раздражающая, могут быть вредны для барьерной функции кожи. Это нарративный обзор, поэтому он сам по себе не доказывает, что оливковое масло влияет на кожный барьер конкретного человека.",
+    "olive-oil-5": "В руководстве по уходу за кожей детей, подготовленном комитетом Индийской академии педиатрии на основе обзора существующих руководств и экспертного обсуждения, указано, что массаж с маслом для новорождённых полезен, а подсолнечное, кокосовое или минеральное масло предпочтительнее растительных масел, таких как оливковое и горчичное, о которых сообщалось, что они вредны для барьерной функции. Это руководство экспертного комитета, а не новое клиническое исследование, и оно не является индивидуальной рекомендацией."
+   }
+  },
+  "ar": {
+   "summary": "زيت الزيتون (INCI: Olea Europaea Fruit Oil؛ يُكتب غالبًا \"Olive Oil\") زيت نباتي غني بحمض الأوليك يُوضع على الجلد لحالات الجفاف والعناية ببشرة الأطفال والتدليك والتنظيف بالزيت. تغطي هذه البطاقة الاستخدام الموضعي (على الجلد) فقط. الأدلة السريرية المنشورة محدودة: دراسات البشر التي وُجدت صغيرة وقصيرة المدة وأُجريت في الغالب على جلد الساعد أو على حديثي الولادة، وهي تُبلغ عن تأثيرات متباينة في الترطيب إلى جانب مؤشرات على انخفاض سلامة الطبقة المتقرنة أو تغيّر بنية الدهون. تنسب المراجعات التأثيرات المحتملة المضعفة للحاجز إلى حمض الأوليك، ولذلك يُناقَش الحذر خاصة للرضّع والبشرة التأتبية. لم تُحدَّد في PubMed دراسة خاصة بزيت الزيتون بوصفه زيتًا منظفًا. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "olive-oil-1": "في تجربة سريرية عشوائية تكون فيها المقارنة داخل الشخص نفسه شملت 54 متطوعًا بالغًا سليمًا، ارتبط زيت الزيتون البكر الممتاز (extra virgin) المطبّق على الساعد بارتفاع ترطيب الطبقة المتقرنة وانخفاض الاحمرار ودرجة حرارة الجلد؛ وأُبلغ عن انخفاض فقدان الماء عبر البشرة مع الفازلين لا مع زيت الزيتون، وكان التأثير الانسدادي للفازلين أقوى. أُجريت الدراسة على بالغين أصحاء فقط واختبرت زيت الزيتون البكر الممتاز، لذلك لا تشمل الرضّع أو البشرة التأتبية.",
+    "olive-oil-2": "في دراسة آلية عشوائية صغيرة مضبوطة على الساعدين شملت 19 بالغًا ممن لديهم تاريخ للتهاب الجلد التأتبي ومن ليس لديهم، ارتبط وضع زيت الزيتون مرتين يوميًا لنحو أربعة أسابيع بانخفاض ملحوظ في سلامة الطبقة المتقرنة واحمرار خفيف، بينما حافظ زيت بذور عباد الشمس على سلامتها. رأى المؤلفون أن زيت الزيتون قد يضر بحاجز الجلد، ولم يوصوا باستخدامه للجلد الجاف أو لتدليك الرضّع. كانت العينة صغيرة جدًا، وكانت المواضع هي سواعد البالغين، ولم تُقَس نتائج سريرية.",
+    "olive-oil-3": "في تجربة تجريبية عشوائية مضبوطة بتعمية المقيِّم شملت 115 من حديثي الولادة الأصحاء المولودين في موعدهم، وُزّعوا على زيت الزيتون أو زيت عباد الشمس أو عدم استخدام زيت مرتين يوميًا لمدة أربعة أسابيع، تحسّن ترطيب الجلد في مجموعتي الزيت، لكن التحسن في بنية الصفائح الدهنية كان أقل بدلالة إحصائية مقارنة بمجموعة عدم استخدام الزيت؛ ولم تكن هناك فروق ملحوظة في فقدان الماء عبر البشرة أو الأس الهيدروجيني أو درجات الاحمرار والجلد. كانت الدراسة تجريبية لتقييم الجدوى وغير مصممة لإثبات الدلالة السريرية، ونصح المؤلفون بالحذر عند التوصية بالزيوت لجلد حديثي الولادة.",
+    "olive-oil-4": "أفادت مراجعة سردية للزيوت الطبيعية لإصلاح الحاجز الجلدي، شملت زيت الزيتون، بأن الزيوت ذات النسبة الأعلى من حمض اللينوليك إلى حمض الأوليك لديها قدرة أفضل على إصلاح الحاجز، بينما قد تضر الزيوت الأعلى في حمض الأوليك، الموصوف بأنه مهيّج، بوظيفة الحاجز الجلدي. هذه مراجعة سردية، لذلك لا تُثبت وحدها أن زيت الزيتون يؤثر في الحاجز الجلدي لدى أي شخص بعينه.",
+    "olive-oil-5": "ذكرت إرشادات العناية بجلد الأطفال التي أعدّتها لجنة تابعة للأكاديمية الهندية لطب الأطفال، استنادًا إلى مراجعة الإرشادات القائمة ونقاش الخبراء، أن تدليك حديثي الولادة بالزيت مفيد، وأن زيت عباد الشمس أو جوز الهند أو الزيت المعدني مفضّل على الزيوت النباتية مثل زيت الزيتون وزيت الخردل، التي أُفيد بأنها ضارة بوظيفة الحاجز. هذه إرشادات صادرة عن لجنة خبراء وليست دراسة سريرية جديدة، وليست نصيحة فردية."
+   }
+  }
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "inci": "Gua sha",
+ "slug": "gua-sha",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not an ingredient; the EU Cosmetics Regulation (Regulation (EC) No 1223/2009) applies to ingredients, so no annex entry applies to this care method. Not verified against EUR-Lex or CosIng from this environment.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Gua sha is a traditional East Asian scraping technique in which a smooth-edged tool is pressed and stroked over the skin; in cosmetic care it is used as a facial massage tool, alongside similar tools such as facial rollers. It is a care method, not an ingredient. Research specific to cosmetic gua sha is very limited: the few small studies found measured facial contour, muscle tone and skin blood flow, and none was long-term. Most safety information comes from traditional or medical use and from case reports of bruising and skin injury; in traditional use, marks such as petechiae and ecchymosis (bruising) are often produced intentionally. The sources reviewed did not address specific precautions (for example bleeding disorders, anticoagulant use, active acne, rosacea, damaged skin); such questions are for a qualified clinician. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "gua-sha-1",
+   "text_en": "In an eight-week randomised comparison of 34 women aged 20 to 50 (17 per group) with no untreated or sham control, both facial gua sha and facial roller massage (10 minutes, five times per week) were associated with small reductions in measured facial surface distances (about 2.2 to 3.3 mm); gua sha was associated with changes in muscle tone measures and the roller with higher skin elasticity indices. The small sample, short duration and lack of an inactive control mean the effects cannot be attributed to the tools themselves.",
+   "evidence_level": "C",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40439289",
+     "doi": "10.1111/jocd.70236",
+     "title": "Comparative Effects of Facial Roller and Gua Sha Massage on Facial Contour, Muscle Tone, and Skin Elasticity: Randomized Controlled Trial.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40439289/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "gua-sha-2",
+   "text_en": "Two small studies measured skin blood flow: an uncontrolled pilot in 11 healthy volunteers found increased surface microcirculation on laser Doppler for 25 minutes after a single gua sha session on the back (no adverse reactions reported), and a study of 12 people (short-term) and 14 people (five-week daily use) found that a facial massage roller on the cheek was associated with higher cheek skin blood flow for at least 10 minutes and a larger vasodilatation response to heat. One studied the back and the other used a roller rather than gua sha; neither assessed lasting changes in skin appearance or swelling, so no appearance benefit can be inferred.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "17905355",
+     "doi": "10.1016/j.explore.2007.06.001",
+     "title": "The effect of Gua Sha treatment on the microcirculation of surface tissue: a pilot study in healthy subjects.",
+     "year": 2007,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17905355/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "30477852",
+     "doi": "10.1016/j.ctim.2018.09.009",
+     "title": "Short- and long-term effects of using a facial massage roller on facial skin blood flow and vascular reactivity.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30477852/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "gua-sha-3",
+   "text_en": "Reviews describe traditional gua sha as instrument-assisted friction that intentionally produces petechiae and ecchymosis (bruising). One review noted that blood can sometimes be drawn through the skin surface, creating a risk of instrument contamination and bloodborne pathogen exposure, stated that safety standards for gua sha were not sufficiently addressed in the literature or professional standards, and proposed hospital-based safety protocols for instruments. These reviews concern traditional and clinical practice; they did not assess gentle cosmetic facial use.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "22863649",
+     "doi": "10.1016/j.ctim.2012.05.004",
+     "title": "Safety protocols for gua sha (press-stroking) and baguan (cupping).",
+     "year": 2012,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22863649/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "42729907",
+     "doi": "10.7759/cureus.114412",
+     "title": "Mechanisms Underlying the Beneficial Effects of Scraping Therapy: A Review of Articles.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42729907/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "gua-sha-4",
+   "text_en": "Published case reports describe skin and other adverse findings after gua sha or related coin-rubbing therapy: two reports are titled or indexed as ecchymosis (and purpura) related to gua sha (abstracts not available in PubMed; this statement rests on titles and indexing only); a forensic report of Indonesian coin-rubbing therapy described abrasions, blisters and bruises on the forehead, nose, chin and neck that could raise suspicion of inflicted injury (the cause of death in that case was myocarditis); and a separate case report is titled as acute epiglottitis following gua sha, which indicates a temporal association only. Case reports cannot show how often such events occur.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "19998008",
+     "doi": "10.1007/s00508-009-1266-8",
+     "title": "An unusual pattern of Ecchymosis related to Gua Sha.",
+     "year": 2009,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19998008/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "23789609",
+     "doi": "10.1111/j.1365-4632.2011.05063.x",
+     "title": "Report of a case of Gua Sha and an awareness of folk remedies.",
+     "year": 2013,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23789609/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "32501165",
+     "doi": "10.1177/0025802420926867",
+     "title": "Potential forensic implications oftherapy - a traditional Indonesian therapy associated with neck bruising.",
+     "year": 2020,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32501165/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "24277709",
+     "doi": "10.1503/cmaj.130919",
+     "title": "Acute epiglottitis following traditional Chinese gua sha therapy.",
+     "year": 2013,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24277709/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "gua-sha-5",
+   "text_en": "Systematic reviews of gua sha in medical contexts, used here only for safety information and not as evidence of cosmetic benefit, report limited safety data: a meta-analysis of traditional Chinese medicine for neck and low back pain (75 randomised trials) found no serious or life-threatening adverse effects but could not draw definite conclusions about gua sha, and a 2026 meta-analysis of 16 randomised trials of gua sha for post-stroke spasticity rated the certainty of evidence as very low and called for standardised adverse event monitoring and further study of the complete safety profile.",
+   "evidence_level": "insufficient",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "25710765",
+     "doi": "10.1371/journal.pone.0117146",
+     "title": "Traditional Chinese medicine for neck pain and low back pain: a systematic review and meta-analysis.",
+     "year": 2015,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25710765/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "42858090",
+     "doi": "10.3791/71890",
+     "title": "Gua Sha (Scraping Therapy) for Spasticity After Stroke: Systematic Review and Meta-Analysis of RCTs with Integrated Preclinical Mechanistic Synthesis.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42858090/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Gua sha — Sharq an'anaviy tabobatida qo'llaniladigan skreblash usuli bo'lib, unda silliq qirrali asbob teri ustida bosim bilan suriladi; kosmetik parvarishda u yuz massaji asbobi sifatida, yuz roliklari kabi o'xshash asboblar qatorida ishlatiladi. Bu parvarish usuli, ingredient emas. Kosmetik gua sha bo'yicha tadqiqotlar juda kam: topilgan bir nechta kichik tadqiqotda yuz konturi, mushak tonusi va teri qon oqimi o'lchangan, ularning hech biri uzoq muddatli emas. Xavfsizlik ma'lumotlarining aksariyati an'anaviy yoki tibbiy qo'llanishdan hamda ko'karish va teri shikastlanishi haqidagi hodisa hisobotlaridan keladi; an'anaviy qo'llanishda petexiya va ekximoz (ko'karish) kabi izlar ko'pincha ataylab hosil qilinadi. Ko'rib chiqilgan manbalarda aniq ehtiyot jihatlari (masalan, qon ivishi buzilishlari, antikoagulyantlar qabul qilish, faol akne, rozatsea, shikastlangan teri) yoritilmagan; bunday savollar malakali shifokorga tegishli. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "gua-sha-1": "20 yoshdan 50 yoshgacha bo'lgan 34 nafar ayol (har guruhda 17 nafar) ishtirok etgan, davolanmagan yoki soxta nazorat guruhi bo'lmagan sakkiz haftalik randomizatsiyalangan solishtirishda yuz gua shasi ham, yuz roliker massaji ham (10 daqiqadan, haftasiga besh marta) yuz sirtidagi o'lchangan masofalarning kichik kamayishi (taxminan 2,2 dan 3,3 mm gacha) bilan bog'langan; gua sha mushak tonusi ko'rsatkichlarining o'zgarishi bilan, roliker esa teri elastikligi indekslarining yuqoriroq bo'lishi bilan bog'langan. Tanlama kichikligi, qisqa muddat va faol bo'lmagan nazoratning yo'qligi sababli natijalarni asboblarning o'ziga bog'lab bo'lmaydi.",
+    "gua-sha-2": "Ikkita kichik tadqiqotda teri qon oqimi o'lchangan: 11 nafar sog'lom ko'ngilli ishtirok etgan nazoratsiz pilot tadqiqotda orqaga bitta gua sha seansidan keyin 25 daqiqa davomida lazer Doppler bo'yicha sirt mikrosirkulyatsiyasining ortishi aniqlangan (nojo'ya reaksiyalar qayd etilmagan); 12 kishi (qisqa muddatli) va 14 kishi (besh haftalik kunlik foydalanish) ishtirok etgan tadqiqotda esa yonoqqa qo'llangan yuz massaj rolikeri kamida 10 daqiqa davomida yonoq teri qon oqimining yuqoriroq bo'lishi va issiqlikka vazodilatatsiya javobining kuchliroq bo'lishi bilan bog'langan. Birinchisi orqa sohani o'rgangan, ikkinchisida gua sha emas, roliker ishlatilgan; ikkalasi ham terining tashqi ko'rinishi yoki shishdagi uzoq muddatli o'zgarishlarni baholamagan, shu sababli ko'rinishga foyda borligini xulosa qilib bo'lmaydi.",
+    "gua-sha-3": "Sharhlarda an'anaviy gua sha asbob yordamida ishqalash sifatida ta'riflanadi, u ataylab petexiya va ekximoz (ko'karish) hosil qiladi. Bir sharhda qon ba'zan teri yuzasi orqali chiqishi mumkinligi, bu asboblarning ifloslanishi va qon orqali yuqadigan patogenlar ta'siri xavfini tug'dirishi qayd etilgan, gua sha xavfsizlik standartlari adabiyotda ham, kasbiy standartlarda ham yetarli yoritilmaganligi aytilgan va asboblar uchun kasalxona standartlariga asoslangan xavfsizlik protokollari taklif qilingan. Bu sharhlar an'anaviy va klinik amaliyotga tegishli; ular yengil kosmetik yuz qo'llanishini baholamagan.",
+    "gua-sha-4": "Chop etilgan hodisa hisobotlarida gua sha yoki unga yaqin tanga bilan ishqalash usulidan keyingi teri va boshqa nojo'ya holatlar tasvirlangan: ikkita hisobot gua shaga bog'liq ekximoz (va purpura) deb nomlangan yoki shunday indekslangan (annotatsiyalar PubMed'da mavjud emas; bu ibora faqat sarlavha va indekslashga tayanadi); Indoneziya tanga bilan ishqalash usuli haqidagi sud-tibbiy hisobotda peshona, burun, iyak va bo'yindagi shilinishlar, pufakchalar va ko'karishlar tasvirlangan, ular shikastlash haqida shubha tug'dirishi mumkin (o'sha holatda o'lim sababi miokardit bo'lgan); alohida hodisa hisoboti esa gua shadan keyingi o'tkir epiglottit deb nomlangan, bu faqat vaqt bo'yicha bog'liqlikni bildiradi. Hodisa hisobotlari bunday holatlar qanchalik tez-tez uchrashini ko'rsata olmaydi.",
+    "gua-sha-5": "Tibbiy kontekstdagi gua sha bo'yicha tizimli sharhlar (bu yerda faqat xavfsizlik ma'lumoti uchun ishlatilgan, kosmetik foyda dalili sifatida emas) xavfsizlik ma'lumotlari cheklanganligini ko'rsatadi: bo'yin va bel og'rig'i uchun an'anaviy Xitoy tibbiyoti bo'yicha meta-tahlil (75 ta randomizatsiyalangan tadqiqot) jiddiy yoki hayot uchun xavfli nojo'ya ta'sirlarni aniqlamagan, ammo gua sha haqida aniq xulosa chiqara olmagan; insultdan keyingi spastiklik uchun gua sha bo'yicha 2026-yilgi 16 ta randomizatsiyalangan tadqiqotning meta-tahlili esa dalillar ishonchliligini juda past deb baholagan va nojo'ya hodisalarni standartlashtirilgan kuzatish hamda to'liq xavfsizlik profilini qo'shimcha o'rganishga chaqirgan."
+   }
+  },
+  "ru": {
+   "summary": "Гуаша — традиционная восточная техника скрайбинга (соскабливания), при которой гладкий по краю инструмент с нажимом проводят по коже; в косметическом уходе её применяют как инструмент для массажа лица наряду с похожими инструментами, например роллерами для лица. Это метод ухода, а не ингредиент. Исследований косметической гуаша очень мало: в нескольких найденных небольших исследованиях измеряли контур лица, тонус мышц и кровоток кожи, и ни одно не было долгосрочным. Большая часть данных о безопасности получена из традиционного или медицинского применения и из описаний клинических случаев синяков и повреждений кожи; при традиционном применении следы, такие как петехии и экхимозы (синяки), часто вызываются намеренно. В рассмотренных источниках не освещены конкретные меры предосторожности (например, нарушения свёртывания крови, приём антикоагулянтов, активные акне, розацеа, повреждённая кожа); такие вопросы относятся к компетенции квалифицированного врача. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "gua-sha-1": "В восьминедельном рандомизированном сравнении 34 женщин в возрасте от 20 до 50 лет (по 17 в группе), без контрольной группы без вмешательства или с имитацией, и массаж лица гуаша, и массаж лицевым роллером (по 10 минут пять раз в неделю) были связаны с небольшим уменьшением измеренных поверхностных расстояний на лице (примерно от 2,2 до 3,3 мм); гуаша было связано с изменением показателей тонуса мышц, а роллер — с более высокими показателями эластичности кожи. Малая выборка, короткая продолжительность и отсутствие неактивного контроля не позволяют приписывать эффекты самим инструментам.",
+    "gua-sha-2": "В двух небольших исследованиях измеряли кровоток кожи: в неконтролируемом пилотном исследовании с 11 здоровыми добровольцами после одного сеанса гуаша на спине в течение 25 минут отмечено усиление поверхностной микроциркуляции по данным лазерной допплерографии (нежелательных реакций не отмечено); в исследовании с 12 участниками (краткосрочное) и 14 участниками (пять недель ежедневного использования) массажный роллер для лица на щеке был связан с более высоким кровотоком кожи щеки не менее 10 минут и с более выраженной сосудорасширяющей реакцией на тепло. Одно исследование касалось спины, а в другом использовался роллер, а не гуаша; ни в одном не оценивали устойчивые изменения внешнего вида кожи или отёчности, поэтому пользу для внешнего вида вывести нельзя.",
+    "gua-sha-3": "В обзорах традиционная гуаша описывается как трение с помощью инструмента, намеренно вызывающее петехии и экхимозы (синяки). В одном обзоре отмечено, что кровь иногда может выступать через поверхность кожи, что создаёт риск загрязнения инструментов и воздействия патогенов, передающихся через кровь; указано, что стандарты безопасности для гуаша недостаточно освещены ни в литературе, ни в профессиональных стандартах, и предложены протоколы безопасности для инструментов на основе больничных стандартов. Эти обзоры касаются традиционной и клинической практики; они не оценивали мягкое косметическое применение на лице.",
+    "gua-sha-4": "В опубликованных описаниях клинических случаев приводятся кожные и другие нежелательные явления после гуаша или родственной терапии натиранием монетой: два сообщения названы или проиндексированы как экхимозы (и пурпура), связанные с гуаша (аннотации в PubMed недоступны; это утверждение основано только на заголовках и индексации); в судебно-медицинском сообщении об индонезийской терапии натиранием монетой описаны ссадины, пузыри и синяки на лбу, носу, подбородке и шее, которые могут вызвать подозрение на причинение травмы (причиной смерти в том случае был миокардит); отдельное описание случая названо как острый эпиглоттит после гуаша, что указывает лишь на временную связь. Описания случаев не позволяют судить о частоте таких событий.",
+    "gua-sha-5": "Систематические обзоры гуаша в медицинском контексте, использованные здесь только для сведений о безопасности, а не как доказательство косметической пользы, сообщают об ограниченных данных по безопасности: метаанализ традиционной китайской медицины при боли в шее и пояснице (75 рандомизированных исследований) не выявил серьёзных или угрожающих жизни нежелательных эффектов, но не позволил сделать определённых выводов о гуаша; метаанализ 2026 года 16 рандомизированных исследований гуаша при спастичности после инсульта оценил достоверность доказательств как очень низкую и призвал к стандартизированному мониторингу нежелательных явлений и дальнейшему изучению полного профиля безопасности."
+   }
+  },
+  "ar": {
+   "summary": "الغواشا (Gua sha) أسلوب تقليدي شرق آسيوي يقوم على الكشط، يُمرَّر فيه أداة ذات حافة ملساء على الجلد مع ضغط؛ وفي العناية التجميلية تُستخدم كأداة لتدليك الوجه إلى جانب أدوات مشابهة مثل رولر الوجه. وهي طريقة عناية وليست مكوّنًا. الأبحاث الخاصة بالغواشا التجميلية قليلة جدًا: ففي عدد قليل من الدراسات الصغيرة التي وُجدت قيس محيط الوجه وتوتر العضلات وتدفق الدم في الجلد، ولم تكن أي منها طويلة الأمد. ويأتي معظم المعلومات عن السلامة من الاستخدام التقليدي أو الطبي ومن تقارير حالات عن كدمات وإصابات جلدية؛ وفي الاستخدام التقليدي تُحدَث علامات مثل النقطات النزفية (petechiae) والكدمات (ecchymosis) عادةً عن قصد. ولم تتناول المصادر التي روجعت احتياطات محددة (مثل اضطرابات تخثر الدم، وتناول مضادات التخثر، وحب الشباب النشط، والوردية، والجلد المتضرر)؛ وهذه الأسئلة من اختصاص طبيب مؤهل. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "gua-sha-1": "في مقارنة عشوائية استمرت ثمانية أسابيع شملت 34 امرأة تتراوح أعمارهن بين 20 و50 عامًا (17 في كل مجموعة) دون مجموعة ضابطة غير معالجة أو وهمية، ارتبط كل من غواشا الوجه وتدليك رولر الوجه (10 دقائق، خمس مرات أسبوعيًا) بانخفاضات صغيرة في المسافات السطحية المقيسة للوجه (نحو 2.2 إلى 3.3 ملم)؛ وارتبطت الغواشا بتغيرات في مقاييس توتر العضلات، وارتبط الرولر بارتفاع مؤشرات مرونة الجلد. ولأن العيّنة صغيرة والمدة قصيرة ولا توجد مجموعة ضابطة غير فعّالة، لا يمكن عزو النتائج إلى الأدوات نفسها.",
+    "gua-sha-2": "قاست دراستان صغيرتان تدفق الدم في الجلد: ففي دراسة تجريبية غير مضبوطة شملت 11 متطوعًا سليمًا، لوحظ ازدياد في الدورة الدموية الدقيقة السطحية بالدوبلر الليزري لمدة 25 دقيقة بعد جلسة غواشا واحدة على الظهر (ولم تُسجَّل تفاعلات ضائرة)؛ وفي دراسة شملت 12 شخصًا (قصيرة الأمد) و14 شخصًا (استخدام يومي لخمسة أسابيع)، ارتبط استخدام رولر تدليك الوجه على الخد بارتفاع تدفق الدم في جلد الخد لمدة 10 دقائق على الأقل وباستجابة أكبر لتوسّع الأوعية عند التعرض للحرارة. تناولت إحداهما الظهر واستخدمت الأخرى الرولر لا الغواشا؛ ولم تقيّم أي منهما تغيرات دائمة في مظهر الجلد أو التورّم، ولذلك لا يمكن استنتاج فائدة في المظهر.",
+    "gua-sha-3": "تصف المراجعات الغواشا التقليدية بأنها احتكاك بمساعدة أداة يُحدث عن قصد نقطات نزفية (petechiae) وكدمات (ecchymosis). وأشارت إحدى المراجعات إلى أن الدم قد يخرج أحيانًا عبر سطح الجلد، مما يخلق خطر تلوّث الأدوات والتعرض للعوامل الممرضة المنقولة بالدم، وذكرت أن معايير السلامة الخاصة بالغواشا لم تُعالَج بما يكفي في الأدبيات ولا في المعايير المهنية، واقترحت بروتوكولات سلامة للأدوات مستندة إلى معايير المستشفيات. وتتعلق هذه المراجعات بالممارسة التقليدية والسريرية؛ ولم تقيّم الاستخدام التجميلي اللطيف للوجه.",
+    "gua-sha-4": "تصف تقارير حالات منشورة موجودات جلدية وأخرى ضائرة بعد الغواشا أو العلاج المرتبط بها بفرك العملة المعدنية: تقريران عنوانهما أو فهرستهما يشير إلى كدمات (ecchymosis) وفرفرية مرتبطة بالغواشا (الملخصات غير متاحة في PubMed؛ وهذه العبارة تستند إلى العناوين والفهرسة فقط)؛ وتقرير للطب الشرعي عن علاج إندونيسي بفرك العملة المعدنية وصف سحجات وبثورًا وكدمات على الجبهة والأنف والذقن والعنق قد تثير الاشتباه في إصابة متعمدة (وكان سبب الوفاة في تلك الحالة التهاب عضلة القلب)؛ وتقرير حالة منفصل عنوانه التهاب لسان المزمار الحاد بعد الغواشا، وهو يدل على ارتباط زمني فقط. ولا تستطيع تقارير الحالات بيان مدى تكرار هذه الأحداث.",
+    "gua-sha-5": "تفيد مراجعات منهجية للغواشا في سياقات طبية، استُخدمت هنا للمعلومات عن السلامة فقط وليس كدليل على فائدة تجميلية، بأن بيانات السلامة محدودة: فقد وجد تحليل تلوي للطب الصيني التقليدي لألم الرقبة وأسفل الظهر (75 تجربة عشوائية) أنه لا توجد آثار ضائرة خطيرة أو مهددة للحياة، لكنه لم يتمكن من استخلاص نتائج قاطعة بشأن الغواشا؛ وقيّم تحليل تلوي لعام 2026 لـ16 تجربة عشوائية عن الغواشا لتشنج ما بعد السكتة الدماغية يقين الأدلة بأنه منخفض جدًا، ودعا إلى رصد موحّد للأحداث الضائرة ومزيد من دراسة ملف السلامة الكامل."
+   }
+  }
+ }
+}

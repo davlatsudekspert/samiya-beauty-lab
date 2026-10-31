@@ -21,14 +21,16 @@ class IngredientListPage extends StatefulWidget {
 
 class _IngredientListPageState extends State<IngredientListPage> {
   String _query = '';
-  late String _filter = const {'natural', 'active'}.contains(widget.initialFilter) ? widget.initialFilter! : 'all';
+  late String _filter = const {'natural', 'active', 'practice', 'caution'}.contains(widget.initialFilter) ? widget.initialFilter! : 'all';
 
   bool _matches(Ingredient i, String q) {
-    if (_filter == 'natural' && !i.isNatural) return false;
-    if (_filter == 'active' && i.isNatural) return false;
+    final cat = i.isNatural ? 'natural' : i.isPractice ? 'practice' : i.isCaution ? 'caution' : 'active';
+    if (_filter != 'all' && _filter != cat) return false;
     if (q.isEmpty) return true;
     final needle = q.trim().toLowerCase();
-    return i.inci.toLowerCase().contains(needle) || i.aliases.any((a) => a.toLowerCase().contains(needle));
+    return i.inci.toLowerCase().contains(needle) ||
+        i.aliases.any((a) => a.toLowerCase().contains(needle)) ||
+        i.names.values.any((n) => n.toLowerCase().contains(needle));
   }
 
   @override
@@ -62,7 +64,13 @@ class _IngredientListPageState extends State<IngredientListPage> {
                   ),
                   const SizedBox(height: 10),
                   Wrap(spacing: 8, runSpacing: 8, children: [
-                    for (final (id, label) in [('all', l.filterAll), ('active', l.filterActive), ('natural', l.filterNatural)])
+                    for (final (id, label) in [
+                      ('all', l.filterAll),
+                      ('active', l.filterActive),
+                      ('natural', l.filterNatural),
+                      ('practice', l.filterPractice),
+                      ('caution', l.filterCaution),
+                    ])
                       ChoiceChip(
                         key: Key('filter-$id'),
                         label: Text(label),
@@ -70,14 +78,17 @@ class _IngredientListPageState extends State<IngredientListPage> {
                         onSelected: (_) => setState(() => _filter = id),
                       ),
                   ]),
-                  if (_filter == 'natural') ...[
+                  if (const {'natural', 'practice', 'caution'}.contains(_filter)) ...[
                     const SizedBox(height: 10),
                     Container(
-                      key: const Key('natural-note'),
+                      key: Key('$_filter-note'),
                       width: double.infinity,
                       padding: const EdgeInsets.all(12),
                       decoration: BoxDecoration(color: SamiyaColors.blush, borderRadius: BorderRadius.circular(16)),
-                      child: Text(l.naturalNote, style: t.bodyMedium?.copyWith(fontSize: 13, fontWeight: FontWeight.w600)),
+                      child: Text(
+                        _filter == 'natural' ? l.naturalNote : _filter == 'practice' ? l.practiceNote : l.cautionNote,
+                        style: t.bodyMedium?.copyWith(fontSize: 13, fontWeight: FontWeight.w600),
+                      ),
                     ),
                   ],
                   const SizedBox(height: 14),
@@ -126,9 +137,11 @@ class _IngredientTile extends StatelessWidget {
               child: Row(children: [
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text(ing.inci,
-                        textDirection: TextDirection.ltr,
-                        style: t.titleMedium?.copyWith(fontFamily: 'Inter', fontSize: 17, fontWeight: FontWeight.w700, color: SamiyaColors.heading)),
+                    Text(ing.nameFor(lang),
+                        textDirection: ing.hasFriendlyName ? null : TextDirection.ltr,
+                        style: t.titleMedium?.copyWith(fontFamily: ing.hasFriendlyName ? null : 'Inter', fontSize: 17, fontWeight: FontWeight.w700, color: SamiyaColors.heading)),
+                    if (ing.hasFriendlyName && !ing.isPractice)
+                      Text(ing.inci, textDirection: TextDirection.ltr, style: t.bodyMedium?.copyWith(fontFamily: 'Inter', fontSize: 12, fontWeight: FontWeight.w600)),
                     const SizedBox(height: 4),
                     Text(ing.summaryFor(lang), maxLines: 2, overflow: TextOverflow.ellipsis, style: t.bodyMedium),
                   ]),

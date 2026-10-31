@@ -450,4 +450,21 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get naturalNote =>
       '“Natural” does not automatically mean “safe”: allergy and irritation are possible. Test a new product on a small area of skin first.';
+
+  @override
+  String get filterPractice => 'Care techniques';
+
+  @override
+  String get filterCaution => 'Home remedies: caution';
+
+  @override
+  String get practiceNote =>
+      'This is a care technique, not an ingredient: the evidence is often limited. If your skin is inflamed or damaged, talk to a professional first.';
+
+  @override
+  String get cautionNote =>
+      'Information about a common home remedy: for some, cases of skin harm have been recorded; for others, evidence of safety and benefit is insufficient. Read it before using.';
+
+  @override
+  String get practiceSectionTitle => 'Care techniques';
 }

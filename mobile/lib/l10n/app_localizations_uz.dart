@@ -452,4 +452,21 @@ class AppLocalizationsUz extends AppLocalizations {
   @override
   String get naturalNote =>
       '“Tabiiy” avtomatik “xavfsiz” degani emas: allergiya va ta‘sirlanish bo‘lishi mumkin. Yangi vositani avval terining kichik joyida sinab ko‘ring.';
+
+  @override
+  String get filterPractice => 'Parvarish usullari';
+
+  @override
+  String get filterCaution => 'Uy vositalari: ehtiyot';
+
+  @override
+  String get practiceNote =>
+      'Bu ingredient emas, parvarish usuli: dalillar ko‘pincha cheklangan. Terining holati yallig‘langan yoki shikastlangan bo‘lsa, avval mutaxassis bilan maslahatlashing.';
+
+  @override
+  String get cautionNote =>
+      'Keng tarqalgan uy vositasi haqida ma‘lumot: ba‘zilari uchun teriga zarar holatlari qayd etilgan, ba‘zilari uchun xavfsizlik va foyda dalili yetarli emas. Foydalanishdan oldin o‘qing.';
+
+  @override
+  String get practiceSectionTitle => 'Parvarish usullari';
 }

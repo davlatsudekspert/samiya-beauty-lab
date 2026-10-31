@@ -1,0 +1,135 @@
+{
+ "inci": "Chamomilla Recutita Flower Extract",
+ "slug": "chamomile",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Chamomilla Recutita (Matricaria) Flower Extract comes from German chamomile and is a botanical ingredient widely used in skin and personal care products. This card covers topical cosmetic use only; chamomile tea and other oral use are out of scope, and Roman chamomile (Anthemis nobilis) is a different species that is not covered. The PubMed search for this card found no human controlled trial of chamomile extract alone for soothing, after-sun or skin-quality outcomes, so the evidence included here is limited (observational, laboratory and animal) and mostly concerns contact allergy: people allergic to plants of the daisy family (Asteraceae/Compositae) have reacted to chamomile in patch tests. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "chamomile-1",
+   "text_en": "In patch testing of 190 patients with known contact allergy to Compositae (Asteraceae) plants, wild chamomile was among the plant extracts that most often gave positive reactions, after feverfew and tansy; the authors suggested that cross-reactions between chrysanthemum and feverfew, tansy and chamomile may partly explain these reactions. This was a clinic-based study of already allergic patients, so it does not show how often the general population reacts.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "11683829",
+     "doi": "10.1034/j.1600-0536.2001.450402.x",
+     "title": "Sensitization and cross-reaction patterns in Danish Compositae-allergic patients.",
+     "year": 2001,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11683829/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "chamomile-2",
+   "text_en": "A six-year patch-test experience with a Compositae mix (short ether extracts of arnica, German chamomile, feverfew, tansy and yarrow) reported positive reactions to the mix in 118 of 3,851 tested people (3.1%); retesting with the single extracts reported positive reactions to German chamomile extract in 56.5% (the abstract does not state the denominator). The tests used laboratory extracts, not finished cosmetic products, and the data are from 1985 to 1990.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "8796749",
+     "title": "A 6-year experience with compositae mix.",
+     "year": 1996,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8796749/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "chamomile-3",
+   "text_en": "In 36 patients with known or suspected Compositae contact allergy who were patch tested with herniarin (a coumarin found in German chamomile), one reacted positively and three doubtfully; all four had relevant contact allergy to German chamomile. The authors suggested that herniarin may be a non-sesquiterpene lactone sensitizer and that sensitization may occur through external use of chamomile tea or chamomile-containing topical herbal remedies, while describing German chamomile overall as a weak sensitizer. This was a small, selected case series.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "20557339",
+     "doi": "10.1111/j.1600-0536.2010.01730.x",
+     "title": "The coumarin herniarin as a sensitizer in German chamomile [Chamomilla recutita (L.) Rauschert, Compositae].",
+     "year": 2010,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/20557339/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "chamomile-4",
+   "text_en": "Laboratory work on German chamomile extracts (an in vitro keratinocyte assay, chemical reactivity tests and a mouse local lymph node assay) identified constituents, including the polyacetylene tonghaosu and a reactive lactone formed when it ages, with skin sensitization potential. These are laboratory and mouse findings and do not show how often people react to chamomile in cosmetic products.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "28109818",
+     "doi": "10.1016/j.taap.2017.01.009",
+     "title": "Identification of a compound isolated from German chamomile (Matricaria chamomilla) with dermal sensitization potential.",
+     "year": 2017,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28109818/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "chamomile-5",
+   "text_en": "In a laboratory and animal study, a carboxymethylcellulose nanogel containing Matricaria chamomilla essential oil showed antioxidant activity and collagenase and elastase inhibition in vitro, and in UVB-exposed rats was associated with fewer wrinkles, better preserved epidermal structure and less inflammation than controls. This is a preclinical study of an essential-oil nanogel in rats, not evidence from people and not evidence about typical cosmetic extracts.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "41276053",
+     "doi": "10.1016/j.ijbiomac.2025.149183",
+     "title": "Multifunctional carboxymethylcellulose-based nanogel containing Matricaria chamomilla essential oil: A practical approach to combating skin aging in rats.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41276053/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Chamomilla Recutita (Matricaria) Flower Extract nemis romashkasidan olinadi va teri hamda shaxsiy parvarish vositalarida keng qo'llaniladigan o'simlik ingredientidir. Bu kartochka faqat surtiladigan kosmetik qo'llanishni qamrab oladi; romashka choyi va boshqa og'iz orqali qo'llanish qamrovdan tashqarida, Rim romashkasi (Anthemis nobilis) esa boshqa tur bo'lib, bu yerda ko'rib chiqilmaydi. Ushbu kartochka uchun PubMed'da o'tkazilgan qidiruvda romashka ekstraktining o'zi tinchlantirish, quyoshdan keyingi parvarish yoki teri sifati bo'yicha odamlarda nazoratli tadqiqot topilmadi, shu sababli bu yerga kiritilgan dalillar cheklangan (kuzatuv, laboratoriya va hayvonlardagi tadqiqotlar) va asosan kontakt allergiyaga oid: astradoshlar (Asteraceae/Compositae) oilasi o'simliklariga allergiyasi bor odamlar patch-testlarda romashkaga reaksiya bergan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "chamomile-1": "Compositae (Asteraceae) o'simliklariga kontakt allergiyasi ma'lum bo'lgan 190 nafar bemorda o'tkazilgan patch-testda yovvoyi romashka eng ko'p musbat reaksiya bergan o'simlik ekstraktlari qatorida bo'lgan, undan oldin faqat feverfew va tansy turgan; mualliflar xrizantema bilan feverfew, tansy va romashka o'rtasidagi o'zaro reaksiyalar bu natijalarni qisman tushuntirishi mumkin, deb taxmin qilgan. Bu allaqachon allergik bo'lgan bemorlarda klinikada o'tkazilgan tadqiqot, shu sababli umumiy aholining qanchasi reaksiya berishini ko'rsatmaydi.",
+    "chamomile-2": "Compositae aralashmasi (arnika, nemis romashkasi, feverfew, tansy va yarrow'ning qisqa efirli ekstraktlari) bilan olti yillik patch-test tajribasida tekshirilgan 3 851 kishidan 118 nafarida (3,1%) aralashmaga musbat reaksiya qayd etilgan; alohida ekstraktlar bilan qayta tekshiruvda nemis romashkasi ekstraktiga musbat reaksiyalar 56,5% da qayd etilgan (annotatsiyada maxraj ko'rsatilmagan). Sinovlarda tayyor kosmetik vositalar emas, laboratoriya ekstraktlari ishlatilgan, ma'lumotlar 1985–1990 yillarga tegishli.",
+    "chamomile-3": "Compositae'ga kontakt allergiyasi ma'lum yoki gumon qilingan 36 nafar bemorda gerniarin (nemis romashkasida uchraydigan kumarin) bilan patch-test o'tkazilganda bittasi musbat, uchtasi shubhali reaksiya bergan; to'rttalasida ham nemis romashkasiga tegishli kontakt allergiya bo'lgan. Mualliflar gerniarin seskviterpen laktonlarga kirmaydigan sensibilizator bo'lishi mumkin va sensibilizatsiya romashka choyini tashqaridan qo'llash yoki romashka tarkibli surtiladigan o'simlik vositalari orqali yuz berishi mumkin, deb taxmin qilgan, nemis romashkasini esa umuman kuchsiz sensibilizator deb ta'riflagan. Bu kichik, saralangan holatlar qatori edi.",
+    "chamomile-4": "Nemis romashkasi ekstraktlari bilan o'tkazilgan laboratoriya ishida (in vitro keratinotsit sinovi, kimyoviy reaktivlik sinovlari va sichqonlarda mahalliy limfa tugunlari sinovi) teri sensibilizatsiyasi potensialiga ega tarkibiy qismlar, jumladan poliatsetilen tonghaosu va u eskirganda hosil bo'ladigan reaktiv lakton aniqlangan. Bu laboratoriya va sichqonlardagi natijalar bo'lib, odamlarning kosmetik vositalardagi romashkaga qanchalik tez-tez reaksiya berishini ko'rsatmaydi.",
+    "chamomile-5": "Laboratoriya va hayvonlarda o'tkazilgan tadqiqotda Matricaria chamomilla efir moyi bor karboksimetilsellyuloza nanogeli in vitro antioksidant faollik hamda kollagenaza va elastazani ingibirlashni ko'rsatgan, UVB ta'sirida bo'lgan kalamushlarda esa nazoratga nisbatan ajinlarning kamroq bo'lishi, epidermis tuzilishining yaxshiroq saqlanishi va yallig'lanishning kamroq bo'lishi bilan bog'langan. Bu kalamushlarda o'tkazilgan efir moyi nanogeli bo'yicha klinikaga qadar tadqiqot bo'lib, odamlardagi dalil emas va oddiy kosmetik ekstraktlar haqida dalil ham emas."
+   }
+  },
+  "ru": {
+   "summary": "Chamomilla Recutita (Matricaria) Flower Extract получают из ромашки аптечной (немецкой); это растительный ингредиент, широко используемый в средствах по уходу за кожей и личной гигиены. Эта карточка охватывает только наружное косметическое применение; ромашковый чай и другое пероральное применение не рассматриваются, а ромашка римская (Anthemis nobilis) — другой вид и здесь не охвачена. Поиск в PubMed для этой карточки не выявил контролируемых исследований на людях с одним лишь экстрактом ромашки по успокаивающему эффекту, уходу после солнца или качеству кожи, поэтому включённые данные ограничены (наблюдательные, лабораторные и на животных) и в основном касаются контактной аллергии: люди с аллергией на растения семейства астровых (Asteraceae/Compositae) давали реакции на ромашку при патч-тестах. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "chamomile-1": "При патч-тестировании 190 пациентов с известной контактной аллергией на растения семейства сложноцветных (Compositae/Asteraceae) ромашка дикая входила в число экстрактов, чаще всего дававших положительные реакции, после пиретрума девичьего (feverfew) и пижмы; авторы предположили, что перекрёстные реакции между хризантемой и пиретрумом, пижмой и ромашкой могут частично объяснять эти результаты. Это клиническое исследование пациентов, уже имевших аллергию, поэтому оно не показывает, как часто реагирует население в целом.",
+    "chamomile-2": "В шестилетнем опыте патч-тестирования со смесью сложноцветных (краткие эфирные экстракты арники, ромашки аптечной, пиретрума, пижмы и тысячелистника) положительные реакции на смесь отмечены у 118 из 3 851 обследованного (3,1%); при повторном тестировании отдельными экстрактами положительные реакции на экстракт ромашки аптечной отмечены в 56,5% (в аннотации знаменатель не указан). Использовались лабораторные экстракты, а не готовые косметические средства, данные относятся к 1985–1990 годам.",
+    "chamomile-3": "У 36 пациентов с известной или предполагаемой контактной аллергией на сложноцветные, которым провели патч-тест с герниарином (кумарином, содержащимся в ромашке аптечной), один дал положительную и трое сомнительную реакцию; у всех четверых была значимая контактная аллергия на ромашку аптечную. Авторы предположили, что герниарин может быть сенсибилизатором, не относящимся к сесквитерпеновым лактонам, и что сенсибилизация может происходить при наружном применении ромашкового чая или местных растительных средств с ромашкой, при этом в целом описав ромашку аптечную как слабый сенсибилизатор. Это была небольшая отобранная серия случаев.",
+    "chamomile-4": "В лабораторной работе с экстрактами ромашки аптечной (клеточный тест на кератиноцитах in vitro, тесты химической реактивности и тест локальных лимфатических узлов у мышей) выявлены компоненты, включая полиацетилен тонгхаосу и образующийся при его старении реакционноспособный лактон, обладающие потенциалом сенсибилизации кожи. Это лабораторные данные и данные на мышах; они не показывают, как часто люди реагируют на ромашку в косметических средствах.",
+    "chamomile-5": "В лабораторном исследовании и исследовании на животных наногель на основе карбоксиметилцеллюлозы с эфирным маслом Matricaria chamomilla показал антиоксидантную активность и ингибирование коллагеназы и эластазы in vitro, а у крыс, подвергнутых УФ-В облучению, был связан с меньшим числом морщин, лучшей сохранностью структуры эпидермиса и меньшим воспалением по сравнению с контролем. Это доклиническое исследование наногеля с эфирным маслом на крысах, а не данные на людях и не данные о типичных косметических экстрактах."
+   }
+  },
+  "ar": {
+   "summary": "يُستخلص Chamomilla Recutita (Matricaria) Flower Extract من البابونج الألماني، وهو مكوّن نباتي يُستخدم على نطاق واسع في منتجات العناية بالبشرة والعناية الشخصية. تقتصر هذه البطاقة على الاستخدام التجميلي الموضعي فقط؛ أما شاي البابونج وسائر الاستخدامات الفموية فهي خارج النطاق، والبابونج الروماني (Anthemis nobilis) نوع مختلف لا تشمله هذه البطاقة. لم يجد البحث في PubMed لهذه البطاقة تجربة مضبوطة على البشر لمستخلص البابونج وحده بخصوص التهدئة أو العناية بعد التعرض للشمس أو جودة البشرة، ولذلك فإن الأدلة المدرجة هنا محدودة (رصدية ومخبرية وعلى الحيوانات) وتتعلق في معظمها بالحساسية التماسية: فقد تفاعل مع البابونج في اختبارات اللصاقة أشخاصٌ لديهم حساسية تجاه نباتات الفصيلة النجمية (Asteraceae/Compositae). تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "chamomile-1": "في اختبار اللصاقة الذي شمل 190 مريضًا لديهم حساسية تماسية معروفة تجاه نباتات الفصيلة المركّبة (Compositae/Asteraceae)، كان البابونج البرّي من بين المستخلصات النباتية الأكثر إعطاءً لتفاعلات إيجابية، بعد الفيفرفيو (feverfew) والتانسي (tansy)؛ واقترح المؤلفون أن التفاعلات المتصالبة بين الأقحوان (chrysanthemum) والفيفرفيو والتانسي والبابونج قد تفسّر هذه النتائج جزئيًا. كانت هذه دراسة سريرية على مرضى مصابين بالحساسية أصلًا، لذلك لا تبيّن مدى تكرار التفاعل لدى عامة السكان.",
+    "chamomile-2": "أفادت تجربة لاختبار اللصاقة استمرت ست سنوات باستخدام خليط المركّبات (مستخلصات إيثرية قصيرة من الأرنيكا والبابونج الألماني والفيفرفيو والتانسي والياروّ) بتفاعلات إيجابية للخليط لدى 118 من 3,851 شخصًا خضعوا للاختبار (3.1%)؛ وعند إعادة الاختبار بالمستخلصات المنفردة أُبلغ عن تفاعلات إيجابية لمستخلص البابونج الألماني بنسبة 56.5% (لا يذكر الملخص المقام). استُخدمت مستخلصات مخبرية وليست منتجات تجميلية جاهزة، وتعود البيانات إلى الفترة 1985–1990.",
+    "chamomile-3": "لدى 36 مريضًا لديهم حساسية تماسية معروفة أو مشتبه بها تجاه الفصيلة المركّبة أُجري لهم اختبار لصاقة بالهرنيارين (herniarin، وهو كومارين موجود في البابونج الألماني)، تفاعل واحد منهم إيجابيًا وثلاثة بشكل مشكوك فيه؛ وكان لدى الأربعة جميعًا حساسية تماسية ذات صلة بالبابونج الألماني. اقترح المؤلفون أن الهرنيارين قد يكون مُحسِّسًا من غير اللاكتونات السيسكوتربينية وأن التحسّس قد يحدث عبر الاستخدام الخارجي لشاي البابونج أو المستحضرات العشبية الموضعية المحتوية على البابونج، مع وصفهم البابونج الألماني عمومًا بأنه مُحسِّس ضعيف. كانت هذه سلسلة حالات صغيرة منتقاة.",
+    "chamomile-4": "حدّد عمل مخبري على مستخلصات البابونج الألماني (اختبار خلايا كيراتينية في المختبر، واختبارات تفاعلية كيميائية، واختبار العقد الليمفاوية الموضعية في الفئران) مكوّنات، منها البولي أسيتيلين تونغهاوسو (tonghaosu) ولاكتون تفاعلي يتكوّن عند تقادمه، لها قابلية لتحسيس الجلد. هذه نتائج مخبرية وعلى الفئران ولا تبيّن مدى تكرار تفاعل الأشخاص مع البابونج في المنتجات التجميلية.",
+    "chamomile-5": "في دراسة مخبرية وعلى الحيوانات، أظهر هلام نانوي قائم على كربوكسي ميثيل السليلوز يحتوي على الزيت العطري لـ Matricaria chamomilla نشاطًا مضادًا للأكسدة وتثبيطًا لإنزيمي الكولاجيناز والإيلاستاز في المختبر، وارتبط لدى الجرذان المعرّضة للأشعة فوق البنفسجية (UVB) بتجاعيد أقل وحفظ أفضل لبنية البشرة والتهاب أقل مقارنة بالمجموعة الضابطة. هذه دراسة ما قبل سريرية على هلام نانوي لزيت عطري في الجرذان، وليست دليلًا على البشر ولا على المستخلصات التجميلية المعتادة."
+   }
+  }
+ }
+}

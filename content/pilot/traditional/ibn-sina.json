@@ -1,0 +1,143 @@
+{
+ "slug": "ibn-sina",
+ "title": {
+  "en": "Ibn Sina (Avicenna) and the Canon of Medicine",
+  "uz": "Ibn Sino va ‘Tib qonunlari’",
+  "ru": "Ибн Сина (Авиценна) и «Канон врачебной науки»",
+  "ar": "ابن سينا و«القانون في الطب»"
+ },
+ "items": [
+  {
+   "id": "ibn-sina-1",
+   "text_en": "Historical reviews report that Ibn Sina (Latinised as Avicenna) was born around 980 and died in 1037 in Hamadan. Sources differ on the exact birthplace: one gives Afshona near Bukhara, another gives Bukhara (Khorasan), and an older source names a village near Bukhara, so the place is given here only as approximately 'in the Bukhara area'. This is background history, not a statement about any skin-care effect.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "35212203",
+     "title": "[AVICENNA’S MUSEUM IN HIS NATIVE AFSHONA].",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35212203/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "22737575",
+     "title": "Old Remedies for Epilepsy: Avicenna's Medicine.",
+     "year": 2012,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22737575/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "11609026",
+     "title": "Avicenna's contribution to the development and progress of medical sciences.",
+     "year": 1994,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11609026/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "ibn-sina-2",
+   "text_en": "Persian-medicine and medical-history reviews describe the Canon of Medicine (al-Qanun fi at-Tibb) as a work in five books that summarised the medical knowledge available up to its time. They report that it was taught in Europe for several years and remained a reference work until at least the sixteenth century. This describes the book's historical standing only; it does not show that its contents are accurate or safe.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "35354190",
+     "title": "Ibn Sina (Avicenna) as a Psychiatrist: A View from Today's Perspective.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35354190/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "31392638",
+     "doi": "10.1007/s10072-019-04019-7",
+     "title": "Uterine epilepsy: a historical report from Avicenna's point of view.",
+     "year": 2019,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31392638/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "30554261",
+     "doi": "10.1007/s00264-018-4278-z",
+     "title": "Spine deformities and trauma in Avicenna's Canon of Medicine.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30554261/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "ibn-sina-3",
+   "text_en": "A historical review reports that the Canon describes several types of massage, called 'friction': for example hard friction said to brace the body, soft friction said to relax it, repeated friction said to reduce body fat, and preparatory and restorative friction before and after exercise. This is a historical description of a traditional practice; it is not shown here to work or to be safe, and the review does not cover facial or cosmetic use.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "31315411",
+     "doi": "10.31952/amha.17.1.6",
+     "title": "The Massage Approach of Avicenna in the Canon of Medicine.",
+     "year": 2019,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31315411/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "ibn-sina-4",
+   "text_en": "A historical article reports that Avicenna discussed skin diseases in a chapter of the Canon. For blistering conditions that he called 'hot swellings', he named dietary triggers such as onion, garlic, leek, pepper and wine. The authors read this within traditional Persian medicine principles; it is a historical account, not a modern medical or cosmetic recommendation.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "27871350",
+     "title": "Early Description of Diet-Induced Blistering Skin Diseases in Medieval Persia: Avicenna's Point of View.",
+     "year": 2016,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27871350/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "ibn-sina-5",
+   "text_en": "Reviews of traditional Persian texts report plant remedies for cosmetic skin concerns. A 2016 review of seven Iranian traditional medicine texts, including the Canon, listed plants most often named for freckles (called 'namash'), among them nutmeg, chickpea, rocket, madonna lily and almond. Another review reports that Avicenna and Razi wrote about chickpea for skin problems. These are traditional uses only; the reviews call the plants candidates for future study and do not show that they work or are safe on skin.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "27840488",
+     "title": "Anti-Freckles Herbal Treatment in Iranian Traditional Medicine.",
+     "year": 2016,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27840488/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "28875853",
+     "doi": "10.2174/1570163814666170829142752",
+     "title": "Effectiveness of Cicer arietinum in Cutaneous Problems: Viewpoint of Avicenna and Razi.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28875853/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "ibn-sina-1": "Tarixiy sharhlarda yozilishicha, Ibn Sino (lotincha Avitsenna) taxminan 980-yilda tug'ilgan va 1037-yilda Hamadonda vafot etgan. Tug'ilgan joyi bo'yicha manbalar bir-biriga mos kelmaydi: biri Buxoro yaqinidagi Afshonani, biri Buxoroni (Xuroson), eskiroq manba esa Buxoro yaqinidagi qishloqni ko'rsatadi, shuning uchun bu yerda joy faqat taxminan «Buxoro atrofi» deb berilgan. Bu tarixiy ma'lumot, teri parvarishiga oid biror ta'sir haqidagi bayonot emas.",
+   "ibn-sina-2": "Fors tibbiyoti va tibbiyot tarixi sharhlarida «Tib qonunlari» (al-Qonun fi at-Tibb) besh kitobdan iborat, o'z davrigacha ma'lum bo'lgan tibbiy bilimlarni jamlagan asar sifatida tasvirlanadi. Sharhlarda yozilishicha, u Yevropada bir necha asr o'qitilgan va kamida XVI asrgacha ma'lumotnoma bo'lib qolgan. Bu faqat kitobning tarixiy o'rnini bildiradi; uning mazmuni to'g'ri yoki xavfsiz ekanini isbotlamaydi.",
+   "ibn-sina-3": "Tarixiy sharhda yozilishicha, «Tib qonunlari»da massajning «ishqalash» deb ataluvchi bir necha turi tasvirlangan: masalan, tanani mustahkamlaydi deyilgan qattiq ishqalash, tanani bo'shashtiradi deyilgan yumshoq ishqalash, tana yog'ini kamaytiradi deyilgan takroriy ishqalash hamda mashqdan oldingi va keyingi tayyorlov va tiklovchi ishqalash. Bu an'anaviy amaliyotning tarixiy tavsifi; bu yerda uning ishlashi yoki xavfsizligi ko'rsatilmaydi, sharh esa yuz yoki kosmetik massajni ko'rib chiqmaydi.",
+   "ibn-sina-4": "Tarixiy maqolada yozilishicha, Ibn Sino «Tib qonunlari»ning bir bobida teri kasalliklarini bayon qilgan. «Issiq shishlar» deb atagan pufakchali holatlar uchun u piyoz, sarimsoq, porey piyozi, qalampir va sharob kabi ovqatlanish omillarini keltirgan. Mualliflar buni fors an'anaviy tibbiyoti tamoyillari doirasida izohlaydi; bu tarixiy bayon, zamonaviy tibbiy yoki kosmetik tavsiya emas.",
+   "ibn-sina-5": "An'anaviy fors matnlari sharhlarida kosmetik teri muammolari uchun o'simlik vositalari keltirilgani aytiladi. «Tib qonunlari»ni ham o'z ichiga olgan yetti ta eron an'anaviy tibbiyot matnining 2016-yilgi sharhida sepkil («namash») uchun eng ko'p tilga olingan o'simliklar sanalgan, jumladan muskat yong'og'i, no'xat, ruqola, oq lola (Lilium candidum) va bodom. Yana bir sharhda Avitsenna va Roziy no'xatning teri muammolariga oid fikr bildirgani aytiladi. Bu faqat an'anaviy qo'llanish; sharhlar bu o'simliklarni kelgusi tadqiqotlar uchun nomzod deb ataydi va ularning teriga ta'sir qilishi yoki xavfsizligini isbotlamaydi."
+  },
+  "ru": {
+   "ibn-sina-1": "В исторических обзорах сообщается, что Ибн Сина (в латинской форме Авиценна) родился около 980 года и умер в 1037 году в Хамадане. Сведения о месте рождения расходятся: в одном источнике указана Афшона близ Бухары, в другом Бухара (Хорасан), а в более старом источнике названо селение близ Бухары, поэтому здесь место указано лишь приблизительно, как «окрестности Бухары». Это историческая справка, а не утверждение о каком-либо действии на кожу.",
+   "ibn-sina-2": "В обзорах по персидской медицине и истории медицины «Канон врачебной науки» (аль-Канун фи ат-тибб) описывается как труд в пяти книгах, обобщивший медицинские знания, известные к его времени. Сообщается, что его преподавали в Европе в течение нескольких веков и что он оставался справочным трудом как минимум до XVI века. Это говорит лишь об историческом положении книги и не доказывает, что её содержание верно или безопасно.",
+   "ibn-sina-3": "В историческом обзоре сообщается, что в «Каноне» описано несколько видов массажа, называемых «растиранием»: например, жёсткое растирание, которое, как сказано, укрепляет тело, мягкое, расслабляющее его, повторное, уменьшающее жировую массу, а также подготовительное и восстановительное растирание до и после упражнений. Это историческое описание традиционной практики; здесь не показано, что она действует или безопасна, а обзор не рассматривает массаж лица и косметическое применение.",
+   "ibn-sina-4": "В исторической статье сообщается, что Авиценна рассматривал кожные болезни в одной из глав «Канона». Для пузырных состояний, которые он называл «горячими опухолями», он указывал пищевые провоцирующие факторы, такие как лук, чеснок, лук-порей, перец и вино. Авторы толкуют это в рамках принципов традиционной персидской медицины; это исторический рассказ, а не современная медицинская или косметическая рекомендация.",
+   "ibn-sina-5": "В обзорах традиционных персидских текстов сообщается о растительных средствах при косметических проблемах кожи. В обзоре 2016 года семи текстов иранской традиционной медицины, включая «Канон», перечислены растения, чаще всего упоминаемые при веснушках («намаш»), среди них мускатный орех, нут, рукола, лилия белая и миндаль. В другом обзоре сообщается, что Авиценна и Рази писали о нуте при кожных проблемах. Это лишь традиционное применение; авторы называют эти растения кандидатами для будущих исследований и не доказывают, что они действуют или безопасны для кожи."
+  },
+  "ar": {
+   "ibn-sina-1": "تذكر المراجعات التاريخية أن ابن سينا (ويُعرف باللاتينية باسم أفيسينا) وُلد نحو عام 980 وتوفي عام 1037 في همذان. وتختلف المصادر في تحديد مكان ولادته: فأحدها يذكر أفشنة قرب بخارى، وآخر يذكر بخارى (خراسان)، ويسمّي مصدر أقدم قرية قرب بخارى، ولذلك يُذكر المكان هنا على وجه التقريب فقط بوصفه «منطقة بخارى». هذه معلومة تاريخية وليست قولًا عن أي تأثير في العناية بالبشرة.",
+   "ibn-sina-2": "تصف مراجعات الطب الفارسي وتاريخ الطب كتاب «القانون في الطب» بأنه عمل من خمسة كتب لخّص المعارف الطبية المعروفة حتى زمنه. وتذكر أنه دُرّس في أوروبا عدة قرون وظل مرجعًا حتى القرن السادس عشر على الأقل. وهذا يصف مكانة الكتاب التاريخية فقط، ولا يثبت أن محتواه صحيح أو آمن.",
+   "ibn-sina-3": "تذكر مراجعة تاريخية أن «القانون» يصف عدة أنواع من التدليك تُسمّى «الدلك»، منها الدلك الصلب الذي قيل إنه يشدّ البدن، والدلك اللين الذي قيل إنه يُرخيه، والدلك المتكرر الذي قيل إنه يقلل شحم البدن، إضافةً إلى الدلك التحضيري والدلك الاستشفائي قبل الرياضة وبعدها. هذا وصف تاريخي لممارسة تقليدية؛ ولا يُبيَّن هنا أنها فعّالة أو آمنة، كما أن المراجعة لا تتناول تدليك الوجه ولا الاستخدام التجميلي.",
+   "ibn-sina-4": "تذكر مقالة تاريخية أن ابن سينا تناول الأمراض الجلدية في أحد فصول «القانون». وفي الحالات المتقرحة بالفقاعات التي سمّاها «الأورام الحارة» ذكر عوامل غذائية مثل البصل والثوم والكرّاث والفلفل والنبيذ. ويفسّر المؤلفون ذلك ضمن مبادئ الطب الفارسي التقليدي؛ وهو عرض تاريخي وليس توصية طبية أو تجميلية حديثة.",
+   "ibn-sina-5": "تذكر مراجعات للنصوص الفارسية التقليدية وصفات نباتية لمشكلات جلدية تجميلية. فقد أحصت مراجعة عام 2016 لسبعة نصوص من الطب الإيراني التقليدي، منها «القانون»، النباتات الأكثر ذكرًا للنمش (ويسمّى «نمش»)، ومنها جوزة الطيب والحمّص والجرجير وزنبق المادونا واللوز. وتذكر مراجعة أخرى أن ابن سينا والرازي كتبا عن الحمّص لمشكلات الجلد. هذه استخدامات تقليدية فقط؛ وتصف المراجعات هذه النباتات بأنها مرشحة لدراسات مستقبلية، ولا تثبت أنها فعّالة أو آمنة على البشرة."
+  }
+ }
+}

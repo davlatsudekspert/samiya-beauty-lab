@@ -1,0 +1,158 @@
+{
+ "inci": "Curcuma Longa Root Extract",
+ "slug": "turmeric",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Turmeric root extract (Curcuma longa; its main coloured constituent is curcumin) appears in some topical cosmetic and skin-care products such as face masks. The PubMed evidence selected for this card is limited: mostly cell-culture work, narrative reviews and case reports, with no randomised trial of a topical turmeric-only cosmetic included, so conclusions about visible pigmentation changes or acne in human skin cannot be drawn from these sources. Reported cautions include its yellow-orange colour, contact allergy, possible light-related reactions, and the instability and poor solubility of curcumin. Oral use is outside the scope of this card. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "turmeric-1",
+   "text_en": "In an in vitro study on cultured human melanocytes, curcumin reduced melanin content, tyrosinase activity and the expression of melanogenesis-related proteins in a dose-dependent manner; this is cell-culture evidence only and does not show an effect on pigmentation in human skin.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "21584871",
+     "doi": "10.1002/ptr.3517",
+     "title": "Curcumin inhibits melanogenesis in human melanocytes.",
+     "year": 2011,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21584871/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "turmeric-2",
+   "text_en": "Narrative reviews report that most clinical studies of curcumin/turmeric used oral administration and only a few applied it topically; one review also lists limitations of topical curcumin, including a bright yellow-orange colour described as cosmetically unpleasing, poor solubility and poor stability at high pH. The abstracts do not report efficacy results for topical cosmetic use.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38008088",
+     "doi": "10.1159/000535100",
+     "title": "Clinical Studies on Topical Curcumin.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38008088/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "24085048",
+     "title": "Curcumin: a novel treatment for skin-related disorders.",
+     "year": 2013,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24085048/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "turmeric-3",
+   "text_en": "Case reports describe allergic contact dermatitis from topical products containing curcumin or turmeric, including a turmeric-containing massage oil (based on the title only, as no abstract is available) and a curcumin-containing yellow skin disinfectant solution (one patient with itchy red papules and blisters, confirmed by patch test). Case reports cannot show how common such reactions are.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "30327090",
+     "title": "[Allergic contact dermatitis caused by curcumin-containing chlorhexidine].",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30327090/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "27264290",
+     "doi": "10.1111/cod.12549",
+     "title": "Contact dermatitis caused by turmeric in a massage oil.",
+     "year": 2016,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27264290/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "turmeric-4",
+   "text_en": "A narrative review reports that curcumin can act as a pro-oxidant and generate singlet oxygen under blue light, and concludes that topical use on light-exposed skin, particularly with bioavailability-enhancing nanocarriers, may be dangerous. In a small patch-test study of 33 healthy volunteers, curcumin at 10% caused a stimulating reaction (as the authors term it) in one subject, and photopatch tests with curcumin at 5% and 10% were negative in 10 photosensitive subjects; such small numbers cannot rule out reactions.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "37760028",
+     "doi": "10.3390/antiox12091725",
+     "title": "Dual Action of Curcumin as an Anti- and Pro-Oxidant from a Biophysical Perspective.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37760028/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "34198300",
+     "doi": "10.1159/000515470",
+     "title": "Assessment of Skin Photoallergy Risk in Cosmetics Containing Herbal Extract Ingredients.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34198300/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "turmeric-5",
+   "text_en": "In a laboratory study, non-encapsulated curcumin degraded completely on sun exposure, whereas curcumin encapsulated in cellulose nanoparticles was protected and kept its antioxidant activity; the authors describe curcumin as unstable under light and heat and during storage, and the encapsulated formulation is a different product from plain curcumin.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "22954772",
+     "doi": "10.1016/j.ejpb.2012.08.010",
+     "title": "Encapsulated curcumin results in prolonged curcumin activity in vitro and radical scavenging activity ex vivo on skin after UVB-irradiation.",
+     "year": 2012,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22954772/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Zarchava ildizi ekstrakti (Curcuma longa; asosiy rangli komponenti curcumin) yuz niqoblari kabi ba'zi surtiladigan kosmetik va teri parvarishi vositalarida uchraydi. Ushbu kartochka uchun tanlangan PubMed dalillari cheklangan: asosan hujayra kulturasidagi ishlar, hikoyaviy sharhlar va hodisa hisobotlari bo'lib, faqat zarchavadan iborat surtiladigan kosmetik vositaning randomizatsiyalangan sinovi kiritilmagan, shu sababli bu manbalardan inson terisida ko'rinadigan pigmentatsiya o'zgarishlari yoki akne haqida xulosa chiqarib bo'lmaydi. Qayd etilgan ehtiyot jihatlari: sariq-to'q sariq rangi, kontakt allergiya, yorug'lik bilan bog'liq mumkin bo'lgan reaksiyalar hamda curcumin'ning beqarorligi va yomon erishi. Og'iz orqali qabul qilish bu kartochka qamrovidan tashqarida. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "turmeric-1": "Inson melanotsitlari kulturasida o'tkazilgan in vitro tadqiqotda curcumin melanin miqdorini, tirozinaza faolligini va melanogenez bilan bog'liq oqsillar ekspressiyasini doza bog'liq tarzda kamaytirgan; bu faqat hujayra kulturasidagi dalil bo'lib, inson terisidagi pigmentatsiyaga ta'sirini ko'rsatmaydi.",
+    "turmeric-2": "Hikoyaviy sharhlarda curcumin/zarchava bo'yicha klinik tadqiqotlarning ko'pchiligida u og'iz orqali qo'llangani, teriga surtish esa kam tadqiqotlarda qo'llangani bildirilgan; bitta sharhda surtiladigan curcumin'ning cheklovlari ham sanalgan: kosmetik jihatdan yoqimsiz deb ta'riflangan yorqin sariq-to'q sariq rang, yomon eruvchanlik va yuqori pH da yomon barqarorlik. Annotatsiyalarda surtiladigan kosmetik qo'llanish bo'yicha samaradorlik natijalari keltirilmagan.",
+    "turmeric-3": "Hodisa hisobotlarida curcumin yoki zarchava tarkibli surtiladigan vositalardan allergik kontakt dermatit rivojlangani tasvirlangan, jumladan zarchava tarkibli massaj moyi (faqat sarlavhaga asoslangan, chunki annotatsiya yo'q) va curcumin tarkibli sariq teri dezinfeksiya eritmasi (bir bemorda qichiydigan qizil toshmalar va pufakchalar, patch-test bilan tasdiqlangan). Hodisa hisobotlari bunday reaksiyalar qanchalik tez-tez uchrashini ko'rsata olmaydi.",
+    "turmeric-4": "Hikoyaviy sharhda curcumin prooksidant sifatida ta'sir qilishi va ko'k nur ostida singlet kislorod hosil qilishi mumkinligi bildirilgan hamda yorug'likka ta'sir qiladigan teriga, ayniqsa biologik mavjudligini oshiruvchi nanokarrierlar bilan surtish xavfli bo'lishi mumkin degan xulosa qilingan. 33 nafar sog'lom ko'ngillida o'tkazilgan kichik patch-test tadqiqotida 10% curcumin bir ishtirokchida stimulyatsiyalovchi reaksiya (mualliflar atamasi) keltirgan, 5% va 10% curcumin bilan fotopatch testlari esa yorug'likka sezgir 10 nafar ishtirokchida manfiy bo'lgan; bunday kichik sonlar reaksiyalarni istisno qila olmaydi.",
+    "turmeric-5": "Laboratoriya tadqiqotida kapsulalanmagan curcumin quyosh nuri ta'sirida to'liq parchalangan, sellyuloza nanozarrachalariga kapsulalangan curcumin esa himoyalangan va antioksidant faolligini saqlagan; mualliflar curcumin'ni yorug'lik va issiqlik ta'sirida hamda saqlash vaqtida beqaror deb ta'riflaydi, kapsulalangan formulyatsiya esa oddiy curcumin'dan boshqa mahsulotdir."
+   }
+  },
+  "ru": {
+   "summary": "Экстракт корня куркумы (Curcuma longa; основной окрашивающий компонент - curcumin) встречается в некоторых средствах для местного применения, например в масках для лица. Данные PubMed, отобранные для этой карточки, ограничены: в основном это работы на клеточных культурах, нарративные обзоры и описания случаев, а рандомизированных исследований наружной косметики только с куркумой не включено, поэтому из этих источников нельзя делать выводы о видимых изменениях пигментации или об акне на коже человека. Отмеченные предостережения: жёлто-оранжевый цвет, контактная аллергия, возможные реакции, связанные со светом, а также нестабильность и плохая растворимость curcumin. Пероральное применение выходит за рамки этой карточки. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "turmeric-1": "В исследовании in vitro на культуре меланоцитов человека curcumin дозозависимо снижал содержание меланина, активность тирозиназы и экспрессию белков, связанных с меланогенезом; это данные только на клеточной культуре, они не показывают влияния на пигментацию кожи человека.",
+    "turmeric-2": "В нарративных обзорах сообщается, что большинство клинических исследований curcumin/куркумы использовали пероральный приём и лишь немногие - нанесение на кожу; в одном обзоре также перечислены ограничения наружного curcumin, включая ярко-жёлто-оранжевый цвет, описанный как косметически неприятный, плохую растворимость и плохую стабильность при высоком pH. В аннотациях не приводятся результаты эффективности для наружного косметического применения.",
+    "turmeric-3": "В описаниях случаев сообщается об аллергическом контактном дерматите от средств для наружного применения, содержащих curcumin или куркуму, в том числе от массажного масла с куркумой (только по заголовку, так как аннотации нет) и от жёлтого раствора для дезинфекции кожи с curcumin (у одного пациента зудящие красные папулы и пузырьки, подтверждено патч-тестом). Описания случаев не показывают, как часто возникают такие реакции.",
+    "turmeric-4": "В нарративном обзоре сообщается, что curcumin может действовать как прооксидант и образовывать синглетный кислород под действием синего света, и делается вывод, что наружное применение на коже, подвергающейся свету, особенно с наноносителями, повышающими биодоступность, может быть опасным. В небольшом исследовании с патч-тестами у 33 здоровых добровольцев curcumin в концентрации 10% вызвал у одного участника стимулирующую реакцию (термин авторов), а фотопатч-тесты с curcumin 5% и 10% были отрицательными у 10 участников с фоточувствительностью; такое малое число не позволяет исключить реакции.",
+    "turmeric-5": "В лабораторном исследовании неинкапсулированный curcumin полностью разрушался под действием солнечного света, тогда как curcumin, инкапсулированный в целлюлозные наночастицы, был защищён и сохранял антиоксидантную активность; авторы описывают curcumin как нестабильный при воздействии света и тепла и при хранении, а инкапсулированная форма является иным продуктом, чем обычный curcumin."
+   }
+  },
+  "ar": {
+   "summary": "يرد مستخلص جذر الكركم (Curcuma longa؛ ومكوّنه الملوّن الرئيسي هو curcumin) في بعض المنتجات الموضعية التجميلية والعناية بالبشرة مثل أقنعة الوجه. الأدلة المختارة من PubMed لهذه البطاقة محدودة: فهي في الغالب أعمال على مزارع الخلايا ومراجعات سردية وتقارير حالات، ولم تُدرج أي تجربة عشوائية لمنتج تجميلي موضعي يحتوي على الكركم وحده، ولذلك لا يمكن استخلاص استنتاجات من هذه المصادر حول تغيّرات التصبغ المرئية أو حب الشباب في بشرة الإنسان. تشمل الاحتياطات المذكورة لونه الأصفر البرتقالي، والحساسية التماسية، وردود الفعل المحتملة المرتبطة بالضوء، وعدم ثبات curcumin وضعف ذوبانه. الاستعمال الفموي خارج نطاق هذه البطاقة. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "turmeric-1": "في دراسة in vitro على مزرعة خلايا الميلانين البشرية، خفّض curcumin محتوى الميلانين ونشاط التيروزيناز وتعبير البروتينات المرتبطة بتكوين الميلانين بصورة تعتمد على الجرعة؛ وهذا دليل من مزارع الخلايا فقط ولا يُظهر تأثيرًا على التصبغ في بشرة الإنسان.",
+    "turmeric-2": "تفيد مراجعات سردية بأن معظم الدراسات السريرية عن curcumin/الكركم استخدمته فمويًا وأن القليل منها طبّقه موضعيًا؛ كما تذكر إحدى المراجعات قيودًا على curcumin الموضعي، منها لون أصفر برتقالي ساطع وُصف بأنه غير مرغوب تجميليًا، وضعف الذوبان، وضعف الثبات عند الرقم الهيدروجيني المرتفع. ولا تورد الملخصات نتائج فعالية للاستعمال التجميلي الموضعي.",
+    "turmeric-3": "تصف تقارير حالات التهاب الجلد التماسي التحسسي الناجم عن منتجات موضعية تحتوي على curcumin أو الكركم، ومنها زيت تدليك يحتوي على الكركم (استنادًا إلى العنوان فقط لعدم توفر ملخص) ومحلول تعقيم جلدي أصفر يحتوي على curcumin (مريض واحد ظهرت لديه حطاطات حمراء حاكّة وحويصلات، وأُكّد التشخيص باختبار اللصقة). ولا تستطيع تقارير الحالات بيان مدى تكرار مثل هذه التفاعلات.",
+    "turmeric-4": "تفيد مراجعة سردية بأن curcumin قد يعمل كمؤكسد ويولّد الأكسجين الأحادي تحت الضوء الأزرق، وتخلص إلى أن الاستعمال الموضعي على البشرة المعرّضة للضوء، خصوصًا مع حوامل نانوية تزيد التوافر الحيوي، قد يكون خطرًا. وفي دراسة صغيرة لاختبار اللصقة شملت 33 متطوعًا سليمًا، سبّب curcumin بتركيز 10% تفاعلًا محفّزًا (بحسب مصطلح المؤلفين) لدى مشارك واحد، وكانت اختبارات اللصقة الضوئية بتركيز 5% و10% سلبية لدى 10 مشاركين لديهم حساسية للضوء؛ ولا تستبعد هذه الأعداد الصغيرة حدوث تفاعلات.",
+    "turmeric-5": "في دراسة مخبرية، تحلّل curcumin غير المغلّف بالكامل عند التعرض لضوء الشمس، بينما كان curcumin المغلّف في جسيمات السليلوز النانوية محميًا وحافظ على نشاطه المضاد للأكسدة؛ ويصف المؤلفون curcumin بأنه غير ثابت تحت الضوء والحرارة وأثناء التخزين، والتركيبة المغلّفة منتج مختلف عن curcumin العادي."
+   }
+  }
+ }
+}

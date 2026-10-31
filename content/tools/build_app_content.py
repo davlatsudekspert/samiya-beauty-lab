@@ -17,7 +17,35 @@ SLUGS = _FIRST + sorted(p.stem for p in _PILOT.glob("*.json") if p.stem != "glos
 LANGS = ["en", "uz", "ru", "ar"]
 # Faqat bir xil modda ekanligi aniq nomlar (taxmin qilinmaydi).
 # Tabiiy/o'simlik asosli ingredientlar (ilovada alohida bo'lim). Qolganlari "faol modda".
-NATURAL = {"honey", "aloe-vera", "coconut-oil", "nigella-sativa-oil", "rosehip-oil", "cucumber", "banana", "oat", "green-tea"}
+NATURAL = {"honey", "aloe-vera", "coconut-oil", "nigella-sativa-oil", "rosehip-oil", "cucumber", "banana", "oat", "green-tea",
+           "olive-oil", "chamomile", "rose-water", "turmeric"}
+PRACTICE = {"facial-massage", "gua-sha"}          # parvarish usullari (ingredient emas)
+CAUTION = {"lemon-juice", "baking-soda"}          # uy vositalari: zarar hodisalari haqida ogohlantirish
+
+def category(slug):
+    return "natural" if slug in NATURAL else "practice" if slug in PRACTICE else "caution" if slug in CAUTION else "active"
+
+# Tushunarli nomlar (uz, ru, en, ar): faqat INCI nomi tushunarsiz bo'lgan tabiiy/usul/ehtiyot kartochkalari uchun.
+NAMES = {
+    "honey": ("Asal", "Мёд", "Honey", "عسل"),
+    "aloe-vera": ("Aloe vera", "Алоэ вера", "Aloe vera", "الصبار"),
+    "coconut-oil": ("Kokos moyi", "Кокосовое масло", "Coconut oil", "زيت جوز الهند"),
+    "nigella-sativa-oil": ("Qora zira moyi", "Масло чёрного тмина", "Black seed oil", "زيت حبة البركة"),
+    "rosehip-oil": ("Itburun (rosehip) moyi", "Масло шиповника", "Rosehip oil", "زيت ثمر الورد البري"),
+    "cucumber": ("Bodring", "Огурец", "Cucumber", "الخيار"),
+    "banana": ("Banan", "Банан", "Banana", "الموز"),
+    "oat": ("Suli", "Овёс", "Oat (colloidal oatmeal)", "الشوفان"),
+    "green-tea": ("Yashil choy", "Зелёный чай", "Green tea", "الشاي الأخضر"),
+    "olive-oil": ("Zaytun moyi", "Оливковое масло", "Olive oil", "زيت الزيتون"),
+    "chamomile": ("Romashka", "Ромашка", "Chamomile", "البابونج"),
+    "rose-water": ("Atirgul suvi", "Розовая вода", "Rose water", "ماء الورد"),
+    "turmeric": ("Zarchava (kurkuma)", "Куркума", "Turmeric", "الكركم"),
+    "lemon-juice": ("Limon sharbati", "Лимонный сок", "Lemon juice", "عصير الليمون"),
+    "baking-soda": ("Ichimlik sodasi", "Пищевая сода", "Baking soda", "بيكربونات الصوديوم (صودا الخبز)"),
+    "facial-massage": ("Yuz massaji", "Массаж лица", "Facial massage", "تدليك الوجه"),
+    "gua-sha": ("Gua sha", "Гуаша", "Gua sha", "الغواشا"),
+}
+
 
 ALIASES = {
     "niacinamide": ["Nicotinamide", "Vitamin B3"],
@@ -35,6 +63,12 @@ ALIASES = {
     "banana": ["Banana", "Musa Sapientum (Banana) Fruit Extract"],
     "oat": ["Oatmeal", "Colloidal Oatmeal", "Avena Sativa (Oat) Kernel Flour"],
     "green-tea": ["Green Tea", "Camellia Sinensis (Green Tea) Leaf Extract"],
+    "olive-oil": ["Olive Oil", "Olea Europaea (Olive) Fruit Oil"],
+    "chamomile": ["Chamomile", "Chamomilla Recutita (Matricaria) Flower Extract"],
+    "rose-water": ["Rose Water", "Rosa Damascena Flower Water"],
+    "turmeric": ["Turmeric", "Curcumin"],
+    "lemon-juice": ["Lemon Juice", "Citrus Limon (Lemon) Juice"],
+    "baking-soda": ["Baking Soda"],
 }
 
 def build(src: Path):
@@ -52,7 +86,7 @@ def build(src: Path):
             claims.append({"id": cl["id"], "level": cl["evidence_level"], "studyType": cl["study_type"],
                            "text": text, "sources": sources})
         items.append({
-            "inci": c["inci"], "slug": slug, "status": c["status"], "category": "natural" if slug in NATURAL else "active", "aliases": ALIASES.get(slug, []),
+            "inci": c["inci"], "slug": slug, "status": c["status"], "category": category(slug), **({"names": dict(zip(("uz", "ru", "en", "ar"), NAMES[slug]))} if slug in NAMES else {}), "aliases": ALIASES.get(slug, []),
             "eu": {"annex": c["eu_regulation"]["annex"], "verified": c["eu_regulation"]["verified"]},
             "summary": {"en": c["summary_en"], "uz": uz(tr["uz"]["summary"]),
                         **{l: tr[l]["summary"] for l in ("ru", "ar")}},

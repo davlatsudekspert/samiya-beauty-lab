@@ -48,6 +48,7 @@ class Ingredient {
     required this.slug,
     required this.status,
     this.category = 'active',
+    this.names = const {},
     required this.aliases,
     required this.euVerified,
     required this.summary,
@@ -56,7 +57,8 @@ class Ingredient {
   final String inci;
   final String slug;
   final String status; // draft | verified
-  final String category; // active | natural
+  final String category; // active | natural | practice | caution
+  final Map<String, String> names; // tilga mos tushunarli nom (uz/ru/en/ar); bo'sh bo'lsa INCI
   final List<String> aliases;
   final bool euVerified;
   final Map<String, String> summary;
@@ -65,13 +67,25 @@ class Ingredient {
   /// Tabiiy/o'simlik asosli ingredient (ilovada alohida bo'lim va "tabiiy = xavfsiz emas" izohi bilan).
   bool get isNatural => category == 'natural';
 
+  /// Parvarish usuli (masalan yuz massaji): ingredient emas, tarkib ro'yxatiga moslanmaydi.
+  bool get isPractice => category == 'practice';
+
+  /// Uy vositasi haqida ogohlantirish kartochkasi (zarar hodisalari qayd etilgan).
+  bool get isCaution => category == 'caution';
+
+  /// Tushunarli nom (foydalanuvchi tilida); berilmagan bo'lsa INCI nomi.
+  String nameFor(String lang) => names[lang] ?? names['en'] ?? inci;
+
+  bool get hasFriendlyName => names.isNotEmpty;
+
   String summaryFor(String lang) => _pick(summary, lang);
 
   factory Ingredient.fromJson(Map<String, dynamic> j) => Ingredient(
         inci: j['inci'] as String,
         slug: j['slug'] as String,
         status: j['status'] as String,
-        category: j['category'] == 'natural' ? 'natural' : 'active',
+        category: const {'natural', 'practice', 'caution'}.contains(j['category']) ? j['category'] as String : 'active',
+        names: j['names'] is Map ? Map<String, String>.from(j['names'] as Map) : const {},
         aliases: List<String>.from(j['aliases'] as List),
         euVerified: (j['eu'] as Map)['verified'] as bool,
         summary: Map<String, String>.from(j['summary'] as Map),
@@ -84,7 +98,7 @@ class Ingredient {
 class IngredientRepository {
   IngredientRepository(this.all)
       : _byKey = {
-          for (final i in all) ...{
+          for (final i in all.where((i) => !i.isPractice)) ...{
             inciKey(i.inci): i,
             for (final a in i.aliases) inciKey(a): i,
           }

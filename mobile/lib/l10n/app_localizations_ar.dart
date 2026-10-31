@@ -446,4 +446,21 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get naturalNote =>
       '«الطبيعي» لا يعني «الآمن» تلقائيًا: قد تحدث حساسية وتهيّج. جرّب أي منتج جديد على منطقة صغيرة من الجلد أولًا.';
+
+  @override
+  String get filterPractice => 'أساليب العناية';
+
+  @override
+  String get filterCaution => 'وصفات منزلية: تحذير';
+
+  @override
+  String get practiceNote =>
+      'هذه طريقة عناية وليست مكوّنًا: الأدلة غالبًا محدودة. إذا كانت بشرتك ملتهبة أو متضررة فاستشر مختصًا أولًا.';
+
+  @override
+  String get cautionNote =>
+      'معلومات عن وصفة منزلية شائعة: سُجّلت لبعضها حالات ضرر للبشرة، وبعضها الآخر لا تكفي الأدلة على سلامته وفائدته. اقرأ المعلومات قبل الاستخدام.';
+
+  @override
+  String get practiceSectionTitle => 'أساليب العناية';
 }

@@ -451,4 +451,21 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get naturalNote =>
       '«Натуральное» не значит автоматически «безопасное»: возможны аллергия и раздражение. Сначала проверьте средство на небольшом участке кожи.';
+
+  @override
+  String get filterPractice => 'Приёмы ухода';
+
+  @override
+  String get filterCaution => 'Домашние средства: осторожно';
+
+  @override
+  String get practiceNote =>
+      'Это не ингредиент, а приём ухода: данные часто ограничены. Если кожа воспалена или повреждена, сначала посоветуйтесь со специалистом.';
+
+  @override
+  String get cautionNote =>
+      'Информация о распространённом домашнем средстве: для одних описаны случаи вреда для кожи, для других данных о безопасности и пользе недостаточно. Прочитайте перед использованием.';
+
+  @override
+  String get practiceSectionTitle => 'Приёмы ухода';
 }

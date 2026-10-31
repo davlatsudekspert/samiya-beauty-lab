@@ -489,6 +489,12 @@
    "slug": "aloe-vera",
    "status": "draft",
    "category": "natural",
+   "names": {
+    "uz": "Aloe vera",
+    "ru": "Алоэ вера",
+    "en": "Aloe vera",
+    "ar": "الصبار"
+   },
    "aliases": [
     "Aloe Vera"
    ],
@@ -620,10 +626,130 @@
    ]
   },
   {
+   "inci": "Sodium Bicarbonate",
+   "slug": "baking-soda",
+   "status": "draft",
+   "category": "caution",
+   "names": {
+    "uz": "Ichimlik sodasi",
+    "ru": "Пищевая сода",
+    "en": "Baking soda",
+    "ar": "بيكربونات الصوديوم (صودا الخبز)"
+   },
+   "aliases": [
+    "Baking Soda"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Sodium bicarbonate (baking soda) is an alkaline household powder that is also used in some cosmetic products. This card concerns applying baking soda directly to the face at home as a cleanser, scrub or mask. The sources cited here describe the skin's acidic surface (the acid mantle) as important for barrier function and describe alkaline soaps as more irritating than pH-balanced cleansers, but none of them tested baking soda applied to the face. They also include no trials or case reports of baking soda used this way, so this card cannot say how often irritation or burns occur, or whether any skin-care benefit exists. The cosmetic safety assessment covers formulated products at assessed concentrations, which is not the same as home use of the pure powder or paste. This card summarises published evidence only and is not medical advice.",
+    "uz": "Natriy bikarbonat (ichimlik sodasi) ishqoriy uy-ro‘zg‘or kukuni bo‘lib, ba‘zi kosmetik vositalarda ham ishlatiladi. Bu kartochka ichimlik sodasini uy sharoitida yuzga to‘g‘ridan-to‘g‘ri tozalovchi vosita, skrab yoki niqob sifatida surtish haqida. Bu yerda keltirilgan manbalar terining kislotali yuzasini (kislotali himoya qatlamini) to‘siq funksiyasi uchun muhim deb ta‘riflaydi va ishqoriy sovunlarni pH jihatidan muvozanatlangan tozalovchi vositalarga qaraganda ko‘proq ta‘sirlantiruvchi deb ta‘riflaydi, lekin ularning hech biri yuzga surtilgan ichimlik sodasini sinab ko‘rmagan. Ularda bu tarzda ishlatilgan ichimlik sodasi bo‘yicha sinovlar yoki hodisa hisobotlari ham yo‘q, shu sababli bu kartochka ta‘sirlanish yoki kuyish qanchalik tez-tez uchrashini yoki terini parvarish qilishda biror foyda borligini ayta olmaydi. Kosmetik xavfsizlik baholash tayyor mahsulotlarni baholangan konsentratsiyalarda qamrab oladi, bu sof kukun yoki pastani uyda ishlatish bilan bir narsa emas. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Бикарбонат натрия (пищевая сода) является щелочным бытовым порошком, который также используется в некоторых косметических средствах. Эта карточка посвящена нанесению пищевой соды непосредственно на лицо в домашних условиях в качестве очищающего средства, скраба или маски. Приведённые здесь источники описывают кислую поверхность кожи (кислотную мантию) как важную для барьерной функции и описывают щелочные мыла как более раздражающие, чем очищающие средства с сбалансированным pH, но ни один из них не проверял пищевую соду, нанесённую на лицо. В них также нет испытаний или описаний случаев такого применения пищевой соды, поэтому эта карточка не может сказать, как часто возникают раздражение или ожоги и есть ли какая-либо польза для ухода за кожей. Оценка безопасности в косметике охватывает готовые средства в оцениваемых концентрациях, что не то же самое, что домашнее использование чистого порошка или пасты. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "بيكربونات الصوديوم (baking soda، أي صودا الخبز) مسحوق منزلي قلوي يُستخدم أيضًا في بعض المنتجات التجميلية. تتناول هذه البطاقة وضع صودا الخبز مباشرةً على الوجه في المنزل كمنظّف أو مقشّر أو قناع. تصف المصادر المذكورة هنا السطح الحمضي للجلد (الوشاح الحمضي) بأنه مهم لوظيفة الحاجز الجلدي، وتصف الصابون القلوي بأنه أكثر تهييجًا من المنظّفات المتوازنة الحموضة، لكن لم يختبر أي منها صودا الخبز على الوجه. كما لا تتضمن تجارب أو تقارير حالات عن استخدام صودا الخبز بهذه الطريقة، ولذلك لا تستطيع هذه البطاقة أن تقول مدى تكرار حدوث التهيج أو الحروق أو ما إذا كانت هناك أي فائدة للعناية بالبشرة. يشمل تقييم السلامة التجميلية المنتجات المصنّعة بتراكيز خضعت للتقييم، وهذا ليس مثل الاستخدام المنزلي للمسحوق النقي أو المعجون. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "baking-soda-1",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "The Expert Panel for Cosmetic Ingredient Safety (Cosmetic Ingredient Review) re-reviewed sodium bicarbonate together with sodium carbonate and sodium sesquicarbonate, which are used in bath, skin and hair preparations, and concluded that they are safe as cosmetic ingredients in the practices of use and concentrations described in the assessment. This conclusion concerns formulated cosmetic products at assessed concentrations; it is a separate matter from applying baking soda powder or paste directly to the face at home, which the abstract does not address.",
+      "uz": "Kosmetik ingredientlar xavfsizligi bo‘yicha ekspert kengashi (Cosmetic Ingredient Review) natriy bikarbonatni natriy karbonat va natriy seskvikarbonat bilan birga qayta ko‘rib chiqdi; bu moddalar vanna, teri va soch vositalarida ishlatiladi. Kengash ularni baholashda ko‘rsatilgan qo‘llanish amaliyoti va konsentratsiyalarda kosmetik ingredient sifatida xavfsiz, degan xulosaga keldi. Bu xulosa baholangan konsentratsiyalardagi tayyor kosmetik mahsulotlarga tegishli; annotatsiyada ko‘rib chiqilmagan, ichimlik sodasi kukuni yoki pastasini uyda yuzga to‘g‘ridan-to‘g‘ri surtish esa alohida masala.",
+      "ru": "Экспертный совет по безопасности косметических ингредиентов (Cosmetic Ingredient Review) повторно рассмотрел бикарбонат натрия вместе с карбонатом натрия и сесквикарбонатом натрия, которые используются в средствах для ванны, кожи и волос, и пришёл к выводу, что они безопасны как косметические ингредиенты в практике применения и концентрациях, описанных в оценке. Этот вывод касается готовых косметических средств в оцениваемых концентрациях; нанесение порошка или пасты пищевой соды непосредственно на лицо в домашних условиях, которое в аннотации не рассматривается, является отдельным вопросом.",
+      "ar": "أعادت لجنة الخبراء لسلامة المكوّنات التجميلية (Cosmetic Ingredient Review) مراجعة بيكربونات الصوديوم مع كربونات الصوديوم وسيسكوي كربونات الصوديوم، وهي تُستخدم في مستحضرات الاستحمام والبشرة والشعر، وخلصت إلى أنها آمنة كمكوّنات تجميلية في ممارسات الاستخدام والتراكيز الموصوفة في التقييم. تتعلق هذه الخلاصة بالمنتجات التجميلية المصنّعة بتراكيز خضعت للتقييم؛ أما وضع مسحوق صودا الخبز أو معجونها مباشرةً على الوجه في المنزل، وهو ما لا يتناوله الملخص، فمسألة منفصلة."
+     },
+     "sources": [
+      {
+       "pmid": "40932353",
+       "doi": "10.1177/10915818251361098",
+       "title": "Re-Review Summary of Sodium Sesquicarbonate, Sodium Carbonate, and Sodium Bicarbonate as Used in Cosmetics.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40932353/"
+      }
+     ]
+    },
+    {
+     "id": "baking-soda-2",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative review reported that the acidic \"acid mantle\" of the stratum corneum seems to be important for permeability barrier formation and antimicrobial defence, that exogenous factors such as detergents and cosmetic products may influence skin pH, and that pH changes are reported to play a role in conditions including irritant contact dermatitis, atopic dermatitis and acne vulgaris. The review does not evaluate baking soda, and it describes the origin of the acidic pH as still conjectural.",
+      "uz": "Hikoyaviy sharhda shox qavatning kislotali \"kislotali himoya qatlami\" o‘tkazuvchanlik to‘sig‘ining shakllanishi va mikroblarga qarshi himoya uchun muhim ko‘rinishi, yuvuvchi vositalar va kosmetik mahsulotlar kabi tashqi omillar teri pH‘iga ta‘sir qilishi mumkinligi hamda pH o‘zgarishlari ta‘sirlanishli kontakt dermatit, atopik dermatit va oddiy akne kabi holatlarda rol o‘ynashi haqida xabar qilingan. Sharh ichimlik sodasini baholamaydi va kislotali pH manbai hanuzgacha taxminiy ekanini ta‘riflaydi.",
+      "ru": "В нарративном обзоре сообщается, что кислая «кислотная мантия» рогового слоя, по-видимому, важна для формирования проницаемого барьера и антимикробной защиты, что внешние факторы, такие как моющие средства и косметические продукты, могут влиять на pH кожи, и что изменения pH, по сообщениям, играют роль при таких состояниях, как раздражительный контактный дерматит, атопический дерматит и акне. Обзор не оценивает пищевую соду и описывает происхождение кислого pH как всё ещё предположительное.",
+      "ar": "أفادت مراجعة سردية بأن «الوشاح الحمضي» للطبقة المتقرنة يبدو مهمًا لتكوّن حاجز النفاذية والدفاع المضاد للميكروبات، وبأن عوامل خارجية مثل المنظّفات والمنتجات التجميلية قد تؤثر في حموضة الجلد، وبأن تغيّرات الحموضة يُذكر أن لها دورًا في حالات منها التهاب الجلد التماسي التهيجي والتهاب الجلد التأتبي وحب الشباب. لا تقيّم المراجعة صودا الخبز، وتصف منشأ الحموضة بأنه ما زال افتراضيًا."
+     },
+     "sources": [
+      {
+       "pmid": "16864974",
+       "doi": "10.1159/000094670",
+       "title": "The pH of the skin surface and its impact on the barrier function.",
+       "year": 2006,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/16864974/"
+      }
+     ]
+    },
+    {
+     "id": "baking-soda-3",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "Two narrative reviews on skin cleansers compared alkaline soaps with synthetic detergent cleansers (syndets): one reported that syndets with a pH of about 5.5, unlike alkaline soap, do not interfere with the skin microflora and that their irritancy potential might be even lower than that of soap; the other reported that syndets cause less skin irritation and dryness than alkaline soaps. These reviews concern soaps and syndets, not baking soda, so they point to a general concern about alkaline cleansing rather than showing the effect of baking soda itself.",
+      "uz": "Terini tozalash vositalari bo‘yicha ikkita hikoyaviy sharh ishqoriy sovunlarni sintetik yuvuvchi tozalovchi vositalar (sindetlar) bilan solishtirdi: birida pH‘i taxminan 5,5 bo‘lgan sindetlar ishqoriy sovundan farqli o‘laroq teri mikroflorasiga xalaqit bermasligi va ularning ta‘sirlantirish ehtimoli sovundan ham past bo‘lishi mumkinligi qayd etilgan; ikkinchisida sindetlar ishqoriy sovunlarga qaraganda teri ta‘sirlanishi va quruqligini kamroq keltirib chiqarishi qayd etilgan. Bu sharhlar sovun va sindetlar haqida, ichimlik sodasi haqida emas, shu sababli ular ichimlik sodasining o‘zi ta‘sirini ko‘rsatmaydi, balki ishqoriy tozalashga nisbatan umumiy ehtiyotkorlikni ko‘rsatadi.",
+      "ru": "Два нарративных обзора об очищающих средствах для кожи сравнили щелочные мыла с синтетическими моющими очищающими средствами (синдетами): в одном сообщается, что синдеты с pH около 5,5, в отличие от щелочного мыла, не нарушают микрофлору кожи, а их раздражающий потенциал может быть даже ниже, чем у мыла; в другом сообщается, что синдеты вызывают меньше раздражения и сухости кожи, чем щелочные мыла. Эти обзоры касаются мыла и синдетов, а не пищевой соды, поэтому они указывают на общую настороженность в отношении щелочного очищения, но не показывают действие самой пищевой соды.",
+      "ar": "قارنت مراجعتان سرديتان حول منظّفات البشرة بين الصابون القلوي والمنظّفات المخلّقة المعتمدة على المنظّفات الصناعية (syndets): ذكرت إحداهما أن هذه المنظّفات ذات الحموضة التي تبلغ نحو 5.5، خلافًا للصابون القلوي، لا تتداخل مع الفلورا الميكروبية للجلد، وأن احتمال تهييجها قد يكون أقل حتى من الصابون؛ وذكرت الأخرى أنها تسبب تهيجًا وجفافًا للجلد أقل من الصابون القلوي. تتعلق هاتان المراجعتان بالصابون والمنظّفات المخلّقة لا بصودا الخبز، ولذلك تشيران إلى قلق عام من التنظيف القلوي ولا تُظهران تأثير صودا الخبز نفسها."
+     },
+     "sources": [
+      {
+       "pmid": "8573921",
+       "doi": "10.1159/000246568",
+       "title": "The concept of the acid mantle of the skin: its relevance for the choice of skin cleansers.",
+       "year": 1995,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/8573921/"
+      },
+      {
+       "pmid": "29231284",
+       "doi": "10.1111/jocd.12469",
+       "title": "The science behind skin care: Cleansers.",
+       "year": 2017,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/29231284/"
+      }
+     ]
+    },
+    {
+     "id": "baking-soda-4",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In an observational study of 200 people with acne and 200 age- and sex-matched controls, mean facial skin pH was higher in the acne group than in the controls and higher than the reference values cited by the authors (pH 4.5 to 5.5 for women, 4 to 5.5 for men). The design shows an association only, does not show that a higher skin pH causes acne, and did not involve baking soda.",
+      "uz": "Akneli 200 kishi va yoshi hamda jinsi bo‘yicha mos keladigan 200 nazorat ishtirokchisi bilan o‘tkazilgan kuzatuv tadqiqotida yuz terisining o‘rtacha pH‘i akne guruhida nazoratdagiga qaraganda va mualliflar keltirgan me‘yoriy qiymatlardan (ayollar uchun pH 4,5 dan 5,5 gacha, erkaklar uchun 4 dan 5,5 gacha) yuqoriroq bo‘lgan. Dizayn faqat bog‘liqlikni ko‘rsatadi, terining yuqoriroq pH‘i aknega sabab bo‘lishini ko‘rsatmaydi va ichimlik sodasi ishtirok etmagan.",
+      "ru": "В наблюдательном исследовании с участием 200 человек с акне и 200 контрольных участников, сопоставимых по возрасту и полу, средний pH кожи лица в группе с акне был выше, чем в контрольной группе, и выше референсных значений, приведённых авторами (pH от 4,5 до 5,5 для женщин, от 4 до 5,5 для мужчин). Дизайн показывает лишь связь, не показывает, что более высокий pH кожи вызывает акне, и пищевая сода в исследовании не использовалась.",
+      "ar": "في دراسة رصدية شملت 200 شخص مصابين بحب الشباب و200 شخص ضابط مطابقين في العمر والجنس، كان متوسط حموضة جلد الوجه أعلى في مجموعة حب الشباب منه في الضوابط، وأعلى من القيم المرجعية التي ذكرها المؤلفون (من 4.5 إلى 5.5 للنساء ومن 4 إلى 5.5 للرجال). يُظهر التصميم ارتباطًا فقط، ولا يُظهر أن ارتفاع حموضة الجلد يسبب حب الشباب، ولم تشارك فيه صودا الخبز."
+     },
+     "sources": [
+      {
+       "pmid": "29104722",
+       "doi": null,
+       "title": "Skin Surface pH in Acne Vulgaris: Insights from an Observational Study and Review of the Literature.",
+       "year": 2017,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/29104722/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "inci": "Musa Sapientum Fruit Extract",
    "slug": "banana",
    "status": "draft",
    "category": "natural",
+   "names": {
+    "uz": "Banan",
+    "ru": "Банан",
+    "en": "Banana",
+    "ar": "الموز"
+   },
    "aliases": [
     "Banana",
     "Musa Sapientum (Banana) Fruit Extract"
@@ -841,10 +967,144 @@
    ]
   },
   {
+   "inci": "Chamomilla Recutita Flower Extract",
+   "slug": "chamomile",
+   "status": "draft",
+   "category": "natural",
+   "names": {
+    "uz": "Romashka",
+    "ru": "Ромашка",
+    "en": "Chamomile",
+    "ar": "البابونج"
+   },
+   "aliases": [
+    "Chamomile",
+    "Chamomilla Recutita (Matricaria) Flower Extract"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Chamomilla Recutita (Matricaria) Flower Extract comes from German chamomile and is a botanical ingredient widely used in skin and personal care products. This card covers topical cosmetic use only; chamomile tea and other oral use are out of scope, and Roman chamomile (Anthemis nobilis) is a different species that is not covered. The PubMed search for this card found no human controlled trial of chamomile extract alone for soothing, after-sun or skin-quality outcomes, so the evidence included here is limited (observational, laboratory and animal) and mostly concerns contact allergy: people allergic to plants of the daisy family (Asteraceae/Compositae) have reacted to chamomile in patch tests. This card summarises published evidence only and is not medical advice.",
+    "uz": "Chamomilla Recutita (Matricaria) Flower Extract nemis romashkasidan olinadi va teri hamda shaxsiy parvarish vositalarida keng qo‘llaniladigan o‘simlik ingredientidir. Bu kartochka faqat surtiladigan kosmetik qo‘llanishni qamrab oladi; romashka choyi va boshqa og‘iz orqali qo‘llanish qamrovdan tashqarida, Rim romashkasi (Anthemis nobilis) esa boshqa tur bo‘lib, bu yerda ko‘rib chiqilmaydi. Ushbu kartochka uchun PubMed‘da o‘tkazilgan qidiruvda romashka ekstraktining o‘zi tinchlantirish, quyoshdan keyingi parvarish yoki teri sifati bo‘yicha odamlarda nazoratli tadqiqot topilmadi, shu sababli bu yerga kiritilgan dalillar cheklangan (kuzatuv, laboratoriya va hayvonlardagi tadqiqotlar) va asosan kontakt allergiyaga oid: astradoshlar (Asteraceae/Compositae) oilasi o‘simliklariga allergiyasi bor odamlar patch-testlarda romashkaga reaksiya bergan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Chamomilla Recutita (Matricaria) Flower Extract получают из ромашки аптечной (немецкой); это растительный ингредиент, широко используемый в средствах по уходу за кожей и личной гигиены. Эта карточка охватывает только наружное косметическое применение; ромашковый чай и другое пероральное применение не рассматриваются, а ромашка римская (Anthemis nobilis) — другой вид и здесь не охвачена. Поиск в PubMed для этой карточки не выявил контролируемых исследований на людях с одним лишь экстрактом ромашки по успокаивающему эффекту, уходу после солнца или качеству кожи, поэтому включённые данные ограничены (наблюдательные, лабораторные и на животных) и в основном касаются контактной аллергии: люди с аллергией на растения семейства астровых (Asteraceae/Compositae) давали реакции на ромашку при патч-тестах. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "يُستخلص Chamomilla Recutita (Matricaria) Flower Extract من البابونج الألماني، وهو مكوّن نباتي يُستخدم على نطاق واسع في منتجات العناية بالبشرة والعناية الشخصية. تقتصر هذه البطاقة على الاستخدام التجميلي الموضعي فقط؛ أما شاي البابونج وسائر الاستخدامات الفموية فهي خارج النطاق، والبابونج الروماني (Anthemis nobilis) نوع مختلف لا تشمله هذه البطاقة. لم يجد البحث في PubMed لهذه البطاقة تجربة مضبوطة على البشر لمستخلص البابونج وحده بخصوص التهدئة أو العناية بعد التعرض للشمس أو جودة البشرة، ولذلك فإن الأدلة المدرجة هنا محدودة (رصدية ومخبرية وعلى الحيوانات) وتتعلق في معظمها بالحساسية التماسية: فقد تفاعل مع البابونج في اختبارات اللصاقة أشخاصٌ لديهم حساسية تجاه نباتات الفصيلة النجمية (Asteraceae/Compositae). تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "chamomile-1",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In patch testing of 190 patients with known contact allergy to Compositae (Asteraceae) plants, wild chamomile was among the plant extracts that most often gave positive reactions, after feverfew and tansy; the authors suggested that cross-reactions between chrysanthemum and feverfew, tansy and chamomile may partly explain these reactions. This was a clinic-based study of already allergic patients, so it does not show how often the general population reacts.",
+      "uz": "Compositae (Asteraceae) o‘simliklariga kontakt allergiyasi ma‘lum bo‘lgan 190 nafar bemorda o‘tkazilgan patch-testda yovvoyi romashka eng ko‘p musbat reaksiya bergan o‘simlik ekstraktlari qatorida bo‘lgan, undan oldin faqat feverfew va tansy turgan; mualliflar xrizantema bilan feverfew, tansy va romashka o‘rtasidagi o‘zaro reaksiyalar bu natijalarni qisman tushuntirishi mumkin, deb taxmin qilgan. Bu allaqachon allergik bo‘lgan bemorlarda klinikada o‘tkazilgan tadqiqot, shu sababli umumiy aholining qanchasi reaksiya berishini ko‘rsatmaydi.",
+      "ru": "При патч-тестировании 190 пациентов с известной контактной аллергией на растения семейства сложноцветных (Compositae/Asteraceae) ромашка дикая входила в число экстрактов, чаще всего дававших положительные реакции, после пиретрума девичьего (feverfew) и пижмы; авторы предположили, что перекрёстные реакции между хризантемой и пиретрумом, пижмой и ромашкой могут частично объяснять эти результаты. Это клиническое исследование пациентов, уже имевших аллергию, поэтому оно не показывает, как часто реагирует население в целом.",
+      "ar": "في اختبار اللصاقة الذي شمل 190 مريضًا لديهم حساسية تماسية معروفة تجاه نباتات الفصيلة المركّبة (Compositae/Asteraceae)، كان البابونج البرّي من بين المستخلصات النباتية الأكثر إعطاءً لتفاعلات إيجابية، بعد الفيفرفيو (feverfew) والتانسي (tansy)؛ واقترح المؤلفون أن التفاعلات المتصالبة بين الأقحوان (chrysanthemum) والفيفرفيو والتانسي والبابونج قد تفسّر هذه النتائج جزئيًا. كانت هذه دراسة سريرية على مرضى مصابين بالحساسية أصلًا، لذلك لا تبيّن مدى تكرار التفاعل لدى عامة السكان."
+     },
+     "sources": [
+      {
+       "pmid": "11683829",
+       "doi": "10.1034/j.1600-0536.2001.450402.x",
+       "title": "Sensitization and cross-reaction patterns in Danish Compositae-allergic patients.",
+       "year": 2001,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/11683829/"
+      }
+     ]
+    },
+    {
+     "id": "chamomile-2",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "A six-year patch-test experience with a Compositae mix (short ether extracts of arnica, German chamomile, feverfew, tansy and yarrow) reported positive reactions to the mix in 118 of 3,851 tested people (3.1%); retesting with the single extracts reported positive reactions to German chamomile extract in 56.5% (the abstract does not state the denominator). The tests used laboratory extracts, not finished cosmetic products, and the data are from 1985 to 1990.",
+      "uz": "Compositae aralashmasi (arnika, nemis romashkasi, feverfew, tansy va yarrow‘ning qisqa efirli ekstraktlari) bilan olti yillik patch-test tajribasida tekshirilgan 3 851 kishidan 118 nafarida (3,1%) aralashmaga musbat reaksiya qayd etilgan; alohida ekstraktlar bilan qayta tekshiruvda nemis romashkasi ekstraktiga musbat reaksiyalar 56,5% da qayd etilgan (annotatsiyada maxraj ko‘rsatilmagan). Sinovlarda tayyor kosmetik vositalar emas, laboratoriya ekstraktlari ishlatilgan, ma‘lumotlar 1985–1990 yillarga tegishli.",
+      "ru": "В шестилетнем опыте патч-тестирования со смесью сложноцветных (краткие эфирные экстракты арники, ромашки аптечной, пиретрума, пижмы и тысячелистника) положительные реакции на смесь отмечены у 118 из 3 851 обследованного (3,1%); при повторном тестировании отдельными экстрактами положительные реакции на экстракт ромашки аптечной отмечены в 56,5% (в аннотации знаменатель не указан). Использовались лабораторные экстракты, а не готовые косметические средства, данные относятся к 1985–1990 годам.",
+      "ar": "أفادت تجربة لاختبار اللصاقة استمرت ست سنوات باستخدام خليط المركّبات (مستخلصات إيثرية قصيرة من الأرنيكا والبابونج الألماني والفيفرفيو والتانسي والياروّ) بتفاعلات إيجابية للخليط لدى 118 من 3,851 شخصًا خضعوا للاختبار (3.1%)؛ وعند إعادة الاختبار بالمستخلصات المنفردة أُبلغ عن تفاعلات إيجابية لمستخلص البابونج الألماني بنسبة 56.5% (لا يذكر الملخص المقام). استُخدمت مستخلصات مخبرية وليست منتجات تجميلية جاهزة، وتعود البيانات إلى الفترة 1985–1990."
+     },
+     "sources": [
+      {
+       "pmid": "8796749",
+       "doi": null,
+       "title": "A 6-year experience with compositae mix.",
+       "year": 1996,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/8796749/"
+      }
+     ]
+    },
+    {
+     "id": "chamomile-3",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In 36 patients with known or suspected Compositae contact allergy who were patch tested with herniarin (a coumarin found in German chamomile), one reacted positively and three doubtfully; all four had relevant contact allergy to German chamomile. The authors suggested that herniarin may be a non-sesquiterpene lactone sensitizer and that sensitization may occur through external use of chamomile tea or chamomile-containing topical herbal remedies, while describing German chamomile overall as a weak sensitizer. This was a small, selected case series.",
+      "uz": "Compositae‘ga kontakt allergiyasi ma‘lum yoki gumon qilingan 36 nafar bemorda gerniarin (nemis romashkasida uchraydigan kumarin) bilan patch-test o‘tkazilganda bittasi musbat, uchtasi shubhali reaksiya bergan; to‘rttalasida ham nemis romashkasiga tegishli kontakt allergiya bo‘lgan. Mualliflar gerniarin seskviterpen laktonlarga kirmaydigan sensibilizator bo‘lishi mumkin va sensibilizatsiya romashka choyini tashqaridan qo‘llash yoki romashka tarkibli surtiladigan o‘simlik vositalari orqali yuz berishi mumkin, deb taxmin qilgan, nemis romashkasini esa umuman kuchsiz sensibilizator deb ta‘riflagan. Bu kichik, saralangan holatlar qatori edi.",
+      "ru": "У 36 пациентов с известной или предполагаемой контактной аллергией на сложноцветные, которым провели патч-тест с герниарином (кумарином, содержащимся в ромашке аптечной), один дал положительную и трое сомнительную реакцию; у всех четверых была значимая контактная аллергия на ромашку аптечную. Авторы предположили, что герниарин может быть сенсибилизатором, не относящимся к сесквитерпеновым лактонам, и что сенсибилизация может происходить при наружном применении ромашкового чая или местных растительных средств с ромашкой, при этом в целом описав ромашку аптечную как слабый сенсибилизатор. Это была небольшая отобранная серия случаев.",
+      "ar": "لدى 36 مريضًا لديهم حساسية تماسية معروفة أو مشتبه بها تجاه الفصيلة المركّبة أُجري لهم اختبار لصاقة بالهرنيارين (herniarin، وهو كومارين موجود في البابونج الألماني)، تفاعل واحد منهم إيجابيًا وثلاثة بشكل مشكوك فيه؛ وكان لدى الأربعة جميعًا حساسية تماسية ذات صلة بالبابونج الألماني. اقترح المؤلفون أن الهرنيارين قد يكون مُحسِّسًا من غير اللاكتونات السيسكوتربينية وأن التحسّس قد يحدث عبر الاستخدام الخارجي لشاي البابونج أو المستحضرات العشبية الموضعية المحتوية على البابونج، مع وصفهم البابونج الألماني عمومًا بأنه مُحسِّس ضعيف. كانت هذه سلسلة حالات صغيرة منتقاة."
+     },
+     "sources": [
+      {
+       "pmid": "20557339",
+       "doi": "10.1111/j.1600-0536.2010.01730.x",
+       "title": "The coumarin herniarin as a sensitizer in German chamomile [Chamomilla recutita (L.) Rauschert, Compositae].",
+       "year": 2010,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/20557339/"
+      }
+     ]
+    },
+    {
+     "id": "chamomile-4",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "Laboratory work on German chamomile extracts (an in vitro keratinocyte assay, chemical reactivity tests and a mouse local lymph node assay) identified constituents, including the polyacetylene tonghaosu and a reactive lactone formed when it ages, with skin sensitization potential. These are laboratory and mouse findings and do not show how often people react to chamomile in cosmetic products.",
+      "uz": "Nemis romashkasi ekstraktlari bilan o‘tkazilgan laboratoriya ishida (in vitro keratinotsit sinovi, kimyoviy reaktivlik sinovlari va sichqonlarda mahalliy limfa tugunlari sinovi) teri sensibilizatsiyasi potensialiga ega tarkibiy qismlar, jumladan poliatsetilen tonghaosu va u eskirganda hosil bo‘ladigan reaktiv lakton aniqlangan. Bu laboratoriya va sichqonlardagi natijalar bo‘lib, odamlarning kosmetik vositalardagi romashkaga qanchalik tez-tez reaksiya berishini ko‘rsatmaydi.",
+      "ru": "В лабораторной работе с экстрактами ромашки аптечной (клеточный тест на кератиноцитах in vitro, тесты химической реактивности и тест локальных лимфатических узлов у мышей) выявлены компоненты, включая полиацетилен тонгхаосу и образующийся при его старении реакционноспособный лактон, обладающие потенциалом сенсибилизации кожи. Это лабораторные данные и данные на мышах; они не показывают, как часто люди реагируют на ромашку в косметических средствах.",
+      "ar": "حدّد عمل مخبري على مستخلصات البابونج الألماني (اختبار خلايا كيراتينية في المختبر، واختبارات تفاعلية كيميائية، واختبار العقد الليمفاوية الموضعية في الفئران) مكوّنات، منها البولي أسيتيلين تونغهاوسو (tonghaosu) ولاكتون تفاعلي يتكوّن عند تقادمه، لها قابلية لتحسيس الجلد. هذه نتائج مخبرية وعلى الفئران ولا تبيّن مدى تكرار تفاعل الأشخاص مع البابونج في المنتجات التجميلية."
+     },
+     "sources": [
+      {
+       "pmid": "28109818",
+       "doi": "10.1016/j.taap.2017.01.009",
+       "title": "Identification of a compound isolated from German chamomile (Matricaria chamomilla) with dermal sensitization potential.",
+       "year": 2017,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/28109818/"
+      }
+     ]
+    },
+    {
+     "id": "chamomile-5",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In a laboratory and animal study, a carboxymethylcellulose nanogel containing Matricaria chamomilla essential oil showed antioxidant activity and collagenase and elastase inhibition in vitro, and in UVB-exposed rats was associated with fewer wrinkles, better preserved epidermal structure and less inflammation than controls. This is a preclinical study of an essential-oil nanogel in rats, not evidence from people and not evidence about typical cosmetic extracts.",
+      "uz": "Laboratoriya va hayvonlarda o‘tkazilgan tadqiqotda Matricaria chamomilla efir moyi bor karboksimetilsellyuloza nanogeli in vitro antioksidant faollik hamda kollagenaza va elastazani ingibirlashni ko‘rsatgan, UVB ta‘sirida bo‘lgan kalamushlarda esa nazoratga nisbatan ajinlarning kamroq bo‘lishi, epidermis tuzilishining yaxshiroq saqlanishi va yallig‘lanishning kamroq bo‘lishi bilan bog‘langan. Bu kalamushlarda o‘tkazilgan efir moyi nanogeli bo‘yicha klinikaga qadar tadqiqot bo‘lib, odamlardagi dalil emas va oddiy kosmetik ekstraktlar haqida dalil ham emas.",
+      "ru": "В лабораторном исследовании и исследовании на животных наногель на основе карбоксиметилцеллюлозы с эфирным маслом Matricaria chamomilla показал антиоксидантную активность и ингибирование коллагеназы и эластазы in vitro, а у крыс, подвергнутых УФ-В облучению, был связан с меньшим числом морщин, лучшей сохранностью структуры эпидермиса и меньшим воспалением по сравнению с контролем. Это доклиническое исследование наногеля с эфирным маслом на крысах, а не данные на людях и не данные о типичных косметических экстрактах.",
+      "ar": "في دراسة مخبرية وعلى الحيوانات، أظهر هلام نانوي قائم على كربوكسي ميثيل السليلوز يحتوي على الزيت العطري لـ Matricaria chamomilla نشاطًا مضادًا للأكسدة وتثبيطًا لإنزيمي الكولاجيناز والإيلاستاز في المختبر، وارتبط لدى الجرذان المعرّضة للأشعة فوق البنفسجية (UVB) بتجاعيد أقل وحفظ أفضل لبنية البشرة والتهاب أقل مقارنة بالمجموعة الضابطة. هذه دراسة ما قبل سريرية على هلام نانوي لزيت عطري في الجرذان، وليست دليلًا على البشر ولا على المستخلصات التجميلية المعتادة."
+     },
+     "sources": [
+      {
+       "pmid": "41276053",
+       "doi": "10.1016/j.ijbiomac.2025.149183",
+       "title": "Multifunctional carboxymethylcellulose-based nanogel containing Matricaria chamomilla essential oil: A practical approach to combating skin aging in rats.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/41276053/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "inci": "Cocos Nucifera Oil",
    "slug": "coconut-oil",
    "status": "draft",
    "category": "natural",
+   "names": {
+    "uz": "Kokos moyi",
+    "ru": "Кокосовое масло",
+    "en": "Coconut oil",
+    "ar": "زيت جوز الهند"
+   },
    "aliases": [
     "Coconut Oil",
     "Cocos Nucifera (Coconut) Oil"
@@ -961,6 +1221,12 @@
    "slug": "cucumber",
    "status": "draft",
    "category": "natural",
+   "names": {
+    "uz": "Bodring",
+    "ru": "Огурец",
+    "en": "Cucumber",
+    "ar": "الخيار"
+   },
    "aliases": [
     "Cucumber",
     "Cucumis Sativus (Cucumber) Fruit Extract"
@@ -1047,6 +1313,131 @@
        "title": "Cucumber contact dermatitis.",
        "year": 2000,
        "url": "https://pubmed.ncbi.nlm.nih.gov/11011937/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Facial massage",
+   "slug": "facial-massage",
+   "status": "draft",
+   "category": "practice",
+   "names": {
+    "uz": "Yuz massaji",
+    "ru": "Массаж лица",
+    "en": "Facial massage",
+    "ar": "تدليك الوجه"
+   },
+   "aliases": [],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Facial massage here means cosmetic massage of the face in healthy adults, by hand or with tools such as rollers and gua sha, including lymphatic-drainage-style and cosmetic-oil massage. The evidence found is limited: one systematic review (with only two manual-massage studies) judged the evidence insufficient to establish efficacy for skin appearance or facial contour; the other sources are small, short or uncontrolled studies, an ex vivo animal-skin model, and one observational study that recorded redness, contact dermatitis and acne-like eruptions after salon facial treatments. No studies with a non-treated control group showing wrinkle reduction, a lifting effect or reduced puffiness were included in this card. Medical lymphoedema therapy, post-surgical rehabilitation, microcurrent, radiofrequency or laser devices and injections are outside its scope. The included sources do not assess people with rosacea, active infection or damaged skin, the pressure applied, or tool hygiene. This card summarises published evidence only and is not medical advice.",
+    "uz": "Bu kartochkada yuz massaji deganda sog‘lom kattalarda kosmetik maqsadda yuzni qo‘l bilan yoki rolik va gua sha kabi asboblar bilan massaj qilish tushuniladi, jumladan limfatik drenaj uslubidagi va kosmetik moy bilan massaj. Topilgan dalillar cheklangan: bitta tizimli sharh (unda qo‘l massaji bo‘yicha faqat ikkita tadqiqot bor) teri ko‘rinishi yoki yuz konturi bo‘yicha samaradorlikni belgilash uchun dalil yetarli emas, degan xulosaga kelgan; qolgan manbalar kichik, qisqa muddatli yoki nazoratsiz tadqiqotlar, hayvon terisidagi ex vivo model hamda salon yuz muolajalaridan keyin qizarish, kontakt dermatit va aknega o‘xshash toshmalar qayd etilgan bitta kuzatuv tadqiqotidir. Ushbu kartochkaga ajinlarning kamayishini, yuzning ko‘tarilish ta‘sirini yoki shishning kamayishini ko‘rsatgan, davolanmagan nazorat guruhi bo‘lgan tadqiqotlar kiritilmagan. Tibbiy limfedema terapiyasi, jarrohlikdan keyingi reabilitatsiya, mikrotok, radiochastota yoki lazer qurilmalari va ukollar qamrovdan tashqarida. Kiritilgan manbalarda rozatsea, faol infeksiya yoki shikastlangan terisi bor odamlar, qo‘llanilgan bosim va asbob gigienasi baholanmagan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "В этой карточке под массажем лица понимается косметический массаж лица у здоровых взрослых руками или с помощью инструментов, таких как ролики и гуаша, включая массаж в стиле лимфодренажа и массаж с косметическими маслами. Найденные данные ограничены: один систематический обзор (в котором лишь два исследования ручного массажа) счёл данные недостаточными для установления эффективности в отношении внешнего вида кожи или контура лица; остальные источники это небольшие, краткосрочные или неконтролируемые исследования, ex vivo модель на коже животного и одно наблюдательное исследование, зафиксировавшее покраснение, контактный дерматит и акнеподобные высыпания после салонных процедур для лица. В эту карточку не включены исследования с неподвергавшейся воздействию контрольной группой, показывающие уменьшение морщин, подтягивающий эффект или уменьшение отёчности. Лечебная терапия лимфедемы, реабилитация после операций, устройства с микротоками, радиочастотой или лазером и инъекции выходят за рамки карточки. Включённые источники не оценивают людей с розацеа, активной инфекцией или повреждённой кожей, применяемое давление и гигиену инструментов. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "يُقصد بتدليك الوجه في هذه البطاقة التدليك التجميلي للوجه لدى البالغين الأصحاء، باليد أو بأدوات مثل الأسطوانات (الرولر) وحجر الغواشا، بما في ذلك التدليك بأسلوب التصريف اللمفي والتدليك بالزيوت التجميلية. الأدلة التي وُجدت محدودة: مراجعة منهجية واحدة (لا تتضمن سوى دراستين عن التدليك اليدوي) رأت أن الأدلة غير كافية لإثبات الفعالية فيما يخص مظهر البشرة أو محيط الوجه؛ أما المصادر الأخرى فهي دراسات صغيرة أو قصيرة المدة أو غير مضبوطة، ونموذج خارج الجسم الحي (ex vivo) على جلد حيواني، ودراسة رصدية واحدة سجّلت احمرارًا والتهاب جلد تماسّيًا وطفحًا يشبه حب الشباب بعد جلسات العناية بالوجه في الصالونات. لم تُدرج في هذه البطاقة دراسات بمجموعة ضابطة غير معالَجة تُظهر تقليل التجاعيد أو تأثير الشد أو تقليل الانتفاخ. العلاج الطبي للوذمة اللمفية وإعادة التأهيل بعد الجراحة وأجهزة التيار الدقيق أو الترددات الراديوية أو الليزر والحقن خارج نطاقها. لا تقيّم المصادر المُدرجة الأشخاص المصابين بالوردية أو العدوى النشطة أو البشرة المتضررة، ولا الضغط المطبَّق، ولا نظافة الأدوات. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "facial-massage-1",
+     "level": "insufficient",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A PRISMA-based systematic review of conservative mechanical facial rejuvenation techniques (12 studies, 321 women aged 30 to 70: 6 on facial exercises, 4 on myofunctional therapy, 2 on manual massage) reported improvements confined to localized regions such as the cheeks, jawline and periorbital areas and no adverse events, but concluded that, given heterogeneous methods and small samples, the evidence remains insufficient to establish efficacy with confidence.",
+      "uz": "Yuzni yosharish uchun konservativ mexanik usullar bo‘yicha PRISMA asosidagi tizimli sharhda (30 yoshdan 70 yoshgacha bo‘lgan 321 nafar ayol ishtirok etgan 12 ta tadqiqot: 6 tasi yuz mashqlari, 4 tasi miofunksional terapiya, 2 tasi qo‘l massaji haqida) yaxshilanishlar yonoq, jag‘ chizig‘i va ko‘z atrofi kabi chegaralangan hududlar bilan cheklangani va nojo‘ya hodisalar qayd etilmagani aytilgan; biroq usullarning xilma-xilligi va namunalarning kichikligi sababli samaradorlikni ishonch bilan belgilash uchun dalil hali ham yetarli emas, degan xulosa qilingan.",
+      "ru": "В систематическом обзоре по методике PRISMA, посвящённом консервативным механическим методам омоложения лица (12 исследований, 321 женщина в возрасте от 30 до 70 лет: 6 по упражнениям для лица, 4 по миофункциональной терапии, 2 по ручному массажу), сообщалось об улучшениях, ограниченных отдельными зонами, такими как щёки, линия челюсти и область вокруг глаз, и об отсутствии нежелательных явлений; однако авторы пришли к выводу, что из-за разнородности методов и малых выборок данных по-прежнему недостаточно, чтобы уверенно установить эффективность.",
+      "ar": "في مراجعة منهجية وفق منهجية PRISMA للتقنيات الميكانيكية المحافظة لتجديد شباب الوجه (12 دراسة شملت 321 امرأة تتراوح أعمارهن بين 30 و70 عامًا: 6 عن تمارين الوجه و4 عن العلاج الوظيفي العضلي و2 عن التدليك اليدوي)، أُبلغ عن تحسّنات اقتصرت على مناطق محددة مثل الخدين وخط الفك ومحيط العينين ولم تُسجَّل أحداث ضارة؛ لكن المراجعة خلصت إلى أنه، نظرًا لتباين الطرق وصغر العيّنات، لا تزال الأدلة غير كافية لإثبات الفعالية بثقة."
+     },
+     "sources": [
+      {
+       "pmid": "41322034",
+       "doi": "10.1093/asjof/ojaf144",
+       "title": "Efficacy of Conservative Techniques for Mechanical Facial Rejuvenation: A Systematic Review.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/41322034/"
+      }
+     ]
+    },
+    {
+     "id": "facial-massage-2",
+     "level": "C",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a randomised trial of 34 women aged 20 to 50 assigned to facial roller (n = 17) or gua sha (n = 17) massage for 10 minutes, five times a week for 8 weeks, both groups showed reductions of a few millimetres in facial surface-distance measurements (2.23 to 2.40 mm with gua sha; 2.75 to 3.26 mm with the roller); muscle-tone parameters changed in the gua sha group and skin-elasticity indices (R2, R7) rose in the roller group. There was no non-massage control group, so changes cannot be separated from other factors; this is a single small study.",
+      "uz": "20 yoshdan 50 yoshgacha bo‘lgan 34 nafar ayol ishtirok etgan randomizatsiyalangan tadqiqotda ishtirokchilar yuz roligi (n = 17) yoki gua sha (n = 17) massajiga taqsimlangan, massaj haftasiga besh marta 10 daqiqadan 8 hafta davomida o‘tkazilgan; ikkala guruhda ham yuz sirtidagi masofa o‘lchovlarida bir necha millimetrga kamayish kuzatilgan (gua shada 2,23 dan 2,40 mm gacha; rolikda 2,75 dan 3,26 mm gacha); mushak tonusi ko‘rsatkichlari gua sha guruhida o‘zgargan, teri elastikligi indekslari (R2, R7) esa rolik guruhida oshgan. Massaj qilinmagan nazorat guruhi bo‘lmagan, shu sababli o‘zgarishlarni boshqa omillardan ajratib bo‘lmaydi; bu bitta kichik tadqiqotdir.",
+      "ru": "В рандомизированном исследовании с участием 34 женщин в возрасте от 20 до 50 лет, распределённых на массаж лицевым роликом (n = 17) или гуаша (n = 17) по 10 минут пять раз в неделю в течение 8 недель, в обеих группах отмечено уменьшение на несколько миллиметров показателей расстояний по поверхности лица (от 2,23 до 2,40 мм при гуаша; от 2,75 до 3,26 мм при ролике); показатели мышечного тонуса изменились в группе гуаша, а показатели эластичности кожи (R2, R7) выросли в группе ролика. Контрольной группы без массажа не было, поэтому изменения нельзя отделить от других факторов; это одно небольшое исследование.",
+      "ar": "في دراسة عشوائية شملت 34 امرأة تتراوح أعمارهن بين 20 و50 عامًا وُزّعن على تدليك بأسطوانة الوجه (n = 17) أو بحجر الغواشا (n = 17) لمدة 10 دقائق خمس مرات أسبوعيًا على مدى 8 أسابيع، أظهرت المجموعتان انخفاضًا بضعة مليمترات في قياسات المسافات على سطح الوجه (من 2.23 إلى 2.40 مم مع الغواشا؛ ومن 2.75 إلى 3.26 مم مع الأسطوانة)؛ وتغيّرت مؤشرات توتر العضلات في مجموعة الغواشا، بينما ارتفعت مؤشرات مرونة الجلد (R2 وR7) في مجموعة الأسطوانة. لم تكن هناك مجموعة ضابطة بلا تدليك، لذا لا يمكن فصل التغيرات عن عوامل أخرى؛ وهذه دراسة واحدة صغيرة."
+     },
+     "sources": [
+      {
+       "pmid": "40439289",
+       "doi": "10.1111/jocd.70236",
+       "title": "Comparative Effects of Facial Roller and Gua Sha Massage on Facial Contour, Muscle Tone, and Skin Elasticity: Randomized Controlled Trial.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40439289/"
+      }
+     ]
+    },
+    {
+     "id": "facial-massage-3",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In an observational study of 142 women in New Delhi beauty parlours (169 treatment episodes, 12 weeks of follow-up) who received salon facial treatments consisting of vigorous cream massage, steaming and a face mask, redness and puffiness appeared in 61 episodes and lasted 2 to 6 hours, mild dermatitis followed in 8 episodes, patch tests were positive to a treatment constituent in 4 women, and an acne-like eruption appeared 3 to 10 weeks later in 47 women (33.1%); women also reported feelings of freshness (59.1%) and, less often, delayed wrinkles (14.8%). The effects of massage cannot be separated from steaming, masks and comedone extraction, and benefits were self-reported.",
+      "uz": "Nyu-Dehlidagi go‘zallik salonlarida 142 nafar ayol (169 ta muolaja, 12 haftalik kuzatuv) ishtirok etgan kuzatuv tadqiqotida, ular kuchli krem massaji, bug‘lash va yuz niqobidan iborat salon yuz muolajalarini olgan; 61 ta muolajada qizarish va shish paydo bo‘lib, 2 soatdan 6 soatgacha davom etgan, 8 ta muolajadan keyin yengil dermatit rivojlangan, 4 nafar ayolda sinama (patch) testlari muolaja tarkibiy qismlariga musbat chiqqan, 47 nafar ayolda (33,1%) 3 dan 10 haftagacha o‘tib aknega o‘xshash toshma paydo bo‘lgan; ayollar shuningdek tetiklik hissini (59,1%) va kamroq hollarda ajinlarning kechikishini (14,8%) qayd etgan. Massaj ta‘sirini bug‘lash, niqoblar va komedonlarni olib tashlashdan ajratib bo‘lmaydi, foydalar esa ishtirokchilarning o‘z bahosiga asoslangan.",
+      "ru": "В наблюдательном исследовании с участием 142 женщин в салонах красоты Нью-Дели (169 процедур, наблюдение 12 недель), получавших салонные процедуры для лица, состоявшие из энергичного массажа с кремом, пропаривания и маски для лица, покраснение и отёчность появились после 61 процедуры и длились от 2 до 6 часов, лёгкий дерматит последовал после 8 процедур, патч-тесты оказались положительными на компонент процедуры у 4 женщин, а акнеподобные высыпания появились через 3–10 недель у 47 женщин (33,1%); женщины также сообщали о чувстве свежести (59,1%) и, реже, об отсрочке появления морщин (14,8%). Эффекты массажа нельзя отделить от пропаривания, масок и удаления комедонов, а пользу оценивали сами участницы.",
+      "ar": "في دراسة رصدية شملت 142 امرأة في صالونات تجميل بنيودلهي (169 جلسة، ومتابعة 12 أسبوعًا) تلقّين جلسات عناية بالوجه في الصالونات تتألف من تدليك قوي بالكريم والتبخير وقناع للوجه، ظهر احمرار وانتفاخ في 61 جلسة واستمر من ساعتين إلى 6 ساعات، وتبعه التهاب جلد خفيف في 8 جلسات، وكانت اختبارات اللصقة (patch test) إيجابية تجاه أحد مكوّنات الجلسة لدى 4 نساء، وظهر طفح يشبه حب الشباب بعد 3 إلى 10 أسابيع لدى 47 امرأة (33.1%)؛ كما أبلغت النساء عن شعور بالانتعاش (59.1%) وبدرجة أقل عن تأخر ظهور التجاعيد (14.8%). لا يمكن فصل أثر التدليك عن التبخير والأقنعة واستخراج الرؤوس السوداء، وكانت الفوائد بتقدير المشاركات أنفسهن."
+     },
+     "sources": [
+      {
+       "pmid": "12121555",
+       "doi": "10.1046/j.1365-4362.2002.01511.x",
+       "title": "Rejuvenating facial massage--a bane or boon?",
+       "year": 2002,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/12121555/"
+      }
+     ]
+    },
+    {
+     "id": "facial-massage-4",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In a small prospective intra-subject study of 17 healthy women aged 38 to 55 who had a cosmetic product applied by a beautician with standardized facial gestures, a 60-second smoothing-and-press gesture was associated with lower stress, greater comfort and more positive emotional valence on EEG and questionnaires than a smoothing-only gesture. The findings concern short-term emotional response only; no skin outcomes were measured.",
+      "uz": "Kosmetolog standartlashtirilgan yuz harakatlari bilan kosmetik vosita surtgan 38 yoshdan 55 yoshgacha bo‘lgan 17 nafar sog‘lom ayol ishtirok etgan kichik prospektiv ichki-sub‘ekt tadqiqotida 60 soniyalik silash va bosish harakati faqat silash harakatiga nisbatan EEG va so‘rovnomalarda pastroq stress, yuqoriroq qulaylik va ijobiyroq hissiy valentlik bilan bog‘langan. Natijalar faqat qisqa muddatli hissiy javobga tegishli; teri ko‘rsatkichlari o‘lchanmagan.",
+      "ru": "В небольшом проспективном внутрисубъектном исследовании с участием 17 здоровых женщин в возрасте от 38 до 55 лет, которым косметолог наносил косметическое средство стандартизированными движениями для лица, 60-секундное движение с разглаживанием и надавливанием было связано с более низким стрессом, большим комфортом и более положительной эмоциональной валентностью по данным ЭЭГ и опросников, чем движение только с разглаживанием. Результаты относятся лишь к кратковременной эмоциональной реакции; показатели кожи не измерялись.",
+      "ar": "في دراسة استباقية صغيرة داخل الأفراد شملت 17 امرأة سليمة تتراوح أعمارهن بين 38 و55 عامًا وضعت لهن أخصائية تجميل منتجًا تجميليًا بحركات وجه معيارية، ارتبطت حركة تنعيم وضغط مدتها 60 ثانية بتوتر أقل وراحة أكبر وقيمة انفعالية أكثر إيجابية بحسب تخطيط الدماغ (EEG) والاستبيانات مقارنةً بحركة تنعيم فقط. تتعلق النتائج بالاستجابة الانفعالية قصيرة المدى فقط؛ ولم تُقَس مؤشرات البشرة."
+     },
+     "sources": [
+      {
+       "pmid": "41657126",
+       "doi": "10.1111/ics.70086",
+       "title": "Changes in emotional response towards different facial application gestures following skincare application: An electroencephalogram approach.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/41657126/"
+      }
+     ]
+    },
+    {
+     "id": "facial-massage-5",
+     "level": "insufficient",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In an ex vivo porcine ear skin model using fluorescent dyes as surrogates for active ingredients, professional cosmetic skin treatments that included massage were associated with higher skin hydration and greater dye penetration than treatments without massage, with results depending on treatment type, lipophilicity and timing. This is animal-skin laboratory evidence and does not show effects on human facial skin.",
+      "uz": "Faol moddalar o‘rnini bosuvchi lyuminestsent bo‘yoqlar ishlatilgan cho‘chqa quloq terisidagi ex vivo modelda massajni o‘z ichiga olgan professional kosmetik teri muolajalari massajsiz muolajalarga nisbatan terining yuqoriroq namlanishi va bo‘yoqning kuchliroq kirib borishi bilan bog‘langan; natijalar muolaja turi, lipofillik va vaqtga bog‘liq bo‘lgan. Bu hayvon terisida o‘tkazilgan laboratoriya dalili bo‘lib, odam yuz terisiga ta‘sirni ko‘rsatmaydi.",
+      "ru": "В ex vivo модели на коже свиного уха с флуоресцентными красителями в качестве заменителей активных ингредиентов профессиональные косметические процедуры для кожи, включавшие массаж, были связаны с более высокой гидратацией кожи и более выраженным проникновением красителя, чем процедуры без массажа; результаты зависели от вида процедуры, липофильности и времени. Это лабораторные данные на коже животного, и они не показывают эффектов на коже лица человека.",
+      "ar": "في نموذج خارج الجسم الحي (ex vivo) على جلد أذن خنزير باستخدام أصباغ فلورية بديلة للمكوّنات الفعّالة، ارتبطت المعالجات التجميلية المهنية للبشرة التي شملت التدليك بترطيب أعلى للجلد وبنفاذ أكبر للصبغة مقارنةً بالمعالجات دون تدليك، وتوقفت النتائج على نوع المعالجة والألفة للدهون والتوقيت. هذه أدلة مخبرية على جلد حيواني ولا تُظهر تأثيرات على جلد وجه الإنسان."
+     },
+     "sources": [
+      {
+       "pmid": "36145538",
+       "doi": "10.3390/pharmaceutics14091788",
+       "title": "Influence of Mechanical Skin Treatments on Dermal Penetration Efficacy of Active Ingredients.",
+       "year": 2022,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/36145538/"
       }
      ]
     }
@@ -1304,6 +1695,12 @@
    "slug": "green-tea",
    "status": "draft",
    "category": "natural",
+   "names": {
+    "uz": "Yashil choy",
+    "ru": "Зелёный чай",
+    "en": "Green tea",
+    "ar": "الشاي الأخضر"
+   },
    "aliases": [
     "Green Tea",
     "Camellia Sinensis (Green Tea) Leaf Extract"
@@ -1422,10 +1819,183 @@
    ]
   },
   {
+   "inci": "Gua sha",
+   "slug": "gua-sha",
+   "status": "draft",
+   "category": "practice",
+   "names": {
+    "uz": "Gua sha",
+    "ru": "Гуаша",
+    "en": "Gua sha",
+    "ar": "الغواشا"
+   },
+   "aliases": [],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Gua sha is a traditional East Asian scraping technique in which a smooth-edged tool is pressed and stroked over the skin; in cosmetic care it is used as a facial massage tool, alongside similar tools such as facial rollers. It is a care method, not an ingredient. Research specific to cosmetic gua sha is very limited: the few small studies found measured facial contour, muscle tone and skin blood flow, and none was long-term. Most safety information comes from traditional or medical use and from case reports of bruising and skin injury; in traditional use, marks such as petechiae and ecchymosis (bruising) are often produced intentionally. The sources reviewed did not address specific precautions (for example bleeding disorders, anticoagulant use, active acne, rosacea, damaged skin); such questions are for a qualified clinician. This card summarises published evidence only and is not medical advice.",
+    "uz": "Gua sha — Sharq an‘anaviy tabobatida qo‘llaniladigan skreblash usuli bo‘lib, unda silliq qirrali asbob teri ustida bosim bilan suriladi; kosmetik parvarishda u yuz massaji asbobi sifatida, yuz roliklari kabi o‘xshash asboblar qatorida ishlatiladi. Bu parvarish usuli, ingredient emas. Kosmetik gua sha bo‘yicha tadqiqotlar juda kam: topilgan bir nechta kichik tadqiqotda yuz konturi, mushak tonusi va teri qon oqimi o‘lchangan, ularning hech biri uzoq muddatli emas. Xavfsizlik ma‘lumotlarining aksariyati an‘anaviy yoki tibbiy qo‘llanishdan hamda ko‘karish va teri shikastlanishi haqidagi hodisa hisobotlaridan keladi; an‘anaviy qo‘llanishda petexiya va ekximoz (ko‘karish) kabi izlar ko‘pincha ataylab hosil qilinadi. Ko‘rib chiqilgan manbalarda aniq ehtiyot jihatlari (masalan, qon ivishi buzilishlari, antikoagulyantlar qabul qilish, faol akne, rozatsea, shikastlangan teri) yoritilmagan; bunday savollar malakali shifokorga tegishli. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Гуаша — традиционная восточная техника скрайбинга (соскабливания), при которой гладкий по краю инструмент с нажимом проводят по коже; в косметическом уходе её применяют как инструмент для массажа лица наряду с похожими инструментами, например роллерами для лица. Это метод ухода, а не ингредиент. Исследований косметической гуаша очень мало: в нескольких найденных небольших исследованиях измеряли контур лица, тонус мышц и кровоток кожи, и ни одно не было долгосрочным. Большая часть данных о безопасности получена из традиционного или медицинского применения и из описаний клинических случаев синяков и повреждений кожи; при традиционном применении следы, такие как петехии и экхимозы (синяки), часто вызываются намеренно. В рассмотренных источниках не освещены конкретные меры предосторожности (например, нарушения свёртывания крови, приём антикоагулянтов, активные акне, розацеа, повреждённая кожа); такие вопросы относятся к компетенции квалифицированного врача. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "الغواشا (Gua sha) أسلوب تقليدي شرق آسيوي يقوم على الكشط، يُمرَّر فيه أداة ذات حافة ملساء على الجلد مع ضغط؛ وفي العناية التجميلية تُستخدم كأداة لتدليك الوجه إلى جانب أدوات مشابهة مثل رولر الوجه. وهي طريقة عناية وليست مكوّنًا. الأبحاث الخاصة بالغواشا التجميلية قليلة جدًا: ففي عدد قليل من الدراسات الصغيرة التي وُجدت قيس محيط الوجه وتوتر العضلات وتدفق الدم في الجلد، ولم تكن أي منها طويلة الأمد. ويأتي معظم المعلومات عن السلامة من الاستخدام التقليدي أو الطبي ومن تقارير حالات عن كدمات وإصابات جلدية؛ وفي الاستخدام التقليدي تُحدَث علامات مثل النقطات النزفية (petechiae) والكدمات (ecchymosis) عادةً عن قصد. ولم تتناول المصادر التي روجعت احتياطات محددة (مثل اضطرابات تخثر الدم، وتناول مضادات التخثر، وحب الشباب النشط، والوردية، والجلد المتضرر)؛ وهذه الأسئلة من اختصاص طبيب مؤهل. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "gua-sha-1",
+     "level": "C",
+     "studyType": "RCT",
+     "text": {
+      "en": "In an eight-week randomised comparison of 34 women aged 20 to 50 (17 per group) with no untreated or sham control, both facial gua sha and facial roller massage (10 minutes, five times per week) were associated with small reductions in measured facial surface distances (about 2.2 to 3.3 mm); gua sha was associated with changes in muscle tone measures and the roller with higher skin elasticity indices. The small sample, short duration and lack of an inactive control mean the effects cannot be attributed to the tools themselves.",
+      "uz": "20 yoshdan 50 yoshgacha bo‘lgan 34 nafar ayol (har guruhda 17 nafar) ishtirok etgan, davolanmagan yoki soxta nazorat guruhi bo‘lmagan sakkiz haftalik randomizatsiyalangan solishtirishda yuz gua shasi ham, yuz roliker massaji ham (10 daqiqadan, haftasiga besh marta) yuz sirtidagi o‘lchangan masofalarning kichik kamayishi (taxminan 2,2 dan 3,3 mm gacha) bilan bog‘langan; gua sha mushak tonusi ko‘rsatkichlarining o‘zgarishi bilan, roliker esa teri elastikligi indekslarining yuqoriroq bo‘lishi bilan bog‘langan. Tanlama kichikligi, qisqa muddat va faol bo‘lmagan nazoratning yo‘qligi sababli natijalarni asboblarning o‘ziga bog‘lab bo‘lmaydi.",
+      "ru": "В восьминедельном рандомизированном сравнении 34 женщин в возрасте от 20 до 50 лет (по 17 в группе), без контрольной группы без вмешательства или с имитацией, и массаж лица гуаша, и массаж лицевым роллером (по 10 минут пять раз в неделю) были связаны с небольшим уменьшением измеренных поверхностных расстояний на лице (примерно от 2,2 до 3,3 мм); гуаша было связано с изменением показателей тонуса мышц, а роллер — с более высокими показателями эластичности кожи. Малая выборка, короткая продолжительность и отсутствие неактивного контроля не позволяют приписывать эффекты самим инструментам.",
+      "ar": "في مقارنة عشوائية استمرت ثمانية أسابيع شملت 34 امرأة تتراوح أعمارهن بين 20 و50 عامًا (17 في كل مجموعة) دون مجموعة ضابطة غير معالجة أو وهمية، ارتبط كل من غواشا الوجه وتدليك رولر الوجه (10 دقائق، خمس مرات أسبوعيًا) بانخفاضات صغيرة في المسافات السطحية المقيسة للوجه (نحو 2.2 إلى 3.3 ملم)؛ وارتبطت الغواشا بتغيرات في مقاييس توتر العضلات، وارتبط الرولر بارتفاع مؤشرات مرونة الجلد. ولأن العيّنة صغيرة والمدة قصيرة ولا توجد مجموعة ضابطة غير فعّالة، لا يمكن عزو النتائج إلى الأدوات نفسها."
+     },
+     "sources": [
+      {
+       "pmid": "40439289",
+       "doi": "10.1111/jocd.70236",
+       "title": "Comparative Effects of Facial Roller and Gua Sha Massage on Facial Contour, Muscle Tone, and Skin Elasticity: Randomized Controlled Trial.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40439289/"
+      }
+     ]
+    },
+    {
+     "id": "gua-sha-2",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "Two small studies measured skin blood flow: an uncontrolled pilot in 11 healthy volunteers found increased surface microcirculation on laser Doppler for 25 minutes after a single gua sha session on the back (no adverse reactions reported), and a study of 12 people (short-term) and 14 people (five-week daily use) found that a facial massage roller on the cheek was associated with higher cheek skin blood flow for at least 10 minutes and a larger vasodilatation response to heat. One studied the back and the other used a roller rather than gua sha; neither assessed lasting changes in skin appearance or swelling, so no appearance benefit can be inferred.",
+      "uz": "Ikkita kichik tadqiqotda teri qon oqimi o‘lchangan: 11 nafar sog‘lom ko‘ngilli ishtirok etgan nazoratsiz pilot tadqiqotda orqaga bitta gua sha seansidan keyin 25 daqiqa davomida lazer Doppler bo‘yicha sirt mikrosirkulyatsiyasining ortishi aniqlangan (nojo‘ya reaksiyalar qayd etilmagan); 12 kishi (qisqa muddatli) va 14 kishi (besh haftalik kunlik foydalanish) ishtirok etgan tadqiqotda esa yonoqqa qo‘llangan yuz massaj rolikeri kamida 10 daqiqa davomida yonoq teri qon oqimining yuqoriroq bo‘lishi va issiqlikka vazodilatatsiya javobining kuchliroq bo‘lishi bilan bog‘langan. Birinchisi orqa sohani o‘rgangan, ikkinchisida gua sha emas, roliker ishlatilgan; ikkalasi ham terining tashqi ko‘rinishi yoki shishdagi uzoq muddatli o‘zgarishlarni baholamagan, shu sababli ko‘rinishga foyda borligini xulosa qilib bo‘lmaydi.",
+      "ru": "В двух небольших исследованиях измеряли кровоток кожи: в неконтролируемом пилотном исследовании с 11 здоровыми добровольцами после одного сеанса гуаша на спине в течение 25 минут отмечено усиление поверхностной микроциркуляции по данным лазерной допплерографии (нежелательных реакций не отмечено); в исследовании с 12 участниками (краткосрочное) и 14 участниками (пять недель ежедневного использования) массажный роллер для лица на щеке был связан с более высоким кровотоком кожи щеки не менее 10 минут и с более выраженной сосудорасширяющей реакцией на тепло. Одно исследование касалось спины, а в другом использовался роллер, а не гуаша; ни в одном не оценивали устойчивые изменения внешнего вида кожи или отёчности, поэтому пользу для внешнего вида вывести нельзя.",
+      "ar": "قاست دراستان صغيرتان تدفق الدم في الجلد: ففي دراسة تجريبية غير مضبوطة شملت 11 متطوعًا سليمًا، لوحظ ازدياد في الدورة الدموية الدقيقة السطحية بالدوبلر الليزري لمدة 25 دقيقة بعد جلسة غواشا واحدة على الظهر (ولم تُسجَّل تفاعلات ضائرة)؛ وفي دراسة شملت 12 شخصًا (قصيرة الأمد) و14 شخصًا (استخدام يومي لخمسة أسابيع)، ارتبط استخدام رولر تدليك الوجه على الخد بارتفاع تدفق الدم في جلد الخد لمدة 10 دقائق على الأقل وباستجابة أكبر لتوسّع الأوعية عند التعرض للحرارة. تناولت إحداهما الظهر واستخدمت الأخرى الرولر لا الغواشا؛ ولم تقيّم أي منهما تغيرات دائمة في مظهر الجلد أو التورّم، ولذلك لا يمكن استنتاج فائدة في المظهر."
+     },
+     "sources": [
+      {
+       "pmid": "17905355",
+       "doi": "10.1016/j.explore.2007.06.001",
+       "title": "The effect of Gua Sha treatment on the microcirculation of surface tissue: a pilot study in healthy subjects.",
+       "year": 2007,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/17905355/"
+      },
+      {
+       "pmid": "30477852",
+       "doi": "10.1016/j.ctim.2018.09.009",
+       "title": "Short- and long-term effects of using a facial massage roller on facial skin blood flow and vascular reactivity.",
+       "year": 2018,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/30477852/"
+      }
+     ]
+    },
+    {
+     "id": "gua-sha-3",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "Reviews describe traditional gua sha as instrument-assisted friction that intentionally produces petechiae and ecchymosis (bruising). One review noted that blood can sometimes be drawn through the skin surface, creating a risk of instrument contamination and bloodborne pathogen exposure, stated that safety standards for gua sha were not sufficiently addressed in the literature or professional standards, and proposed hospital-based safety protocols for instruments. These reviews concern traditional and clinical practice; they did not assess gentle cosmetic facial use.",
+      "uz": "Sharhlarda an‘anaviy gua sha asbob yordamida ishqalash sifatida ta‘riflanadi, u ataylab petexiya va ekximoz (ko‘karish) hosil qiladi. Bir sharhda qon ba‘zan teri yuzasi orqali chiqishi mumkinligi, bu asboblarning ifloslanishi va qon orqali yuqadigan patogenlar ta‘siri xavfini tug‘dirishi qayd etilgan, gua sha xavfsizlik standartlari adabiyotda ham, kasbiy standartlarda ham yetarli yoritilmaganligi aytilgan va asboblar uchun kasalxona standartlariga asoslangan xavfsizlik protokollari taklif qilingan. Bu sharhlar an‘anaviy va klinik amaliyotga tegishli; ular yengil kosmetik yuz qo‘llanishini baholamagan.",
+      "ru": "В обзорах традиционная гуаша описывается как трение с помощью инструмента, намеренно вызывающее петехии и экхимозы (синяки). В одном обзоре отмечено, что кровь иногда может выступать через поверхность кожи, что создаёт риск загрязнения инструментов и воздействия патогенов, передающихся через кровь; указано, что стандарты безопасности для гуаша недостаточно освещены ни в литературе, ни в профессиональных стандартах, и предложены протоколы безопасности для инструментов на основе больничных стандартов. Эти обзоры касаются традиционной и клинической практики; они не оценивали мягкое косметическое применение на лице.",
+      "ar": "تصف المراجعات الغواشا التقليدية بأنها احتكاك بمساعدة أداة يُحدث عن قصد نقطات نزفية (petechiae) وكدمات (ecchymosis). وأشارت إحدى المراجعات إلى أن الدم قد يخرج أحيانًا عبر سطح الجلد، مما يخلق خطر تلوّث الأدوات والتعرض للعوامل الممرضة المنقولة بالدم، وذكرت أن معايير السلامة الخاصة بالغواشا لم تُعالَج بما يكفي في الأدبيات ولا في المعايير المهنية، واقترحت بروتوكولات سلامة للأدوات مستندة إلى معايير المستشفيات. وتتعلق هذه المراجعات بالممارسة التقليدية والسريرية؛ ولم تقيّم الاستخدام التجميلي اللطيف للوجه."
+     },
+     "sources": [
+      {
+       "pmid": "22863649",
+       "doi": "10.1016/j.ctim.2012.05.004",
+       "title": "Safety protocols for gua sha (press-stroking) and baguan (cupping).",
+       "year": 2012,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/22863649/"
+      },
+      {
+       "pmid": "42729907",
+       "doi": "10.7759/cureus.114412",
+       "title": "Mechanisms Underlying the Beneficial Effects of Scraping Therapy: A Review of Articles.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42729907/"
+      }
+     ]
+    },
+    {
+     "id": "gua-sha-4",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "Published case reports describe skin and other adverse findings after gua sha or related coin-rubbing therapy: two reports are titled or indexed as ecchymosis (and purpura) related to gua sha (abstracts not available in PubMed; this statement rests on titles and indexing only); a forensic report of Indonesian coin-rubbing therapy described abrasions, blisters and bruises on the forehead, nose, chin and neck that could raise suspicion of inflicted injury (the cause of death in that case was myocarditis); and a separate case report is titled as acute epiglottitis following gua sha, which indicates a temporal association only. Case reports cannot show how often such events occur.",
+      "uz": "Chop etilgan hodisa hisobotlarida gua sha yoki unga yaqin tanga bilan ishqalash usulidan keyingi teri va boshqa nojo‘ya holatlar tasvirlangan: ikkita hisobot gua shaga bog‘liq ekximoz (va purpura) deb nomlangan yoki shunday indekslangan (annotatsiyalar PubMed‘da mavjud emas; bu ibora faqat sarlavha va indekslashga tayanadi); Indoneziya tanga bilan ishqalash usuli haqidagi sud-tibbiy hisobotda peshona, burun, iyak va bo‘yindagi shilinishlar, pufakchalar va ko‘karishlar tasvirlangan, ular shikastlash haqida shubha tug‘dirishi mumkin (o‘sha holatda o‘lim sababi miokardit bo‘lgan); alohida hodisa hisoboti esa gua shadan keyingi o‘tkir epiglottit deb nomlangan, bu faqat vaqt bo‘yicha bog‘liqlikni bildiradi. Hodisa hisobotlari bunday holatlar qanchalik tez-tez uchrashini ko‘rsata olmaydi.",
+      "ru": "В опубликованных описаниях клинических случаев приводятся кожные и другие нежелательные явления после гуаша или родственной терапии натиранием монетой: два сообщения названы или проиндексированы как экхимозы (и пурпура), связанные с гуаша (аннотации в PubMed недоступны; это утверждение основано только на заголовках и индексации); в судебно-медицинском сообщении об индонезийской терапии натиранием монетой описаны ссадины, пузыри и синяки на лбу, носу, подбородке и шее, которые могут вызвать подозрение на причинение травмы (причиной смерти в том случае был миокардит); отдельное описание случая названо как острый эпиглоттит после гуаша, что указывает лишь на временную связь. Описания случаев не позволяют судить о частоте таких событий.",
+      "ar": "تصف تقارير حالات منشورة موجودات جلدية وأخرى ضائرة بعد الغواشا أو العلاج المرتبط بها بفرك العملة المعدنية: تقريران عنوانهما أو فهرستهما يشير إلى كدمات (ecchymosis) وفرفرية مرتبطة بالغواشا (الملخصات غير متاحة في PubMed؛ وهذه العبارة تستند إلى العناوين والفهرسة فقط)؛ وتقرير للطب الشرعي عن علاج إندونيسي بفرك العملة المعدنية وصف سحجات وبثورًا وكدمات على الجبهة والأنف والذقن والعنق قد تثير الاشتباه في إصابة متعمدة (وكان سبب الوفاة في تلك الحالة التهاب عضلة القلب)؛ وتقرير حالة منفصل عنوانه التهاب لسان المزمار الحاد بعد الغواشا، وهو يدل على ارتباط زمني فقط. ولا تستطيع تقارير الحالات بيان مدى تكرار هذه الأحداث."
+     },
+     "sources": [
+      {
+       "pmid": "19998008",
+       "doi": "10.1007/s00508-009-1266-8",
+       "title": "An unusual pattern of Ecchymosis related to Gua Sha.",
+       "year": 2009,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/19998008/"
+      },
+      {
+       "pmid": "23789609",
+       "doi": "10.1111/j.1365-4632.2011.05063.x",
+       "title": "Report of a case of Gua Sha and an awareness of folk remedies.",
+       "year": 2013,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/23789609/"
+      },
+      {
+       "pmid": "32501165",
+       "doi": "10.1177/0025802420926867",
+       "title": "Potential forensic implications oftherapy - a traditional Indonesian therapy associated with neck bruising.",
+       "year": 2020,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/32501165/"
+      },
+      {
+       "pmid": "24277709",
+       "doi": "10.1503/cmaj.130919",
+       "title": "Acute epiglottitis following traditional Chinese gua sha therapy.",
+       "year": 2013,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/24277709/"
+      }
+     ]
+    },
+    {
+     "id": "gua-sha-5",
+     "level": "insufficient",
+     "studyType": "systematic review",
+     "text": {
+      "en": "Systematic reviews of gua sha in medical contexts, used here only for safety information and not as evidence of cosmetic benefit, report limited safety data: a meta-analysis of traditional Chinese medicine for neck and low back pain (75 randomised trials) found no serious or life-threatening adverse effects but could not draw definite conclusions about gua sha, and a 2026 meta-analysis of 16 randomised trials of gua sha for post-stroke spasticity rated the certainty of evidence as very low and called for standardised adverse event monitoring and further study of the complete safety profile.",
+      "uz": "Tibbiy kontekstdagi gua sha bo‘yicha tizimli sharhlar (bu yerda faqat xavfsizlik ma‘lumoti uchun ishlatilgan, kosmetik foyda dalili sifatida emas) xavfsizlik ma‘lumotlari cheklanganligini ko‘rsatadi: bo‘yin va bel og‘rig‘i uchun an‘anaviy Xitoy tibbiyoti bo‘yicha meta-tahlil (75 ta randomizatsiyalangan tadqiqot) jiddiy yoki hayot uchun xavfli nojo‘ya ta‘sirlarni aniqlamagan, ammo gua sha haqida aniq xulosa chiqara olmagan; insultdan keyingi spastiklik uchun gua sha bo‘yicha 2026-yilgi 16 ta randomizatsiyalangan tadqiqotning meta-tahlili esa dalillar ishonchliligini juda past deb baholagan va nojo‘ya hodisalarni standartlashtirilgan kuzatish hamda to‘liq xavfsizlik profilini qo‘shimcha o‘rganishga chaqirgan.",
+      "ru": "Систематические обзоры гуаша в медицинском контексте, использованные здесь только для сведений о безопасности, а не как доказательство косметической пользы, сообщают об ограниченных данных по безопасности: метаанализ традиционной китайской медицины при боли в шее и пояснице (75 рандомизированных исследований) не выявил серьёзных или угрожающих жизни нежелательных эффектов, но не позволил сделать определённых выводов о гуаша; метаанализ 2026 года 16 рандомизированных исследований гуаша при спастичности после инсульта оценил достоверность доказательств как очень низкую и призвал к стандартизированному мониторингу нежелательных явлений и дальнейшему изучению полного профиля безопасности.",
+      "ar": "تفيد مراجعات منهجية للغواشا في سياقات طبية، استُخدمت هنا للمعلومات عن السلامة فقط وليس كدليل على فائدة تجميلية، بأن بيانات السلامة محدودة: فقد وجد تحليل تلوي للطب الصيني التقليدي لألم الرقبة وأسفل الظهر (75 تجربة عشوائية) أنه لا توجد آثار ضائرة خطيرة أو مهددة للحياة، لكنه لم يتمكن من استخلاص نتائج قاطعة بشأن الغواشا؛ وقيّم تحليل تلوي لعام 2026 لـ16 تجربة عشوائية عن الغواشا لتشنج ما بعد السكتة الدماغية يقين الأدلة بأنه منخفض جدًا، ودعا إلى رصد موحّد للأحداث الضائرة ومزيد من دراسة ملف السلامة الكامل."
+     },
+     "sources": [
+      {
+       "pmid": "25710765",
+       "doi": "10.1371/journal.pone.0117146",
+       "title": "Traditional Chinese medicine for neck pain and low back pain: a systematic review and meta-analysis.",
+       "year": 2015,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/25710765/"
+      },
+      {
+       "pmid": "42858090",
+       "doi": "10.3791/71890",
+       "title": "Gua Sha (Scraping Therapy) for Spasticity After Stroke: Systematic Review and Meta-Analysis of RCTs with Integrated Preclinical Mechanistic Synthesis.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42858090/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "inci": "Mel",
    "slug": "honey",
    "status": "draft",
    "category": "natural",
+   "names": {
+    "uz": "Asal",
+    "ru": "Мёд",
+    "en": "Honey",
+    "ar": "عسل"
+   },
    "aliases": [
     "Honey"
    ],
@@ -1523,10 +2093,144 @@
    ]
   },
   {
+   "inci": "Citrus Limon Fruit Juice",
+   "slug": "lemon-juice",
+   "status": "draft",
+   "category": "caution",
+   "names": {
+    "uz": "Limon sharbati",
+    "ru": "Лимонный сок",
+    "en": "Lemon juice",
+    "ar": "عصير الليمون"
+   },
+   "aliases": [
+    "Lemon Juice",
+    "Citrus Limon (Lemon) Juice"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Lemon juice (INCI: Citrus Limon Fruit Juice; lime juice raises a similar concern) is sometimes applied undiluted to the face as a home practice for skin lightening, dark spots or acne. In the PubMed searches done for this card, no clinical study showing a skin benefit of directly applied lemon or lime juice was found. The published sources located are mainly case reports, one retrospective burn-centre study and narrative reviews; they describe sun-related skin injury (phytophotodermatitis) after contact with citrus juice or peel followed by sunlight exposure. Sources on the acidity (pH) of undiluted juice and on irritant or allergic reactions to the juice itself were not found, and these cases cannot show how often such reactions occur. This card summarises published evidence only and is not medical advice.",
+    "uz": "Limon sharbati (INCI: Citrus Limon Fruit Juice; laym sharbati ham shunga o‘xshash xavf tug‘diradi) ba‘zan terini oqartirish, dog‘lar yoki akne uchun uy vositasi sifatida yuzga suyultirilmagan holda to‘g‘ridan-to‘g‘ri surtiladi. Ushbu kartochka uchun PubMed‘da o‘tkazilgan qidiruvlarda to‘g‘ridan-to‘g‘ri surtilgan limon yoki laym sharbatining teri uchun foydasini ko‘rsatuvchi klinik tadqiqot topilmadi. Topilgan nashr etilgan manbalar asosan alohida hodisa hisobotlari, kuyish markazidagi bitta retrospektiv tadqiqot va hikoyaviy sharhlardan iborat; ular sitrus sharbati yoki po‘stlog‘i bilan teginishdan keyin quyosh nuri ta‘siri natijasida teri shikastlanishini (fitofotodermatit) tasvirlaydi. Suyultirilmagan sharbatning kislotaliligi (pH) va sharbatning o‘ziga bo‘lgan ta‘sirlanish yoki allergik reaksiyalar haqidagi manbalar topilmadi, bunday holatlar esa reaksiyalar qanchalik tez-tez uchrashini ko‘rsata olmaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Лимонный сок (INCI: Citrus Limon Fruit Juice; сок лайма вызывает схожее опасение) иногда наносят на лицо в неразбавленном виде как домашнее средство для осветления кожи, против пятен или акне. В поисках по PubMed, выполненных для этой карточки, клинических исследований, показывающих пользу для кожи напрямую нанесённого сока лимона или лайма, найдено не было. Найденные опубликованные источники в основном представляют собой описания клинических случаев, одно ретроспективное исследование ожогового центра и нарративные обзоры; в них описано связанное с солнцем повреждение кожи (фитофотодерматит) после контакта с соком или кожурой цитрусовых и последующего пребывания на солнце. Источники о кислотности (pH) неразбавленного сока и о раздражающих или аллергических реакциях на сам сок найдены не были, а описания случаев не позволяют оценить, как часто такие реакции возникают. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "يُستخدم عصير الليمون (INCI: Citrus Limon Fruit Juice؛ ويثير عصير الليمون الأخضر (اللايم) قلقًا مشابهًا) أحيانًا غير مخفف على الوجه كوسيلة منزلية لتفتيح البشرة أو للبقع الداكنة أو حب الشباب. وفي عمليات البحث التي أُجريت في PubMed لإعداد هذه البطاقة، لم يُعثر على دراسة سريرية تُظهر فائدة للبشرة من وضع عصير الليمون أو اللايم مباشرة عليها. والمصادر المنشورة التي عُثر عليها هي في الغالب تقارير حالات ودراسة بأثر رجعي واحدة من مركز للحروق ومراجعات سردية؛ وهي تصف إصابات جلدية مرتبطة بالشمس (التهاب الجلد الضوئي النباتي، phytophotodermatitis) بعد ملامسة عصير الحمضيات أو قشرها ثم التعرض لضوء الشمس. ولم يُعثر على مصادر بشأن حموضة (pH) العصير غير المخفف ولا بشأن تفاعلات التهيج أو الحساسية للعصير نفسه، ولا تتيح تقارير الحالات معرفة مدى تكرر هذه التفاعلات. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "lemon-juice-1",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative review of phytophotodermatitis describes a non-immunologic skin reaction in which plant furanocoumarins and psoralens, followed by exposure to ultraviolet radiation from sunlight, can cause erythema, fluid blisters, edema and hyperpigmentation; it notes that limes containing furocoumarin have been linked to lime-induced photodermatitis. It is a narrative review and does not measure how often the reaction occurs.",
+      "uz": "Fitofotodermatit bo‘yicha hikoyaviy sharhda bu immunologik bo‘lmagan teri reaksiyasi sifatida tasvirlangan: o‘simlik furanokumarinlari va psoralenlari ta‘siridan keyin quyosh nuridan ultrabinafsha nurlanish ta‘siri qizarish, suyuqlikli pufakchalar, shish va giperpigmentatsiyaga olib kelishi mumkin; furokumarin saqlovchi laymlar laym keltirib chiqargan fotodermatit bilan bog‘langanligi qayd etilgan. Bu hikoyaviy sharh bo‘lib, reaksiya qanchalik tez-tez uchrashini o‘lchamaydi.",
+      "ru": "В нарративном обзоре о фитофотодерматите описана неиммунологическая кожная реакция, при которой фурокумарины и псоралены растений с последующим воздействием ультрафиолетового излучения солнечного света могут вызывать эритему, пузыри с жидкостью, отёк и гиперпигментацию; отмечено, что лаймы, содержащие фурокумарин, связывали с вызванным лаймом фотодерматитом. Это нарративный обзор, он не измеряет, как часто возникает такая реакция.",
+      "ar": "تصف مراجعة سردية حول التهاب الجلد الضوئي النباتي (phytophotodermatitis) تفاعلًا جلديًا غير مناعي، يمكن فيه أن تسبب الفيورانوكومارينات والبسورالينات النباتية، متبوعةً بالتعرض للأشعة فوق البنفسجية من ضوء الشمس، احمرارًا وفقاعات مملوءة بسائل ووذمة وفرط تصبغ؛ وتشير إلى أن ثمار اللايم المحتوية على الفوروكومارين ارتبطت بالتهاب الجلد الضوئي الناجم عن اللايم. وهي مراجعة سردية ولا تقيس مدى تكرر هذا التفاعل."
+     },
+     "sources": [
+      {
+       "pmid": "39202761",
+       "doi": "10.3390/life14081019",
+       "title": "New Insights Concerning Phytophotodermatitis Induced by Phototoxic Plants.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39202761/"
+      }
+     ]
+    },
+    {
+     "id": "lemon-juice-2",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "A case report described a 7-year-old girl who squeezed lemon juice onto her skin in strong sunshine and, within 24 hours, developed pain, erythema and blistering (first- and second-degree burn-like lesions) that led to a four-day hospital admission; the authors describe the progression from erythema to blisters to hyperpigmentation as a well-described triad. A single case cannot show how often this occurs.",
+      "uz": "Hodisa hisobotida 7 yoshli qiz kuchli quyosh nuri ostida limon sharbatini terisiga siqib surtgani va 24 soat ichida og‘riq, qizarish va pufakchalar (birinchi va ikkinchi darajali kuyishga o‘xshash shikastlanishlar) paydo bo‘lgani, bu esa to‘rt kunlik kasalxonaga yotqizilishga olib kelgani tasvirlangan; mualliflar qizarishdan pufakchalar orqali giperpigmentatsiyagacha bo‘lgan rivojlanishni yaxshi ma‘lum triada deb ta‘riflaydi. Bitta holat bunday hodisa qanchalik tez-tez uchrashini ko‘rsata olmaydi.",
+      "ru": "В описании клинического случая семилетняя девочка выжала лимонный сок на кожу под ярким солнцем и в течение 24 часов у неё появились боль, эритема и пузыри (ожогоподобные поражения первой и второй степени), что привело к четырёхдневной госпитализации; авторы описывают развитие от эритемы через пузыри к гиперпигментации как хорошо известную триаду. Один случай не позволяет оценить, как часто это происходит.",
+      "ar": "وصف تقرير حالة فتاة عمرها 7 سنوات عصرت عصير الليمون على جلدها تحت شمس قوية، فظهر لديها خلال 24 ساعة ألم واحمرار وفقاعات (آفات شبيهة بالحروق من الدرجتين الأولى والثانية) أدت إلى دخولها المستشفى أربعة أيام؛ ويصف المؤلفون التطور من الاحمرار إلى الفقاعات ثم فرط التصبغ بأنه ثلاثية معروفة جيدًا. ولا يمكن لحالة واحدة أن تبيّن مدى تكرر ذلك."
+     },
+     "sources": [
+      {
+       "pmid": "29324427",
+       "doi": null,
+       "title": "Lemons in the Arizona Sunshine: The Effects of Furocoumarins Leading to Phytophotodermatitis and Burn-like Injuries.",
+       "year": 2017,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/29324427/"
+      }
+     ]
+    },
+    {
+     "id": "lemon-juice-3",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "A retrospective analysis of 562 sun-related burns treated at one Brazilian burn institution over three years listed lemon juice (17.7%) among the main causes, alongside sun only (36.7%) and a fig-leaf 'tea' tanning lotion (17.7%); the authors discuss homemade plant-derived tanning lotions that can induce a photodermatitis reaction. Most burns returned to normal skin appearance (99.1%) and 0.7% healed with scarring. The study concerns tanning lotions rather than skin lightening, comes from a single centre and does not give the rate of burns among people who used lemon juice.",
+      "uz": "Bitta Braziliya kuyish muassasasida uch yil davomida davolangan quyoshdan olingan 562 ta kuyishning retrospektiv tahlilida asosiy sabablar qatorida limon sharbati (17,7%) keltirilgan, shuningdek faqat quyosh (36,7%) va anjir bargi ‘choyi‘ asosidagi qorayish losyoni (17,7%); mualliflar fotodermatit reaksiyasini keltirib chiqarishi mumkin bo‘lgan uyda tayyorlangan o‘simlik asosli qorayish losyonlarini muhokama qiladi. Kuyishlarning ko‘pchiligida teri odatiy ko‘rinishga qaytgan (99,1%), 0,7% da esa chandiq qolgan. Tadqiqot terini oqartirishga emas, balki qorayish losyonlariga oid bo‘lib, bitta markazdan olingan va limon sharbati ishlatgan odamlar orasida kuyish uchrash darajasini bermaydi.",
+      "ru": "В ретроспективном анализе 562 солнечных ожогов, леченных в одном бразильском ожоговом учреждении в течение трёх лет, лимонный сок (17,7%) указан среди основных причин наряду с одним лишь солнцем (36,7%) и лосьоном для загара на основе «чая» из листьев инжира (17,7%); авторы обсуждают самодельные растительные лосьоны для загара, способные вызывать фотодерматитную реакцию. Большинство ожогов вернулись к нормальному виду кожи (99,1%), в 0,7% остались рубцы. Исследование касается лосьонов для загара, а не осветления кожи, проведено в одном центре и не даёт частоты ожогов среди людей, использовавших лимонный сок.",
+      "ar": "أدرج تحليل بأثر رجعي لـ 562 حرقًا مرتبطًا بالشمس عولجت في مؤسسة برازيلية واحدة للحروق على مدى ثلاث سنوات عصير الليمون (17.7%) ضمن الأسباب الرئيسية، إلى جانب الشمس وحدها (36.7%) ولوشن تسمير يعتمد على «شاي» أوراق التين (17.7%)؛ ويناقش المؤلفون لوشنات التسمير النباتية المصنوعة منزليًا التي قد تسبب تفاعل التهاب جلدي ضوئي. وعادت معظم الحروق إلى مظهر الجلد الطبيعي (99.1%) وتركت 0.7% منها ندبة. تتعلق الدراسة بلوشنات التسمير لا بتفتيح البشرة، وهي من مركز واحد ولا تعطي معدل الحروق بين من استخدموا عصير الليمون."
+     },
+     "sources": [
+      {
+       "pmid": "1590921",
+       "doi": "10.1016/0305-4179(92)90003-d",
+       "title": "Sun tanning-related burns--a 3-year experience.",
+       "year": 1992,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/1590921/"
+      }
+     ]
+    },
+    {
+     "id": "lemon-juice-4",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "A case report of a bartender with hand dermatitis found allergic contact sensitivity to the peel of lemon, lime and orange but not to their juices; patch tests were positive for geraniol and citral and negative for d-limonene. This single case concerns peel oil components in an occupational setting and does not show whether juice applied to facial skin causes allergy.",
+      "uz": "Qo‘l dermatiti bo‘lgan bir bartender haqidagi hodisa hisobotida limon, laym va apelsin po‘stlog‘iga, lekin ularning sharbatiga emas, allergik kontakt sezgirlik aniqlangan; patch-testlar geraniol va sitral uchun ijobiy, d-limonen uchun salbiy bo‘lgan. Bu yagona holat kasbiy sharoitdagi po‘stloq moyi komponentlariga oid bo‘lib, yuz terisiga surtilgan sharbat allergiya keltirib chiqarishini ko‘rsatmaydi.",
+      "ru": "В описании случая у бармена с дерматитом рук выявлена аллергическая контактная сенсибилизация к кожуре лимона, лайма и апельсина, но не к их сокам; патч-тесты были положительными на гераниол и цитраль и отрицательными на d-лимонен. Этот единичный случай касается компонентов масла кожуры в профессиональных условиях и не показывает, вызывает ли сок, нанесённый на кожу лица, аллергию.",
+      "ar": "وجد تقرير حالة لنادل (بارتندر) مصاب بالتهاب جلدي في اليدين حساسية تماسّية تحسسية تجاه قشر الليمون والليمون الأخضر والبرتقال وليس تجاه عصيرها؛ وكانت اختبارات اللصقة (patch tests) إيجابية للجيرانيول والسيترال وسلبية للدي-ليمونين (d-limonene). تتعلق هذه الحالة الواحدة بمكونات زيت القشر في بيئة مهنية ولا تبيّن ما إذا كان العصير الموضوع على جلد الوجه يسبب الحساسية."
+     },
+     "sources": [
+      {
+       "pmid": "2526827",
+       "doi": "10.1016/s0190-9622(89)80043-x",
+       "title": "Allergic contact dermatitis resulting from sensitivity to citrus peel, geraniol, and citral.",
+       "year": 1989,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/2526827/"
+      }
+     ]
+    },
+    {
+     "id": "lemon-juice-5",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative review of Ayurvedic and natural skincare ingredients states that products such as concentrated lemon juice or homemade sunscreens lack scientific validation and have been implicated in various cosmetic and medical issues, and it advises healthcare providers to educate patients about the potential dangers of relying solely on natural products. It is a narrative review and does not report a trial of lemon juice.",
+      "uz": "Ayurveda va tabiiy teri parvarishi ingredientlari bo‘yicha hikoyaviy sharhda konsentrlangan limon sharbati yoki uyda tayyorlangan quyoshdan himoya vositalari kabi mahsulotlar ilmiy tasdiqdan o‘tmaganligi va turli kosmetik hamda tibbiy muammolar bilan bog‘langanligi aytilgan, shuningdek sog‘liqni saqlash xodimlariga bemorlarni faqat tabiiy mahsulotlarga tayanishning mumkin bo‘lgan xavflari haqida ma‘lumot berish tavsiya etilgan. Bu hikoyaviy sharh bo‘lib, limon sharbati bo‘yicha sinov haqida ma‘lumot bermaydi.",
+      "ru": "В нарративном обзоре об аюрведических и природных ингредиентах ухода за кожей говорится, что такие средства, как концентрированный лимонный сок или самодельные солнцезащитные средства, не имеют научного подтверждения и связывались с различными косметическими и медицинскими проблемами; работникам здравоохранения рекомендуется информировать пациентов о возможных опасностях опоры только на природные средства. Это нарративный обзор, он не сообщает об испытании лимонного сока.",
+      "ar": "تذكر مراجعة سردية حول مكونات العناية بالبشرة الأيورفيدية والطبيعية أن منتجات مثل عصير الليمون المركّز أو واقيات الشمس المصنوعة منزليًا تفتقر إلى التحقق العلمي وقد ارتبطت بمشكلات تجميلية وطبية متنوعة، وتنصح مقدمي الرعاية الصحية بتثقيف المرضى حول المخاطر المحتملة للاعتماد على المنتجات الطبيعية وحدها. وهي مراجعة سردية ولا تورد تجربة على عصير الليمون."
+     },
+     "sources": [
+      {
+       "pmid": "39552100",
+       "doi": "10.1111/jocd.16673",
+       "title": "Ayurvedic Ingredients in Dermatology: A Call for Research.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39552100/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "inci": "Nigella Sativa Seed Oil",
    "slug": "nigella-sativa-oil",
    "status": "draft",
    "category": "natural",
+   "names": {
+    "uz": "Qora zira moyi",
+    "ru": "Масло чёрного тмина",
+    "en": "Black seed oil",
+    "ar": "زيت حبة البركة"
+   },
    "aliases": [
     "Black Seed Oil",
     "Nigella Sativa Oil"
@@ -1670,6 +2374,12 @@
    "slug": "oat",
    "status": "draft",
    "category": "natural",
+   "names": {
+    "uz": "Suli",
+    "ru": "Овёс",
+    "en": "Oat (colloidal oatmeal)",
+    "ar": "الشوفان"
+   },
    "aliases": [
     "Oatmeal",
     "Colloidal Oatmeal",
@@ -1824,6 +2534,134 @@
    ]
   },
   {
+   "inci": "Olea Europaea Fruit Oil",
+   "slug": "olive-oil",
+   "status": "draft",
+   "category": "natural",
+   "names": {
+    "uz": "Zaytun moyi",
+    "ru": "Оливковое масло",
+    "en": "Olive oil",
+    "ar": "زيت الزيتون"
+   },
+   "aliases": [
+    "Olive Oil",
+    "Olea Europaea (Olive) Fruit Oil"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Olive oil (INCI: Olea Europaea Fruit Oil; often written as \"Olive Oil\") is a plant oil rich in oleic acid that is applied to the skin for dryness, baby skin care, massage and oil-based cleansing. This card covers topical (on-skin) use only. The published clinical evidence is limited: the human studies found are small, short and mostly done on forearm skin or on neonates, and they report mixed effects on hydration alongside signs of reduced stratum corneum integrity or lipid structure. Reviews attribute possible barrier-weakening effects to oleic acid, so caution is discussed especially for infants and for atopic skin. No PubMed study specifically on olive oil used as a cleansing oil was identified. This card summarises published evidence only and is not medical advice.",
+    "uz": "Zaytun moyi (INCI: Olea Europaea Fruit Oil; ko‘pincha \"Olive Oil\" deb yoziladi) oleik kislotaga boy o‘simlik moyi bo‘lib, quruq teri, chaqaloq terisi parvarishi, massaj va moy bilan tozalash uchun teriga surtiladi. Bu kartochka faqat surtiladigan (teriga) qo‘llanishni qamrab oladi. Chop etilgan klinik dalillar cheklangan: topilgan odam tadqiqotlari kichik, qisqa muddatli va asosan bilak terisida yoki yangi tug‘ilgan chaqaloqlarda o‘tkazilgan; ular namlanish bo‘yicha aralash natijalarni, shox qavat yaxlitligi yoki lipid tuzilishining pasayishi belgilari bilan birga qayd etgan. Sharhlarda to‘siqni zaiflashtirishi mumkin bo‘lgan ta‘sirlar oleik kislotaga bog‘lanadi, shu sababli ayniqsa chaqaloqlar va atopik teri uchun ehtiyot choralari muhokama qilinadi. Zaytun moyining aynan tozalovchi moy sifatida qo‘llanishi bo‘yicha PubMed‘da alohida tadqiqot topilmadi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Оливковое масло (INCI: Olea Europaea Fruit Oil; часто пишут \"Olive Oil\") — растительное масло, богатое олеиновой кислотой, которое наносят на кожу при сухости, для ухода за кожей младенцев, массажа и очищения маслом. Эта карточка охватывает только наружное применение (на кожу). Опубликованные клинические данные ограничены: найденные исследования на людях небольшие, непродолжительные и в основном проведены на коже предплечья или у новорождённых; они сообщают о неоднозначных эффектах в отношении увлажнения наряду с признаками снижения целостности рогового слоя или изменения структуры липидов. В обзорах возможное ослабление барьера связывают с олеиновой кислотой, поэтому обсуждается осторожность, особенно для младенцев и атопичной кожи. Отдельного исследования в PubMed об оливковом масле именно как очищающем масле найдено не было. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "زيت الزيتون (INCI: Olea Europaea Fruit Oil؛ يُكتب غالبًا \"Olive Oil\") زيت نباتي غني بحمض الأوليك يُوضع على الجلد لحالات الجفاف والعناية ببشرة الأطفال والتدليك والتنظيف بالزيت. تغطي هذه البطاقة الاستخدام الموضعي (على الجلد) فقط. الأدلة السريرية المنشورة محدودة: دراسات البشر التي وُجدت صغيرة وقصيرة المدة وأُجريت في الغالب على جلد الساعد أو على حديثي الولادة، وهي تُبلغ عن تأثيرات متباينة في الترطيب إلى جانب مؤشرات على انخفاض سلامة الطبقة المتقرنة أو تغيّر بنية الدهون. تنسب المراجعات التأثيرات المحتملة المضعفة للحاجز إلى حمض الأوليك، ولذلك يُناقَش الحذر خاصة للرضّع والبشرة التأتبية. لم تُحدَّد في PubMed دراسة خاصة بزيت الزيتون بوصفه زيتًا منظفًا. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "olive-oil-1",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a within-person randomised clinical trial of 54 healthy adult volunteers, extra virgin olive oil applied to the forearm was associated with higher stratum corneum hydration and lower erythema and skin temperature; a reduction in transepidermal water loss was reported for petrolatum but not for olive oil, and petrolatum had the stronger occlusive effect. The study was in healthy adults only and tested extra virgin olive oil, so it does not cover infants or atopic skin.",
+      "uz": "54 nafar sog‘lom kattalar ishtirok etgan, har bir ishtirokchi o‘ziga nazorat bo‘lgan randomizatsiyalangan klinik tadqiqotda bilakka surtilgan extra virgin zaytun moyi shox qavat namligining yuqoriroq bo‘lishi hamda qizarish va teri haroratining pastroq bo‘lishi bilan bog‘langan; transepidermal suv yo‘qotilishining kamayishi vazelin uchun qayd etilgan, zaytun moyi uchun esa qayd etilmagan, vazelinning to‘sib qo‘yuvchi (okklyuziv) ta‘siri kuchliroq bo‘lgan. Tadqiqot faqat sog‘lom kattalarda o‘tkazilgan va extra virgin zaytun moyi sinalgan, shu sababli u chaqaloqlar yoki atopik terini qamrab olmaydi.",
+      "ru": "В рандомизированном клиническом исследовании с внутриличностным контролем с участием 54 здоровых взрослых нерафинированное оливковое масло (extra virgin), нанесённое на предплечье, было связано с более высокой гидратацией рогового слоя и меньшими эритемой и температурой кожи; снижение трансэпидермальной потери воды отмечено для вазелина, но не для оливкового масла, при этом окклюзионный эффект вазелина был сильнее. Исследование проводилось только на здоровых взрослых и тестировало оливковое масло extra virgin, поэтому оно не охватывает младенцев или атопичную кожу.",
+      "ar": "في تجربة سريرية عشوائية تكون فيها المقارنة داخل الشخص نفسه شملت 54 متطوعًا بالغًا سليمًا، ارتبط زيت الزيتون البكر الممتاز (extra virgin) المطبّق على الساعد بارتفاع ترطيب الطبقة المتقرنة وانخفاض الاحمرار ودرجة حرارة الجلد؛ وأُبلغ عن انخفاض فقدان الماء عبر البشرة مع الفازلين لا مع زيت الزيتون، وكان التأثير الانسدادي للفازلين أقوى. أُجريت الدراسة على بالغين أصحاء فقط واختبرت زيت الزيتون البكر الممتاز، لذلك لا تشمل الرضّع أو البشرة التأتبية."
+     },
+     "sources": [
+      {
+       "pmid": "40649050",
+       "doi": "10.3390/jcm14134675",
+       "title": "Effects of Extra Virgin Olive Oil and Petrolatum on Skin Barrier Function and Microtopography.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40649050/"
+      }
+     ]
+    },
+    {
+     "id": "olive-oil-2",
+     "level": "C",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a small randomised forearm-controlled mechanistic study of 19 adults with and without a history of atopic dermatitis, about four weeks of twice-daily olive oil was associated with a significant reduction in stratum corneum integrity and mild erythema, whereas sunflower seed oil preserved integrity. The authors suggested that olive oil may damage the skin barrier and discouraged its use for dry skin and infant massage. The sample was very small, the sites were forearms of adults, and no clinical outcomes were measured.",
+      "uz": "Atopik dermatit tarixi bor va bo‘lmagan 19 nafar kattalar ishtirok etgan kichik randomizatsiyalangan, bilakda nazoratli mexanistik tadqiqotda taxminan to‘rt hafta davomida kuniga ikki marta surtilgan zaytun moyi shox qavat yaxlitligining sezilarli pasayishi va yengil qizarish bilan bog‘langan, kungaboqar urug‘i moyi esa yaxlitlikni saqlagan. Mualliflar zaytun moyi teri to‘sig‘iga zarar yetkazishi mumkinligini ta‘kidlab, uni quruq teri va chaqaloq massaji uchun qo‘llashni tavsiya etmagan. Tanlanma juda kichik bo‘lgan, joylar kattalarning bilak terisi bo‘lgan va klinik natijalar o‘lchanmagan.",
+      "ru": "В небольшом рандомизированном механистическом исследовании с контролем на предплечьях с участием 19 взрослых с атопическим дерматитом в анамнезе и без него примерно четыре недели нанесения оливкового масла дважды в день были связаны со значимым снижением целостности рогового слоя и лёгкой эритемой, тогда как подсолнечное масло сохраняло целостность. Авторы предположили, что оливковое масло может повреждать кожный барьер, и не рекомендовали его для сухой кожи и массажа младенцев. Выборка была очень малой, участки — предплечья взрослых, клинические исходы не измерялись.",
+      "ar": "في دراسة آلية عشوائية صغيرة مضبوطة على الساعدين شملت 19 بالغًا ممن لديهم تاريخ للتهاب الجلد التأتبي ومن ليس لديهم، ارتبط وضع زيت الزيتون مرتين يوميًا لنحو أربعة أسابيع بانخفاض ملحوظ في سلامة الطبقة المتقرنة واحمرار خفيف، بينما حافظ زيت بذور عباد الشمس على سلامتها. رأى المؤلفون أن زيت الزيتون قد يضر بحاجز الجلد، ولم يوصوا باستخدامه للجلد الجاف أو لتدليك الرضّع. كانت العينة صغيرة جدًا، وكانت المواضع هي سواعد البالغين، ولم تُقَس نتائج سريرية."
+     },
+     "sources": [
+      {
+       "pmid": "22995032",
+       "doi": "10.1111/j.1525-1470.2012.01865.x",
+       "title": "Effect of olive and sunflower seed oil on the adult skin barrier: implications for neonatal skin care.",
+       "year": 2012,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/22995032/"
+      }
+     ]
+    },
+    {
+     "id": "olive-oil-3",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a pilot assessor-blinded randomised controlled trial of 115 healthy full-term neonates assigned to olive oil, sunflower oil or no oil twice daily for four weeks, both oil groups had improved skin hydration but significantly less improvement in lipid lamellae structure than the no-oil group; there were no significant differences in transepidermal water loss, pH or erythema and skin scores. The study was a feasibility pilot not powered for clinical significance, and the authors advised caution when recommending oils for neonatal skin.",
+      "uz": "Sog‘lom, muddatida tug‘ilgan 115 nafar yangi tug‘ilgan chaqaloq to‘rt hafta davomida kuniga ikki marta zaytun moyi, kungaboqar moyi yoki moysiz guruhlarga tasodifiy taqsimlangan pilot, baholovchi ko‘r randomizatsiyalangan nazoratli tadqiqotda ikkala moy guruhida teri namligi yaxshilangan, lekin lipid plastinkalar tuzilishidagi yaxshilanish moysiz guruhga nisbatan sezilarli darajada kamroq bo‘lgan; transepidermal suv yo‘qotilishi, pH va qizarish hamda teri ballari bo‘yicha sezilarli farq bo‘lmagan. Tadqiqot klinik ahamiyatni baholashga mo‘ljallanmagan texnik-imkoniyat pilot tadqiqoti bo‘lgan va mualliflar yangi tug‘ilgan chaqaloq terisi uchun moylarni tavsiya qilishda ehtiyot bo‘lishni maslahat bergan.",
+      "ru": "В пилотном рандомизированном контролируемом исследовании с ослеплением оценщика, в котором 115 здоровых доношенных новорождённых были распределены на оливковое масло, подсолнечное масло или отсутствие масла дважды в день в течение четырёх недель, в обеих группах с маслом улучшилась гидратация кожи, но улучшение структуры липидных ламелл было значимо меньшим, чем в группе без масла; значимых различий по трансэпидермальной потере воды, pH, эритеме и кожным баллам не было. Исследование было пилотным (оценка осуществимости) и не рассчитано на клиническую значимость, а авторы советовали осторожность при рекомендации масел для кожи новорождённых.",
+      "ar": "في تجربة تجريبية عشوائية مضبوطة بتعمية المقيِّم شملت 115 من حديثي الولادة الأصحاء المولودين في موعدهم، وُزّعوا على زيت الزيتون أو زيت عباد الشمس أو عدم استخدام زيت مرتين يوميًا لمدة أربعة أسابيع، تحسّن ترطيب الجلد في مجموعتي الزيت، لكن التحسن في بنية الصفائح الدهنية كان أقل بدلالة إحصائية مقارنة بمجموعة عدم استخدام الزيت؛ ولم تكن هناك فروق ملحوظة في فقدان الماء عبر البشرة أو الأس الهيدروجيني أو درجات الاحمرار والجلد. كانت الدراسة تجريبية لتقييم الجدوى وغير مصممة لإثبات الدلالة السريرية، ونصح المؤلفون بالحذر عند التوصية بالزيوت لجلد حديثي الولادة."
+     },
+     "sources": [
+      {
+       "pmid": "26551528",
+       "doi": "10.2340/00015555-2279",
+       "title": "Olive Oil, Sunflower Oil or no Oil for Baby Dry Skin or Massage: A Pilot, Assessor-blinded, Randomized Controlled Trial (the Oil in Baby SkincaRE [OBSeRvE] Study).",
+       "year": 2016,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/26551528/"
+      }
+     ]
+    },
+    {
+     "id": "olive-oil-4",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative review of natural oils for skin-barrier repair, which included olive oil, reported that oils with a higher linoleic acid to oleic acid ratio have better barrier repair potential, whereas oils with higher amounts of oleic acid, described as irritating, may be detrimental to skin-barrier function. This is a narrative review, so it does not by itself show that olive oil affects any individual person's skin barrier.",
+      "uz": "Teri to‘sig‘ini tiklash uchun tabiiy moylar bo‘yicha hikoyaviy sharhda, unga zaytun moyi ham kiritilgan, linol kislotasining oleik kislotaga nisbati yuqori bo‘lgan moylarning to‘siqni tiklash imkoniyati yaxshiroq ekani, tirnash xususiyatiga ega deb ta‘riflangan oleik kislota miqdori yuqori bo‘lgan moylar esa teri to‘sig‘i funksiyasiga zarar yetkazishi mumkinligi qayd etilgan. Bu hikoyaviy sharh bo‘lgani uchun u o‘z-o‘zidan zaytun moyi biror kishining teri to‘siqiga ta‘sir qilishini isbotlamaydi.",
+      "ru": "В нарративном обзоре природных масел для восстановления кожного барьера, включавшем оливковое масло, сообщается, что масла с более высоким соотношением линолевой и олеиновой кислот обладают лучшим потенциалом восстановления барьера, тогда как масла с большим содержанием олеиновой кислоты, описанной как раздражающая, могут быть вредны для барьерной функции кожи. Это нарративный обзор, поэтому он сам по себе не доказывает, что оливковое масло влияет на кожный барьер конкретного человека.",
+      "ar": "أفادت مراجعة سردية للزيوت الطبيعية لإصلاح الحاجز الجلدي، شملت زيت الزيتون، بأن الزيوت ذات النسبة الأعلى من حمض اللينوليك إلى حمض الأوليك لديها قدرة أفضل على إصلاح الحاجز، بينما قد تضر الزيوت الأعلى في حمض الأوليك، الموصوف بأنه مهيّج، بوظيفة الحاجز الجلدي. هذه مراجعة سردية، لذلك لا تُثبت وحدها أن زيت الزيتون يؤثر في الحاجز الجلدي لدى أي شخص بعينه."
+     },
+     "sources": [
+      {
+       "pmid": "28707186",
+       "doi": "10.1007/s40257-017-0301-1",
+       "title": "Natural Oils for Skin-Barrier Repair: Ancient Compounds Now Backed by Modern Science.",
+       "year": 2018,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/28707186/"
+      }
+     ]
+    },
+    {
+     "id": "olive-oil-5",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "Guidelines for paediatric skin care prepared by an Indian Academy of Pediatrics committee, based on a review of existing guidelines and expert discussion, state that oil massage for newborns is beneficial and that sunflower, coconut or mineral oil are preferred over vegetable oils such as olive oil and mustard oil, which were reported to be detrimental to barrier function. This is expert-committee guidance rather than a new clinical study, and it is not individual advice.",
+      "uz": "Hindiston pediatriya akademiyasi qo‘mitasi tayyorlagan bolalar teri parvarishi bo‘yicha qo‘llanmada, mavjud qo‘llanmalar sharhi va ekspertlar muhokamasiga asoslanib, yangi tug‘ilgan chaqaloqlar uchun moy massaji foydali ekani va kungaboqar, kokos yoki mineral moy zaytun va xardal moyi kabi o‘simlik moylaridan afzal ko‘rilishi aytilgan; bu o‘simlik moylari to‘siq funksiyasiga zarar yetkazishi haqida xabar berilgan. Bu yangi klinik tadqiqot emas, ekspert qo‘mitasi ko‘rsatmasi bo‘lib, individual maslahat emas.",
+      "ru": "В руководстве по уходу за кожей детей, подготовленном комитетом Индийской академии педиатрии на основе обзора существующих руководств и экспертного обсуждения, указано, что массаж с маслом для новорождённых полезен, а подсолнечное, кокосовое или минеральное масло предпочтительнее растительных масел, таких как оливковое и горчичное, о которых сообщалось, что они вредны для барьерной функции. Это руководство экспертного комитета, а не новое клиническое исследование, и оно не является индивидуальной рекомендацией.",
+      "ar": "ذكرت إرشادات العناية بجلد الأطفال التي أعدّتها لجنة تابعة للأكاديمية الهندية لطب الأطفال، استنادًا إلى مراجعة الإرشادات القائمة ونقاش الخبراء، أن تدليك حديثي الولادة بالزيت مفيد، وأن زيت عباد الشمس أو جوز الهند أو الزيت المعدني مفضّل على الزيوت النباتية مثل زيت الزيتون وزيت الخردل، التي أُفيد بأنها ضارة بوظيفة الحاجز. هذه إرشادات صادرة عن لجنة خبراء وليست دراسة سريرية جديدة، وليست نصيحة فردية."
+     },
+     "sources": [
+      {
+       "pmid": "33632947",
+       "doi": null,
+       "title": "Indian Academy of Pediatrics Guidelines for Pediatric Skin Care.",
+       "year": 2021,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/33632947/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "inci": "Panthenol",
    "slug": "panthenol",
    "status": "draft",
@@ -1943,10 +2781,151 @@
    ]
   },
   {
+   "inci": "Rosa Damascena Flower Water",
+   "slug": "rose-water",
+   "status": "draft",
+   "category": "natural",
+   "names": {
+    "uz": "Atirgul suvi",
+    "ru": "Розовая вода",
+    "en": "Rose water",
+    "ar": "ماء الورد"
+   },
+   "aliases": [
+    "Rose Water",
+    "Rosa Damascena Flower Water"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Rose water (INCI: Rosa Damascena Flower Water, also written Rose Water) is the aqueous distillate (hydrosol) of Damask rose (Rosa damascena) flowers and is used in toners and facial products; rose extracts and oil are also used in cosmetics. This card covers topical cosmetic use only; oral use and aromatherapy are out of scope. The evidence found in PubMed consists of laboratory, animal and narrative-review sources; no controlled human study of topical rose water for cosmetic skin outcomes was identified, and no eye-care evidence was included, so conclusions about effects on human skin are not possible. Rose products contain fragrance compounds that are screened for as contact allergens, and water-based products need microbiological control. This card summarises published evidence only and is not medical advice.",
+    "uz": "Atirgul suvi (INCI: Rosa Damascena Flower Water, Rose Water deb ham yoziladi) — damashq atirguli (Rosa damascena) gullarining suvli distillyati (gidrozol) bo‘lib, tonik va yuz parvarishi vositalarida qo‘llaniladi; atirgul ekstrakti va moyi ham kosmetikada ishlatiladi. Bu kartochka faqat surtiladigan kosmetik qo‘llanishni qamrab oladi; og‘iz orqali qabul va aromaterapiya qamrovdan tashqarida. PubMed‘dan topilgan dalillar laboratoriya, hayvonlardagi va hikoyaviy sharh manbalaridan iborat; atirgul suvini surtishning kosmetik teri natijalari bo‘yicha nazorat qilingan inson tadqiqoti topilmadi va ko‘z parvarishiga oid dalil kiritilmadi, shu sababli inson terisiga ta‘sir haqida xulosa qilib bo‘lmaydi. Atirgul mahsulotlarida kontakt allergen sifatida tekshiriladigan parfyum tarkibiy qismlari bor, suvli mahsulotlar esa mikrobiologik nazoratni talab qiladi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Розовая вода (INCI: Rosa Damascena Flower Water, также пишут Rose Water) — водный дистиллят (гидролат) цветков дамасской розы (Rosa damascena); её используют в тониках и средствах для лица, а экстракты и масло розы также применяются в косметике. Эта карточка охватывает только наружное косметическое применение; приём внутрь и ароматерапия не рассматриваются. Найденные в PubMed данные состоят из лабораторных, животных и обзорных источников; контролируемых исследований на людях по косметическим результатам для кожи при наружном применении розовой воды не обнаружено, данные по уходу за глазами не включены, поэтому выводы о влиянии на кожу человека невозможны. Продукты из розы содержат душистые соединения, на которые проводят скрининг как на контактные аллергены, а водные продукты требуют микробиологического контроля. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "ماء الورد (INCI: Rosa Damascena Flower Water، ويُكتب أيضًا Rose Water) هو المقطّر المائي (الهيدروسول) لأزهار الورد الدمشقي (Rosa damascena)، ويُستخدم في التونر ومنتجات الوجه، كما تُستخدم مستخلصات الورد وزيته في مستحضرات التجميل. تغطي هذه البطاقة الاستخدام التجميلي الموضعي فقط؛ أما التناول عن طريق الفم والعلاج بالروائح فخارج النطاق. تتكوّن الأدلة التي وُجدت في PubMed من مصادر مخبرية وحيوانية ومراجعات سردية؛ ولم تُحدَّد دراسة بشرية مضبوطة لماء الورد الموضعي على نتائج جلدية تجميلية، ولم تُدرج أدلة عن العناية بالعين، ولذلك لا يمكن استخلاص نتائج عن التأثير في بشرة الإنسان. تحتوي منتجات الورد على مركّبات عطرية يُجرى عنها فحص بوصفها مسببات حساسية تلامسية، كما تحتاج المنتجات المائية إلى ضبط ميكروبيولوجي. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "rose-water-1",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In laboratory experiments, diluted rose water (a hydrosol of Rosa damascena flowers) inhibited mycelial growth of Candida albicans at about 2.2% and reduced the viability of methicillin-resistant Staphylococcus aureus (MRSA) within 1 hour, and at 5 to 15% it suppressed activation of isolated neutrophils induced by LPS, TNF-alpha and fMLP; these are microbial and cell culture findings, not tests on human skin, and they do not show an effect on skin inflammation or irritation in people.",
+      "uz": "Laboratoriya tajribalarida suyultirilgan atirgul suvi (Rosa damascena gullarining gidrozoli) Candida albicans mitseliy o‘sishini taxminan 2,2% da to‘xtatgan va metitsillinga chidamli Staphylococcus aureus (MRSA) hayotchanligini 1 soat ichida kamaytirgan, 5 dan 15% gacha esa ajratib olingan neytrofillarning LPS, TNF-alfa va fMLP qo‘zg‘atgan faollashuvini susaytirgan; bular mikrob va hujayra kulturasi natijalari, inson terisida o‘tkazilgan sinov emas va odamlarda teri yallig‘lanishi yoki ta‘sirlanishiga ta‘sirini ko‘rsatmaydi.",
+      "ru": "В лабораторных экспериментах разбавленная розовая вода (гидролат цветков Rosa damascena) подавляла рост мицелия Candida albicans при концентрации около 2,2% и снижала жизнеспособность метициллин-резистентного Staphylococcus aureus (MRSA) в течение 1 часа, а при 5–15% подавляла активацию выделенных нейтрофилов, вызванную LPS, TNF-альфа и fMLP; это результаты на культурах микроорганизмов и клеток, а не испытания на коже человека, и они не показывают влияния на воспаление или раздражение кожи у людей.",
+      "ar": "في تجارب مخبرية، ثبّط ماء الورد المخفف (هيدروسول أزهار Rosa damascena) نمو الغزل الفطري لفطر Candida albicans عند نحو 2.2%، وقلّل حيوية المكورات العنقودية الذهبية المقاومة للميثيسيلين (MRSA) خلال ساعة واحدة، وعند تركيز 5 إلى 15% ثبّط تنشيط العدلات المعزولة الذي تحفزه LPS وTNF-alpha وfMLP؛ وهذه نتائج على مزارع ميكروبية وخلوية وليست اختبارات على جلد الإنسان، ولا تُظهر تأثيرًا في التهاب الجلد أو تهيجه لدى الأشخاص."
+     },
+     "sources": [
+      {
+       "pmid": "28154255",
+       "doi": "10.1248/bpb.b16-00644",
+       "title": "Inhibition of Neutrophil Adhesion and Antimicrobial Activity by Diluted Hydrosol Prepared from Rosa damascena.",
+       "year": 2017,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/28154255/"
+      }
+     ]
+    },
+    {
+     "id": "rose-water-2",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In a study in rats, topical emulgels containing Taif rose oil (Rosa damascena, 50 to 100 mg/g; a nanoemulsion form was more potent than the plain oil) were associated, after UVB exposure, with altered CAT and SOD enzyme activity, lower inflammatory markers and lower MMP-9 content; this is animal evidence on rose oil, not rose water, and it has not been shown in people.",
+      "uz": "Kalamushlarda o‘tkazilgan tadqiqotda Toif atirgul moyi (Rosa damascena, 50 dan 100 mg/g) bor surtiladigan emulgellar UVB ta‘siridan keyin CAT va SOD ferment faolligining o‘zgarishi, yallig‘lanish belgilarining pastroq bo‘lishi va MMP-9 miqdorining kamroq bo‘lishi bilan bog‘langan (nanoemulsiya shakli oddiy moydan kuchliroq bo‘lgan); bu atirgul suvi emas, atirgul moyi bo‘yicha hayvonlardagi dalil bo‘lib, odamlarda ko‘rsatilmagan.",
+      "ru": "В исследовании на крысах гелевые эмульсии для наружного применения с тайфским розовым маслом (Rosa damascena, 50–100 мг/г) были связаны после воздействия UVB с изменением активности ферментов CAT и SOD, более низкими маркерами воспаления и меньшим содержанием MMP-9 (форма наноэмульсии была эффективнее обычного масла); это данные на животных о розовом масле, а не о розовой воде, и у людей они не показаны.",
+      "ar": "في دراسة على الجرذان، ارتبطت مستحلبات هلامية موضعية تحتوي على زيت ورد الطائف (Rosa damascena بتركيز 50 إلى 100 ملغ/غ) بعد التعرض للأشعة فوق البنفسجية UVB بتغيّر نشاط إنزيمي CAT وSOD وانخفاض مؤشرات الالتهاب وانخفاض محتوى MMP-9 (وكان شكل المستحلب النانوي أقوى من الزيت العادي)؛ وهذا دليل حيواني عن زيت الورد وليس ماء الورد، ولم يُثبت لدى الإنسان."
+     },
+     "sources": [
+      {
+       "pmid": "37744837",
+       "doi": "10.1021/acsomega.3c04756",
+       "title": "Taif Rose Oil Ameliorates UVB-Induced Oxidative Damage and Skin Photoaging in Rats via Modulation of MAPK and MMP Signaling Pathways.",
+       "year": 2023,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37744837/"
+      }
+     ]
+    },
+    {
+     "id": "rose-water-3",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative review of rose (Rosa) extracts for cosmetic anti-ageing use reported that the extraction method influences the phenolic, flavonoid, anthocyanin and volatile content of the extracts, and it discussed in vitro and in vivo antioxidant, anticollagenase and antielastase activity; the abstract reports no controlled human skin outcomes, the review covers several Rosa species rather than Rosa damascena alone, and it notes conflicting evidence on extraction techniques.",
+      "uz": "Atirgul (Rosa) ekstraktlarining kosmetik qarishga qarshi qo‘llanishi bo‘yicha hikoyaviy sharhda ekstraksiya usuli ekstraktlarning fenol, flavonoid, antotsian va uchuvchi moddalar tarkibiga ta‘sir qilishi qayd etilgan, shuningdek in vitro va in vivo antioksidant, antikollagenaza va antielastaza faolligi muhokama qilingan; annotatsiyada nazorat qilingan inson teri natijalari keltirilmagan, sharh faqat Rosa damascena emas, bir nechta Rosa turlarini qamrab oladi va ekstraksiya usullari bo‘yicha ziddiyatli dalillar borligi aytilgan.",
+      "ru": "В обзорной статье (нарративный обзор) об экстрактах розы (Rosa) для косметического применения против старения сообщается, что способ экстракции влияет на содержание фенолов, флавоноидов, антоцианов и летучих веществ в экстрактах, а также обсуждается антиоксидантная, антиколлагеназная и антиэластазная активность in vitro и in vivo; в аннотации нет контролируемых результатов для кожи человека, обзор охватывает несколько видов Rosa, а не только Rosa damascena, и отмечает противоречивые данные о методах экстракции.",
+      "ar": "ذكرت مراجعة سردية عن مستخلصات الورد (Rosa) للاستخدام التجميلي المضاد للشيخوخة أن طريقة الاستخلاص تؤثر في محتوى المستخلصات من الفينولات والفلافونويدات والأنثوسيانينات والمواد المتطايرة، وناقشت نشاطًا مضادًا للأكسدة ومضادًا للكولاجيناز ومضادًا للإيلاستاز في المختبر وفي الكائن الحي؛ ولا يذكر الملخص نتائج جلدية بشرية مضبوطة، وتشمل المراجعة عدة أنواع من Rosa وليس Rosa damascena وحده، وتشير إلى أدلة متضاربة بشأن تقنيات الاستخلاص."
+     },
+     "sources": [
+      {
+       "pmid": "42569134",
+       "doi": "10.1021/acsomega.6c03480",
+       "title": "Green Extraction Strategies for Rose Bioactives: Impacts on Chemical Composition and Anti-Aging Efficacy.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42569134/"
+      }
+     ]
+    },
+    {
+     "id": "rose-water-4",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "A review of Damask rose (Rosa damascena) essential oil lists citronellol, geraniol, nerol and linalool among its important components, and a laboratory study found that citronellol, a fragrance compound included in fragrance mix II used to screen for contact allergy, oxidises in air to hydroperoxides that showed higher sensitisation potency in a mouse local lymph node assay. These sources support caution with rose products that contain such fragrance compounds; they did not measure these compounds in rose water or test rose water for allergy.",
+      "uz": "Damashq atirguli (Rosa damascena) efir moyi bo‘yicha sharhda uning muhim tarkibiy qismlari orasida sitronellol, geraniol, nerol va linalool sanalgan, laboratoriya tadqiqotida esa kontakt allergiyani skrining qilishda ishlatiladigan parfyum aralashmasi II tarkibiga kiruvchi parfyum moddasi sitronellol havoda oksidlanib gidroperoksidlar hosil qilishi va ular sichqonlardagi mahalliy limfa tugun testida yuqoriroq sensibilizatsiya kuchini ko‘rsatishi aniqlangan. Bu manbalar shunday parfyum moddalari bor atirgul mahsulotlari bilan ehtiyot bo‘lishni qo‘llab-quvvatlaydi; ular bu moddalarni atirgul suvida o‘lchamagan va atirgul suvini allergiyaga sinamagan.",
+      "ru": "В обзоре об эфирном масле дамасской розы (Rosa damascena) среди его важных компонентов названы цитронеллол, гераниол, нерол и линалоол, а лабораторное исследование показало, что цитронеллол — душистое соединение, входящее в ароматическую смесь II для скрининга контактной аллергии, — окисляется на воздухе до гидропероксидов, которые проявили более высокую сенсибилизирующую активность в тесте локальных лимфатических узлов у мышей. Эти источники подтверждают осторожность при использовании продуктов из розы, содержащих такие душистые соединения; в них эти вещества не измеряли в розовой воде и розовую воду на аллергию не тестировали.",
+      "ar": "تذكر مراجعة عن الزيت العطري للورد الدمشقي (Rosa damascena) أن السترونيلول والجيرانيول والنيرول واللينالول من مكوناته المهمة، ووجدت دراسة مخبرية أن السترونيلول، وهو مركّب عطري مدرج في مزيج العطور II المستخدم للكشف عن الحساسية التلامسية، يتأكسد في الهواء إلى هيدروبيروكسيدات أظهرت قدرة أعلى على التحسيس في اختبار العقد اللمفية الموضعية لدى الفئران. تدعم هذه المصادر توخي الحذر مع منتجات الورد التي تحتوي على مثل هذه المركّبات العطرية؛ ولم تقِس هذه المصادر تلك المركّبات في ماء الورد ولم تختبر ماء الورد من حيث الحساسية."
+     },
+     "sources": [
+      {
+       "pmid": "37836168",
+       "doi": "10.3390/plants12193428",
+       "title": "Do Abiotic Stresses Affect the Aroma of Damask Roses?",
+       "year": 2023,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37836168/"
+      },
+      {
+       "pmid": "24673435",
+       "doi": "10.1111/cod.12234",
+       "title": "Characterization of skin sensitizers from autoxidized citronellol - impact of the terpene structure on the autoxidation process.",
+       "year": 2014,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/24673435/"
+      }
+     ]
+    },
+    {
+     "id": "rose-water-5",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "A laboratory study of rose aromatic water stated that microbiological control of rose water is necessary because it is used in cosmetic, pharmaceutical and food products, and it tested combined microwave-ultrasound pasteurisation after inoculating the water with a microorganism; conventional heat pasteurisation caused complete loss of the main component phenethyl alcohol. The study did not measure contamination in marketed cosmetic products.",
+      "uz": "Atirgul aromatik suvi bo‘yicha laboratoriya tadqiqotida atirgul suvi kosmetik, farmatsevtik va oziq-ovqat mahsulotlarida ishlatilgani uchun uning mikrobiologik nazorati zarurligi aytilgan va suv mikroorganizm bilan zararlantirilgandan keyin mikroto‘lqin va ultratovushni birlashtirgan pasterizatsiya sinab ko‘rilgan; oddiy issiqlik bilan pasterizatsiya asosiy tarkibiy qism fenetil spirtining to‘liq yo‘qolishiga olib kelgan. Tadqiqot sotuvdagi kosmetik mahsulotlardagi ifloslanishni o‘lchamagan.",
+      "ru": "В лабораторном исследовании ароматной розовой воды указано, что микробиологический контроль розовой воды необходим, так как её используют в косметических, фармацевтических и пищевых продуктах, и была испытана комбинированная микроволново-ультразвуковая пастеризация после заражения воды микроорганизмом; обычная тепловая пастеризация привела к полной потере основного компонента фенилэтилового спирта. Исследование не измеряло загрязнение в продаваемых косметических продуктах.",
+      "ar": "ذكرت دراسة مخبرية عن ماء الورد العطري أن الضبط الميكروبيولوجي لماء الورد ضروري لأنه يُستخدم في المنتجات التجميلية والدوائية والغذائية، واختبرت التبستر المشترك بالموجات الدقيقة والموجات فوق الصوتية بعد تلقيح الماء بكائن دقيق؛ وتسبّب التبستر الحراري التقليدي في فقدان كامل لمكوّنه الرئيسي الفينيل إيثيل كحول. ولم تقِس الدراسة التلوث في المنتجات التجميلية المتداولة في الأسواق."
+     },
+     "sources": [
+      {
+       "pmid": "31011349",
+       "doi": null,
+       "title": "Study of Combined Ultrasound-microwave Effect on Chemical Compositions and Count of Rose Aromatic Water.",
+       "year": 2018,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/31011349/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "inci": "Rosa Canina Fruit Oil",
    "slug": "rosehip-oil",
    "status": "draft",
    "category": "natural",
+   "names": {
+    "uz": "Itburun (rosehip) moyi",
+    "ru": "Масло шиповника",
+    "en": "Rosehip oil",
+    "ar": "زيت ثمر الورد البري"
+   },
    "aliases": [
     "Rosehip Oil"
    ],
@@ -2058,6 +3037,155 @@
        "title": "Nanoencapsulation of Rose-Hip Oil Prevents Oil Oxidation and Allows Obtainment of Gel and Film Topical Formulations.",
        "year": 2015,
        "url": "https://pubmed.ncbi.nlm.nih.gov/26381915/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Curcuma Longa Root Extract",
+   "slug": "turmeric",
+   "status": "draft",
+   "category": "natural",
+   "names": {
+    "uz": "Zarchava (kurkuma)",
+    "ru": "Куркума",
+    "en": "Turmeric",
+    "ar": "الكركم"
+   },
+   "aliases": [
+    "Turmeric",
+    "Curcumin"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Turmeric root extract (Curcuma longa; its main coloured constituent is curcumin) appears in some topical cosmetic and skin-care products such as face masks. The PubMed evidence selected for this card is limited: mostly cell-culture work, narrative reviews and case reports, with no randomised trial of a topical turmeric-only cosmetic included, so conclusions about visible pigmentation changes or acne in human skin cannot be drawn from these sources. Reported cautions include its yellow-orange colour, contact allergy, possible light-related reactions, and the instability and poor solubility of curcumin. Oral use is outside the scope of this card. This card summarises published evidence only and is not medical advice.",
+    "uz": "Zarchava ildizi ekstrakti (Curcuma longa; asosiy rangli komponenti curcumin) yuz niqoblari kabi ba‘zi surtiladigan kosmetik va teri parvarishi vositalarida uchraydi. Ushbu kartochka uchun tanlangan PubMed dalillari cheklangan: asosan hujayra kulturasidagi ishlar, hikoyaviy sharhlar va hodisa hisobotlari bo‘lib, faqat zarchavadan iborat surtiladigan kosmetik vositaning randomizatsiyalangan sinovi kiritilmagan, shu sababli bu manbalardan inson terisida ko‘rinadigan pigmentatsiya o‘zgarishlari yoki akne haqida xulosa chiqarib bo‘lmaydi. Qayd etilgan ehtiyot jihatlari: sariq-to‘q sariq rangi, kontakt allergiya, yorug‘lik bilan bog‘liq mumkin bo‘lgan reaksiyalar hamda curcumin‘ning beqarorligi va yomon erishi. Og‘iz orqali qabul qilish bu kartochka qamrovidan tashqarida. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Экстракт корня куркумы (Curcuma longa; основной окрашивающий компонент - curcumin) встречается в некоторых средствах для местного применения, например в масках для лица. Данные PubMed, отобранные для этой карточки, ограничены: в основном это работы на клеточных культурах, нарративные обзоры и описания случаев, а рандомизированных исследований наружной косметики только с куркумой не включено, поэтому из этих источников нельзя делать выводы о видимых изменениях пигментации или об акне на коже человека. Отмеченные предостережения: жёлто-оранжевый цвет, контактная аллергия, возможные реакции, связанные со светом, а также нестабильность и плохая растворимость curcumin. Пероральное применение выходит за рамки этой карточки. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "يرد مستخلص جذر الكركم (Curcuma longa؛ ومكوّنه الملوّن الرئيسي هو curcumin) في بعض المنتجات الموضعية التجميلية والعناية بالبشرة مثل أقنعة الوجه. الأدلة المختارة من PubMed لهذه البطاقة محدودة: فهي في الغالب أعمال على مزارع الخلايا ومراجعات سردية وتقارير حالات، ولم تُدرج أي تجربة عشوائية لمنتج تجميلي موضعي يحتوي على الكركم وحده، ولذلك لا يمكن استخلاص استنتاجات من هذه المصادر حول تغيّرات التصبغ المرئية أو حب الشباب في بشرة الإنسان. تشمل الاحتياطات المذكورة لونه الأصفر البرتقالي، والحساسية التماسية، وردود الفعل المحتملة المرتبطة بالضوء، وعدم ثبات curcumin وضعف ذوبانه. الاستعمال الفموي خارج نطاق هذه البطاقة. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "turmeric-1",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In an in vitro study on cultured human melanocytes, curcumin reduced melanin content, tyrosinase activity and the expression of melanogenesis-related proteins in a dose-dependent manner; this is cell-culture evidence only and does not show an effect on pigmentation in human skin.",
+      "uz": "Inson melanotsitlari kulturasida o‘tkazilgan in vitro tadqiqotda curcumin melanin miqdorini, tirozinaza faolligini va melanogenez bilan bog‘liq oqsillar ekspressiyasini doza bog‘liq tarzda kamaytirgan; bu faqat hujayra kulturasidagi dalil bo‘lib, inson terisidagi pigmentatsiyaga ta‘sirini ko‘rsatmaydi.",
+      "ru": "В исследовании in vitro на культуре меланоцитов человека curcumin дозозависимо снижал содержание меланина, активность тирозиназы и экспрессию белков, связанных с меланогенезом; это данные только на клеточной культуре, они не показывают влияния на пигментацию кожи человека.",
+      "ar": "في دراسة in vitro على مزرعة خلايا الميلانين البشرية، خفّض curcumin محتوى الميلانين ونشاط التيروزيناز وتعبير البروتينات المرتبطة بتكوين الميلانين بصورة تعتمد على الجرعة؛ وهذا دليل من مزارع الخلايا فقط ولا يُظهر تأثيرًا على التصبغ في بشرة الإنسان."
+     },
+     "sources": [
+      {
+       "pmid": "21584871",
+       "doi": "10.1002/ptr.3517",
+       "title": "Curcumin inhibits melanogenesis in human melanocytes.",
+       "year": 2011,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/21584871/"
+      }
+     ]
+    },
+    {
+     "id": "turmeric-2",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "Narrative reviews report that most clinical studies of curcumin/turmeric used oral administration and only a few applied it topically; one review also lists limitations of topical curcumin, including a bright yellow-orange colour described as cosmetically unpleasing, poor solubility and poor stability at high pH. The abstracts do not report efficacy results for topical cosmetic use.",
+      "uz": "Hikoyaviy sharhlarda curcumin/zarchava bo‘yicha klinik tadqiqotlarning ko‘pchiligida u og‘iz orqali qo‘llangani, teriga surtish esa kam tadqiqotlarda qo‘llangani bildirilgan; bitta sharhda surtiladigan curcumin‘ning cheklovlari ham sanalgan: kosmetik jihatdan yoqimsiz deb ta‘riflangan yorqin sariq-to‘q sariq rang, yomon eruvchanlik va yuqori pH da yomon barqarorlik. Annotatsiyalarda surtiladigan kosmetik qo‘llanish bo‘yicha samaradorlik natijalari keltirilmagan.",
+      "ru": "В нарративных обзорах сообщается, что большинство клинических исследований curcumin/куркумы использовали пероральный приём и лишь немногие - нанесение на кожу; в одном обзоре также перечислены ограничения наружного curcumin, включая ярко-жёлто-оранжевый цвет, описанный как косметически неприятный, плохую растворимость и плохую стабильность при высоком pH. В аннотациях не приводятся результаты эффективности для наружного косметического применения.",
+      "ar": "تفيد مراجعات سردية بأن معظم الدراسات السريرية عن curcumin/الكركم استخدمته فمويًا وأن القليل منها طبّقه موضعيًا؛ كما تذكر إحدى المراجعات قيودًا على curcumin الموضعي، منها لون أصفر برتقالي ساطع وُصف بأنه غير مرغوب تجميليًا، وضعف الذوبان، وضعف الثبات عند الرقم الهيدروجيني المرتفع. ولا تورد الملخصات نتائج فعالية للاستعمال التجميلي الموضعي."
+     },
+     "sources": [
+      {
+       "pmid": "38008088",
+       "doi": "10.1159/000535100",
+       "title": "Clinical Studies on Topical Curcumin.",
+       "year": 2023,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38008088/"
+      },
+      {
+       "pmid": "24085048",
+       "doi": null,
+       "title": "Curcumin: a novel treatment for skin-related disorders.",
+       "year": 2013,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/24085048/"
+      }
+     ]
+    },
+    {
+     "id": "turmeric-3",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "Case reports describe allergic contact dermatitis from topical products containing curcumin or turmeric, including a turmeric-containing massage oil (based on the title only, as no abstract is available) and a curcumin-containing yellow skin disinfectant solution (one patient with itchy red papules and blisters, confirmed by patch test). Case reports cannot show how common such reactions are.",
+      "uz": "Hodisa hisobotlarida curcumin yoki zarchava tarkibli surtiladigan vositalardan allergik kontakt dermatit rivojlangani tasvirlangan, jumladan zarchava tarkibli massaj moyi (faqat sarlavhaga asoslangan, chunki annotatsiya yo‘q) va curcumin tarkibli sariq teri dezinfeksiya eritmasi (bir bemorda qichiydigan qizil toshmalar va pufakchalar, patch-test bilan tasdiqlangan). Hodisa hisobotlari bunday reaksiyalar qanchalik tez-tez uchrashini ko‘rsata olmaydi.",
+      "ru": "В описаниях случаев сообщается об аллергическом контактном дерматите от средств для наружного применения, содержащих curcumin или куркуму, в том числе от массажного масла с куркумой (только по заголовку, так как аннотации нет) и от жёлтого раствора для дезинфекции кожи с curcumin (у одного пациента зудящие красные папулы и пузырьки, подтверждено патч-тестом). Описания случаев не показывают, как часто возникают такие реакции.",
+      "ar": "تصف تقارير حالات التهاب الجلد التماسي التحسسي الناجم عن منتجات موضعية تحتوي على curcumin أو الكركم، ومنها زيت تدليك يحتوي على الكركم (استنادًا إلى العنوان فقط لعدم توفر ملخص) ومحلول تعقيم جلدي أصفر يحتوي على curcumin (مريض واحد ظهرت لديه حطاطات حمراء حاكّة وحويصلات، وأُكّد التشخيص باختبار اللصقة). ولا تستطيع تقارير الحالات بيان مدى تكرار مثل هذه التفاعلات."
+     },
+     "sources": [
+      {
+       "pmid": "30327090",
+       "doi": null,
+       "title": "[Allergic contact dermatitis caused by curcumin-containing chlorhexidine].",
+       "year": 2018,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/30327090/"
+      },
+      {
+       "pmid": "27264290",
+       "doi": "10.1111/cod.12549",
+       "title": "Contact dermatitis caused by turmeric in a massage oil.",
+       "year": 2016,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/27264290/"
+      }
+     ]
+    },
+    {
+     "id": "turmeric-4",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative review reports that curcumin can act as a pro-oxidant and generate singlet oxygen under blue light, and concludes that topical use on light-exposed skin, particularly with bioavailability-enhancing nanocarriers, may be dangerous. In a small patch-test study of 33 healthy volunteers, curcumin at 10% caused a stimulating reaction (as the authors term it) in one subject, and photopatch tests with curcumin at 5% and 10% were negative in 10 photosensitive subjects; such small numbers cannot rule out reactions.",
+      "uz": "Hikoyaviy sharhda curcumin prooksidant sifatida ta‘sir qilishi va ko‘k nur ostida singlet kislorod hosil qilishi mumkinligi bildirilgan hamda yorug‘likka ta‘sir qiladigan teriga, ayniqsa biologik mavjudligini oshiruvchi nanokarrierlar bilan surtish xavfli bo‘lishi mumkin degan xulosa qilingan. 33 nafar sog‘lom ko‘ngillida o‘tkazilgan kichik patch-test tadqiqotida 10% curcumin bir ishtirokchida stimulyatsiyalovchi reaksiya (mualliflar atamasi) keltirgan, 5% va 10% curcumin bilan fotopatch testlari esa yorug‘likka sezgir 10 nafar ishtirokchida manfiy bo‘lgan; bunday kichik sonlar reaksiyalarni istisno qila olmaydi.",
+      "ru": "В нарративном обзоре сообщается, что curcumin может действовать как прооксидант и образовывать синглетный кислород под действием синего света, и делается вывод, что наружное применение на коже, подвергающейся свету, особенно с наноносителями, повышающими биодоступность, может быть опасным. В небольшом исследовании с патч-тестами у 33 здоровых добровольцев curcumin в концентрации 10% вызвал у одного участника стимулирующую реакцию (термин авторов), а фотопатч-тесты с curcumin 5% и 10% были отрицательными у 10 участников с фоточувствительностью; такое малое число не позволяет исключить реакции.",
+      "ar": "تفيد مراجعة سردية بأن curcumin قد يعمل كمؤكسد ويولّد الأكسجين الأحادي تحت الضوء الأزرق، وتخلص إلى أن الاستعمال الموضعي على البشرة المعرّضة للضوء، خصوصًا مع حوامل نانوية تزيد التوافر الحيوي، قد يكون خطرًا. وفي دراسة صغيرة لاختبار اللصقة شملت 33 متطوعًا سليمًا، سبّب curcumin بتركيز 10% تفاعلًا محفّزًا (بحسب مصطلح المؤلفين) لدى مشارك واحد، وكانت اختبارات اللصقة الضوئية بتركيز 5% و10% سلبية لدى 10 مشاركين لديهم حساسية للضوء؛ ولا تستبعد هذه الأعداد الصغيرة حدوث تفاعلات."
+     },
+     "sources": [
+      {
+       "pmid": "37760028",
+       "doi": "10.3390/antiox12091725",
+       "title": "Dual Action of Curcumin as an Anti- and Pro-Oxidant from a Biophysical Perspective.",
+       "year": 2023,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37760028/"
+      },
+      {
+       "pmid": "34198300",
+       "doi": "10.1159/000515470",
+       "title": "Assessment of Skin Photoallergy Risk in Cosmetics Containing Herbal Extract Ingredients.",
+       "year": 2021,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/34198300/"
+      }
+     ]
+    },
+    {
+     "id": "turmeric-5",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In a laboratory study, non-encapsulated curcumin degraded completely on sun exposure, whereas curcumin encapsulated in cellulose nanoparticles was protected and kept its antioxidant activity; the authors describe curcumin as unstable under light and heat and during storage, and the encapsulated formulation is a different product from plain curcumin.",
+      "uz": "Laboratoriya tadqiqotida kapsulalanmagan curcumin quyosh nuri ta‘sirida to‘liq parchalangan, sellyuloza nanozarrachalariga kapsulalangan curcumin esa himoyalangan va antioksidant faolligini saqlagan; mualliflar curcumin‘ni yorug‘lik va issiqlik ta‘sirida hamda saqlash vaqtida beqaror deb ta‘riflaydi, kapsulalangan formulyatsiya esa oddiy curcumin‘dan boshqa mahsulotdir.",
+      "ru": "В лабораторном исследовании неинкапсулированный curcumin полностью разрушался под действием солнечного света, тогда как curcumin, инкапсулированный в целлюлозные наночастицы, был защищён и сохранял антиоксидантную активность; авторы описывают curcumin как нестабильный при воздействии света и тепла и при хранении, а инкапсулированная форма является иным продуктом, чем обычный curcumin.",
+      "ar": "في دراسة مخبرية، تحلّل curcumin غير المغلّف بالكامل عند التعرض لضوء الشمس، بينما كان curcumin المغلّف في جسيمات السليلوز النانوية محميًا وحافظ على نشاطه المضاد للأكسدة؛ ويصف المؤلفون curcumin بأنه غير ثابت تحت الضوء والحرارة وأثناء التخزين، والتركيبة المغلّفة منتج مختلف عن curcumin العادي."
+     },
+     "sources": [
+      {
+       "pmid": "22954772",
+       "doi": "10.1016/j.ejpb.2012.08.010",
+       "title": "Encapsulated curcumin results in prolonged curcumin activity in vitro and radical scavenging activity ex vivo on skin after UVB-irradiation.",
+       "year": 2012,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/22954772/"
       }
      ]
     }

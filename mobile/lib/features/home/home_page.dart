@@ -33,8 +33,10 @@ class HomePage extends StatelessWidget {
       ('journal', l.tileJournal, Icons.event_note_outlined, () => context.go('/journal')),
     ];
     final repo = AppScope.of(context).ingredients;
-    final ingredients = repo.all.where((i) => !i.isNatural).take(8).map((i) => i.inci).toList();
+    final actives = repo.all.where((i) => !i.isNatural && !i.isPractice && !i.isCaution).take(8).toList();
     final natural = repo.all.where((i) => i.isNatural).take(8).toList();
+    final practices = repo.all.where((i) => i.isPractice).take(8).toList();
+    final lang = Localizations.localeOf(context).languageCode;
     return KeyedSubtree(
       key: const Key('home-page'),
       child: SingleChildScrollView(
@@ -118,14 +120,12 @@ class HomePage extends StatelessWidget {
             height: 132,
             child: ListView.separated(
               scrollDirection: Axis.horizontal,
-              itemCount: ingredients.length,
+              itemCount: actives.length,
               separatorBuilder: (_, _) => const SizedBox(width: 12),
               itemBuilder: (context, i) => _IngredientCard(
-                name: ingredients[i],
-                onTap: () {
-                  final ing = AppScope.of(context).ingredients.all.where((x) => x.inci == ingredients[i]).firstOrNull;
-                  ing == null ? _soon(context) : context.safePush('/scanner/ingredient/${ing.slug}');
-                },
+                name: actives[i].nameFor(lang),
+                latin: !actives[i].hasFriendlyName,
+                onTap: () => context.safePush('/scanner/ingredient/${actives[i].slug}'),
               ),
             ),
           ),
@@ -148,8 +148,35 @@ class HomePage extends StatelessWidget {
                 itemCount: natural.length,
                 separatorBuilder: (_, _) => const SizedBox(width: 12),
                 itemBuilder: (context, i) => _IngredientCard(
-                  name: natural[i].inci,
+                  name: natural[i].nameFor(lang),
+                  latin: !natural[i].hasFriendlyName,
                   onTap: () => context.safePush('/scanner/ingredient/${natural[i].slug}'),
+                ),
+              ),
+            ),
+          ],
+          if (practices.isNotEmpty) ...[
+            const SizedBox(height: 22),
+            Row(children: [
+              Expanded(child: Text(l.practiceSectionTitle, style: t.titleMedium?.copyWith(fontSize: 18, fontWeight: FontWeight.w700))),
+              TextButton(
+                key: const Key('home-practice-all'),
+                onPressed: () => context.safePush('/scanner/ingredients?filter=practice'),
+                child: Text(l.seeAll, style: t.titleMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w700)),
+              ),
+            ]),
+            const SizedBox(height: 8),
+            SizedBox(
+              key: const Key('home-practice-section'),
+              height: 132,
+              child: ListView.separated(
+                scrollDirection: Axis.horizontal,
+                itemCount: practices.length,
+                separatorBuilder: (_, _) => const SizedBox(width: 12),
+                itemBuilder: (context, i) => _IngredientCard(
+                  name: practices[i].nameFor(lang),
+                  latin: !practices[i].hasFriendlyName,
+                  onTap: () => context.safePush('/scanner/ingredient/${practices[i].slug}'),
                 ),
               ),
             ),
@@ -204,8 +231,11 @@ class _Tile extends StatelessWidget {
 }
 
 class _IngredientCard extends StatelessWidget {
-  const _IngredientCard({required this.name, required this.onTap});
+  const _IngredientCard({required this.name, required this.onTap, this.latin = true});
   final String name;
+
+  /// Lotin INCI nomi bo'lsa matn chapdan o'ngga; tushunarli (mahalliy) nom bo'lsa til yo'nalishida.
+  final bool latin;
   final VoidCallback onTap;
 
   @override
@@ -242,7 +272,7 @@ class _IngredientCard extends StatelessWidget {
                 const Spacer(),
                 // INCI nomi har tilda lotin yozuvida qoladi; matn LTR.
                 Text(name,
-                    textDirection: TextDirection.ltr,
+                    textDirection: latin ? TextDirection.ltr : null,
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                     style: const TextStyle(

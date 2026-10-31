@@ -1,0 +1,143 @@
+{
+ "inci": "Rosa Damascena Flower Water",
+ "slug": "rose-water",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Rose water (INCI: Rosa Damascena Flower Water, also written Rose Water) is the aqueous distillate (hydrosol) of Damask rose (Rosa damascena) flowers and is used in toners and facial products; rose extracts and oil are also used in cosmetics. This card covers topical cosmetic use only; oral use and aromatherapy are out of scope. The evidence found in PubMed consists of laboratory, animal and narrative-review sources; no controlled human study of topical rose water for cosmetic skin outcomes was identified, and no eye-care evidence was included, so conclusions about effects on human skin are not possible. Rose products contain fragrance compounds that are screened for as contact allergens, and water-based products need microbiological control. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "rose-water-1",
+   "text_en": "In laboratory experiments, diluted rose water (a hydrosol of Rosa damascena flowers) inhibited mycelial growth of Candida albicans at about 2.2% and reduced the viability of methicillin-resistant Staphylococcus aureus (MRSA) within 1 hour, and at 5 to 15% it suppressed activation of isolated neutrophils induced by LPS, TNF-alpha and fMLP; these are microbial and cell culture findings, not tests on human skin, and they do not show an effect on skin inflammation or irritation in people.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "28154255",
+     "doi": "10.1248/bpb.b16-00644",
+     "title": "Inhibition of Neutrophil Adhesion and Antimicrobial Activity by Diluted Hydrosol Prepared from Rosa damascena.",
+     "year": 2017,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28154255/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "rose-water-2",
+   "text_en": "In a study in rats, topical emulgels containing Taif rose oil (Rosa damascena, 50 to 100 mg/g; a nanoemulsion form was more potent than the plain oil) were associated, after UVB exposure, with altered CAT and SOD enzyme activity, lower inflammatory markers and lower MMP-9 content; this is animal evidence on rose oil, not rose water, and it has not been shown in people.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "37744837",
+     "doi": "10.1021/acsomega.3c04756",
+     "title": "Taif Rose Oil Ameliorates UVB-Induced Oxidative Damage and Skin Photoaging in Rats via Modulation of MAPK and MMP Signaling Pathways.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37744837/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "rose-water-3",
+   "text_en": "A narrative review of rose (Rosa) extracts for cosmetic anti-ageing use reported that the extraction method influences the phenolic, flavonoid, anthocyanin and volatile content of the extracts, and it discussed in vitro and in vivo antioxidant, anticollagenase and antielastase activity; the abstract reports no controlled human skin outcomes, the review covers several Rosa species rather than Rosa damascena alone, and it notes conflicting evidence on extraction techniques.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "42569134",
+     "doi": "10.1021/acsomega.6c03480",
+     "title": "Green Extraction Strategies for Rose Bioactives: Impacts on Chemical Composition and Anti-Aging Efficacy.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42569134/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "rose-water-4",
+   "text_en": "A review of Damask rose (Rosa damascena) essential oil lists citronellol, geraniol, nerol and linalool among its important components, and a laboratory study found that citronellol, a fragrance compound included in fragrance mix II used to screen for contact allergy, oxidises in air to hydroperoxides that showed higher sensitisation potency in a mouse local lymph node assay. These sources support caution with rose products that contain such fragrance compounds; they did not measure these compounds in rose water or test rose water for allergy.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "37836168",
+     "doi": "10.3390/plants12193428",
+     "title": "Do Abiotic Stresses Affect the Aroma of Damask Roses?",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37836168/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "24673435",
+     "doi": "10.1111/cod.12234",
+     "title": "Characterization of skin sensitizers from autoxidized citronellol - impact of the terpene structure on the autoxidation process.",
+     "year": 2014,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24673435/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "rose-water-5",
+   "text_en": "A laboratory study of rose aromatic water stated that microbiological control of rose water is necessary because it is used in cosmetic, pharmaceutical and food products, and it tested combined microwave-ultrasound pasteurisation after inoculating the water with a microorganism; conventional heat pasteurisation caused complete loss of the main component phenethyl alcohol. The study did not measure contamination in marketed cosmetic products.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "31011349",
+     "title": "Study of Combined Ultrasound-microwave Effect on Chemical Compositions and Count of Rose Aromatic Water.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31011349/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Atirgul suvi (INCI: Rosa Damascena Flower Water, Rose Water deb ham yoziladi) — damashq atirguli (Rosa damascena) gullarining suvli distillyati (gidrozol) bo'lib, tonik va yuz parvarishi vositalarida qo'llaniladi; atirgul ekstrakti va moyi ham kosmetikada ishlatiladi. Bu kartochka faqat surtiladigan kosmetik qo'llanishni qamrab oladi; og'iz orqali qabul va aromaterapiya qamrovdan tashqarida. PubMed'dan topilgan dalillar laboratoriya, hayvonlardagi va hikoyaviy sharh manbalaridan iborat; atirgul suvini surtishning kosmetik teri natijalari bo'yicha nazorat qilingan inson tadqiqoti topilmadi va ko'z parvarishiga oid dalil kiritilmadi, shu sababli inson terisiga ta'sir haqida xulosa qilib bo'lmaydi. Atirgul mahsulotlarida kontakt allergen sifatida tekshiriladigan parfyum tarkibiy qismlari bor, suvli mahsulotlar esa mikrobiologik nazoratni talab qiladi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "rose-water-1": "Laboratoriya tajribalarida suyultirilgan atirgul suvi (Rosa damascena gullarining gidrozoli) Candida albicans mitseliy o'sishini taxminan 2,2% da to'xtatgan va metitsillinga chidamli Staphylococcus aureus (MRSA) hayotchanligini 1 soat ichida kamaytirgan, 5 dan 15% gacha esa ajratib olingan neytrofillarning LPS, TNF-alfa va fMLP qo'zg'atgan faollashuvini susaytirgan; bular mikrob va hujayra kulturasi natijalari, inson terisida o'tkazilgan sinov emas va odamlarda teri yallig'lanishi yoki ta'sirlanishiga ta'sirini ko'rsatmaydi.",
+    "rose-water-2": "Kalamushlarda o'tkazilgan tadqiqotda Toif atirgul moyi (Rosa damascena, 50 dan 100 mg/g) bor surtiladigan emulgellar UVB ta'siridan keyin CAT va SOD ferment faolligining o'zgarishi, yallig'lanish belgilarining pastroq bo'lishi va MMP-9 miqdorining kamroq bo'lishi bilan bog'langan (nanoemulsiya shakli oddiy moydan kuchliroq bo'lgan); bu atirgul suvi emas, atirgul moyi bo'yicha hayvonlardagi dalil bo'lib, odamlarda ko'rsatilmagan.",
+    "rose-water-3": "Atirgul (Rosa) ekstraktlarining kosmetik qarishga qarshi qo'llanishi bo'yicha hikoyaviy sharhda ekstraksiya usuli ekstraktlarning fenol, flavonoid, antotsian va uchuvchi moddalar tarkibiga ta'sir qilishi qayd etilgan, shuningdek in vitro va in vivo antioksidant, antikollagenaza va antielastaza faolligi muhokama qilingan; annotatsiyada nazorat qilingan inson teri natijalari keltirilmagan, sharh faqat Rosa damascena emas, bir nechta Rosa turlarini qamrab oladi va ekstraksiya usullari bo'yicha ziddiyatli dalillar borligi aytilgan.",
+    "rose-water-4": "Damashq atirguli (Rosa damascena) efir moyi bo'yicha sharhda uning muhim tarkibiy qismlari orasida sitronellol, geraniol, nerol va linalool sanalgan, laboratoriya tadqiqotida esa kontakt allergiyani skrining qilishda ishlatiladigan parfyum aralashmasi II tarkibiga kiruvchi parfyum moddasi sitronellol havoda oksidlanib gidroperoksidlar hosil qilishi va ular sichqonlardagi mahalliy limfa tugun testida yuqoriroq sensibilizatsiya kuchini ko'rsatishi aniqlangan. Bu manbalar shunday parfyum moddalari bor atirgul mahsulotlari bilan ehtiyot bo'lishni qo'llab-quvvatlaydi; ular bu moddalarni atirgul suvida o'lchamagan va atirgul suvini allergiyaga sinamagan.",
+    "rose-water-5": "Atirgul aromatik suvi bo'yicha laboratoriya tadqiqotida atirgul suvi kosmetik, farmatsevtik va oziq-ovqat mahsulotlarida ishlatilgani uchun uning mikrobiologik nazorati zarurligi aytilgan va suv mikroorganizm bilan zararlantirilgandan keyin mikroto'lqin va ultratovushni birlashtirgan pasterizatsiya sinab ko'rilgan; oddiy issiqlik bilan pasterizatsiya asosiy tarkibiy qism fenetil spirtining to'liq yo'qolishiga olib kelgan. Tadqiqot sotuvdagi kosmetik mahsulotlardagi ifloslanishni o'lchamagan."
+   }
+  },
+  "ru": {
+   "summary": "Розовая вода (INCI: Rosa Damascena Flower Water, также пишут Rose Water) — водный дистиллят (гидролат) цветков дамасской розы (Rosa damascena); её используют в тониках и средствах для лица, а экстракты и масло розы также применяются в косметике. Эта карточка охватывает только наружное косметическое применение; приём внутрь и ароматерапия не рассматриваются. Найденные в PubMed данные состоят из лабораторных, животных и обзорных источников; контролируемых исследований на людях по косметическим результатам для кожи при наружном применении розовой воды не обнаружено, данные по уходу за глазами не включены, поэтому выводы о влиянии на кожу человека невозможны. Продукты из розы содержат душистые соединения, на которые проводят скрининг как на контактные аллергены, а водные продукты требуют микробиологического контроля. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "rose-water-1": "В лабораторных экспериментах разбавленная розовая вода (гидролат цветков Rosa damascena) подавляла рост мицелия Candida albicans при концентрации около 2,2% и снижала жизнеспособность метициллин-резистентного Staphylococcus aureus (MRSA) в течение 1 часа, а при 5–15% подавляла активацию выделенных нейтрофилов, вызванную LPS, TNF-альфа и fMLP; это результаты на культурах микроорганизмов и клеток, а не испытания на коже человека, и они не показывают влияния на воспаление или раздражение кожи у людей.",
+    "rose-water-2": "В исследовании на крысах гелевые эмульсии для наружного применения с тайфским розовым маслом (Rosa damascena, 50–100 мг/г) были связаны после воздействия UVB с изменением активности ферментов CAT и SOD, более низкими маркерами воспаления и меньшим содержанием MMP-9 (форма наноэмульсии была эффективнее обычного масла); это данные на животных о розовом масле, а не о розовой воде, и у людей они не показаны.",
+    "rose-water-3": "В обзорной статье (нарративный обзор) об экстрактах розы (Rosa) для косметического применения против старения сообщается, что способ экстракции влияет на содержание фенолов, флавоноидов, антоцианов и летучих веществ в экстрактах, а также обсуждается антиоксидантная, антиколлагеназная и антиэластазная активность in vitro и in vivo; в аннотации нет контролируемых результатов для кожи человека, обзор охватывает несколько видов Rosa, а не только Rosa damascena, и отмечает противоречивые данные о методах экстракции.",
+    "rose-water-4": "В обзоре об эфирном масле дамасской розы (Rosa damascena) среди его важных компонентов названы цитронеллол, гераниол, нерол и линалоол, а лабораторное исследование показало, что цитронеллол — душистое соединение, входящее в ароматическую смесь II для скрининга контактной аллергии, — окисляется на воздухе до гидропероксидов, которые проявили более высокую сенсибилизирующую активность в тесте локальных лимфатических узлов у мышей. Эти источники подтверждают осторожность при использовании продуктов из розы, содержащих такие душистые соединения; в них эти вещества не измеряли в розовой воде и розовую воду на аллергию не тестировали.",
+    "rose-water-5": "В лабораторном исследовании ароматной розовой воды указано, что микробиологический контроль розовой воды необходим, так как её используют в косметических, фармацевтических и пищевых продуктах, и была испытана комбинированная микроволново-ультразвуковая пастеризация после заражения воды микроорганизмом; обычная тепловая пастеризация привела к полной потере основного компонента фенилэтилового спирта. Исследование не измеряло загрязнение в продаваемых косметических продуктах."
+   }
+  },
+  "ar": {
+   "summary": "ماء الورد (INCI: Rosa Damascena Flower Water، ويُكتب أيضًا Rose Water) هو المقطّر المائي (الهيدروسول) لأزهار الورد الدمشقي (Rosa damascena)، ويُستخدم في التونر ومنتجات الوجه، كما تُستخدم مستخلصات الورد وزيته في مستحضرات التجميل. تغطي هذه البطاقة الاستخدام التجميلي الموضعي فقط؛ أما التناول عن طريق الفم والعلاج بالروائح فخارج النطاق. تتكوّن الأدلة التي وُجدت في PubMed من مصادر مخبرية وحيوانية ومراجعات سردية؛ ولم تُحدَّد دراسة بشرية مضبوطة لماء الورد الموضعي على نتائج جلدية تجميلية، ولم تُدرج أدلة عن العناية بالعين، ولذلك لا يمكن استخلاص نتائج عن التأثير في بشرة الإنسان. تحتوي منتجات الورد على مركّبات عطرية يُجرى عنها فحص بوصفها مسببات حساسية تلامسية، كما تحتاج المنتجات المائية إلى ضبط ميكروبيولوجي. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "rose-water-1": "في تجارب مخبرية، ثبّط ماء الورد المخفف (هيدروسول أزهار Rosa damascena) نمو الغزل الفطري لفطر Candida albicans عند نحو 2.2%، وقلّل حيوية المكورات العنقودية الذهبية المقاومة للميثيسيلين (MRSA) خلال ساعة واحدة، وعند تركيز 5 إلى 15% ثبّط تنشيط العدلات المعزولة الذي تحفزه LPS وTNF-alpha وfMLP؛ وهذه نتائج على مزارع ميكروبية وخلوية وليست اختبارات على جلد الإنسان، ولا تُظهر تأثيرًا في التهاب الجلد أو تهيجه لدى الأشخاص.",
+    "rose-water-2": "في دراسة على الجرذان، ارتبطت مستحلبات هلامية موضعية تحتوي على زيت ورد الطائف (Rosa damascena بتركيز 50 إلى 100 ملغ/غ) بعد التعرض للأشعة فوق البنفسجية UVB بتغيّر نشاط إنزيمي CAT وSOD وانخفاض مؤشرات الالتهاب وانخفاض محتوى MMP-9 (وكان شكل المستحلب النانوي أقوى من الزيت العادي)؛ وهذا دليل حيواني عن زيت الورد وليس ماء الورد، ولم يُثبت لدى الإنسان.",
+    "rose-water-3": "ذكرت مراجعة سردية عن مستخلصات الورد (Rosa) للاستخدام التجميلي المضاد للشيخوخة أن طريقة الاستخلاص تؤثر في محتوى المستخلصات من الفينولات والفلافونويدات والأنثوسيانينات والمواد المتطايرة، وناقشت نشاطًا مضادًا للأكسدة ومضادًا للكولاجيناز ومضادًا للإيلاستاز في المختبر وفي الكائن الحي؛ ولا يذكر الملخص نتائج جلدية بشرية مضبوطة، وتشمل المراجعة عدة أنواع من Rosa وليس Rosa damascena وحده، وتشير إلى أدلة متضاربة بشأن تقنيات الاستخلاص.",
+    "rose-water-4": "تذكر مراجعة عن الزيت العطري للورد الدمشقي (Rosa damascena) أن السترونيلول والجيرانيول والنيرول واللينالول من مكوناته المهمة، ووجدت دراسة مخبرية أن السترونيلول، وهو مركّب عطري مدرج في مزيج العطور II المستخدم للكشف عن الحساسية التلامسية، يتأكسد في الهواء إلى هيدروبيروكسيدات أظهرت قدرة أعلى على التحسيس في اختبار العقد اللمفية الموضعية لدى الفئران. تدعم هذه المصادر توخي الحذر مع منتجات الورد التي تحتوي على مثل هذه المركّبات العطرية؛ ولم تقِس هذه المصادر تلك المركّبات في ماء الورد ولم تختبر ماء الورد من حيث الحساسية.",
+    "rose-water-5": "ذكرت دراسة مخبرية عن ماء الورد العطري أن الضبط الميكروبيولوجي لماء الورد ضروري لأنه يُستخدم في المنتجات التجميلية والدوائية والغذائية، واختبرت التبستر المشترك بالموجات الدقيقة والموجات فوق الصوتية بعد تلقيح الماء بكائن دقيق؛ وتسبّب التبستر الحراري التقليدي في فقدان كامل لمكوّنه الرئيسي الفينيل إيثيل كحول. ولم تقِس الدراسة التلوث في المنتجات التجميلية المتداولة في الأسواق."
+   }
+  }
+ }
+}

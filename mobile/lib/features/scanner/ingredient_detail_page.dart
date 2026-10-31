@@ -29,19 +29,31 @@ class IngredientDetailPage extends StatelessWidget {
     return KeyedSubtree(
       key: const Key('ingredient-page'),
       child: Column(children: [
-        PageHeader(title: ing?.inci ?? l.notInDatabase, onBack: () => context.canPop() ? context.pop() : context.go('/scanner')),
+        PageHeader(title: ing?.nameFor(lang) ?? l.notInDatabase, onBack: () => context.canPop() ? context.pop() : context.go('/scanner')),
         Expanded(
           child: ing == null
               ? Center(child: Text(l.notInDatabase, style: t.bodyLarge))
               : PageBody(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     const SizedBox(height: 8),
-                    Text(ing.inci, textDirection: TextDirection.ltr, style: t.headlineMedium),
+                    Text(ing.nameFor(lang), textDirection: ing.hasFriendlyName ? null : TextDirection.ltr, style: t.headlineMedium),
+                    if (ing.hasFriendlyName && !ing.isPractice) ...[
+                      const SizedBox(height: 4),
+                      Text(ing.inci, textDirection: TextDirection.ltr, style: t.bodyMedium?.copyWith(fontFamily: 'Inter', fontWeight: FontWeight.w600)),
+                    ],
                     const SizedBox(height: 10),
                     Text(ing.summaryFor(lang), style: t.bodyLarge),
                     const SizedBox(height: 14),
                     if (ing.isNatural) ...[
                       _Note(key: const Key('note-natural'), icon: Icons.spa_outlined, text: l.naturalNote),
+                      const SizedBox(height: 8),
+                    ],
+                    if (ing.isPractice) ...[
+                      _Note(key: const Key('note-practice'), icon: Icons.self_improvement_outlined, text: l.practiceNote),
+                      const SizedBox(height: 8),
+                    ],
+                    if (ing.isCaution) ...[
+                      _Note(key: const Key('note-caution'), icon: Icons.warning_amber_rounded, text: l.cautionNote),
                       const SizedBox(height: 8),
                     ],
                     if (ing.status != 'verified') _Note(key: const Key('note-draft'), icon: Icons.edit_note_rounded, text: l.draftNote),

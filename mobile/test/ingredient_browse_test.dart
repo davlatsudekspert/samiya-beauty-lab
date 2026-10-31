@@ -29,9 +29,14 @@ void main() {
     await t.tap(k('home-see-all'));
     await t.pumpAndSettle();
     expect(k('ingredients-page'), findsOneWidget);
-    for (final s in ['niacinamide', 'retinol', 'salicylic-acid', 'hyaluronic-acid', 'ascorbic-acid']) {
-      expect(k('ingredient-item-$s'), findsOneWidget, reason: s);
-    }
+    // Ro'yxat sekin yaratiladi (lazy): yuqoridagi elementlar darhol ko'rinadi, qolganlari qidiruv/filtr bilan topiladi.
+    expect(k('ingredient-item-niacinamide'), findsOneWidget);
+    expect(k('ingredient-item-hyaluronic-acid'), findsOneWidget);
+    await t.tap(k('filter-active'));
+    await t.pumpAndSettle();
+    await t.enterText(k('ingredient-search'), 'reti');
+    await t.pumpAndSettle();
+    expect(k('ingredient-item-retinol'), findsOneWidget);
   });
 
   testWidgets('bosh sahifa qidiruvi ham ro\'yxatni ochadi', (t) async {

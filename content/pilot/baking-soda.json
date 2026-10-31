@@ -1,0 +1,123 @@
+{
+ "inci": "Sodium Bicarbonate",
+ "slug": "baking-soda",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Sodium bicarbonate (baking soda) is an alkaline household powder that is also used in some cosmetic products. This card concerns applying baking soda directly to the face at home as a cleanser, scrub or mask. The sources cited here describe the skin's acidic surface (the acid mantle) as important for barrier function and describe alkaline soaps as more irritating than pH-balanced cleansers, but none of them tested baking soda applied to the face. They also include no trials or case reports of baking soda used this way, so this card cannot say how often irritation or burns occur, or whether any skin-care benefit exists. The cosmetic safety assessment covers formulated products at assessed concentrations, which is not the same as home use of the pure powder or paste. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "baking-soda-1",
+   "text_en": "The Expert Panel for Cosmetic Ingredient Safety (Cosmetic Ingredient Review) re-reviewed sodium bicarbonate together with sodium carbonate and sodium sesquicarbonate, which are used in bath, skin and hair preparations, and concluded that they are safe as cosmetic ingredients in the practices of use and concentrations described in the assessment. This conclusion concerns formulated cosmetic products at assessed concentrations; it is a separate matter from applying baking soda powder or paste directly to the face at home, which the abstract does not address.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40932353",
+     "doi": "10.1177/10915818251361098",
+     "title": "Re-Review Summary of Sodium Sesquicarbonate, Sodium Carbonate, and Sodium Bicarbonate as Used in Cosmetics.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40932353/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "baking-soda-2",
+   "text_en": "A narrative review reported that the acidic \"acid mantle\" of the stratum corneum seems to be important for permeability barrier formation and antimicrobial defence, that exogenous factors such as detergents and cosmetic products may influence skin pH, and that pH changes are reported to play a role in conditions including irritant contact dermatitis, atopic dermatitis and acne vulgaris. The review does not evaluate baking soda, and it describes the origin of the acidic pH as still conjectural.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "16864974",
+     "doi": "10.1159/000094670",
+     "title": "The pH of the skin surface and its impact on the barrier function.",
+     "year": 2006,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16864974/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "baking-soda-3",
+   "text_en": "Two narrative reviews on skin cleansers compared alkaline soaps with synthetic detergent cleansers (syndets): one reported that syndets with a pH of about 5.5, unlike alkaline soap, do not interfere with the skin microflora and that their irritancy potential might be even lower than that of soap; the other reported that syndets cause less skin irritation and dryness than alkaline soaps. These reviews concern soaps and syndets, not baking soda, so they point to a general concern about alkaline cleansing rather than showing the effect of baking soda itself.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "8573921",
+     "doi": "10.1159/000246568",
+     "title": "The concept of the acid mantle of the skin: its relevance for the choice of skin cleansers.",
+     "year": 1995,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8573921/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "29231284",
+     "doi": "10.1111/jocd.12469",
+     "title": "The science behind skin care: Cleansers.",
+     "year": 2017,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29231284/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "baking-soda-4",
+   "text_en": "In an observational study of 200 people with acne and 200 age- and sex-matched controls, mean facial skin pH was higher in the acne group than in the controls and higher than the reference values cited by the authors (pH 4.5 to 5.5 for women, 4 to 5.5 for men). The design shows an association only, does not show that a higher skin pH causes acne, and did not involve baking soda.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "29104722",
+     "title": "Skin Surface pH in Acne Vulgaris: Insights from an Observational Study and Review of the Literature.",
+     "year": 2017,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29104722/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Natriy bikarbonat (ichimlik sodasi) ishqoriy uy-ro'zg'or kukuni bo'lib, ba'zi kosmetik vositalarda ham ishlatiladi. Bu kartochka ichimlik sodasini uy sharoitida yuzga to'g'ridan-to'g'ri tozalovchi vosita, skrab yoki niqob sifatida surtish haqida. Bu yerda keltirilgan manbalar terining kislotali yuzasini (kislotali himoya qatlamini) to'siq funksiyasi uchun muhim deb ta'riflaydi va ishqoriy sovunlarni pH jihatidan muvozanatlangan tozalovchi vositalarga qaraganda ko'proq ta'sirlantiruvchi deb ta'riflaydi, lekin ularning hech biri yuzga surtilgan ichimlik sodasini sinab ko'rmagan. Ularda bu tarzda ishlatilgan ichimlik sodasi bo'yicha sinovlar yoki hodisa hisobotlari ham yo'q, shu sababli bu kartochka ta'sirlanish yoki kuyish qanchalik tez-tez uchrashini yoki terini parvarish qilishda biror foyda borligini ayta olmaydi. Kosmetik xavfsizlik baholash tayyor mahsulotlarni baholangan konsentratsiyalarda qamrab oladi, bu sof kukun yoki pastani uyda ishlatish bilan bir narsa emas. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "baking-soda-1": "Kosmetik ingredientlar xavfsizligi bo'yicha ekspert kengashi (Cosmetic Ingredient Review) natriy bikarbonatni natriy karbonat va natriy seskvikarbonat bilan birga qayta ko'rib chiqdi; bu moddalar vanna, teri va soch vositalarida ishlatiladi. Kengash ularni baholashda ko'rsatilgan qo'llanish amaliyoti va konsentratsiyalarda kosmetik ingredient sifatida xavfsiz, degan xulosaga keldi. Bu xulosa baholangan konsentratsiyalardagi tayyor kosmetik mahsulotlarga tegishli; annotatsiyada ko'rib chiqilmagan, ichimlik sodasi kukuni yoki pastasini uyda yuzga to'g'ridan-to'g'ri surtish esa alohida masala.",
+    "baking-soda-2": "Hikoyaviy sharhda shox qavatning kislotali \"kislotali himoya qatlami\" o'tkazuvchanlik to'sig'ining shakllanishi va mikroblarga qarshi himoya uchun muhim ko'rinishi, yuvuvchi vositalar va kosmetik mahsulotlar kabi tashqi omillar teri pH'iga ta'sir qilishi mumkinligi hamda pH o'zgarishlari ta'sirlanishli kontakt dermatit, atopik dermatit va oddiy akne kabi holatlarda rol o'ynashi haqida xabar qilingan. Sharh ichimlik sodasini baholamaydi va kislotali pH manbai hanuzgacha taxminiy ekanini ta'riflaydi.",
+    "baking-soda-3": "Terini tozalash vositalari bo'yicha ikkita hikoyaviy sharh ishqoriy sovunlarni sintetik yuvuvchi tozalovchi vositalar (sindetlar) bilan solishtirdi: birida pH'i taxminan 5,5 bo'lgan sindetlar ishqoriy sovundan farqli o'laroq teri mikroflorasiga xalaqit bermasligi va ularning ta'sirlantirish ehtimoli sovundan ham past bo'lishi mumkinligi qayd etilgan; ikkinchisida sindetlar ishqoriy sovunlarga qaraganda teri ta'sirlanishi va quruqligini kamroq keltirib chiqarishi qayd etilgan. Bu sharhlar sovun va sindetlar haqida, ichimlik sodasi haqida emas, shu sababli ular ichimlik sodasining o'zi ta'sirini ko'rsatmaydi, balki ishqoriy tozalashga nisbatan umumiy ehtiyotkorlikni ko'rsatadi.",
+    "baking-soda-4": "Akneli 200 kishi va yoshi hamda jinsi bo'yicha mos keladigan 200 nazorat ishtirokchisi bilan o'tkazilgan kuzatuv tadqiqotida yuz terisining o'rtacha pH'i akne guruhida nazoratdagiga qaraganda va mualliflar keltirgan me'yoriy qiymatlardan (ayollar uchun pH 4,5 dan 5,5 gacha, erkaklar uchun 4 dan 5,5 gacha) yuqoriroq bo'lgan. Dizayn faqat bog'liqlikni ko'rsatadi, terining yuqoriroq pH'i aknega sabab bo'lishini ko'rsatmaydi va ichimlik sodasi ishtirok etmagan."
+   }
+  },
+  "ru": {
+   "summary": "Бикарбонат натрия (пищевая сода) является щелочным бытовым порошком, который также используется в некоторых косметических средствах. Эта карточка посвящена нанесению пищевой соды непосредственно на лицо в домашних условиях в качестве очищающего средства, скраба или маски. Приведённые здесь источники описывают кислую поверхность кожи (кислотную мантию) как важную для барьерной функции и описывают щелочные мыла как более раздражающие, чем очищающие средства с сбалансированным pH, но ни один из них не проверял пищевую соду, нанесённую на лицо. В них также нет испытаний или описаний случаев такого применения пищевой соды, поэтому эта карточка не может сказать, как часто возникают раздражение или ожоги и есть ли какая-либо польза для ухода за кожей. Оценка безопасности в косметике охватывает готовые средства в оцениваемых концентрациях, что не то же самое, что домашнее использование чистого порошка или пасты. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "baking-soda-1": "Экспертный совет по безопасности косметических ингредиентов (Cosmetic Ingredient Review) повторно рассмотрел бикарбонат натрия вместе с карбонатом натрия и сесквикарбонатом натрия, которые используются в средствах для ванны, кожи и волос, и пришёл к выводу, что они безопасны как косметические ингредиенты в практике применения и концентрациях, описанных в оценке. Этот вывод касается готовых косметических средств в оцениваемых концентрациях; нанесение порошка или пасты пищевой соды непосредственно на лицо в домашних условиях, которое в аннотации не рассматривается, является отдельным вопросом.",
+    "baking-soda-2": "В нарративном обзоре сообщается, что кислая «кислотная мантия» рогового слоя, по-видимому, важна для формирования проницаемого барьера и антимикробной защиты, что внешние факторы, такие как моющие средства и косметические продукты, могут влиять на pH кожи, и что изменения pH, по сообщениям, играют роль при таких состояниях, как раздражительный контактный дерматит, атопический дерматит и акне. Обзор не оценивает пищевую соду и описывает происхождение кислого pH как всё ещё предположительное.",
+    "baking-soda-3": "Два нарративных обзора об очищающих средствах для кожи сравнили щелочные мыла с синтетическими моющими очищающими средствами (синдетами): в одном сообщается, что синдеты с pH около 5,5, в отличие от щелочного мыла, не нарушают микрофлору кожи, а их раздражающий потенциал может быть даже ниже, чем у мыла; в другом сообщается, что синдеты вызывают меньше раздражения и сухости кожи, чем щелочные мыла. Эти обзоры касаются мыла и синдетов, а не пищевой соды, поэтому они указывают на общую настороженность в отношении щелочного очищения, но не показывают действие самой пищевой соды.",
+    "baking-soda-4": "В наблюдательном исследовании с участием 200 человек с акне и 200 контрольных участников, сопоставимых по возрасту и полу, средний pH кожи лица в группе с акне был выше, чем в контрольной группе, и выше референсных значений, приведённых авторами (pH от 4,5 до 5,5 для женщин, от 4 до 5,5 для мужчин). Дизайн показывает лишь связь, не показывает, что более высокий pH кожи вызывает акне, и пищевая сода в исследовании не использовалась."
+   }
+  },
+  "ar": {
+   "summary": "بيكربونات الصوديوم (baking soda، أي صودا الخبز) مسحوق منزلي قلوي يُستخدم أيضًا في بعض المنتجات التجميلية. تتناول هذه البطاقة وضع صودا الخبز مباشرةً على الوجه في المنزل كمنظّف أو مقشّر أو قناع. تصف المصادر المذكورة هنا السطح الحمضي للجلد (الوشاح الحمضي) بأنه مهم لوظيفة الحاجز الجلدي، وتصف الصابون القلوي بأنه أكثر تهييجًا من المنظّفات المتوازنة الحموضة، لكن لم يختبر أي منها صودا الخبز على الوجه. كما لا تتضمن تجارب أو تقارير حالات عن استخدام صودا الخبز بهذه الطريقة، ولذلك لا تستطيع هذه البطاقة أن تقول مدى تكرار حدوث التهيج أو الحروق أو ما إذا كانت هناك أي فائدة للعناية بالبشرة. يشمل تقييم السلامة التجميلية المنتجات المصنّعة بتراكيز خضعت للتقييم، وهذا ليس مثل الاستخدام المنزلي للمسحوق النقي أو المعجون. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "baking-soda-1": "أعادت لجنة الخبراء لسلامة المكوّنات التجميلية (Cosmetic Ingredient Review) مراجعة بيكربونات الصوديوم مع كربونات الصوديوم وسيسكوي كربونات الصوديوم، وهي تُستخدم في مستحضرات الاستحمام والبشرة والشعر، وخلصت إلى أنها آمنة كمكوّنات تجميلية في ممارسات الاستخدام والتراكيز الموصوفة في التقييم. تتعلق هذه الخلاصة بالمنتجات التجميلية المصنّعة بتراكيز خضعت للتقييم؛ أما وضع مسحوق صودا الخبز أو معجونها مباشرةً على الوجه في المنزل، وهو ما لا يتناوله الملخص، فمسألة منفصلة.",
+    "baking-soda-2": "أفادت مراجعة سردية بأن «الوشاح الحمضي» للطبقة المتقرنة يبدو مهمًا لتكوّن حاجز النفاذية والدفاع المضاد للميكروبات، وبأن عوامل خارجية مثل المنظّفات والمنتجات التجميلية قد تؤثر في حموضة الجلد، وبأن تغيّرات الحموضة يُذكر أن لها دورًا في حالات منها التهاب الجلد التماسي التهيجي والتهاب الجلد التأتبي وحب الشباب. لا تقيّم المراجعة صودا الخبز، وتصف منشأ الحموضة بأنه ما زال افتراضيًا.",
+    "baking-soda-3": "قارنت مراجعتان سرديتان حول منظّفات البشرة بين الصابون القلوي والمنظّفات المخلّقة المعتمدة على المنظّفات الصناعية (syndets): ذكرت إحداهما أن هذه المنظّفات ذات الحموضة التي تبلغ نحو 5.5، خلافًا للصابون القلوي، لا تتداخل مع الفلورا الميكروبية للجلد، وأن احتمال تهييجها قد يكون أقل حتى من الصابون؛ وذكرت الأخرى أنها تسبب تهيجًا وجفافًا للجلد أقل من الصابون القلوي. تتعلق هاتان المراجعتان بالصابون والمنظّفات المخلّقة لا بصودا الخبز، ولذلك تشيران إلى قلق عام من التنظيف القلوي ولا تُظهران تأثير صودا الخبز نفسها.",
+    "baking-soda-4": "في دراسة رصدية شملت 200 شخص مصابين بحب الشباب و200 شخص ضابط مطابقين في العمر والجنس، كان متوسط حموضة جلد الوجه أعلى في مجموعة حب الشباب منه في الضوابط، وأعلى من القيم المرجعية التي ذكرها المؤلفون (من 4.5 إلى 5.5 للنساء ومن 4 إلى 5.5 للرجال). يُظهر التصميم ارتباطًا فقط، ولا يُظهر أن ارتفاع حموضة الجلد يسبب حب الشباب، ولم تشارك فيه صودا الخبز."
+   }
+  }
+ }
+}
