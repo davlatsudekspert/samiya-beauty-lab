@@ -105,5 +105,11 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 - **Ogohlantirish:** token butun hisobga tegishli (boshqa loyihalarning Worker va D1'lariga ham ruxsati bor). Imkon bo'lsa SAMIYA uchun alohida Cloudflare hisobi ochish xavfsizroq. Hozirgi himoya: Secrets forklarga berilmaydi, deploy faqat qo'lda ishga tushadi.
 - **Navbat:** token qo'yilgach `Deploy backend (Cloudflare)` ishga tushadi (D1'ni nomi bo'yicha topadi); keyin ilovaga `API_BASE_URL` ulanadi (deploy tasdiqlangandan SO'NG: aks holda hisobni o'chirish ishlamay qolardi).
 
+## Backend JONLI (2026-10-31)
+- **Worker joylandi:** `https://samiya-api.davlatsudekspert.workers.dev` (GitHub Actions "Deploy backend (Cloudflare)" orqali). D1 `samiya` topildi, `0001_init.sql` qo'llandi. Jonli tekshiruv: `/health` 200, `/api/v1/config/public` to'g'ri (prelaunch, kartasiz, billing/reklama o'chiq), `/api/v1/me` tokensiz 401.
+- **Android/iOS build'lar** endi `--dart-define=API_BASE_URL=...` bilan quriladi, ya'ni hisobni o'chirish serverdagi ma'lumotni ham o'chiradi.
+- **TEKSHIRILMAGAN (jonli):** Firebase tokenini Worker'da tekshirish (`/api/v1/me`, `DELETE /api/v1/me`) haqiqiy token bilan sinalmagan: birinchi telefon sinovida (kirish, so'ng hisobni o'chirish) tasdiqlanadi.
+- **Hali yo'q:** GEMINI_API_KEY (AI), RevenueCat webhook, maxfiylik siyosati sahifasi.
+
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.

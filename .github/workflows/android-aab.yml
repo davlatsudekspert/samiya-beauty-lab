@@ -46,8 +46,8 @@ jobs:
           "$GITHUB_WORKSPACE/.github/scripts/write_secret.sh" "$GOOGLE_SERVICES_JSON_B64" android/app/google-services.json json
       - run: flutter pub get
       - run: flutter test --exclude-tags visual --timeout 60s
-      - run: flutter build appbundle --release --build-number ${{ github.run_number }}
-      - run: flutter build apk --release --build-number ${{ github.run_number }}
+      - run: flutter build appbundle --release --build-number ${{ github.run_number }} --dart-define=API_BASE_URL=https://samiya-api.davlatsudekspert.workers.dev
+      - run: flutter build apk --release --build-number ${{ github.run_number }} --dart-define=API_BASE_URL=https://samiya-api.davlatsudekspert.workers.dev
       - name: AAB va APK'ni parol bilan arxivlash (AES-256)
         env:
           ARTIFACT_PASSPHRASE: ${{ secrets.ARTIFACT_PASSPHRASE }}

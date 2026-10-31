@@ -46,7 +46,7 @@ jobs:
         run: |
           flutter pub get
           flutter test --exclude-tags visual --timeout 60s
-          flutter build ios --release --no-codesign --build-number ${{ github.run_number }}
+          flutter build ios --release --no-codesign --build-number ${{ github.run_number }} --dart-define=API_BASE_URL=https://samiya-api.davlatsudekspert.workers.dev
       - name: Arxiv (imzolash Apple API kaliti bilan, avtomatik)
         working-directory: mobile/ios
         run: |
