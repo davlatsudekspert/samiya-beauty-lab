@@ -1,0 +1,135 @@
+{
+ "inci": "Glycerin",
+ "slug": "glycerin",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing. The glycerin-specific entry and any restrictions were not looked up.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Glycerin (glycerol) is a widely used cosmetic humectant that has been studied in topical moisturisers for skin hydration and barrier outcomes. The evidence found in this search consists mainly of a narrative review and small studies of formulas that combine glycerin with other ingredients (such as petrolatum, hyaluronic acid or oils), so conclusions about glycerin alone are limited; no systematic review specific to topical glycerin was identified in this search. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "glycerin-1",
+   "text_en": "A narrative review of glycerol and the skin described reported effects of glycerol on the epidermis, including improved stratum corneum hydration, skin barrier function and skin mechanical properties; as a narrative review it does not systematically assess the quality of the underlying studies.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "18510666",
+     "doi": "10.1111/j.1365-2133.2008.08643.x",
+     "title": "Glycerol and the skin: holistic approach to its origin and functions.",
+     "year": 2008,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/18510666/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "glycerin-2",
+   "text_en": "In a randomised, double-blind, four-arm crossover study of 51 healthy volunteers with dry forearm skin, a cream containing glycerol and petrolatum was associated with higher skin moisture (corneometry) than its vehicle and than the vehicle with petrolatum; the authors attributed the improved hydration to the glycerol component and the lower transepidermal water loss to the petrolatum component. Measurements covered 12 hours after application, the study was not designed to evaluate therapeutic benefit, and the findings come from a single study of one branded formula.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "31532576",
+     "doi": "10.1111/jocd.13163",
+     "title": "Combined effects of glycerol and petrolatum in an emollient cream: A randomized, double-blind, crossover study in healthy volunteers with dry skin.",
+     "year": 2019,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31532576/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "glycerin-3",
+   "text_en": "In a one-day, intra-subject, randomised, assessor-blinded study of 20 healthy women, a fluid containing hyaluronic acid 1%, glycerin 5% and a stem-cell extract was associated with higher skin hydration up to 24 hours after a single application and lower transepidermal water loss at 24 hours compared with an untreated control site; the product is a combination, the sample is small, and the effects cannot be attributed to glycerin alone.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "28860834",
+     "doi": "10.2147/CCID.S144180",
+     "title": "The 24-hour skin hydration and barrier function effects of a hyaluronic 1%, glycerin 5%, andstem cells extract moisturizing fluid: an intra-subject, randomized, assessor-blinded study.",
+     "year": 2017,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28860834/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "glycerin-4",
+   "text_en": "In an 8-week study of a leave-on scalp lotion containing 10% glycerol together with other skin-benefit agents (a saturated fatty acid and sunflower seed oil), applied three times per week, expert visual grading and biophysical measurements reported a significant reduction in dandruff with improved stratum corneum hydration and water barrier function; the lotion was a combination and the abstract gives no sample size or description of a comparison group, so the contribution of glycerol cannot be determined.",
+   "evidence_level": "C",
+   "study_type": "clinical study",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "25134312",
+     "title": "A high glycerol-containing leave-on scalp care treatment to improve dandruff.",
+     "year": 2014,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25134312/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "glycerin-5",
+   "text_en": "In a randomised, double-blind crossover trial of 32 batik workers with mild-to-moderate occupational hand dermatitis, a glycerin-only cream and a glycerin plus coconut-oil cream were applied after work for two weeks; both were associated with about 20% lower transepidermal water loss and hand eczema severity score and about 20% higher skin capacitance, and the two creams were reported as equally effective. There was no comparison group without glycerin, so the effect cannot be separated from general moisturising or the passage of time, and the sample was small.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "39237662",
+     "doi": "10.1038/s41598-024-72010-0",
+     "title": "Cocos nucifera and glycerine afterwork moisturizers for secondary prevention of hand dermatitis among fabric worker: a randomized, double-blind, cross over trial.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39237662/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Glycerin (glycerol) keng qo'llaniladigan kosmetik namlovchi (gumektant) ingredient bo'lib, teri namligi va to'siq funksiyasiga oid natijalar bo'yicha surtiladigan namlovchi vositalarda o'rganilgan. Bu qidiruvda topilgan dalillar asosan bitta hikoyaviy sharh va glycerin boshqa ingredientlar (masalan, petrolatum, gialuron kislotasi yoki moylar) bilan birlashtirilgan formulalarning kichik tadqiqotlaridan iborat, shu sababli faqat glycerin haqida xulosa qilish cheklangan; bu qidiruvda surtiladigan glycerin bo'yicha alohida tizimli sharh topilmadi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "glycerin-1": "Glycerol va teri haqidagi hikoyaviy sharhda glycerol'ning epidermisga qayd etilgan ta'sirlari, jumladan shox qavat namligi, teri to'siq funksiyasi va terining mexanik xususiyatlarining yaxshilanishi tasvirlangan; hikoyaviy sharh bo'lgani uchun u asosidagi tadqiqotlar sifatini tizimli baholamaydi.",
+    "glycerin-2": "Quruq bilak terisiga ega 51 nafar sog'lom ko'ngillida o'tkazilgan randomizatsiyalangan, ikki tomonlama ko'r, to'rt guruhli o'zaro almashinuvchi (crossover) tadqiqotda glycerol va petrolatum tarkibli krem o'z vehikulidan (asos) hamda petrolatum qo'shilgan vehikuldan yuqoriroq teri namligi (korneometriya) bilan bog'langan; mualliflar namlikning yaxshilanishini glycerol komponentiga, transepidermal suv yo'qotilishining kamayishini esa petrolatum komponentiga bog'lagan. O'lchovlar surtilgandan keyingi 12 soatni qamragan, tadqiqot davolovchi foydani baholash uchun mo'ljallanmagan va natijalar bitta brendli formula bo'yicha bitta tadqiqotdan olingan.",
+    "glycerin-3": "20 nafar sog'lom ayol ishtirok etgan bir kunlik, ishtirokchi ichidagi (intra-subject), randomizatsiyalangan, baholovchi ko'r tadqiqotda gialuron kislotasi 1%, glycerin 5% va o'simlik o'zak hujayralari ekstrakti tarkibli suyuqlik bir marta surtilgandan keyin 24 soatgacha yuqoriroq teri namligi bilan va 24 soatda davolanmagan nazorat sohaga nisbatan pastroq transepidermal suv yo'qotilishi bilan bog'langan; mahsulot kombinatsiyalangan, tanlama kichik va ta'sirni faqat glycerin'ga bog'lab bo'lmaydi.",
+    "glycerin-4": "10% glycerol hamda boshqa teriga foydali moddalar (to'yingan yog' kislotasi va kungaboqar urug'i moyi) tarkibli, haftasiga uch marta surtiladigan va yuvilmaydigan bosh terisi losyoni bo'yicha 8 haftalik tadqiqotda mutaxassisning vizual baholashi va biofizik o'lchovlar qipiqning sezilarli kamayishini, shox qavat namligi va suv to'sig'ining yaxshilanishini qayd etgan; losyon kombinatsiyalangan, annotatsiyada tanlama hajmi va taqqoslash guruhi tasvirlanmagan, shu sababli glycerol hissasini aniqlab bo'lmaydi.",
+    "glycerin-5": "Yengil va o'rtacha kasbiy qo'l dermatiti bo'lgan 32 nafar batik ishchisida o'tkazilgan randomizatsiyalangan, ikki tomonlama ko'r, o'zaro almashinuvchi (crossover) sinovda faqat glycerin tarkibli krem va glycerin hamda kokos moyi tarkibli krem ish tugagach ikki hafta davomida surtilgan; ikkalasi ham transepidermal suv yo'qotilishi va qo'l ekzemasi og'irlik indeksining taxminan 20% pastroq bo'lishi hamda teri sig'imining taxminan 20% yuqoriroq bo'lishi bilan bog'langan va ikkala krem teng samarali deb qayd etilgan. Glycerin'siz taqqoslash guruhi bo'lmagan, shu sababli ta'sirni umumiy namlash yoki vaqt o'tishidan ajratib bo'lmaydi, tanlama ham kichik."
+   }
+  },
+  "ru": {
+   "summary": "Glycerin (glycerol) является распространённым косметическим увлажняющим ингредиентом (humectant), который изучался в средствах для местного применения в отношении увлажнённости кожи и барьерной функции. Данные, найденные в этом поиске, в основном состоят из одного нарративного обзора и небольших исследований составов, в которых glycerin сочетается с другими ингредиентами (например, с petrolatum, гиалуроновой кислотой или маслами), поэтому выводы только о glycerin ограничены; отдельного систематического обзора по местному применению glycerin в этом поиске не найдено. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "glycerin-1": "В нарративном обзоре о glycerol и коже описаны сообщаемые эффекты glycerol на эпидермис, включая улучшение увлажнённости рогового слоя, барьерной функции кожи и механических свойств кожи; как нарративный обзор он не оценивает систематически качество лежащих в его основе исследований.",
+    "glycerin-2": "В рандомизированном двойном слепом перекрёстном (crossover) исследовании с четырьмя группами, в котором участвовали 51 здоровый доброволец с сухой кожей предплечий, крем, содержащий glycerol и petrolatum, был связан с более высокой влажностью кожи (корнеометрия) по сравнению с собственной основой (vehicle) и основой с petrolatum; авторы связали улучшение увлажнённости с компонентом glycerol, а снижение трансэпидермальной потери воды — с компонентом petrolatum. Измерения охватывали 12 часов после нанесения, исследование не предназначалось для оценки терапевтической пользы, а результаты получены в одном исследовании одного брендового состава.",
+    "glycerin-3": "В однодневном внутрииндивидуальном (intra-subject) рандомизированном исследовании с ослеплением оценивающего, в котором участвовали 20 здоровых женщин, флюид, содержащий 1% гиалуроновой кислоты, 5% glycerin и экстракт стволовых клеток растений, был связан с более высокой увлажнённостью кожи до 24 часов после однократного нанесения и с более низкой трансэпидермальной потерей воды через 24 часа по сравнению с необработанным контрольным участком; продукт является комбинированным, выборка небольшая, и эффекты нельзя приписать только glycerin.",
+    "glycerin-4": "В 8-недельном исследовании несмываемого лосьона для кожи головы, содержащего 10% glycerol вместе с другими полезными для кожи компонентами (насыщенная жирная кислота и масло семян подсолнечника) и наносимого три раза в неделю, экспертная визуальная оценка и биофизические измерения показали значимое уменьшение перхоти с улучшением увлажнённости рогового слоя и водного барьера; лосьон был комбинированным, а в аннотации не указаны размер выборки и описание группы сравнения, поэтому вклад glycerol определить нельзя.",
+    "glycerin-5": "В рандомизированном двойном слепом перекрёстном (crossover) исследовании с участием 32 работников производства батика с лёгким или умеренным профессиональным дерматитом рук крем только с glycerin и крем с glycerin и кокосовым маслом наносили после работы в течение двух недель; оба были связаны примерно с 20% снижением трансэпидермальной потери воды и индекса тяжести экземы рук и примерно с 20% повышением ёмкостного показателя кожи, а два крема были признаны одинаково эффективными. Группы сравнения без glycerin не было, поэтому эффект нельзя отделить от общего увлажнения или течения времени, а выборка была небольшой."
+   }
+  },
+  "ar": {
+   "summary": "الغليسرين (glycerin) هو مكوّن تجميلي شائع مرطّب جاذب للماء (humectant)، جرت دراسته في المنتجات الموضعية المرطِّبة فيما يخص ترطيب الجلد ووظيفة الحاجز الجلدي. تتكوّن الأدلة التي وُجدت في هذا البحث في معظمها من مراجعة سردية واحدة ودراسات صغيرة لتركيبات يُجمع فيها glycerin مع مكوّنات أخرى (مثل petrolatum أو حمض الهيالورونيك أو الزيوت)، مما يحدّ من إمكانية استخلاص نتائج عن glycerin وحده؛ ولم تُعثر في هذا البحث على مراجعة منهجية مخصصة للاستخدام الموضعي لـ glycerin. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "glycerin-1": "وصفت مراجعة سردية عن glycerol والجلد تأثيرات مُبلَّغًا عنها للـ glycerol على البشرة، منها تحسّن ترطيب الطبقة المتقرنة ووظيفة الحاجز الجلدي والخصائص الميكانيكية للجلد؛ وبصفتها مراجعة سردية فهي لا تقيّم بصورة منهجية جودة الدراسات التي تستند إليها.",
+    "glycerin-2": "في دراسة عشوائية مزدوجة التعمية متقاطعة (crossover) بأربع مجموعات شملت 51 متطوعًا سليمًا يعانون من جفاف جلد الساعد، ارتبط كريم يحتوي على glycerol وpetrolatum بارتفاع رطوبة الجلد (قياس الكورنيومتر) مقارنة بقاعدته (vehicle) وبالقاعدة مع petrolatum؛ وعزا المؤلفون تحسّن الترطيب إلى مكوّن glycerol، وانخفاض فقدان الماء عبر البشرة إلى مكوّن petrolatum. غطّت القياسات 12 ساعة بعد الاستعمال، ولم تُصمَّم الدراسة لتقييم فائدة علاجية، وتأتي النتائج من دراسة واحدة لتركيبة واحدة ذات علامة تجارية.",
+    "glycerin-3": "في دراسة عشوائية لمدة يوم واحد داخل الفرد الواحد (intra-subject) مع تعمية المقيِّم شملت 20 امرأة سليمة، ارتبط سائل يحتوي على حمض الهيالورونيك 1% وglycerin 5% ومستخلص خلايا جذعية نباتية بارتفاع ترطيب الجلد حتى 24 ساعة بعد استعمال واحد وبانخفاض فقدان الماء عبر البشرة عند 24 ساعة مقارنة بموضع شاهد غير معالَج؛ والمنتج تركيبة مركّبة، والعيّنة صغيرة، ولا يمكن عزو التأثيرات إلى glycerin وحده.",
+    "glycerin-4": "في دراسة مدتها 8 أسابيع لمستحلب للفروة يُترك على الجلد دون شطف ويحتوي على 10% glycerol مع عوامل أخرى مفيدة للجلد (حمض دهني مشبع وزيت بذور عباد الشمس) ويُستعمل ثلاث مرات أسبوعيًا، أفاد التقييم البصري للخبير والقياسات الفيزيائية الحيوية بانخفاض ملحوظ في القشرة مع تحسّن ترطيب الطبقة المتقرنة وحاجز الماء؛ وكان المستحلب تركيبة مركّبة، ولا يذكر الملخص حجم العيّنة ولا وصف مجموعة مقارنة، ولذلك لا يمكن تحديد مساهمة glycerol.",
+    "glycerin-5": "في تجربة عشوائية مزدوجة التعمية متقاطعة (crossover) شملت 32 عاملًا في صناعة الباتيك ممن يعانون التهاب جلد اليدين المهني الخفيف إلى المتوسط، وُضع كريم يحتوي على glycerin فقط وكريم يحتوي على glycerin وزيت جوز الهند بعد العمل لمدة أسبوعين؛ وارتبط كلاهما بانخفاض نحو 20% في فقدان الماء عبر البشرة وفي مؤشر شدة أكزيما اليدين، وبارتفاع نحو 20% في سعة الجلد (skin capacitance)، وأُفيد بأن الكريمين متساويان في الفعالية. لم تكن هناك مجموعة مقارنة بدون glycerin، ولذلك لا يمكن فصل التأثير عن الترطيب العام أو مرور الوقت، وكانت العيّنة صغيرة."
+   }
+  }
+ }
+}
