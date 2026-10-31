@@ -40,7 +40,7 @@ jobs:
           echo "ASC_KEY_ID=$KEY_ID" >> "$GITHUB_ENV"
           echo "ASC_ISSUER_ID=$ISSUER" >> "$GITHUB_ENV"
           echo "Key ID uzunligi: ${#KEY_ID} (kutilgan: 10), Issuer uzunligi: ${#ISSUER} (kutilgan: 36)"
-          [ "$KEY_ID" = "ZC53Z723LK" ] && echo "ASC_KEY_ID kutilgan 'SAMIYA CI' kaliti (ZC53Z723LK) bilan MOS" || echo "::warning::ASC_KEY_ID 'SAMIYA CI' kaliti (ZC53Z723LK) bilan MOS EMAS (boshqa kalit, masalan Sign in with Apple kaliti bo'lishi mumkin)"
+          [ "$KEY_ID" = "82R88GK4CF" ] && echo "ASC_KEY_ID kutilgan 'SAMIYA CI 2' kaliti (82R88GK4CF) bilan MOS" || echo "::warning::ASC_KEY_ID 'SAMIYA CI 2' kaliti (82R88GK4CF) bilan MOS EMAS (boshqa kalit, masalan Sign in with Apple kaliti bo'lishi mumkin)"
           [ "${ISSUER: -4}" = "06c3" ] && echo "ASC_ISSUER_ID oxiri 06c3: MOS" || echo "::warning::ASC_ISSUER_ID oxiri 06c3 emas"
           KEY="$HOME/.appstoreconnect/private_keys/AuthKey_${KEY_ID}.p8"
           mkdir -p "$(dirname "$KEY")"
