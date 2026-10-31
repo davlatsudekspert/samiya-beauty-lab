@@ -4,6 +4,9 @@
 name: iOS TestFlight
 on:
   workflow_dispatch:
+permissions:
+  contents: read   # eng kam huquq: workflow repoga yoza olmaydi
+
 jobs:
   testflight:
     runs-on: macos-15

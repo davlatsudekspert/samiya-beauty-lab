@@ -7,6 +7,9 @@ on:
 concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
+permissions:
+  contents: read   # eng kam huquq: workflow repoga yoza olmaydi
+
 jobs:
   mobile:
     runs-on: ubuntu-latest

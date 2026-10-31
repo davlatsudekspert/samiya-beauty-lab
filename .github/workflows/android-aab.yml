@@ -4,6 +4,9 @@
 name: Android AAB
 on:
   workflow_dispatch:
+permissions:
+  contents: read   # eng kam huquq: workflow repoga yoza olmaydi
+
 jobs:
   aab:
     runs-on: ubuntu-latest
@@ -44,8 +47,16 @@ jobs:
       - run: flutter pub get
       - run: flutter test --exclude-tags visual --timeout 60s
       - run: flutter build appbundle --release --build-number ${{ github.run_number }}
+      # Repo ommaviy: artefaktni GitHub'ga kirgan har kim yuklab olishi mumkin, shuning uchun AAB shifrlanadi.
+      - name: AAB'ni shifrlash (AES-256)
+        env:
+          ARTIFACT_PASSPHRASE: ${{ secrets.ARTIFACT_PASSPHRASE }}
+        run: |
+          if [ -z "$ARTIFACT_PASSPHRASE" ]; then echo "::error::ARTIFACT_PASSPHRASE Secret yo'q (docs/SECRETS.md)"; exit 1; fi
+          gpg --batch --yes --symmetric --cipher-algo AES256 --pinentry-mode loopback \
+            --passphrase "$ARTIFACT_PASSPHRASE" -o app-release.aab.gpg build/app/outputs/bundle/release/app-release.aab
       - uses: actions/upload-artifact@v4
         with:
-          name: samiya-release-aab-${{ github.run_number }}
-          path: mobile/build/app/outputs/bundle/release/app-release.aab
-          retention-days: 30
+          name: samiya-release-aab-encrypted-${{ github.run_number }}
+          path: mobile/app-release.aab.gpg
+          retention-days: 7
