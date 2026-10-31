@@ -504,4 +504,109 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get tradFolk => 'Xalq tabobati va etnobotanika';
+
+  @override
+  String get skinTypeTitle => 'Teri turingiz (o‘zingiz belgilaysiz)';
+
+  @override
+  String get skinDry => 'Quruq';
+
+  @override
+  String get skinOily => 'Yog‘li';
+
+  @override
+  String get skinCombination => 'Aralash';
+
+  @override
+  String get skinNormal => 'Normal';
+
+  @override
+  String get skinSensitive => 'Sezgir';
+
+  @override
+  String get skinNote =>
+      'Ilova teri turini aniqlamaydi va tashxis qo‘ymaydi: bu faqat o‘zingiz uchun eslatma.';
+
+  @override
+  String get avoidTitle => 'Chetlab o‘tmoqchi bo‘lgan moddalar';
+
+  @override
+  String get avoidHint => 'INCI nomi, masalan Parfum';
+
+  @override
+  String get avoidAdd => 'Qo‘shish';
+
+  @override
+  String get avoidEmpty =>
+      'Ro‘yxat bo‘sh. Skanerlashda shu moddalar topilsa, ogohlantiramiz.';
+
+  @override
+  String avoidFound(String names) {
+    return 'Siz chetlab o‘tishni tanlagan moddalar topildi: $names';
+  }
+
+  @override
+  String get removeAction => 'O‘chirish';
+
+  @override
+  String get routineMorning => 'Ertalab';
+
+  @override
+  String get routineEvening => 'Kechqurun';
+
+  @override
+  String get routineAddStep => 'Qadam qo‘shish';
+
+  @override
+  String get routineStepHint => 'Masalan: yuvish vositasi';
+
+  @override
+  String get routineEmpty =>
+      'Hali qadam yo‘q. O‘z parvarish tartibingizni qo‘shing.';
+
+  @override
+  String routineDoneToday(int done, int total) {
+    return 'Bugun bajarildi: $done/$total';
+  }
+
+  @override
+  String get moveUp => 'Yuqoriga';
+
+  @override
+  String get moveDown => 'Pastga';
+
+  @override
+  String get journalAdd => 'Yozuv qo‘shish';
+
+  @override
+  String get journalEmpty =>
+      'Hali yozuv yo‘q. Terining holati va parvarishingiz haqida qisqa qayd qoldiring.';
+
+  @override
+  String get journalFeeling => 'Bugun teringiz qanday his qilmoqda?';
+
+  @override
+  String get feelGreat => 'Juda yaxshi';
+
+  @override
+  String get feelGood => 'Yaxshi';
+
+  @override
+  String get feelOkay => 'O‘rtacha';
+
+  @override
+  String get feelDry => 'Quruq';
+
+  @override
+  String get feelIrritated => 'Ta‘sirlangan';
+
+  @override
+  String get journalNoteHint => 'Qayd (ixtiyoriy)';
+
+  @override
+  String get saveAction => 'Saqlash';
+
+  @override
+  String get personalDataNote =>
+      'Bu ma‘lumotlar faqat shu telefonda saqlanadi.';
 }

@@ -175,5 +175,54 @@
   "tradAyurveda": "Ayurveda",
   "tradChinese": "Traditional Chinese medicine",
   "tradKorean": "Traditional Korean medicine",
-  "tradFolk": "Folk medicine and ethnobotany"
+  "tradFolk": "Folk medicine and ethnobotany",
+  "skinTypeTitle": "Your skin type (self-reported)",
+  "skinDry": "Dry",
+  "skinOily": "Oily",
+  "skinCombination": "Combination",
+  "skinNormal": "Normal",
+  "skinSensitive": "Sensitive",
+  "skinNote": "The app does not determine your skin type or diagnose anything: this is a note for you.",
+  "avoidTitle": "Ingredients you want to avoid",
+  "avoidHint": "INCI name, e.g. Parfum",
+  "avoidAdd": "Add",
+  "avoidEmpty": "The list is empty. If a scan finds these ingredients, we will flag them.",
+  "avoidFound": "Found ingredients from your avoid list: {names}",
+  "removeAction": "Remove",
+  "routineMorning": "Morning",
+  "routineEvening": "Evening",
+  "routineAddStep": "Add a step",
+  "routineStepHint": "For example: cleanser",
+  "routineEmpty": "No steps yet. Add your own care routine.",
+  "routineDoneToday": "Done today: {done}/{total}",
+  "moveUp": "Move up",
+  "moveDown": "Move down",
+  "journalAdd": "Add entry",
+  "journalEmpty": "No entries yet. Leave a short note about your skin and care.",
+  "journalFeeling": "How does your skin feel today?",
+  "feelGreat": "Great",
+  "feelGood": "Good",
+  "feelOkay": "Okay",
+  "feelDry": "Dry",
+  "feelIrritated": "Irritated",
+  "journalNoteHint": "Note (optional)",
+  "saveAction": "Save",
+  "personalDataNote": "This information is stored only on this phone.",
+  "@avoidFound": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "@routineDoneToday": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  }
 }

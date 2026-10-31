@@ -5,6 +5,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../data/backend_api.dart';
+import '../data/personal_store.dart';
 import '../features/auth/auth_service.dart';
 import '../features/scanner/ingredient_models.dart';
 import '../features/scanner/text_scanner.dart';
@@ -35,10 +36,12 @@ class AppState extends ChangeNotifier {
     AuthService? auth,
     BackendApi? backend,
     TextScanner? scanner,
+    PersonalStore? personal,
   })  : ingredients = ingredients ?? IngredientRepository(const []),
         auth = auth ?? const UnavailableAuthService(),
         backend = backend ?? const NoBackendApi(),
         scanner = scanner ?? const UnavailableTextScanner(),
+        personal = personal ?? PersonalStore(persist: false),
         _locale = locale,
         _onboarded = onboarded,
         _role = role {
@@ -96,6 +99,9 @@ class AppState extends ChangeNotifier {
 
   /// Rasmdan tarkib matnini o'qish (qurilmada); veb/sinovda "mavjud emas".
   final TextScanner scanner;
+
+  /// Teri afzalliklari, parvarish rejasi va kundalik (faqat qurilmada).
+  final PersonalStore personal;
   AuthUser? _user;
   StreamSubscription<AuthUser?>? _authSub;
 
@@ -129,6 +135,7 @@ class AppState extends ChangeNotifier {
       auth: auth,
       backend: backend,
       scanner: scanner,
+      personal: await PersonalStore.load(),
       locale: Locale(languageNativeNames.containsKey(code) ? code! : 'uz'),
       onboarded: p.getBool('onboarded') ?? false,
       role: UserRole.values.where((r) => r.name == roleName).firstOrNull,
@@ -173,6 +180,7 @@ class AppState extends ChangeNotifier {
     _role = null;
     notifyListeners();
     await (await SharedPreferences.getInstance()).remove('role');
+    await personal.clear(); // qurilmadagi shaxsiy yozuvlar ham o'chadi
   }
 }
 

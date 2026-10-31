@@ -1031,6 +1031,198 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Folk medicine and ethnobotany'**
   String get tradFolk;
+
+  /// No description provided for @skinTypeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your skin type (self-reported)'**
+  String get skinTypeTitle;
+
+  /// No description provided for @skinDry.
+  ///
+  /// In en, this message translates to:
+  /// **'Dry'**
+  String get skinDry;
+
+  /// No description provided for @skinOily.
+  ///
+  /// In en, this message translates to:
+  /// **'Oily'**
+  String get skinOily;
+
+  /// No description provided for @skinCombination.
+  ///
+  /// In en, this message translates to:
+  /// **'Combination'**
+  String get skinCombination;
+
+  /// No description provided for @skinNormal.
+  ///
+  /// In en, this message translates to:
+  /// **'Normal'**
+  String get skinNormal;
+
+  /// No description provided for @skinSensitive.
+  ///
+  /// In en, this message translates to:
+  /// **'Sensitive'**
+  String get skinSensitive;
+
+  /// No description provided for @skinNote.
+  ///
+  /// In en, this message translates to:
+  /// **'The app does not determine your skin type or diagnose anything: this is a note for you.'**
+  String get skinNote;
+
+  /// No description provided for @avoidTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Ingredients you want to avoid'**
+  String get avoidTitle;
+
+  /// No description provided for @avoidHint.
+  ///
+  /// In en, this message translates to:
+  /// **'INCI name, e.g. Parfum'**
+  String get avoidHint;
+
+  /// No description provided for @avoidAdd.
+  ///
+  /// In en, this message translates to:
+  /// **'Add'**
+  String get avoidAdd;
+
+  /// No description provided for @avoidEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'The list is empty. If a scan finds these ingredients, we will flag them.'**
+  String get avoidEmpty;
+
+  /// No description provided for @avoidFound.
+  ///
+  /// In en, this message translates to:
+  /// **'Found ingredients from your avoid list: {names}'**
+  String avoidFound(String names);
+
+  /// No description provided for @removeAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove'**
+  String get removeAction;
+
+  /// No description provided for @routineMorning.
+  ///
+  /// In en, this message translates to:
+  /// **'Morning'**
+  String get routineMorning;
+
+  /// No description provided for @routineEvening.
+  ///
+  /// In en, this message translates to:
+  /// **'Evening'**
+  String get routineEvening;
+
+  /// No description provided for @routineAddStep.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a step'**
+  String get routineAddStep;
+
+  /// No description provided for @routineStepHint.
+  ///
+  /// In en, this message translates to:
+  /// **'For example: cleanser'**
+  String get routineStepHint;
+
+  /// No description provided for @routineEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No steps yet. Add your own care routine.'**
+  String get routineEmpty;
+
+  /// No description provided for @routineDoneToday.
+  ///
+  /// In en, this message translates to:
+  /// **'Done today: {done}/{total}'**
+  String routineDoneToday(int done, int total);
+
+  /// No description provided for @moveUp.
+  ///
+  /// In en, this message translates to:
+  /// **'Move up'**
+  String get moveUp;
+
+  /// No description provided for @moveDown.
+  ///
+  /// In en, this message translates to:
+  /// **'Move down'**
+  String get moveDown;
+
+  /// No description provided for @journalAdd.
+  ///
+  /// In en, this message translates to:
+  /// **'Add entry'**
+  String get journalAdd;
+
+  /// No description provided for @journalEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No entries yet. Leave a short note about your skin and care.'**
+  String get journalEmpty;
+
+  /// No description provided for @journalFeeling.
+  ///
+  /// In en, this message translates to:
+  /// **'How does your skin feel today?'**
+  String get journalFeeling;
+
+  /// No description provided for @feelGreat.
+  ///
+  /// In en, this message translates to:
+  /// **'Great'**
+  String get feelGreat;
+
+  /// No description provided for @feelGood.
+  ///
+  /// In en, this message translates to:
+  /// **'Good'**
+  String get feelGood;
+
+  /// No description provided for @feelOkay.
+  ///
+  /// In en, this message translates to:
+  /// **'Okay'**
+  String get feelOkay;
+
+  /// No description provided for @feelDry.
+  ///
+  /// In en, this message translates to:
+  /// **'Dry'**
+  String get feelDry;
+
+  /// No description provided for @feelIrritated.
+  ///
+  /// In en, this message translates to:
+  /// **'Irritated'**
+  String get feelIrritated;
+
+  /// No description provided for @journalNoteHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Note (optional)'**
+  String get journalNoteHint;
+
+  /// No description provided for @saveAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Save'**
+  String get saveAction;
+
+  /// No description provided for @personalDataNote.
+  ///
+  /// In en, this message translates to:
+  /// **'This information is stored only on this phone.'**
+  String get personalDataNote;
 }
 
 class _AppLocalizationsDelegate

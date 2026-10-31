@@ -498,4 +498,107 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get tradFolk => 'الطب الشعبي وعلم النبات العرقي';
+
+  @override
+  String get skinTypeTitle => 'نوع بشرتك (تحدده بنفسك)';
+
+  @override
+  String get skinDry => 'جافة';
+
+  @override
+  String get skinOily => 'دهنية';
+
+  @override
+  String get skinCombination => 'مختلطة';
+
+  @override
+  String get skinNormal => 'عادية';
+
+  @override
+  String get skinSensitive => 'حساسة';
+
+  @override
+  String get skinNote =>
+      'لا يحدد التطبيق نوع بشرتك ولا يشخّص أي حالة: هذه ملاحظة لك فقط.';
+
+  @override
+  String get avoidTitle => 'مكوّنات تريد تجنّبها';
+
+  @override
+  String get avoidHint => 'اسم INCI، مثل Parfum';
+
+  @override
+  String get avoidAdd => 'إضافة';
+
+  @override
+  String get avoidEmpty =>
+      'القائمة فارغة. إذا وجد المسح هذه المكوّنات فسننبهك.';
+
+  @override
+  String avoidFound(String names) {
+    return 'وُجدت مكوّنات من قائمة التجنّب لديك: $names';
+  }
+
+  @override
+  String get removeAction => 'إزالة';
+
+  @override
+  String get routineMorning => 'الصباح';
+
+  @override
+  String get routineEvening => 'المساء';
+
+  @override
+  String get routineAddStep => 'إضافة خطوة';
+
+  @override
+  String get routineStepHint => 'مثلًا: غسول';
+
+  @override
+  String get routineEmpty => 'لا توجد خطوات بعد. أضف روتين عنايتك.';
+
+  @override
+  String routineDoneToday(int done, int total) {
+    return 'أُنجز اليوم: $done/$total';
+  }
+
+  @override
+  String get moveUp => 'إلى الأعلى';
+
+  @override
+  String get moveDown => 'إلى الأسفل';
+
+  @override
+  String get journalAdd => 'إضافة تدوينة';
+
+  @override
+  String get journalEmpty =>
+      'لا توجد تدوينات بعد. اترك ملاحظة قصيرة عن بشرتك وعنايتك.';
+
+  @override
+  String get journalFeeling => 'كيف تشعر بشرتك اليوم؟';
+
+  @override
+  String get feelGreat => 'ممتازة';
+
+  @override
+  String get feelGood => 'جيدة';
+
+  @override
+  String get feelOkay => 'عادية';
+
+  @override
+  String get feelDry => 'جافة';
+
+  @override
+  String get feelIrritated => 'متهيجة';
+
+  @override
+  String get journalNoteHint => 'ملاحظة (اختيارية)';
+
+  @override
+  String get saveAction => 'حفظ';
+
+  @override
+  String get personalDataNote => 'تُحفظ هذه المعلومات على هذا الهاتف فقط.';
 }

@@ -501,4 +501,108 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tradFolk => 'Folk medicine and ethnobotany';
+
+  @override
+  String get skinTypeTitle => 'Your skin type (self-reported)';
+
+  @override
+  String get skinDry => 'Dry';
+
+  @override
+  String get skinOily => 'Oily';
+
+  @override
+  String get skinCombination => 'Combination';
+
+  @override
+  String get skinNormal => 'Normal';
+
+  @override
+  String get skinSensitive => 'Sensitive';
+
+  @override
+  String get skinNote =>
+      'The app does not determine your skin type or diagnose anything: this is a note for you.';
+
+  @override
+  String get avoidTitle => 'Ingredients you want to avoid';
+
+  @override
+  String get avoidHint => 'INCI name, e.g. Parfum';
+
+  @override
+  String get avoidAdd => 'Add';
+
+  @override
+  String get avoidEmpty =>
+      'The list is empty. If a scan finds these ingredients, we will flag them.';
+
+  @override
+  String avoidFound(String names) {
+    return 'Found ingredients from your avoid list: $names';
+  }
+
+  @override
+  String get removeAction => 'Remove';
+
+  @override
+  String get routineMorning => 'Morning';
+
+  @override
+  String get routineEvening => 'Evening';
+
+  @override
+  String get routineAddStep => 'Add a step';
+
+  @override
+  String get routineStepHint => 'For example: cleanser';
+
+  @override
+  String get routineEmpty => 'No steps yet. Add your own care routine.';
+
+  @override
+  String routineDoneToday(int done, int total) {
+    return 'Done today: $done/$total';
+  }
+
+  @override
+  String get moveUp => 'Move up';
+
+  @override
+  String get moveDown => 'Move down';
+
+  @override
+  String get journalAdd => 'Add entry';
+
+  @override
+  String get journalEmpty =>
+      'No entries yet. Leave a short note about your skin and care.';
+
+  @override
+  String get journalFeeling => 'How does your skin feel today?';
+
+  @override
+  String get feelGreat => 'Great';
+
+  @override
+  String get feelGood => 'Good';
+
+  @override
+  String get feelOkay => 'Okay';
+
+  @override
+  String get feelDry => 'Dry';
+
+  @override
+  String get feelIrritated => 'Irritated';
+
+  @override
+  String get journalNoteHint => 'Note (optional)';
+
+  @override
+  String get saveAction => 'Save';
+
+  @override
+  String get personalDataNote =>
+      'This information is stored only on this phone.';
 }

@@ -20,6 +20,7 @@ class ResultPage extends StatelessWidget {
     final lang = Localizations.localeOf(context).languageCode;
     final result = analyze(raw, AppScope.of(context).ingredients);
     final found = result.recognized, unknown = result.unknown;
+    final avoidHits = AppScope.of(context).personal.avoidHits(result.items.map((e) => e.name));
     return KeyedSubtree(
       key: const Key('result-page'),
       child: Column(children: [
@@ -34,6 +35,24 @@ class ResultPage extends StatelessWidget {
                 Expanded(child: _Stat(key: const Key('stat-unknown'), value: unknown.length, label: l.notInDatabase, strong: false)),
               ]),
               const SizedBox(height: 18),
+              if (avoidHits.isNotEmpty) ...[
+                Container(
+                  key: const Key('result-avoid'),
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(14),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFFFFF0F1),
+                    borderRadius: BorderRadius.circular(18),
+                    border: Border.all(color: const Color(0xFFF2B8BD)),
+                  ),
+                  child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    const Icon(Icons.do_not_disturb_on_outlined, color: Color(0xFFB3261E), size: 20),
+                    const SizedBox(width: 10),
+                    Expanded(child: Text(l.avoidFound(avoidHits.join(', ')), style: t.bodyMedium?.copyWith(color: const Color(0xFF7A1F1A)))),
+                  ]),
+                ),
+                const SizedBox(height: 14),
+              ],
               if (found.isEmpty)
                 Container(
                   key: const Key('result-none'),

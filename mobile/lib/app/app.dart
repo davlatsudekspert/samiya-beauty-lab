@@ -6,6 +6,9 @@ import '../features/admin/admin_page.dart';
 import '../features/auth/login_page.dart';
 import '../features/home/home_page.dart';
 import '../features/language/language_page.dart';
+import '../features/personal/journal_page.dart';
+import '../features/personal/routine_page.dart';
+import '../features/personal/skin_page.dart';
 import '../features/onboarding/onboarding_page.dart';
 import '../features/profile/profile_page.dart';
 import '../features/role/role_page.dart';
@@ -24,7 +27,6 @@ import 'app_state.dart';
 import 'theme.dart';
 
 String _academyTitle(AppLocalizations l) => l.navAcademy;
-String _journalTitle(AppLocalizations l) => l.navJournal;
 
 class SamiyaApp extends StatefulWidget {
   const SamiyaApp({
@@ -55,7 +57,12 @@ class _SamiyaAppState extends State<SamiyaApp> {
       StatefulShellRoute.indexedStack(
         builder: (_, _, shell) => AppShell(shell: shell),
         branches: [
-          StatefulShellBranch(routes: [GoRoute(path: '/home', builder: (_, _) => const HomePage())]),
+          StatefulShellBranch(routes: [
+            GoRoute(path: '/home', builder: (_, _) => const HomePage(), routes: [
+              GoRoute(path: 'skin', builder: (_, _) => const SkinPage()),
+              GoRoute(path: 'routine', builder: (_, _) => const RoutinePage()),
+            ]),
+          ]),
           StatefulShellBranch(routes: [
             GoRoute(
                 path: '/academy',
@@ -75,9 +82,7 @@ class _SamiyaAppState extends State<SamiyaApp> {
             ),
           ]),
           StatefulShellBranch(routes: [
-            GoRoute(
-                path: '/journal',
-                builder: (_, _) => const PlaceholderTab(pageKey: 'tab-journal', title: _journalTitle)),
+            GoRoute(path: '/journal', builder: (_, _) => const JournalPage()),
           ]),
           StatefulShellBranch(routes: [
             GoRoute(

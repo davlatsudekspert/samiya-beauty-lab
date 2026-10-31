@@ -27,8 +27,8 @@ class HomePage extends StatelessWidget {
     final scale = MediaQuery.textScalerOf(context).scale(14) / 14;
     final tiles = <(String, String, IconData, VoidCallback)>[
       ('scanner', l.tileScanner, Icons.document_scanner_rounded, () => context.go('/scanner')),
-      ('skin', l.tileSkin, Icons.face_retouching_natural_rounded, () => _soon(context)),
-      ('routine', l.tileRoutine, Icons.spa_rounded, () => _soon(context)),
+      ('skin', l.tileSkin, Icons.face_retouching_natural_rounded, () => context.safePush('/home/skin')),
+      ('routine', l.tileRoutine, Icons.spa_rounded, () => context.safePush('/home/routine')),
       ('academy', l.tileAcademy, Icons.school_rounded, () => context.go('/academy')),
       ('ai', l.tileAi, Icons.auto_awesome_rounded, () => _soon(context)),
       ('journal', l.tileJournal, Icons.edit_note_rounded, () => context.go('/journal')),

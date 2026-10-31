@@ -503,4 +503,107 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get tradFolk => 'Народная медицина и этноботаника';
+
+  @override
+  String get skinTypeTitle => 'Ваш тип кожи (отмечаете сами)';
+
+  @override
+  String get skinDry => 'Сухая';
+
+  @override
+  String get skinOily => 'Жирная';
+
+  @override
+  String get skinCombination => 'Комбинированная';
+
+  @override
+  String get skinNormal => 'Нормальная';
+
+  @override
+  String get skinSensitive => 'Чувствительная';
+
+  @override
+  String get skinNote =>
+      'Приложение не определяет тип кожи и не ставит диагнозов: это заметка для вас.';
+
+  @override
+  String get avoidTitle => 'Вещества, которых вы избегаете';
+
+  @override
+  String get avoidHint => 'Название INCI, например Parfum';
+
+  @override
+  String get avoidAdd => 'Добавить';
+
+  @override
+  String get avoidEmpty =>
+      'Список пуст. Если при сканировании найдём эти вещества, предупредим.';
+
+  @override
+  String avoidFound(String names) {
+    return 'Найдены вещества из вашего списка исключений: $names';
+  }
+
+  @override
+  String get removeAction => 'Удалить';
+
+  @override
+  String get routineMorning => 'Утро';
+
+  @override
+  String get routineEvening => 'Вечер';
+
+  @override
+  String get routineAddStep => 'Добавить шаг';
+
+  @override
+  String get routineStepHint => 'Например: очищающее средство';
+
+  @override
+  String get routineEmpty => 'Шагов пока нет. Добавьте свой порядок ухода.';
+
+  @override
+  String routineDoneToday(int done, int total) {
+    return 'Сегодня выполнено: $done/$total';
+  }
+
+  @override
+  String get moveUp => 'Вверх';
+
+  @override
+  String get moveDown => 'Вниз';
+
+  @override
+  String get journalAdd => 'Добавить запись';
+
+  @override
+  String get journalEmpty =>
+      'Записей пока нет. Оставьте короткую заметку о коже и уходе.';
+
+  @override
+  String get journalFeeling => 'Как сегодня ощущается кожа?';
+
+  @override
+  String get feelGreat => 'Отлично';
+
+  @override
+  String get feelGood => 'Хорошо';
+
+  @override
+  String get feelOkay => 'Нормально';
+
+  @override
+  String get feelDry => 'Сухо';
+
+  @override
+  String get feelIrritated => 'Раздражена';
+
+  @override
+  String get journalNoteHint => 'Заметка (необязательно)';
+
+  @override
+  String get saveAction => 'Сохранить';
+
+  @override
+  String get personalDataNote => 'Эти данные хранятся только на этом телефоне.';
 }
