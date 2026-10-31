@@ -467,4 +467,38 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get practiceSectionTitle => 'Care techniques';
+
+  @override
+  String get traditionalTitle => 'Traditional use';
+
+  @override
+  String get traditionalNote =>
+      'Historical and traditional sources: this is not scientific evidence and does not indicate effectiveness or safety.';
+
+  @override
+  String get ibnSinaCardBody => 'What historical sources say about skin care';
+
+  @override
+  String get ibnSinaMore => 'About Ibn Sina';
+
+  @override
+  String get tradPersian => 'Persian traditional medicine';
+
+  @override
+  String get tradCanon => 'Ibn Sina, Canon of Medicine';
+
+  @override
+  String get tradUnani => 'Unani medicine';
+
+  @override
+  String get tradAyurveda => 'Ayurveda';
+
+  @override
+  String get tradChinese => 'Traditional Chinese medicine';
+
+  @override
+  String get tradKorean => 'Traditional Korean medicine';
+
+  @override
+  String get tradFolk => 'Folk medicine and ethnobotany';
 }

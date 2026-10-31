@@ -186,7 +186,7 @@ class _ProviderButton extends StatelessWidget {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: dark ? Colors.white.withValues(alpha: 0.14) : const Color(0xFFF1F6FF),
+                    color: dark ? Colors.white.withValues(alpha: 0.14) : const Color(0xFFF4F1EF),
                   ),
                   child: leading,
                 ),

@@ -139,9 +139,9 @@ class _IngredientTile extends StatelessWidget {
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     Text(ing.nameFor(lang),
                         textDirection: ing.hasFriendlyName ? null : TextDirection.ltr,
-                        style: t.titleMedium?.copyWith(fontFamily: ing.hasFriendlyName ? null : 'Inter', fontSize: 17, fontWeight: FontWeight.w700, color: SamiyaColors.heading)),
+                        style: t.titleMedium?.copyWith(fontFamily: ing.hasFriendlyName ? null : 'Jost', fontSize: 17, fontWeight: FontWeight.w600, color: SamiyaColors.heading)),
                     if (ing.hasFriendlyName && !ing.isPractice)
-                      Text(ing.inci, textDirection: TextDirection.ltr, style: t.bodyMedium?.copyWith(fontFamily: 'Inter', fontSize: 12, fontWeight: FontWeight.w600)),
+                      Text(ing.inci, textDirection: TextDirection.ltr, style: t.bodyMedium?.copyWith(fontFamily: 'Jost', fontSize: 12, fontWeight: FontWeight.w600)),
                     const SizedBox(height: 4),
                     Text(ing.summaryFor(lang), maxLines: 2, overflow: TextOverflow.ellipsis, style: t.bodyMedium),
                   ]),

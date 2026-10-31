@@ -71,8 +71,22 @@ ALIASES = {
     "baking-soda": ["Baking Soda"],
 }
 
+def _trad_items(d):
+    """An'anaviy qo'llanish yozuvlari: matn 4 tilda, faqat PubMed manbalari bilan."""
+    tr = d["translations"]
+    out = []
+    for it in d["items"]:
+        out.append({
+            "id": it["id"], **({"tradition": it["tradition"]} if it.get("tradition") else {}),
+            "text": {"en": it["text_en"], "uz": uz(tr["uz"][it["id"]]), "ru": tr["ru"][it["id"]], "ar": tr["ar"][it["id"]]},
+            "sources": [{"pmid": s["pmid"], "title": s["title"], "year": s["year"], "url": f"https://pubmed.ncbi.nlm.nih.gov/{s['pmid']}/"}
+                        for s in it["sources"] if s.get("type") == "pubmed"],
+        })
+    return out
+
 def build(src: Path):
     items = []
+    trad_dir = src / "traditional"
     for slug in SLUGS:
         c = json.loads((src / f"{slug}.json").read_text(encoding="utf-8"))
         tr = c["translations"]
@@ -91,8 +105,15 @@ def build(src: Path):
             "summary": {"en": c["summary_en"], "uz": uz(tr["uz"]["summary"]),
                         **{l: tr[l]["summary"] for l in ("ru", "ar")}},
             "claims": claims,
+            **({"traditional": _trad_items(json.loads((trad_dir / f"{slug}.json").read_text(encoding="utf-8")))}
+               if (trad_dir / f"{slug}.json").exists() else {}),
         })
-    return {"version": 1, "ingredients": items}
+    out = {"version": 1, "ingredients": items}
+    ibn = trad_dir / "ibn-sina.json"
+    if ibn.exists():
+        d = json.loads(ibn.read_text(encoding="utf-8"))
+        out["ibnSina"] = {"title": {**d["title"], "uz": uz(d["title"]["uz"])}, "items": _trad_items(d)}
+    return out
 
 if __name__ == "__main__":
     out = build(Path(sys.argv[1]))

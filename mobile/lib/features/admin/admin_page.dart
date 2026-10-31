@@ -244,7 +244,7 @@ class _StatsBlock extends StatelessWidget {
         decoration: BoxDecoration(gradient: SamiyaGradients.cta, borderRadius: BorderRadius.circular(24), boxShadow: SamiyaShadows.cta),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Text('${stats.installsTotal}',
-              style: const TextStyle(fontFamily: 'Inter', fontWeight: FontWeight.w700, fontSize: 34, color: Colors.white)),
+              style: const TextStyle(fontFamily: 'CormorantGaramond', fontWeight: FontWeight.w600, fontSize: 44, color: Colors.white)),
           Text(l.adminTotal, style: t.bodyMedium?.copyWith(color: Colors.white, fontWeight: FontWeight.w600)),
         ]),
       ),
@@ -267,7 +267,7 @@ class _StatsBlock extends StatelessWidget {
                 ),
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                   Text('$value',
-                      style: const TextStyle(fontFamily: 'Inter', fontWeight: FontWeight.w700, fontSize: 24, color: SamiyaColors.heading)),
+                      style: const TextStyle(fontFamily: 'CormorantGaramond', fontWeight: FontWeight.w600, fontSize: 30, color: SamiyaColors.heading)),
                   Text(label, style: t.bodyMedium?.copyWith(fontSize: 13)),
                 ]),
               ),

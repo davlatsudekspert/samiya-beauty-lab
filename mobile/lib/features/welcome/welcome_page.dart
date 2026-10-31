@@ -78,11 +78,11 @@ class _Wordmark extends StatelessWidget {
                 fontSize: 52,
                 letterSpacing: 2,
                 height: 1.1,
-                color: Color(0xFFC23A66))),
+                color: Color(0xFF8E4A5E))),
         const SizedBox(height: 4),
         Text('BEAUTY LAB',
             style: TextStyle(
-                fontFamily: 'Inter',
+                fontFamily: 'Jost',
                 fontWeight: FontWeight.w500,
                 fontSize: 14,
                 letterSpacing: 8,
@@ -147,7 +147,7 @@ class _LangChip extends StatelessWidget {
               heightFactor: 1,
               child: Text(code.toUpperCase(),
                   style: TextStyle(
-                      fontFamily: 'Inter',
+                      fontFamily: 'Jost',
                       fontWeight: FontWeight.w700,
                       fontSize: 14,
                       color: selected ? SamiyaColors.rose : SamiyaColors.heading)),

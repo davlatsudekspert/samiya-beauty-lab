@@ -181,7 +181,7 @@ class _AccountCard extends StatelessWidget {
           decoration: const BoxDecoration(shape: BoxShape.circle, gradient: SamiyaGradients.cta),
           child: isGuest
               ? const Icon(Icons.person_rounded, color: Colors.white, size: 30)
-              : Text(initial, style: const TextStyle(fontFamily: 'Inter', fontWeight: FontWeight.w700, fontSize: 24, color: Colors.white)),
+              : Text(initial, style: const TextStyle(fontFamily: 'Jost', fontWeight: FontWeight.w700, fontSize: 24, color: Colors.white)),
         ),
         const SizedBox(width: 16),
         Expanded(
@@ -292,7 +292,7 @@ class _LangChoice extends StatelessWidget {
               widthFactor: 1,
               child: Text(languageNativeNames[code]!,
                   style: TextStyle(
-                      fontFamily: code == 'ar' ? 'IBMPlexSansArabic' : 'Inter',
+                      fontFamily: code == 'ar' ? 'IBMPlexSansArabic' : 'Jost',
                       fontWeight: FontWeight.w600,
                       fontSize: 14,
                       color: selected ? SamiyaColors.rose : SamiyaColors.heading)),

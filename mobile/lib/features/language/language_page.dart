@@ -99,7 +99,7 @@ class _LanguageCard extends StatelessWidget {
                 ),
                 child: Text(code.toUpperCase(),
                     style: TextStyle(
-                        fontFamily: 'Inter',
+                        fontFamily: 'Jost',
                         fontWeight: FontWeight.w700,
                         fontSize: 15,
                         color: selected ? Colors.white : SamiyaColors.rose)),
@@ -107,7 +107,7 @@ class _LanguageCard extends StatelessWidget {
               const SizedBox(height: 10),
               Text(languageNativeNames[code]!,
                   style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      fontFamily: code == 'ar' ? 'IBMPlexSansArabic' : 'Inter')),
+                      fontFamily: code == 'ar' ? 'IBMPlexSansArabic' : 'Jost')),
             ]),
           ),
           if (selected)

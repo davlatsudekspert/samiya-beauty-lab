@@ -623,6 +623,26 @@
       }
      ]
     }
+   ],
+   "traditional": [
+    {
+     "id": "aloe-vera-t1",
+     "tradition": "Persian traditional medicine (Canon of Medicine)",
+     "text": {
+      "en": "A review of Aloe species in traditional and modern medicine (Biomedicine & Pharmacotherapy, 2016) reports that it examined major Islamic Iranian traditional texts, including Al-Qanun fi'l-Tibb (Canon of Medicine), and that, among the properties most frequently mentioned there, were properties relating to skin problems such as wounds, injuries and infective diseases, alongside internal uses that are outside the scope of this card. The review notes that many traditional effects have not been studied and require confirmatory investigation. This is a historical record, not evidence of effectiveness or safety.",
+      "uz": "An‘anaviy va zamonaviy tibbiyotdagi Aloe turlariga bag‘ishlangan sharh (Biomedicine & Pharmacotherapy, 2016) islom-eron an‘anaviy tibbiyotining yirik matnlari, jumladan «al-Qonun fi at-Tibb» («Tib qonunlari»), o‘rganilganini va u yerda eng ko‘p tilga olingan xususiyatlar orasida terining muammolari — jarohatlar, shikastlanishlar va yuqumli kasalliklar — bilan bog‘liq xususiyatlar, shuningdek ushbu kartochka doirasidan tashqaridagi ichki qo‘llanishlar ham bo‘lganini ma‘lum qiladi. Sharhda ko‘plab an‘anaviy ta‘sirlar o‘rganilmagani va tasdiqlovchi tadqiqotlarni talab qilishi qayd etilgan. Bu tarixiy qayd bo‘lib, samaradorlik yoki xavfsizlik dalili emas.",
+      "ru": "В обзоре о видах Aloe в традиционной и современной медицине (Biomedicine & Pharmacotherapy, 2016) сообщается, что были изучены основные исламские иранские традиционные тексты, включая «Аль-Канун фи-т-тибб» («Канон врачебной науки»), и что среди наиболее часто упоминаемых там свойств были свойства, относящиеся к проблемам кожи, таким как раны, повреждения и инфекционные заболевания, наряду с внутренними применениями, выходящими за рамки этой карточки. В обзоре отмечено, что многие традиционные эффекты не изучались и требуют подтверждающих исследований. Это историческая запись, а не свидетельство эффективности или безопасности.",
+      "ar": "تفيد مراجعة حول أنواع الألوة (Aloe) في الطب التقليدي والحديث (Biomedicine & Pharmacotherapy، 2016) بأنها فحصت نصوصًا رئيسية من الطب الإيراني الإسلامي التقليدي، ومنها «القانون في الطب»، وبأن من أكثر الخصائص ذكرًا فيها خصائص تتعلق بمشكلات الجلد مثل الجروح والإصابات والأمراض المعدية، إلى جانب استخدامات داخلية تقع خارج نطاق هذه البطاقة. وتشير المراجعة إلى أن كثيرًا من التأثيرات التقليدية لم تُدرس بعد وتحتاج إلى أبحاث تأكيدية. وهذا سجل تاريخي وليس دليلًا على الفعالية أو السلامة."
+     },
+     "sources": [
+      {
+       "pmid": "27716590",
+       "title": "Therapeutic effects of Aloe spp. in traditional and modern medicine: A review.",
+       "year": 2016,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/27716590/"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1092,6 +1112,26 @@
       }
      ]
     }
+   ],
+   "traditional": [
+    {
+     "id": "chamomile-t1",
+     "tradition": "Persian traditional medicine",
+     "text": {
+      "en": "A comparative review of topical plant oils based on traditional Persian medicine (Avicenna Journal of Phytomedicine, 2025) reports that sweet almond, chamomile, violet, olive and rose oils are among the most widely used oils in Persian medicine for the topical anointment (oil application) of children. The review also describes uses of chamomile oil that are not related to skin and are outside the scope of this card. This is a description of a historical practice in a pediatric context, not specific to facial skincare, and not a statement about effectiveness or safety.",
+      "uz": "An‘anaviy fors tibbiyotiga asoslangan, o‘simlik moylarini teriga surtishga bag‘ishlangan qiyosiy sharh (Avicenna Journal of Phytomedicine, 2025) shirin bodom, romashka, binafsha, zaytun va atirgul moylari fors tibbiyotida bolalarni tashqaridan moylash (moy surtish) uchun eng keng ishlatiladigan moylar qatoriga kirishini ma‘lum qiladi. Sharhda romashka moyining teriga aloqasi bo‘lmagan va ushbu kartochka doirasidan tashqarida bo‘lgan qo‘llanishlari ham tasvirlangan. Bu bolalar sohasidagi tarixiy amaliyotning tavsifi bo‘lib, yuz terisini parvarish qilishga xos emas va samaradorlik yoki xavfsizlik haqidagi bayonot emas.",
+      "ru": "В сравнительном обзоре о местном применении растительных масел на основе традиционной персидской медицины (Avicenna Journal of Phytomedicine, 2025) сообщается, что масла сладкого миндаля, ромашки, фиалки, оливы и розы относятся к наиболее широко используемым в персидской медицине маслам для наружного натирания (нанесения масла) детей. В обзоре также описаны применения масла ромашки, не связанные с кожей и выходящие за рамки этой карточки. Это описание исторической практики в детской сфере; оно не относится конкретно к уходу за кожей лица и не является утверждением об эффективности или безопасности.",
+      "ar": "تفيد مراجعة مقارنة حول الزيوت النباتية الموضعية استنادًا إلى الطب الفارسي التقليدي (Avicenna Journal of Phytomedicine، 2025) بأن زيوت اللوز الحلو والبابونج والبنفسج والزيتون والورد من أكثر الزيوت استخدامًا في الطب الفارسي لدهن الأطفال بالزيت موضعيًا. كما تصف المراجعة استخدامات لزيت البابونج لا علاقة لها بالجلد وتقع خارج نطاق هذه البطاقة. وهذا وصف لممارسة تاريخية في سياق طب الأطفال، وهو لا يخص العناية ببشرة الوجه، وليس بيانًا عن الفعالية أو السلامة."
+     },
+     "sources": [
+      {
+       "pmid": "40271504",
+       "title": "Topical application of medicinal plant oils in pediatric-related disorders: A comparative review article based on traditional Persian medicine.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40271504/"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1214,6 +1254,44 @@
       }
      ]
     }
+   ],
+   "traditional": [
+    {
+     "id": "coconut-oil-t1",
+     "tradition": "Folk/ethnobotanical",
+     "text": {
+      "en": "An ethnobotanical survey of 35 local experts in Mayotte (Comoros archipelago, Indian Ocean) recorded 470 traditional cosmetic formulations; coconut (Cocos nucifera) was the most cited plant species (273 use reports), and hygiene, makeup, fragrance, hair and nails, and dermatology were the most cited cosmetic categories. According to the full text, informants mainly reported skincare, moisturising and nourishing purposes, and the region's coconut-based beauty masks are made with coconut oil and other ingredients. These are informants' reported uses, not tested effects.",
+      "uz": "Mayotteda (Hind okeanidagi Komor arxipelagi) 35 nafar mahalliy bilimdon bilan o‘tkazilgan etnobotanik so‘rovda 470 ta an‘anaviy kosmetik retsept qayd etilgan; kokos (Cocos nucifera) eng ko‘p tilga olingan o‘simlik turi bo‘lgan (273 ta tilga olish), eng ko‘p tilga olingan kosmetik toifalar esa gigiyena, bo‘yanish, xushbo‘ylik, soch va tirnoqlar hamda dermatologiya bo‘lgan. To‘liq matnga ko‘ra, respondentlar asosan teri parvarishi, namlantirish va oziqlantirish maqsadlarini aytgan, mintaqaning kokos asosidagi go‘zallik maskalari esa kokos yog‘i va boshqa tarkibiy qismlardan tayyorlanadi. Bu respondentlar aytgan qo‘llanishlar bo‘lib, sinab ko‘rilgan ta‘sir emas.",
+      "ru": "В этноботаническом опросе 35 местных знатоков на острове Майотта (Коморский архипелаг, Индийский океан) зафиксировано 470 традиционных косметических рецептур; кокос (Cocos nucifera) оказался самым часто упоминаемым растением (273 упоминания), а наиболее частыми косметическими категориями были гигиена, макияж, ароматы, волосы и ногти, а также дерматология. Согласно полному тексту, респонденты чаще всего называли цели ухода за кожей, увлажнения и питания, а местные косметические маски на основе кокоса готовятся с кокосовым маслом и другими ингредиентами. Это применения, о которых сообщили респонденты, а не проверенные эффекты.",
+      "ar": "سجّل مسحٌ إثنوبوتاني شمل 35 خبيراً محلياً في مايوت (أرخبيل القمر، المحيط الهندي) 470 تركيبة تجميلية تقليدية؛ وكان جوز الهند (Cocos nucifera) أكثر الأنواع النباتية ذكراً (273 إشارة استخدام)، وكانت النظافة والمكياج والعطور والشعر والأظافر والأمراض الجلدية أكثر الفئات التجميلية ذكراً. وبحسب النص الكامل، ذكر المشاركون في الغالب أغراض العناية بالبشرة والترطيب والتغذية، وتُحضَّر أقنعة الجمال المحلية القائمة على جوز الهند بزيت جوز الهند ومكوّنات أخرى. وهذه استخدامات أفاد بها المشاركون، وليست تأثيرات خضعت للاختبار."
+     },
+     "sources": [
+      {
+       "pmid": "39165956",
+       "title": "Exploring traditional cosmetic flora from Comoros islands: An ethnobotanical survey in Mayotte.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39165956/"
+      }
+     ]
+    },
+    {
+     "id": "coconut-oil-t2",
+     "tradition": "Folk/ethnobotanical",
+     "text": {
+      "en": "An ethnobotanical survey of 28 informants in the Marquesas Islands (French Polynesia; interviews on Tahiti and Nuku Hiva) recorded more than 500 cosmetic recipes and listed Cocos nucifera among the main cosmetic plants; perfumed coconut oil, known as monoi, appeared as the main Marquesan cosmetic preparation, for both skin and hair. Reported cosmetic uses included perfume and hydration. These are informants' reported uses, not tested effects.",
+      "uz": "Marquesas orollarida (Fransuz Polineziyasi; suhbatlar Taiti va Nuku-Xivada o‘tkazilgan) 28 nafar respondent bilan o‘tkazilgan etnobotanik so‘rovda 500 dan ortiq kosmetik retsept qayd etilgan va Cocos nucifera asosiy kosmetik o‘simliklar qatorida tilga olingan; xushbo‘y kokos yog‘i — «monoi» — teri va soch uchun Marquesas orollarining asosiy kosmetik tayyorlamasi sifatida ko‘rsatilgan. Qayd etilgan kosmetik maqsadlar orasida xushbo‘ylantirish va namlantirish bor. Bu respondentlar aytgan qo‘llanishlar bo‘lib, sinab ko‘rilgan ta‘sir emas.",
+      "ru": "В этноботаническом опросе 28 респондентов на Маркизских островах (Французская Полинезия; интервью проводились на Таити и Нуку-Хиве) зафиксировано более 500 косметических рецептов, а Cocos nucifera названа среди основных косметических растений; ароматизированное кокосовое масло, известное как моноэ (monoi), оказалось главным косметическим средством маркизцев — как для кожи, так и для волос. Среди названных косметических целей были ароматизация и увлажнение. Это применения, о которых сообщили респонденты, а не проверенные эффекты.",
+      "ar": "سجّل مسحٌ إثنوبوتاني شمل 28 مشاركاً في جزر ماركيز (بولينيزيا الفرنسية؛ أُجريت المقابلات في تاهيتي ونوكو هيفا) أكثر من 500 وصفة تجميلية، وذكر Cocos nucifera ضمن أهم النباتات التجميلية؛ وظهر زيت جوز الهند المعطّر المعروف باسم «مونوي» (monoi) بوصفه المستحضر التجميلي الرئيسي في ماركيز، للبشرة والشعر معاً. وشملت الأغراض التجميلية المذكورة التعطير والترطيب. وهذه استخدامات أفاد بها المشاركون، وليست تأثيرات خضعت للاختبار."
+     },
+     "sources": [
+      {
+       "pmid": "27899137",
+       "title": "Ethnobotanical survey of cosmetic plants used in Marquesas Islands (French Polynesia).",
+       "year": 2016,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/27899137/"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1313,6 +1391,26 @@
        "title": "Cucumber contact dermatitis.",
        "year": 2000,
        "url": "https://pubmed.ncbi.nlm.nih.gov/11011937/"
+      }
+     ]
+    }
+   ],
+   "traditional": [
+    {
+     "id": "cucumber-t1",
+     "tradition": "Ayurveda",
+     "text": {
+      "en": "A 2012 review of cucumber (Cucumis sativus) reports that it is a vegetable used in Indian traditional medicine since ancient times and that fresh fruit juice is used for nourishing the skin. The same review notes that comparatively few studies have been published on its chemical profile and therapeutic potential. This is a description of traditional use, not a statement about effectiveness or safety.",
+      "uz": "Bodring (Cucumis sativus) haqidagi 2012-yilgi sharh uning qadim zamonlardan beri hind an‘anaviy tibbiyotida ishlatiladigan sabzavot ekanini va yangi meva sharbati terini oziqlantirish uchun qo‘llanishini ma‘lum qiladi. Shu sharhda uning kimyoviy tarkibi va terapevtik salohiyati haqida nisbatan kam tadqiqot chop etilgani qayd etilgan. Bu an‘anaviy qo‘llanishning tavsifi bo‘lib, samaradorlik yoki xavfsizlik haqidagi bayonot emas.",
+      "ru": "В обзоре 2012 года об огурце (Cucumis sativus) сообщается, что это овощ, используемый в индийской традиционной медицине с древних времён, и что свежий сок плодов применяется для питания кожи. В том же обзоре отмечено, что о его химическом составе и терапевтическом потенциале опубликовано сравнительно мало исследований. Это описание традиционного применения, а не утверждение об эффективности или безопасности.",
+      "ar": "تفيد مراجعة نُشرت عام 2012 حول الخيار (Cucumis sativus) بأنه خضار يُستخدم في الطب الهندي التقليدي منذ القدم، وبأن عصير الثمرة الطازجة يُستخدم لتغذية البشرة. وتشير المراجعة نفسها إلى أن عدد الدراسات المنشورة عن مكوناته الكيميائية وإمكاناته العلاجية قليل نسبيًا. وهذا وصف لاستخدام تقليدي وليس بيانًا عن الفعالية أو السلامة."
+     },
+     "sources": [
+      {
+       "pmid": "23098877",
+       "title": "Phytochemical and therapeutic potential of cucumber.",
+       "year": 2012,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/23098877/"
       }
      ]
     }
@@ -1438,6 +1536,26 @@
        "title": "Influence of Mechanical Skin Treatments on Dermal Penetration Efficacy of Active Ingredients.",
        "year": 2022,
        "url": "https://pubmed.ncbi.nlm.nih.gov/36145538/"
+      }
+     ]
+    }
+   ],
+   "traditional": [
+    {
+     "id": "facial-massage-t1",
+     "tradition": "Persian traditional medicine (Canon of Medicine)",
+     "text": {
+      "en": "A historical review of Avicenna's massage approach in the Canon of Medicine (Acta Medico-Historica Adriatica, 2019) reports that the book defined different types of massage (friction), described as including soft friction that relaxes the body, gentle friction that increases blood flow in the area of application, and preparatory and restorative friction applied before and after exercise. The abstract describes massage of the body in general and does not mention facial massage or the term dalk. This is a historical description, not a statement about effectiveness or safety, and this item is based on the abstract only.",
+      "uz": "Ibn Sinoning «Tib qonunlari»dagi massaj yondashuviga bag‘ishlangan tarixiy sharh (Acta Medico-Historica Adriatica, 2019) kitobda massajning (ishqalashning) turli turlari belgilanganini, ular qatorida tanani bo‘shashtiradigan yumshoq ishqalash, qo‘llanilgan joyda qon oqimini oshiradigan mayin ishqalash hamda mashqdan oldin va keyin qo‘llaniladigan tayyorlovchi va tiklovchi ishqalash borligini ma‘lum qiladi. Annotatsiyada umuman tana massaji tasvirlangan, yuz massaji yoki «dalk» atamasi tilga olinmagan. Bu tarixiy tavsif bo‘lib, samaradorlik yoki xavfsizlik haqidagi bayonot emas; ushbu band faqat annotatsiyaga asoslangan.",
+      "ru": "В историческом обзоре о подходе Авиценны к массажу в «Каноне врачебной науки» (Acta Medico-Historica Adriatica, 2019) сообщается, что в книге были определены разные виды массажа (растирания), среди которых мягкое растирание, расслабляющее тело, нежное растирание, усиливающее кровоток в области применения, а также подготовительное и восстановительное растирание до и после упражнений. В аннотации описан массаж тела в целом; массаж лица и термин «далк» не упоминаются. Это историческое описание, а не утверждение об эффективности или безопасности; пункт основан только на аннотации.",
+      "ar": "تفيد مراجعة تاريخية حول منهج ابن سينا في التدليك في «القانون في الطب» (Acta Medico-Historica Adriatica، 2019) بأن الكتاب حدّد أنواعًا مختلفة من التدليك (الدَّلك)، من بينها الدلك اللين الذي يُرخي الجسم، والدلك الخفيف الذي يزيد تدفق الدم في موضع التطبيق، والدلك التحضيري والدلك الاستعادي اللذان يُجريان قبل التمرين وبعده. ويصف الملخص تدليك الجسم عمومًا ولا يذكر تدليك الوجه ولا مصطلح «الدَّلك» صراحةً. وهذا وصف تاريخي وليس بيانًا عن الفعالية أو السلامة، ويعتمد هذا البند على الملخص فقط."
+     },
+     "sources": [
+      {
+       "pmid": "31315411",
+       "title": "The Massage Approach of Avicenna in the Canon of Medicine.",
+       "year": 2019,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/31315411/"
       }
      ]
     }
@@ -1816,6 +1934,26 @@
       }
      ]
     }
+   ],
+   "traditional": [
+    {
+     "id": "green-tea-t1",
+     "tradition": "Korean traditional herbal medicine (Hanbang)",
+     "text": {
+      "en": "A 2025 review of Korean medicinal herbs in anti-aging and skincare reports that Korean herbal medicine (Hanbang) draws on ingredients such as ginseng, green tea and licorice in formulations passed down for centuries, and that traditional Korean skincare includes approaches such as herbal masks. This is a general description of the tradition; the abstract does not describe a specific traditional skin use of green tea. It is not a statement about effectiveness or safety. This item is based on the abstract only.",
+      "uz": "Koreya dorivor o‘tlarining qarishga qarshi va teri parvarishidagi o‘rniga bag‘ishlangan 2025-yilgi sharh Koreya o‘simlik tibbiyoti (Hanbang) asrlar davomida avloddan avlodga o‘tib kelgan tarkiblarda jenshen, yashil choy va shirinmiya kabi ingredientlardan foydalanishini hamda an‘anaviy koreys teri parvarishi o‘simlik niqoblari kabi usullarni o‘z ichiga olishini ma‘lum qiladi. Bu an‘ananing umumiy tavsifi; annotatsiyada yashil choyning teri uchun aniq an‘anaviy qo‘llanishi tasvirlanmagan. Bu samaradorlik yoki xavfsizlik haqidagi bayonot emas. Ushbu band faqat annotatsiyaga asoslangan.",
+      "ru": "В обзоре 2025 года о корейских лекарственных травах в антивозрастном уходе и уходе за кожей сообщается, что корейская травяная медицина (Hanbang) использует такие ингредиенты, как женьшень, зелёный чай и лакрица, в составах, передаваемых веками, а традиционный корейский уход за кожей включает такие подходы, как травяные маски. Это общее описание традиции; в аннотации не описано конкретное традиционное применение зелёного чая для кожи. Это не утверждение об эффективности или безопасности. Пункт основан только на аннотации.",
+      "ar": "تفيد مراجعة نُشرت عام 2025 حول الأعشاب الطبية الكورية في مجال العناية بالبشرة ومكافحة الشيخوخة بأن الطب العشبي الكوري (Hanbang) يستند إلى مكونات مثل الجينسنغ والشاي الأخضر والعرقسوس في تركيبات توارثتها الأجيال عبر القرون، وبأن العناية التقليدية الكورية بالبشرة تشمل أساليب مثل الأقنعة العشبية. وهذا وصف عام للتقليد؛ ولا يصف الملخص استخدامًا جلديًا تقليديًا محددًا للشاي الأخضر. وهو ليس بيانًا عن الفعالية أو السلامة. يعتمد هذا البند على الملخص فقط."
+     },
+     "sources": [
+      {
+       "pmid": "41088897",
+       "title": "Role of Major Bioactive Compounds in the Treatment of Anti-aging and Skincare: A Review.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/41088897/"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1983,6 +2121,44 @@
       }
      ]
     }
+   ],
+   "traditional": [
+    {
+     "id": "gua-sha-t1",
+     "tradition": "Traditional Chinese medicine",
+     "text": {
+      "en": "A 2026 review of scraping therapy (Cureus) describes it as known as Gua Sha in traditional Chinese medicine and as spoon-rubbing in folk therapy, and says it involves applying controlled scraping pressure to the skin to deliberately induce petechiae and ecchymosis (small red spots and bruising). The review states that the precise physiological mechanisms remain incompletely understood and warrant further scientific validation. The abstract concerns body areas and musculoskeletal use and does not describe facial gua sha for cosmetic purposes. This is a description of a traditional technique, not a statement about effectiveness or safety.",
+      "uz": "Qirish terapiyasi haqidagi 2026-yilgi sharh (Cureus) uni an‘anaviy xitoy tibbiyotida Gua Sha, xalq terapiyasida esa «qoshiq bilan ishqalash» deb atalishini va teriga petexiya va ekximoz (mayda qizil nuqtalar va ko‘karish) hosil qilish maqsadida nazoratli qirish bosimi qo‘llanilishini tasvirlaydi. Sharhda aniq fiziologik mexanizmlar hali to‘liq tushunilmagani va qo‘shimcha ilmiy tekshiruvni talab qilishi aytilgan. Annotatsiya tananing sohalari va tayanch-harakat tizimi kontekstiga tegishli bo‘lib, kosmetik maqsadda yuz uchun gua sha tasvirlanmagan. Bu an‘anaviy usulning tavsifi bo‘lib, samaradorlik yoki xavfsizlik haqidagi bayonot emas.",
+      "ru": "В обзоре 2026 года о скребковой терапии (Cureus) она описана как известная в традиционной китайской медицине под названием гуаша и как «растирание ложкой» в народной терапии; указано, что она предполагает применение контролируемого скребущего давления на кожу для намеренного вызывания петехий и экхимозов (мелких красных точек и кровоподтёков). В обзоре говорится, что точные физиологические механизмы остаются не до конца изученными и требуют дальнейшей научной проверки. Аннотация относится к областям тела и опорно-двигательному контексту и не описывает гуаша для лица в косметических целях. Это описание традиционной техники, а не утверждение об эффективности или безопасности.",
+      "ar": "تصف مراجعة نُشرت عام 2026 حول العلاج بالكشط (Cureus) هذا العلاج بأنه يُعرف بـ«غوا شا» في الطب الصيني التقليدي وبـ«الفرك بالملعقة» في العلاج الشعبي، وتذكر أنه يقوم على تطبيق ضغط كشط مضبوط على الجلد لإحداث نمشات دموية وكدمات (بقع حمراء صغيرة وكدمات) عمدًا. وتفيد المراجعة بأن الآليات الفيزيولوجية الدقيقة لا تزال غير مفهومة تمامًا وتحتاج إلى مزيد من التحقق العلمي. ويتعلق الملخص بمناطق الجسم وبالاستخدام العضلي الهيكلي ولا يصف غوا شا للوجه لأغراض تجميلية. وهذا وصف لتقنية تقليدية وليس بيانًا عن الفعالية أو السلامة."
+     },
+     "sources": [
+      {
+       "pmid": "42729907",
+       "title": "Mechanisms Underlying the Beneficial Effects of Scraping Therapy: A Review of Articles.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42729907/"
+      }
+     ]
+    },
+    {
+     "id": "gua-sha-t2",
+     "tradition": "Traditional Chinese medicine",
+     "text": {
+      "en": "A two-page 2012 historical article in the Chinese Journal of Integrative Medicine is titled 'Gua Sha, an ancient technical management, for certain illness' and is indexed in PubMed under the terms History, Ancient and Medicine, Chinese Traditional. PubMed provides no abstract, so this item is based on the title and indexing only and reports nothing about the technique's content, use or effects.",
+      "uz": "Chinese Journal of Integrative Medicine jurnalidagi ikki sahifali 2012-yilgi tarixiy maqola «Gua Sha, an ancient technical management, for certain illness» deb nomlanadi va PubMed‘da History, Ancient hamda Medicine, Chinese Traditional atamalari ostida indekslangan. PubMed annotatsiya bermaydi, shuning uchun ushbu band faqat sarlavha va indekslashga asoslangan va usulning mazmuni, qo‘llanishi yoki ta‘siri haqida hech narsa ma‘lum qilmaydi.",
+      "ru": "Двухстраничная историческая статья 2012 года в Chinese Journal of Integrative Medicine называется «Gua Sha, an ancient technical management, for certain illness» и индексирована в PubMed по терминам History, Ancient и Medicine, Chinese Traditional. В PubMed нет аннотации, поэтому этот пункт основан только на названии и индексации и ничего не сообщает о содержании, применении или эффектах техники.",
+      "ar": "مقالة تاريخية من صفحتين نُشرت عام 2012 في Chinese Journal of Integrative Medicine بعنوان «Gua Sha, an ancient technical management, for certain illness»، ومفهرسة في PubMed تحت المصطلحين History, Ancient وMedicine, Chinese Traditional. لا يوفر PubMed ملخصًا لها، لذا يعتمد هذا البند على العنوان والفهرسة فقط ولا يفيد بشيء عن مضمون التقنية أو استخدامها أو آثارها."
+     },
+     "sources": [
+      {
+       "pmid": "23275010",
+       "title": "Gua Sha, an ancient technical management, for certain illness.",
+       "year": 2012,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/23275010/"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2087,6 +2263,44 @@
        "title": "A case of allergic contact dermatitis caused by propolis-enriched honey.",
        "year": 2015,
        "url": "https://pubmed.ncbi.nlm.nih.gov/25524122/"
+      }
+     ]
+    }
+   ],
+   "traditional": [
+    {
+     "id": "honey-t1",
+     "tradition": "Folk/ethnobotanical",
+     "text": {
+      "en": "A review of honey in dermatology and skin care states that historical records of honey skin uses date back to the earliest civilizations, and that honey has frequently been used as a binder or vehicle and also for therapeutic purposes. This describes historical use only and is not evidence of an effect on skin.",
+      "uz": "Asalning dermatologiya va teri parvarishidagi o‘rni haqidagi sharhda aytilishicha, asalning teriga qo‘llanilishi haqidagi tarixiy yozuvlar eng qadimgi sivilizatsiyalargacha borib taqaladi, asal esa ko‘pincha bog‘lovchi yoki tashuvchi vosita sifatida hamda tibbiy maqsadlarda ham ishlatilgan. Bu faqat tarixiy qo‘llanishni tasvirlaydi va teriga ta‘sirini ko‘rsatuvchi dalil emas.",
+      "ru": "В обзоре о меде в дерматологии и уходе за кожей говорится, что исторические записи об использовании мёда на коже восходят к древнейшим цивилизациям, а мёд часто применялся как связующее вещество или основа, а также в медицинских целях. Это описывает только историческое применение и не является свидетельством какого-либо эффекта на коже.",
+      "ar": "تذكر مراجعة علمية عن العسل في الأمراض الجلدية والعناية بالبشرة أن السجلات التاريخية لاستخدام العسل على الجلد تعود إلى أقدم الحضارات، وأن العسل استُخدم كثيراً كمادة رابطة أو وسيط حامل، وكذلك لأغراض طبية. وهذا يصف الاستخدام التاريخي فحسب، ولا يشكّل دليلاً على أي تأثير في البشرة."
+     },
+     "sources": [
+      {
+       "pmid": "24305429",
+       "title": "Honey in dermatology and skin care: a review.",
+       "year": 2013,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/24305429/"
+      }
+     ]
+    },
+    {
+     "id": "honey-t2",
+     "tradition": "Folk/ethnobotanical",
+     "text": {
+      "en": "A dermatology review on honey states that, for centuries, honey has been used in traditional medicine as a binder or vehicle for creams and lotions and also for therapeutic purposes. This describes traditional use only and is not evidence of an effect on skin.",
+      "uz": "Asal haqidagi dermatologik sharhda aytilishicha, asrlar davomida asal an‘anaviy tibbiyotda kremlar va losyonlar uchun bog‘lovchi yoki tashuvchi vosita sifatida hamda tibbiy maqsadlarda ham ishlatilgan. Bu faqat an‘anaviy qo‘llanishni tasvirlaydi va teriga ta‘sirini ko‘rsatuvchi dalil emas.",
+      "ru": "В дерматологическом обзоре о мёде говорится, что на протяжении веков мёд использовался в традиционной медицине как связующее вещество или основа для кремов и лосьонов, а также в медицинских целях. Это описывает только традиционное применение и не является свидетельством какого-либо эффекта на коже.",
+      "ar": "تذكر مراجعة جلدية عن العسل أنه على مدى قرون استُخدم العسل في الطب التقليدي كمادة رابطة أو وسيط حامل للكريمات والمستحلبات الموضعية، وكذلك لأغراض طبية. وهذا يصف الاستخدام التقليدي فحسب، ولا يشكّل دليلاً على أي تأثير في البشرة."
+     },
+     "sources": [
+      {
+       "pmid": "38013499",
+       "title": "Honey therapies for dermatological disorders: more than just a sweet elixir.",
+       "year": 2023,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38013499/"
       }
      ]
     }
@@ -2367,6 +2581,26 @@
       }
      ]
     }
+   ],
+   "traditional": [
+    {
+     "id": "nigella-sativa-oil-t2",
+     "tradition": "Unani",
+     "text": {
+      "en": "A dermatology review states that Nigella sativa is a widely used medicinal herb with a rich cultural and religious history in Unani, Ayurveda, Chinese and Arabic medicine. This is a general statement about the herb, not specific to skin or to the oil, and it is not evidence of an effect.",
+      "uz": "Dermatologiya sharhida aytilishicha, Nigella sativa keng qo‘llaniladigan dorivor o‘simlik bo‘lib, Unani, Ayurveda, Xitoy va arab tibbiyotida boy madaniy va diniy tarixga ega. Bu o‘simlik haqidagi umumiy bayon bo‘lib, teriga yoki yog‘ga xos emas va ta‘sirini ko‘rsatuvchi dalil emas.",
+      "ru": "В дерматологическом обзоре говорится, что Nigella sativa — широко используемое лекарственное растение с богатой культурной и религиозной историей в унани, аюрведе, китайской и арабской медицине. Это общее утверждение о растении, не относящееся специально к коже или к маслу, и оно не является свидетельством эффекта.",
+      "ar": "تذكر مراجعة جلدية أن Nigella sativa (الحبة السوداء) عشبة طبية واسعة الاستخدام ولها تاريخ ثقافي وديني غني في الطب الأوناني والأيورفيدا والطب الصيني والطب العربي. وهذا بيان عام عن العشبة، ولا يخص الجلد ولا الزيت تحديداً، ولا يشكّل دليلاً على أي تأثير."
+     },
+     "sources": [
+      {
+       "pmid": "33899217",
+       "title": "A review of Nigella sativa plant-based therapy in dermatology.",
+       "year": 2021,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/33899217/"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2531,6 +2765,32 @@
       }
      ]
     }
+   ],
+   "traditional": [
+    {
+     "id": "oat-t1",
+     "tradition": "Folk/ethnobotanical",
+     "text": {
+      "en": "Two PubMed-indexed reviews, a 2020 historical article on colloidal oatmeal and a 2010 review, state that colloidal oatmeal has a long history of use in dermatology. Their abstracts do not specify a particular traditional medical system or period. This is a statement about historical use, not about effectiveness or safety. This item is based on the abstracts only.",
+      "uz": "PubMed‘da indekslangan ikkita sharh — kolloid suli uni haqidagi 2020-yilgi tarixiy maqola va 2010-yilgi sharh — kolloid suli uni dermatologiyada uzoq tarixga ega ekanini ma‘lum qiladi. Ularning annotatsiyalarida muayyan an‘anaviy tibbiyot tizimi yoki davr ko‘rsatilmagan. Bu tarixiy qo‘llanish haqidagi bayonot bo‘lib, samaradorlik yoki xavfsizlik haqida emas. Ushbu band faqat annotatsiyalarga asoslangan.",
+      "ru": "В двух обзорах, индексированных в PubMed, — исторической статье 2020 года о коллоидной овсяной муке и обзоре 2010 года — говорится, что коллоидная овсяная мука имеет долгую историю применения в дерматологии. В их аннотациях не указаны конкретная традиционная медицинская система или период. Это утверждение об историческом применении, а не об эффективности или безопасности. Пункт основан только на аннотациях.",
+      "ar": "تذكر مراجعتان مفهرستان في PubMed، هما مقالة تاريخية صدرت عام 2020 عن دقيق الشوفان الغرواني ومراجعة صدرت عام 2010، أن لدقيق الشوفان الغرواني تاريخًا طويلًا من الاستخدام في طب الجلد. ولا تحدد ملخصاتهما نظامًا طبيًا تقليديًا بعينه أو فترة زمنية محددة. وهذا بيان عن الاستخدام التاريخي وليس عن الفعالية أو السلامة. يعتمد هذا البند على الملخصين فقط."
+     },
+     "sources": [
+      {
+       "pmid": "33026768",
+       "title": "ARTICLE: Colloidal Oatmeal Part I: History, Basic Science, Mechanism of Action, and Clinical Efficacy in the Treatment of Atopic Dermatitis.",
+       "year": 2020,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/33026768/"
+      },
+      {
+       "pmid": "20865844",
+       "title": "Mechanism of action and clinical benefits of colloidal oatmeal for dermatologic practice.",
+       "year": 2010,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/20865844/"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2656,6 +2916,44 @@
        "title": "Indian Academy of Pediatrics Guidelines for Pediatric Skin Care.",
        "year": 2021,
        "url": "https://pubmed.ncbi.nlm.nih.gov/33632947/"
+      }
+     ]
+    }
+   ],
+   "traditional": [
+    {
+     "id": "olive-oil-t1",
+     "tradition": "Folk/ethnobotanical",
+     "text": {
+      "en": "An ethnopharmacological review of omphacinon (oil from unripe olives) reports that Greek, Latin, Aramaic, Hebrew and Arabic sources from the Hellenistic period to the late Middle Ages record its use in dermatological care, in antiperspirant preparations, and as a base for medicinal ointments and perfumes. The authors state that the dermatological uses rest on indirect evidence, that antiperspirant claims remain speculative, and that the review gives no grounds for therapeutic recommendation. This concerns oil from unripe fruit specifically.",
+      "uz": "Pishmagan zaytun mevasidan olingan yog‘ (omfasinon) bo‘yicha etnofarmakologik sharhda xabar berilishicha, ellinizm davridan o‘rta asrlarning oxirigacha yunon, lotin, oromiy, ibroniy va arab manbalarida u dermatologik parvarishda, ter ajralishini kamaytiruvchi vositalarda hamda dorivor malhamlar va atirlar uchun asos sifatida qo‘llangani qayd etilgan. Mualliflar dermatologik qo‘llanishlar bilvosita dalillarga tayanishini, ter ajralishini kamaytirish haqidagi da‘volar esa taxminiy ekanini va sharh tibbiy tavsiya berishga asos bermasligini ta‘kidlaydi. Bu aynan pishmagan mevadan olingan yog‘ga tegishli.",
+      "ru": "В этнофармакологическом обзоре омфацинона (масла из незрелых олив) сообщается, что греческие, латинские, арамейские, древнееврейские и арабские источники от эллинистического периода до позднего Средневековья фиксируют его использование в дерматологическом уходе, в составах против потоотделения, а также как основы для лекарственных мазей и парфюмерии. Авторы указывают, что дерматологические применения опираются на косвенные данные, утверждения о действии против потоотделения остаются предположительными, а обзор не даёт оснований для терапевтических рекомендаций. Это относится именно к маслу из незрелых плодов.",
+      "ar": "تفيد مراجعة إثنوفارماكولوجية عن «أومفاسينون» (زيت الزيتون غير الناضج) بأن مصادر يونانية ولاتينية وآرامية وعبرية وعربية، من العصر الهلنستي حتى أواخر العصور الوسطى، سجّلت استخدامه في العناية الجلدية، وفي مستحضرات مضادة للتعرّق، وكقاعدة للمراهم الطبية والعطور. ويذكر المؤلفون أن الاستخدامات الجلدية تستند إلى أدلة غير مباشرة، وأن الادعاءات المتعلقة بمضادات التعرّق تظل تخمينية، وأن المراجعة لا تقدّم أساساً لأي توصية علاجية. وهذا يخص زيت الثمار غير الناضجة تحديداً."
+     },
+     "sources": [
+      {
+       "pmid": "42620476",
+       "title": "Omphacinon (unripe olive oil) as a traditional Mediterranean medicinal carrier: an ethnopharmacological appraisal.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42620476/"
+      }
+     ]
+    },
+    {
+     "id": "olive-oil-t2",
+     "tradition": "Folk/ethnobotanical",
+     "text": {
+      "en": "A review of Italian ethnobotanical literature (ethnographic sources from the second half of the 19th century to the first half of the 20th century, plus fieldwork published in 2000-2025) reports that olive oil was used in folk practice as an emollient for dermatological and cosmetic conditions, as a vehicle for infusing other herbs, and in rituals. This describes folk use only and is not evidence of an effect.",
+      "uz": "Italiya etnobotanika adabiyotlari sharhida (XIX asrning ikkinchi yarmi va XX asrning birinchi yarmidagi etnografik manbalar hamda 2000-2025-yillarda e‘lon qilingan dala tadqiqotlari) xabar berilishicha, zaytun yog‘i xalq amaliyotida teri holatlari va kosmetik maqsadlar uchun yumshatuvchi vosita sifatida, boshqa o‘simliklarni damlash uchun tashuvchi vosita sifatida hamda marosimlarda ishlatilgan. Bu faqat xalq qo‘llanishini tasvirlaydi va ta‘sirini ko‘rsatuvchi dalil emas.",
+      "ru": "В обзоре итальянской этноботанической литературы (этнографические источники второй половины XIX — первой половины XX века и полевые исследования, опубликованные в 2000–2025 годах) сообщается, что оливковое масло в народной практике использовалось как смягчающее средство при кожных состояниях и в косметических целях, как основа для настаивания других трав, а также в ритуалах. Это описывает только народное применение и не является свидетельством эффекта.",
+      "ar": "تفيد مراجعة للأدبيات الإثنوبوتانية الإيطالية (مصادر إثنوغرافية من النصف الثاني من القرن التاسع عشر إلى النصف الأول من القرن العشرين، إضافة إلى دراسات ميدانية نُشرت بين عامي 2000 و2025) بأن زيت الزيتون استُخدم في الممارسة الشعبية كمادة مُطرِّية للحالات الجلدية ولأغراض تجميلية، وكوسيط لنقع أعشاب أخرى، وفي الطقوس. وهذا يصف الاستخدام الشعبي فحسب، ولا يشكّل دليلاً على أي تأثير."
+     },
+     "sources": [
+      {
+       "pmid": "42514588",
+       "title": "The Ethnobotanical Heritage of Olea europaea L. in Italy: Continuity of a Millenary Mediterranean Tradition.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42514588/"
       }
      ]
     }
@@ -3189,6 +3487,44 @@
       }
      ]
     }
+   ],
+   "traditional": [
+    {
+     "id": "turmeric-t1",
+     "tradition": "Ayurveda",
+     "text": {
+      "en": "A 2025 review of turmeric (Curcuma longa) in the journal Chinese Medicine reports that turmeric has traditionally been widely used in Ayurveda and in traditional Asian medicine such as traditional Chinese medicine, in connection with conditions that the abstract lists as including skin diseases, alongside digestive, respiratory and circulatory uses that are outside the scope of this card. This is a description of traditional use, not a statement about effectiveness or safety.",
+      "uz": "Zarchava (Curcuma longa) haqidagi 2025-yilgi sharh (Chinese Medicine jurnali) zarchava an‘anaviy ravishda Ayurveda va an‘anaviy xitoy tibbiyoti kabi an‘anaviy Osiyo tibbiyotida keng ishlatilganini, annotatsiya ko‘rsatgan holatlar qatorida teri kasalliklari ham borligini, shuningdek ushbu kartochka doirasidan tashqaridagi hazm, nafas va qon aylanish bilan bog‘liq qo‘llanishlar ham mavjudligini ma‘lum qiladi. Bu an‘anaviy qo‘llanishning tavsifi bo‘lib, samaradorlik yoki xavfsizlik haqidagi bayonot emas.",
+      "ru": "В обзоре 2025 года о куркуме (Curcuma longa) в журнале Chinese Medicine сообщается, что куркума традиционно широко использовалась в аюрведе и в традиционной азиатской медицине, например в традиционной китайской медицине, в связи с состояниями, среди которых в аннотации названы кожные заболевания, а также пищеварительные, дыхательные и сосудистые применения, выходящие за рамки этой карточки. Это описание традиционного применения, а не утверждение об эффективности или безопасности.",
+      "ar": "تفيد مراجعة نُشرت عام 2025 حول الكركم (Curcuma longa) في مجلة Chinese Medicine بأن الكركم استُخدم تقليديًا على نطاق واسع في الأيورفيدا وفي الطب الآسيوي التقليدي مثل الطب الصيني التقليدي، فيما يتصل بحالات يذكر الملخص أنها تشمل الأمراض الجلدية، إلى جانب استخدامات هضمية وتنفسية ودورانية تقع خارج نطاق هذه البطاقة. وهذا وصف لاستخدام تقليدي وليس بيانًا عن الفعالية أو السلامة."
+     },
+     "sources": [
+      {
+       "pmid": "40437595",
+       "title": "Curcuma Longa (turmeric): from traditional applications to modern plant medicine research hotspots.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40437595/"
+      }
+     ]
+    },
+    {
+     "id": "turmeric-t2",
+     "tradition": "Unani",
+     "text": {
+      "en": "A 2022 review of Curcuma longa in Frontiers in Pharmacology reports that in Unani and Ayurveda medicine turmeric has been applied externally for ulcers and inflammation, and lists skin infections and wounds among its other traditional uses. The review also states that there is a lack of supportive evidence, especially from clinical trials. This is a description of traditional use, not a statement about effectiveness or safety.",
+      "uz": "Frontiers in Pharmacology jurnalidagi Curcuma longa haqidagi 2022-yilgi sharh Unani va Ayurveda tibbiyotida zarchava yaralar va yallig‘lanish uchun tashqaridan surtilganini, boshqa an‘anaviy qo‘llanishlari qatorida teri infeksiyalari va jarohatlar ham sanalganini ma‘lum qiladi. Sharhda, ayniqsa klinik sinovlardan, tasdiqlovchi dalillar yetishmasligi ham qayd etilgan. Bu an‘anaviy qo‘llanishning tavsifi bo‘lib, samaradorlik yoki xavfsizlik haqidagi bayonot emas.",
+      "ru": "В обзоре 2022 года о Curcuma longa в журнале Frontiers in Pharmacology сообщается, что в унани и аюрведе куркуму применяли наружно при язвах и воспалении, а среди других традиционных применений названы кожные инфекции и раны. В обзоре также говорится о недостатке подтверждающих данных, особенно клинических испытаний. Это описание традиционного применения, а не утверждение об эффективности или безопасности.",
+      "ar": "تفيد مراجعة نُشرت عام 2022 حول Curcuma longa في مجلة Frontiers in Pharmacology بأن الكركم استُعمل خارجيًا في طب الأونّاني والأيورفيدا للقروح والالتهاب، وتذكر من بين استخداماته التقليدية الأخرى التهابات الجلد والجروح. كما تفيد المراجعة بنقص الأدلة الداعمة، ولا سيما من التجارب السريرية. وهذا وصف لاستخدام تقليدي وليس بيانًا عن الفعالية أو السلامة."
+     },
+     "sources": [
+      {
+       "pmid": "35401176",
+       "title": "A Comprehensive Review on the Therapeutic Potential of Curcuma longa Linn. in Relation to its Major Active Constituent Curcumin.",
+       "year": 2022,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/35401176/"
+      }
+     ]
+    }
    ]
   },
   {
@@ -3450,5 +3786,130 @@
     }
    ]
   }
- ]
+ ],
+ "ibnSina": {
+  "title": {
+   "en": "Ibn Sina (Avicenna) and the Canon of Medicine",
+   "uz": "Ibn Sino va “Tib qonunlari”",
+   "ru": "Ибн Сина (Авиценна) и «Канон врачебной науки»",
+   "ar": "ابن سينا و«القانون في الطب»"
+  },
+  "items": [
+   {
+    "id": "ibn-sina-1",
+    "text": {
+     "en": "Historical reviews report that Ibn Sina (Latinised as Avicenna) was born around 980 and died in 1037 in Hamadan. Sources differ on the exact birthplace: one gives Afshona near Bukhara, another gives Bukhara (Khorasan), and an older source names a village near Bukhara, so the place is given here only as approximately 'in the Bukhara area'. This is background history, not a statement about any skin-care effect.",
+     "uz": "Tarixiy sharhlarda yozilishicha, Ibn Sino (lotincha Avitsenna) taxminan 980-yilda tug‘ilgan va 1037-yilda Hamadonda vafot etgan. Tug‘ilgan joyi bo‘yicha manbalar bir-biriga mos kelmaydi: biri Buxoro yaqinidagi Afshonani, biri Buxoroni (Xuroson), eskiroq manba esa Buxoro yaqinidagi qishloqni ko‘rsatadi, shuning uchun bu yerda joy faqat taxminan «Buxoro atrofi» deb berilgan. Bu tarixiy ma‘lumot, teri parvarishiga oid biror ta‘sir haqidagi bayonot emas.",
+     "ru": "В исторических обзорах сообщается, что Ибн Сина (в латинской форме Авиценна) родился около 980 года и умер в 1037 году в Хамадане. Сведения о месте рождения расходятся: в одном источнике указана Афшона близ Бухары, в другом Бухара (Хорасан), а в более старом источнике названо селение близ Бухары, поэтому здесь место указано лишь приблизительно, как «окрестности Бухары». Это историческая справка, а не утверждение о каком-либо действии на кожу.",
+     "ar": "تذكر المراجعات التاريخية أن ابن سينا (ويُعرف باللاتينية باسم أفيسينا) وُلد نحو عام 980 وتوفي عام 1037 في همذان. وتختلف المصادر في تحديد مكان ولادته: فأحدها يذكر أفشنة قرب بخارى، وآخر يذكر بخارى (خراسان)، ويسمّي مصدر أقدم قرية قرب بخارى، ولذلك يُذكر المكان هنا على وجه التقريب فقط بوصفه «منطقة بخارى». هذه معلومة تاريخية وليست قولًا عن أي تأثير في العناية بالبشرة."
+    },
+    "sources": [
+     {
+      "pmid": "35212203",
+      "title": "[AVICENNA’S MUSEUM IN HIS NATIVE AFSHONA].",
+      "year": 2021,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35212203/"
+     },
+     {
+      "pmid": "22737575",
+      "title": "Old Remedies for Epilepsy: Avicenna's Medicine.",
+      "year": 2012,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22737575/"
+     },
+     {
+      "pmid": "11609026",
+      "title": "Avicenna's contribution to the development and progress of medical sciences.",
+      "year": 1994,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11609026/"
+     }
+    ]
+   },
+   {
+    "id": "ibn-sina-2",
+    "text": {
+     "en": "Persian-medicine and medical-history reviews describe the Canon of Medicine (al-Qanun fi at-Tibb) as a work in five books that summarised the medical knowledge available up to its time. They report that it was taught in Europe for several years and remained a reference work until at least the sixteenth century. This describes the book's historical standing only; it does not show that its contents are accurate or safe.",
+     "uz": "Fors tibbiyoti va tibbiyot tarixi sharhlarida «Tib qonunlari» (al-Qonun fi at-Tibb) besh kitobdan iborat, o‘z davrigacha ma‘lum bo‘lgan tibbiy bilimlarni jamlagan asar sifatida tasvirlanadi. Sharhlarda yozilishicha, u Yevropada bir necha asr o‘qitilgan va kamida XVI asrgacha ma‘lumotnoma bo‘lib qolgan. Bu faqat kitobning tarixiy o‘rnini bildiradi; uning mazmuni to‘g‘ri yoki xavfsiz ekanini isbotlamaydi.",
+     "ru": "В обзорах по персидской медицине и истории медицины «Канон врачебной науки» (аль-Канун фи ат-тибб) описывается как труд в пяти книгах, обобщивший медицинские знания, известные к его времени. Сообщается, что его преподавали в Европе в течение нескольких веков и что он оставался справочным трудом как минимум до XVI века. Это говорит лишь об историческом положении книги и не доказывает, что её содержание верно или безопасно.",
+     "ar": "تصف مراجعات الطب الفارسي وتاريخ الطب كتاب «القانون في الطب» بأنه عمل من خمسة كتب لخّص المعارف الطبية المعروفة حتى زمنه. وتذكر أنه دُرّس في أوروبا عدة قرون وظل مرجعًا حتى القرن السادس عشر على الأقل. وهذا يصف مكانة الكتاب التاريخية فقط، ولا يثبت أن محتواه صحيح أو آمن."
+    },
+    "sources": [
+     {
+      "pmid": "35354190",
+      "title": "Ibn Sina (Avicenna) as a Psychiatrist: A View from Today's Perspective.",
+      "year": 2021,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35354190/"
+     },
+     {
+      "pmid": "31392638",
+      "title": "Uterine epilepsy: a historical report from Avicenna's point of view.",
+      "year": 2019,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31392638/"
+     },
+     {
+      "pmid": "30554261",
+      "title": "Spine deformities and trauma in Avicenna's Canon of Medicine.",
+      "year": 2018,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30554261/"
+     }
+    ]
+   },
+   {
+    "id": "ibn-sina-3",
+    "text": {
+     "en": "A historical review reports that the Canon describes several types of massage, called 'friction': for example hard friction said to brace the body, soft friction said to relax it, repeated friction said to reduce body fat, and preparatory and restorative friction before and after exercise. This is a historical description of a traditional practice; it is not shown here to work or to be safe, and the review does not cover facial or cosmetic use.",
+     "uz": "Tarixiy sharhda yozilishicha, «Tib qonunlari»da massajning «ishqalash» deb ataluvchi bir necha turi tasvirlangan: masalan, tanani mustahkamlaydi deyilgan qattiq ishqalash, tanani bo‘shashtiradi deyilgan yumshoq ishqalash, tana yog‘ini kamaytiradi deyilgan takroriy ishqalash hamda mashqdan oldingi va keyingi tayyorlov va tiklovchi ishqalash. Bu an‘anaviy amaliyotning tarixiy tavsifi; bu yerda uning ishlashi yoki xavfsizligi ko‘rsatilmaydi, sharh esa yuz yoki kosmetik massajni ko‘rib chiqmaydi.",
+     "ru": "В историческом обзоре сообщается, что в «Каноне» описано несколько видов массажа, называемых «растиранием»: например, жёсткое растирание, которое, как сказано, укрепляет тело, мягкое, расслабляющее его, повторное, уменьшающее жировую массу, а также подготовительное и восстановительное растирание до и после упражнений. Это историческое описание традиционной практики; здесь не показано, что она действует или безопасна, а обзор не рассматривает массаж лица и косметическое применение.",
+     "ar": "تذكر مراجعة تاريخية أن «القانون» يصف عدة أنواع من التدليك تُسمّى «الدلك»، منها الدلك الصلب الذي قيل إنه يشدّ البدن، والدلك اللين الذي قيل إنه يُرخيه، والدلك المتكرر الذي قيل إنه يقلل شحم البدن، إضافةً إلى الدلك التحضيري والدلك الاستشفائي قبل الرياضة وبعدها. هذا وصف تاريخي لممارسة تقليدية؛ ولا يُبيَّن هنا أنها فعّالة أو آمنة، كما أن المراجعة لا تتناول تدليك الوجه ولا الاستخدام التجميلي."
+    },
+    "sources": [
+     {
+      "pmid": "31315411",
+      "title": "The Massage Approach of Avicenna in the Canon of Medicine.",
+      "year": 2019,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31315411/"
+     }
+    ]
+   },
+   {
+    "id": "ibn-sina-4",
+    "text": {
+     "en": "A historical article reports that Avicenna discussed skin diseases in a chapter of the Canon. For blistering conditions that he called 'hot swellings', he named dietary triggers such as onion, garlic, leek, pepper and wine. The authors read this within traditional Persian medicine principles; it is a historical account, not a modern medical or cosmetic recommendation.",
+     "uz": "Tarixiy maqolada yozilishicha, Ibn Sino «Tib qonunlari»ning bir bobida teri kasalliklarini bayon qilgan. «Issiq shishlar» deb atagan pufakchali holatlar uchun u piyoz, sarimsoq, porey piyozi, qalampir va sharob kabi ovqatlanish omillarini keltirgan. Mualliflar buni fors an‘anaviy tibbiyoti tamoyillari doirasida izohlaydi; bu tarixiy bayon, zamonaviy tibbiy yoki kosmetik tavsiya emas.",
+     "ru": "В исторической статье сообщается, что Авиценна рассматривал кожные болезни в одной из глав «Канона». Для пузырных состояний, которые он называл «горячими опухолями», он указывал пищевые провоцирующие факторы, такие как лук, чеснок, лук-порей, перец и вино. Авторы толкуют это в рамках принципов традиционной персидской медицины; это исторический рассказ, а не современная медицинская или косметическая рекомендация.",
+     "ar": "تذكر مقالة تاريخية أن ابن سينا تناول الأمراض الجلدية في أحد فصول «القانون». وفي الحالات المتقرحة بالفقاعات التي سمّاها «الأورام الحارة» ذكر عوامل غذائية مثل البصل والثوم والكرّاث والفلفل والنبيذ. ويفسّر المؤلفون ذلك ضمن مبادئ الطب الفارسي التقليدي؛ وهو عرض تاريخي وليس توصية طبية أو تجميلية حديثة."
+    },
+    "sources": [
+     {
+      "pmid": "27871350",
+      "title": "Early Description of Diet-Induced Blistering Skin Diseases in Medieval Persia: Avicenna's Point of View.",
+      "year": 2016,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27871350/"
+     }
+    ]
+   },
+   {
+    "id": "ibn-sina-5",
+    "text": {
+     "en": "Reviews of traditional Persian texts report plant remedies for cosmetic skin concerns. A 2016 review of seven Iranian traditional medicine texts, including the Canon, listed plants most often named for freckles (called 'namash'), among them nutmeg, chickpea, rocket, madonna lily and almond. Another review reports that Avicenna and Razi wrote about chickpea for skin problems. These are traditional uses only; the reviews call the plants candidates for future study and do not show that they work or are safe on skin.",
+     "uz": "An‘anaviy fors matnlari sharhlarida kosmetik teri muammolari uchun o‘simlik vositalari keltirilgani aytiladi. «Tib qonunlari»ni ham o‘z ichiga olgan yetti ta eron an‘anaviy tibbiyot matnining 2016-yilgi sharhida sepkil («namash») uchun eng ko‘p tilga olingan o‘simliklar sanalgan, jumladan muskat yong‘og‘i, no‘xat, ruqola, oq lola (Lilium candidum) va bodom. Yana bir sharhda Avitsenna va Roziy no‘xatning teri muammolariga oid fikr bildirgani aytiladi. Bu faqat an‘anaviy qo‘llanish; sharhlar bu o‘simliklarni kelgusi tadqiqotlar uchun nomzod deb ataydi va ularning teriga ta‘sir qilishi yoki xavfsizligini isbotlamaydi.",
+     "ru": "В обзорах традиционных персидских текстов сообщается о растительных средствах при косметических проблемах кожи. В обзоре 2016 года семи текстов иранской традиционной медицины, включая «Канон», перечислены растения, чаще всего упоминаемые при веснушках («намаш»), среди них мускатный орех, нут, рукола, лилия белая и миндаль. В другом обзоре сообщается, что Авиценна и Рази писали о нуте при кожных проблемах. Это лишь традиционное применение; авторы называют эти растения кандидатами для будущих исследований и не доказывают, что они действуют или безопасны для кожи.",
+     "ar": "تذكر مراجعات للنصوص الفارسية التقليدية وصفات نباتية لمشكلات جلدية تجميلية. فقد أحصت مراجعة عام 2016 لسبعة نصوص من الطب الإيراني التقليدي، منها «القانون»، النباتات الأكثر ذكرًا للنمش (ويسمّى «نمش»)، ومنها جوزة الطيب والحمّص والجرجير وزنبق المادونا واللوز. وتذكر مراجعة أخرى أن ابن سينا والرازي كتبا عن الحمّص لمشكلات الجلد. هذه استخدامات تقليدية فقط؛ وتصف المراجعات هذه النباتات بأنها مرشحة لدراسات مستقبلية، ولا تثبت أنها فعّالة أو آمنة على البشرة."
+    },
+    "sources": [
+     {
+      "pmid": "27840488",
+      "title": "Anti-Freckles Herbal Treatment in Iranian Traditional Medicine.",
+      "year": 2016,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27840488/"
+     },
+     {
+      "pmid": "28875853",
+      "title": "Effectiveness of Cicer arietinum in Cutaneous Problems: Viewpoint of Avicenna and Razi.",
+      "year": 2018,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28875853/"
+     }
+    ]
+   }
+  ]
+ }
 }

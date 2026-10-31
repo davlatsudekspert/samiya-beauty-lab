@@ -164,5 +164,16 @@
   "filterCaution": "Home remedies: caution",
   "practiceNote": "This is a care technique, not an ingredient: the evidence is often limited. If your skin is inflamed or damaged, talk to a professional first.",
   "cautionNote": "Information about a common home remedy: for some, cases of skin harm have been recorded; for others, evidence of safety and benefit is insufficient. Read it before using.",
-  "practiceSectionTitle": "Care techniques"
+  "practiceSectionTitle": "Care techniques",
+  "traditionalTitle": "Traditional use",
+  "traditionalNote": "Historical and traditional sources: this is not scientific evidence and does not indicate effectiveness or safety.",
+  "ibnSinaCardBody": "What historical sources say about skin care",
+  "ibnSinaMore": "About Ibn Sina",
+  "tradPersian": "Persian traditional medicine",
+  "tradCanon": "Ibn Sina, Canon of Medicine",
+  "tradUnani": "Unani medicine",
+  "tradAyurveda": "Ayurveda",
+  "tradChinese": "Traditional Chinese medicine",
+  "tradKorean": "Traditional Korean medicine",
+  "tradFolk": "Folk medicine and ethnobotany"
 }

@@ -8,6 +8,7 @@ import '../../l10n/app_localizations.dart';
 import '../../ui/widgets.dart';
 import 'evidence_widgets.dart';
 import 'ingredient_models.dart';
+import 'traditional_widgets.dart';
 
 /// 21 Ingredient tafsiloti: xulosa, dalil darajalari va har da'vo uchun manba (PubMed havolasi bilan).
 class IngredientDetailPage extends StatelessWidget {
@@ -39,7 +40,7 @@ class IngredientDetailPage extends StatelessWidget {
                     Text(ing.nameFor(lang), textDirection: ing.hasFriendlyName ? null : TextDirection.ltr, style: t.headlineMedium),
                     if (ing.hasFriendlyName && !ing.isPractice) ...[
                       const SizedBox(height: 4),
-                      Text(ing.inci, textDirection: TextDirection.ltr, style: t.bodyMedium?.copyWith(fontFamily: 'Inter', fontWeight: FontWeight.w600)),
+                      Text(ing.inci, textDirection: TextDirection.ltr, style: t.bodyMedium?.copyWith(fontFamily: 'Jost', fontWeight: FontWeight.w600)),
                     ],
                     const SizedBox(height: 10),
                     Text(ing.summaryFor(lang), style: t.bodyLarge),
@@ -69,6 +70,10 @@ class IngredientDetailPage extends StatelessWidget {
                     for (final c in ing.claims) ...[
                       _ClaimCard(key: Key('claim-${c.id}'), claim: c, lang: lang, onOpen: _open),
                       const SizedBox(height: 12),
+                    ],
+                    if (ing.traditional.isNotEmpty) ...[
+                      const SizedBox(height: 16),
+                      TraditionalSection(notes: ing.traditional, lang: lang),
                     ],
                     const SizedBox(height: 6),
                     Text(l.resultNote, style: t.bodyMedium?.copyWith(fontSize: 12)),

@@ -29,7 +29,7 @@ class PortraitBanner extends StatelessWidget {
         gradient: const LinearGradient(
           begin: AlignmentDirectional.centerStart,
           end: AlignmentDirectional.centerEnd,
-          colors: [Color(0xFFB85B7C), Color(0xFFD98BA2)],
+          colors: [Color(0xFF3B1E2B), Color(0xFF6B3D50)],
         ),
       ),
       child: ClipRRect(

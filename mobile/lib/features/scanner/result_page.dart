@@ -94,7 +94,7 @@ class _Stat extends StatelessWidget {
         boxShadow: strong ? SamiyaShadows.cta : null,
       ),
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Text('$value', style: TextStyle(fontFamily: 'Inter', fontWeight: FontWeight.w700, fontSize: 30, color: strong ? Colors.white : SamiyaColors.heading)),
+        Text('$value', style: TextStyle(fontFamily: 'CormorantGaramond', fontWeight: FontWeight.w600, fontSize: 38, color: strong ? Colors.white : SamiyaColors.heading)),
         const SizedBox(height: 4),
         Text(label, style: t.bodyMedium?.copyWith(color: strong ? Colors.white : SamiyaColors.muted, fontWeight: FontWeight.w600)),
       ]),
@@ -131,7 +131,7 @@ class _FoundCard extends StatelessWidget {
                   height: 36,
                   alignment: Alignment.center,
                   decoration: const BoxDecoration(color: SamiyaColors.blush, shape: BoxShape.circle),
-                  child: Text('$position', style: const TextStyle(fontFamily: 'Inter', fontWeight: FontWeight.w700, color: SamiyaColors.rose)),
+                  child: Text('$position', style: const TextStyle(fontFamily: 'Jost', fontWeight: FontWeight.w700, color: SamiyaColors.rose)),
                 ),
                 const SizedBox(width: 14),
                 Expanded(

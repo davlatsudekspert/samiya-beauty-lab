@@ -965,6 +965,72 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Care techniques'**
   String get practiceSectionTitle;
+
+  /// No description provided for @traditionalTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Traditional use'**
+  String get traditionalTitle;
+
+  /// No description provided for @traditionalNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Historical and traditional sources: this is not scientific evidence and does not indicate effectiveness or safety.'**
+  String get traditionalNote;
+
+  /// No description provided for @ibnSinaCardBody.
+  ///
+  /// In en, this message translates to:
+  /// **'What historical sources say about skin care'**
+  String get ibnSinaCardBody;
+
+  /// No description provided for @ibnSinaMore.
+  ///
+  /// In en, this message translates to:
+  /// **'About Ibn Sina'**
+  String get ibnSinaMore;
+
+  /// No description provided for @tradPersian.
+  ///
+  /// In en, this message translates to:
+  /// **'Persian traditional medicine'**
+  String get tradPersian;
+
+  /// No description provided for @tradCanon.
+  ///
+  /// In en, this message translates to:
+  /// **'Ibn Sina, Canon of Medicine'**
+  String get tradCanon;
+
+  /// No description provided for @tradUnani.
+  ///
+  /// In en, this message translates to:
+  /// **'Unani medicine'**
+  String get tradUnani;
+
+  /// No description provided for @tradAyurveda.
+  ///
+  /// In en, this message translates to:
+  /// **'Ayurveda'**
+  String get tradAyurveda;
+
+  /// No description provided for @tradChinese.
+  ///
+  /// In en, this message translates to:
+  /// **'Traditional Chinese medicine'**
+  String get tradChinese;
+
+  /// No description provided for @tradKorean.
+  ///
+  /// In en, this message translates to:
+  /// **'Traditional Korean medicine'**
+  String get tradKorean;
+
+  /// No description provided for @tradFolk.
+  ///
+  /// In en, this message translates to:
+  /// **'Folk medicine and ethnobotany'**
+  String get tradFolk;
 }
 
 class _AppLocalizationsDelegate

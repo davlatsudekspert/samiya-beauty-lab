@@ -468,4 +468,39 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get practiceSectionTitle => 'Приёмы ухода';
+
+  @override
+  String get traditionalTitle => 'Традиционное применение';
+
+  @override
+  String get traditionalNote =>
+      'Исторические и традиционные источники: это не научное доказательство и не говорит об эффективности или безопасности.';
+
+  @override
+  String get ibnSinaCardBody =>
+      'Что исторические источники говорят об уходе за кожей';
+
+  @override
+  String get ibnSinaMore => 'Об Ибн Сине';
+
+  @override
+  String get tradPersian => 'Персидская традиционная медицина';
+
+  @override
+  String get tradCanon => 'Ибн Сина, «Канон врачебной науки»';
+
+  @override
+  String get tradUnani => 'Медицина унани';
+
+  @override
+  String get tradAyurveda => 'Аюрведа';
+
+  @override
+  String get tradChinese => 'Традиционная китайская медицина';
+
+  @override
+  String get tradKorean => 'Традиционная корейская медицина';
+
+  @override
+  String get tradFolk => 'Народная медицина и этноботаника';
 }

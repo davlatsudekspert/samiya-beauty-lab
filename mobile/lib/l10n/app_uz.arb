@@ -143,5 +143,16 @@
   "filterCaution": "Uy vositalari: ehtiyot",
   "practiceNote": "Bu ingredient emas, parvarish usuli: dalillar ko‘pincha cheklangan. Terining holati yallig‘langan yoki shikastlangan bo‘lsa, avval mutaxassis bilan maslahatlashing.",
   "cautionNote": "Keng tarqalgan uy vositasi haqida ma‘lumot: ba‘zilari uchun teriga zarar holatlari qayd etilgan, ba‘zilari uchun xavfsizlik va foyda dalili yetarli emas. Foydalanishdan oldin o‘qing.",
-  "practiceSectionTitle": "Parvarish usullari"
+  "practiceSectionTitle": "Parvarish usullari",
+  "traditionalTitle": "An‘anaviy qo‘llanish",
+  "traditionalNote": "Tarixiy va an‘anaviy manbalar: bu ilmiy dalil emas, samaradorlik yoki xavfsizlikni bildirmaydi.",
+  "ibnSinaCardBody": "Tarixiy manbalar teri parvarishi haqida nima deydi",
+  "ibnSinaMore": "Ibn Sino haqida",
+  "tradPersian": "Fors tabobati",
+  "tradCanon": "Ibn Sino, “Tib qonunlari”",
+  "tradUnani": "Unani tabobati",
+  "tradAyurveda": "Ayurveda",
+  "tradChinese": "An‘anaviy xitoy tabobati",
+  "tradKorean": "An‘anaviy koreys tabobati",
+  "tradFolk": "Xalq tabobati va etnobotanika"
 }

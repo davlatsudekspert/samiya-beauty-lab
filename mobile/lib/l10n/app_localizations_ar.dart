@@ -463,4 +463,39 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get practiceSectionTitle => 'أساليب العناية';
+
+  @override
+  String get traditionalTitle => 'الاستعمال التقليدي';
+
+  @override
+  String get traditionalNote =>
+      'مصادر تاريخية وتقليدية: هذا ليس دليلًا علميًا ولا يدل على الفعالية أو السلامة.';
+
+  @override
+  String get ibnSinaCardBody =>
+      'ماذا تقول المصادر التاريخية عن العناية بالبشرة';
+
+  @override
+  String get ibnSinaMore => 'عن ابن سينا';
+
+  @override
+  String get tradPersian => 'الطب الفارسي التقليدي';
+
+  @override
+  String get tradCanon => 'ابن سينا، «القانون في الطب»';
+
+  @override
+  String get tradUnani => 'الطب اليوناني';
+
+  @override
+  String get tradAyurveda => 'الأيورفيدا';
+
+  @override
+  String get tradChinese => 'الطب الصيني التقليدي';
+
+  @override
+  String get tradKorean => 'الطب الكوري التقليدي';
+
+  @override
+  String get tradFolk => 'الطب الشعبي وعلم النبات العرقي';
 }

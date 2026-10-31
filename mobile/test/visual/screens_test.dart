@@ -67,6 +67,44 @@ void main() {
       });
     }
   }
+
+  // To'liq bosh sahifa va bazali sahifalar (haqiqiy kontent bilan, uzun ekran).
+  final full = <String, (String, Size)>{
+    '11_home_full': ('/home', const Size(780, 3200)),
+    '15_ingredients': ('/scanner/ingredients?filter=natural', const Size(780, 1688)),
+    '21_natural_detail': ('/scanner/ingredient/honey', const Size(780, 1688)),
+    '22_ibn_sina': ('/scanner/ibn-sina', const Size(780, 1688)),
+    '23_honey_full': ('/scanner/ingredient/honey', const Size(780, 4200)),
+  };
+  for (final lang in ['uz', 'ar']) {
+    for (final e in full.entries) {
+      testWidgets('$lang ${e.key}', (t) async {
+        t.view.physicalSize = e.value.$2;
+        t.view.devicePixelRatio = 2;
+        addTearDown(t.view.reset);
+        final key = GlobalKey();
+        final repo = IngredientRepository.fromJson(File('assets/content/ingredients.json').readAsStringSync());
+        await t.pumpWidget(RepaintBoundary(
+          key: key,
+          child: SamiyaApp(key: UniqueKey(), state: AppState(locale: Locale(lang), onboarded: true, ingredients: repo), initialLocation: e.value.$1),
+        ));
+        await t.runAsync(() async {
+          final ctx = t.element(find.byType(MaterialApp));
+          for (final a in ['ob2_routine']) {
+            await precacheImage(AssetImage('assets/images/$a.png'), ctx);
+          }
+        });
+        await t.pump(const Duration(milliseconds: 1200));
+        await t.pump(const Duration(milliseconds: 400));
+        await t.runAsync(() async {
+          final boundary = key.currentContext!.findRenderObject()! as RenderRepaintBoundary;
+          final image = await boundary.toImage(pixelRatio: 1);
+          final data = await image.toByteData(format: ui.ImageByteFormat.png);
+          File('../qa/visual/${lang}_${e.key}.png')..createSync(recursive: true)..writeAsBytesSync(data!.buffer.asUint8List());
+        });
+      });
+    }
+  }
   // Skaner oqimi: haqiqiy baza bilan, kiritish va natija bosqichlari.
   final scan = <String, (String, Future<void> Function(WidgetTester)?)>{
     '16_scanner': ('/scanner', null),

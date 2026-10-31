@@ -25,12 +25,12 @@ class HomePage extends StatelessWidget {
     final t = Theme.of(context).textTheme;
     final scale = MediaQuery.textScalerOf(context).scale(14) / 14;
     final tiles = <(String, String, IconData, VoidCallback)>[
-      ('scanner', l.tileScanner, Icons.qr_code_scanner_rounded, () => context.go('/scanner')),
-      ('skin', l.tileSkin, Icons.face_retouching_natural_outlined, () => _soon(context)),
-      ('routine', l.tileRoutine, Icons.event_available_outlined, () => _soon(context)),
-      ('academy', l.tileAcademy, Icons.school_outlined, () => context.go('/academy')),
-      ('ai', l.tileAi, Icons.auto_awesome_outlined, () => _soon(context)),
-      ('journal', l.tileJournal, Icons.event_note_outlined, () => context.go('/journal')),
+      ('scanner', l.tileScanner, Icons.document_scanner_rounded, () => context.go('/scanner')),
+      ('skin', l.tileSkin, Icons.face_retouching_natural_rounded, () => _soon(context)),
+      ('routine', l.tileRoutine, Icons.spa_rounded, () => _soon(context)),
+      ('academy', l.tileAcademy, Icons.school_rounded, () => context.go('/academy')),
+      ('ai', l.tileAi, Icons.auto_awesome_rounded, () => _soon(context)),
+      ('journal', l.tileJournal, Icons.edit_note_rounded, () => context.go('/journal')),
     ];
     final repo = AppScope.of(context).ingredients;
     final actives = repo.all.where((i) => !i.isNatural && !i.isPractice && !i.isCaution).take(8).toList();
@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
           Row(children: [
             Expanded(
               child: Text(l.homeGreeting,
-                  style: t.headlineSmall?.copyWith(fontFamily: t.titleMedium?.fontFamily, fontWeight: FontWeight.w700, color: const Color(0xFFC21E56))),
+                  style: t.headlineMedium?.copyWith(fontSize: 32, color: SamiyaColors.heading)),
             ),
             Semantics(
               button: true,
@@ -97,7 +97,7 @@ class HomePage extends StatelessWidget {
               crossAxisCount: 3,
               mainAxisSpacing: 12,
               crossAxisSpacing: 12,
-              mainAxisExtent: 78 + 46 * scale,
+              mainAxisExtent: 74 + 44 * scale,
             ),
             itemBuilder: (context, i) => _Tile(
               key: Key('tile-${tiles[i].$1}'),
@@ -106,51 +106,99 @@ class HomePage extends StatelessWidget {
               onTap: tiles[i].$4,
             ),
           ),
-          const SizedBox(height: 22),
-          Row(children: [
-            Expanded(child: Text(l.popularIngredients, style: t.titleMedium?.copyWith(fontSize: 18, fontWeight: FontWeight.w700))),
-            TextButton(
-              key: const Key('home-see-all'),
-              onPressed: () => context.safePush('/scanner/ingredients'),
-              child: Text(l.seeAll, style: t.titleMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w700)),
-            ),
-          ]),
-          const SizedBox(height: 8),
-          SizedBox(
-            height: 132,
-            child: ListView.separated(
-              scrollDirection: Axis.horizontal,
-              itemCount: actives.length,
-              separatorBuilder: (_, _) => const SizedBox(width: 12),
-              itemBuilder: (context, i) => _IngredientCard(
-                name: actives[i].nameFor(lang),
-                latin: !actives[i].hasFriendlyName,
-                onTap: () => context.safePush('/scanner/ingredient/${actives[i].slug}'),
-              ),
-            ),
-          ),
           if (natural.isNotEmpty) ...[
-            const SizedBox(height: 22),
+            const SizedBox(height: 26),
             Row(children: [
-              Expanded(child: Text(l.naturalSectionTitle, style: t.titleMedium?.copyWith(fontSize: 18, fontWeight: FontWeight.w700))),
+              Expanded(child: Text(l.naturalSectionTitle, style: t.headlineSmall?.copyWith(fontSize: 24))),
               TextButton(
                 key: const Key('home-natural-all'),
                 onPressed: () => context.safePush('/scanner/ingredients?filter=natural'),
-                child: Text(l.seeAll, style: t.titleMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w700)),
+                child: Text(l.seeAll, style: t.titleMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w500)),
               ),
             ]),
             const SizedBox(height: 8),
             SizedBox(
               key: const Key('home-natural-section'),
-              height: 132,
+              height: 176,
               child: ListView.separated(
                 scrollDirection: Axis.horizontal,
                 itemCount: natural.length,
                 separatorBuilder: (_, _) => const SizedBox(width: 12),
                 itemBuilder: (context, i) => _IngredientCard(
                   name: natural[i].nameFor(lang),
+                  icon: Icons.spa_outlined,
                   latin: !natural[i].hasFriendlyName,
                   onTap: () => context.safePush('/scanner/ingredient/${natural[i].slug}'),
+                ),
+              ),
+            ),
+          ],
+          const SizedBox(height: 22),
+          Row(children: [
+            Expanded(child: Text(l.popularIngredients, style: t.headlineSmall?.copyWith(fontSize: 24))),
+            TextButton(
+              key: const Key('home-see-all'),
+              onPressed: () => context.safePush('/scanner/ingredients'),
+              child: Text(l.seeAll, style: t.titleMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w500)),
+            ),
+          ]),
+          const SizedBox(height: 8),
+          SizedBox(
+            height: 176,
+            child: ListView.separated(
+              scrollDirection: Axis.horizontal,
+              itemCount: actives.length,
+              separatorBuilder: (_, _) => const SizedBox(width: 12),
+              itemBuilder: (context, i) => _IngredientCard(
+                name: actives[i].nameFor(lang),
+                icon: Icons.science_outlined,
+                latin: !actives[i].hasFriendlyName,
+                onTap: () => context.safePush('/scanner/ingredient/${actives[i].slug}'),
+              ),
+            ),
+          ),
+          if (repo.ibnSina != null) ...[
+            const SizedBox(height: 26),
+            Semantics(
+              button: true,
+              label: repo.ibnSina!.titleFor(lang),
+              child: Material(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(26),
+                child: InkWell(
+                  key: const Key('home-ibn-sina'),
+                  borderRadius: BorderRadius.circular(26),
+                  onTap: () => context.safePush('/scanner/ibn-sina'),
+                  child: Container(
+                    padding: const EdgeInsets.all(18),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(26),
+                      border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.6)),
+                    ),
+                    child: ExcludeSemantics(
+                      child: Row(children: [
+                        Container(
+                          width: 54,
+                          height: 54,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(color: SamiyaColors.gold),
+                            gradient: const LinearGradient(colors: [Color(0xFFFBF6F2), Color(0xFFEBDCD3)]),
+                          ),
+                          child: const Icon(Icons.menu_book_rounded, color: SamiyaColors.heading),
+                        ),
+                        const SizedBox(width: 14),
+                        Expanded(
+                          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                            Text(repo.ibnSina!.titleFor(lang), style: t.headlineSmall?.copyWith(fontSize: 21)),
+                            const SizedBox(height: 4),
+                            Text(l.ibnSinaCardBody, style: t.bodyMedium),
+                          ]),
+                        ),
+                        const Icon(Icons.chevron_right_rounded, color: SamiyaColors.gold),
+                      ]),
+                    ),
+                  ),
                 ),
               ),
             ),
@@ -158,23 +206,24 @@ class HomePage extends StatelessWidget {
           if (practices.isNotEmpty) ...[
             const SizedBox(height: 22),
             Row(children: [
-              Expanded(child: Text(l.practiceSectionTitle, style: t.titleMedium?.copyWith(fontSize: 18, fontWeight: FontWeight.w700))),
+              Expanded(child: Text(l.practiceSectionTitle, style: t.headlineSmall?.copyWith(fontSize: 24))),
               TextButton(
                 key: const Key('home-practice-all'),
                 onPressed: () => context.safePush('/scanner/ingredients?filter=practice'),
-                child: Text(l.seeAll, style: t.titleMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w700)),
+                child: Text(l.seeAll, style: t.titleMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w500)),
               ),
             ]),
             const SizedBox(height: 8),
             SizedBox(
               key: const Key('home-practice-section'),
-              height: 132,
+              height: 176,
               child: ListView.separated(
                 scrollDirection: Axis.horizontal,
                 itemCount: practices.length,
                 separatorBuilder: (_, _) => const SizedBox(width: 12),
                 itemBuilder: (context, i) => _IngredientCard(
                   name: practices[i].nameFor(lang),
+                  icon: Icons.self_improvement_outlined,
                   latin: !practices[i].hasFriendlyName,
                   onTap: () => context.safePush('/scanner/ingredient/${practices[i].slug}'),
                 ),
@@ -198,85 +247,112 @@ class _Tile extends StatelessWidget {
     return Semantics(
       button: true,
       label: label,
-      child: Material(
-        color: Colors.white.withValues(alpha: 0.72),
-        borderRadius: BorderRadius.circular(22),
-        child: InkWell(
-          borderRadius: BorderRadius.circular(22),
-          onTap: onTap,
-          child: Container(
-            padding: const EdgeInsets.symmetric(horizontal: 3, vertical: 12),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(22),
-              border: Border.all(color: SamiyaColors.border),
-            ),
-            child: ExcludeSemantics(
-              child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                Icon(icon, size: 32, color: const Color(0xFFC21E56)),
-                const SizedBox(height: 10),
-                Flexible(
-                  child: Text(label,
-                      maxLines: 3,
-                      overflow: TextOverflow.ellipsis,
-                      textAlign: TextAlign.center,
-                      style: Theme.of(context).textTheme.titleMedium?.copyWith(fontSize: 12, fontWeight: FontWeight.w600, height: 1.25)),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(18),
+        onTap: onTap,
+        child: ExcludeSemantics(
+          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+            // Ikki rangli belgi: marvarid-atirgul gradient, ingichka oltin halqa va yengil yorug'lik.
+            Container(
+              width: 60,
+              height: 60,
+              padding: const EdgeInsets.all(3),
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                gradient: SweepGradient(colors: [
+                  SamiyaColors.gold.withValues(alpha: 0.9),
+                  const Color(0xFFE9D9C4),
+                  SamiyaColors.gold.withValues(alpha: 0.6),
+                  const Color(0xFFF4E9DC),
+                  SamiyaColors.gold.withValues(alpha: 0.9),
+                ]),
+                boxShadow: SamiyaShadows.soft,
+              ),
+              child: Container(
+                alignment: Alignment.center,
+                decoration: const BoxDecoration(
+                  shape: BoxShape.circle,
+                  gradient: LinearGradient(
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                    colors: [Color(0xFFFFFBF8), Color(0xFFF0DFD9), Color(0xFFE2C6C4)],
+                  ),
                 ),
-              ]),
+                child: ShaderMask(
+                  blendMode: BlendMode.srcIn,
+                  shaderCallback: (r) => const LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: [Color(0xFF6B3D50), SamiyaColors.heading],
+                  ).createShader(r),
+                  child: Icon(icon, size: 27),
+                ),
+              ),
             ),
-          ),
+            const SizedBox(height: 8),
+            Flexible(
+              child: Text(label,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  textAlign: TextAlign.center,
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(fontSize: 12.5, fontWeight: FontWeight.w500, height: 1.25)),
+            ),
+          ]),
         ),
       ),
     );
   }
 }
 
+/// Ravoq (arka) shaklidagi kartochka: Sharq me'morchiligi va lyuks atelye uslubi; ingichka oltin chiziq.
 class _IngredientCard extends StatelessWidget {
-  const _IngredientCard({required this.name, required this.onTap, this.latin = true});
+  const _IngredientCard({required this.name, required this.onTap, this.latin = true, this.icon = Icons.science_outlined});
   final String name;
+  final IconData icon;
 
   /// Lotin INCI nomi bo'lsa matn chapdan o'ngga; tushunarli (mahalliy) nom bo'lsa til yo'nalishida.
   final bool latin;
   final VoidCallback onTap;
 
+  static const _shape = BorderRadius.vertical(top: Radius.circular(70), bottom: Radius.circular(18));
+
   @override
   Widget build(BuildContext context) {
+    final t = Theme.of(context).textTheme;
     return Semantics(
       button: true,
       label: name,
       child: Material(
-        borderRadius: BorderRadius.circular(24),
         color: Colors.transparent,
         child: InkWell(
-          borderRadius: BorderRadius.circular(24),
+          borderRadius: _shape,
           onTap: onTap,
           child: Ink(
             width: 140,
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(24),
-              gradient: const LinearGradient(
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-                colors: [Color(0xFFFFE3EC), Color(0xFFF7B6C9)],
-              ),
+              borderRadius: _shape,
+              color: Colors.white,
+              border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.6)),
               boxShadow: SamiyaShadows.soft,
             ),
-            padding: const EdgeInsets.all(14),
+            padding: const EdgeInsetsDirectional.fromSTEB(14, 26, 14, 16),
             child: ExcludeSemantics(
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              child: Column(children: [
                 Container(
-                  width: 44,
-                  height: 44,
-                  decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.7), shape: BoxShape.circle),
-                  child: const Icon(Icons.science_outlined, color: SamiyaColors.rose),
+                  width: 50,
+                  height: 50,
+                  decoration: const BoxDecoration(color: SamiyaColors.blush, shape: BoxShape.circle),
+                  child: Icon(icon, color: SamiyaColors.heading, size: 24),
                 ),
                 const Spacer(),
-                // INCI nomi har tilda lotin yozuvida qoladi; matn LTR.
                 Text(name,
                     textDirection: latin ? TextDirection.ltr : null,
+                    textAlign: TextAlign.center,
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
-                    style: const TextStyle(
-                        fontFamily: 'Inter', fontWeight: FontWeight.w700, fontSize: 15, height: 1.2, color: SamiyaColors.heading)),
+                    style: latin
+                        ? const TextStyle(fontFamily: 'Jost', fontWeight: FontWeight.w500, fontSize: 14.5, height: 1.2, color: SamiyaColors.heading)
+                        : t.headlineSmall?.copyWith(fontSize: 19, height: 1.15)),
               ]),
             ),
           ),

@@ -7,6 +7,8 @@ Future<void> loadAppFonts() async {
   const families = {
     'Inter': ['Regular', 'Medium', 'SemiBold', 'Bold'],
     'PlayfairDisplay': ['Medium', 'SemiBold', 'Bold'],
+    'CormorantGaramond': ['Medium', 'MediumItalic', 'SemiBold', 'Bold'],
+    'Jost': ['Regular', 'Medium', 'SemiBold'],
     'IBMPlexSansArabic': ['Regular', 'Medium', 'SemiBold', 'Bold'],
     'Amiri': ['Regular', 'Bold'],
   };

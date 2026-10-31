@@ -36,7 +36,7 @@ class EvidenceChip extends StatelessWidget {
       'A' => (const Color(0xFFB92E5E), Colors.white),
       'B' => (SamiyaColors.rose, Colors.white),
       'C' => (SamiyaColors.roseLight, SamiyaColors.heading),
-      _ => (const Color(0xFFE8DDE0), SamiyaColors.muted),
+      _ => (const Color(0xFFE4D6D1), SamiyaColors.muted),
     };
     return Semantics(
       label: evidenceLabel(AppLocalizations.of(context), level),
@@ -47,7 +47,7 @@ class EvidenceChip extends StatelessWidget {
           alignment: Alignment.center,
           decoration: BoxDecoration(color: bg, shape: BoxShape.circle),
           child: Text(level == 'A' || level == 'B' || level == 'C' ? level : '?',
-              style: TextStyle(fontFamily: 'Inter', fontWeight: FontWeight.w700, fontSize: 15, color: fg)),
+              style: TextStyle(fontFamily: 'Jost', fontWeight: FontWeight.w700, fontSize: 15, color: fg)),
         ),
       ),
     );

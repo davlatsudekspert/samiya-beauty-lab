@@ -106,6 +106,27 @@ def main():
         check_card(slug, card)
         n_pmid += sum(1 for c in card.get("claims", []) for s in c.get("sources", []) if s.get("type") == "pubmed")
         if online: check_pmids(slug, card)
+    # An'anaviy qo'llanish (tarixiy manbalar): sxema, tarjimalar, taqiqlangan iboralar, PMID.
+    tdir = folder / "traditional"
+    for p in sorted(tdir.glob("*.json")) if tdir.exists() else []:
+        key = f"traditional/{p.stem}"
+        try: d = json.loads(p.read_text(encoding="utf-8"))
+        except Exception as e: err(key, f"JSON xato: {e}"); continue
+        if p.stem != "ibn-sina" and p.stem not in SLUGS: err(key, "bunday kartochka yo'q")
+        items = d.get("items", [])
+        if not items: err(key, "item yo'q")
+        for it in items:
+            if not it.get("sources"): err(key, f"{it.get('id')}: manba yo'q")
+            for s in it.get("sources", []):
+                if not re.fullmatch(r"\d{4,9}", str(s.get("pmid", ""))): err(key, f"{it.get('id')}: PMID noto'g'ri")
+            for lang in ("uz", "ru", "ar"):
+                if not d.get("translations", {}).get(lang, {}).get(it.get("id")): err(key, f"{it.get('id')}: {lang} tarjima yo'q")
+            for t in [it.get("text_en", "")] + [d.get("translations", {}).get(l, {}).get(it.get("id"), "") for l in ("uz", "ru", "ar")]:
+                m = FORBIDDEN.search(t or "")
+                if m: err(key, f"taqiqlangan ibora '{m.group(0)}'")
+                if re.search(r"\b(proven|isbotlangan|доказан)", t or "", re.I): err(key, "an'anaviy matnda 'isbotlangan' so'zi bo'lmasin")
+        n_pmid += sum(len(it.get("sources", [])) for it in items)
+        if online: check_pmids(key, {"claims": items})
     g = folder / "glossary.json"
     if not g.exists(): err("glossary", "fayl yo'q")
     else:

@@ -1,0 +1,51 @@
+{
+ "slug": "olive-oil",
+ "items": [
+  {
+   "id": "olive-oil-t1",
+   "tradition": "Folk/ethnobotanical",
+   "text_en": "An ethnopharmacological review of omphacinon (oil from unripe olives) reports that Greek, Latin, Aramaic, Hebrew and Arabic sources from the Hellenistic period to the late Middle Ages record its use in dermatological care, in antiperspirant preparations, and as a base for medicinal ointments and perfumes. The authors state that the dermatological uses rest on indirect evidence, that antiperspirant claims remain speculative, and that the review gives no grounds for therapeutic recommendation. This concerns oil from unripe fruit specifically.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "42620476",
+     "doi": "10.3389/fphar.2026.1885776",
+     "title": "Omphacinon (unripe olive oil) as a traditional Mediterranean medicinal carrier: an ethnopharmacological appraisal.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42620476/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "olive-oil-t2",
+   "tradition": "Folk/ethnobotanical",
+   "text_en": "A review of Italian ethnobotanical literature (ethnographic sources from the second half of the 19th century to the first half of the 20th century, plus fieldwork published in 2000-2025) reports that olive oil was used in folk practice as an emollient for dermatological and cosmetic conditions, as a vehicle for infusing other herbs, and in rituals. This describes folk use only and is not evidence of an effect.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "42514588",
+     "doi": "10.3390/plants15142221",
+     "title": "The Ethnobotanical Heritage of Olea europaea L. in Italy: Continuity of a Millenary Mediterranean Tradition.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42514588/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "olive-oil-t1": "Pishmagan zaytun mevasidan olingan yog' (omfasinon) bo'yicha etnofarmakologik sharhda xabar berilishicha, ellinizm davridan o'rta asrlarning oxirigacha yunon, lotin, oromiy, ibroniy va arab manbalarida u dermatologik parvarishda, ter ajralishini kamaytiruvchi vositalarda hamda dorivor malhamlar va atirlar uchun asos sifatida qo'llangani qayd etilgan. Mualliflar dermatologik qo'llanishlar bilvosita dalillarga tayanishini, ter ajralishini kamaytirish haqidagi da'volar esa taxminiy ekanini va sharh tibbiy tavsiya berishga asos bermasligini ta'kidlaydi. Bu aynan pishmagan mevadan olingan yog'ga tegishli.",
+   "olive-oil-t2": "Italiya etnobotanika adabiyotlari sharhida (XIX asrning ikkinchi yarmi va XX asrning birinchi yarmidagi etnografik manbalar hamda 2000-2025-yillarda e'lon qilingan dala tadqiqotlari) xabar berilishicha, zaytun yog'i xalq amaliyotida teri holatlari va kosmetik maqsadlar uchun yumshatuvchi vosita sifatida, boshqa o'simliklarni damlash uchun tashuvchi vosita sifatida hamda marosimlarda ishlatilgan. Bu faqat xalq qo'llanishini tasvirlaydi va ta'sirini ko'rsatuvchi dalil emas."
+  },
+  "ru": {
+   "olive-oil-t1": "В этнофармакологическом обзоре омфацинона (масла из незрелых олив) сообщается, что греческие, латинские, арамейские, древнееврейские и арабские источники от эллинистического периода до позднего Средневековья фиксируют его использование в дерматологическом уходе, в составах против потоотделения, а также как основы для лекарственных мазей и парфюмерии. Авторы указывают, что дерматологические применения опираются на косвенные данные, утверждения о действии против потоотделения остаются предположительными, а обзор не даёт оснований для терапевтических рекомендаций. Это относится именно к маслу из незрелых плодов.",
+   "olive-oil-t2": "В обзоре итальянской этноботанической литературы (этнографические источники второй половины XIX — первой половины XX века и полевые исследования, опубликованные в 2000–2025 годах) сообщается, что оливковое масло в народной практике использовалось как смягчающее средство при кожных состояниях и в косметических целях, как основа для настаивания других трав, а также в ритуалах. Это описывает только народное применение и не является свидетельством эффекта."
+  },
+  "ar": {
+   "olive-oil-t1": "تفيد مراجعة إثنوفارماكولوجية عن «أومفاسينون» (زيت الزيتون غير الناضج) بأن مصادر يونانية ولاتينية وآرامية وعبرية وعربية، من العصر الهلنستي حتى أواخر العصور الوسطى، سجّلت استخدامه في العناية الجلدية، وفي مستحضرات مضادة للتعرّق، وكقاعدة للمراهم الطبية والعطور. ويذكر المؤلفون أن الاستخدامات الجلدية تستند إلى أدلة غير مباشرة، وأن الادعاءات المتعلقة بمضادات التعرّق تظل تخمينية، وأن المراجعة لا تقدّم أساساً لأي توصية علاجية. وهذا يخص زيت الثمار غير الناضجة تحديداً.",
+   "olive-oil-t2": "تفيد مراجعة للأدبيات الإثنوبوتانية الإيطالية (مصادر إثنوغرافية من النصف الثاني من القرن التاسع عشر إلى النصف الأول من القرن العشرين، إضافة إلى دراسات ميدانية نُشرت بين عامي 2000 و2025) بأن زيت الزيتون استُخدم في الممارسة الشعبية كمادة مُطرِّية للحالات الجلدية ولأغراض تجميلية، وكوسيط لنقع أعشاب أخرى، وفي الطقوس. وهذا يصف الاستخدام الشعبي فحسب، ولا يشكّل دليلاً على أي تأثير."
+  }
+ }
+}

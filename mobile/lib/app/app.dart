@@ -9,6 +9,7 @@ import '../features/language/language_page.dart';
 import '../features/onboarding/onboarding_page.dart';
 import '../features/profile/profile_page.dart';
 import '../features/role/role_page.dart';
+import '../features/scanner/ibn_sina_page.dart';
 import '../features/scanner/ingredient_detail_page.dart';
 import '../features/scanner/ingredient_list_page.dart';
 import '../features/scanner/manual_input_page.dart';
@@ -66,6 +67,7 @@ class _SamiyaAppState extends State<SamiyaApp> {
               builder: (_, _) => const ScannerPage(),
               routes: [
                 GoRoute(path: 'manual', builder: (_, st) => ManualInputPage(args: st.extra is ManualInputArgs ? st.extra! as ManualInputArgs : null)),
+                GoRoute(path: 'ibn-sina', builder: (_, _) => const IbnSinaPage()),
                 GoRoute(path: 'ingredients', builder: (_, st) => IngredientListPage(initialFilter: st.uri.queryParameters['filter'])),
                 GoRoute(path: 'result', builder: (_, st) => ResultPage(raw: st.extra is String ? st.extra! as String : '')),
                 GoRoute(path: 'ingredient/:slug', builder: (_, st) => IngredientDetailPage(slug: st.pathParameters['slug']!)),

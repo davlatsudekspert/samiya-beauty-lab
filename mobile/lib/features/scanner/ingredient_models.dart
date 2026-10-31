@@ -42,6 +42,40 @@ class Claim {
       );
 }
 
+/// An'anaviy/tarixiy manbadagi qo'llanish (ilmiy dalil EMAS): matn 4 tilda, PubMed'dagi tarixiy sharhlarga tayanadi.
+class TraditionalNote {
+  const TraditionalNote({required this.id, this.tradition, required this.text, required this.sources});
+  final String id;
+  final String? tradition;
+  final Map<String, String> text;
+  final List<EvidenceSource> sources;
+
+  String textFor(String lang) => _pick(text, lang);
+
+  /// Ibn Sinoning "Tib qonunlari"ga tayanadimi (Ibn Sino sahifasiga havola uchun).
+  bool get citesCanon => (tradition ?? '').contains('Canon');
+
+  factory TraditionalNote.fromJson(Map<String, dynamic> j) => TraditionalNote(
+        id: j['id'] as String,
+        tradition: j['tradition'] as String?,
+        text: Map<String, String>.from(j['text'] as Map),
+        sources: [for (final s in j['sources'] as List) EvidenceSource.fromJson(s as Map<String, dynamic>)],
+      );
+}
+
+/// Ibn Sino haqida kirish (tarixiy ma'lumot, manbali).
+class TraditionIntro {
+  const TraditionIntro({required this.title, required this.items});
+  final Map<String, String> title;
+  final List<TraditionalNote> items;
+  String titleFor(String lang) => _pick(title, lang);
+
+  factory TraditionIntro.fromJson(Map<String, dynamic> j) => TraditionIntro(
+        title: Map<String, String>.from(j['title'] as Map),
+        items: [for (final i in j['items'] as List) TraditionalNote.fromJson(i as Map<String, dynamic>)],
+      );
+}
+
 class Ingredient {
   const Ingredient({
     required this.inci,
@@ -49,6 +83,7 @@ class Ingredient {
     required this.status,
     this.category = 'active',
     this.names = const {},
+    this.traditional = const [],
     required this.aliases,
     required this.euVerified,
     required this.summary,
@@ -58,6 +93,7 @@ class Ingredient {
   final String slug;
   final String status; // draft | verified
   final String category; // active | natural | practice | caution
+  final List<TraditionalNote> traditional;
   final Map<String, String> names; // tilga mos tushunarli nom (uz/ru/en/ar); bo'sh bo'lsa INCI
   final List<String> aliases;
   final bool euVerified;
@@ -86,6 +122,9 @@ class Ingredient {
         status: j['status'] as String,
         category: const {'natural', 'practice', 'caution'}.contains(j['category']) ? j['category'] as String : 'active',
         names: j['names'] is Map ? Map<String, String>.from(j['names'] as Map) : const {},
+        traditional: [
+          for (final n in (j['traditional'] as List?) ?? const []) TraditionalNote.fromJson(n as Map<String, dynamic>),
+        ],
         aliases: List<String>.from(j['aliases'] as List),
         euVerified: (j['eu'] as Map)['verified'] as bool,
         summary: Map<String, String>.from(j['summary'] as Map),
@@ -96,7 +135,7 @@ class Ingredient {
 /// Ingredient bazasi. Moslashtirish FAQAT aniq INCI nomi yoki tasdiqlangan sinonim bo'yicha:
 /// tuzlar, efirlar va hosilalar (masalan Sodium Hyaluronate, Retinyl Palmitate) taxmin bilan bog'lanmaydi.
 class IngredientRepository {
-  IngredientRepository(this.all)
+  IngredientRepository(this.all, {this.ibnSina})
       : _byKey = {
           for (final i in all.where((i) => !i.isPractice)) ...{
             inciKey(i.inci): i,
@@ -105,13 +144,15 @@ class IngredientRepository {
         };
 
   final List<Ingredient> all;
+  final TraditionIntro? ibnSina;
   final Map<String, Ingredient> _byKey;
 
   factory IngredientRepository.fromJson(String source) {
     final data = jsonDecode(source) as Map<String, dynamic>;
-    return IngredientRepository([
-      for (final i in data['ingredients'] as List) Ingredient.fromJson(i as Map<String, dynamic>),
-    ]);
+    return IngredientRepository(
+      [for (final i in data['ingredients'] as List) Ingredient.fromJson(i as Map<String, dynamic>)],
+      ibnSina: data['ibnSina'] is Map ? TraditionIntro.fromJson(data['ibnSina'] as Map<String, dynamic>) : null,
+    );
   }
 
   Ingredient? find(String name) => _byKey[inciKey(name)];

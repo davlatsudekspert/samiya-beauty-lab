@@ -159,7 +159,7 @@ class _Viewfinder extends StatelessWidget {
           gradient: const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [Color(0xFFFFE3EC), Color(0xFFF4A9C0)],
+            colors: [Color(0xFFF3EAE6), Color(0xFFE2CBC5)],
           ),
         ),
         child: CustomPaint(

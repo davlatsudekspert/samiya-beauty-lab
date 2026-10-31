@@ -1,0 +1,51 @@
+{
+ "slug": "honey",
+ "items": [
+  {
+   "id": "honey-t1",
+   "tradition": "Folk/ethnobotanical",
+   "text_en": "A review of honey in dermatology and skin care states that historical records of honey skin uses date back to the earliest civilizations, and that honey has frequently been used as a binder or vehicle and also for therapeutic purposes. This describes historical use only and is not evidence of an effect on skin.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "24305429",
+     "doi": "10.1111/jocd.12058",
+     "title": "Honey in dermatology and skin care: a review.",
+     "year": 2013,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24305429/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "honey-t2",
+   "tradition": "Folk/ethnobotanical",
+   "text_en": "A dermatology review on honey states that, for centuries, honey has been used in traditional medicine as a binder or vehicle for creams and lotions and also for therapeutic purposes. This describes traditional use only and is not evidence of an effect on skin.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38013499",
+     "doi": "10.1111/ijd.16925",
+     "title": "Honey therapies for dermatological disorders: more than just a sweet elixir.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38013499/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "honey-t1": "Asalning dermatologiya va teri parvarishidagi o'rni haqidagi sharhda aytilishicha, asalning teriga qo'llanilishi haqidagi tarixiy yozuvlar eng qadimgi sivilizatsiyalargacha borib taqaladi, asal esa ko'pincha bog'lovchi yoki tashuvchi vosita sifatida hamda tibbiy maqsadlarda ham ishlatilgan. Bu faqat tarixiy qo'llanishni tasvirlaydi va teriga ta'sirini ko'rsatuvchi dalil emas.",
+   "honey-t2": "Asal haqidagi dermatologik sharhda aytilishicha, asrlar davomida asal an'anaviy tibbiyotda kremlar va losyonlar uchun bog'lovchi yoki tashuvchi vosita sifatida hamda tibbiy maqsadlarda ham ishlatilgan. Bu faqat an'anaviy qo'llanishni tasvirlaydi va teriga ta'sirini ko'rsatuvchi dalil emas."
+  },
+  "ru": {
+   "honey-t1": "В обзоре о меде в дерматологии и уходе за кожей говорится, что исторические записи об использовании мёда на коже восходят к древнейшим цивилизациям, а мёд часто применялся как связующее вещество или основа, а также в медицинских целях. Это описывает только историческое применение и не является свидетельством какого-либо эффекта на коже.",
+   "honey-t2": "В дерматологическом обзоре о мёде говорится, что на протяжении веков мёд использовался в традиционной медицине как связующее вещество или основа для кремов и лосьонов, а также в медицинских целях. Это описывает только традиционное применение и не является свидетельством какого-либо эффекта на коже."
+  },
+  "ar": {
+   "honey-t1": "تذكر مراجعة علمية عن العسل في الأمراض الجلدية والعناية بالبشرة أن السجلات التاريخية لاستخدام العسل على الجلد تعود إلى أقدم الحضارات، وأن العسل استُخدم كثيراً كمادة رابطة أو وسيط حامل، وكذلك لأغراض طبية. وهذا يصف الاستخدام التاريخي فحسب، ولا يشكّل دليلاً على أي تأثير في البشرة.",
+   "honey-t2": "تذكر مراجعة جلدية عن العسل أنه على مدى قرون استُخدم العسل في الطب التقليدي كمادة رابطة أو وسيط حامل للكريمات والمستحلبات الموضعية، وكذلك لأغراض طبية. وهذا يصف الاستخدام التقليدي فحسب، ولا يشكّل دليلاً على أي تأثير في البشرة."
+  }
+ }
+}

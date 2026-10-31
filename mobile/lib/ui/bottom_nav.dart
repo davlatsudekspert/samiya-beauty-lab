@@ -25,7 +25,7 @@ class SamiyaBottomNav extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.white.withValues(alpha: 0.94),
           borderRadius: const BorderRadius.vertical(top: Radius.circular(28)),
-          boxShadow: const [BoxShadow(color: Color(0x1AB85B6A), blurRadius: 24, offset: Offset(0, -6))],
+          boxShadow: const [BoxShadow(color: Color(0x123B1E2B), blurRadius: 24, offset: Offset(0, -6))],
         ),
         child: SafeArea(
           top: false,
@@ -59,7 +59,10 @@ class _NavItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final color = selected ? SamiyaColors.rose : SamiyaColors.muted;
+    final color = selected ? SamiyaColors.heading : SamiyaColors.muted;
+    // Tanlangan belgi yumshoq ko'tariladi va kattalashadi (iOS uslubi); "harakatni kamaytirish" yoqilgan bo'lsa animatsiyasiz.
+    final calm = MediaQuery.maybeDisableAnimationsOf(context) ?? false;
+    final d = calm ? Duration.zero : const Duration(milliseconds: 280);
     return Semantics(
       button: true,
       selected: selected,
@@ -71,15 +74,34 @@ class _NavItem extends StatelessWidget {
           constraints: const BoxConstraints(minHeight: 56),
           child: ExcludeSemantics(
             child: Column(mainAxisAlignment: MainAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
-              Icon(icon, size: 26, color: color),
-              const SizedBox(height: 3),
+              AnimatedSlide(
+                duration: d,
+                curve: Curves.easeOutBack,
+                offset: selected ? const Offset(0, -0.12) : Offset.zero,
+                child: AnimatedScale(
+                  duration: d,
+                  curve: Curves.easeOutBack,
+                  scale: selected ? 1.12 : 1,
+                  child: AnimatedContainer(
+                    duration: d,
+                    curve: Curves.easeOut,
+                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+                    decoration: BoxDecoration(
+                      color: selected ? SamiyaColors.blush : Colors.transparent,
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                    child: Icon(icon, size: 24, color: color),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 2),
               FittedBox(
                 fit: BoxFit.scaleDown,
                 child: Text(label,
                     maxLines: 1,
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                        color: color, fontSize: 11, fontWeight: selected ? FontWeight.w700 : FontWeight.w500, letterSpacing: 0)),
+                        color: color, fontSize: 11, fontWeight: selected ? FontWeight.w600 : FontWeight.w400, letterSpacing: 0)),
               ),
             ]),
           ),

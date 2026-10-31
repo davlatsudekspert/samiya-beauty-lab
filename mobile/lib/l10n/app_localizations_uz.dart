@@ -469,4 +469,39 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get practiceSectionTitle => 'Parvarish usullari';
+
+  @override
+  String get traditionalTitle => 'An‘anaviy qo‘llanish';
+
+  @override
+  String get traditionalNote =>
+      'Tarixiy va an‘anaviy manbalar: bu ilmiy dalil emas, samaradorlik yoki xavfsizlikni bildirmaydi.';
+
+  @override
+  String get ibnSinaCardBody =>
+      'Tarixiy manbalar teri parvarishi haqida nima deydi';
+
+  @override
+  String get ibnSinaMore => 'Ibn Sino haqida';
+
+  @override
+  String get tradPersian => 'Fors tabobati';
+
+  @override
+  String get tradCanon => 'Ibn Sino, “Tib qonunlari”';
+
+  @override
+  String get tradUnani => 'Unani tabobati';
+
+  @override
+  String get tradAyurveda => 'Ayurveda';
+
+  @override
+  String get tradChinese => 'An‘anaviy xitoy tabobati';
+
+  @override
+  String get tradKorean => 'An‘anaviy koreys tabobati';
+
+  @override
+  String get tradFolk => 'Xalq tabobati va etnobotanika';
 }
