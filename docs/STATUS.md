@@ -119,5 +119,13 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 - **2-turda topilgan va tuzatilgan:** (4) tugmani tez ikki marta bosganda sahifa IKKI marta ochilardi va bitta "Orqaga" o'sha sahifada qoldirardi: `safePush` (qizil->yashil test); (5) 320 px ekranda banner matni so'z o'rtasidan uzilardi ("parvaris/h", "g'amxo'rli/k"): banner kengligiga moslashadi; (6) pastki navigatsiya "Bosh sah..." qisqarardi: endi kichrayadi, qisqarmaydi. Eslatma: avvalgi 10 "FAIL" ning aksari QA skriptidagi xato edi (hash orqali o'tish eski sahifani qoldirardi), ilova xatosi emas; yagona haqiqiy xato (4) edi. 157 test o'tdi.
 - **QA'da TEKSHIRILMAGAN:** haqiqiy Google/Apple kirishi (veb'da Firebase sozlanmagan), kamera, push, telefon qurilmasi xususiyatlari.
 
+## Admin paneli va Pro berish (2026-10-31)
+- **Admin:** `davlatsudekspert@gmail.com` (Cloudflare `ADMIN_EMAILS` o'zgaruvchisi, maxfiy emas). Admin faqat Firebase TASDIQLAGAN email bo'yicha aniqlanadi (tasdiqlanmagan emailni da'vo qilib bo'lmaydi) va doim Pro. Admin/Pro holati FAQAT serverdan keladi (`GET /api/v1/me` -> `isAdmin`, `pro`).
+- **Admin paneli (ilovada):** Profil -> "Admin paneli" (faqat admin ko'radi). Statistika: o'rnatishlar (Android/iOS/Veb), 7 kunda yangi, 7/30 kunda faol, ro'yxatdan o'tganlar, Pro (to'lov va admin bergan). **Halollik:** bu do'konlardagi yuklab olishlar soni EMAS, ilova kamida bir marta ochilgan o'rnatishlar (anonim tasodifiy ID; do'kon raqamlari App Store Connect / Play Console'da).
+- **Xohlagan emailga Pro:** panelda email + muddat (30/90/365 kun yoki cheksiz) -> `POST /api/v1/admin/grants`; qaytarib olish `DELETE`; ro'yxat `GET`. Pro foydalanuvchi shu email bilan (Google/Apple, email tasdiqlangan) kirganda avtomatik yoqiladi. Hisob o'chirilsa, email bo'yicha yozuv ham o'chadi.
+- **Maxfiylik:** o'rnatish hisoblagichi shaxsga bog'lanmagan tasodifiy ID, platforma va versiyani saqlaydi; maxfiylik siyosatida eslatilishi kerak.
+- **Testlar:** backend 61, ilova 195 (qizil->yashil). Jonli backend yangilandi (migratsiyalar 0002, 0003); jonli admin amallari haqiqiy Google kirishi bilan telefonda tasdiqlanishi kerak (TEKSHIRILMAGAN).
+- **iOS TestFlight:** kalit muammosi hal qilindi (Admin rolli kalit "SAMIYA CI Admin"), birinchi build muvaffaqiyatli yuklandi.
+
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.
