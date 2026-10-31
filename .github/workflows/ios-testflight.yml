@@ -43,12 +43,18 @@ jobs:
           KEY="$HOME/.appstoreconnect/private_keys/AuthKey_${KEY_ID}.p8"
           mkdir -p "$(dirname "$KEY")"
           .github/scripts/write_secret.sh "$ASC_KEY_P8_B64" "$KEY"
-          echo "Kalit fayli birinchi qatori: $(head -1 "$KEY")"   # sarlavha qatori maxfiy emas
-          if openssl pkcs8 -in "$KEY" -nocrypt -out /dev/null 2>/dev/null; then
-            echo "Kalit formati to'g'ri (PKCS#8)"
+          echo "Kalit hajmi: $(wc -c < "$KEY") bayt; boshi (hex): $(head -c 4 "$KEY" | xxd -p)"   # sarlavha, maxfiy emas
+          TMP="$(mktemp)"
+          if openssl pkcs8 -in "$KEY" -nocrypt -out "$TMP" 2>/dev/null; then
+            echo "Kalit formati: PEM PKCS#8 (to'g'ri)"
+          elif openssl pkcs8 -inform DER -in "$KEY" -nocrypt -out "$TMP" 2>/dev/null; then
+            echo "Kalit formati: DER PKCS#8 -> PEM ga o'tkazildi"; cp "$TMP" "$KEY"
+          elif openssl ec -inform DER -in "$KEY" -out "$TMP.ec" 2>/dev/null && openssl pkcs8 -topk8 -nocrypt -in "$TMP.ec" -out "$TMP" 2>/dev/null; then
+            echo "Kalit formati: DER EC -> PEM PKCS#8 ga o'tkazildi"; cp "$TMP" "$KEY"
           else
             echo "::error::ASC_KEY_P8_B64 yaroqli .p8 kalit emas (fayl to'liq nusxalanmagan yoki boshqa fayl)"; exit 1
           fi
+          rm -f "$TMP" "$TMP.ec"
       - name: Firebase fayli (majburiy)
         env:
           PLIST_B64: ${{ secrets.GOOGLE_SERVICE_INFO_PLIST_B64 }}
