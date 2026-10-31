@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
+import '../../ui/portrait_banner.dart';
 import '../../ui/widgets.dart';
 
 /// Faqat Google, Apple va mehmon rejimi. Email/parol YO'Q (mahsulot qarori).
@@ -31,7 +32,7 @@ class LoginPage extends StatelessWidget {
               child: PageBody(
                 child: Column(children: [
                   const SizedBox(height: 4),
-                  _Banner(title: l.loginBanner),
+                  PortraitBanner(title: l.loginBanner, eyebrow: l.appName),
                   const SizedBox(height: 18),
                   InfoPill(l.campaignNoCard),
                   const SizedBox(height: 14),
@@ -77,68 +78,6 @@ class LoginPage extends StatelessWidget {
             ),
           ]),
         ),
-      ),
-    );
-  }
-}
-
-class _Banner extends StatelessWidget {
-  const _Banner({required this.title});
-  final String title;
-
-  @override
-  Widget build(BuildContext context) {
-    final t = Theme.of(context).textTheme;
-    return Container(
-      width: double.infinity,
-      constraints: const BoxConstraints(minHeight: 168),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(30),
-        boxShadow: SamiyaShadows.soft,
-        gradient: const LinearGradient(
-          begin: AlignmentDirectional.centerStart,
-          end: AlignmentDirectional.centerEnd,
-          colors: [Color(0xFFB85B7C), Color(0xFFD98BA2)],
-        ),
-      ),
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(30),
-        child: Stack(children: [
-          PositionedDirectional(
-            top: 0,
-            bottom: 0,
-            end: 0,
-            width: 180,
-            child: ExcludeSemantics(
-              child: ShaderMask(
-                blendMode: BlendMode.dstIn,
-                shaderCallback: (r) => const LinearGradient(
-                  begin: AlignmentDirectional.centerStart,
-                  end: AlignmentDirectional.centerEnd,
-                  colors: [Colors.transparent, Colors.white],
-                  stops: [0, 0.55],
-                ).createShader(r, textDirection: Directionality.of(context)),
-                child: Image.asset('assets/images/ob2_routine.png',
-                    fit: BoxFit.cover, alignment: Alignment.topCenter, filterQuality: FilterQuality.high),
-              ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(22, 22, 150, 22),
-            child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Row(mainAxisSize: MainAxisSize.min, children: [
-                const Icon(Icons.auto_awesome_rounded, size: 13, color: Colors.white),
-                const SizedBox(width: 6),
-                Flexible(
-                  child: Text('SAMIYA BEAUTY LAB',
-                      style: t.labelSmall?.copyWith(color: Colors.white, fontSize: 11, letterSpacing: 1.6)),
-                ),
-              ]),
-              const SizedBox(height: 10),
-              Text(title, style: t.headlineSmall?.copyWith(color: Colors.white, fontWeight: FontWeight.w500)),
-            ]),
-          ),
-        ]),
       ),
     );
   }

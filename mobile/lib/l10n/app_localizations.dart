@@ -305,6 +305,108 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Go to home'**
   String get goHome;
+
+  /// No description provided for @homeGreeting.
+  ///
+  /// In en, this message translates to:
+  /// **'Hello!'**
+  String get homeGreeting;
+
+  /// No description provided for @searchHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Product, ingredient or question...'**
+  String get searchHint;
+
+  /// No description provided for @homeBannerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Science-based care'**
+  String get homeBannerTitle;
+
+  /// No description provided for @homeBannerTag.
+  ///
+  /// In en, this message translates to:
+  /// **'With evidence and sources'**
+  String get homeBannerTag;
+
+  /// No description provided for @tileScanner.
+  ///
+  /// In en, this message translates to:
+  /// **'Ingredient scanner'**
+  String get tileScanner;
+
+  /// No description provided for @tileSkin.
+  ///
+  /// In en, this message translates to:
+  /// **'Skin preferences'**
+  String get tileSkin;
+
+  /// No description provided for @tileRoutine.
+  ///
+  /// In en, this message translates to:
+  /// **'Care routine'**
+  String get tileRoutine;
+
+  /// No description provided for @tileAcademy.
+  ///
+  /// In en, this message translates to:
+  /// **'Cosmetology Academy'**
+  String get tileAcademy;
+
+  /// No description provided for @tileAi.
+  ///
+  /// In en, this message translates to:
+  /// **'SAMIYA AI'**
+  String get tileAi;
+
+  /// No description provided for @tileJournal.
+  ///
+  /// In en, this message translates to:
+  /// **'Journal'**
+  String get tileJournal;
+
+  /// No description provided for @popularIngredients.
+  ///
+  /// In en, this message translates to:
+  /// **'Popular ingredients'**
+  String get popularIngredients;
+
+  /// No description provided for @seeAll.
+  ///
+  /// In en, this message translates to:
+  /// **'See all'**
+  String get seeAll;
+
+  /// No description provided for @navHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Home'**
+  String get navHome;
+
+  /// No description provided for @navAcademy.
+  ///
+  /// In en, this message translates to:
+  /// **'Academy'**
+  String get navAcademy;
+
+  /// No description provided for @navScanner.
+  ///
+  /// In en, this message translates to:
+  /// **'Scanner'**
+  String get navScanner;
+
+  /// No description provided for @navJournal.
+  ///
+  /// In en, this message translates to:
+  /// **'Journal'**
+  String get navJournal;
+
+  /// No description provided for @navProfile.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get navProfile;
 }
 
 class _AppLocalizationsDelegate

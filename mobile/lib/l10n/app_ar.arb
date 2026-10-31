@@ -33,5 +33,22 @@
   "roleCosmetologistDesc": "مرجع مهني",
   "roleTeacher": "معلّم",
   "roleTeacherDesc": "المواد التعليمية والمجموعات",
-  "goHome": "الانتقال إلى الرئيسية"
+  "goHome": "الانتقال إلى الرئيسية",
+  "homeGreeting": "السلام عليكم!",
+  "searchHint": "منتج أو مكوّن أو سؤال...",
+  "homeBannerTitle": "عناية مبنية على العلم",
+  "homeBannerTag": "بالأدلة والمصادر",
+  "tileScanner": "ماسح المكوّنات",
+  "tileSkin": "تفضيلات البشرة",
+  "tileRoutine": "روتين العناية",
+  "tileAcademy": "أكاديمية التجميل",
+  "tileAi": "مساعد SAMIYA AI",
+  "tileJournal": "اليوميات",
+  "popularIngredients": "مكوّنات شائعة",
+  "seeAll": "عرض الكل",
+  "navHome": "الرئيسية",
+  "navAcademy": "الأكاديمية",
+  "navScanner": "الماسح",
+  "navJournal": "اليوميات",
+  "navProfile": "الملف"
 }

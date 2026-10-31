@@ -117,4 +117,55 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get goHome => 'Bosh sahifaga o‘tish';
+
+  @override
+  String get homeGreeting => 'Assalomu alaykum!';
+
+  @override
+  String get searchHint => 'Mahsulot, ingredient yoki savol...';
+
+  @override
+  String get homeBannerTitle => 'Ilmiy asosli parvarish';
+
+  @override
+  String get homeBannerTag => 'Dalillar va manbalar bilan';
+
+  @override
+  String get tileScanner => 'Ingredient skaneri';
+
+  @override
+  String get tileSkin => 'Teri afzalliklari';
+
+  @override
+  String get tileRoutine => 'Parvarish rejasi';
+
+  @override
+  String get tileAcademy => 'Kosmetologiya akademiyasi';
+
+  @override
+  String get tileAi => 'SAMIYA AI';
+
+  @override
+  String get tileJournal => 'Kundalik';
+
+  @override
+  String get popularIngredients => 'Mashhur ingredientlar';
+
+  @override
+  String get seeAll => 'Barchasi';
+
+  @override
+  String get navHome => 'Bosh sahifa';
+
+  @override
+  String get navAcademy => 'Akademiya';
+
+  @override
+  String get navScanner => 'Skaner';
+
+  @override
+  String get navJournal => 'Kundalik';
+
+  @override
+  String get navProfile => 'Profil';
 }

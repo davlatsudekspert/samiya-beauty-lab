@@ -41,5 +41,15 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
   3. Google tugmasidagi "G" vaqtincha (rasmiy Google belgisi Phase 2 da).
   4. Arab, rus, ingliz matnlari mashina tarjimasi; arabchani ona tili egasi tekshirishi kerak.
 
+## Qarorlar: reklama va hamkorlar (egasi rozi, 2026-10-31)
+- Reklama o'rinlari ilovada boshidan quriladi, lekin `adsEnabled` bayrog'i bilan **dastlabki 90 kunda o'chiq**. Pro obunasi reklamasiz. Moderatsiyani egasi qiladi, yordamchi ko'maklashadi.
+- To'g'ridan-to'g'ri sotiladigan reklama (reklama tarmog'i SDK'siz). Reklama tahlilga, AI javoblariga, testlarga va kirish ekranlariga ta'sir qilmaydi; yorliq ("Reklama", "Homiylik") har doim ko'rinadi; salomatlik/teri ma'lumoti bo'yicha maqsadli reklama yo'q.
+- "Hamkorlar uchun" bo'limi: asosan veb-sahifa (Cloudflare Pages) + ilovada havola; ariza Worker orqali D1'ga. Reja: 6-bosqichdan keyin (~1.5-2 hafta). O'zbekiston reklama qonunchiligini yurist tekshiradi.
+
+## Phase 1 davomi: navigatsiya qobig'i va bosh sahifa (TEKSHIRILGAN)
+- Pastki 5 bandli navigatsiya (go_router StatefulShellRoute), tab holati saqlanadi; Akademiya, Skaner, Kundalik, Profil hozircha halol "Tez orada" joy egalari.
+- 11 Bosh sahifa native: salom, qidiruv (hozircha "tez orada"), banner, 6 plitka, mashhur ingredientlar (faqat INCI nomlari, da'vosiz). Dizayndan **ongli chetga chiqish**: "Tabiiy va havfsiz" -> "Dalillar va manbalar bilan" (dalilsiz da'vo), "Teri tahlili" -> "Teri afzalliklari" (tashxis ma'nosi), "Mutaxassislar" -> "SAMIYA AI" (bunday katalog yo'q).
+- Testlar: `flutter test` 85 ta o'tdi (jumladan siyosat testi: bosh sahifada halal/xavfsiz/88% kabi iboralar 4 tilda yo'q; arabda navigatsiya tartibi teskari; 320x568 va 1.5x shriftda overflow yo'q). `flutter analyze` toza.
+
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.

@@ -112,4 +112,55 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get goHome => 'الانتقال إلى الرئيسية';
+
+  @override
+  String get homeGreeting => 'السلام عليكم!';
+
+  @override
+  String get searchHint => 'منتج أو مكوّن أو سؤال...';
+
+  @override
+  String get homeBannerTitle => 'عناية مبنية على العلم';
+
+  @override
+  String get homeBannerTag => 'بالأدلة والمصادر';
+
+  @override
+  String get tileScanner => 'ماسح المكوّنات';
+
+  @override
+  String get tileSkin => 'تفضيلات البشرة';
+
+  @override
+  String get tileRoutine => 'روتين العناية';
+
+  @override
+  String get tileAcademy => 'أكاديمية التجميل';
+
+  @override
+  String get tileAi => 'مساعد SAMIYA AI';
+
+  @override
+  String get tileJournal => 'اليوميات';
+
+  @override
+  String get popularIngredients => 'مكوّنات شائعة';
+
+  @override
+  String get seeAll => 'عرض الكل';
+
+  @override
+  String get navHome => 'الرئيسية';
+
+  @override
+  String get navAcademy => 'الأكاديمية';
+
+  @override
+  String get navScanner => 'الماسح';
+
+  @override
+  String get navJournal => 'اليوميات';
+
+  @override
+  String get navProfile => 'الملف';
 }

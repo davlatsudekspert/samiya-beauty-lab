@@ -116,4 +116,55 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get goHome => 'Go to home';
+
+  @override
+  String get homeGreeting => 'Hello!';
+
+  @override
+  String get searchHint => 'Product, ingredient or question...';
+
+  @override
+  String get homeBannerTitle => 'Science-based care';
+
+  @override
+  String get homeBannerTag => 'With evidence and sources';
+
+  @override
+  String get tileScanner => 'Ingredient scanner';
+
+  @override
+  String get tileSkin => 'Skin preferences';
+
+  @override
+  String get tileRoutine => 'Care routine';
+
+  @override
+  String get tileAcademy => 'Cosmetology Academy';
+
+  @override
+  String get tileAi => 'SAMIYA AI';
+
+  @override
+  String get tileJournal => 'Journal';
+
+  @override
+  String get popularIngredients => 'Popular ingredients';
+
+  @override
+  String get seeAll => 'See all';
+
+  @override
+  String get navHome => 'Home';
+
+  @override
+  String get navAcademy => 'Academy';
+
+  @override
+  String get navScanner => 'Scanner';
+
+  @override
+  String get navJournal => 'Journal';
+
+  @override
+  String get navProfile => 'Profile';
 }

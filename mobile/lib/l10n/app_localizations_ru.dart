@@ -116,4 +116,55 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get goHome => 'Перейти на главную';
+
+  @override
+  String get homeGreeting => 'Здравствуйте!';
+
+  @override
+  String get searchHint => 'Продукт, ингредиент или вопрос...';
+
+  @override
+  String get homeBannerTitle => 'Уход на основе науки';
+
+  @override
+  String get homeBannerTag => 'С доказательствами и источниками';
+
+  @override
+  String get tileScanner => 'Сканер состава';
+
+  @override
+  String get tileSkin => 'Предпочтения кожи';
+
+  @override
+  String get tileRoutine => 'План ухода';
+
+  @override
+  String get tileAcademy => 'Академия косметологии';
+
+  @override
+  String get tileAi => 'SAMIYA AI';
+
+  @override
+  String get tileJournal => 'Дневник';
+
+  @override
+  String get popularIngredients => 'Популярные ингредиенты';
+
+  @override
+  String get seeAll => 'Все';
+
+  @override
+  String get navHome => 'Главная';
+
+  @override
+  String get navAcademy => 'Академия';
+
+  @override
+  String get navScanner => 'Сканер';
+
+  @override
+  String get navJournal => 'Дневник';
+
+  @override
+  String get navProfile => 'Профиль';
 }

@@ -51,6 +51,7 @@ void main() {
     '04_onboarding1': '/onboarding',
     '07_login': '/login',
     '10_role': '/role',
+    '11_home': '/home',
   };
 
   for (final lang in ['uz', 'ar', 'ru']) {

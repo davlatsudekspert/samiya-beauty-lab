@@ -33,5 +33,22 @@
   "roleCosmetologistDesc": "Professional ma‘lumotnoma",
   "roleTeacher": "Ustoz",
   "roleTeacherDesc": "O‘quv materiallari va guruhlar",
-  "goHome": "Bosh sahifaga o‘tish"
+  "goHome": "Bosh sahifaga o‘tish",
+  "homeGreeting": "Assalomu alaykum!",
+  "searchHint": "Mahsulot, ingredient yoki savol...",
+  "homeBannerTitle": "Ilmiy asosli parvarish",
+  "homeBannerTag": "Dalillar va manbalar bilan",
+  "tileScanner": "Ingredient skaneri",
+  "tileSkin": "Teri afzalliklari",
+  "tileRoutine": "Parvarish rejasi",
+  "tileAcademy": "Kosmetologiya akademiyasi",
+  "tileAi": "SAMIYA AI",
+  "tileJournal": "Kundalik",
+  "popularIngredients": "Mashhur ingredientlar",
+  "seeAll": "Barchasi",
+  "navHome": "Bosh sahifa",
+  "navAcademy": "Akademiya",
+  "navScanner": "Skaner",
+  "navJournal": "Kundalik",
+  "navProfile": "Profil"
 }

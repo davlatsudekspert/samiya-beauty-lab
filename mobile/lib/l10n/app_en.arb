@@ -33,5 +33,22 @@
   "roleCosmetologistDesc": "Professional reference",
   "roleTeacher": "Teacher",
   "roleTeacherDesc": "Learning materials and groups",
-  "goHome": "Go to home"
+  "goHome": "Go to home",
+  "homeGreeting": "Hello!",
+  "searchHint": "Product, ingredient or question...",
+  "homeBannerTitle": "Science-based care",
+  "homeBannerTag": "With evidence and sources",
+  "tileScanner": "Ingredient scanner",
+  "tileSkin": "Skin preferences",
+  "tileRoutine": "Care routine",
+  "tileAcademy": "Cosmetology Academy",
+  "tileAi": "SAMIYA AI",
+  "tileJournal": "Journal",
+  "popularIngredients": "Popular ingredients",
+  "seeAll": "See all",
+  "navHome": "Home",
+  "navAcademy": "Academy",
+  "navScanner": "Scanner",
+  "navJournal": "Journal",
+  "navProfile": "Profile"
 }

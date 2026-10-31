@@ -33,5 +33,22 @@
   "roleCosmetologistDesc": "Профессиональный справочник",
   "roleTeacher": "Преподаватель",
   "roleTeacherDesc": "Учебные материалы и группы",
-  "goHome": "Перейти на главную"
+  "goHome": "Перейти на главную",
+  "homeGreeting": "Здравствуйте!",
+  "searchHint": "Продукт, ингредиент или вопрос...",
+  "homeBannerTitle": "Уход на основе науки",
+  "homeBannerTag": "С доказательствами и источниками",
+  "tileScanner": "Сканер состава",
+  "tileSkin": "Предпочтения кожи",
+  "tileRoutine": "План ухода",
+  "tileAcademy": "Академия косметологии",
+  "tileAi": "SAMIYA AI",
+  "tileJournal": "Дневник",
+  "popularIngredients": "Популярные ингредиенты",
+  "seeAll": "Все",
+  "navHome": "Главная",
+  "navAcademy": "Академия",
+  "navScanner": "Сканер",
+  "navJournal": "Дневник",
+  "navProfile": "Профиль"
 }
