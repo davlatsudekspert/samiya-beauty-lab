@@ -1,0 +1,32 @@
+{
+ "slug": "cucumber",
+ "items": [
+  {
+   "id": "cucumber-t1",
+   "tradition": "Ayurveda",
+   "text_en": "A 2012 review of cucumber (Cucumis sativus) reports that it is a vegetable used in Indian traditional medicine since ancient times and that fresh fruit juice is used for nourishing the skin. The same review notes that comparatively few studies have been published on its chemical profile and therapeutic potential. This is a description of traditional use, not a statement about effectiveness or safety.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "23098877",
+     "doi": "10.1016/j.fitote.2012.10.003",
+     "title": "Phytochemical and therapeutic potential of cucumber.",
+     "year": 2012,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23098877/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "cucumber-t1": "Bodring (Cucumis sativus) haqidagi 2012-yilgi sharh uning qadim zamonlardan beri hind an'anaviy tibbiyotida ishlatiladigan sabzavot ekanini va yangi meva sharbati terini oziqlantirish uchun qo'llanishini ma'lum qiladi. Shu sharhda uning kimyoviy tarkibi va terapevtik salohiyati haqida nisbatan kam tadqiqot chop etilgani qayd etilgan. Bu an'anaviy qo'llanishning tavsifi bo'lib, samaradorlik yoki xavfsizlik haqidagi bayonot emas."
+  },
+  "ru": {
+   "cucumber-t1": "В обзоре 2012 года об огурце (Cucumis sativus) сообщается, что это овощ, используемый в индийской традиционной медицине с древних времён, и что свежий сок плодов применяется для питания кожи. В том же обзоре отмечено, что о его химическом составе и терапевтическом потенциале опубликовано сравнительно мало исследований. Это описание традиционного применения, а не утверждение об эффективности или безопасности."
+  },
+  "ar": {
+   "cucumber-t1": "تفيد مراجعة نُشرت عام 2012 حول الخيار (Cucumis sativus) بأنه خضار يُستخدم في الطب الهندي التقليدي منذ القدم، وبأن عصير الثمرة الطازجة يُستخدم لتغذية البشرة. وتشير المراجعة نفسها إلى أن عدد الدراسات المنشورة عن مكوناته الكيميائية وإمكاناته العلاجية قليل نسبيًا. وهذا وصف لاستخدام تقليدي وليس بيانًا عن الفعالية أو السلامة."
+  }
+ }
+}

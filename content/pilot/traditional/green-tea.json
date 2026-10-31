@@ -1,0 +1,32 @@
+{
+ "slug": "green-tea",
+ "items": [
+  {
+   "id": "green-tea-t1",
+   "tradition": "Korean traditional herbal medicine (Hanbang)",
+   "text_en": "A 2025 review of Korean medicinal herbs in anti-aging and skincare reports that Korean herbal medicine (Hanbang) draws on ingredients such as ginseng, green tea and licorice in formulations passed down for centuries, and that traditional Korean skincare includes approaches such as herbal masks. This is a general description of the tradition; the abstract does not describe a specific traditional skin use of green tea. It is not a statement about effectiveness or safety. This item is based on the abstract only.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "41088897",
+     "doi": "10.2174/0113892010390942250916184542",
+     "title": "Role of Major Bioactive Compounds in the Treatment of Anti-aging and Skincare: A Review.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41088897/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "green-tea-t1": "Koreya dorivor o'tlarining qarishga qarshi va teri parvarishidagi o'rniga bag'ishlangan 2025-yilgi sharh Koreya o'simlik tibbiyoti (Hanbang) asrlar davomida avloddan avlodga o'tib kelgan tarkiblarda jenshen, yashil choy va shirinmiya kabi ingredientlardan foydalanishini hamda an'anaviy koreys teri parvarishi o'simlik niqoblari kabi usullarni o'z ichiga olishini ma'lum qiladi. Bu an'ananing umumiy tavsifi; annotatsiyada yashil choyning teri uchun aniq an'anaviy qo'llanishi tasvirlanmagan. Bu samaradorlik yoki xavfsizlik haqidagi bayonot emas. Ushbu band faqat annotatsiyaga asoslangan."
+  },
+  "ru": {
+   "green-tea-t1": "В обзоре 2025 года о корейских лекарственных травах в антивозрастном уходе и уходе за кожей сообщается, что корейская травяная медицина (Hanbang) использует такие ингредиенты, как женьшень, зелёный чай и лакрица, в составах, передаваемых веками, а традиционный корейский уход за кожей включает такие подходы, как травяные маски. Это общее описание традиции; в аннотации не описано конкретное традиционное применение зелёного чая для кожи. Это не утверждение об эффективности или безопасности. Пункт основан только на аннотации."
+  },
+  "ar": {
+   "green-tea-t1": "تفيد مراجعة نُشرت عام 2025 حول الأعشاب الطبية الكورية في مجال العناية بالبشرة ومكافحة الشيخوخة بأن الطب العشبي الكوري (Hanbang) يستند إلى مكونات مثل الجينسنغ والشاي الأخضر والعرقسوس في تركيبات توارثتها الأجيال عبر القرون، وبأن العناية التقليدية الكورية بالبشرة تشمل أساليب مثل الأقنعة العشبية. وهذا وصف عام للتقليد؛ ولا يصف الملخص استخدامًا جلديًا تقليديًا محددًا للشاي الأخضر. وهو ليس بيانًا عن الفعالية أو السلامة. يعتمد هذا البند على الملخص فقط."
+  }
+ }
+}

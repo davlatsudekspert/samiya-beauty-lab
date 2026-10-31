@@ -1,0 +1,32 @@
+{
+ "slug": "chamomile",
+ "items": [
+  {
+   "id": "chamomile-t1",
+   "tradition": "Persian traditional medicine",
+   "text_en": "A comparative review of topical plant oils based on traditional Persian medicine (Avicenna Journal of Phytomedicine, 2025) reports that sweet almond, chamomile, violet, olive and rose oils are among the most widely used oils in Persian medicine for the topical anointment (oil application) of children. The review also describes uses of chamomile oil that are not related to skin and are outside the scope of this card. This is a description of a historical practice in a pediatric context, not specific to facial skincare, and not a statement about effectiveness or safety.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40271504",
+     "doi": "10.22038/AJP.2024.24303",
+     "title": "Topical application of medicinal plant oils in pediatric-related disorders: A comparative review article based on traditional Persian medicine.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40271504/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "chamomile-t1": "An'anaviy fors tibbiyotiga asoslangan, o'simlik moylarini teriga surtishga bag'ishlangan qiyosiy sharh (Avicenna Journal of Phytomedicine, 2025) shirin bodom, romashka, binafsha, zaytun va atirgul moylari fors tibbiyotida bolalarni tashqaridan moylash (moy surtish) uchun eng keng ishlatiladigan moylar qatoriga kirishini ma'lum qiladi. Sharhda romashka moyining teriga aloqasi bo'lmagan va ushbu kartochka doirasidan tashqarida bo'lgan qo'llanishlari ham tasvirlangan. Bu bolalar sohasidagi tarixiy amaliyotning tavsifi bo'lib, yuz terisini parvarish qilishga xos emas va samaradorlik yoki xavfsizlik haqidagi bayonot emas."
+  },
+  "ru": {
+   "chamomile-t1": "В сравнительном обзоре о местном применении растительных масел на основе традиционной персидской медицины (Avicenna Journal of Phytomedicine, 2025) сообщается, что масла сладкого миндаля, ромашки, фиалки, оливы и розы относятся к наиболее широко используемым в персидской медицине маслам для наружного натирания (нанесения масла) детей. В обзоре также описаны применения масла ромашки, не связанные с кожей и выходящие за рамки этой карточки. Это описание исторической практики в детской сфере; оно не относится конкретно к уходу за кожей лица и не является утверждением об эффективности или безопасности."
+  },
+  "ar": {
+   "chamomile-t1": "تفيد مراجعة مقارنة حول الزيوت النباتية الموضعية استنادًا إلى الطب الفارسي التقليدي (Avicenna Journal of Phytomedicine، 2025) بأن زيوت اللوز الحلو والبابونج والبنفسج والزيتون والورد من أكثر الزيوت استخدامًا في الطب الفارسي لدهن الأطفال بالزيت موضعيًا. كما تصف المراجعة استخدامات لزيت البابونج لا علاقة لها بالجلد وتقع خارج نطاق هذه البطاقة. وهذا وصف لممارسة تاريخية في سياق طب الأطفال، وهو لا يخص العناية ببشرة الوجه، وليس بيانًا عن الفعالية أو السلامة."
+  }
+ }
+}

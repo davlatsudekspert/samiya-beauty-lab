@@ -1,0 +1,38 @@
+{
+ "slug": "oat",
+ "items": [
+  {
+   "id": "oat-t1",
+   "tradition": "Folk/ethnobotanical",
+   "text_en": "Two PubMed-indexed reviews, a 2020 historical article on colloidal oatmeal and a 2010 review, state that colloidal oatmeal has a long history of use in dermatology. Their abstracts do not specify a particular traditional medical system or period. This is a statement about historical use, not about effectiveness or safety. This item is based on the abstracts only.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "33026768",
+     "title": "ARTICLE: Colloidal Oatmeal Part I: History, Basic Science, Mechanism of Action, and Clinical Efficacy in the Treatment of Atopic Dermatitis.",
+     "year": 2020,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33026768/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "20865844",
+     "title": "Mechanism of action and clinical benefits of colloidal oatmeal for dermatologic practice.",
+     "year": 2010,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/20865844/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "oat-t1": "PubMed'da indekslangan ikkita sharh — kolloid suli uni haqidagi 2020-yilgi tarixiy maqola va 2010-yilgi sharh — kolloid suli uni dermatologiyada uzoq tarixga ega ekanini ma'lum qiladi. Ularning annotatsiyalarida muayyan an'anaviy tibbiyot tizimi yoki davr ko'rsatilmagan. Bu tarixiy qo'llanish haqidagi bayonot bo'lib, samaradorlik yoki xavfsizlik haqida emas. Ushbu band faqat annotatsiyalarga asoslangan."
+  },
+  "ru": {
+   "oat-t1": "В двух обзорах, индексированных в PubMed, — исторической статье 2020 года о коллоидной овсяной муке и обзоре 2010 года — говорится, что коллоидная овсяная мука имеет долгую историю применения в дерматологии. В их аннотациях не указаны конкретная традиционная медицинская система или период. Это утверждение об историческом применении, а не об эффективности или безопасности. Пункт основан только на аннотациях."
+  },
+  "ar": {
+   "oat-t1": "تذكر مراجعتان مفهرستان في PubMed، هما مقالة تاريخية صدرت عام 2020 عن دقيق الشوفان الغرواني ومراجعة صدرت عام 2010، أن لدقيق الشوفان الغرواني تاريخًا طويلًا من الاستخدام في طب الجلد. ولا تحدد ملخصاتهما نظامًا طبيًا تقليديًا بعينه أو فترة زمنية محددة. وهذا بيان عن الاستخدام التاريخي وليس عن الفعالية أو السلامة. يعتمد هذا البند على الملخصين فقط."
+  }
+ }
+}

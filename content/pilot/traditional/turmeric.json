@@ -1,0 +1,51 @@
+{
+ "slug": "turmeric",
+ "items": [
+  {
+   "id": "turmeric-t1",
+   "tradition": "Ayurveda",
+   "text_en": "A 2025 review of turmeric (Curcuma longa) in the journal Chinese Medicine reports that turmeric has traditionally been widely used in Ayurveda and in traditional Asian medicine such as traditional Chinese medicine, in connection with conditions that the abstract lists as including skin diseases, alongside digestive, respiratory and circulatory uses that are outside the scope of this card. This is a description of traditional use, not a statement about effectiveness or safety.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40437595",
+     "doi": "10.1186/s13020-025-01115-z",
+     "title": "Curcuma Longa (turmeric): from traditional applications to modern plant medicine research hotspots.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40437595/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "turmeric-t2",
+   "tradition": "Unani",
+   "text_en": "A 2022 review of Curcuma longa in Frontiers in Pharmacology reports that in Unani and Ayurveda medicine turmeric has been applied externally for ulcers and inflammation, and lists skin infections and wounds among its other traditional uses. The review also states that there is a lack of supportive evidence, especially from clinical trials. This is a description of traditional use, not a statement about effectiveness or safety.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "35401176",
+     "doi": "10.3389/fphar.2022.820806",
+     "title": "A Comprehensive Review on the Therapeutic Potential of Curcuma longa Linn. in Relation to its Major Active Constituent Curcumin.",
+     "year": 2022,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35401176/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "turmeric-t1": "Zarchava (Curcuma longa) haqidagi 2025-yilgi sharh (Chinese Medicine jurnali) zarchava an'anaviy ravishda Ayurveda va an'anaviy xitoy tibbiyoti kabi an'anaviy Osiyo tibbiyotida keng ishlatilganini, annotatsiya ko'rsatgan holatlar qatorida teri kasalliklari ham borligini, shuningdek ushbu kartochka doirasidan tashqaridagi hazm, nafas va qon aylanish bilan bog'liq qo'llanishlar ham mavjudligini ma'lum qiladi. Bu an'anaviy qo'llanishning tavsifi bo'lib, samaradorlik yoki xavfsizlik haqidagi bayonot emas.",
+   "turmeric-t2": "Frontiers in Pharmacology jurnalidagi Curcuma longa haqidagi 2022-yilgi sharh Unani va Ayurveda tibbiyotida zarchava yaralar va yallig'lanish uchun tashqaridan surtilganini, boshqa an'anaviy qo'llanishlari qatorida teri infeksiyalari va jarohatlar ham sanalganini ma'lum qiladi. Sharhda, ayniqsa klinik sinovlardan, tasdiqlovchi dalillar yetishmasligi ham qayd etilgan. Bu an'anaviy qo'llanishning tavsifi bo'lib, samaradorlik yoki xavfsizlik haqidagi bayonot emas."
+  },
+  "ru": {
+   "turmeric-t1": "В обзоре 2025 года о куркуме (Curcuma longa) в журнале Chinese Medicine сообщается, что куркума традиционно широко использовалась в аюрведе и в традиционной азиатской медицине, например в традиционной китайской медицине, в связи с состояниями, среди которых в аннотации названы кожные заболевания, а также пищеварительные, дыхательные и сосудистые применения, выходящие за рамки этой карточки. Это описание традиционного применения, а не утверждение об эффективности или безопасности.",
+   "turmeric-t2": "В обзоре 2022 года о Curcuma longa в журнале Frontiers in Pharmacology сообщается, что в унани и аюрведе куркуму применяли наружно при язвах и воспалении, а среди других традиционных применений названы кожные инфекции и раны. В обзоре также говорится о недостатке подтверждающих данных, особенно клинических испытаний. Это описание традиционного применения, а не утверждение об эффективности или безопасности."
+  },
+  "ar": {
+   "turmeric-t1": "تفيد مراجعة نُشرت عام 2025 حول الكركم (Curcuma longa) في مجلة Chinese Medicine بأن الكركم استُخدم تقليديًا على نطاق واسع في الأيورفيدا وفي الطب الآسيوي التقليدي مثل الطب الصيني التقليدي، فيما يتصل بحالات يذكر الملخص أنها تشمل الأمراض الجلدية، إلى جانب استخدامات هضمية وتنفسية ودورانية تقع خارج نطاق هذه البطاقة. وهذا وصف لاستخدام تقليدي وليس بيانًا عن الفعالية أو السلامة.",
+   "turmeric-t2": "تفيد مراجعة نُشرت عام 2022 حول Curcuma longa في مجلة Frontiers in Pharmacology بأن الكركم استُعمل خارجيًا في طب الأونّاني والأيورفيدا للقروح والالتهاب، وتذكر من بين استخداماته التقليدية الأخرى التهابات الجلد والجروح. كما تفيد المراجعة بنقص الأدلة الداعمة، ولا سيما من التجارب السريرية. وهذا وصف لاستخدام تقليدي وليس بيانًا عن الفعالية أو السلامة."
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "slug": "facial-massage",
+ "items": [
+  {
+   "id": "facial-massage-t1",
+   "tradition": "Persian traditional medicine (Canon of Medicine)",
+   "text_en": "A historical review of Avicenna's massage approach in the Canon of Medicine (Acta Medico-Historica Adriatica, 2019) reports that the book defined different types of massage (friction), described as including soft friction that relaxes the body, gentle friction that increases blood flow in the area of application, and preparatory and restorative friction applied before and after exercise. The abstract describes massage of the body in general and does not mention facial massage or the term dalk. This is a historical description, not a statement about effectiveness or safety, and this item is based on the abstract only.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "31315411",
+     "doi": "10.31952/amha.17.1.6",
+     "title": "The Massage Approach of Avicenna in the Canon of Medicine.",
+     "year": 2019,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31315411/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "facial-massage-t1": "Ibn Sinoning «Tib qonunlari»dagi massaj yondashuviga bag'ishlangan tarixiy sharh (Acta Medico-Historica Adriatica, 2019) kitobda massajning (ishqalashning) turli turlari belgilanganini, ular qatorida tanani bo'shashtiradigan yumshoq ishqalash, qo'llanilgan joyda qon oqimini oshiradigan mayin ishqalash hamda mashqdan oldin va keyin qo'llaniladigan tayyorlovchi va tiklovchi ishqalash borligini ma'lum qiladi. Annotatsiyada umuman tana massaji tasvirlangan, yuz massaji yoki «dalk» atamasi tilga olinmagan. Bu tarixiy tavsif bo'lib, samaradorlik yoki xavfsizlik haqidagi bayonot emas; ushbu band faqat annotatsiyaga asoslangan."
+  },
+  "ru": {
+   "facial-massage-t1": "В историческом обзоре о подходе Авиценны к массажу в «Каноне врачебной науки» (Acta Medico-Historica Adriatica, 2019) сообщается, что в книге были определены разные виды массажа (растирания), среди которых мягкое растирание, расслабляющее тело, нежное растирание, усиливающее кровоток в области применения, а также подготовительное и восстановительное растирание до и после упражнений. В аннотации описан массаж тела в целом; массаж лица и термин «далк» не упоминаются. Это историческое описание, а не утверждение об эффективности или безопасности; пункт основан только на аннотации."
+  },
+  "ar": {
+   "facial-massage-t1": "تفيد مراجعة تاريخية حول منهج ابن سينا في التدليك في «القانون في الطب» (Acta Medico-Historica Adriatica، 2019) بأن الكتاب حدّد أنواعًا مختلفة من التدليك (الدَّلك)، من بينها الدلك اللين الذي يُرخي الجسم، والدلك الخفيف الذي يزيد تدفق الدم في موضع التطبيق، والدلك التحضيري والدلك الاستعادي اللذان يُجريان قبل التمرين وبعده. ويصف الملخص تدليك الجسم عمومًا ولا يذكر تدليك الوجه ولا مصطلح «الدَّلك» صراحةً. وهذا وصف تاريخي وليس بيانًا عن الفعالية أو السلامة، ويعتمد هذا البند على الملخص فقط."
+  }
+ }
+}

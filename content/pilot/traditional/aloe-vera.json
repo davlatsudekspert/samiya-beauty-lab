@@ -1,0 +1,32 @@
+{
+ "slug": "aloe-vera",
+ "items": [
+  {
+   "id": "aloe-vera-t1",
+   "tradition": "Persian traditional medicine (Canon of Medicine)",
+   "text_en": "A review of Aloe species in traditional and modern medicine (Biomedicine & Pharmacotherapy, 2016) reports that it examined major Islamic Iranian traditional texts, including Al-Qanun fi'l-Tibb (Canon of Medicine), and that, among the properties most frequently mentioned there, were properties relating to skin problems such as wounds, injuries and infective diseases, alongside internal uses that are outside the scope of this card. The review notes that many traditional effects have not been studied and require confirmatory investigation. This is a historical record, not evidence of effectiveness or safety.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "27716590",
+     "doi": "10.1016/j.biopha.2016.09.096",
+     "title": "Therapeutic effects of Aloe spp. in traditional and modern medicine: A review.",
+     "year": 2016,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27716590/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "aloe-vera-t1": "An'anaviy va zamonaviy tibbiyotdagi Aloe turlariga bag'ishlangan sharh (Biomedicine & Pharmacotherapy, 2016) islom-eron an'anaviy tibbiyotining yirik matnlari, jumladan «al-Qonun fi at-Tibb» («Tib qonunlari»), o'rganilganini va u yerda eng ko'p tilga olingan xususiyatlar orasida terining muammolari — jarohatlar, shikastlanishlar va yuqumli kasalliklar — bilan bog'liq xususiyatlar, shuningdek ushbu kartochka doirasidan tashqaridagi ichki qo'llanishlar ham bo'lganini ma'lum qiladi. Sharhda ko'plab an'anaviy ta'sirlar o'rganilmagani va tasdiqlovchi tadqiqotlarni talab qilishi qayd etilgan. Bu tarixiy qayd bo'lib, samaradorlik yoki xavfsizlik dalili emas."
+  },
+  "ru": {
+   "aloe-vera-t1": "В обзоре о видах Aloe в традиционной и современной медицине (Biomedicine & Pharmacotherapy, 2016) сообщается, что были изучены основные исламские иранские традиционные тексты, включая «Аль-Канун фи-т-тибб» («Канон врачебной науки»), и что среди наиболее часто упоминаемых там свойств были свойства, относящиеся к проблемам кожи, таким как раны, повреждения и инфекционные заболевания, наряду с внутренними применениями, выходящими за рамки этой карточки. В обзоре отмечено, что многие традиционные эффекты не изучались и требуют подтверждающих исследований. Это историческая запись, а не свидетельство эффективности или безопасности."
+  },
+  "ar": {
+   "aloe-vera-t1": "تفيد مراجعة حول أنواع الألوة (Aloe) في الطب التقليدي والحديث (Biomedicine & Pharmacotherapy، 2016) بأنها فحصت نصوصًا رئيسية من الطب الإيراني الإسلامي التقليدي، ومنها «القانون في الطب»، وبأن من أكثر الخصائص ذكرًا فيها خصائص تتعلق بمشكلات الجلد مثل الجروح والإصابات والأمراض المعدية، إلى جانب استخدامات داخلية تقع خارج نطاق هذه البطاقة. وتشير المراجعة إلى أن كثيرًا من التأثيرات التقليدية لم تُدرس بعد وتحتاج إلى أبحاث تأكيدية. وهذا سجل تاريخي وليس دليلًا على الفعالية أو السلامة."
+  }
+ }
+}
