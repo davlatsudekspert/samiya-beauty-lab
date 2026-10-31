@@ -25,9 +25,11 @@ jobs:
           cache-dependency-path: backend/package-lock.json
       - name: Sozlamalarni tekshirish
         run: |
-          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
-            echo "::error::CLOUDFLARE_API_TOKEN va CLOUDFLARE_ACCOUNT_ID Secrets kerak (docs/SECRETS.md)"; exit 1
-          fi
+          missing=0
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then echo "::error::CLOUDFLARE_API_TOKEN Secret bo'sh yoki topilmadi (Repository secrets ichida, aynan shu nom bilan)"; missing=1; fi
+          if [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then echo "::error::CLOUDFLARE_ACCOUNT_ID Secret bo'sh yoki topilmadi (Repository secrets ichida, aynan shu nom bilan)"; missing=1; fi
+          [ "$missing" = 0 ] || exit 1
+          echo "Secrets mavjud (uzunliklar: token ${#CLOUDFLARE_API_TOKEN}, account ${#CLOUDFLARE_ACCOUNT_ID})"
       - run: npm ci
       - run: npm run typecheck
       - run: npm test
