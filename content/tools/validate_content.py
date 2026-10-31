@@ -4,7 +4,7 @@
 Ishlatish:  python3 -I content/tools/validate_content.py content/pilot [--online]
 --online: har PMID ni PubMed (NCBI eutils) dan olib, sarlavha va yilni solishtiradi.
 """
-import difflib, json, re, sys, urllib.request
+import difflib, json, re, sys, time, urllib.request, urllib.error
 from pathlib import Path
 
 SLUGS = ["niacinamide", "retinol", "salicylic-acid", "hyaluronic-acid", "ascorbic-acid"]
@@ -72,10 +72,21 @@ def check_pmids(slug, card):
             if s.get("type") != "pubmed": continue
             pmid = str(s["pmid"])
             url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id={pmid}&retmode=json"
-            try:
-                d = json.load(urllib.request.urlopen(url, timeout=30))["result"].get(pmid)
-            except Exception as e:
-                err(slug, f"PMID {pmid}: PubMed'ga ulanib bo'lmadi ({e})"); continue
+            d, last = None, None
+            for attempt in range(6):  # NCBI tezlik cheklovi (429): kutib qayta uriniladi
+                try:
+                    time.sleep(0.5)
+                    d = json.load(urllib.request.urlopen(url, timeout=30))["result"].get(pmid)
+                    last = None
+                    break
+                except urllib.error.HTTPError as e:
+                    last = e
+                    if e.code != 429: break
+                    time.sleep(3 * (attempt + 1))
+                except Exception as e:
+                    last = e; break
+            if last is not None:
+                err(slug, f"PMID {pmid}: PubMed'ga ulanib bo'lmadi ({last})"); continue
             if not d or "error" in d: err(slug, f"PMID {pmid} PubMed'da topilmadi"); continue
             ratio = difflib.SequenceMatcher(None, norm(d.get("title", "")), norm(s["title"])).ratio()
             if ratio < 0.8: err(slug, f"PMID {pmid}: sarlavha mos emas ({ratio:.2f}): PubMed='{d.get('title','')[:70]}'")

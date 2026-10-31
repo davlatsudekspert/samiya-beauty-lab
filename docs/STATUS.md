@@ -51,5 +51,10 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 - 11 Bosh sahifa native: salom, qidiruv (hozircha "tez orada"), banner, 6 plitka, mashhur ingredientlar (faqat INCI nomlari, da'vosiz). Dizayndan **ongli chetga chiqish**: "Tabiiy va havfsiz" -> "Dalillar va manbalar bilan" (dalilsiz da'vo), "Teri tahlili" -> "Teri afzalliklari" (tashxis ma'nosi), "Mutaxassislar" -> "SAMIYA AI" (bunday katalog yo'q).
 - Testlar: `flutter test` 85 ta o'tdi (jumladan siyosat testi: bosh sahifada halal/xavfsiz/88% kabi iboralar 4 tilda yo'q; arabda navigatsiya tartibi teskari; 320x568 va 1.5x shriftda overflow yo'q). `flutter analyze` toza.
 
+## Kontent pilot (A): 5 ingredient, 4 til (DRAFT, qisman tekshirilgan)
+- `content/pilot/`: niacinamide, hyaluronic-acid, salicylic-acid, ascorbic-acid, retinol + 40 terminli glossary (uz, ru, ar). 19 noyob PMID; `validate_content.py --online` o'tdi (PMID, sarlavha, yil PubMed bilan mos). Qo'lda annotatsiya bilan tekshirildi: niacinamide-2, -3, -5 (oxirgisi olib tashlandi).
+- Ko'rib chiqishda 3 da'vo mazmun doirasiga to'g'ri kelmagani uchun olib tashlandi (dori yoki protsedura: aktinik keratoz/fluorouracil, kimyoviy piling, lazerdan keyingi qizarish). Qoida `content/pilot/README.md`da.
+- **TASDIQLANMAGAN:** barcha 5 kartochkada EU annex va CosIng funksiyalari (`unverified`), chunki EUR-Lex/CosIng bu muhitdan o'qilmadi. Retinol va salitsil kislota cheklovlari qo'lda rasmiy manbadan tekshirilishi shart. Arab/rus/uz matnlari mashina tarjimasi. Validator da'voning manbaga to'liq mosligini tekshirmaydi (faqat sarlavha/yil).
+
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.

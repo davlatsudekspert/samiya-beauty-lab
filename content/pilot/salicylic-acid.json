@@ -1,0 +1,96 @@
+{
+  "inci": "Salicylic Acid",
+  "slug": "salicylic-acid",
+  "status": "draft",
+  "cosing": {
+    "functions": [],
+    "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+    "verified": false
+  },
+  "eu_regulation": {
+    "annex": "unverified",
+    "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Salicylic acid is subject to restrictions in EU cosmetics law, so the annex entries and conditions must be checked manually before publishing.",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+    "verified": false
+  },
+  "summary_en": "Salicylic acid is a beta-hydroxy acid used in cleansers, lotions and professional peels, and it is mainly studied for acne and related skin concerns. Many published trials test it inside multi-ingredient regimens, so the effect of salicylic acid alone is hard to separate. Its use in cosmetics is regulated in the EU. This card summarises published evidence only and is not medical advice.",
+  "claims": [
+    {
+      "id": "salicylic-acid-1",
+      "text_en": "The 2024 American Academy of Dermatology acne guideline, based on a systematic review and GRADE assessment, made a conditional recommendation for topical salicylic acid, and strong recommendations for benzoyl peroxide and topical retinoids.",
+      "evidence_level": "A",
+      "study_type": "systematic review",
+      "sources": [
+        {
+          "type": "pubmed",
+          "pmid": "38300170",
+          "doi": "10.1016/j.jaad.2023.12.017",
+          "title": "Guidelines of care for the management of acne vulgaris.",
+          "year": 2024,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38300170/"
+        }
+      ],
+      "checked_on": "2026-10-31"
+    },
+    {
+      "id": "salicylic-acid-3",
+      "text_en": "In a double-blind randomised study of 54 adults with mild to moderate facial acne, an over-the-counter regimen containing salicylic acid showed efficacy comparable to a prescription adapalene/benzoyl peroxide regimen over 12 weeks, with less tightness or dryness reported; the study was linked to the manufacturer and tested whole regimens, not salicylic acid alone.",
+      "evidence_level": "B",
+      "study_type": "RCT",
+      "sources": [
+        {
+          "type": "pubmed",
+          "pmid": "39301780",
+          "doi": "10.1111/jocd.16568",
+          "title": "Efficacy and Tolerability of a Novel Cosmetic and Over-the-Counter Facial Acne Regimen Versus a Prescription Treatment.",
+          "year": 2024,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39301780/"
+        }
+      ],
+      "checked_on": "2026-10-31"
+    },
+    {
+      "id": "salicylic-acid-4",
+      "text_en": "In a small randomised split-face study in which 21 adults completed a 12-week regimen of azelaic acid, salicylic acid and retinol, lesion reduction was similar to a benzoyl peroxide regimen with fewer dropouts due to irritation; because several actives were combined, effects cannot be attributed to salicylic acid alone.",
+      "evidence_level": "B",
+      "study_type": "RCT",
+      "sources": [
+        {
+          "type": "pubmed",
+          "pmid": "38787441",
+          "doi": "10.1007/s00403-024-02874-9",
+          "title": "A randomized controlled double-blinded split-face prospective clinical trial to assess the efficacy, safety, and tolerability of a novel 3-step routine compared to benzoyl peroxide for the treatment of mild to moderate acne vulgaris.",
+          "year": 2024,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38787441/"
+        }
+      ],
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "translations": {
+    "uz": {
+      "summary": "Salitsil kislotasi (Salicylic Acid) beta-gidroksi kislota bo'lib, yuvish vositalari, losyonlar va professional pilinglarda qo'llaniladi hamda asosan akne va unga yaqin teri muammolari bo'yicha o'rganilgan. Chop etilgan ko'plab tadqiqotlar uni bir nechta ingredientli sxemalar ichida sinaydi, shu sababli faqat salitsil kislotasining ta'sirini ajratish qiyin. Uning kosmetikada qo'llanilishi Yevropa Ittifoqida tartibga solinadi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+      "claims": {
+        "salicylic-acid-1": "Tizimli sharh va GRADE baholashiga asoslangan Amerika dermatologiya akademiyasining 2024-yilgi akne bo'yicha klinik ko'rsatmasi surtiladigan salitsil kislotasi uchun shartli tavsiya, benzoil peroksid va surtiladigan retinoidlar uchun esa kuchli tavsiya bergan.",
+        "salicylic-acid-3": "Yengil va o'rtacha yuz akneli 54 nafar kattalar ishtirok etgan ikki tomonlama ko'r randomizatsiyalangan tadqiqotda salitsil kislotali retseptsiz sxema 12 hafta davomida retsept bilan beriladigan adapalen/benzoil peroksid sxemasi bilan taqqoslanadigan samara ko'rsatgan, tarang tortilish yoki quruqlik kamroq qayd etilgan; tadqiqot ishlab chiqaruvchi bilan bog'liq edi va faqat salitsil kislotasini emas, butun sxemalarni sinagan.",
+        "salicylic-acid-4": "Azelain kislotasi, salitsil kislotasi va retinoldan iborat 12 haftalik sxemani 21 nafar kattalar yakunlagan kichik randomizatsiyalangan yarim yuzli tadqiqotda toshmalar kamayishi benzoil peroksid sxemasi bilan o'xshash bo'lgan, tirnash sababli tadqiqotni tark etganlar esa kamroq bo'lgan; bir nechta faol modda birlashtirilgani uchun natijalarni faqat salitsil kislotasiga bog'lab bo'lmaydi."
+      }
+    },
+    "ru": {
+      "summary": "Салициловая кислота (Salicylic Acid) является бета-гидроксикислотой, которую используют в средствах для умывания, лосьонах и профессиональных пилингах; она изучалась в основном при акне и связанных проблемах кожи. Многие опубликованные исследования проверяют её в составе многокомпонентных схем, поэтому действие одной только салициловой кислоты трудно выделить. Её применение в косметике регулируется в ЕС. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+      "claims": {
+        "salicylic-acid-1": "Клиническое руководство Американской академии дерматологии по акне 2024 года, основанное на систематическом обзоре и оценке по GRADE, дало условную рекомендацию в отношении местной салициловой кислоты и сильные рекомендации в отношении бензоилпероксида и местных ретиноидов.",
+        "salicylic-acid-3": "В двойном слепом рандомизированном исследовании с участием 54 взрослых с акне лёгкой и средней степени на лице безрецептурная схема с салициловой кислотой за 12 недель показала эффективность, сопоставимую с рецептурной схемой адапален/бензоилпероксид, при меньшем ощущении стянутости или сухости; исследование было связано с производителем и проверяло схемы целиком, а не одну салициловую кислоту.",
+        "salicylic-acid-4": "В небольшом рандомизированном исследовании по принципу «половина лица», в котором 21 взрослый завершил 12-недельную схему с азелаиновой кислотой, салициловой кислотой и ретинолом, уменьшение высыпаний было сходным со схемой с бензоилпероксидом, а выбывших из-за раздражения было меньше; поскольку сочетались несколько активных компонентов, эффекты нельзя приписать одной салициловой кислоте."
+      }
+    },
+    "ar": {
+      "summary": "حمض الساليسيليك (Salicylic Acid) هو حمض بيتا هيدروكسي يُستخدم في منظفات الوجه والغسولات والتقشير المهني، وقد جرت دراسته في الغالب فيما يخص حب الشباب والمشكلات الجلدية المرتبطة به. تختبره كثير من التجارب المنشورة ضمن برامج متعددة المكونات، لذلك يصعب فصل تأثير حمض الساليسيليك وحده. ويخضع استخدامه في مستحضرات التجميل للتنظيم في الاتحاد الأوروبي. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+      "claims": {
+        "salicylic-acid-1": "قدّمت إرشادات الأكاديمية الأمريكية للأمراض الجلدية لعام 2024 بشأن حب الشباب، المبنية على مراجعة منهجية وتقييم GRADE، توصية مشروطة بخصوص حمض الساليسيليك الموضعي، وتوصيات قوية بخصوص بيروكسيد البنزويل والرتينويدات الموضعية.",
+        "salicylic-acid-3": "في دراسة عشوائية مزدوجة التعمية شملت 54 بالغًا يعانون من حب شباب خفيف إلى متوسط في الوجه، أظهر برنامج متاح دون وصفة طبية يحتوي على حمض الساليسيليك فعالية مماثلة لبرنامج بوصفة طبية من أدابالين/بيروكسيد البنزويل على مدى 12 أسبوعًا، مع الإبلاغ عن شدّ أو جفاف أقل؛ وكانت الدراسة مرتبطة بالجهة المصنّعة واختبرت برامج كاملة وليس حمض الساليسيليك وحده.",
+        "salicylic-acid-4": "في دراسة عشوائية صغيرة بتصميم نصف الوجه أتمّ فيها 21 بالغًا برنامجًا مدته 12 أسبوعًا من حمض الأزيليك وحمض الساليسيليك والريتينول، كان انخفاض الآفات مماثلًا لبرنامج بيروكسيد البنزويل مع انسحاب أقل بسبب التهيج؛ ونظرًا إلى الجمع بين عدة مواد فعّالة لا يمكن عزو النتائج إلى حمض الساليسيليك وحده."
+      }
+    }
+  }
+}
