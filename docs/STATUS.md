@@ -71,5 +71,11 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 - **Kontent yagona manbadan:** `content/tools/build_app_content.py` `content/pilot` dan `mobile/assets/content/ingredients.json` ni yasaydi (qo'lda tahrirlanmaydi).
 - **Testlar:** `flutter test` 142 ta o'tdi (jumladan kontent shartnomasi, siyosat va 320x568/1.5x shriftda 4 tilda overflow yo'q); `flutter analyze` toza. Test topgan xato: asset o'qish soxta vaqt zonasida qotib qolgan edi (`runAsync` bilan tuzatildi).
 
+## Apple davomi: ilova yozuvi va CI kaliti (yordamchi, 2026-10-31)
+- **App Store Connect ilova yozuvi yaratildi:** "SAMIYA BEAUTY LAB", Apple ID `6829190065`, Bundle `uz.samiya.beautylab`, SKU `samiya-beauty-lab`, til English (U.S.), kategoriya Lifestyle (asosiy) va Education (qo'shimcha). Obuna mahsuloti hali yaratilmagan (narx yo'q).
+- **CI API kaliti yaratildi:** "SAMIYA CI", Key ID `ZC53Z723LK`, rol App Manager. `.p8` ni egasi o'zi yuklab oladi. **Issuer ID** yordamchi hisobotida noto'g'ri formatda (38 belgi), qiymat taxmin qilinmadi: egasi Apple sahifasidan aniq nusxalaydi.
+- **Firebase:** loyiha yaratish shartlarini qabul qilishni egasi o'zi bajaradi (yordamchi to'xtagan).
+- **CI ish oqimlari qo'shildi** (`.github/workflows/`): `ci.yml` (har push, Linux: tahlil, testlar, kontent tekshiruvi), `android-aab.yml` va `ios-testflight.yml` (faqat qo'lda; **tekshirilmagan qoralamalar**, Android SDK va Mac bu yerda yo'q). Kerakli Secrets: `docs/SECRETS.md`. Android release imzosi `key.properties` orqali (kalit yo'q bo'lsa debug imzo, faqat lokal).
+
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.

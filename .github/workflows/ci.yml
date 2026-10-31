@@ -1,0 +1,53 @@
+# Har push va PR da: tahlil va testlar (Linux, arzon). macOS bu yerda ISHLATILMAYDI.
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  mobile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: mobile
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.9'
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test --exclude-tags visual --timeout 60s
+  backend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: backend/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+  content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kartochkalar sxemasi va siyosat tekshiruvi (tarmoqsiz)
+        run: python3 -I content/tools/validate_content.py content/pilot
+      - name: Ilova ma'lumot fayli manbadan yangilanganmi
+        run: |
+          python3 -I content/tools/build_app_content.py content/pilot /tmp/ingredients.json
+          diff -q /tmp/ingredients.json mobile/assets/content/ingredients.json

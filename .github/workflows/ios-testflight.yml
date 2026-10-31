@@ -1,0 +1,77 @@
+# QO'LDA ishga tushiriladi (PULLIK macOS daqiqalari ketadi). TestFlight'ga imzolangan IPA yuklaydi.
+# TEKSHIRILMAGAN qoralama: Mac bu yerda yo'q, imzolash (API kaliti bilan avtomatik) birinchi ishga tushirishda
+# sozlashni talab qilishi mumkin. App Store review'ga YUBORMAYDI. Secrets: docs/SECRETS.md.
+name: iOS TestFlight
+on:
+  workflow_dispatch:
+jobs:
+  testflight:
+    runs-on: macos-15
+    timeout-minutes: 60
+    env:
+      TEAM_ID: 5Z9CT2W378
+      BUNDLE_ID: uz.samiya.beautylab
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+      ASC_KEY_P8_B64: ${{ secrets.ASC_KEY_P8_B64 }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Secrets tekshiruvi
+        run: |
+          for v in ASC_KEY_ID ASC_ISSUER_ID ASC_KEY_P8_B64; do
+            if [ -z "${!v}" ]; then echo "::error::$v Secret yo'q (docs/SECRETS.md)"; exit 1; fi
+          done
+          if ! echo "$ASC_ISSUER_ID" | grep -Eq '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$'; then
+            echo "::error::ASC_ISSUER_ID UUID formatida emas (8-4-4-4-12). Apple sahifasidan aniq nusxalang."; exit 1
+          fi
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.9'
+          channel: stable
+          cache: true
+      - name: API kalitini joylash
+        run: |
+          mkdir -p ~/.appstoreconnect/private_keys
+          echo "$ASC_KEY_P8_B64" | base64 --decode > ~/.appstoreconnect/private_keys/AuthKey_${ASC_KEY_ID}.p8
+      - name: Firebase fayli (bo'lsa)
+        env:
+          PLIST_B64: ${{ secrets.GOOGLE_SERVICE_INFO_PLIST_B64 }}
+        run: |
+          if [ -n "$PLIST_B64" ]; then echo "$PLIST_B64" | base64 --decode > mobile/ios/Runner/GoogleService-Info.plist; fi
+      - name: Flutter tayyorlash
+        working-directory: mobile
+        run: |
+          flutter pub get
+          flutter test --exclude-tags visual --timeout 60s
+          flutter build ios --release --no-codesign --build-number ${{ github.run_number }}
+      - name: Arxiv (imzolash Apple API kaliti bilan, avtomatik)
+        working-directory: mobile/ios
+        run: |
+          xcodebuild archive -workspace Runner.xcworkspace -scheme Runner -configuration Release \
+            -archivePath "$RUNNER_TEMP/Runner.xcarchive" -destination 'generic/platform=iOS' \
+            DEVELOPMENT_TEAM="$TEAM_ID" CODE_SIGN_STYLE=Automatic \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath ~/.appstoreconnect/private_keys/AuthKey_${ASC_KEY_ID}.p8 \
+            -authenticationKeyID "$ASC_KEY_ID" -authenticationKeyIssuerID "$ASC_ISSUER_ID"
+      - name: IPA eksporti
+        working-directory: mobile/ios
+        run: |
+          cat > "$RUNNER_TEMP/ExportOptions.plist" <<PLIST
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0"><dict>
+            <key>method</key><string>app-store-connect</string>
+            <key>teamID</key><string>${TEAM_ID}</string>
+            <key>signingStyle</key><string>automatic</string>
+            <key>uploadSymbols</key><true/>
+          </dict></plist>
+          PLIST
+          xcodebuild -exportArchive -archivePath "$RUNNER_TEMP/Runner.xcarchive" \
+            -exportPath "$RUNNER_TEMP/ipa" -exportOptionsPlist "$RUNNER_TEMP/ExportOptions.plist" \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath ~/.appstoreconnect/private_keys/AuthKey_${ASC_KEY_ID}.p8 \
+            -authenticationKeyID "$ASC_KEY_ID" -authenticationKeyIssuerID "$ASC_ISSUER_ID"
+      - name: TestFlight'ga yuklash
+        run: |
+          xcrun altool --upload-app --type ios --file "$RUNNER_TEMP"/ipa/*.ipa \
+            --apiKey "$ASC_KEY_ID" --apiIssuer "$ASC_ISSUER_ID"
