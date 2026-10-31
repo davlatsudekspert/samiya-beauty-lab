@@ -133,5 +133,10 @@
   "scanNoText": "Tarkib topilmadi. Tarkib yozuvini yaqindan, yorug‘da va aniq suratga oling.",
   "scanFailed": "Rasmni o‘qib bo‘lmadi. Qayta urinib ko‘ring yoki tarkibni qo‘lda kiriting.",
   "scanUnavailable": "Kamera orqali o‘qish bu qurilmada mavjud emas. Tarkibni qo‘lda kiriting.",
-  "scanReviewHint": "Matn rasmdan o‘qildi. Xatolarni tekshirib, kerak bo‘lsa tuzating."
+  "scanReviewHint": "Matn rasmdan o‘qildi. Xatolarni tekshirib, kerak bo‘lsa tuzating.",
+  "filterAll": "Barchasi",
+  "filterActive": "Faol moddalar",
+  "filterNatural": "Tabiiy va o‘simlik",
+  "naturalSectionTitle": "Tabiiy va o‘simlik asosli",
+  "naturalNote": "“Tabiiy” avtomatik “xavfsiz” degani emas: allergiya va ta‘sirlanish bo‘lishi mumkin. Yangi vositani avval terining kichik joyida sinab ko‘ring."
 }

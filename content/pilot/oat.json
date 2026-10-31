@@ -1,0 +1,173 @@
+{
+ "inci": "Avena Sativa Kernel Flour",
+ "slug": "oat",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Colloidal oatmeal (finely milled oat, INCI Avena Sativa Kernel Flour; people also write it as \"oatmeal\" or \"oat\") is used in leave-on creams, washes and baths and has been studied in topical products for dry skin, skin barrier and tolerability. The clinical evidence on this card comes from small studies, often of finished products or comparisons with other creams, so effects cannot be attributed to oat alone; the mechanistic data are laboratory-based. Sensitisation to oat in topical products has been reported, mainly in children with atopic dermatitis. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "oat-1",
+   "text_en": "Laboratory studies reported that colloidal oatmeal extracts increased the expression of skin-barrier-related genes in cell and skin-model experiments, and that avenanthramides (oat polyphenols) reduced inflammatory signalling in cultured skin cells and in mouse models of skin inflammation and itch; a synthetic avenanthramide analogue also increased tight junction protein expression in skin-cell models. These are in vitro and animal findings and do not show the same effects in people.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "27272074",
+     "title": "Colloidal Oatmeal (Avena Sativa) Improves Skin Barrier Through Multi-Therapy Activity.",
+     "year": 2016,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27272074/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "18461339",
+     "doi": "10.1007/s00403-008-0858-x",
+     "title": "Avenanthramides, polyphenols from oats, exhibit anti-inflammatory and anti-itch activity.",
+     "year": 2008,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/18461339/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "39329899",
+     "doi": "10.3390/cimb46090547",
+     "title": "Dihydroavenanthramide D Enhances Skin Barrier Function through Upregulation of Epidermal Tight Junction Expression.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39329899/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "oat-2",
+   "text_en": "In a randomised study of 32 participants with very dry leg skin, a colloidal oatmeal moisturising cream and a different natural-ingredient cream, each applied twice daily to randomly assigned legs for three weeks, were both associated with higher skin hydration, lower transepidermal water loss and reduced visual dryness and roughness; the oatmeal cream served as the comparator and no untreated or vehicle-only comparison is described in the abstract, so the effect of oatmeal alone cannot be separated from the cream formulation, and the sample was small.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "30005098",
+     "title": "Clinical Improvements in Very Dry Skin from a Natural Ingredient-Based Moisturizing Cream Compared With a Leading Colloidal Oatmeal Control.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30005098/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "oat-3",
+   "text_en": "In a 4-week, single-centre, non-randomised study of 29 babies aged 3 to 36 months who were prone to atopic dermatitis (24 completed it), a colloidal oatmeal-containing baby wash was reported as well tolerated; clinician-rated dryness, redness, rash/irritation and roughness and parent-rated itching scored lower at week 4, while the overall skin condition score did not change significantly. There was no control group and all completers were White, so conclusions are limited.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40709409",
+     "doi": "10.1111/ics.70010",
+     "title": "A colloidal oat-containing baby wash is gentle and effective for atopic-prone skin.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40709409/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "oat-4",
+   "text_en": "A literature review of clinical trials of commercially available moisturisers for atopic dermatitis (studies published 2006 to 2019 that used corneometry, transepidermal water loss or flare incidence) reported that regular moisturisation improved skin barrier measures; the authors also state that moisturisers marketed in the USA with atopic dermatitis treatment claims must contain colloidal oatmeal. The review does not isolate the contribution of oatmeal itself.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "32524381",
+     "doi": "10.1007/s40257-020-00529-9",
+     "title": "Efficacy of Nonprescription Moisturizers for Atopic Dermatitis: An Updated Review of Clinical Evidence.",
+     "year": 2020,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32524381/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "oat-5",
+   "text_en": "Sensitisation to oat in topical products has been reported, mainly in people with atopic dermatitis: in a prospective study of 302 children with atopic dermatitis referred for allergy testing, oat patch tests were positive in 14.6% and skin prick tests in 19.2%, and the authors suggested avoiding topical products containing oat proteins in infants with atopic dermatitis. Other small studies found no allergic reactions to oat-based cosmetics in 12 cereal-sensitised adults with atopic dermatitis, or to colloidal oat and rice suspensions in 65 children, so the evidence is mixed and comes from small or selected groups.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "17919139",
+     "doi": "10.1111/j.1398-9995.2007.01527.x",
+     "title": "Oat sensitization in children with atopic dermatitis: prevalence, risks and associated factors.",
+     "year": 2007,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17919139/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "24201466",
+     "doi": "10.1097/DER.0b013e3182a745f8",
+     "title": "Oat and wheat as contact allergens in personal care products.",
+     "year": 2013,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24201466/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "19223682",
+     "doi": "10.1159/000203649",
+     "title": "Tolerance of oat-based topical products in cereal-sensitized adults with atopic dermatitis.",
+     "year": 2009,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19223682/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "9358111",
+     "title": "An evaluation of the allergic contact dermatitis potential of colloidal grain suspensions.",
+     "year": 1997,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/9358111/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Kolloid suli uni (maydalangan suli, INCI: Avena Sativa Kernel Flour; odamlar uni \"oatmeal\" yoki \"oat\" deb ham yozadi) qoldiriladigan kremlar, yuvish vositalari va vannalarda ishlatiladi va quruq teri, teri to'sig'i hamda teri tomonidan yaxshi qabul qilinishi bo'yicha surtiladigan vositalarda o'rganilgan. Bu kartochkadagi klinik dalillar kichik tadqiqotlardan olingan bo'lib, ko'pincha tayyor mahsulotlar yoki boshqa kremlar bilan taqqoslashlar haqida, shu sababli natijalarni faqat suliga bog'lab bo'lmaydi; mexanizm bo'yicha ma'lumotlar laboratoriya sharoitidagi tadqiqotlarga asoslangan. Surtiladigan vositalarda suliga nisbatan sensibilizatsiya (allergik sezgirlik) qayd etilgan, asosan atopik dermatitli bolalarda. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "oat-1": "Laboratoriya tadqiqotlarida kolloid suli ekstraktlari hujayra va teri modellari tajribalarida teri to'sig'i bilan bog'liq genlar ifodasini oshirgani, avenantramidlar (suli polifenollari) esa o'stirilgan teri hujayralarida hamda teri yallig'lanishi va qichishining sichqon modellarida yallig'lanish signalini kamaytirgani xabar qilingan; sintetik avenantramid analogi ham teri hujayralari modellarida zich birikma oqsillari ifodasini oshirgan. Bu in vitro va hayvonlarda olingan topilmalar bo'lib, odamlarda xuddi shunday ta'sirni ko'rsatmaydi.",
+    "oat-2": "Oyoq terisi juda quruq bo'lgan 32 ishtirokchi bilan o'tkazilgan randomizatsiyalangan tadqiqotda kolloid suli tarkibli namlantiruvchi krem va boshqa tabiiy tarkibli krem, tasodifiy tanlangan oyoqlarga kuniga ikki marta uch hafta davomida surtilganda, ikkalasi ham teri namligining yuqoriroq bo'lishi, transepidermal suv yo'qotilishining pastroq bo'lishi hamda ko'zga ko'rinadigan quruqlik va dag'allikning kamayishi bilan bog'langan; suli kremi taqqoslash vositasi bo'lgan, annotatsiyada davolanmagan yoki faqat vehikul bilan taqqoslash tasvirlanmagan, shu sababli faqat suli ta'sirini krem formulasidan ajratib bo'lmaydi, tanlama ham kichik bo'lgan.",
+    "oat-3": "Atopik dermatitga moyil 3 oydan 36 oygacha bo'lgan 29 nafar chaqaloq ishtirok etgan (24 nafari yakunlagan) 4 haftalik, bitta markazli, randomizatsiyalanmagan tadqiqotda kolloid suli tarkibli chaqaloq yuvish vositasi yaxshi qabul qilingani xabar qilingan; shifokor baholagan quruqlik, qizarish, toshma/tirnash va dag'allik hamda ota-onalar baholagan qichish ko'rsatkichlari 4-haftada past bo'lgan, terining umumiy holati bahosi esa sezilarli o'zgarmagan. Nazorat guruhi bo'lmagan va yakunlaganlarning hammasi oq tanli bo'lgan, shu sababli xulosalar cheklangan.",
+    "oat-4": "Atopik dermatit uchun sotuvda mavjud namlantiruvchi vositalarning klinik tadqiqotlari bo'yicha adabiyot sharhida (korneometriya, transepidermal suv yo'qotilishi yoki qaytalanish chastotasidan foydalangan, 2006 yildan 2019 yilgacha chop etilgan tadqiqotlar) muntazam namlantirish teri to'siqi ko'rsatkichlarini yaxshilagani xabar qilingan; mualliflar shuningdek AQShda atopik dermatit bo'yicha terapevtik da'volari bilan sotiladigan namlantiruvchi vositalar tarkibida kolloid suli bo'lishi shart ekanini bildiradi. Sharh sulining o'z hissasini alohida ajratmaydi.",
+    "oat-5": "Surtiladigan vositalardagi suliga nisbatan sensibilizatsiya qayd etilgan, asosan atopik dermatitli odamlarda: allergiya tekshiruviga yuborilgan atopik dermatitli 302 nafar bolada o'tkazilgan prospektiv tadqiqotda suli bilan teri \"patch\" (yopishtirma) testlari 14,6% da, teri prik-testlari 19,2% da ijobiy bo'lgan, mualliflar atopik dermatitli chaqaloqlarda suli oqsillari bor surtiladigan vositalardan qochishni taklif qilgan. Boshqa kichik tadqiqotlarda atopik dermatitli, donli o'simliklarga sensibilizatsiyalangan 12 nafar kattada suli asosidagi kosmetikaga yoki 65 nafar bolada kolloid suli va guruch suspenziyalariga allergik reaksiya kuzatilmagan, shu sababli dalillar aralash bo'lib, kichik yoki tanlab olingan guruhlardan olingan."
+   }
+  },
+  "ru": {
+   "summary": "Коллоидная овсяная мука (тонко измельчённый овёс, INCI: Avena Sativa Kernel Flour; люди также пишут «oatmeal» или «oat») используется в несмываемых кремах, средствах для умывания и ваннах и изучалась в средствах для местного применения в отношении сухой кожи, кожного барьера и переносимости. Клинические данные в этой карточке получены из небольших исследований, часто готовых продуктов или сравнений с другими кремами, поэтому эффекты нельзя приписать только овсу; данные о механизмах получены в лабораторных условиях. О сенсибилизации к овсу в средствах для местного применения сообщалось, главным образом у детей с атопическим дерматитом. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "oat-1": "В лабораторных исследованиях сообщалось, что экстракты коллоидной овсяной муки повышали экспрессию генов, связанных с кожным барьером, в экспериментах на клетках и моделях кожи, а авенантрамиды (полифенолы овса) снижали воспалительную сигнализацию в культивируемых клетках кожи и на мышиных моделях воспаления кожи и зуда; синтетический аналог авенантрамида также повышал экспрессию белков плотных контактов в моделях клеток кожи. Это данные in vitro и на животных, и они не показывают тех же эффектов у людей.",
+    "oat-2": "В рандомизированном исследовании с участием 32 человек с очень сухой кожей ног увлажняющий крем с коллоидной овсяной мукой и другой крем на натуральной основе, наносимые дважды в день на случайно выбранные ноги в течение трёх недель, были связаны с более высокой гидратацией кожи, более низкой трансэпидермальной потерей воды и уменьшением видимой сухости и шероховатости; крем с овсом служил препаратом сравнения, а сравнение с отсутствием обработки или только с основой в аннотации не описано, поэтому эффект одного овса нельзя отделить от рецептуры крема, и выборка была небольшой.",
+    "oat-3": "В 4-недельном одноцентровом нерандомизированном исследовании с участием 29 младенцев в возрасте от 3 до 36 месяцев, склонных к атопическому дерматиту (завершили 24), средство для купания с коллоидной овсяной мукой сообщалось как хорошо переносимое; оценённые врачом сухость, покраснение, сыпь/раздражение и шероховатость, а также оценённый родителями зуд были ниже на 4-й неделе, тогда как общий балл состояния кожи значимо не изменился. Контрольной группы не было, и все завершившие исследование были европеоидной расы, поэтому выводы ограничены.",
+    "oat-4": "В обзоре литературы по клиническим исследованиям продающихся увлажняющих средств при атопическом дерматите (исследования 2006–2019 годов с использованием корнеометрии, трансэпидермальной потери воды или частоты обострений) сообщалось, что регулярное увлажнение улучшало показатели кожного барьера; авторы также указывают, что увлажняющие средства, продаваемые в США с терапевтическими заявлениями при атопическом дерматите, должны содержать коллоидную овсяную муку. Обзор не выделяет вклад самого овса.",
+    "oat-5": "О сенсибилизации к овсу в средствах для местного применения сообщалось, главным образом у людей с атопическим дерматитом: в проспективном исследовании 302 детей с атопическим дерматитом, направленных на аллергологическое обследование, патч-тесты с овсом были положительными в 14,6% случаев, а прик-тесты кожи — в 19,2%, и авторы предложили избегать средств для местного применения с белками овса у младенцев с атопическим дерматитом. В других небольших исследованиях не наблюдали аллергических реакций на косметику на основе овса у 12 взрослых с атопическим дерматитом и сенсибилизацией к злакам или на суспензии коллоидного овса и риса у 65 детей, поэтому данные неоднозначны и получены на небольших или отобранных группах."
+   }
+  },
+  "ar": {
+   "summary": "دقيق الشوفان الغروي (colloidal oatmeal، شوفان مطحون ناعمًا، وفق INCI: Avena Sativa Kernel Flour؛ ويكتبه الناس أيضًا «oatmeal» أو «oat») يُستخدم في الكريمات التي تبقى على البشرة ومنتجات الغسل وحمّامات الاستحمام، وقد جرت دراسته في المنتجات الموضعية فيما يخص الجلد الجاف والحاجز الجلدي وقابلية التحمّل. تأتي الأدلة السريرية في هذه البطاقة من دراسات صغيرة، غالبًا على منتجات جاهزة أو مقارنات مع كريمات أخرى، ولذلك لا يمكن عزو التأثيرات إلى الشوفان وحده؛ أما البيانات المتعلقة بالآلية فمصدرها المختبر. وقد وُثّق تحسّس تجاه الشوفان في المنتجات الموضعية، وخاصةً لدى الأطفال المصابين بالتهاب الجلد التأتبي. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "oat-1": "أفادت دراسات مخبرية بأن مستخلصات دقيق الشوفان الغروي زادت تعبير الجينات المرتبطة بالحاجز الجلدي في تجارب على الخلايا ونماذج الجلد، وبأن الأفينانثراميدات (البوليفينولات الموجودة في الشوفان) خفّضت الإشارات الالتهابية في خلايا الجلد المستنبتة وفي نماذج فئران للالتهاب الجلدي والحكة؛ كما زاد نظير اصطناعي للأفينانثراميد تعبير بروتينات الوصلات المحكمة في نماذج خلايا الجلد. وهذه نتائج مخبرية (in vitro) وعلى الحيوانات، ولا تُظهر التأثيرات نفسها لدى البشر.",
+    "oat-2": "في دراسة عشوائية شملت 32 مشاركًا يعانون جفافًا شديدًا في جلد الساقين، ارتبط كل من كريم مرطّب يحتوي على دقيق الشوفان الغروي وكريم آخر بمكوّنات طبيعية، وقد طُبّقا مرتين يوميًا على ساقين مختارتين عشوائيًا لمدة ثلاثة أسابيع، بارتفاع ترطيب الجلد وانخفاض فقدان الماء عبر البشرة وتراجع الجفاف المرئي والخشونة؛ وكان كريم الشوفان هو المقارن، ولم تصف الخلاصة مقارنة مع جلد غير معالج أو مع قاعدة الكريم وحدها، ولذلك لا يمكن فصل تأثير الشوفان وحده عن تركيبة الكريم، وكانت العينة صغيرة.",
+    "oat-3": "في دراسة غير عشوائية مدتها 4 أسابيع في مركز واحد شملت 29 رضيعًا تتراوح أعمارهم بين 3 و36 شهرًا ومهيّئين للإصابة بالتهاب الجلد التأتبي (أكمل الدراسة 24 منهم)، أُفيد بأن غسول الأطفال المحتوي على دقيق الشوفان الغروي كان جيد التحمّل؛ وكانت درجات الجفاف والاحمرار والطفح/التهيّج والخشونة التي قيّمها الطبيب، ودرجة الحكة التي قيّمها الأهل، أقل في الأسبوع الرابع، بينما لم تتغير الدرجة العامة لحالة الجلد تغيرًا معنويًا. لم توجد مجموعة ضابطة، وكان جميع من أكملوا الدراسة من ذوي البشرة البيضاء، ولذلك فإن الاستنتاجات محدودة.",
+    "oat-4": "أفادت مراجعة أدبيات للتجارب السريرية على المرطّبات المتوفرة تجاريًا لالتهاب الجلد التأتبي (دراسات نُشرت بين عامي 2006 و2019 استخدمت قياس رطوبة الجلد أو فقدان الماء عبر البشرة أو معدل النوبات) بأن الترطيب المنتظم حسّن مؤشرات الحاجز الجلدي؛ ويذكر المؤلفون أيضًا أن المرطّبات المسوّقة في الولايات المتحدة بادعاءات علاجية لالتهاب الجلد التأتبي يجب أن تحتوي على دقيق الشوفان الغروي. ولا تعزل المراجعة مساهمة الشوفان نفسه.",
+    "oat-5": "وُثّق تحسّس تجاه الشوفان في المنتجات الموضعية، وخاصةً لدى المصابين بالتهاب الجلد التأتبي: ففي دراسة مستقبلية شملت 302 طفل مصابين بالتهاب الجلد التأتبي أُحيلوا لإجراء اختبارات الحساسية، كانت اختبارات اللصقة بالشوفان إيجابية في 14.6% واختبارات وخز الجلد إيجابية في 19.2%، واقترح المؤلفون تجنّب المنتجات الموضعية المحتوية على بروتينات الشوفان لدى الرضّع المصابين بالتهاب الجلد التأتبي. ولم تلاحظ دراسات صغيرة أخرى ردود فعل تحسسية تجاه مستحضرات التجميل المعتمدة على الشوفان لدى 12 بالغًا مصابين بالتهاب الجلد التأتبي ومتحسسين للحبوب، ولا تجاه معلّقات الشوفان والأرز الغروية لدى 65 طفلًا، ولذلك فإن الأدلة متباينة ومصدرها مجموعات صغيرة أو منتقاة."
+   }
+  }
+ }
+}

@@ -47,6 +47,7 @@ class Ingredient {
     required this.inci,
     required this.slug,
     required this.status,
+    this.category = 'active',
     required this.aliases,
     required this.euVerified,
     required this.summary,
@@ -55,10 +56,14 @@ class Ingredient {
   final String inci;
   final String slug;
   final String status; // draft | verified
+  final String category; // active | natural
   final List<String> aliases;
   final bool euVerified;
   final Map<String, String> summary;
   final List<Claim> claims;
+
+  /// Tabiiy/o'simlik asosli ingredient (ilovada alohida bo'lim va "tabiiy = xavfsiz emas" izohi bilan).
+  bool get isNatural => category == 'natural';
 
   String summaryFor(String lang) => _pick(summary, lang);
 
@@ -66,6 +71,7 @@ class Ingredient {
         inci: j['inci'] as String,
         slug: j['slug'] as String,
         status: j['status'] as String,
+        category: j['category'] == 'natural' ? 'natural' : 'active',
         aliases: List<String>.from(j['aliases'] as List),
         euVerified: (j['eu'] as Map)['verified'] as bool,
         summary: Map<String, String>.from(j['summary'] as Map),

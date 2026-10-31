@@ -1,0 +1,132 @@
+{
+ "inci": "Cocos Nucifera Oil",
+ "slug": "coconut-oil",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Coconut oil (INCI: Cocos Nucifera Oil) is a plant-derived oil used in topical products as an emollient for dry skin. Published clinical studies of topical coconut oil are small to moderate in size and often compare it with mineral oil, and the evidence for babies' skin is mixed. Plant-derived does not mean free of risk: allergic contact reactions to coconut-derived ingredients have been described in case reports. This card covers topical cosmetic use only, summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "coconut-oil-2",
+   "text_en": "In a double-blind randomised trial of 117 children with mild to moderate atopic dermatitis, eight weeks of topical virgin coconut oil was associated with a larger fall in SCORAD score (68.23% vs 38.13%) and with better transepidermal water loss and skin capacitance than mineral oil; this was a single trial in a clinical population, with mineral oil rather than placebo as the comparator.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "24320105",
+     "doi": "10.1111/ijd.12339",
+     "title": "The effect of topical virgin coconut oil on SCORAD index, transepidermal water loss, and skin capacitance in mild to moderate pediatric atopic dermatitis: a randomized, double-blind, clinical trial.",
+     "year": 2013,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24320105/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "coconut-oil-3",
+   "text_en": "In a double-blind randomised trial of 34 people with mild to moderate xerosis (dry skin), twice-daily extra virgin coconut oil on the legs for two weeks improved skin hydration and skin surface lipids to a degree comparable with mineral oil, with no significant difference in transepidermal water loss or skin pH; the trial was small and short, and participants had negative patch tests to the test products beforehand, so it does not address people who react to them.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "15724344",
+     "doi": "10.2310/6620.2004.04006",
+     "title": "A randomized double-blind controlled trial comparing extra virgin coconut oil with mineral oil as a moisturizer for mild to moderate xerosis.",
+     "year": 2004,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15724344/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "coconut-oil-4",
+   "text_en": "A systematic review of 14 randomised trials of topical oils on neonatal skin (5,683 neonates, most of them preterm; coconut oil was used in 5 trials, alongside sunflower, almond and other oils) reported that 11 trials concluded the oils improved skin condition and barrier function, while 3 had equivocal, negative or mixed findings, and the authors state that more high-level evidence is needed; the findings are not specific to coconut oil and mostly concern preterm infants, so they cannot be applied to routine skin care of babies.",
+   "evidence_level": "C",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "36409192",
+     "doi": "10.1097/01.ASW.0000891088.69828.2e",
+     "title": "Effects of Topical Oils on Neonatal Skin: A Systematic Review.",
+     "year": 2022,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36409192/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "coconut-oil-5",
+   "text_en": "Published case reports indexed under coconut oil describe allergic contact dermatitis attributed to cocamide DEA (a surfactant) in an intimate gel, to caprylic/capric triglyceride in an anti-aging face cream, and to an Ayurvedic coconut-oil-based herbal massage oil blend; these are single cases involving processed derivatives or multi-ingredient products rather than coconut oil itself, abstracts were available for only one of them, and they say nothing about how common such reactions are, but they show that plant-derived products can still cause skin reactions.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "34250626",
+     "doi": "10.1111/cod.13934",
+     "title": "Genital allergic contact dermatitis caused by cocamide DEA.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34250626/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "32542693",
+     "doi": "10.1111/cod.13641",
+     "title": "Allergic contact dermatitis caused by caprylic/capric triglyceride from an anti-aging cosmetic cream.",
+     "year": 2020,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32542693/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "24891661",
+     "doi": "10.4103/0019-5154.131402",
+     "title": "Allergic Contact Dermatitis (Type IV Hypersensitivity) and Type I Hypersensitivity Following Aromatherapy with Ayurvedic Oils (Dhanwantharam Thailam, Eladi Coconut Oil) Presenting as Generalized Erythema and Pruritus with Flexural Eczema.",
+     "year": 2014,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24891661/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Kokos moyi (INCI: Cocos Nucifera Oil) quruq teri uchun yumshatuvchi (emolent) sifatida surtiladigan vositalarda ishlatiladigan o'simlik moyi. Surtiladigan kokos moyi bo'yicha chop etilgan klinik tadqiqotlar kichikdan o'rtacha hajmgacha bo'lib, ko'pincha mineral moy bilan solishtirilgan, chaqaloqlar terisi bo'yicha dalillar esa aralash. O'simlik manbasidan olingani xavf yo'qligini anglatmaydi: kokosdan olingan ingredientlarga allergik kontakt reaksiyalar alohida klinik holatlar bayonida (case report) tasvirlangan. Bu kartochka faqat surtiladigan kosmetik qo'llanishni qamrab oladi, faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "coconut-oil-2": "Yengil va o'rtacha atopik dermatitli 117 nafar bola ishtirok etgan ikki tomonlama ko'r randomizatsiyalangan tadqiqotda sakkiz hafta davomida surtilgan sof (virgin) kokos moyi mineral moyga nisbatan SCORAD ballining kattaroq pasayishi (68,23% ga qarshi 38,13%) hamda transepidermal suv yo'qotilishi va teri sig'imining yaxshiroq ko'rsatkichlari bilan bog'langan; bu klinik guruhdagi yagona tadqiqot bo'lib, solishtirish guruhida plasebo emas, mineral moy ishlatilgan.",
+    "coconut-oil-3": "Yengil va o'rtacha kserozli (quruq teri) 34 kishi ishtirok etgan ikki tomonlama ko'r randomizatsiyalangan tadqiqotda oyoqlarga kuniga ikki marta surtilgan ekstra sof (extra virgin) kokos moyi ikki hafta ichida teri namligini va teri yuzasidagi lipidlarni mineral moy bilan taqqoslanadigan darajada yaxshilagan, transepidermal suv yo'qotilishi va teri pH'sida sezilarli farq bo'lmagan; tadqiqot kichik va qisqa bo'lgan, ishtirokchilarning sinov vositalariga patch-testlari oldindan manfiy bo'lgan, shuning uchun u bu vositalarga reaksiya beradigan odamlarga taalluqli emas.",
+    "coconut-oil-4": "Chaqaloqlar terisiga surtiladigan moylar bo'yicha 14 ta randomizatsiyalangan tadqiqotning tizimli sharhida (5 683 chaqaloq, ko'pchiligi muddatidan oldin tug'ilgan; 5 ta tadqiqotda kokos moyi, boshqalarida kungaboqar, bodom va boshqa moylar ishlatilgan) 11 ta tadqiqot moylar teri holatini va to'siq funksiyasini yaxshilagan degan xulosaga kelgani, 3 tasida esa natijalar noaniq, salbiy yoki aralash bo'lgani qayd etilgan, mualliflar yuqoriroq darajadagi dalillar zarurligini aytadi; natijalar kokos moyiga xos emas va asosan muddatidan oldin tug'ilgan chaqaloqlarga tegishli, shuning uchun ularni chaqaloqlar terisini odatiy parvarishlashga qo'llab bo'lmaydi.",
+    "coconut-oil-5": "Kokos moyi bo'yicha indekslangan e'lon qilingan klinik holatlar bayonlarida allergik kontakt dermatit intim gelda cocamide DEA (sirt faol modda) ga, qarishga qarshi yuz kremida caprylic/capric triglyceride ga va kokos moyi asosidagi Ayurveda o'simlik massaj moyi aralashmasiga bog'langan; bular kokos moyining o'ziga emas, balki qayta ishlangan hosilalar yoki ko'p komponentli vositalarga oid alohida holatlar bo'lib, ulardan faqat bittasining annotatsiyasi mavjud edi va ular bunday reaksiyalar qanchalik tez-tez uchrashini aytmaydi, lekin o'simlik manbasidan olingan vositalar ham teri reaksiyalarini keltirib chiqarishi mumkinligini ko'rsatadi."
+   }
+  },
+  "ru": {
+   "summary": "Кокосовое масло (INCI: Cocos Nucifera Oil) — растительное масло, которое используется в средствах для местного применения как смягчающее (эмолент) для сухой кожи. Опубликованные клинические исследования местного применения кокосового масла имеют небольшой или средний объём и часто сравнивают его с минеральным маслом, а данные по коже младенцев неоднородны. Растительное происхождение не означает отсутствия риска: в описаниях клинических случаев (case report) сообщалось об аллергических контактных реакциях на ингредиенты, полученные из кокоса. Эта карточка охватывает только местное косметическое применение, обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "coconut-oil-2": "В двойном слепом рандомизированном исследовании с участием 117 детей с атопическим дерматитом лёгкой и средней степени восемь недель наружного применения нерафинированного (virgin) кокосового масла были связаны с большим снижением балла SCORAD (68,23% против 38,13%) и с лучшими показателями трансэпидермальной потери воды и ёмкости кожи по сравнению с минеральным маслом; это единственное исследование в клинической группе, а в качестве сравнения использовалось минеральное масло, а не плацебо.",
+    "coconut-oil-3": "В двойном слепом рандомизированном исследовании с участием 34 человек с ксерозом (сухой кожей) лёгкой и средней степени нанесение экстра-нерафинированного (extra virgin) кокосового масла на ноги два раза в день в течение двух недель улучшило увлажнённость кожи и поверхностные липиды кожи в степени, сопоставимой с минеральным маслом, без значимой разницы в трансэпидермальной потере воды и pH кожи; исследование было небольшим и коротким, а у участников заранее были отрицательные патч-тесты на испытуемые средства, поэтому оно не касается людей, которые реагируют на эти средства.",
+    "coconut-oil-4": "В систематическом обзоре 14 рандомизированных исследований наружных масел для кожи новорождённых (5 683 младенца, большинство — недоношенные; кокосовое масло применялось в 5 исследованиях, в остальных — подсолнечное, миндальное и другие масла) сообщается, что 11 исследований пришли к выводу об улучшении состояния кожи и барьерной функции под действием масел, а в 3 результаты были неоднозначными, отрицательными или смешанными; авторы указывают, что нужны данные более высокого уровня; результаты не специфичны для кокосового масла и в основном относятся к недоношенным младенцам, поэтому их нельзя переносить на обычный уход за кожей младенцев.",
+    "coconut-oil-5": "В опубликованных описаниях клинических случаев (case report), индексированных по теме кокосового масла, аллергический контактный дерматит связывали с cocamide DEA (поверхностно-активным веществом) в интимном геле, с caprylic/capric triglyceride в антивозрастном креме для лица и со смесью растительных масел для массажа по аюрведе на основе кокосового масла; это единичные случаи, связанные с переработанными производными или многокомпонентными средствами, а не с самим кокосовым маслом, аннотация была доступна лишь для одного из них, и они ничего не говорят о том, как часто возникают такие реакции, но показывают, что средства растительного происхождения тоже могут вызывать кожные реакции."
+   }
+  },
+  "ar": {
+   "summary": "زيت جوز الهند (INCI: Cocos Nucifera Oil) زيت نباتي المصدر يُستخدم في المنتجات الموضعية كمُلطِّف (emollient) للبشرة الجافة. الدراسات السريرية المنشورة عن زيت جوز الهند الموضعي صغيرة إلى متوسطة الحجم وغالبًا ما تقارنه بالزيت المعدني، كما أن الأدلة المتعلقة ببشرة الرضّع متباينة. كون المنتج نباتي المصدر لا يعني خلوّه من المخاطر: فقد وُصفت في تقارير الحالات (case reports) تفاعلات تماسّية تحسسية تجاه مكوّنات مشتقة من جوز الهند. تغطي هذه البطاقة الاستخدام التجميلي الموضعي فقط، وتلخّص الأدلة المنشورة فقط، وليست نصيحة طبية.",
+   "claims": {
+    "coconut-oil-2": "في تجربة عشوائية مزدوجة التعمية شملت 117 طفلًا مصابين بالتهاب الجلد التأتبي الخفيف إلى المتوسط، ارتبط استخدام زيت جوز الهند البكر موضعيًا لمدة ثمانية أسابيع بانخفاض أكبر في درجة SCORAD (68.23% مقابل 38.13%) وبأفضلية في فقدان الماء عبر البشرة وسعة الجلد مقارنةً بالزيت المعدني؛ وهذه تجربة واحدة في فئة سريرية، وكان المقارِن زيتًا معدنيًا لا دواءً وهميًا.",
+    "coconut-oil-3": "في تجربة عشوائية مزدوجة التعمية شملت 34 شخصًا مصابًا بجفاف الجلد (xerosis) الخفيف إلى المتوسط، حسّن وضع زيت جوز الهند البكر الممتاز على الساقين مرتين يوميًا لمدة أسبوعين ترطيب الجلد ودهون سطح الجلد بدرجة قابلة للمقارنة مع الزيت المعدني، دون فرق معنوي في فقدان الماء عبر البشرة أو درجة حموضة الجلد؛ وكانت التجربة صغيرة وقصيرة، وكانت اختبارات اللصقة (patch tests) للمشاركين سلبية مسبقًا تجاه المنتجات المختبَرة، لذلك لا تتناول الأشخاص الذين يتفاعلون معها.",
+    "coconut-oil-4": "أفادت مراجعة منهجية لـ14 تجربة عشوائية حول الزيوت الموضعية على بشرة حديثي الولادة (5683 رضيعًا، معظمهم خدّج؛ واستُخدم زيت جوز الهند في 5 تجارب إلى جانب زيوت عباد الشمس واللوز وغيرها) بأن 11 تجربة خلصت إلى أن الزيوت حسّنت حالة الجلد ووظيفة الحاجز، بينما كانت نتائج 3 تجارب غير حاسمة أو سلبية أو مختلطة، ويذكر المؤلفون أن هناك حاجة إلى أدلة أعلى مستوى؛ والنتائج ليست خاصة بزيت جوز الهند وتتعلق في معظمها بالرضّع الخدّج، ولذلك لا يمكن تطبيقها على العناية الروتينية ببشرة الرضّع.",
+    "coconut-oil-5": "تصف تقارير حالات منشورة مفهرَسة تحت زيت جوز الهند التهاب الجلد التماسّي التحسسي المنسوب إلى cocamide DEA (مادة خافضة للتوتر السطحي) في جل حميمي، وإلى caprylic/capric triglyceride في كريم للوجه مضاد للشيخوخة، وإلى خليط زيوت عشبية للتدليك وفق الأيورفيدا يعتمد على زيت جوز الهند؛ وهذه حالات فردية تتعلق بمشتقات مُعالَجة أو بمنتجات متعددة المكوّنات وليس بزيت جوز الهند نفسه، ولم يتوفر ملخص سوى لواحد منها، ولا تدل على مدى شيوع هذه التفاعلات، لكنها تبيّن أن المنتجات نباتية المصدر قد تسبب تفاعلات جلدية أيضًا."
+   }
+  }
+ }
+}

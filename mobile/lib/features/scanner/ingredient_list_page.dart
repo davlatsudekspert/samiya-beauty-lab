@@ -10,7 +10,10 @@ import 'ingredient_models.dart';
 
 /// Ingredientlar bazasini ko'rish va nom bo'yicha qidirish (faqat ko'rish; moslashtirish qoidalariga aloqasi yo'q).
 class IngredientListPage extends StatefulWidget {
-  const IngredientListPage({super.key});
+  const IngredientListPage({super.key, this.initialFilter});
+
+  /// 'natural' | 'active' | null (hammasi); manzildagi `?filter=` dan keladi.
+  final String? initialFilter;
 
   @override
   State<IngredientListPage> createState() => _IngredientListPageState();
@@ -18,8 +21,11 @@ class IngredientListPage extends StatefulWidget {
 
 class _IngredientListPageState extends State<IngredientListPage> {
   String _query = '';
+  late String _filter = const {'natural', 'active'}.contains(widget.initialFilter) ? widget.initialFilter! : 'all';
 
   bool _matches(Ingredient i, String q) {
+    if (_filter == 'natural' && !i.isNatural) return false;
+    if (_filter == 'active' && i.isNatural) return false;
     if (q.isEmpty) return true;
     final needle = q.trim().toLowerCase();
     return i.inci.toLowerCase().contains(needle) || i.aliases.any((a) => a.toLowerCase().contains(needle));
@@ -37,70 +43,101 @@ class _IngredientListPageState extends State<IngredientListPage> {
         child: SafeArea(
           child: Column(children: [
             PageHeader(title: l.ingredientsTitle, onBack: () => context.canPop() ? context.pop() : context.go('/scanner')),
-            Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(20, 8, 20, 8),
-              child: TextField(
-                key: const Key('ingredient-search'),
-                textDirection: TextDirection.ltr,
-                autocorrect: false,
-                onChanged: (v) => setState(() => _query = v),
-                decoration: InputDecoration(
-                  hintText: l.ingredientsSearchHint,
-                  prefixIcon: const Icon(Icons.search_rounded, color: SamiyaColors.muted),
-                  filled: true,
-                  fillColor: Colors.white,
-                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(24), borderSide: const BorderSide(color: SamiyaColors.border)),
-                ),
-              ),
-            ),
             Expanded(
-              child: items.isEmpty
-                  ? Padding(
-                      padding: const EdgeInsets.all(24),
+              child: ListView(
+                padding: const EdgeInsetsDirectional.fromSTEB(20, 8, 20, 16),
+                children: [
+                  TextField(
+                    key: const Key('ingredient-search'),
+                    textDirection: TextDirection.ltr,
+                    autocorrect: false,
+                    onChanged: (v) => setState(() => _query = v),
+                    decoration: InputDecoration(
+                      hintText: l.ingredientsSearchHint,
+                      prefixIcon: const Icon(Icons.search_rounded, color: SamiyaColors.muted),
+                      filled: true,
+                      fillColor: Colors.white,
+                      border: OutlineInputBorder(borderRadius: BorderRadius.circular(24), borderSide: const BorderSide(color: SamiyaColors.border)),
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  Wrap(spacing: 8, runSpacing: 8, children: [
+                    for (final (id, label) in [('all', l.filterAll), ('active', l.filterActive), ('natural', l.filterNatural)])
+                      ChoiceChip(
+                        key: Key('filter-$id'),
+                        label: Text(label),
+                        selected: _filter == id,
+                        onSelected: (_) => setState(() => _filter = id),
+                      ),
+                  ]),
+                  if (_filter == 'natural') ...[
+                    const SizedBox(height: 10),
+                    Container(
+                      key: const Key('natural-note'),
+                      width: double.infinity,
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(color: SamiyaColors.blush, borderRadius: BorderRadius.circular(16)),
+                      child: Text(l.naturalNote, style: t.bodyMedium?.copyWith(fontSize: 13, fontWeight: FontWeight.w600)),
+                    ),
+                  ],
+                  const SizedBox(height: 14),
+                  if (items.isEmpty)
+                    Padding(
+                      padding: const EdgeInsets.all(12),
                       child: Text(l.ingredientsNoMatch, key: const Key('ingredient-search-empty'), textAlign: TextAlign.center, style: t.bodyLarge),
                     )
-                  : ListView.separated(
-                      padding: const EdgeInsetsDirectional.fromSTEB(20, 4, 20, 16),
-                      itemCount: items.length,
-                      separatorBuilder: (_, _) => const SizedBox(height: 12),
-                      itemBuilder: (context, i) {
-                        final ing = items[i];
-                        return Semantics(
-                          button: true,
-                          label: ing.inci,
-                          child: Material(
-                            key: Key('ingredient-item-${ing.slug}'),
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(22),
-                            child: InkWell(
-                              borderRadius: BorderRadius.circular(22),
-                              onTap: () => context.safePush('/scanner/ingredient/${ing.slug}'),
-                              child: Container(
-                                padding: const EdgeInsets.all(16),
-                                decoration: BoxDecoration(borderRadius: BorderRadius.circular(22), border: Border.all(color: SamiyaColors.border)),
-                                child: ExcludeSemantics(
-                                  child: Row(children: [
-                                    Expanded(
-                                      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                                        Text(ing.inci,
-                                            textDirection: TextDirection.ltr,
-                                            style: t.titleMedium?.copyWith(fontFamily: 'Inter', fontSize: 17, fontWeight: FontWeight.w700, color: SamiyaColors.heading)),
-                                        const SizedBox(height: 4),
-                                        Text(ing.summaryFor(lang), maxLines: 2, overflow: TextOverflow.ellipsis, style: t.bodyMedium),
-                                      ]),
-                                    ),
-                                    const SizedBox(width: 8),
-                                    const Icon(Icons.chevron_right_rounded, color: SamiyaColors.rose),
-                                  ]),
-                                ),
-                              ),
-                            ),
-                          ),
-                        );
-                      },
-                    ),
+                  else
+                    for (final ing in items) ...[
+                      _IngredientTile(ing: ing, lang: lang),
+                      const SizedBox(height: 12),
+                    ],
+                ],
+              ),
             ),
           ]),
+        ),
+      ),
+    );
+  }
+}
+
+class _IngredientTile extends StatelessWidget {
+  const _IngredientTile({required this.ing, required this.lang});
+  final Ingredient ing;
+  final String lang;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = Theme.of(context).textTheme;
+    return Semantics(
+      button: true,
+      label: ing.inci,
+      child: Material(
+        key: Key('ingredient-item-${ing.slug}'),
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(22),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(22),
+          onTap: () => context.safePush('/scanner/ingredient/${ing.slug}'),
+          child: Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(borderRadius: BorderRadius.circular(22), border: Border.all(color: SamiyaColors.border)),
+            child: ExcludeSemantics(
+              child: Row(children: [
+                Expanded(
+                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    Text(ing.inci,
+                        textDirection: TextDirection.ltr,
+                        style: t.titleMedium?.copyWith(fontFamily: 'Inter', fontSize: 17, fontWeight: FontWeight.w700, color: SamiyaColors.heading)),
+                    const SizedBox(height: 4),
+                    Text(ing.summaryFor(lang), maxLines: 2, overflow: TextOverflow.ellipsis, style: t.bodyMedium),
+                  ]),
+                ),
+                const SizedBox(width: 8),
+                const Icon(Icons.chevron_right_rounded, color: SamiyaColors.rose),
+              ]),
+            ),
+          ),
         ),
       ),
     );

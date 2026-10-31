@@ -1,0 +1,160 @@
+{
+ "inci": "Nigella Sativa Seed Oil",
+ "slug": "nigella-sativa-oil",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Nigella sativa seed oil (black seed oil or black cumin oil; thymoquinone is one of its main constituents) has been examined in laboratory, animal and a small number of human studies for skin-related outcomes such as acne-associated bacteria, pigmentation, dryness and irritation. Most of the available evidence is preclinical, comes from mixed or combination products, or is not specific to cosmetic use, and no controlled study specific to cosmetic use of the oil was identified in this search. Published case reports describe allergic contact dermatitis after topical use, so natural origin does not mean the oil is free of risk. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "nigella-sativa-oil-1",
+   "text_en": "A systematic review and meta-analysis of 14 randomised-trial records (732 participants) of Nigella sativa in any form, not only topical, in people with skin conditions including acne, eczema, atopic dermatitis, psoriasis, vitiligo, warts and cutaneous leishmaniasis reported a pooled odds ratio of 4.59 (95% CI 2.02 to 10.39), which the authors interpreted as possible effectiveness; the conditions, preparations and follow-up (4 days to 24 weeks) varied widely, the results are not specific to cosmetic use, and the authors state that more research is needed.",
+   "evidence_level": "C",
+   "study_type": "meta-analysis",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "36518853",
+     "doi": "10.1155/2022/7993579",
+     "title": "The Therapeutic Effects of Nigella sativa on Skin Disease: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+     "year": 2022,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36518853/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "nigella-sativa-oil-2",
+   "text_en": "In a laboratory study (in vitro), topical gels made with an ethyl acetate extract of Nigella sativa seeds inhibited the growth of acne-associated bacteria, with the highest activity at 15% extract, and the gels stayed physically stable over 30 days; this was an antibacterial test on cultures using an extract rather than the oil, not a trial showing fewer acne lesions in people.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "31485198",
+     "doi": "10.1155/2019/5985207",
+     "title": "Development of Novel Topical Cosmeceutical Formulations from Nigella sativa L. with Antimicrobial Activity against Acne-Causing Microorganisms.",
+     "year": 2019,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31485198/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "nigella-sativa-oil-3",
+   "text_en": "In rats with hyperpigmentation induced by stress-augmented UV-B irradiation, a cream containing a combination of dill, nagarmotha and black cumin oils (2%, 4% or 6% of each oil) applied twice daily for 30 days was associated with improved pigmentation compared with untreated animals; this was an animal study of a three-oil blend, so effects cannot be attributed to black cumin oil alone or assumed for people, and the authors call for evaluation in human subjects.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "32479252",
+     "doi": "10.2174/1872211314666200601163458",
+     "title": "Development, Characterization and Pharmacological Evaluation of Antiblemish Cream Containing Herbal Oils.",
+     "year": 2020,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32479252/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "nigella-sativa-oil-4",
+   "text_en": "Published case reports describe allergic contact dermatitis after topical use of black cumin (Nigella sativa) oil or an ointment containing it; one report identifies thymoquinone as a causative allergen with cross-reactivity to tert-butylhydroquinone, and another describes five further cases in which tert-butylhydroquinone was proposed as a marker of sensitivity. These are individual case reports (abstracts were not available in PubMed, so this description is limited to titles and keywords), and the frequency of such reactions is unknown.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "9197967",
+     "doi": "10.1111/j.1600-0536.1997.tb00219.x",
+     "title": "Allergic contact dermatitis from black cumin (Nigella sativa) oil after topical use.",
+     "year": 1997,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/9197967/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "12000337",
+     "doi": "10.1034/j.1600-0536.2002.460318.x",
+     "title": "Allergic contact dermatitis from black cumin (Nigella sativa) oil-containing ointment.",
+     "year": 2002,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12000337/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "32232855",
+     "doi": "10.1111/cod.13542",
+     "title": "Thymoquinone as a causative allergen in Nigella sativa oil contact dermatitis with cross-reactivity to tert-butylhydroquinone.",
+     "year": 2020,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32232855/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "33236781",
+     "doi": "10.1111/cod.13750",
+     "title": "Tert-butylhydroquinone is a marker for sensitivity to Nigella sativa oil allergy: Five new cases.",
+     "year": 2020,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33236781/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "nigella-sativa-oil-5",
+   "text_en": "A narrative review of nine articles (searched 2014 to March 2024) on Nigella sativa and its constituent thymoquinone in photoaging concluded that they may help prevent photoaging through antioxidant and anti-inflammatory mechanisms, such as neutralising UV-induced reactive oxygen species; the included studies mixed oral and topical use, and the authors state that more studies are needed.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40530399",
+     "doi": "10.3892/br.2025.2009",
+     "title": "Role of Nigella sativa L. seed (black cumin) in preventing photoaging (Review).",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40530399/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Nigella sativa urug' moyi (qora zira moyi, inglizcha \"black seed oil\"; timokinon uning asosiy tarkibiy qismlaridan biri) teriga oid natijalar bo'yicha laboratoriya, hayvonlar va odamlardagi oz sonli tadqiqotlarda o'rganilgan: akne bilan bog'liq bakteriyalar, pigmentatsiya, terining qurishi va ta'sirlanish. Mavjud dalillarning katta qismi klinikadan oldingi, aralash yoki kombinatsiyalangan mahsulotlardan olingan yoki kosmetik qo'llanilishga xos emas; ushbu qidiruvda moyning kosmetik qo'llanilishiga xos nazoratli tadqiqot topilmadi. Chop etilgan holat bayonlarida surtilgandan keyin allergik kontakt dermatit tasvirlangan, shu sababli tabiiy kelib chiqish moyning xavfsiz ekanini anglatmaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "nigella-sativa-oil-1": "Nigella sativa'ni har qanday shaklda (faqat surtiladigan emas) teri kasalliklari, jumladan akne, ekzema, atopik dermatit, psoriaz, vitiligo, so'gallar va teri leyshmanioziga ega odamlarda o'rgangan 14 ta randomizatsiyalangan tadqiqot yozuvi (732 ishtirokchi) bo'yicha tizimli sharh va meta-tahlilda umumiy odds nisbati 4,59 (95% ishonch oralig'i 2,02 dan 10,39 gacha) qayd etilgan; mualliflar buni ehtimoliy samaradorlik deb talqin qilgan. Kasalliklar, preparatlar va kuzatuv muddati (4 kundan 24 haftagacha) juda xilma-xil bo'lgan, natijalar kosmetik qo'llanilishga xos emas, mualliflar esa qo'shimcha tadqiqotlar kerakligini ta'kidlaydi.",
+    "nigella-sativa-oil-2": "Laboratoriya tadqiqotida (in vitro) Nigella sativa urug'larining etilatsetat ekstrakti bilan tayyorlangan surtiladigan gellar akne bilan bog'liq bakteriyalar o'sishini to'xtatgan, eng yuqori faollik 15% ekstraktda kuzatilgan, gellar 30 kun davomida jismoniy jihatdan barqaror bo'lgan; bu moy emas, ekstrakt bilan madaniyatlarda o'tkazilgan antibakterial sinov bo'lib, odamlarda akne toshmalari kamayganini ko'rsatgan sinov emas.",
+    "nigella-sativa-oil-3": "Stress bilan kuchaytirilgan UV-B nurlanishi sabab giperpigmentatsiya chaqirilgan kalamushlarda arpabodiyon, nagarmotha va qora zira moylari aralashmasi (har bir moydan 2%, 4% yoki 6%) bo'lgan krem 30 kun davomida kuniga ikki marta surtilganda davolanmagan hayvonlarga nisbatan pigmentatsiyaning yaxshilanishi bilan bog'langan; bu uch moyli aralashma bilan o'tkazilgan hayvon tadqiqoti, shu sababli ta'sirni faqat qora zira moyiga bog'lab bo'lmaydi va odamlarga ham ko'chirib bo'lmaydi; mualliflar odamlarda baholash zarurligini aytadi.",
+    "nigella-sativa-oil-4": "Chop etilgan holat bayonlarida qora zira (Nigella sativa) moyi yoki uni o'z ichiga olgan malham surtilgandan keyin allergik kontakt dermatit tasvirlangan; bir xabarda timokinon sabab bo'lgan allergen sifatida va tert-butilgidrokinon bilan o'zaro reaksiya bilan aniqlangan, boshqasida esa yana beshta holat tasvirlanib, tert-butilgidrokinon sezuvchanlik belgisi sifatida taklif qilingan. Bular alohida holat bayonlari (PubMed'da annotatsiyalar mavjud emas edi, shu sababli bu tavsif sarlavha va kalit so'zlar bilan cheklangan), bunday reaksiyalar chastotasi noma'lum.",
+    "nigella-sativa-oil-5": "Fotokeksayishda Nigella sativa va uning tarkibiy qismi timokinon haqidagi to'qqizta maqolaning (2014 yildan 2024 yil martigacha qidirilgan) hikoyaviy sharhida ular antioksidant va yallig'lanishga qarshi mexanizmlar, masalan UV keltirib chiqargan reaktiv kislorod turlarini zararsizlantirish orqali fotokeksayishning oldini olishga yordam berishi mumkin degan xulosa qilingan; kiritilgan tadqiqotlarda og'iz orqali va surtiladigan qo'llanilish aralash bo'lgan, mualliflar esa qo'shimcha tadqiqotlar kerakligini ta'kidlaydi."
+   }
+  },
+  "ru": {
+   "summary": "Масло семян Nigella sativa (чёрный тмин; по-английски \"black seed oil\"; тимохинон — один из его основных компонентов) изучалось в лабораторных, животных и небольшом числе исследований на людях по показателям, связанным с кожей: бактерии, связанные с акне, пигментация, сухость и раздражение. Большая часть имеющихся данных получена в доклинических исследованиях, на смешанных или комбинированных продуктах либо не относится именно к косметическому применению; контролируемого исследования, посвящённого косметическому применению масла, в этом поиске найдено не было. В опубликованных описаниях клинических случаев сообщается об аллергическом контактном дерматите после местного применения, поэтому природное происхождение не означает, что масло безопасно. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "nigella-sativa-oil-1": "В систематическом обзоре и метаанализе 14 записей о рандомизированных исследованиях (732 участника), посвящённых Nigella sativa в любой форме (не только местной) у людей с кожными заболеваниями, включая акне, экзему, атопический дерматит, псориаз, витилиго, бородавки и кожный лейшманиоз, получено объединённое отношение шансов 4,59 (95% ДИ от 2,02 до 10,39), которое авторы трактовали как возможную эффективность; заболевания, препараты и сроки наблюдения (от 4 дней до 24 недель) сильно различались, результаты не относятся именно к косметическому применению, а авторы указывают, что необходимы дополнительные исследования.",
+    "nigella-sativa-oil-2": "В лабораторном исследовании (in vitro) гели для местного применения с этилацетатным экстрактом семян Nigella sativa подавляли рост бактерий, связанных с акне, при этом наибольшая активность наблюдалась при 15% экстракта, а гели оставались физически стабильными в течение 30 дней; это был антибактериальный тест на культурах с использованием экстракта, а не масла, и не исследование, показавшее уменьшение высыпаний акне у людей.",
+    "nigella-sativa-oil-3": "У крыс с гиперпигментацией, вызванной усиленным стрессом УФ-В-облучением, крем с комбинацией масел укропа, нагармоты и чёрного тмина (по 2%, 4% или 6% каждого масла), наносимый дважды в день в течение 30 дней, был связан с улучшением пигментации по сравнению с нелечёнными животными; это было исследование на животных со смесью из трёх масел, поэтому эффекты нельзя приписать только маслу чёрного тмина или переносить на людей, а авторы указывают на необходимость оценки на людях.",
+    "nigella-sativa-oil-4": "В опубликованных описаниях клинических случаев сообщается об аллергическом контактном дерматите после местного применения масла чёрного тмина (Nigella sativa) или мази, содержащей его; в одном сообщении тимохинон назван причинным аллергеном с перекрёстной реакцией на трет-бутилгидрохинон, в другом описаны ещё пять случаев, в которых трет-бутилгидрохинон предложен как маркер чувствительности. Это отдельные описания случаев (аннотации в PubMed были недоступны, поэтому описание ограничено заголовками и ключевыми словами), а частота таких реакций неизвестна.",
+    "nigella-sativa-oil-5": "В нарративном обзоре девяти статей (поиск с 2014 года по март 2024 года) о Nigella sativa и её компоненте тимохиноне при фотостарении сделан вывод, что они могут помогать предотвращать фотостарение через антиоксидантные и противовоспалительные механизмы, например нейтрализацию вызванных УФ активных форм кислорода; в включённых исследованиях смешивались пероральное и местное применение, а авторы указывают, что необходимы дополнительные исследования."
+   }
+  },
+  "ar": {
+   "summary": "جرت دراسة زيت بذور Nigella sativa (حبة البركة أو الكمّون الأسود؛ ويُعرف بالإنجليزية باسم \"black seed oil\"، ويُعدّ الثيموكينون أحد مكوّناته الرئيسية) في دراسات مخبرية وحيوانية وعدد قليل من الدراسات على البشر فيما يخص نتائج متعلقة بالبشرة، مثل البكتيريا المرتبطة بحب الشباب والتصبغ والجفاف والتهيّج. معظم الأدلة المتاحة ما قبل سريرية، أو مأخوذة من منتجات مختلطة أو مركّبة، أو غير خاصة بالاستخدام التجميلي، ولم تُحدَّد في هذا البحث أي دراسة مضبوطة خاصة بالاستخدام التجميلي للزيت. وتصف تقارير حالات منشورة التهاب الجلد التماسي التحسسي بعد الاستعمال الموضعي، لذا فإن المصدر الطبيعي لا يعني أن الزيت خالٍ من المخاطر. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "nigella-sativa-oil-1": "أفادت مراجعة منهجية وتحليل تلوي لـ 14 سجلًا من التجارب العشوائية (732 مشاركًا) حول Nigella sativa بأي شكل، وليس الموضعي فقط، لدى أشخاص يعانون من حالات جلدية تشمل حب الشباب والإكزيما والتهاب الجلد التأتبي والصدفية والبهاق والثآليل وداء الليشمانيات الجلدي، بنسبة أرجحية مجمّعة قدرها 4.59 (فاصل ثقة 95%: من 2.02 إلى 10.39)، فسّرها المؤلفون على أنها فعالية محتملة؛ وقد تباينت الحالات والمستحضرات ومدة المتابعة (من 4 أيام إلى 24 أسبوعًا) تباينًا كبيرًا، والنتائج غير خاصة بالاستخدام التجميلي، ويذكر المؤلفون أن هناك حاجة إلى مزيد من البحث.",
+    "nigella-sativa-oil-2": "في دراسة مخبرية (in vitro)، ثبّطت جيلات موضعية محضّرة بمستخلص أسيتات الإيثيل من بذور Nigella sativa نمو البكتيريا المرتبطة بحب الشباب، وكان أعلى نشاط عند تركيز 15% من المستخلص، وظلّت الجيلات مستقرة فيزيائيًا خلال 30 يومًا؛ وكان ذلك اختبارًا مضادًا للبكتيريا على المزارع باستخدام مستخلص لا زيت، وليس تجربة أظهرت انخفاض عدد آفات حب الشباب لدى البشر.",
+    "nigella-sativa-oil-3": "لدى جرذان أُصيبت بفرط تصبغ ناتج عن التعرض للأشعة فوق البنفسجية UV-B المعزَّزة بالإجهاد، ارتبط كريم يحتوي على مزيج من زيوت الشبت والناغارموثا والكمّون الأسود (2% أو 4% أو 6% من كل زيت) مطبَّقًا مرتين يوميًا لمدة 30 يومًا بتحسّن التصبغ مقارنةً بالحيوانات غير المعالَجة؛ وكانت هذه دراسة على الحيوانات لمزيج من ثلاثة زيوت، لذا لا يمكن عزو التأثيرات إلى زيت الكمّون الأسود وحده ولا افتراضها لدى البشر، ويدعو المؤلفون إلى تقييمها لدى البشر.",
+    "nigella-sativa-oil-4": "تصف تقارير حالات منشورة التهاب الجلد التماسي التحسسي بعد الاستعمال الموضعي لزيت الكمّون الأسود (Nigella sativa) أو مرهم يحتوي عليه؛ ويحدّد أحد التقارير الثيموكينون مسبّبًا للحساسية مع تفاعل متصالب مع ثالثي بوتيل الهيدروكينون، ويصف تقرير آخر خمس حالات إضافية اقتُرح فيها ثالثي بوتيل الهيدروكينون علامةً على الحساسية. وهذه تقارير حالات فردية (لم تكن الملخصات متاحة في PubMed، لذا يقتصر هذا الوصف على العناوين والكلمات المفتاحية)، وتواتر مثل هذه التفاعلات غير معروف.",
+    "nigella-sativa-oil-5": "خلصت مراجعة سردية لتسع مقالات (جرى البحث فيها من عام 2014 إلى مارس 2024) حول Nigella sativa ومكوّنها الثيموكينون في الشيخوخة الضوئية إلى أنهما قد يساعدان على الوقاية من الشيخوخة الضوئية عبر آليات مضادة للأكسدة ومضادة للالتهاب، مثل تعطيل أنواع الأكسجين التفاعلية الناتجة عن الأشعة فوق البنفسجية؛ وقد جمعت الدراسات المشمولة بين الاستخدام الفموي والموضعي، ويذكر المؤلفون أن هناك حاجة إلى مزيد من الدراسات."
+   }
+  }
+ }
+}

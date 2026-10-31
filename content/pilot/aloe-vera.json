@@ -1,0 +1,150 @@
+{
+ "inci": "Aloe Barbadensis Leaf Juice",
+ "slug": "aloe-vera",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Aloe vera gel (INCI: Aloe Barbadensis Leaf Juice) is a common cosmetic ingredient used in moisturising and after-sun products. This card covers topical cosmetic use only. Published human evidence is limited and consists mostly of small studies with mixed results: trials of after-sun use disagree with each other, and the one moisturisation trial summarised here had no placebo arm. As a plant-derived ingredient it should not be assumed to be free of risk: contact reactions have been reported and ingredient quality (for example anthraquinone content) matters. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "aloe-vera-1",
+   "text_en": "A systematic review of 40 dermatology-oriented studies of aloe vera preparations concluded that topical aloe vera offered no sunburn or suntan protection and that the clinical effectiveness of topical and oral aloe vera has not yet been sufficiently explored; the included studies were of mixed design (in vitro, animal and clinical).",
+   "evidence_level": "C",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "19218914",
+     "title": "Aloe vera in dermatology: a brief review.",
+     "year": 2009,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19218914/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "aloe-vera-2",
+   "text_en": "Two small randomised, double-blind trials in healthy volunteers reached different conclusions about sunburn-related effects after experimental UVB exposure: in 40 volunteers, a 97.5% aloe vera gel significantly reduced UV-induced erythema after 48 hours (a 1% hydrocortisone cream was more effective), whereas in 20 volunteers a 70% aloe vera cream showed no sunburn or suntan protection and no benefit versus placebo. Both used artificial UV on small skin test areas and different formulations (a gel and a cream), so the results do not establish how aloe vera performs after real sun exposure.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "18253066",
+     "doi": "10.1159/000114871",
+     "title": "Investigation of the anti-inflammatory potential of Aloe vera gel (97.5%) in the ultraviolet erythema test.",
+     "year": 2008,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/18253066/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "16623024",
+     "title": "Efficacy of aloe vera cream in prevention and treatment of sunburn and suntan.",
+     "year": 2005,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16623024/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "aloe-vera-3",
+   "text_en": "In a randomised trial of 35 patients with chronic kidney disease on haemodialysis and dry skin (xerosis cutis), a 30% aloe vera cream and a 20% urea cream each increased skin moisture (corneometer readings) and lowered dry-skin scores over 4 weeks compared with baseline, with no significant difference between the two creams; the trial had no placebo arm, so the improvement cannot be attributed to aloe vera alone.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "42340432",
+     "doi": "10.4081/dr.2026.10496",
+     "title": "Comparison of the effectiveness of 30%cream and 20% urea cream as topical treatment for xerosis cutis in chronic kidney disease: a randomized clinical trial.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42340432/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "aloe-vera-4",
+   "text_en": "The Cosmetic Ingredient Review (CIR), an industry expert panel and not a regulator, reported in 2007 that aloe-derived cosmetic ingredients, including Aloe Barbadensis Leaf Juice, function primarily as skin-conditioning agents and are mostly used at low concentrations; the leaf latex contains anthraquinones, which are phototoxic and gastrointestinal irritants, and the panel advised an industry limit of 50 ppm anthraquinones in aloe materials for non-medicinal use, together with limits on pesticide and heavy-metal contamination. It noted case reports of eczema, contact urticaria and dermatitis after topical use. This report is from 2007 and does not cover later studies.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "17613130",
+     "doi": "10.1080/10915810701351186",
+     "title": "Final report on the safety assessment of AloeAndongensis Extract, Aloe Andongensis Leaf Juice,aloe Arborescens Leaf Extract, Aloe Arborescens Leaf Juice, Aloe Arborescens Leaf Protoplasts, Aloe Barbadensis Flower Extract, Aloe Barbadensis Leaf, Aloe Barbadensis Leaf Extract, Aloe Barbadensis Leaf Juice,aloe Barbadensis Leaf Polysaccharides, Aloe Barbadensis Leaf Water, Aloe Ferox Leaf Extract, Aloe Ferox Leaf Juice, and Aloe Ferox Leaf Juice Extract.",
+     "year": 2007,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17613130/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "aloe-vera-5",
+   "text_en": "A patch-test study of 702 consecutive patients found no reactions to an oily leaf extract, an aloe powder from the whole plant or a concentrated aloe vera gel, and the authors noted that allergic reactions to aloe are rare; however, a case report described allergic contact dermatitis in a woman who applied home-made aloe vera juice to her legs, with positive patch tests to the aloe leaf and the macerated aloe jelly (and to nickel sulfate). These are limited observational data and cannot exclude reactions in individual people.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "16364121",
+     "doi": "10.1111/j.0105-1873.2005.00713.x",
+     "title": "Absence of contact sensitization to Aloe vera (L.) Burm. f.",
+     "year": 2005,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16364121/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "17868225",
+     "doi": "10.1111/j.1600-0536.2007.01118.x",
+     "title": "Allergic contact dermatitis to Aloe vera.",
+     "year": 2007,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17868225/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Aloe vera geli (INCI: Aloe Barbadensis Leaf Juice) namlantiruvchi va quyoshdan keyingi vositalarda qo'llaniladigan keng tarqalgan kosmetik ingredient. Bu kartochka faqat surtiladigan kosmetik qo'llanishni qamrab oladi. Odamlarda chop etilgan dalillar cheklangan va asosan natijalari aralash bo'lgan kichik tadqiqotlardan iborat: quyoshdan keyingi qo'llanish bo'yicha sinovlar bir-biriga zid, bu yerda keltirilgan yagona namlantirish sinovida esa plasebo guruhi bo'lmagan. O'simlikdan olingan ingredient sifatida uni xavf-xatarsiz deb faraz qilmaslik kerak: kontakt reaksiyalar haqida xabar berilgan va ingredient sifati (masalan, antraxinon miqdori) muhim. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "aloe-vera-1": "Aloe vera preparatlari bo'yicha 40 ta dermatologiyaga oid tadqiqotning tizimli sharhi surtiladigan aloe vera quyosh kuyishi yoki qorayishidan himoya bermaganini va surtiladigan hamda og'iz orqali qabul qilinadigan aloe veraning klinik samaradorligi hali yetarlicha o'rganilmaganini xulosa qilgan; kiritilgan tadqiqotlar dizayni aralash bo'lgan (in vitro, hayvonlarda va klinik).",
+    "aloe-vera-2": "Sog'lom ko'ngillilarda o'tkazilgan ikkita kichik randomizatsiyalangan ikki tomonlama ko'r sinov tajribaviy UVB ta'siridan keyin quyosh kuyishiga oid ta'sirlar bo'yicha turlicha xulosaga kelgan: 40 ko'ngillida 97,5% aloe vera geli 48 soatdan keyin UV chaqirgan qizarishni sezilarli kamaytirgan (1% gidrokortizon kremi esa samaraliroq bo'lgan), 20 ko'ngillida esa 70% aloe vera kremi quyosh kuyishi yoki qorayishidan himoya ko'rsatmagan va plasebo bilan solishtirganda foyda bermagan. Ikkala sinovda ham terining kichik sinov maydonlariga sun'iy UV qo'llangan va turli shakllar (gel va krem) ishlatilgan, shu sababli natijalar aloe vera haqiqiy quyosh ta'siridan keyin qanday ishlashini belgilab bermaydi.",
+    "aloe-vera-3": "Gemodializdagi surunkali buyrak kasalligi va quruq teri (kserozis) bilan og'rigan 35 bemor ishtirok etgan randomizatsiyalangan sinovda 30% aloe vera kremi va 20% mochevina kremi 4 hafta davomida boshlang'ich ko'rsatkichlarga nisbatan teri namligini (korneometr ko'rsatkichlari) oshirgan va quruq teri ballarini pasaytirgan, ikki krem o'rtasida sezilarli farq bo'lmagan; sinovda plasebo guruhi bo'lmagan, shu sababli yaxshilanishni faqat aloe veraga bog'lab bo'lmaydi.",
+    "aloe-vera-4": "Kosmetik ingredientlar sharhi (CIR) — regulyator emas, sanoat ekspert kengashi — 2007 yilda aloe asosidagi kosmetik ingredientlar, jumladan Aloe Barbadensis Leaf Juice, asosan terini kondensionerlovchi vosita vazifasini bajarishini va ko'pincha past konsentratsiyalarda ishlatilishini xabar qilgan; barg lateksida antraxinonlar bor, ular fototoksik va oshqozon-ichak yo'lini bezovta qiluvchi moddalardir, kengash esa tibbiy bo'lmagan maqsadlar uchun aloe materiallarida antraxinonlar bo'yicha 50 ppm sanoat chegarasini hamda pestitsid va og'ir metall ifloslanishiga chegaralarni tavsiya qilgan. Surtilgandan keyin ekzema, kontakt urtikariya va dermatit holatlari haqidagi xabarlar qayd etilgan. Bu hisobot 2007 yilga oid bo'lib, keyingi tadqiqotlarni qamrab olmaydi.",
+    "aloe-vera-5": "Ketma-ket 702 bemor ishtirok etgan patch-test (teri yamoq sinovi) tadqiqotida moyli barg ekstrakti, butun o'simlikdan olingan aloe kukuni yoki konsentratlangan aloe vera geliga hech qanday reaksiya topilmagan va mualliflar aloega allergik reaksiyalar kam uchrashini qayd etgan; biroq bitta klinik holat tavsifida oyoqlariga uyda tayyorlangan aloe vera sharbatini surtgan ayolda allergik kontakt dermatit yuzaga kelgan, aloe bargi va maydalangan aloe jelega (hamda nikel sulfatga) patch-test musbat chiqqan. Bu cheklangan kuzatuv ma'lumotlari bo'lib, alohida odamlarda reaksiyalarni inkor eta olmaydi."
+   }
+  },
+  "ru": {
+   "summary": "Гель алоэ вера (INCI: Aloe Barbadensis Leaf Juice) является распространённым косметическим ингредиентом, который используется в увлажняющих средствах и средствах после загара. Эта карточка охватывает только местное косметическое применение. Опубликованные данные у людей ограничены и представлены в основном небольшими исследованиями со смешанными результатами: испытания применения после солнца противоречат друг другу, а единственное приведённое здесь испытание увлажнения не имело группы плацебо. Растительный ингредиент не следует считать заведомо не несущим риска: сообщалось о контактных реакциях, а качество ингредиента (например, содержание антрахинонов) имеет значение. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "aloe-vera-1": "Систематический обзор 40 дерматологических исследований препаратов алоэ вера пришёл к выводу, что алоэ вера для местного применения не обеспечивало защиты от солнечных ожогов и загара, а клиническая эффективность местного и перорального алоэ вера пока недостаточно изучена; включённые исследования были разнородными по дизайну (in vitro, на животных и клинические).",
+    "aloe-vera-2": "Два небольших рандомизированных двойных слепых исследования на здоровых добровольцах пришли к разным выводам об эффектах, связанных с солнечным ожогом, после экспериментального облучения UVB: у 40 добровольцев гель алоэ вера 97,5% значительно уменьшал УФ-индуцированную эритему через 48 часов (крем с 1% гидрокортизона был эффективнее), тогда как у 20 добровольцев крем алоэ вера 70% не показал защиты от солнечных ожогов и загара и не дал преимущества по сравнению с плацебо. В обоих исследованиях использовали искусственный УФ на небольших тестовых участках кожи и разные формы (гель и крем), поэтому результаты не позволяют судить о том, как алоэ вера действует после реального пребывания на солнце.",
+    "aloe-vera-3": "В рандомизированном исследовании с участием 35 пациентов с хронической болезнью почек на гемодиализе и сухой кожей (ксероз) крем алоэ вера 30% и крем с мочевиной 20% оба повышали увлажнённость кожи (показания корнеометра) и снижали баллы сухости кожи за 4 недели по сравнению с исходным уровнем, без значимой разницы между двумя кремами; в исследовании не было группы плацебо, поэтому улучшение нельзя приписать только алоэ вера.",
+    "aloe-vera-4": "Cosmetic Ingredient Review (CIR) — экспертная комиссия отрасли, а не регулятор — сообщила в 2007 году, что косметические ингредиенты на основе алоэ, включая Aloe Barbadensis Leaf Juice, выполняют главным образом функцию кондиционирующих кожу средств и в основном применяются в низких концентрациях; латекс листа содержит антрахиноны, которые фототоксичны и раздражают желудочно-кишечный тракт, а комиссия рекомендовала отраслевой предел 50 ppm антрахинонов в материалах алоэ немедицинского назначения, а также пределы загрязнения пестицидами и тяжёлыми металлами. Отмечены сообщения о случаях экземы, контактной крапивницы и дерматита после местного применения. Этот отчёт относится к 2007 году и не охватывает более поздние исследования.",
+    "aloe-vera-5": "В исследовании с патч-тестами у 702 последовательных пациентов не было реакций на масляный экстракт листьев, порошок алоэ из цельного растения и концентрированный гель алоэ вера, и авторы отметили, что аллергические реакции на алоэ редки; однако в описании клинического случая сообщалось об аллергическом контактном дерматите у женщины, наносившей на ноги домашний сок алоэ вера, с положительными патч-тестами на лист алоэ и измельчённое желе алоэ (а также на сульфат никеля). Это ограниченные данные наблюдений, которые не исключают реакций у отдельных людей."
+   }
+  },
+  "ar": {
+   "summary": "جل الصبار (Aloe vera) (INCI: Aloe Barbadensis Leaf Juice) مكوّن تجميلي شائع يُستخدم في المرطّبات ومنتجات ما بعد التعرّض للشمس. تقتصر هذه البطاقة على الاستخدام التجميلي الموضعي فقط. الأدلة المنشورة على البشر محدودة وتتألف في معظمها من دراسات صغيرة ذات نتائج متباينة: فالتجارب الخاصة بالاستخدام بعد التعرّض للشمس تتعارض فيما بينها، والتجربة الوحيدة المعروضة هنا حول الترطيب لم تكن فيها مجموعة دواء وهمي. وبوصفه مكوّنًا نباتيًا لا ينبغي افتراض أنه خالٍ من المخاطر: فقد أُبلغ عن تفاعلات تماسّية، وجودة المكوّن (مثل محتوى الأنثراكينونات) مهمة. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "aloe-vera-1": "خلصت مراجعة منهجية شملت 40 دراسة جلدية حول مستحضرات الصبار (Aloe vera) إلى أن الصبار الموضعي لم يوفّر حماية من حروق الشمس أو اسمرار البشرة، وإلى أن الفعالية السريرية للصبار الموضعي والفموي لم تُستكشف بعد بما يكفي؛ وكانت الدراسات المشمولة متباينة التصميم (مخبرية in vitro وعلى الحيوانات وسريرية).",
+    "aloe-vera-2": "توصّلت تجربتان عشوائيتان صغيرتان مزدوجتا التعمية على متطوعين أصحاء إلى نتائج مختلفة بشأن التأثيرات المتعلقة بحروق الشمس بعد تعريض تجريبي للأشعة فوق البنفسجية UVB: ففي 40 متطوعًا خفّض جل الصبار بتركيز 97.5% احمرار البشرة الناجم عن الأشعة فوق البنفسجية بشكل ملحوظ بعد 48 ساعة (وكان كريم الهيدروكورتيزون 1% أكثر فعالية)، بينما لم يُظهر كريم الصبار بتركيز 70% في 20 متطوعًا أي حماية من حروق الشمس أو اسمرار البشرة ولا أي فائدة مقارنة بالدواء الوهمي. استُخدمت في التجربتين أشعة فوق بنفسجية اصطناعية على مساحات اختبار صغيرة من الجلد وبتركيبتين مختلفتين (جل وكريم)، لذلك لا تحدّد النتائج أداء الصبار بعد التعرّض الفعلي للشمس.",
+    "aloe-vera-3": "في تجربة عشوائية شملت 35 مريضًا بالداء الكلوي المزمن يخضعون لغسيل الكلى ويعانون من جفاف الجلد (جفاف الجلد المرضي xerosis cutis)، رفع كريم الصبار بتركيز 30% وكريم اليوريا بتركيز 20% كلٌّ منهما رطوبة الجلد (قراءات مقياس الرطوبة corneometer) وخفّضا درجات جفاف الجلد على مدى 4 أسابيع مقارنة بالقيم الأساسية، دون فرق معنوي بين الكريمين؛ ولم تكن في التجربة مجموعة دواء وهمي، لذلك لا يمكن عزو التحسن إلى الصبار وحده.",
+    "aloe-vera-4": "أفادت هيئة مراجعة المكوّنات التجميلية (CIR)، وهي لجنة خبراء تابعة للصناعة وليست جهة تنظيمية، في عام 2007 بأن المكوّنات التجميلية المشتقة من الصبار، ومنها Aloe Barbadensis Leaf Juice، تعمل أساسًا كعوامل لتكييف الجلد وتُستخدم غالبًا بتراكيز منخفضة؛ ويحتوي لاتكس الأوراق على أنثراكينونات هي مواد سامّة ضوئيًا ومهيّجة للجهاز الهضمي، وأوصت اللجنة بحد صناعي قدره 50 جزءًا في المليون من الأنثراكينونات في مواد الصبار المخصّصة للاستخدام غير الطبي، إضافة إلى حدود للتلوث بالمبيدات والمعادن الثقيلة. وأشارت إلى تقارير حالات عن الإكزيما والشرى التماسّي والتهاب الجلد بعد الاستخدام الموضعي. هذا التقرير يعود إلى عام 2007 ولا يشمل الدراسات اللاحقة.",
+    "aloe-vera-5": "لم تجد دراسة اختبارات اللصقة (patch test) على 702 مريض متتالين أي تفاعل تجاه مستخلص زيتي من الأوراق أو مسحوق صبار من النبات كاملًا أو جل صبار مركّز، ولاحظ المؤلفون أن التفاعلات التحسسية تجاه الصبار نادرة؛ غير أن تقرير حالة وصف التهاب جلد تماسّيًا تحسسيًا لدى امرأة وضعت عصير صبار منزلي الصنع على ساقيها، مع نتائج إيجابية لاختبار اللصقة تجاه ورقة الصبار وهلام الصبار المهروس (وكذلك تجاه كبريتات النيكل). هذه بيانات رصدية محدودة ولا يمكنها استبعاد حدوث تفاعلات لدى أفراد بعينهم."
+   }
+  }
+ }
+}

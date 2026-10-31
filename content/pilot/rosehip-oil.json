@@ -1,0 +1,136 @@
+{
+  "inci": "Rosa Canina Fruit Oil",
+  "slug": "rosehip-oil",
+  "status": "draft",
+  "cosing": {
+    "functions": [],
+    "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+    "verified": false
+  },
+  "eu_regulation": {
+    "annex": "unverified",
+    "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+    "verified": false
+  },
+  "summary_en": "Rosehip oil (INCI: Rosa Canina Fruit Oil; obtained from Rosa canina or Rosa rubiginosa and also sold as rosehip seed oil) is a plant oil used in leave-on skin-care products. Published evidence on topical use is limited: one randomised trial of a multi-ingredient stretch-mark cream, one small skin hydration comparison, and a narrative review of scar studies that judged the evidence insufficient. No suitable human studies on photoaging were found in this search. A case report of allergic contact dermatitis and laboratory data on light-induced oxidation are included as cautions. A natural origin does not by itself indicate how any individual will tolerate a product. This card summarises published evidence only and is not medical advice.",
+  "claims": [
+    {
+      "id": "rosehip-oil-1",
+      "text_en": "A narrative review of rosehip oil and postsurgical scars found a scarcity of high-quality studies, with only two human clinical trials; it reported some evidence that topical products containing rosehip oil extract may reduce scar size and redness, but concluded that evidence is insufficient to recommend rosehip oil for wounds and that further research is needed.",
+      "evidence_level": "C",
+      "study_type": "narrative review",
+      "sources": [
+        {
+          "type": "pubmed",
+          "pmid": "37605366",
+          "doi": "10.1111/jocd.15971",
+          "title": "Rosehip extract and wound healing: A review.",
+          "year": 2023,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37605366/"
+        }
+      ],
+      "checked_on": "2026-10-31"
+    },
+    {
+      "id": "rosehip-oil-2",
+      "text_en": "In a double-blind, placebo-controlled randomised trial in pregnant women, a cream containing rosehip oil together with hydroxyprolisilane-C, Centella asiatica triterpenes and vitamin E did not change the overall incidence of stretch marks (33.3% control vs 37.6% treated, not significant); in women with no stretch marks at baseline, new stretch marks were less frequent with the cream (5.6% vs 35%, a small subgroup with a wide confidence interval). Effects cannot be attributed to rosehip oil alone.",
+      "evidence_level": "B",
+      "study_type": "RCT",
+      "sources": [
+        {
+          "type": "pubmed",
+          "pmid": "23237514",
+          "doi": "10.1111/ics.12029",
+          "title": "Use of a specific anti-stretch mark cream for preventing or reducing the severity of striae gravidarum. Randomized, double-blind, controlled trial.",
+          "year": 2013,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23237514/"
+        }
+      ],
+      "checked_on": "2026-10-31"
+    },
+    {
+      "id": "rosehip-oil-3",
+      "text_en": "In a small laboratory and skin-measurement study with eight healthy volunteers, rosehip oil was used as a reference oil next to olive oils and liquid paraffin, and gave the highest increase in skin oil content and hydration measured with a dermoanalyser; rosehip oil was a comparator rather than the main subject of the study, it was not a finished cosmetic product, and the abstract does not report the follow-up duration.",
+      "evidence_level": "C",
+      "study_type": "observational",
+      "sources": [
+        {
+          "type": "pubmed",
+          "pmid": "36559109",
+          "doi": "10.3390/pharmaceutics14122615",
+          "title": "In Vitro and In Vivo Characteristics of Olive Oil as Excipient for Topical Administration.",
+          "year": 2022,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36559109/"
+        }
+      ],
+      "checked_on": "2026-10-31"
+    },
+    {
+      "id": "rosehip-oil-4",
+      "text_en": "A published case report described allergic contact dermatitis caused by \"Rosa mosqueta\" (rosehip) oil used on the skin; the abstract is not available in PubMed, so this is based on the title, keywords and indexing only. A single case report cannot show how common such reactions are, but it shows that a plant oil can cause an allergic reaction in some individuals.",
+      "evidence_level": "C",
+      "study_type": "observational",
+      "sources": [
+        {
+          "type": "pubmed",
+          "pmid": "30022513",
+          "doi": "10.1111/cod.13083",
+          "title": "Allergic contact dermatitis caused by \"Rosa mosqueta\" oil.",
+          "year": 2018,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30022513/"
+        }
+      ],
+      "checked_on": "2026-10-31"
+    },
+    {
+      "id": "rosehip-oil-5",
+      "text_en": "In a laboratory (in vitro) study, rosehip oil was oxidised by UVA and UVC exposure, and encapsulating the oil in nanocapsules reduced this oxidation; the study did not test commercial products or normal storage conditions, so it only suggests that the oil can be sensitive to light-induced oxidation.",
+      "evidence_level": "C",
+      "study_type": "in vitro",
+      "sources": [
+        {
+          "type": "pubmed",
+          "pmid": "26381915",
+          "doi": "10.1208/s12249-015-0379-9",
+          "title": "Nanoencapsulation of Rose-Hip Oil Prevents Oil Oxidation and Allows Obtainment of Gel and Film Topical Formulations.",
+          "year": 2015,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26381915/"
+        }
+      ],
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "translations": {
+    "uz": {
+      "summary": "Itburun moyi (INCI: Rosa Canina Fruit Oil; Rosa canina yoki Rosa rubiginosa'dan olinadi va itburun urug' moyi nomi bilan ham sotiladi) teriga surtib, yuvilmaydigan parvarish vositalarida ishlatiladigan o'simlik moyidir. Surtib qo'llanishi bo'yicha chop etilgan dalillar cheklangan: ko'p komponentli yoriq izlariga qarshi kremning bitta randomizatsiyalangan tadqiqoti, teri namligini solishtirgan bitta kichik tadqiqot va dalilni yetarli emas deb baholagan chandiqlar bo'yicha hikoyaviy sharh. Ushbu qidiruvda fotoaging bo'yicha mos keladigan odamlardagi tadqiqotlar topilmadi. Allergik kontakt dermatit haqidagi klinik hodisa bayoni va yorug'lik ta'sirida oksidlanish bo'yicha laboratoriya ma'lumotlari ehtiyot choralari sifatida keltirilgan. Tabiiy kelib chiqish o'z-o'zidan har bir kishi vositani qanday ko'tarishini ko'rsatmaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+      "claims": {
+        "rosehip-oil-1": "Itburun moyi va operatsiyadan keyingi chandiqlar bo'yicha hikoyaviy sharhda yuqori sifatli tadqiqotlar kamligi, odamlarda faqat ikkita klinik sinov mavjudligi aniqlangan; itburun moyi ekstrakti tarkibli surtiladigan vositalar chandiq o'lchami va qizarishini kamaytirishi mumkinligi haqida ba'zi dalillar keltirilgan, ammo itburun moyini yaralar uchun tavsiya etishga dalil yetarli emas va qo'shimcha tadqiqotlar kerak degan xulosaga kelingan.",
+        "rosehip-oil-2": "Homilador ayollarda o'tkazilgan ikki tomonlama ko'r, plasebo nazoratli randomizatsiyalangan sinovda itburun moyi, gidroksiprolisilan-C, Centella asiatica triterpenlari va E vitamini birga bo'lgan krem yoriq izlari umumiy uchrash ko'rsatkichini o'zgartirmagan (nazoratda 33,3%, davolangan guruhda 37,6%, statistik ahamiyatsiz); boshlang'ich holatda yoriq izlari bo'lmagan ayollarda kremdan foydalanganda yangi yoriq izlari kamroq uchragan (5,6% va 35%, ishonch oralig'i keng bo'lgan kichik kichik guruh). Ta'sirni faqat itburun moyiga bog'lab bo'lmaydi.",
+        "rosehip-oil-3": "Sakkiz nafar sog'lom ko'ngilli ishtirok etgan kichik laboratoriya va teri o'lchovi tadqiqotida itburun moyi zaytun moylari va suyuq parafin bilan yonma-yon taqqoslash uchun mo'ljallangan moy sifatida ishlatilgan va dermoanalizator bilan o'lchanganda teridagi moy miqdori va namlikning eng yuqori oshishini bergan; itburun moyi tadqiqotning asosiy ob'ekti emas, taqqoslash moyi bo'lgan, tayyor kosmetik vosita bo'lmagan, annotatsiyada esa kuzatuv davomiyligi keltirilmagan.",
+        "rosehip-oil-4": "Chop etilgan klinik hodisa bayonida teriga surtilgan \"Rosa mosqueta\" (itburun) moyidan kelib chiqqan allergik kontakt dermatit tasvirlangan; annotatsiya PubMed'da mavjud emas, shu sababli bu faqat sarlavha, kalit so'zlar va indekslashga asoslangan. Bitta klinik hodisa bayoni bunday reaksiyalar qanchalik tez-tez uchrashini ko'rsata olmaydi, lekin o'simlik moyi ba'zi odamlarda allergik reaksiya chaqirishi mumkinligini ko'rsatadi.",
+        "rosehip-oil-5": "Laboratoriya (in vitro) tadqiqotida itburun moyi UVA va UVC nurlari ta'sirida oksidlangan, moyni nanokapsulalarga joylash esa bu oksidlanishni kamaytirgan; tadqiqotda tijoriy mahsulotlar yoki oddiy saqlash sharoitlari sinalmagan, shu sababli u faqat moy yorug'lik ta'sirida oksidlanishga sezgir bo'lishi mumkinligini ko'rsatadi."
+      }
+    },
+    "ru": {
+      "summary": "Масло шиповника (INCI: Rosa Canina Fruit Oil; получают из Rosa canina или Rosa rubiginosa, продаётся также как масло семян шиповника) — растительное масло, используемое в несмываемых средствах по уходу за кожей. Опубликованные данные о наружном применении ограничены: одно рандомизированное исследование многокомпонентного крема от растяжек, одно небольшое сравнение увлажнённости кожи и нарративный обзор исследований рубцов, признавший данные недостаточными. В этом поиске не найдено подходящих исследований на людях по фотостарению. Клиническое описание случая аллергического контактного дерматита и лабораторные данные об окислении под действием света приведены как предостережения. Естественное происхождение само по себе не показывает, как конкретный человек перенесёт средство. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+      "claims": {
+        "rosehip-oil-1": "В нарративном обзоре о масле шиповника и послеоперационных рубцах отмечена нехватка высококачественных исследований, всего два клинических исследования на людях; сообщалось о некоторых данных, что средства для наружного применения с экстрактом масла шиповника могут уменьшать размер и покраснение рубцов, но сделан вывод, что данных недостаточно, чтобы рекомендовать масло шиповника при ранах, и нужны дальнейшие исследования.",
+        "rosehip-oil-2": "В двойном слепом плацебо-контролируемом рандомизированном исследовании с участием беременных женщин крем, содержащий масло шиповника вместе с гидроксипролисиланом-C, тритерпенами Centella asiatica и витамином E, не изменил общую частоту появления растяжек (33,3% в контроле против 37,6% в группе крема, различие не значимо); у женщин без растяжек на исходном уровне новые растяжки встречались реже при использовании крема (5,6% против 35%, небольшая подгруппа с широким доверительным интервалом). Эффекты нельзя приписать только маслу шиповника.",
+        "rosehip-oil-3": "В небольшом лабораторном исследовании с измерениями кожи у восьми здоровых добровольцев масло шиповника использовалось как эталонное масло наряду с оливковыми маслами и жидким парафином и дало наибольшее увеличение содержания кожного жира и увлажнённости по данным дерматоанализатора; масло шиповника было сравнительным образцом, а не основным предметом исследования, это не готовое косметическое средство, а длительность наблюдения в аннотации не указана.",
+        "rosehip-oil-4": "В опубликованном описании клинического случая сообщалось об аллергическом контактном дерматите, вызванном маслом «Rosa mosqueta» (шиповника), нанесённым на кожу; аннотация в PubMed недоступна, поэтому это основано только на названии, ключевых словах и индексации. Одно описание случая не показывает, насколько часто бывают такие реакции, но показывает, что растительное масло может вызвать аллергическую реакцию у некоторых людей.",
+        "rosehip-oil-5": "В лабораторном (in vitro) исследовании масло шиповника окислялось при воздействии UVA и UVC, а помещение масла в нанокапсулы уменьшало это окисление; исследование не проверяло готовые продукты и обычные условия хранения, поэтому оно лишь позволяет предположить, что масло может быть чувствительно к окислению под действием света."
+      }
+    },
+    "ar": {
+      "summary": "زيت ثمر الورد البري (INCI: Rosa Canina Fruit Oil؛ يُستخلص من Rosa canina أو Rosa rubiginosa ويُباع أيضًا باسم زيت بذور ثمر الورد البري) هو زيت نباتي يُستخدم في منتجات العناية بالبشرة التي تبقى على الجلد. الأدلة المنشورة حول استخدامه الموضعي محدودة: تجربة عشوائية واحدة لكريم متعدد المكوّنات للعلامات التمددية، ومقارنة صغيرة واحدة لترطيب الجلد، ومراجعة سردية لدراسات الندبات رأت أن الأدلة غير كافية. لم تُعثر في هذا البحث على دراسات بشرية مناسبة حول الشيخوخة الضوئية. أُدرج تقرير حالة عن التهاب الجلد التماسي التحسسي وبيانات مخبرية عن الأكسدة الناتجة عن الضوء بوصفها تنبيهات احترازية. لا يدل الأصل الطبيعي بحد ذاته على كيفية تحمّل أي شخص للمنتج. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+      "claims": {
+        "rosehip-oil-1": "في مراجعة سردية عن زيت ثمر الورد البري والندبات بعد الجراحة، وُجد نقص في الدراسات عالية الجودة مع تجربتين سريريتين فقط على البشر؛ وأُفيد بوجود بعض الأدلة على أن المنتجات الموضعية المحتوية على مستخلص زيت ثمر الورد البري قد تقلّل حجم الندبة واحمرارها، لكن المراجعة خلصت إلى أن الأدلة غير كافية للتوصية باستخدام زيت ثمر الورد البري للجروح وأن هناك حاجة إلى مزيد من البحث.",
+        "rosehip-oil-2": "في تجربة عشوائية مزدوجة التعمية ومضبوطة بالدواء الوهمي شملت نساءً حوامل، لم يغيّر كريم يحتوي على زيت ثمر الورد البري مع هيدروكسي برولي سيلان-C وتريتربينات Centella asiatica وفيتامين هـ معدل حدوث العلامات التمددية الإجمالي (33.3% في المجموعة الضابطة مقابل 37.6% في مجموعة الكريم، وهو فرق غير ذي دلالة)؛ وفي النساء اللواتي لم تكن لديهن علامات تمددية عند البداية كانت العلامات الجديدة أقل تكرارًا مع الكريم (5.6% مقابل 35%، في مجموعة فرعية صغيرة ذات فاصل ثقة واسع). ولا يمكن عزو التأثيرات إلى زيت ثمر الورد البري وحده.",
+        "rosehip-oil-3": "في دراسة مخبرية صغيرة مع قياسات للجلد شملت ثمانية متطوعين أصحاء، استُخدم زيت ثمر الورد البري زيتًا مرجعيًا إلى جانب زيوت الزيتون والبارافين السائل، وأعطى أعلى زيادة في محتوى الجلد من الزيت والترطيب وفق قياسات جهاز تحليل الجلد؛ وكان زيت ثمر الورد البري مادة للمقارنة وليس الموضوع الرئيسي للدراسة، ولم يكن منتجًا تجميليًا جاهزًا، ولم تذكر الخلاصة مدة المتابعة.",
+        "rosehip-oil-4": "وصف تقرير حالة منشور التهاب الجلد التماسي التحسسي الناتج عن زيت «Rosa mosqueta» (ثمر الورد البري) المستخدم على الجلد؛ والخلاصة غير متاحة في PubMed، لذا يستند هذا إلى العنوان والكلمات المفتاحية والفهرسة فقط. لا يستطيع تقرير حالة واحد أن يبيّن مدى شيوع مثل هذه التفاعلات، لكنه يُظهر أن الزيت النباتي قد يسبب تفاعلًا تحسسيًا لدى بعض الأفراد.",
+        "rosehip-oil-5": "في دراسة مخبرية (in vitro)، تأكسد زيت ثمر الورد البري عند تعريضه للأشعة فوق البنفسجية UVA وUVC، وقلّل تغليف الزيت في كبسولات نانوية هذه الأكسدة؛ ولم تختبر الدراسة منتجات تجارية أو ظروف التخزين المعتادة، لذا فهي تشير فقط إلى أن الزيت قد يكون حساسًا للأكسدة الناتجة عن الضوء."
+      }
+    }
+  }
+}

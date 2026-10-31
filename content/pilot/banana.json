@@ -1,0 +1,135 @@
+{
+ "inci": "Musa Sapientum Fruit Extract",
+ "slug": "banana",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Banana (Musa) fruit and peel extracts are used in some topical cosmetic products, and laboratory studies have examined their antioxidant and pigmentation-related properties. The evidence found for topical skin use is very limited: one small uncontrolled human study plus laboratory (in vitro and animal) experiments. No randomised controlled trial of topical banana extract in humans was found in the PubMed searches done for this card. Most of the studies used peel extracts of various banana varieties, which may differ from the fruit extract named on ingredient labels. Banana can also cause allergic reactions, including cross-reactivity in people with latex allergy (latex-fruit syndrome) and, in case reports, contact urticaria. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "banana-1",
+   "text_en": "In a single-arm, uncontrolled proof-of-concept study, 49 women aged 25 to 50 who completed 12 weeks of nightly use of a serum containing 5% lady finger banana (Musa acuminata Colla) peel extract nanoparticles had lower dermoscopic photoaging scores and lower serum MMP-1 levels at week 12 than at baseline, and no adverse events were reported. Without a control group, the authors state the findings are preliminary and do not establish efficacy or causality.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "42657390",
+     "doi": "10.3389/fmed.2026.1886006",
+     "title": "Changes in dermoscopic photoaging and serum MMP-1 following 12 weeks of 5% lady finger banana peel extract nanoparticle serum: a single-arm proof-of-concept study.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42657390/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "banana-2",
+   "text_en": "In laboratory experiments (in vitro), extracts of Hom Thong banana peel, which are rich in phenolic compounds, were reported to reduce melanin content and tyrosinase activity in human and mouse melanoma cells and to suppress expression of melanogenesis-related genes, with effects described as comparable to the arbutin and kojic acid comparison groups; a molecular docking analysis also suggested that rosmarinic acid may interact with tyrosinase. These are cell-line and computational results and do not show an effect on human skin.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "39684912",
+     "doi": "10.3390/ijms252313202",
+     "title": "Valorization of Hom Thong Banana Peel (sp., AAA Group) as an Anti-Melanogenic Agent Through Inhibition of Pigmentary Genes and Molecular Docking Study.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39684912/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "banana-3",
+   "text_en": "In a UVB-induced photoaging model in Wistar rats, a transfersome gel of kepok banana (Musa balbisiana) peel ethanol extract, applied three times a week for 4 weeks, was reported to reduce wrinkle degree, epidermal thickening, lipid peroxidation markers (MDA, TNF-alpha) and MMP-1 expression compared with a non-transfersome gel group. This is animal data and cannot be extrapolated to human skin.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "39308702",
+     "doi": "10.5455/OVJ.2024.v14.i8.28",
+     "title": "Ameliorative effect of transfersome gel of kepok banana peel extract () against photoaging in Wistar rat skin.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39308702/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "banana-4",
+   "text_en": "A PRISMA-based literature review of latex-fruit syndrome (cross-reactivity between natural latex allergens and some fruit allergens) reported banana among the fruits most commonly involved in affected people, together with avocado, kiwifruit and papaya; reported prevalence varied widely between studies (4-88%), and systemic symptoms accounted for 73% and localised symptoms for 27% of reported symptoms. The review does not test cosmetic products, but people with a known latex or banana allergy may wish to be cautious with banana-containing products.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "39064262",
+     "doi": "10.3390/jcm13144222",
+     "title": "Revisiting Latex-Fruit Syndrome after 30 Years of Research: A Comprehensive Literature Review and Description of Two Cases.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39064262/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "banana-5",
+   "text_en": "A French case report of two atopic patients described contact urticaria after skin contact with foods; one 45-year-old woman had face and hand dermatitis with contact urticaria to potato and banana, and a Prausnitz-Kustner passive transfer test was positive only for potato and banana. This is an old report of two cases involving fresh foods, not cosmetic products, and it cannot show how common such reactions are.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "7171194",
+     "title": "[Contact urticaria in atopic patients. Apropos of 2 cases].",
+     "year": 1982,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/7171194/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Banan (Musa) mevasi va po'stlog'i ekstrakti ba'zi surtiladigan kosmetik vositalarda ishlatiladi, laboratoriya tadqiqotlarida esa ularning antioksidant va pigmentatsiyaga oid xossalari o'rganilgan. Teriga surtish bo'yicha topilgan dalillar juda cheklangan: bitta kichik nazoratsiz tadqiqot odamlarda, shuningdek laboratoriya (in vitro va hayvonlarda) tajribalari. Ushbu kartochka uchun o'tkazilgan PubMed qidiruvlarida odamlarda surtiladigan banan ekstrakti bo'yicha randomizatsiyalangan nazoratli tadqiqot topilmadi. Tadqiqotlarning ko'pchiligida banan navlarining po'stlog'i ekstrakti ishlatilgan, bu ingredient yorlig'ida ko'rsatilgan meva ekstraktidan farq qilishi mumkin. Banan allergik reaksiyalarni ham keltirib chiqarishi mumkin, jumladan lateks allergiyasi bo'lgan odamlarda o'zaro reaktivlikni (lateks-meva sindromi) va hodisa hisobotlarida kontakt urtikariyani. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "banana-1": "Bitta guruhli, nazoratsiz dastlabki tadqiqotda tarkibida 5% lady finger bananining (Musa acuminata Colla) po'stlog'i ekstrakti nanozarrachalari bo'lgan zardobni 12 hafta davomida har kecha ishlatib bo'lgan 25 yoshdan 50 yoshgacha bo'lgan 49 nafar ayolda 12-haftada dermoskopik fotoqarish ballari va qon zardobidagi MMP-1 darajasi boshlang'ich holatga qaraganda pastroq bo'lgan, nojo'ya ta'sirlar qayd etilmagan. Nazorat guruhi bo'lmagani sababli, mualliflar natijalarni dastlabki deb hisoblaydi va ular samaradorlik yoki sababiy bog'liqlikni isbotlamaydi, deb ta'kidlaydi.",
+    "banana-2": "Laboratoriya tajribalarida (in vitro) fenol birikmalariga boy Hom Thong banani po'stlog'i ekstraktlari inson va sichqon melanoma hujayralarida melanin miqdori va tirozinaza faolligini kamaytirgani hamda melanogenezga oid genlar ifodasini susaytirgani qayd etilgan, ta'sir arbutin va kojik kislota qiyosiy guruhlariga o'xshash deb ta'riflangan; molekulyar dokking tahlili ham rosmarin kislotasi tirozinaza bilan o'zaro ta'sirlashishi mumkinligini ko'rsatgan. Bular hujayra liniyalari va hisoblash natijalari bo'lib, inson terisiga ta'sirni ko'rsatmaydi.",
+    "banana-3": "Wistar kalamushlarida UVB sabab bo'lgan fotoqarish modelida kepok banani (Musa balbisiana) po'stlog'i etanol ekstraktining transfersoma geli haftasiga uch marta 4 hafta davomida surtilganda, transfersoma bo'lmagan gel guruhiga qaraganda ajinlar darajasi, epidermis qalinlashuvi, lipid peroksidlanish ko'rsatkichlari (MDA, TNF-alfa) va MMP-1 ifodasi kamaygani qayd etilgan. Bu hayvonlardagi ma'lumot bo'lib, uni inson terisiga ko'chirib bo'lmaydi.",
+    "banana-4": "Lateks-meva sindromi (tabiiy lateks allergenlari va ba'zi meva allergenlari o'rtasidagi o'zaro reaktivlik) bo'yicha PRISMA asosidagi adabiyotlar sharhida banan ta'sirlangan odamlarda eng ko'p uchraydigan mevalar qatorida, avokado, kivi va papayya bilan birga, keltirilgan; qayd etilgan tarqalish tadqiqotlar o'rtasida keng farq qilgan (4-88%), qayd etilgan alomatlarning 73 foizi tizimli, 27 foizi mahalliy bo'lgan. Sharh kosmetik vositalarni sinamagan, ammo ma'lum lateks yoki banan allergiyasi bo'lgan odamlar tarkibida banan bo'lgan vositalarda ehtiyot bo'lishni xohlashi mumkin.",
+    "banana-5": "Fransuz tilidagi hodisa hisobotida atopiyali ikki bemorda oziq-ovqat mahsulotlari bilan teri aloqasidan keyingi kontakt urtikariya tasvirlangan; 45 yoshli bir ayolda yuz va qo'llar dermatiti bo'lib, kartoshka va bananga kontakt urtikariya kuzatilgan, Prausnits-Kyustner passiv o'tkazish sinovi faqat kartoshka va banan uchun musbat bo'lgan. Bu ikki holat haqidagi eski hisobot bo'lib, unda yangi oziq-ovqat mahsulotlari ishtirok etgan, kosmetik vositalar emas, va bunday reaksiyalar qanchalik tez-tez uchrashini ko'rsata olmaydi."
+   }
+  },
+  "ru": {
+   "summary": "Экстракты плодов и кожуры банана (Musa) используются в некоторых косметических средствах для местного применения, а в лабораторных исследованиях изучались их антиоксидантные свойства и свойства, связанные с пигментацией. Найденные данные о применении на коже очень ограничены: одно небольшое неконтролируемое исследование на людях, а также лабораторные (in vitro и на животных) эксперименты. В поисках PubMed, проведённых для этой карточки, рандомизированных контролируемых исследований местного применения экстракта банана у людей не найдено. В большинстве исследований использовались экстракты кожуры разных сортов банана, которые могут отличаться от экстракта плодов, указанного в составе средств. Банан также может вызывать аллергические реакции, включая перекрёстную реактивность у людей с аллергией на латекс (латексно-фруктовый синдром) и, по описаниям клинических случаев, контактную крапивницу. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "banana-1": "В одногрупповом неконтролируемом пилотном исследовании у 49 женщин в возрасте от 25 до 50 лет, завершивших 12 недель ежевечернего применения сыворотки с наночастицами 5% экстракта кожуры банана lady finger (Musa acuminata Colla), на 12-й неделе дерматоскопические показатели фотостарения и уровень MMP-1 в сыворотке крови были ниже исходных, нежелательных явлений не зарегистрировано. Из-за отсутствия контрольной группы авторы считают результаты предварительными, не доказывающими эффективность или причинно-следственную связь.",
+    "banana-2": "В лабораторных экспериментах (in vitro) экстракты кожуры банана Hom Thong, богатые фенольными соединениями, по сообщениям, снижали содержание меланина и активность тирозиназы в клетках меланомы человека и мыши и подавляли экспрессию генов, связанных с меланогенезом, причём эффекты описаны как сопоставимые с группами сравнения с арбутином и койевой кислотой; молекулярный докинг также показал, что розмариновая кислота может взаимодействовать с тирозиназой. Это результаты на клеточных линиях и компьютерные расчёты, они не показывают эффекта на коже человека.",
+    "banana-3": "В модели фотостарения, вызванного UVB, у крыс Wistar гель-трансферсома с этанольным экстрактом кожуры банана kepok (Musa balbisiana), наносимый три раза в неделю в течение 4 недель, по сообщениям, уменьшал степень морщин, утолщение эпидермиса, маркеры перекисного окисления липидов (MDA, TNF-альфа) и экспрессию MMP-1 по сравнению с группой геля без трансферсом. Это данные на животных, их нельзя переносить на кожу человека.",
+    "banana-4": "В обзоре литературы по методике PRISMA, посвящённом латексно-фруктовому синдрому (перекрёстная реактивность между аллергенами натурального латекса и некоторых фруктов), банан назван среди фруктов, наиболее часто вовлечённых у пострадавших, наряду с авокадо, киви и папайей; распространённость в разных исследованиях сильно различалась (4-88%), а системные симптомы составили 73%, местные 27% зарегистрированных симптомов. В обзоре косметические средства не тестировались, но людям с известной аллергией на латекс или банан может быть разумно соблюдать осторожность со средствами, содержащими банан.",
+    "banana-5": "В французском описании клинических случаев двух пациентов с атопией была описана контактная крапивница после контакта кожи с пищевыми продуктами; у одной 45-летней женщины был дерматит лица и рук с контактной крапивницей на картофель и банан, а проба пассивного переноса Праусница-Кюстнера была положительной только для картофеля и банана. Это старое описание двух случаев со свежими пищевыми продуктами, а не косметическими средствами, и оно не позволяет судить о том, как часто возникают такие реакции."
+   }
+  },
+  "ar": {
+   "summary": "تُستخدم مستخلصات ثمرة الموز وقشره (Musa) في بعض المنتجات التجميلية الموضعية، وقد درست الأبحاث المخبرية خصائصها المضادة للأكسدة والمتعلقة بالتصبغ. الأدلة التي وُجدت عن الاستخدام الموضعي على الجلد محدودة جدًا: دراسة صغيرة واحدة غير مضبوطة على البشر، إضافة إلى تجارب مخبرية (في المختبر وعلى الحيوانات). لم يُعثر في عمليات البحث في PubMed التي أُجريت لهذه البطاقة على تجربة عشوائية مضبوطة لمستخلص الموز الموضعي على البشر. استخدمت معظم الدراسات مستخلصات قشور أصناف مختلفة من الموز، وقد تختلف عن مستخلص الثمرة المذكور على ملصقات المكوّنات. كما قد يسبب الموز تفاعلات تحسسية، منها التفاعل المتصالب لدى المصابين بحساسية اللاتكس (متلازمة اللاتكس والفاكهة) وكذلك الشرى التماسي بحسب تقارير الحالات. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "banana-1": "في دراسة استكشافية أحادية الذراع وغير مضبوطة، سجّلت 49 امرأة تتراوح أعمارهن بين 25 و50 عامًا أكملن 12 أسبوعًا من الاستخدام الليلي لمصل يحتوي على جسيمات نانوية من مستخلص قشر الموز lady finger (Musa acuminata Colla) بتركيز 5% درجات أقل للشيخوخة الضوئية بالتنظير الجلدي ومستويات أقل لـ MMP-1 في المصل في الأسبوع 12 مقارنة بالقياس الأساسي، ولم تُسجَّل أي أعراض جانبية. ونظرًا لعدم وجود مجموعة ضابطة، يرى المؤلفون أن النتائج أولية ولا تثبت الفعالية أو العلاقة السببية.",
+    "banana-2": "في تجارب مخبرية (in vitro)، أُفيد بأن مستخلصات قشر الموز Hom Thong، الغنية بالمركبات الفينولية، خفّضت محتوى الميلانين ونشاط التيروزيناز في خلايا الورم الميلانيني البشرية والفأرية وثبّطت التعبير عن الجينات المرتبطة بتكوين الميلانين، ووُصفت التأثيرات بأنها قابلة للمقارنة بمجموعتي المقارنة أربوتين وحمض الكوجيك؛ كما أشار تحليل الالتحام الجزيئي إلى أن حمض الروزمارينيك قد يتفاعل مع التيروزيناز. هذه نتائج على خطوط خلوية وحسابية ولا تُظهر تأثيرًا على جلد الإنسان.",
+    "banana-3": "في نموذج للشيخوخة الضوئية المحدثة بالأشعة فوق البنفسجية UVB لدى جرذان Wistar، أُفيد بأن جل ترانسفيرسوم من المستخلص الإيثانولي لقشر الموز kepok (Musa balbisiana)، المطبّق ثلاث مرات أسبوعيًا لمدة 4 أسابيع، خفّض درجة التجاعيد وسماكة البشرة ومؤشرات أكسدة الدهون (MDA وTNF-alpha) والتعبير عن MMP-1 مقارنة بمجموعة الجل الخالي من الترانسفيرسوم. هذه بيانات على الحيوانات ولا يمكن تعميمها على جلد الإنسان.",
+    "banana-4": "أشارت مراجعة للأدبيات وفق منهجية PRISMA حول متلازمة اللاتكس والفاكهة (التفاعل المتصالب بين مستضدات اللاتكس الطبيعي ومستضدات بعض الفواكه) إلى أن الموز من أكثر الفواكه ارتباطًا بالمصابين، إلى جانب الأفوكادو والكيوي والبابايا؛ وتباينت معدلات الانتشار المسجّلة تباينًا واسعًا بين الدراسات (4-88%)، وشكّلت الأعراض الجهازية 73% والأعراض الموضعية 27% من الأعراض المسجّلة. لم تختبر المراجعة المنتجات التجميلية، لكن قد يرغب من لديهم حساسية معروفة من اللاتكس أو الموز في توخي الحذر مع المنتجات المحتوية على الموز.",
+    "banana-5": "وصف تقرير حالات فرنسي لمريضين مصابين بالتأتب الشرى التماسي بعد تلامس الجلد مع أطعمة؛ إذ عانت امرأة في الخامسة والأربعين من التهاب جلد في الوجه واليدين مع شرى تماسي تجاه البطاطا والموز، وكان اختبار النقل السلبي (برواسنيتز-كوستنر) إيجابيًا للبطاطا والموز فقط. هذا تقرير قديم عن حالتين شمل أطعمة طازجة وليس منتجات تجميلية، ولا يمكنه بيان مدى شيوع هذه التفاعلات."
+   }
+  }
+ }
+}

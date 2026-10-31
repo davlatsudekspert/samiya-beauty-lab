@@ -16,10 +16,25 @@ _PILOT = Path(__file__).resolve().parent.parent / "pilot"
 SLUGS = _FIRST + sorted(p.stem for p in _PILOT.glob("*.json") if p.stem != "glossary" and p.stem not in _FIRST)
 LANGS = ["en", "uz", "ru", "ar"]
 # Faqat bir xil modda ekanligi aniq nomlar (taxmin qilinmaydi).
+# Tabiiy/o'simlik asosli ingredientlar (ilovada alohida bo'lim). Qolganlari "faol modda".
+NATURAL = {"honey", "aloe-vera", "coconut-oil", "nigella-sativa-oil", "rosehip-oil", "cucumber", "banana", "oat", "green-tea"}
+
 ALIASES = {
     "niacinamide": ["Nicotinamide", "Vitamin B3"],
     "salicylic-acid": ["2-Hydroxybenzoic Acid"],
     "ascorbic-acid": ["L-Ascorbic Acid", "Vitamin C"],
+    "glycerin": ["Glycerol"],
+    # Tabiiy ingredientlar: faqat bir xil modda uchun umumiy nom yoki yorliqdagi rasmiy yozuv shakli (taxmin yo'q;
+    # masalan "Aloe Barbadensis Leaf Extract" boshqa modda hisoblanadi va bu yerga kiritilmagan).
+    "honey": ["Honey"],
+    "aloe-vera": ["Aloe Vera"],
+    "coconut-oil": ["Coconut Oil", "Cocos Nucifera (Coconut) Oil"],
+    "nigella-sativa-oil": ["Black Seed Oil", "Nigella Sativa Oil"],
+    "rosehip-oil": ["Rosehip Oil"],
+    "cucumber": ["Cucumber", "Cucumis Sativus (Cucumber) Fruit Extract"],
+    "banana": ["Banana", "Musa Sapientum (Banana) Fruit Extract"],
+    "oat": ["Oatmeal", "Colloidal Oatmeal", "Avena Sativa (Oat) Kernel Flour"],
+    "green-tea": ["Green Tea", "Camellia Sinensis (Green Tea) Leaf Extract"],
 }
 
 def build(src: Path):
@@ -37,7 +52,7 @@ def build(src: Path):
             claims.append({"id": cl["id"], "level": cl["evidence_level"], "studyType": cl["study_type"],
                            "text": text, "sources": sources})
         items.append({
-            "inci": c["inci"], "slug": slug, "status": c["status"], "aliases": ALIASES.get(slug, []),
+            "inci": c["inci"], "slug": slug, "status": c["status"], "category": "natural" if slug in NATURAL else "active", "aliases": ALIASES.get(slug, []),
             "eu": {"annex": c["eu_regulation"]["annex"], "verified": c["eu_regulation"]["verified"]},
             "summary": {"en": c["summary_en"], "uz": uz(tr["uz"]["summary"]),
                         **{l: tr[l]["summary"] for l in ("ru", "ar")}},

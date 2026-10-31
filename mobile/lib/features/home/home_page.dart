@@ -32,7 +32,9 @@ class HomePage extends StatelessWidget {
       ('ai', l.tileAi, Icons.auto_awesome_outlined, () => _soon(context)),
       ('journal', l.tileJournal, Icons.event_note_outlined, () => context.go('/journal')),
     ];
-    final ingredients = AppScope.of(context).ingredients.all.take(8).map((i) => i.inci).toList();
+    final repo = AppScope.of(context).ingredients;
+    final ingredients = repo.all.where((i) => !i.isNatural).take(8).map((i) => i.inci).toList();
+    final natural = repo.all.where((i) => i.isNatural).take(8).toList();
     return KeyedSubtree(
       key: const Key('home-page'),
       child: SingleChildScrollView(
@@ -127,6 +129,31 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
+          if (natural.isNotEmpty) ...[
+            const SizedBox(height: 22),
+            Row(children: [
+              Expanded(child: Text(l.naturalSectionTitle, style: t.titleMedium?.copyWith(fontSize: 18, fontWeight: FontWeight.w700))),
+              TextButton(
+                key: const Key('home-natural-all'),
+                onPressed: () => context.safePush('/scanner/ingredients?filter=natural'),
+                child: Text(l.seeAll, style: t.titleMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w700)),
+              ),
+            ]),
+            const SizedBox(height: 8),
+            SizedBox(
+              key: const Key('home-natural-section'),
+              height: 132,
+              child: ListView.separated(
+                scrollDirection: Axis.horizontal,
+                itemCount: natural.length,
+                separatorBuilder: (_, _) => const SizedBox(width: 12),
+                itemBuilder: (context, i) => _IngredientCard(
+                  name: natural[i].inci,
+                  onTap: () => context.safePush('/scanner/ingredient/${natural[i].slug}'),
+                ),
+              ),
+            ),
+          ],
         ]),
       ),
     );

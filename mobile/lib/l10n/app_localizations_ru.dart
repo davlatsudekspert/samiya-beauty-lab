@@ -435,4 +435,20 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get scanReviewHint =>
       'Текст распознан по фото. Проверьте и при необходимости исправьте ошибки.';
+
+  @override
+  String get filterAll => 'Все';
+
+  @override
+  String get filterActive => 'Активные вещества';
+
+  @override
+  String get filterNatural => 'Натуральные и растительные';
+
+  @override
+  String get naturalSectionTitle => 'Натуральные и растительные';
+
+  @override
+  String get naturalNote =>
+      '«Натуральное» не значит автоматически «безопасное»: возможны аллергия и раздражение. Сначала проверьте средство на небольшом участке кожи.';
 }

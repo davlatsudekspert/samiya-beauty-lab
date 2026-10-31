@@ -434,4 +434,20 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get scanReviewHint =>
       'The text was read from the photo. Check it and fix any mistakes.';
+
+  @override
+  String get filterAll => 'All';
+
+  @override
+  String get filterActive => 'Active ingredients';
+
+  @override
+  String get filterNatural => 'Natural & plant-based';
+
+  @override
+  String get naturalSectionTitle => 'Natural & plant-based';
+
+  @override
+  String get naturalNote =>
+      '“Natural” does not automatically mean “safe”: allergy and irritation are possible. Test a new product on a small area of skin first.';
 }

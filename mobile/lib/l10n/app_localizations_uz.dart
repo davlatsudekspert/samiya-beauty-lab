@@ -436,4 +436,20 @@ class AppLocalizationsUz extends AppLocalizations {
   @override
   String get scanReviewHint =>
       'Matn rasmdan o‘qildi. Xatolarni tekshirib, kerak bo‘lsa tuzating.';
+
+  @override
+  String get filterAll => 'Barchasi';
+
+  @override
+  String get filterActive => 'Faol moddalar';
+
+  @override
+  String get filterNatural => 'Tabiiy va o‘simlik';
+
+  @override
+  String get naturalSectionTitle => 'Tabiiy va o‘simlik asosli';
+
+  @override
+  String get naturalNote =>
+      '“Tabiiy” avtomatik “xavfsiz” degani emas: allergiya va ta‘sirlanish bo‘lishi mumkin. Yangi vositani avval terining kichik joyida sinab ko‘ring.';
 }

@@ -1,0 +1,135 @@
+{
+ "inci": "Camellia Sinensis Leaf Extract",
+ "slug": "green-tea",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Green tea leaf extract (Camellia Sinensis Leaf Extract, rich in polyphenols such as EGCG) is a common cosmetic ingredient that has been studied in topical products for acne-related outcomes, antioxidant effects and ultraviolet-related skin changes. The evidence is mixed: a meta-analysis reported lower acne lesion counts in its topical subgroup, while a systematic review found no significant reduction in wrinkling; much of the remaining evidence is small, specific to EGCG, drawn from narrative reviews, or from animal safety tests that showed signs of skin irritation and sensitisation. This card covers topical use only, summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "green-tea-1",
+   "text_en": "A systematic review and meta-analysis of randomised controlled trials of green tea extract in acne (five trials in total) reported that, in its topical subgroup, inflammatory and non-inflammatory acne lesion counts were lower than with control. The abstract does not give the number of topical trials, the outcome was lesion counts rather than sebum measurements, and the authors called for further high-quality trials.",
+   "evidence_level": "A",
+   "study_type": "meta-analysis",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "32812270",
+     "doi": "10.1002/ptr.6809",
+     "title": "The effects of green tea on acne vulgaris: A systematic review and meta-analysis of randomized clinical trials.",
+     "year": 2020,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32812270/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "green-tea-2",
+   "text_en": "A systematic review of randomised or controlled trials of botanical extracts as anti-ageing skin preparations (11 trials, literature searched to October 2009) reported no significant reduction in wrinkling for green tea or for a combination product containing green tea; the review rated all included trials as poor in methodological quality and described the overall evidence for botanical extracts as weak.",
+   "evidence_level": "A",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "21087067",
+     "doi": "10.2165/11584420-000000000-00000",
+     "title": "Botanical extracts as anti-aging preparations for the skin: a systematic review.",
+     "year": 2010,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21087067/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "green-tea-3",
+   "text_en": "In a small randomised, double-blind split-face trial, four healthy volunteers with facial erythema and telangiectasia applied a cream with 2.5% EGCG to one side of the face and a vehicle cream to the other, twice daily for six weeks. Skin biopsies showed lower staining for the tissue markers HIF-1 alpha and VEGF on the EGCG-treated side. The abstract reports tissue markers only, and four participants are too few to support general conclusions.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "20830241",
+     "title": "Anti-angiogenic effects of epigallocatechin-3-gallate in human skin.",
+     "year": 2010,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/20830241/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "green-tea-4",
+   "text_en": "A narrative literature review of EGCG for topical use in dermatology reported that EGCG has antioxidant properties described as effective in preventing UV-induced skin damage and that titanium dioxide coated with EGCG proved a suitable ingredient in sunscreens. The review also noted that EGCG is unstable, which may hinder dermatological and cosmetic use, and that reported interactions with cosmetic ingredients were limited. As a narrative review, it does not provide pooled evidence of sun protection by green tea extract in finished cosmetic products.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "32189392",
+     "doi": "10.1002/ptr.6670",
+     "title": "Great green tea ingredient? A narrative literature review on epigallocatechin gallate and its biophysical properties for topical use in dermatology.",
+     "year": 2020,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32189392/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "green-tea-5",
+   "text_en": "In safety studies of a purified, EGCG-rich green tea preparation (not a finished cosmetic product), topical application caused minor skin irritation in rats and guinea pigs but not in rabbits, and the preparation was a moderate skin sensitiser in the guinea pig maximisation test. These are animal data; they do not show the risk for people using cosmetic products, but they indicate that skin irritation and contact sensitisation potential are relevant considerations.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "16387402",
+     "doi": "10.1016/j.fct.2005.11.003",
+     "title": "Safety studies on epigallocatechin gallate (EGCG) preparations. Part 2: dermal, acute and short-term toxicity studies.",
+     "year": 2006,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16387402/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Yashil choy barg ekstrakti (Camellia Sinensis Leaf Extract; EGCG kabi polifenollarga boy) keng qo'llaniladigan kosmetik ingredient bo'lib, surtiladigan vositalarda akne bilan bog'liq natijalar, antioksidant ta'sir va ultrabinafsha nuri bilan bog'liq teri o'zgarishlari bo'yicha o'rganilgan. Dalillar bir xil emas: meta-tahlilda surtiladigan kichik guruhda akne toshmalari soni kamroq bo'lgani qayd etilgan, tizimli sharhda esa ajinlarning sezilarli kamayishi topilmagan; qolgan dalillarning ko'pi kichik, faqat EGCG'ga oid, hikoyaviy sharhlardan yoki terining ta'sirlanishi va sensibilizatsiya belgilarini ko'rsatgan hayvonlardagi xavfsizlik sinovlaridan olingan. Bu kartochka faqat surtiladigan qo'llanishni qamrab oladi, faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "green-tea-1": "Akne bo'yicha yashil choy ekstrakti ishtirokidagi randomizatsiyalangan nazoratli tadqiqotlarning tizimli sharhi va meta-tahlilida (jami beshta tadqiqot) surtiladigan kichik guruhda yallig'lanishli va yallig'lanishsiz akne toshmalari soni nazoratdagiga qaraganda kamroq bo'lgani qayd etilgan. Annotatsiyada surtiladigan tadqiqotlar soni ko'rsatilmagan, natija sebum o'lchovlari emas, toshmalar soni bo'lgan va mualliflar yuqori sifatli qo'shimcha tadqiqotlar zarurligini ta'kidlagan.",
+    "green-tea-2": "Terini yoshartiruvchi vositalar sifatida o'simlik ekstraktlarining randomizatsiyalangan yoki nazoratli tadqiqotlari bo'yicha tizimli sharhda (11 ta tadqiqot, adabiyot 2009-yil oktyabrigacha qidirilgan) yashil choy yoki yashil choy tarkibli kombinatsiyalangan mahsulot uchun ajinlarning sezilarli kamayishi qayd etilmagan; sharhda barcha kiritilgan tadqiqotlarning uslubiy sifati past deb baholangan va o'simlik ekstraktlari bo'yicha umumiy dalil zaif deb ta'riflangan.",
+    "green-tea-3": "Kichik, ikki tomonlama ko'r, randomizatsiyalangan yarim yuz tadqiqotida yuzida qizarish va telangiektaziyasi bo'lgan to'rt nafar sog'lom ko'ngilli yuzning bir tomoniga 2,5% EGCG li krem, ikkinchi tomoniga asos (vehikul) krem olti hafta davomida kuniga ikki marta surtgan. Teri biopsiyalarida EGCG surtilgan tomonda to'qima markerlari HIF-1 alfa va VEGF bo'yalishi pastroq bo'lgan. Annotatsiyada faqat to'qima markerlari keltirilgan, to'rt ishtirokchi esa umumiy xulosalar uchun juda kam.",
+    "green-tea-4": "Dermatologiyada EGCG'ning surtiladigan qo'llanishi bo'yicha hikoyaviy adabiyot sharhida EGCG'ning antioksidant xossalari ultrabinafsha nuri keltirib chiqargan teri shikastlanishining oldini olishda samarali deb ta'riflangani va EGCG bilan qoplangan titan dioksidi quyoshdan himoya vositalari uchun mos tarkibiy qism ekanligi qayd etilgan. Sharhda yana EGCG beqaror ekani, bu esa dermatologik va kosmetik qo'llanishga to'sqinlik qilishi mumkinligi va kosmetik ingredientlar bilan o'zaro ta'sir haqidagi ma'lumotlar cheklanganligi ta'kidlangan. Hikoyaviy sharh sifatida u tayyor kosmetik mahsulotlarda yashil choy ekstrakti quyoshdan himoya qilishining jamlangan dalilini bermaydi.",
+    "green-tea-5": "Tozalangan, EGCG'ga boy yashil choy preparati (tayyor kosmetik mahsulot emas) xavfsizlik tadqiqotlarida surtilganda kalamush va dengiz cho'chqalarida terining yengil ta'sirlanishiga sabab bo'lgan, quyonlarda esa bunday holat kuzatilmagan; dengiz cho'chqasi maksimizatsiya sinovida preparat terini o'rtacha darajada sensibilizatsiya qiluvchi modda bo'lgan. Bu hayvonlardagi ma'lumotlar; ular kosmetik vositalardan foydalanuvchi odamlardagi xavfni ko'rsatmaydi, lekin terining ta'sirlanishi va kontakt sensibilizatsiya imkoniyati e'tiborga olinadigan omillar ekanini bildiradi."
+   }
+  },
+  "ru": {
+   "summary": "Экстракт листьев зелёного чая (Camellia Sinensis Leaf Extract, богатый полифенолами, такими как EGCG) является распространённым косметическим ингредиентом, который изучался в средствах для местного применения в отношении результатов, связанных с акне, антиоксидантных эффектов и изменений кожи, связанных с ультрафиолетом. Данные неоднозначны: в мета-анализе в подгруппе местного применения сообщалось о меньшем числе высыпаний акне, тогда как в систематическом обзоре не обнаружено значимого уменьшения морщин; значительная часть остальных данных получена в небольших исследованиях, касается только EGCG, взята из нарративных обзоров или из испытаний безопасности на животных, показавших признаки раздражения кожи и сенсибилизации. Эта карточка охватывает только местное применение, обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "green-tea-1": "В систематическом обзоре и мета-анализе рандомизированных контролируемых исследований экстракта зелёного чая при акне (всего пять исследований) в подгруппе местного применения число воспалительных и невоспалительных высыпаний акне было ниже, чем в контроле. В аннотации не указано число исследований местного применения, результатом было число высыпаний, а не измерения себума, и авторы призвали к дальнейшим высококачественным исследованиям.",
+    "green-tea-2": "В систематическом обзоре рандомизированных или контролируемых исследований растительных экстрактов как средств против старения кожи (11 исследований, поиск литературы до октября 2009 года) не сообщалось о значимом уменьшении морщин для зелёного чая или для комбинированного продукта, содержащего зелёный чай; обзор оценил методологическое качество всех включённых исследований как низкое и охарактеризовал общие данные по растительным экстрактам как слабые.",
+    "green-tea-3": "В небольшом рандомизированном двойном слепом исследовании с разделением лица четыре здоровых добровольца с покраснением и телеангиэктазиями на лице наносили крем с 2,5% EGCG на одну половину лица и крем-основу на другую два раза в день в течение шести недель. Биопсии кожи показали меньшее окрашивание тканевых маркеров HIF-1 alpha и VEGF на стороне, обработанной EGCG. В аннотации приведены только тканевые маркеры, а четыре участника — слишком малая выборка для общих выводов.",
+    "green-tea-4": "В нарративном обзоре литературы об EGCG для местного применения в дерматологии сообщалось, что антиоксидантные свойства EGCG описаны как эффективные в предотвращении повреждения кожи, вызванного ультрафиолетом, а диоксид титана с покрытием из EGCG оказался подходящим ингредиентом солнцезащитных средств. В обзоре также отмечено, что EGCG нестабилен, что может ограничивать его дерматологическое и косметическое применение, а сообщения о взаимодействии с косметическими ингредиентами были ограниченными. Как нарративный обзор, он не даёт объединённых данных о защите от солнца экстрактом зелёного чая в готовых косметических продуктах.",
+    "green-tea-5": "В исследованиях безопасности очищенного, богатого EGCG препарата зелёного чая (не готового косметического продукта) нанесение на кожу вызывало слабое раздражение у крыс и морских свинок, но не у кроликов, а в тесте максимизации на морских свинках препарат был умеренным сенсибилизатором кожи. Это данные на животных; они не показывают риск для людей, использующих косметические средства, но указывают, что раздражение кожи и потенциал контактной сенсибилизации следует учитывать."
+   }
+  },
+  "ar": {
+   "summary": "مستخلص أوراق الشاي الأخضر (Camellia Sinensis Leaf Extract، الغني بالبوليفينولات مثل EGCG) مكوّن تجميلي شائع جرت دراسته في المنتجات الموضعية فيما يخص نتائج حب الشباب والتأثيرات المضادة للأكسدة والتغيرات الجلدية المرتبطة بالأشعة فوق البنفسجية. الأدلة متباينة: أفاد تحليل تلوي بانخفاض أعداد آفات حب الشباب في مجموعته الفرعية للاستعمال الموضعي، بينما لم تجد مراجعة منهجية انخفاضًا ملحوظًا في التجاعيد؛ ويأتي جزء كبير من بقية الأدلة من دراسات صغيرة أو خاصة بمركّب EGCG وحده أو من مراجعات سردية أو من اختبارات أمان على الحيوانات أظهرت علامات تهيّج الجلد والتحسس. تغطي هذه البطاقة الاستعمال الموضعي فقط، وتلخّص الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "green-tea-1": "في مراجعة منهجية وتحليل تلوي للتجارب العشوائية المضبوطة حول مستخلص الشاي الأخضر في حب الشباب (خمس دراسات في المجموع)، كانت أعداد آفات حب الشباب الالتهابية وغير الالتهابية في المجموعة الفرعية للاستعمال الموضعي أقل منها في المجموعة الضابطة. ولم يذكر الملخص عدد الدراسات الموضعية، وكانت النتيجة المقيسة أعداد الآفات لا قياسات الدهون الجلدية (الزهم)، ودعا المؤلفون إلى مزيد من الدراسات عالية الجودة.",
+    "green-tea-2": "في مراجعة منهجية للتجارب العشوائية أو المضبوطة حول المستخلصات النباتية كمستحضرات للجلد مضادة للشيخوخة (11 تجربة، وبحثت الأدبيات حتى أكتوبر 2009)، لم يُسجَّل انخفاض ملحوظ في التجاعيد مع الشاي الأخضر ولا مع منتج مركّب يحتوي على الشاي الأخضر؛ وقيّمت المراجعة جميع التجارب المشمولة بأنها ضعيفة الجودة المنهجية ووصفت الأدلة الإجمالية للمستخلصات النباتية بأنها ضعيفة.",
+    "green-tea-3": "في دراسة عشوائية صغيرة مزدوجة التعمية بتصميم نصف الوجه، وضع أربعة متطوعين أصحاء يعانون من احمرار وتوسّع الشعيرات الدموية في الوجه كريمًا يحتوي على 2.5% من EGCG على أحد جانبي الوجه وكريمًا حاملًا (سواغًا) على الجانب الآخر مرتين يوميًا لمدة ستة أسابيع. وأظهرت خزعات الجلد انخفاضًا في صبغ العلامتين النسيجيتين HIF-1 alpha وVEGF في الجانب المعالج بـ EGCG. ويذكر الملخص العلامات النسيجية فقط، وأربعة مشاركين عدد قليل جدًا لاستخلاص استنتاجات عامة.",
+    "green-tea-4": "ذكرت مراجعة سردية للأدبيات حول استعمال EGCG موضعيًا في الأمراض الجلدية أن خصائص EGCG المضادة للأكسدة وُصفت بأنها فعّالة في الوقاية من تلف الجلد الناجم عن الأشعة فوق البنفسجية، وأن ثاني أكسيد التيتانيوم المغلّف بـ EGCG كان مكوّنًا مناسبًا في واقيات الشمس. وأشارت المراجعة أيضًا إلى أن EGCG غير مستقر، مما قد يعيق استعماله الجلدي والتجميلي، وأن التفاعلات المبلغ عنها مع المكوّنات التجميلية كانت محدودة. وبما أنها مراجعة سردية، فهي لا تقدّم أدلة مجمّعة على حماية مستخلص الشاي الأخضر من الشمس في المنتجات التجميلية الجاهزة.",
+    "green-tea-5": "في دراسات أمان أجريت على مستحضر شاي أخضر منقّى وغني بـ EGCG (وليس منتجًا تجميليًا جاهزًا)، تسبّب التطبيق الموضعي في تهيّج خفيف للجلد لدى الجرذان وخنازير غينيا ولكن ليس لدى الأرانب، وكان المستحضر مُحسِّسًا جلديًا بدرجة متوسطة في اختبار التعظيم على خنازير غينيا. هذه بيانات حيوانية؛ فهي لا تُظهر الخطر على الأشخاص الذين يستخدمون المنتجات التجميلية، لكنها تشير إلى أن تهيّج الجلد وإمكانية التحسس التلامسي من الاعتبارات ذات الصلة."
+   }
+  }
+ }
+}

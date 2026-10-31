@@ -430,4 +430,20 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get scanReviewHint =>
       'تمت قراءة النص من الصورة. راجعه وصحّح الأخطاء إن وُجدت.';
+
+  @override
+  String get filterAll => 'الكل';
+
+  @override
+  String get filterActive => 'مكوّنات فعّالة';
+
+  @override
+  String get filterNatural => 'طبيعية ونباتية';
+
+  @override
+  String get naturalSectionTitle => 'طبيعية ونباتية';
+
+  @override
+  String get naturalNote =>
+      '«الطبيعي» لا يعني «الآمن» تلقائيًا: قد تحدث حساسية وتهيّج. جرّب أي منتج جديد على منطقة صغيرة من الجلد أولًا.';
 }

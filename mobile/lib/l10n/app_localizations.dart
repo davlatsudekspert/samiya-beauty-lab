@@ -905,6 +905,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'The text was read from the photo. Check it and fix any mistakes.'**
   String get scanReviewHint;
+
+  /// No description provided for @filterAll.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get filterAll;
+
+  /// No description provided for @filterActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Active ingredients'**
+  String get filterActive;
+
+  /// No description provided for @filterNatural.
+  ///
+  /// In en, this message translates to:
+  /// **'Natural & plant-based'**
+  String get filterNatural;
+
+  /// No description provided for @naturalSectionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Natural & plant-based'**
+  String get naturalSectionTitle;
+
+  /// No description provided for @naturalNote.
+  ///
+  /// In en, this message translates to:
+  /// **'“Natural” does not automatically mean “safe”: allergy and irritation are possible. Test a new product on a small area of skin first.'**
+  String get naturalNote;
 }
 
 class _AppLocalizationsDelegate

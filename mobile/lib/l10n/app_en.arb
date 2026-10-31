@@ -154,5 +154,10 @@
   "scanNoText": "No ingredient list found. Take a closer, sharper photo of the ingredients in good light.",
   "scanFailed": "Could not read the image. Try again or enter the ingredients manually.",
   "scanUnavailable": "Camera scanning is not available on this device. Enter the ingredients manually.",
-  "scanReviewHint": "The text was read from the photo. Check it and fix any mistakes."
+  "scanReviewHint": "The text was read from the photo. Check it and fix any mistakes.",
+  "filterAll": "All",
+  "filterActive": "Active ingredients",
+  "filterNatural": "Natural & plant-based",
+  "naturalSectionTitle": "Natural & plant-based",
+  "naturalNote": "“Natural” does not automatically mean “safe”: allergy and irritation are possible. Test a new product on a small area of skin first."
 }

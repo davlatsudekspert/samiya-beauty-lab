@@ -40,6 +40,10 @@ class IngredientDetailPage extends StatelessWidget {
                     const SizedBox(height: 10),
                     Text(ing.summaryFor(lang), style: t.bodyLarge),
                     const SizedBox(height: 14),
+                    if (ing.isNatural) ...[
+                      _Note(key: const Key('note-natural'), icon: Icons.spa_outlined, text: l.naturalNote),
+                      const SizedBox(height: 8),
+                    ],
                     if (ing.status != 'verified') _Note(key: const Key('note-draft'), icon: Icons.edit_note_rounded, text: l.draftNote),
                     if (!ing.euVerified) ...[
                       const SizedBox(height: 8),
