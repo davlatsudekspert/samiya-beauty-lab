@@ -64,6 +64,26 @@ jobs:
           PLIST_B64: ${{ secrets.GOOGLE_SERVICE_INFO_PLIST_B64 }}
         run: |
           .github/scripts/write_secret.sh "$PLIST_B64" mobile/ios/Runner/GoogleService-Info.plist xml
+      - name: Firebase URL sxemalari (Google/Apple kirishdan qaytish uchun)
+        working-directory: mobile/ios/Runner
+        run: |
+          PB=/usr/libexec/PlistBuddy
+          REV="$($PB -c 'Print :REVERSED_CLIENT_ID' GoogleService-Info.plist 2>/dev/null || true)"
+          APPID="$($PB -c 'Print :GOOGLE_APP_ID' GoogleService-Info.plist 2>/dev/null || true)"
+          ENC="app-$(printf '%s' "$APPID" | tr ':' '-')"
+          echo "REVERSED_CLIENT_ID bor: $([ -n "$REV" ] && echo ha || echo yo\'q); GOOGLE_APP_ID bor: $([ -n "$APPID" ] && echo ha || echo yo\'q)"
+          $PB -c 'Delete :CFBundleURLTypes' Info.plist 2>/dev/null || true
+          $PB -c 'Add :CFBundleURLTypes array' Info.plist
+          i=0
+          for scheme in "$REV" "$ENC"; do
+            if [ -n "$scheme" ] && [ "$scheme" != "app-" ]; then
+              $PB -c "Add :CFBundleURLTypes:$i dict" Info.plist
+              $PB -c "Add :CFBundleURLTypes:$i:CFBundleURLSchemes array" Info.plist
+              $PB -c "Add :CFBundleURLTypes:$i:CFBundleURLSchemes:0 string $scheme" Info.plist
+              i=$((i+1))
+            fi
+          done
+          echo "Qo'shilgan URL sxemalari soni: $i"
       - name: Xcode versiyasi
         run: xcodebuild -version
       - name: Flutter tayyorlash
@@ -96,6 +116,15 @@ jobs:
             -allowProvisioningUpdates \
             -authenticationKeyPath ~/.appstoreconnect/private_keys/AuthKey_${ASC_KEY_ID}.p8 \
             -authenticationKeyID "$ASC_KEY_ID" -authenticationKeyIssuerID "$ASC_ISSUER_ID"
+      - name: IPA ichidagi huquqlarni tekshirish (Sign in with Apple)
+        run: |
+          mkdir -p "$RUNNER_TEMP/ipacheck" && cd "$RUNNER_TEMP/ipacheck"
+          unzip -q -o "$RUNNER_TEMP"/ipa/*.ipa
+          APP="$(ls -d Payload/*.app | head -1)"
+          codesign -d --entitlements :- "$APP" 2>/dev/null | tee ent.xml | grep -E "applesignin|application-identifier|aps-environment" || true
+          grep -q "com.apple.developer.applesignin" ent.xml || { echo "::error::IPA da Sign in with Apple huquqi YO'Q"; exit 1; }
+          echo "Sign in with Apple huquqi IPA ichida bor"
+          /usr/libexec/PlistBuddy -c 'Print :CFBundleURLTypes' "$APP/Info.plist" 2>/dev/null | grep -E "app-|com.googleusercontent" | sed 's/[0-9]\{6,\}/N/g' || echo "URL sxemalari topilmadi"
       - name: TestFlight'ga yuklash
         run: |
           xcrun altool --upload-app --type ios --file "$RUNNER_TEMP"/ipa/*.ipa \
