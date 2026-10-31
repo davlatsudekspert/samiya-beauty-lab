@@ -1,0 +1,143 @@
+{
+ "inci": "Glycolic Acid",
+ "slug": "glycolic-acid",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Glycolic acid may be subject to restrictions in the EU, but this is unconfirmed. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Glycolic Acid is an alpha-hydroxy acid used as a cosmetic ingredient that has been studied in topical products for skin texture, photoaging, pigmentation and sun sensitivity. Some of the available studies are small, short-term or use formulas that combine several active ingredients, which limits conclusions about glycolic acid alone. Several studies reported that glycolic acid can temporarily increase the skin's sensitivity to ultraviolet light. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "glycolic-acid-1",
+   "text_en": "A systematic review and network meta-analysis of 23 randomised controlled trials (3905 participants) of topical agents for facial photoaging reported that glycolic acid reduced roughness, while glycolic acid and tazarotene were associated with higher adverse event risks; retinoids were reported as more effective for wrinkles and hyperpigmentation. The authors noted limited racial diversity, potential commercial bias and variability in assessments, and the abstract does not specify glycolic acid concentrations or product types.",
+   "evidence_level": "A",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40707570",
+     "doi": "10.1038/s41598-025-12597-0",
+     "title": "Comparative efficacy of topical interventions for facial photoaging: a network meta-analysis.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40707570/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "glycolic-acid-2",
+   "text_en": "A PRISMA-based systematic review of randomised controlled trials of topical melasma treatments included glycolic acid among the many agents studied; strong clinical recommendations were given to cysteamine, triple combination therapy and tranexamic acid, not to glycolic acid, and the authors called for more research on efficacy, formulation and concentration of other agents. The abstract does not describe the glycolic acid trials in detail, so no conclusion about glycolic acid alone can be drawn from it.",
+   "evidence_level": "A",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "31741361",
+     "title": "Topical Treatments for Melasma: A Systematic Review of Randomized Controlled Trials.",
+     "year": 2019,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31741361/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "glycolic-acid-3",
+   "text_en": "In a randomised, double-blind study of 29 Caucasian adults, daily application of 10% glycolic acid (pH 3.5) for four weeks increased the skin's sensitivity to ultraviolet light compared with placebo (more sunburn cells and lower minimal erythema dose); the effect was no longer evident one week after stopping, and the increase in DNA damage (cyclobutane pyrimidine dimers) was not statistically significant. A separate vehicle-controlled study of 14 adults reported increased erythema, DNA damage and sunburn cell formation after 3.5 weeks of 10% glycolic acid. Both studies were small and short-term, and the abstracts do not report other concentrations or sunscreen use.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "12713551",
+     "doi": "10.1034/j.1600-0781.2003.00013.x",
+     "title": "Topical glycolic acid enhances photodamage by ultraviolet light.",
+     "year": 2003,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12713551/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "19411163",
+     "doi": "10.1016/j.jdermsci.2009.03.011",
+     "title": "The effects of topically applied glycolic acid and salicylic acid on ultraviolet radiation-induced erythema, DNA damage and sunburn cell formation in human skin.",
+     "year": 2009,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19411163/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "glycolic-acid-4",
+   "text_en": "In a double-blind, randomised, placebo-controlled study of 40 women with photodamaged skin, a cream combining retinol, lactose and glycolic acid, applied twice daily to one side of the face for 12 weeks, was associated with improvement in clinical photoageing signs, skin microrelief and moisturisation compared with baseline and the placebo-treated side; effects cannot be attributed to glycolic acid alone, and the abstract does not give concentrations.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "18452434",
+     "doi": "10.1111/j.1468-2494.2008.00441.x",
+     "title": "Combined retinol-lactose-glycolic acid effects on photoaged skin: a double-blind placebo-controlled study.",
+     "year": 2008,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/18452434/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "glycolic-acid-5",
+   "text_en": "A single-author review of alpha-hydroxy acids, including glycolic acid, reported their use in cosmetic dermatology to improve skin texture and luminosity and in conditions such as photoaging and hyperpigmentation, but stated that the optimal concentrations for efficacy with minimal side effects are not yet precisely defined; it notes that international guidelines recommend specific concentrations and pH levels to minimise skin irritation. The review covers chemical peels alongside cosmetic products and is not a systematic evidence synthesis.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "39050562",
+     "doi": "10.2147/CCID.S453243",
+     "title": "Evaluating the Efficacy and Safety of Alpha-Hydroxy Acids in Dermatological Practice: A Comprehensive Clinical and Legal Review.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39050562/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Glycolic Acid (glikol kislota) alfa-gidroksi kislotalar guruhiga kiradigan kosmetik ingredient bo'lib, surtiladigan vositalarda teri tuzilishi, fotoaging, pigmentatsiya va quyoshga sezgirlik bo'yicha o'rganilgan. Mavjud tadqiqotlarning ba'zilari kichik, qisqa muddatli yoki bir nechta faol moddani birlashtirgan formulalar bilan o'tkazilgan, shuning uchun faqat glikol kislota haqida xulosa qilish cheklangan. Bir nechta tadqiqot glikol kislota quyoshning ultrabinafsha nurlariga teri sezgirligini vaqtincha oshirishi mumkinligini ko'rsatgan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "glycolic-acid-1": "Yuz fotoagingi uchun surtiladigan vositalar bo'yicha 23 ta randomizatsiyalangan nazoratli tadqiqot (3905 ishtirokchi) tizimli sharhi va tarmoq meta-tahlilida glikol kislota g'adir-budurlikni kamaytirgani, glikol kislota va tazaroten esa nojo'ya hodisalar xavfining yuqoriroq bo'lishi bilan bog'langani qayd etilgan; retinoidlar ajinlar va giperpigmentatsiya bo'yicha samaraliroq deb ko'rsatilgan. Mualliflar irqiy xilma-xillikning cheklanganligini, tijorat tarafkashligi ehtimolini va baholashlardagi farqlarni qayd etgan; annotatsiyada glikol kislotaning konsentratsiyasi va mahsulot turlari ko'rsatilmagan.",
+    "glycolic-acid-2": "Melazma uchun surtiladigan vositalar bo'yicha randomizatsiyalangan nazoratli tadqiqotlarning PRISMA asosidagi tizimli sharhida glikol kislota o'rganilgan ko'plab vositalar qatoriga kiritilgan; kuchli klinik tavsiyalar glikol kislotaga emas, sisteamin, uch komponentli kombinatsiyalangan terapiya va traneksam kislotaga berilgan, mualliflar boshqa vositalarning samaradorligi, formulasi va konsentratsiyasi bo'yicha qo'shimcha tadqiqotlar zarurligini aytgan. Annotatsiyada glikol kislota tadqiqotlari batafsil tasvirlanmagan, shuning uchun undan faqat glikol kislota haqida xulosa chiqarib bo'lmaydi.",
+    "glycolic-acid-3": "29 nafar oq tanli kattalar ishtirok etgan randomizatsiyalangan ikki tomonlama ko'r tadqiqotda 10% glikol kislotani (pH 3,5) to'rt hafta davomida har kuni surtish plasebo bilan solishtirganda terining ultrabinafsha nurga sezgirligini oshirgan (quyosh kuyishi hujayralari ko'proq, minimal eritema dozasi pastroq); bu ta'sir to'xtatilgandan bir hafta keyin sezilmagan, DNK shikastlanishining (siklobutan pirimidin dimerlari) ortishi esa statistik jihatdan ahamiyatli bo'lmagan. 14 nafar kattalar ishtirok etgan alohida vehikul nazoratli tadqiqotda 3,5 hafta davomida 10% glikol kislota surtilgandan keyin eritema, DNK shikastlanishi va quyosh kuyishi hujayralari hosil bo'lishining ortishi qayd etilgan. Ikkala tadqiqot ham kichik va qisqa muddatli bo'lgan, annotatsiyalarda boshqa konsentratsiyalar yoki quyoshdan himoya vositasi qo'llanishi haqida ma'lumot yo'q.",
+    "glycolic-acid-4": "Fotoshikastlangan terisi bor 40 nafar ayol ishtirok etgan ikki tomonlama ko'r, randomizatsiyalangan, plasebo nazoratli tadqiqotda retinol, laktoza va glikol kislotani birlashtirgan krem yuzning bir tomoniga 12 hafta davomida kuniga ikki marta surtilganda, boshlang'ich holat va plasebo surtilgan tomon bilan solishtirganda klinik fotoaging belgilari, teri mikrorelyefi va namlanishning yaxshilanishi bilan bog'langan; natijalarni faqat glikol kislotaga bog'lab bo'lmaydi, annotatsiyada konsentratsiyalar keltirilmagan.",
+    "glycolic-acid-5": "Alfa-gidroksi kislotalar, jumladan glikol kislota, haqidagi bir muallifli sharhda ular kosmetik dermatologiyada teri tuzilishi va yorqinligini yaxshilash uchun hamda fotoaging va giperpigmentatsiya kabi holatlarda qo'llanishi qayd etilgan, biroq nojo'ya ta'sirlar minimal bo'lgan holda samaradorlik uchun optimal konsentratsiyalar hali aniq belgilanmagani aytilgan; sharhda xalqaro ko'rsatmalar teri tirnash xususiyatini kamaytirish uchun muayyan konsentratsiya va pH darajalarini tavsiya qilishi ta'kidlangan. Sharh kimyoviy pilinglarni kosmetik mahsulotlar bilan birga ko'rib chiqadi va tizimli dalillar sintezi emas."
+   }
+  },
+  "ru": {
+   "summary": "Glycolic Acid (гликолевая кислота) является косметическим ингредиентом из группы альфа-гидроксикислот, который изучался в средствах для местного применения в отношении текстуры кожи, фотостарения, пигментации и чувствительности к солнцу. Часть имеющихся исследований небольшие, краткосрочные или проведены на составах с несколькими активными компонентами, поэтому выводы только о гликолевой кислоте ограничены. В нескольких исследованиях сообщалось, что гликолевая кислота может временно повышать чувствительность кожи к ультрафиолетовому излучению. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "glycolic-acid-1": "В систематическом обзоре и сетевом метаанализе 23 рандомизированных контролируемых исследований (3905 участников) местных средств при фотостарении лица сообщалось, что гликолевая кислота уменьшала шероховатость, тогда как гликолевая кислота и тазаротен были связаны с более высоким риском нежелательных явлений; ретиноиды были названы более эффективными в отношении морщин и гиперпигментации. Авторы отметили ограниченное расовое разнообразие, возможную коммерческую предвзятость и вариабельность оценок; в аннотации не указаны концентрации гликолевой кислоты и типы продуктов.",
+    "glycolic-acid-2": "В систематическом обзоре рандомизированных контролируемых исследований местных средств при меласме по методике PRISMA гликолевая кислота была включена в число многих изученных средств; сильные клинические рекомендации получили цистеамин, тройная комбинированная терапия и транексамовая кислота, но не гликолевая кислота, а авторы призвали к дополнительным исследованиям эффективности, состава и концентрации других средств. В аннотации исследования с гликолевой кислотой подробно не описаны, поэтому вывод только о гликолевой кислоте сделать нельзя.",
+    "glycolic-acid-3": "В рандомизированном двойном слепом исследовании с участием 29 взрослых европеоидной расы ежедневное нанесение 10% гликолевой кислоты (pH 3,5) в течение четырёх недель повышало чувствительность кожи к ультрафиолету по сравнению с плацебо (больше «клеток солнечного ожога», ниже минимальная эритемная доза); через неделю после прекращения эффект уже не выявлялся, а увеличение повреждения ДНК (циклобутановые пиримидиновые димеры) не было статистически значимым. В отдельном исследовании с контролем носителем (14 взрослых) сообщалось об усилении эритемы, повреждения ДНК и образования «клеток солнечного ожога» после 3,5 недель применения 10% гликолевой кислоты. Оба исследования были небольшими и краткосрочными; в аннотациях нет данных о других концентрациях или использовании солнцезащитных средств.",
+    "glycolic-acid-4": "В двойном слепом рандомизированном плацебо-контролируемом исследовании с участием 40 женщин с фотоповреждённой кожей крем, сочетающий ретинол, лактозу и гликолевую кислоту, наносимый два раза в день на одну половину лица в течение 12 недель, был связан с улучшением клинических признаков фотостарения, микрорельефа и увлажнённости кожи по сравнению с исходным уровнем и стороной с плацебо; эффекты нельзя приписать только гликолевой кислоте, концентрации в аннотации не указаны.",
+    "glycolic-acid-5": "В обзоре одного автора, посвящённом альфа-гидроксикислотам, включая гликолевую кислоту, сообщалось об их использовании в косметической дерматологии для улучшения текстуры и сияния кожи, а также при таких состояниях, как фотостарение и гиперпигментация, но указывалось, что оптимальные концентрации для эффективности при минимуме побочных эффектов пока точно не определены; отмечается, что международные рекомендации задают определённые концентрации и уровни pH для снижения раздражения кожи. Обзор рассматривает химические пилинги наряду с косметическими средствами и не является систематическим синтезом данных."
+   }
+  },
+  "ar": {
+   "summary": "حمض الغليكوليك (Glycolic Acid) مكوّن تجميلي من مجموعة ألفا هيدروكسي أحماض، جرت دراسته في المنتجات الموضعية فيما يخص ملمس البشرة والشيخوخة الضوئية والتصبغ والحساسية للشمس. بعض الدراسات المتاحة صغيرة أو قصيرة المدة أو أُجريت على تركيبات تجمع عدة مواد فعّالة، مما يحدّ من إمكانية استخلاص نتائج عن حمض الغليكوليك وحده. أفادت عدة دراسات بأن حمض الغليكوليك قد يزيد حساسية الجلد للأشعة فوق البنفسجية بشكل مؤقت. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "glycolic-acid-1": "أفادت مراجعة منهجية وتحليل شبكي تلوي لـ 23 تجربة عشوائية مضبوطة (3905 مشاركين) حول العلاجات الموضعية للشيخوخة الضوئية للوجه بأن حمض الغليكوليك قلّل الخشونة، بينما ارتبط حمض الغليكوليك والتازاروتين بارتفاع خطر الأحداث الضائرة؛ وذُكر أن الرتينويدات أكثر فعالية فيما يخص التجاعيد وفرط التصبغ. أشار المؤلفون إلى محدودية التنوع العرقي واحتمال التحيّز التجاري وتباين أساليب التقييم، ولم تحدد الخلاصة تراكيز حمض الغليكوليك ولا أنواع المنتجات.",
+    "glycolic-acid-2": "في مراجعة منهجية وفق منهجية PRISMA للتجارب العشوائية المضبوطة حول العلاجات الموضعية للكلف، أُدرج حمض الغليكوليك ضمن عدد كبير من المواد المدروسة؛ ومُنحت التوصيات السريرية القوية للسيستامين والعلاج المركّب الثلاثي وحمض الترانيكساميك، وليس لحمض الغليكوليك، ودعا المؤلفون إلى مزيد من البحث حول فعالية المواد الأخرى وتركيبتها وتركيزها. لم تصف الخلاصة تجارب حمض الغليكوليك بالتفصيل، لذلك لا يمكن استخلاص نتيجة عن حمض الغليكوليك وحده.",
+    "glycolic-acid-3": "في دراسة عشوائية مزدوجة التعمية شملت 29 بالغًا من ذوي البشرة البيضاء، أدى تطبيق 10% من حمض الغليكوليك (درجة الحموضة 3.5) يوميًا لمدة أربعة أسابيع إلى زيادة حساسية الجلد للأشعة فوق البنفسجية مقارنة بالدواء الوهمي (عدد أكبر من خلايا حروق الشمس وانخفاض في الجرعة الدنيا المسببة للحمامى)؛ ولم يعد هذا التأثير ظاهرًا بعد أسبوع من التوقف، كما أن الزيادة في تلف الحمض النووي (ثنائيات البيريميدين الحلقية) لم تكن ذات دلالة إحصائية. وأفادت دراسة منفصلة مضبوطة بالسواغ شملت 14 بالغًا بزيادة الحمامى وتلف الحمض النووي وتكوّن خلايا حروق الشمس بعد 3.5 أسبوع من استخدام 10% من حمض الغليكوليك. كانت الدراستان صغيرتين وقصيرتي المدة، ولا تذكر الخلاصتان تراكيز أخرى أو استخدام واقي الشمس.",
+    "glycolic-acid-4": "في دراسة عشوائية مزدوجة التعمية مضبوطة بالدواء الوهمي شملت 40 امرأة ذوات بشرة متضررة ضوئيًا، ارتبط استخدام كريم يجمع الريتينول واللاكتوز وحمض الغليكوليك، يُطبَّق مرتين يوميًا على جانب واحد من الوجه لمدة 12 أسبوعًا، بتحسن في العلامات السريرية للشيخوخة الضوئية والتضاريس الدقيقة للجلد والترطيب مقارنة بالحالة الأولية والجانب المعالج بالدواء الوهمي؛ ولا يمكن عزو التأثيرات إلى حمض الغليكوليك وحده، ولا تذكر الخلاصة التراكيز.",
+    "glycolic-acid-5": "أفادت مراجعة لمؤلف واحد حول ألفا هيدروكسي أحماض، ومنها حمض الغليكوليك، باستخدامها في الأمراض الجلدية التجميلية لتحسين ملمس البشرة ونضارتها وفي حالات مثل الشيخوخة الضوئية وفرط التصبغ، لكنها ذكرت أن التراكيز المثلى للفعالية مع أقل قدر من الآثار الجانبية لم تُحدَّد بدقة بعد؛ وتشير المراجعة إلى أن الإرشادات الدولية توصي بتراكيز ودرجات حموضة محددة لتقليل تهيّج الجلد. تتناول المراجعة التقشير الكيميائي إلى جانب المنتجات التجميلية وليست تجميعًا منهجيًا للأدلة."
+   }
+  }
+ }
+}

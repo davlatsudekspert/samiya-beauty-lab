@@ -1,0 +1,144 @@
+{
+ "inci": "Urea",
+ "slug": "urea",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Urea (carbamide) is a component of the skin's natural moisturising factor and a common humectant in cosmetic moisturisers, studied in topical products for dry skin (xerosis) and skin barrier outcomes. Lower concentrations are described mainly as moisturising and higher concentrations as keratolytic, with mild side effects reported more often at higher concentrations. Much of the clinical evidence comes from small studies, formulas that combine urea with other ingredients, or studies with manufacturer-affiliated authors, which limits conclusions about urea alone. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "urea-1",
+   "text_en": "A systematic review and meta-analysis of randomised controlled trials (eleven articles reporting twelve trials) in adults with diabetes and foot xerosis (without ulcers) found that creams containing urea reduced xerosis severity more than standard base creams after four weeks (standardised mean difference -0.36, 95% CI -0.55 to -0.17; high-certainty evidence according to the authors), with adverse events described as rare and mild; the population was limited to adults with diabetes and dry feet, and the authors call for longer-term trials.",
+   "evidence_level": "A",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "42755659",
+     "doi": "10.3389/fcdhc.2026.1922860",
+     "title": "Moisturizer formulations for diabetic foot xerosis: a systematic review and meta-analysis of randomized controlled trials.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42755659/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "urea-2",
+   "text_en": "In a double-blind, vehicle-controlled study of 44 women with very dry body skin, a moisturiser containing 10% urea plus additional natural moisturising factor components and skin barrier lipids was associated with higher stratum corneum hydration and better barrier function (lower transepidermal water loss) after two weeks of twice-daily use; the product was a multi-ingredient formula, so effects cannot be attributed to urea alone, the sample was small, and the authors were affiliated with a cosmetics company.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "34619676",
+     "doi": "10.1159/000520009",
+     "title": "A Biomimetic Combination of Actives Enhances Skin Hydration and Barrier Function via Modulation of Gene Expression: Results of Two Double-Blind, Vehicle-Controlled Clinical Studies.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34619676/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "urea-3",
+   "text_en": "In an open-label, single-group observational study of 59 people aged 60 to 75 with moderate to severe xerosis of the lower legs, twice-daily use of a 10% urea emollient for four weeks was followed by improvements in physician-assessed xerosis scores and a decrease in transepidermal water loss; with no control group, the changes cannot be attributed to urea itself, and some authors were affiliated with a skincare company.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "41231732",
+     "doi": "10.1159/000549265",
+     "title": "Effects and Patient Benefits of a 10% Urea-Based Moisturizing Lotion on Xerosis in Aging Skin.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41231732/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "urea-4",
+   "text_en": "A narrative review describes urea as a component of the skin's natural moisturising factor that is involved in stratum corneum hydration and barrier function, and reports that urea-based products are well tolerated, with side effects that are mild and more frequent at high concentrations; the review also covers dermatological uses beyond cosmetic moisturising, and some of its authors were affiliated with a skincare company.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "34596890",
+     "doi": "10.1007/s13555-021-00611-y",
+     "title": "Urea in Dermatology: A Review of its Emollient, Moisturizing, Keratolytic, Skin Barrier Enhancing and Antimicrobial Properties.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34596890/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "urea-5",
+   "text_en": "Narrative reviews describe topical urea at lower concentrations (10% or less) as acting mainly as a moisturiser and at higher concentrations (above 10%) as having a keratolytic (scale-loosening) action; a separate review of low-concentration products (2% to 12%) reported that stinging or burning was rare and transient. These are narrative reviews rather than systematic comparisons of concentrations.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "30378232",
+     "doi": "10.1111/dth.12690",
+     "title": "Topical urea in skincare: A review.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30378232/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "33249706",
+     "doi": "10.1111/ijcp.13626",
+     "title": "Clinical evidences of urea at low concentration.",
+     "year": 2020,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33249706/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Urea (karbamid) terining tabiiy namlantiruvchi omilining tarkibiy qismi va kosmetik namlantiruvchilarda keng qo'llaniladigan gumektant bo'lib, quruq teri (kseroz) va teri to'siq funksiyasiga oid natijalar bo'yicha surtiladigan vositalarda o'rganilgan. Past kontsentratsiyalar asosan namlantiruvchi, yuqori kontsentratsiyalar esa keratolitik deb ta'riflanadi, yengil yon ta'sirlar yuqori kontsentratsiyalarda ko'proq qayd etilgan. Klinik dalillarning katta qismi kichik tadqiqotlar, urea boshqa ingredientlar bilan birlashtirilgan formulalar yoki ishlab chiqaruvchi bilan bog'liq mualliflar tadqiqotlaridan olingan, shu sababli faqat urea haqida xulosa qilish cheklangan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "urea-1": "Diabet bilan kasallangan kattalarda (yara bo'lmagan) oyoq kserozi bo'yicha randomizatsiyalangan nazoratli tadqiqotlarning tizimli sharhi va meta-tahlilida (o'n bir maqola, o'n ikkita tadqiqot) urea tarkibli kremlar to'rt haftadan keyin kseroz og'irligini oddiy asos kremlarga qaraganda ko'proq kamaytirgani aniqlangan (standartlashtirilgan o'rtacha farq -0,36, 95% ishonch oralig'i -0,55 dan -0,17 gacha; mualliflarga ko'ra yuqori ishonchlilikdagi dalil), nojo'ya ta'sirlar kam uchraydigan va yengil deb ta'riflangan; ishtirokchilar diabet bilan kasallangan va oyoqlari quruq kattalar bilan cheklangan, mualliflar uzoqroq muddatli tadqiqotlar zarurligini ta'kidlaydi.",
+    "urea-2": "Tanasi juda quruq 44 nafar ayol ishtirok etgan ikki tomonlama ko'r, vehikul nazoratli tadqiqotda 10% urea hamda qo'shimcha tabiiy namlantiruvchi omil komponentlari va teri to'siq lipidlari tarkibli namlantiruvchi kuniga ikki marta ikki hafta qo'llanganda shox qavatning yuqoriroq namlanishi va yaxshiroq to'siq funksiyasi (transepidermal suv yo'qotilishining pastligi) bilan bog'langan; mahsulot ko'p ingredientli formula edi, shu sababli natijalarni faqat ureaga bog'lab bo'lmaydi, tanlama kichik va mualliflar kosmetika kompaniyasi bilan bog'liq edi.",
+    "urea-3": "60 yoshdan 75 yoshgacha bo'lgan, boldirlarida o'rtacha va og'ir kseroz bo'lgan 59 kishi ishtirok etgan ochiq, bitta guruhli kuzatuv tadqiqotida 10% urea tarkibli yumshatuvchi vosita to'rt hafta davomida kuniga ikki marta qo'llanganidan keyin shifokorlar baholagan kseroz ballari yaxshilangan va transepidermal suv yo'qotilishi kamaygan; nazorat guruhi bo'lmagani uchun o'zgarishlarni ureaning o'ziga bog'lab bo'lmaydi, ayrim mualliflar teri parvarishi kompaniyasi bilan bog'liq edi.",
+    "urea-4": "Narrativ sharhda urea terining tabiiy namlantiruvchi omilining tarkibiy qismi sifatida ta'riflanadi, u shox qavatning namlanishi va to'siq funksiyasida ishtirok etadi; sharhda urea tarkibli vositalar yaxshi o'zlashtirilishi, yon ta'sirlari yengil va yuqori kontsentratsiyalarda ko'proq uchrashi qayd etilgan; sharh kosmetik namlantirishdan tashqari dermatologik qo'llanishlarni ham qamrab oladi, ayrim mualliflar esa teri parvarishi kompaniyasi bilan bog'liq edi.",
+    "urea-5": "Narrativ sharhlarda surtiladigan urea pastroq kontsentratsiyalarda (10% yoki undan kam) asosan namlantiruvchi sifatida, yuqoriroq kontsentratsiyalarda (10% dan ortiq) esa keratolitik (tangachalarni yumshatuvchi) ta'sirga ega deb ta'riflanadi; past kontsentratsiyali vositalar (2% dan 12% gacha) bo'yicha alohida sharhda achishish yoki kuyish hissi kam uchrashi va o'tkinchi bo'lishi qayd etilgan. Bular kontsentratsiyalarni tizimli solishtirish emas, narrativ sharhlardir."
+   }
+  },
+  "ru": {
+   "summary": "Urea (карбамид, мочевина) является компонентом естественного увлажняющего фактора кожи и распространённым humectant в косметических увлажняющих средствах; изучалась в средствах для местного применения в отношении сухости кожи (ксероза) и барьерной функции кожи. Низкие концентрации описываются преимущественно как увлажняющие, высокие — как кератолитические, а лёгкие побочные эффекты чаще отмечались при высоких концентрациях. Значительная часть клинических данных получена в небольших исследованиях, на составах, где urea сочетается с другими ингредиентами, или в исследованиях с авторами, связанными с производителем, поэтому выводы только об urea ограничены. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "urea-1": "В систематическом обзоре и метаанализе рандомизированных контролируемых исследований (одиннадцать статей, двенадцать исследований) у взрослых с диабетом и ксерозом стоп (без язв) кремы с urea через четыре недели уменьшали выраженность ксероза сильнее, чем обычные базовые кремы (стандартизованная разность средних -0,36, 95% ДИ от -0,55 до -0,17; по оценке авторов, доказательства высокой достоверности), при этом нежелательные явления описаны как редкие и лёгкие; выборка ограничена взрослыми с диабетом и сухой кожей стоп, авторы указывают на необходимость более длительных исследований.",
+    "urea-2": "В двойном слепом исследовании с контролем носителем (vehicle) с участием 44 женщин с очень сухой кожей тела увлажняющее средство с 10% urea, дополнительными компонентами естественного увлажняющего фактора и липидами кожного барьера было связано с более высокой гидратацией рогового слоя и лучшей барьерной функцией (более низкая трансэпидермальная потеря воды) после двух недель применения два раза в день; продукт представлял собой многокомпонентный состав, поэтому эффекты нельзя приписать только urea, выборка была небольшой, а авторы были связаны с косметической компанией.",
+    "urea-3": "В открытом одногрупповом наблюдательном исследовании с участием 59 человек в возрасте от 60 до 75 лет с ксерозом голеней средней и тяжёлой степени применение смягчающего средства с 10% urea два раза в день в течение четырёх недель сопровождалось улучшением оценок ксероза, данных врачами, и снижением трансэпидермальной потери воды; при отсутствии контрольной группы изменения нельзя приписать самой urea, а часть авторов была связана с компанией по уходу за кожей.",
+    "urea-4": "В нарративном обзоре urea описывается как компонент естественного увлажняющего фактора кожи, участвующий в увлажнении рогового слоя и барьерной функции; сообщается, что средства с urea хорошо переносятся, а побочные эффекты лёгкие и чаще возникают при высоких концентрациях; обзор охватывает и дерматологические применения помимо косметического увлажнения, а часть его авторов была связана с компанией по уходу за кожей.",
+    "urea-5": "В нарративных обзорах местная urea в более низких концентрациях (10% и менее) описывается преимущественно как увлажняющее средство, а в более высоких (свыше 10%) — как обладающая кератолитическим (размягчающим чешуйки) действием; в отдельном обзоре средств с низкой концентрацией (от 2% до 12%) сообщается, что покалывание или жжение возникали редко и были кратковременными. Это нарративные обзоры, а не систематическое сравнение концентраций."
+   }
+  },
+  "ar": {
+   "summary": "اليوريا (urea) أو الكارباميد مكوّن من عامل الترطيب الطبيعي للبشرة، وهي مرطّب (humectant) شائع في المرطبات التجميلية، وقد جرت دراستها في المنتجات الموضعية فيما يخص جفاف الجلد (الجفاف المفرط، xerosis) ووظيفة الحاجز الجلدي. توصف التراكيز المنخفضة بأنها مرطّبة في الأساس، والتراكيز المرتفعة بأنها مقشّرة للقرنية (keratolytic)، وقد أُبلغ عن آثار جانبية خفيفة بصورة أكثر عند التراكيز المرتفعة. يأتي جزء كبير من الأدلة السريرية من دراسات صغيرة، أو من تركيبات تجمع urea مع مكوّنات أخرى، أو من دراسات لمؤلفين مرتبطين بجهة مصنّعة، مما يحدّ من إمكانية استخلاص نتائج عن urea وحدها. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "urea-1": "في مراجعة منهجية وتحليل تلوي لتجارب عشوائية مضبوطة (إحدى عشرة مقالة تتناول اثنتي عشرة تجربة) شملت بالغين مصابين بالسكري ولديهم جفاف مفرط في القدمين (دون قرحات)، وُجد أن الكريمات المحتوية على urea خفّضت شدة الجفاف أكثر من الكريمات الأساسية العادية بعد أربعة أسابيع (فرق المتوسطات المعياري -0.36، فاصل الثقة 95% من -0.55 إلى -0.17؛ أدلة عالية اليقين بحسب المؤلفين)، ووُصفت الأحداث الضائرة بأنها نادرة وخفيفة؛ اقتصرت العيّنة على بالغين مصابين بالسكري وجفاف في القدمين، ويدعو المؤلفون إلى تجارب أطول أمدًا.",
+    "urea-2": "في دراسة مزدوجة التعمية ومضبوطة بالسواغ (vehicle) شملت 44 امرأة يعانين من جفاف شديد في جلد الجسم، ارتبط مرطّب يحتوي على 10% urea مع مكوّنات إضافية من عامل الترطيب الطبيعي ودهون الحاجز الجلدي بارتفاع ترطيب الطبقة المتقرنة وتحسّن وظيفة الحاجز (انخفاض فقدان الماء عبر البشرة) بعد أسبوعين من الاستخدام مرتين يوميًا؛ كان المنتج تركيبة متعددة المكوّنات، لذا لا يمكن عزو النتائج إلى urea وحدها، وكانت العيّنة صغيرة، وكان المؤلفون مرتبطين بشركة مستحضرات تجميل.",
+    "urea-3": "في دراسة رصدية مفتوحة المعالجة وأحادية المجموعة شملت 59 شخصًا تتراوح أعمارهم بين 60 و75 عامًا ولديهم جفاف مفرط متوسط إلى شديد في أسفل الساقين، تبع استخدام مطرٍّ يحتوي على 10% urea مرتين يوميًا لمدة أربعة أسابيع تحسّن في درجات الجفاف التي قيّمها الأطباء وانخفاض في فقدان الماء عبر البشرة؛ ونظرًا لعدم وجود مجموعة ضابطة لا يمكن عزو التغيرات إلى urea نفسها، وكان بعض المؤلفين مرتبطين بشركة للعناية بالبشرة.",
+    "urea-4": "تصف مراجعة سردية urea بأنها مكوّن من عامل الترطيب الطبيعي للبشرة يشارك في ترطيب الطبقة المتقرنة ووظيفة الحاجز، وتذكر أن المنتجات المحتوية على urea جيدة التحمّل، وأن آثارها الجانبية خفيفة وأكثر شيوعًا عند التراكيز المرتفعة؛ وتشمل المراجعة أيضًا استخدامات جلدية تتجاوز الترطيب التجميلي، وكان بعض مؤلفيها مرتبطين بشركة للعناية بالبشرة.",
+    "urea-5": "تصف مراجعات سردية urea الموضعية عند التراكيز الأقل (10% أو أقل) بأنها تعمل أساسًا كمرطّب، وعند التراكيز الأعلى (أكثر من 10%) بأنها ذات تأثير مقشّر للقرنية (keratolytic، أي يلين القشور)؛ وأفادت مراجعة منفصلة للمنتجات منخفضة التركيز (من 2% إلى 12%) بأن الوخز أو الحرقان كان نادرًا وعابرًا. هذه مراجعات سردية وليست مقارنة منهجية بين التراكيز."
+   }
+  }
+ }
+}
