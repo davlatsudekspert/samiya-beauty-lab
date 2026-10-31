@@ -70,7 +70,7 @@
    "id": "glycerin-4",
    "text_en": "In an 8-week study of a leave-on scalp lotion containing 10% glycerol together with other skin-benefit agents (a saturated fatty acid and sunflower seed oil), applied three times per week, expert visual grading and biophysical measurements reported a significant reduction in dandruff with improved stratum corneum hydration and water barrier function; the lotion was a combination and the abstract gives no sample size or description of a comparison group, so the contribution of glycerol cannot be determined.",
    "evidence_level": "C",
-   "study_type": "clinical study",
+   "study_type": "observational",
    "sources": [
     {
      "type": "pubmed",

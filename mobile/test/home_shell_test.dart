@@ -15,7 +15,7 @@ void main() {
   setUp(() => SharedPreferences.setMockInitialValues({}));
 
   testWidgets('bosh sahifa: salom, qidiruv, 6 plitka, ingredientlar, 5 bandli navigatsiya', (t) async {
-    await pumpApp(t, state: AppState(onboarded: true), initial: '/home');
+    await pumpApp(t, state: AppState(onboarded: true, ingredients: testRepo()), initial: '/home');
     expect(k('home-page'), findsOneWidget);
     expect(k('home-search'), findsOneWidget);
     for (final id in ['scanner', 'skin', 'routine', 'academy', 'ai', 'journal']) {

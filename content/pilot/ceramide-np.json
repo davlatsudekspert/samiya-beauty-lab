@@ -1,136 +1,116 @@
 {
-  "inci": "Ceramide NP",
-  "slug": "ceramide-np",
-  "status": "draft",
-  "cosing": {
-    "functions": [],
-    "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
-    "verified": false
-  },
-  "eu_regulation": {
-    "annex": "unverified",
-    "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and the CosIng entry for Ceramide NP manually before publishing.",
-    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
-    "verified": false
-  },
-  "summary_en": "Ceramide NP is a ceramide, a lipid of the type found in the skin barrier, used in moisturisers and often combined with other lipids such as cholesterol and fatty acids. It has been studied in topical products mainly for skin barrier measures such as transepidermal water loss and hydration. Most clinical studies test multi-ingredient formulas, are small, and some involve industry-affiliated authors, so effects cannot be attributed to Ceramide NP alone; part of the evidence refers to ceramide-containing products in general. This card summarises published evidence only and is not medical advice.",
-  "claims": [
+ "inci": "Ceramide NP",
+ "slug": "ceramide-np",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and the CosIng entry for Ceramide NP manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Ceramide NP is a ceramide, a lipid of the type found in the skin barrier, used in moisturisers and often combined with other lipids such as cholesterol and fatty acids. It has been studied in topical products mainly for skin barrier measures such as transepidermal water loss and hydration. Most clinical studies test multi-ingredient formulas, are small, and some involve industry-affiliated authors, so effects cannot be attributed to Ceramide NP alone; part of the evidence refers to ceramide-containing products in general. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "ceramide-np-1",
+   "text_en": "A systematic literature review combined with an expert-panel (modified Delphi) consensus on skin care for neonates and healthy infants reported a growing body of evidence that ongoing daily use of non-alkaline cleansers and ceramide-containing moisturizers reduces inflammation and helps maintain skin barrier function. The conclusions rest partly on expert opinion, concern infant skin, and refer to ceramide-containing products in general rather than to Ceramide NP specifically.",
+   "evidence_level": "A",
+   "study_type": "systematic review",
+   "sources": [
     {
-      "id": "ceramide-np-1",
-      "text_en": "A systematic literature review combined with an expert-panel (modified Delphi) consensus on skin care for neonates and healthy infants reported a growing body of evidence that ongoing daily use of non-alkaline cleansers and ceramide-containing moisturizers reduces inflammation and helps maintain skin barrier function. The conclusions rest partly on expert opinion, concern infant skin, and refer to ceramide-containing products in general rather than to Ceramide NP specifically.",
-      "evidence_level": "A",
-      "study_type": "systematic review",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "34784132",
-          "doi": "10.36849/jdd.6219",
-          "title": "The Importance of Skincare for Neonates and Infants: An Algorithm.",
-          "year": 2021,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34784132/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "ceramide-np-2",
-      "text_en": "In a randomised, double-blind, vehicle-controlled split-body trial of 50 participants with sensitive skin over 6 weeks, an emollient containing Ceramide NP C15 was associated with a significant reduction in transepidermal water loss in the participants with impaired skin barrier; subjective symptoms improved with both the ceramide formulation and the vehicle. The authors describe the study as exploratory, and some authors are affiliated with a chemical company.",
-      "evidence_level": "B",
-      "study_type": "RCT",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "41758783",
-          "doi": "10.1159/000551043",
-          "title": "Monocentric, Vehicle-Controlled, Double-Blind Study to Assess the Short- and Long-Term Effects of a Ceramide NP C15-Containing Emollient on the Skin Microbiome and the Skin Barrier Function in Sensitive Skin.",
-          "year": 2026,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41758783/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "ceramide-np-3",
-      "text_en": "In a single-centre, randomised, double-blind, placebo-controlled trial of 60 adults with moderate atopic dermatitis who received standard therapy, a Ceramide NP-containing emollient cream showed favourable trends in skin barrier measures and clinical scores, but both groups improved and the between-group differences in barrier measures did not reach statistical significance; the authors call for larger studies.",
-      "evidence_level": "B",
-      "study_type": "RCT",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "42868105",
-          "doi": "10.1159/spp/aetag011",
-          "title": "Effect of a Ceramide NP-Containing Moisturizer on Skin Barrier Function in Adults with Atopic Dermatitis: A Randomized, Double-Blind, Placebo-Controlled Study.",
-          "year": 2026,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42868105/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "ceramide-np-4",
-      "text_en": "In a single-centre, prospective, self-controlled observational study of 88 Chinese women with sensitive skin, use of a facial cream containing Centella asiatica leaf extract, ceramide NP and panthenol was followed by lower self-rated sensitivity scores, lower transepidermal water loss at weeks 1 and 2 and higher stratum corneum hydration over 4 weeks. With no control group and a multi-ingredient product, the effects cannot be attributed to Ceramide NP alone.",
-      "evidence_level": "C",
-      "study_type": "observational study",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "40682399",
-          "doi": "10.1111/jocd.70324",
-          "title": "The Effectiveness and Safety of a Skin Care Product With Centella asiatica Leaf Extract, Ceramide NP, and Panthenol in Subjects With Sensitive Skin: A Prospective, Observational Study.",
-          "year": 2025,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40682399/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "ceramide-np-5",
-      "text_en": "A molecular dynamics (computer) simulation of stratum corneum lipid bilayers reported that membranes containing ceramide NP had lower water permeability than membranes containing ceramide NS, with permeability values of almost half in the simulation. This is a computer model, not evidence of the effect of topical products on human skin.",
-      "evidence_level": "C",
-      "study_type": "in silico simulation",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "40560383",
-          "doi": "10.1021/acs.molpharmaceut.5c00580",
-          "title": "Presence of Different Ceramide Species Modulates Barrier Function and Structure of Stratum Corneum Lipid Membranes: Insights from Molecular Dynamics Simulations.",
-          "year": 2025,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40560383/"
-        }
-      ],
-      "checked_on": "2026-10-31"
+     "type": "pubmed",
+     "pmid": "34784132",
+     "doi": "10.36849/jdd.6219",
+     "title": "The Importance of Skincare for Neonates and Infants: An Algorithm.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34784132/"
     }
-  ],
-  "translations": {
-    "uz": {
-      "summary": "Ceramide NP — seramid, ya'ni teri to'siqida uchraydigan turdagi lipid bo'lib, namlovchi vositalarda qo'llaniladi va ko'pincha xolesterin va yog' kislotalari kabi boshqa lipidlar bilan birga ishlatiladi. U surtiladigan vositalarda asosan transepidermal suv yo'qotilishi va namlanish kabi teri to'siq ko'rsatkichlari bo'yicha o'rganilgan. Klinik tadqiqotlarning ko'pchiligi bir nechta komponentli formulalarni sinaydi, tanlamasi kichik va ba'zilarida ishlab chiqaruvchi bilan bog'liq mualliflar bor, shu sababli natijalarni faqat Ceramide NP'ga bog'lab bo'lmaydi; dalillarning bir qismi umuman seramid o'z ichiga olgan vositalarga tegishli. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
-      "claims": {
-        "ceramide-np-1": "Chaqaloqlar va sog'lom bolalar terisini parvarishlash bo'yicha tizimli adabiyot sharhi va ekspertlar guruhining (o'zgartirilgan Delphi usuli) konsensusida ishqoriy bo'lmagan yuvish vositalari va seramid o'z ichiga olgan namlovchi vositalarni har kuni davomli ishlatish yallig'lanishni kamaytirishi va teri to'siq funksiyasini saqlashga yordam berishi haqida ortib borayotgan dalillar mavjudligi aytilgan. Xulosalar qisman ekspert fikriga tayanadi, go'dak terisiga tegishli va aynan Ceramide NP emas, umuman seramid o'z ichiga olgan vositalarga taalluqli.",
-        "ceramide-np-2": "Sezgir terili 50 ishtirokchi ishtirokida 6 hafta davom etgan randomizatsiyalangan, ikki tomonlama ko'r, tashuvchi (vehicle) nazoratli, tananing ikki tomonini solishtiruvchi tadqiqotda Ceramide NP C15 o'z ichiga olgan emolent teri to'sig'i buzilgan ishtirokchilarda transepidermal suv yo'qotilishining sezilarli kamayishi bilan bog'langan; sub'ektiv belgilar ham seramidli formula bilan, ham tashuvchi bilan yaxshilangan. Mualliflar tadqiqotni izlanish xarakteridagi deb ta'riflaydi, ba'zi mualliflar esa kimyo kompaniyasi bilan bog'liq.",
-        "ceramide-np-3": "Standart terapiya olgan, o'rtacha atopik dermatitli 60 nafar kattalar ishtirok etgan bitta markazdagi randomizatsiyalangan, ikki tomonlama ko'r, plasebo nazoratli tadqiqotda Ceramide NP o'z ichiga olgan emolent krem teri to'siq ko'rsatkichlari va klinik baholarda ijobiy tendensiyalarni ko'rsatgan, ammo ikkala guruh ham yaxshilangan va to'siq ko'rsatkichlaridagi guruhlararo farqlar statistik ahamiyatga yetmagan; mualliflar kattaroq tadqiqotlar zarurligini ta'kidlaydi.",
-        "ceramide-np-4": "Sezgir terili 88 nafar xitoylik ayol ishtirok etgan bitta markazdagi prospektiv, o'zi-o'zi bilan solishtiriladigan kuzatuv tadqiqotida Centella asiatica bargi ekstrakti, ceramide NP va panthenol o'z ichiga olgan yuz kremini ishlatishdan keyin o'zi baholagan sezgirlik ballari pasaygan, 1- va 2-haftalarda transepidermal suv yo'qotilishi kamaygan va 4 hafta davomida shox qavat namligi oshgan. Nazorat guruhi bo'lmagani va vosita bir nechta komponentli bo'lgani uchun ta'sirni faqat Ceramide NP'ga bog'lab bo'lmaydi.",
-        "ceramide-np-5": "Shox qavat lipid ikki qatlamlari ustidagi molekulyar dinamika (kompyuter) simulyatsiyasida ceramide NP o'z ichiga olgan membranalarning suv o'tkazuvchanligi ceramide NS o'z ichiga olgan membranalarnikidan past bo'lgani, simulyatsiyada o'tkazuvchanlik qiymatlari deyarli ikki baravar kam bo'lgani qayd etilgan. Bu kompyuter modeli bo'lib, surtiladigan vositalarning inson terisiga ta'siri haqidagi dalil emas."
-      }
-    },
-    "ru": {
-      "summary": "Ceramide NP — это керамид, липид того типа, который входит в состав кожного барьера; он используется в увлажняющих средствах и часто сочетается с другими липидами, такими как холестерин и жирные кислоты. В средствах для местного применения его изучали главным образом по показателям кожного барьера, таким как трансэпидермальная потеря воды и увлажнённость. Большинство клинических исследований тестируют многокомпонентные составы, имеют небольшие выборки, а в некоторых участвуют авторы, связанные с индустрией, поэтому эффекты нельзя приписать только Ceramide NP; часть данных относится к средствам, содержащим керамиды, в целом. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
-      "claims": {
-        "ceramide-np-1": "В систематическом обзоре литературы, дополненном консенсусом экспертной группы (модифицированный метод Дельфи) по уходу за кожей новорождённых и здоровых младенцев, сообщалось о растущем числе данных, что ежедневное длительное использование нещелочных очищающих средств и увлажняющих средств с керамидами снижает воспаление и помогает поддерживать барьерную функцию кожи. Выводы частично основаны на мнении экспертов, касаются кожи младенцев и относятся к средствам, содержащим керамиды, в целом, а не именно к Ceramide NP.",
-        "ceramide-np-2": "В рандомизированном двойном слепом контролируемом носителем (vehicle) исследовании с разделением тела на две стороны, в котором 6 недель участвовали 50 человек с чувствительной кожей, эмолент с Ceramide NP C15 был связан со значимым снижением трансэпидермальной потери воды у участников с нарушенным кожным барьером; субъективные симптомы улучшались как при использовании состава с керамидом, так и при использовании носителя. Авторы описывают исследование как поисковое, а некоторые авторы связаны с химической компанией.",
-        "ceramide-np-3": "В одноцентровом рандомизированном двойном слепом плацебо-контролируемом исследовании с участием 60 взрослых с атопическим дерматитом средней тяжести, получавших стандартную терапию, эмолентный крем с Ceramide NP показал благоприятные тенденции по показателям кожного барьера и клиническим оценкам, однако улучшение отмечалось в обеих группах, а межгрупповые различия по показателям барьера не достигли статистической значимости; авторы призывают к более крупным исследованиям.",
-        "ceramide-np-4": "В одноцентровом проспективном наблюдательном исследовании с самоконтролем, в котором участвовали 88 китаянок с чувствительной кожей, использование крема для лица с экстрактом листьев Centella asiatica, ceramide NP и пантенолом сопровождалось снижением самооценки чувствительности, снижением трансэпидермальной потери воды на 1-й и 2-й неделях и повышением увлажнённости рогового слоя в течение 4 недель. Поскольку контрольной группы не было, а средство многокомпонентное, эффекты нельзя приписать только Ceramide NP.",
-        "ceramide-np-5": "В компьютерной симуляции молекулярной динамики липидных бислоёв рогового слоя сообщалось, что мембраны с ceramide NP имели более низкую проницаемость для воды, чем мембраны с ceramide NS, причём значения проницаемости в симуляции были почти вдвое ниже. Это компьютерная модель, а не доказательство действия средств для местного применения на коже человека."
-      }
-    },
-    "ar": {
-      "summary": "السيراميد NP (Ceramide NP) هو سيراميد، أي دهن من النوع الموجود في الحاجز الجلدي، ويُستخدم في المرطّبات وكثيرًا ما يُدمج مع دهون أخرى مثل الكوليسترول والأحماض الدهنية. جرت دراسته في المنتجات الموضعية بصورة رئيسية من حيث مقاييس الحاجز الجلدي مثل فقدان الماء عبر البشرة والترطيب. تختبر معظم الدراسات السريرية تركيبات متعددة المكوّنات وهي صغيرة الحجم، وفي بعضها مؤلفون مرتبطون بجهات صناعية، ولذلك لا يمكن عزو النتائج إلى Ceramide NP وحده؛ كما يتعلق جزء من الأدلة بالمنتجات المحتوية على السيراميدات عمومًا. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
-      "claims": {
-        "ceramide-np-1": "أفادت مراجعة منهجية للأدبيات مقرونة بتوافق آراء لجنة خبراء (طريقة دلفي المعدّلة) حول العناية ببشرة حديثي الولادة والرضّع الأصحاء بوجود أدلة متزايدة على أن الاستخدام اليومي المستمر لمنظفات غير قلوية ومرطّبات تحتوي على السيراميدات يقلّل الالتهاب ويساعد على الحفاظ على وظيفة الحاجز الجلدي. تستند الاستنتاجات جزئيًا إلى رأي الخبراء، وتخص بشرة الرضّع، وتشير إلى المنتجات المحتوية على السيراميدات عمومًا لا إلى Ceramide NP تحديدًا.",
-        "ceramide-np-2": "في تجربة عشوائية مزدوجة التعمية ومضبوطة بالمادة الحاملة (vehicle) بتصميم مقارنة جانبي الجسم، شملت 50 مشاركًا ذوي بشرة حساسة على مدى 6 أسابيع، ارتبط مطرّي (emollient) يحتوي على Ceramide NP C15 بانخفاض ملحوظ في فقدان الماء عبر البشرة لدى المشاركين ذوي الحاجز الجلدي المتضرر؛ وتحسّنت الأعراض الذاتية مع التركيبة المحتوية على السيراميد ومع المادة الحاملة على السواء. يصف المؤلفون الدراسة بأنها استكشافية، ويرتبط بعض المؤلفين بشركة كيميائية.",
-        "ceramide-np-3": "في تجربة عشوائية مزدوجة التعمية ومضبوطة بالدواء الوهمي في مركز واحد شملت 60 بالغًا مصابين بالتهاب الجلد التأتبي المتوسط ويتلقون العلاج القياسي، أظهرت كريم مطرٍّ يحتوي على Ceramide NP اتجاهات مواتية في مقاييس الحاجز الجلدي والتقييمات السريرية، لكن المجموعتين كلتيهما تحسّنتا ولم تبلغ الفروق بين المجموعتين في مقاييس الحاجز الدلالة الإحصائية؛ ويدعو المؤلفون إلى دراسات أكبر.",
-        "ceramide-np-4": "في دراسة رصدية استباقية ذاتية الضبط في مركز واحد شملت 88 امرأة صينية ذات بشرة حساسة، تبع استخدام كريم للوجه يحتوي على مستخلص أوراق Centella asiatica وceramide NP وpanthenol انخفاضٌ في درجات الحساسية المقيَّمة ذاتيًا، وانخفاضٌ في فقدان الماء عبر البشرة في الأسبوعين الأول والثاني، وارتفاعٌ في ترطيب الطبقة المتقرنة على مدى 4 أسابيع. ونظرًا لعدم وجود مجموعة ضابطة ولأن المنتج متعدد المكوّنات، لا يمكن عزو التأثيرات إلى Ceramide NP وحده.",
-        "ceramide-np-5": "أفادت محاكاة حاسوبية بالديناميكا الجزيئية لطبقات دهنية مزدوجة من الطبقة المتقرنة بأن الأغشية المحتوية على ceramide NP كانت أقل نفاذية للماء من الأغشية المحتوية على ceramide NS، إذ كانت قيم النفاذية في المحاكاة أقل بنحو النصف. وهذا نموذج حاسوبي وليس دليلًا على تأثير المنتجات الموضعية في بشرة الإنسان."
-      }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "ceramide-np-2",
+   "text_en": "In a randomised, double-blind, vehicle-controlled split-body trial of 50 participants with sensitive skin over 6 weeks, an emollient containing Ceramide NP C15 was associated with a significant reduction in transepidermal water loss in the participants with impaired skin barrier; subjective symptoms improved with both the ceramide formulation and the vehicle. The authors describe the study as exploratory, and some authors are affiliated with a chemical company.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "41758783",
+     "doi": "10.1159/000551043",
+     "title": "Monocentric, Vehicle-Controlled, Double-Blind Study to Assess the Short- and Long-Term Effects of a Ceramide NP C15-Containing Emollient on the Skin Microbiome and the Skin Barrier Function in Sensitive Skin.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41758783/"
     }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "ceramide-np-3",
+   "text_en": "In a single-centre, randomised, double-blind, placebo-controlled trial of 60 adults with moderate atopic dermatitis who received standard therapy, a Ceramide NP-containing emollient cream showed favourable trends in skin barrier measures and clinical scores, but both groups improved and the between-group differences in barrier measures did not reach statistical significance; the authors call for larger studies.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "42868105",
+     "doi": "10.1159/spp/aetag011",
+     "title": "Effect of a Ceramide NP-Containing Moisturizer on Skin Barrier Function in Adults with Atopic Dermatitis: A Randomized, Double-Blind, Placebo-Controlled Study.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42868105/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "ceramide-np-4",
+   "text_en": "In a single-centre, prospective, self-controlled observational study of 88 Chinese women with sensitive skin, use of a facial cream containing Centella asiatica leaf extract, ceramide NP and panthenol was followed by lower self-rated sensitivity scores, lower transepidermal water loss at weeks 1 and 2 and higher stratum corneum hydration over 4 weeks. With no control group and a multi-ingredient product, the effects cannot be attributed to Ceramide NP alone.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40682399",
+     "doi": "10.1111/jocd.70324",
+     "title": "The Effectiveness and Safety of a Skin Care Product With Centella asiatica Leaf Extract, Ceramide NP, and Panthenol in Subjects With Sensitive Skin: A Prospective, Observational Study.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40682399/"
+    }
+   ],
+   "checked_on": "2026-10-31"
   }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Ceramide NP — seramid, ya'ni teri to'siqida uchraydigan turdagi lipid bo'lib, namlovchi vositalarda qo'llaniladi va ko'pincha xolesterin va yog' kislotalari kabi boshqa lipidlar bilan birga ishlatiladi. U surtiladigan vositalarda asosan transepidermal suv yo'qotilishi va namlanish kabi teri to'siq ko'rsatkichlari bo'yicha o'rganilgan. Klinik tadqiqotlarning ko'pchiligi bir nechta komponentli formulalarni sinaydi, tanlamasi kichik va ba'zilarida ishlab chiqaruvchi bilan bog'liq mualliflar bor, shu sababli natijalarni faqat Ceramide NP'ga bog'lab bo'lmaydi; dalillarning bir qismi umuman seramid o'z ichiga olgan vositalarga tegishli. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "ceramide-np-1": "Chaqaloqlar va sog'lom bolalar terisini parvarishlash bo'yicha tizimli adabiyot sharhi va ekspertlar guruhining (o'zgartirilgan Delphi usuli) konsensusida ishqoriy bo'lmagan yuvish vositalari va seramid o'z ichiga olgan namlovchi vositalarni har kuni davomli ishlatish yallig'lanishni kamaytirishi va teri to'siq funksiyasini saqlashga yordam berishi haqida ortib borayotgan dalillar mavjudligi aytilgan. Xulosalar qisman ekspert fikriga tayanadi, go'dak terisiga tegishli va aynan Ceramide NP emas, umuman seramid o'z ichiga olgan vositalarga taalluqli.",
+    "ceramide-np-2": "Sezgir terili 50 ishtirokchi ishtirokida 6 hafta davom etgan randomizatsiyalangan, ikki tomonlama ko'r, tashuvchi (vehicle) nazoratli, tananing ikki tomonini solishtiruvchi tadqiqotda Ceramide NP C15 o'z ichiga olgan emolent teri to'sig'i buzilgan ishtirokchilarda transepidermal suv yo'qotilishining sezilarli kamayishi bilan bog'langan; sub'ektiv belgilar ham seramidli formula bilan, ham tashuvchi bilan yaxshilangan. Mualliflar tadqiqotni izlanish xarakteridagi deb ta'riflaydi, ba'zi mualliflar esa kimyo kompaniyasi bilan bog'liq.",
+    "ceramide-np-3": "Standart terapiya olgan, o'rtacha atopik dermatitli 60 nafar kattalar ishtirok etgan bitta markazdagi randomizatsiyalangan, ikki tomonlama ko'r, plasebo nazoratli tadqiqotda Ceramide NP o'z ichiga olgan emolent krem teri to'siq ko'rsatkichlari va klinik baholarda ijobiy tendensiyalarni ko'rsatgan, ammo ikkala guruh ham yaxshilangan va to'siq ko'rsatkichlaridagi guruhlararo farqlar statistik ahamiyatga yetmagan; mualliflar kattaroq tadqiqotlar zarurligini ta'kidlaydi.",
+    "ceramide-np-4": "Sezgir terili 88 nafar xitoylik ayol ishtirok etgan bitta markazdagi prospektiv, o'zi-o'zi bilan solishtiriladigan kuzatuv tadqiqotida Centella asiatica bargi ekstrakti, ceramide NP va panthenol o'z ichiga olgan yuz kremini ishlatishdan keyin o'zi baholagan sezgirlik ballari pasaygan, 1- va 2-haftalarda transepidermal suv yo'qotilishi kamaygan va 4 hafta davomida shox qavat namligi oshgan. Nazorat guruhi bo'lmagani va vosita bir nechta komponentli bo'lgani uchun ta'sirni faqat Ceramide NP'ga bog'lab bo'lmaydi."
+   }
+  },
+  "ru": {
+   "summary": "Ceramide NP — это керамид, липид того типа, который входит в состав кожного барьера; он используется в увлажняющих средствах и часто сочетается с другими липидами, такими как холестерин и жирные кислоты. В средствах для местного применения его изучали главным образом по показателям кожного барьера, таким как трансэпидермальная потеря воды и увлажнённость. Большинство клинических исследований тестируют многокомпонентные составы, имеют небольшие выборки, а в некоторых участвуют авторы, связанные с индустрией, поэтому эффекты нельзя приписать только Ceramide NP; часть данных относится к средствам, содержащим керамиды, в целом. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "ceramide-np-1": "В систематическом обзоре литературы, дополненном консенсусом экспертной группы (модифицированный метод Дельфи) по уходу за кожей новорождённых и здоровых младенцев, сообщалось о растущем числе данных, что ежедневное длительное использование нещелочных очищающих средств и увлажняющих средств с керамидами снижает воспаление и помогает поддерживать барьерную функцию кожи. Выводы частично основаны на мнении экспертов, касаются кожи младенцев и относятся к средствам, содержащим керамиды, в целом, а не именно к Ceramide NP.",
+    "ceramide-np-2": "В рандомизированном двойном слепом контролируемом носителем (vehicle) исследовании с разделением тела на две стороны, в котором 6 недель участвовали 50 человек с чувствительной кожей, эмолент с Ceramide NP C15 был связан со значимым снижением трансэпидермальной потери воды у участников с нарушенным кожным барьером; субъективные симптомы улучшались как при использовании состава с керамидом, так и при использовании носителя. Авторы описывают исследование как поисковое, а некоторые авторы связаны с химической компанией.",
+    "ceramide-np-3": "В одноцентровом рандомизированном двойном слепом плацебо-контролируемом исследовании с участием 60 взрослых с атопическим дерматитом средней тяжести, получавших стандартную терапию, эмолентный крем с Ceramide NP показал благоприятные тенденции по показателям кожного барьера и клиническим оценкам, однако улучшение отмечалось в обеих группах, а межгрупповые различия по показателям барьера не достигли статистической значимости; авторы призывают к более крупным исследованиям.",
+    "ceramide-np-4": "В одноцентровом проспективном наблюдательном исследовании с самоконтролем, в котором участвовали 88 китаянок с чувствительной кожей, использование крема для лица с экстрактом листьев Centella asiatica, ceramide NP и пантенолом сопровождалось снижением самооценки чувствительности, снижением трансэпидермальной потери воды на 1-й и 2-й неделях и повышением увлажнённости рогового слоя в течение 4 недель. Поскольку контрольной группы не было, а средство многокомпонентное, эффекты нельзя приписать только Ceramide NP."
+   }
+  },
+  "ar": {
+   "summary": "السيراميد NP (Ceramide NP) هو سيراميد، أي دهن من النوع الموجود في الحاجز الجلدي، ويُستخدم في المرطّبات وكثيرًا ما يُدمج مع دهون أخرى مثل الكوليسترول والأحماض الدهنية. جرت دراسته في المنتجات الموضعية بصورة رئيسية من حيث مقاييس الحاجز الجلدي مثل فقدان الماء عبر البشرة والترطيب. تختبر معظم الدراسات السريرية تركيبات متعددة المكوّنات وهي صغيرة الحجم، وفي بعضها مؤلفون مرتبطون بجهات صناعية، ولذلك لا يمكن عزو النتائج إلى Ceramide NP وحده؛ كما يتعلق جزء من الأدلة بالمنتجات المحتوية على السيراميدات عمومًا. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "ceramide-np-1": "أفادت مراجعة منهجية للأدبيات مقرونة بتوافق آراء لجنة خبراء (طريقة دلفي المعدّلة) حول العناية ببشرة حديثي الولادة والرضّع الأصحاء بوجود أدلة متزايدة على أن الاستخدام اليومي المستمر لمنظفات غير قلوية ومرطّبات تحتوي على السيراميدات يقلّل الالتهاب ويساعد على الحفاظ على وظيفة الحاجز الجلدي. تستند الاستنتاجات جزئيًا إلى رأي الخبراء، وتخص بشرة الرضّع، وتشير إلى المنتجات المحتوية على السيراميدات عمومًا لا إلى Ceramide NP تحديدًا.",
+    "ceramide-np-2": "في تجربة عشوائية مزدوجة التعمية ومضبوطة بالمادة الحاملة (vehicle) بتصميم مقارنة جانبي الجسم، شملت 50 مشاركًا ذوي بشرة حساسة على مدى 6 أسابيع، ارتبط مطرّي (emollient) يحتوي على Ceramide NP C15 بانخفاض ملحوظ في فقدان الماء عبر البشرة لدى المشاركين ذوي الحاجز الجلدي المتضرر؛ وتحسّنت الأعراض الذاتية مع التركيبة المحتوية على السيراميد ومع المادة الحاملة على السواء. يصف المؤلفون الدراسة بأنها استكشافية، ويرتبط بعض المؤلفين بشركة كيميائية.",
+    "ceramide-np-3": "في تجربة عشوائية مزدوجة التعمية ومضبوطة بالدواء الوهمي في مركز واحد شملت 60 بالغًا مصابين بالتهاب الجلد التأتبي المتوسط ويتلقون العلاج القياسي، أظهرت كريم مطرٍّ يحتوي على Ceramide NP اتجاهات مواتية في مقاييس الحاجز الجلدي والتقييمات السريرية، لكن المجموعتين كلتيهما تحسّنتا ولم تبلغ الفروق بين المجموعتين في مقاييس الحاجز الدلالة الإحصائية؛ ويدعو المؤلفون إلى دراسات أكبر.",
+    "ceramide-np-4": "في دراسة رصدية استباقية ذاتية الضبط في مركز واحد شملت 88 امرأة صينية ذات بشرة حساسة، تبع استخدام كريم للوجه يحتوي على مستخلص أوراق Centella asiatica وceramide NP وpanthenol انخفاضٌ في درجات الحساسية المقيَّمة ذاتيًا، وانخفاضٌ في فقدان الماء عبر البشرة في الأسبوعين الأول والثاني، وارتفاعٌ في ترطيب الطبقة المتقرنة على مدى 4 أسابيع. ونظرًا لعدم وجود مجموعة ضابطة ولأن المنتج متعدد المكوّنات، لا يمكن عزو التأثيرات إلى Ceramide NP وحده."
+   }
+  }
+ }
 }

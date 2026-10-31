@@ -15,9 +15,9 @@ void main() {
     test('aniq nom bo\'yicha topadi, qolganlari "bazada yo\'q"', () {
       final r = analyze('Aqua, Glycerin, Niacinamide (2%), Parfum', repo);
       expect(r.items.map((e) => e.name), ['Aqua', 'Glycerin', 'Niacinamide', 'Parfum']);
-      expect(r.recognized.map((e) => e.ingredient!.slug), ['niacinamide']);
-      expect(r.recognized.single.position, 3);
-      expect(r.unknown.map((e) => e.name), ['Aqua', 'Glycerin', 'Parfum']);
+      expect(r.recognized.map((e) => e.ingredient!.slug), ['glycerin', 'niacinamide']);
+      expect(r.recognized.map((e) => e.position), [2, 3]);
+      expect(r.unknown.map((e) => e.name), ['Aqua', 'Parfum']);
     });
 
     test('registr va tasdiqlangan sinonimlar (Vitamin C, L-Ascorbic Acid) moslashadi', () {
@@ -43,9 +43,11 @@ void main() {
         r'(\d+\s*%\s*(safe|xavfsiz|безопас)|halal[\s-]*certif|safe for all|\bcures?\b|\bheals?\b|\bguarantee|davolaydi|гарантир|лечит)',
         caseSensitive: false);
 
-    test('5 ingredient, har biri 4 tilda xulosa bilan, hammasi draft', () {
-      expect(repo.all.map((e) => e.slug).toSet(),
-          {'niacinamide', 'hyaluronic-acid', 'salicylic-acid', 'ascorbic-acid', 'retinol'});
+    test('11 ingredient, har biri 4 tilda xulosa bilan, hammasi draft', () {
+      expect(repo.all.map((e) => e.slug).toSet(), {
+        'niacinamide', 'hyaluronic-acid', 'salicylic-acid', 'ascorbic-acid', 'retinol',
+        'glycerin', 'panthenol', 'ceramide-np', 'zinc-oxide', 'urea', 'glycolic-acid',
+      });
       for (final i in repo.all) {
         expect(i.status, 'draft', reason: i.slug);
         for (final l in ['en', 'uz', 'ru', 'ar']) {

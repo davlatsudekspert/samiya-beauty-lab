@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
       ('ai', l.tileAi, Icons.auto_awesome_outlined, () => _soon(context)),
       ('journal', l.tileJournal, Icons.event_note_outlined, () => context.go('/journal')),
     ];
-    const ingredients = ['Niacinamide', 'Retinol', 'Salicylic Acid', 'Hyaluronic Acid', 'Ascorbic Acid'];
+    final ingredients = AppScope.of(context).ingredients.all.take(8).map((i) => i.inci).toList();
     return KeyedSubtree(
       key: const Key('home-page'),
       child: SingleChildScrollView(

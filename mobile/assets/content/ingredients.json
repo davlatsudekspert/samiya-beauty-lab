@@ -478,6 +478,722 @@
      ]
     }
    ]
+  },
+  {
+   "inci": "Ceramide NP",
+   "slug": "ceramide-np",
+   "status": "draft",
+   "aliases": [],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Ceramide NP is a ceramide, a lipid of the type found in the skin barrier, used in moisturisers and often combined with other lipids such as cholesterol and fatty acids. It has been studied in topical products mainly for skin barrier measures such as transepidermal water loss and hydration. Most clinical studies test multi-ingredient formulas, are small, and some involve industry-affiliated authors, so effects cannot be attributed to Ceramide NP alone; part of the evidence refers to ceramide-containing products in general. This card summarises published evidence only and is not medical advice.",
+    "uz": "Ceramide NP — seramid, ya‘ni teri to‘siqida uchraydigan turdagi lipid bo‘lib, namlovchi vositalarda qo‘llaniladi va ko‘pincha xolesterin va yog‘ kislotalari kabi boshqa lipidlar bilan birga ishlatiladi. U surtiladigan vositalarda asosan transepidermal suv yo‘qotilishi va namlanish kabi teri to‘siq ko‘rsatkichlari bo‘yicha o‘rganilgan. Klinik tadqiqotlarning ko‘pchiligi bir nechta komponentli formulalarni sinaydi, tanlamasi kichik va ba‘zilarida ishlab chiqaruvchi bilan bog‘liq mualliflar bor, shu sababli natijalarni faqat Ceramide NP‘ga bog‘lab bo‘lmaydi; dalillarning bir qismi umuman seramid o‘z ichiga olgan vositalarga tegishli. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Ceramide NP — это керамид, липид того типа, который входит в состав кожного барьера; он используется в увлажняющих средствах и часто сочетается с другими липидами, такими как холестерин и жирные кислоты. В средствах для местного применения его изучали главным образом по показателям кожного барьера, таким как трансэпидермальная потеря воды и увлажнённость. Большинство клинических исследований тестируют многокомпонентные составы, имеют небольшие выборки, а в некоторых участвуют авторы, связанные с индустрией, поэтому эффекты нельзя приписать только Ceramide NP; часть данных относится к средствам, содержащим керамиды, в целом. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "السيراميد NP (Ceramide NP) هو سيراميد، أي دهن من النوع الموجود في الحاجز الجلدي، ويُستخدم في المرطّبات وكثيرًا ما يُدمج مع دهون أخرى مثل الكوليسترول والأحماض الدهنية. جرت دراسته في المنتجات الموضعية بصورة رئيسية من حيث مقاييس الحاجز الجلدي مثل فقدان الماء عبر البشرة والترطيب. تختبر معظم الدراسات السريرية تركيبات متعددة المكوّنات وهي صغيرة الحجم، وفي بعضها مؤلفون مرتبطون بجهات صناعية، ولذلك لا يمكن عزو النتائج إلى Ceramide NP وحده؛ كما يتعلق جزء من الأدلة بالمنتجات المحتوية على السيراميدات عمومًا. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "ceramide-np-1",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A systematic literature review combined with an expert-panel (modified Delphi) consensus on skin care for neonates and healthy infants reported a growing body of evidence that ongoing daily use of non-alkaline cleansers and ceramide-containing moisturizers reduces inflammation and helps maintain skin barrier function. The conclusions rest partly on expert opinion, concern infant skin, and refer to ceramide-containing products in general rather than to Ceramide NP specifically.",
+      "uz": "Chaqaloqlar va sog‘lom bolalar terisini parvarishlash bo‘yicha tizimli adabiyot sharhi va ekspertlar guruhining (o‘zgartirilgan Delphi usuli) konsensusida ishqoriy bo‘lmagan yuvish vositalari va seramid o‘z ichiga olgan namlovchi vositalarni har kuni davomli ishlatish yallig‘lanishni kamaytirishi va teri to‘siq funksiyasini saqlashga yordam berishi haqida ortib borayotgan dalillar mavjudligi aytilgan. Xulosalar qisman ekspert fikriga tayanadi, go‘dak terisiga tegishli va aynan Ceramide NP emas, umuman seramid o‘z ichiga olgan vositalarga taalluqli.",
+      "ru": "В систематическом обзоре литературы, дополненном консенсусом экспертной группы (модифицированный метод Дельфи) по уходу за кожей новорождённых и здоровых младенцев, сообщалось о растущем числе данных, что ежедневное длительное использование нещелочных очищающих средств и увлажняющих средств с керамидами снижает воспаление и помогает поддерживать барьерную функцию кожи. Выводы частично основаны на мнении экспертов, касаются кожи младенцев и относятся к средствам, содержащим керамиды, в целом, а не именно к Ceramide NP.",
+      "ar": "أفادت مراجعة منهجية للأدبيات مقرونة بتوافق آراء لجنة خبراء (طريقة دلفي المعدّلة) حول العناية ببشرة حديثي الولادة والرضّع الأصحاء بوجود أدلة متزايدة على أن الاستخدام اليومي المستمر لمنظفات غير قلوية ومرطّبات تحتوي على السيراميدات يقلّل الالتهاب ويساعد على الحفاظ على وظيفة الحاجز الجلدي. تستند الاستنتاجات جزئيًا إلى رأي الخبراء، وتخص بشرة الرضّع، وتشير إلى المنتجات المحتوية على السيراميدات عمومًا لا إلى Ceramide NP تحديدًا."
+     },
+     "sources": [
+      {
+       "pmid": "34784132",
+       "doi": "10.36849/jdd.6219",
+       "title": "The Importance of Skincare for Neonates and Infants: An Algorithm.",
+       "year": 2021,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/34784132/"
+      }
+     ]
+    },
+    {
+     "id": "ceramide-np-2",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a randomised, double-blind, vehicle-controlled split-body trial of 50 participants with sensitive skin over 6 weeks, an emollient containing Ceramide NP C15 was associated with a significant reduction in transepidermal water loss in the participants with impaired skin barrier; subjective symptoms improved with both the ceramide formulation and the vehicle. The authors describe the study as exploratory, and some authors are affiliated with a chemical company.",
+      "uz": "Sezgir terili 50 ishtirokchi ishtirokida 6 hafta davom etgan randomizatsiyalangan, ikki tomonlama ko‘r, tashuvchi (vehicle) nazoratli, tananing ikki tomonini solishtiruvchi tadqiqotda Ceramide NP C15 o‘z ichiga olgan emolent teri to‘sig‘i buzilgan ishtirokchilarda transepidermal suv yo‘qotilishining sezilarli kamayishi bilan bog‘langan; sub‘ektiv belgilar ham seramidli formula bilan, ham tashuvchi bilan yaxshilangan. Mualliflar tadqiqotni izlanish xarakteridagi deb ta‘riflaydi, ba‘zi mualliflar esa kimyo kompaniyasi bilan bog‘liq.",
+      "ru": "В рандомизированном двойном слепом контролируемом носителем (vehicle) исследовании с разделением тела на две стороны, в котором 6 недель участвовали 50 человек с чувствительной кожей, эмолент с Ceramide NP C15 был связан со значимым снижением трансэпидермальной потери воды у участников с нарушенным кожным барьером; субъективные симптомы улучшались как при использовании состава с керамидом, так и при использовании носителя. Авторы описывают исследование как поисковое, а некоторые авторы связаны с химической компанией.",
+      "ar": "في تجربة عشوائية مزدوجة التعمية ومضبوطة بالمادة الحاملة (vehicle) بتصميم مقارنة جانبي الجسم، شملت 50 مشاركًا ذوي بشرة حساسة على مدى 6 أسابيع، ارتبط مطرّي (emollient) يحتوي على Ceramide NP C15 بانخفاض ملحوظ في فقدان الماء عبر البشرة لدى المشاركين ذوي الحاجز الجلدي المتضرر؛ وتحسّنت الأعراض الذاتية مع التركيبة المحتوية على السيراميد ومع المادة الحاملة على السواء. يصف المؤلفون الدراسة بأنها استكشافية، ويرتبط بعض المؤلفين بشركة كيميائية."
+     },
+     "sources": [
+      {
+       "pmid": "41758783",
+       "doi": "10.1159/000551043",
+       "title": "Monocentric, Vehicle-Controlled, Double-Blind Study to Assess the Short- and Long-Term Effects of a Ceramide NP C15-Containing Emollient on the Skin Microbiome and the Skin Barrier Function in Sensitive Skin.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/41758783/"
+      }
+     ]
+    },
+    {
+     "id": "ceramide-np-3",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a single-centre, randomised, double-blind, placebo-controlled trial of 60 adults with moderate atopic dermatitis who received standard therapy, a Ceramide NP-containing emollient cream showed favourable trends in skin barrier measures and clinical scores, but both groups improved and the between-group differences in barrier measures did not reach statistical significance; the authors call for larger studies.",
+      "uz": "Standart terapiya olgan, o‘rtacha atopik dermatitli 60 nafar kattalar ishtirok etgan bitta markazdagi randomizatsiyalangan, ikki tomonlama ko‘r, plasebo nazoratli tadqiqotda Ceramide NP o‘z ichiga olgan emolent krem teri to‘siq ko‘rsatkichlari va klinik baholarda ijobiy tendensiyalarni ko‘rsatgan, ammo ikkala guruh ham yaxshilangan va to‘siq ko‘rsatkichlaridagi guruhlararo farqlar statistik ahamiyatga yetmagan; mualliflar kattaroq tadqiqotlar zarurligini ta‘kidlaydi.",
+      "ru": "В одноцентровом рандомизированном двойном слепом плацебо-контролируемом исследовании с участием 60 взрослых с атопическим дерматитом средней тяжести, получавших стандартную терапию, эмолентный крем с Ceramide NP показал благоприятные тенденции по показателям кожного барьера и клиническим оценкам, однако улучшение отмечалось в обеих группах, а межгрупповые различия по показателям барьера не достигли статистической значимости; авторы призывают к более крупным исследованиям.",
+      "ar": "في تجربة عشوائية مزدوجة التعمية ومضبوطة بالدواء الوهمي في مركز واحد شملت 60 بالغًا مصابين بالتهاب الجلد التأتبي المتوسط ويتلقون العلاج القياسي، أظهرت كريم مطرٍّ يحتوي على Ceramide NP اتجاهات مواتية في مقاييس الحاجز الجلدي والتقييمات السريرية، لكن المجموعتين كلتيهما تحسّنتا ولم تبلغ الفروق بين المجموعتين في مقاييس الحاجز الدلالة الإحصائية؛ ويدعو المؤلفون إلى دراسات أكبر."
+     },
+     "sources": [
+      {
+       "pmid": "42868105",
+       "doi": "10.1159/spp/aetag011",
+       "title": "Effect of a Ceramide NP-Containing Moisturizer on Skin Barrier Function in Adults with Atopic Dermatitis: A Randomized, Double-Blind, Placebo-Controlled Study.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42868105/"
+      }
+     ]
+    },
+    {
+     "id": "ceramide-np-4",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In a single-centre, prospective, self-controlled observational study of 88 Chinese women with sensitive skin, use of a facial cream containing Centella asiatica leaf extract, ceramide NP and panthenol was followed by lower self-rated sensitivity scores, lower transepidermal water loss at weeks 1 and 2 and higher stratum corneum hydration over 4 weeks. With no control group and a multi-ingredient product, the effects cannot be attributed to Ceramide NP alone.",
+      "uz": "Sezgir terili 88 nafar xitoylik ayol ishtirok etgan bitta markazdagi prospektiv, o‘zi-o‘zi bilan solishtiriladigan kuzatuv tadqiqotida Centella asiatica bargi ekstrakti, ceramide NP va panthenol o‘z ichiga olgan yuz kremini ishlatishdan keyin o‘zi baholagan sezgirlik ballari pasaygan, 1- va 2-haftalarda transepidermal suv yo‘qotilishi kamaygan va 4 hafta davomida shox qavat namligi oshgan. Nazorat guruhi bo‘lmagani va vosita bir nechta komponentli bo‘lgani uchun ta‘sirni faqat Ceramide NP‘ga bog‘lab bo‘lmaydi.",
+      "ru": "В одноцентровом проспективном наблюдательном исследовании с самоконтролем, в котором участвовали 88 китаянок с чувствительной кожей, использование крема для лица с экстрактом листьев Centella asiatica, ceramide NP и пантенолом сопровождалось снижением самооценки чувствительности, снижением трансэпидермальной потери воды на 1-й и 2-й неделях и повышением увлажнённости рогового слоя в течение 4 недель. Поскольку контрольной группы не было, а средство многокомпонентное, эффекты нельзя приписать только Ceramide NP.",
+      "ar": "في دراسة رصدية استباقية ذاتية الضبط في مركز واحد شملت 88 امرأة صينية ذات بشرة حساسة، تبع استخدام كريم للوجه يحتوي على مستخلص أوراق Centella asiatica وceramide NP وpanthenol انخفاضٌ في درجات الحساسية المقيَّمة ذاتيًا، وانخفاضٌ في فقدان الماء عبر البشرة في الأسبوعين الأول والثاني، وارتفاعٌ في ترطيب الطبقة المتقرنة على مدى 4 أسابيع. ونظرًا لعدم وجود مجموعة ضابطة ولأن المنتج متعدد المكوّنات، لا يمكن عزو التأثيرات إلى Ceramide NP وحده."
+     },
+     "sources": [
+      {
+       "pmid": "40682399",
+       "doi": "10.1111/jocd.70324",
+       "title": "The Effectiveness and Safety of a Skin Care Product With Centella asiatica Leaf Extract, Ceramide NP, and Panthenol in Subjects With Sensitive Skin: A Prospective, Observational Study.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40682399/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Glycerin",
+   "slug": "glycerin",
+   "status": "draft",
+   "aliases": [],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Glycerin (glycerol) is a widely used cosmetic humectant that has been studied in topical moisturisers for skin hydration and barrier outcomes. The evidence found in this search consists mainly of a narrative review and small studies of formulas that combine glycerin with other ingredients (such as petrolatum, hyaluronic acid or oils), so conclusions about glycerin alone are limited; no systematic review specific to topical glycerin was identified in this search. This card summarises published evidence only and is not medical advice.",
+    "uz": "Glycerin (glycerol) keng qo‘llaniladigan kosmetik namlovchi (gumektant) ingredient bo‘lib, teri namligi va to‘siq funksiyasiga oid natijalar bo‘yicha surtiladigan namlovchi vositalarda o‘rganilgan. Bu qidiruvda topilgan dalillar asosan bitta hikoyaviy sharh va glycerin boshqa ingredientlar (masalan, petrolatum, gialuron kislotasi yoki moylar) bilan birlashtirilgan formulalarning kichik tadqiqotlaridan iborat, shu sababli faqat glycerin haqida xulosa qilish cheklangan; bu qidiruvda surtiladigan glycerin bo‘yicha alohida tizimli sharh topilmadi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Glycerin (glycerol) является распространённым косметическим увлажняющим ингредиентом (humectant), который изучался в средствах для местного применения в отношении увлажнённости кожи и барьерной функции. Данные, найденные в этом поиске, в основном состоят из одного нарративного обзора и небольших исследований составов, в которых glycerin сочетается с другими ингредиентами (например, с petrolatum, гиалуроновой кислотой или маслами), поэтому выводы только о glycerin ограничены; отдельного систематического обзора по местному применению glycerin в этом поиске не найдено. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "الغليسرين (glycerin) هو مكوّن تجميلي شائع مرطّب جاذب للماء (humectant)، جرت دراسته في المنتجات الموضعية المرطِّبة فيما يخص ترطيب الجلد ووظيفة الحاجز الجلدي. تتكوّن الأدلة التي وُجدت في هذا البحث في معظمها من مراجعة سردية واحدة ودراسات صغيرة لتركيبات يُجمع فيها glycerin مع مكوّنات أخرى (مثل petrolatum أو حمض الهيالورونيك أو الزيوت)، مما يحدّ من إمكانية استخلاص نتائج عن glycerin وحده؛ ولم تُعثر في هذا البحث على مراجعة منهجية مخصصة للاستخدام الموضعي لـ glycerin. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "glycerin-1",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative review of glycerol and the skin described reported effects of glycerol on the epidermis, including improved stratum corneum hydration, skin barrier function and skin mechanical properties; as a narrative review it does not systematically assess the quality of the underlying studies.",
+      "uz": "Glycerol va teri haqidagi hikoyaviy sharhda glycerol‘ning epidermisga qayd etilgan ta‘sirlari, jumladan shox qavat namligi, teri to‘siq funksiyasi va terining mexanik xususiyatlarining yaxshilanishi tasvirlangan; hikoyaviy sharh bo‘lgani uchun u asosidagi tadqiqotlar sifatini tizimli baholamaydi.",
+      "ru": "В нарративном обзоре о glycerol и коже описаны сообщаемые эффекты glycerol на эпидермис, включая улучшение увлажнённости рогового слоя, барьерной функции кожи и механических свойств кожи; как нарративный обзор он не оценивает систематически качество лежащих в его основе исследований.",
+      "ar": "وصفت مراجعة سردية عن glycerol والجلد تأثيرات مُبلَّغًا عنها للـ glycerol على البشرة، منها تحسّن ترطيب الطبقة المتقرنة ووظيفة الحاجز الجلدي والخصائص الميكانيكية للجلد؛ وبصفتها مراجعة سردية فهي لا تقيّم بصورة منهجية جودة الدراسات التي تستند إليها."
+     },
+     "sources": [
+      {
+       "pmid": "18510666",
+       "doi": "10.1111/j.1365-2133.2008.08643.x",
+       "title": "Glycerol and the skin: holistic approach to its origin and functions.",
+       "year": 2008,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/18510666/"
+      }
+     ]
+    },
+    {
+     "id": "glycerin-2",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a randomised, double-blind, four-arm crossover study of 51 healthy volunteers with dry forearm skin, a cream containing glycerol and petrolatum was associated with higher skin moisture (corneometry) than its vehicle and than the vehicle with petrolatum; the authors attributed the improved hydration to the glycerol component and the lower transepidermal water loss to the petrolatum component. Measurements covered 12 hours after application, the study was not designed to evaluate therapeutic benefit, and the findings come from a single study of one branded formula.",
+      "uz": "Quruq bilak terisiga ega 51 nafar sog‘lom ko‘ngillida o‘tkazilgan randomizatsiyalangan, ikki tomonlama ko‘r, to‘rt guruhli o‘zaro almashinuvchi (crossover) tadqiqotda glycerol va petrolatum tarkibli krem o‘z vehikulidan (asos) hamda petrolatum qo‘shilgan vehikuldan yuqoriroq teri namligi (korneometriya) bilan bog‘langan; mualliflar namlikning yaxshilanishini glycerol komponentiga, transepidermal suv yo‘qotilishining kamayishini esa petrolatum komponentiga bog‘lagan. O‘lchovlar surtilgandan keyingi 12 soatni qamragan, tadqiqot davolovchi foydani baholash uchun mo‘ljallanmagan va natijalar bitta brendli formula bo‘yicha bitta tadqiqotdan olingan.",
+      "ru": "В рандомизированном двойном слепом перекрёстном (crossover) исследовании с четырьмя группами, в котором участвовали 51 здоровый доброволец с сухой кожей предплечий, крем, содержащий glycerol и petrolatum, был связан с более высокой влажностью кожи (корнеометрия) по сравнению с собственной основой (vehicle) и основой с petrolatum; авторы связали улучшение увлажнённости с компонентом glycerol, а снижение трансэпидермальной потери воды — с компонентом petrolatum. Измерения охватывали 12 часов после нанесения, исследование не предназначалось для оценки терапевтической пользы, а результаты получены в одном исследовании одного брендового состава.",
+      "ar": "في دراسة عشوائية مزدوجة التعمية متقاطعة (crossover) بأربع مجموعات شملت 51 متطوعًا سليمًا يعانون من جفاف جلد الساعد، ارتبط كريم يحتوي على glycerol وpetrolatum بارتفاع رطوبة الجلد (قياس الكورنيومتر) مقارنة بقاعدته (vehicle) وبالقاعدة مع petrolatum؛ وعزا المؤلفون تحسّن الترطيب إلى مكوّن glycerol، وانخفاض فقدان الماء عبر البشرة إلى مكوّن petrolatum. غطّت القياسات 12 ساعة بعد الاستعمال، ولم تُصمَّم الدراسة لتقييم فائدة علاجية، وتأتي النتائج من دراسة واحدة لتركيبة واحدة ذات علامة تجارية."
+     },
+     "sources": [
+      {
+       "pmid": "31532576",
+       "doi": "10.1111/jocd.13163",
+       "title": "Combined effects of glycerol and petrolatum in an emollient cream: A randomized, double-blind, crossover study in healthy volunteers with dry skin.",
+       "year": 2019,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/31532576/"
+      }
+     ]
+    },
+    {
+     "id": "glycerin-3",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a one-day, intra-subject, randomised, assessor-blinded study of 20 healthy women, a fluid containing hyaluronic acid 1%, glycerin 5% and a stem-cell extract was associated with higher skin hydration up to 24 hours after a single application and lower transepidermal water loss at 24 hours compared with an untreated control site; the product is a combination, the sample is small, and the effects cannot be attributed to glycerin alone.",
+      "uz": "20 nafar sog‘lom ayol ishtirok etgan bir kunlik, ishtirokchi ichidagi (intra-subject), randomizatsiyalangan, baholovchi ko‘r tadqiqotda gialuron kislotasi 1%, glycerin 5% va o‘simlik o‘zak hujayralari ekstrakti tarkibli suyuqlik bir marta surtilgandan keyin 24 soatgacha yuqoriroq teri namligi bilan va 24 soatda davolanmagan nazorat sohaga nisbatan pastroq transepidermal suv yo‘qotilishi bilan bog‘langan; mahsulot kombinatsiyalangan, tanlama kichik va ta‘sirni faqat glycerin‘ga bog‘lab bo‘lmaydi.",
+      "ru": "В однодневном внутрииндивидуальном (intra-subject) рандомизированном исследовании с ослеплением оценивающего, в котором участвовали 20 здоровых женщин, флюид, содержащий 1% гиалуроновой кислоты, 5% glycerin и экстракт стволовых клеток растений, был связан с более высокой увлажнённостью кожи до 24 часов после однократного нанесения и с более низкой трансэпидермальной потерей воды через 24 часа по сравнению с необработанным контрольным участком; продукт является комбинированным, выборка небольшая, и эффекты нельзя приписать только glycerin.",
+      "ar": "في دراسة عشوائية لمدة يوم واحد داخل الفرد الواحد (intra-subject) مع تعمية المقيِّم شملت 20 امرأة سليمة، ارتبط سائل يحتوي على حمض الهيالورونيك 1% وglycerin 5% ومستخلص خلايا جذعية نباتية بارتفاع ترطيب الجلد حتى 24 ساعة بعد استعمال واحد وبانخفاض فقدان الماء عبر البشرة عند 24 ساعة مقارنة بموضع شاهد غير معالَج؛ والمنتج تركيبة مركّبة، والعيّنة صغيرة، ولا يمكن عزو التأثيرات إلى glycerin وحده."
+     },
+     "sources": [
+      {
+       "pmid": "28860834",
+       "doi": "10.2147/CCID.S144180",
+       "title": "The 24-hour skin hydration and barrier function effects of a hyaluronic 1%, glycerin 5%, andstem cells extract moisturizing fluid: an intra-subject, randomized, assessor-blinded study.",
+       "year": 2017,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/28860834/"
+      }
+     ]
+    },
+    {
+     "id": "glycerin-4",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In an 8-week study of a leave-on scalp lotion containing 10% glycerol together with other skin-benefit agents (a saturated fatty acid and sunflower seed oil), applied three times per week, expert visual grading and biophysical measurements reported a significant reduction in dandruff with improved stratum corneum hydration and water barrier function; the lotion was a combination and the abstract gives no sample size or description of a comparison group, so the contribution of glycerol cannot be determined.",
+      "uz": "10% glycerol hamda boshqa teriga foydali moddalar (to‘yingan yog‘ kislotasi va kungaboqar urug‘i moyi) tarkibli, haftasiga uch marta surtiladigan va yuvilmaydigan bosh terisi losyoni bo‘yicha 8 haftalik tadqiqotda mutaxassisning vizual baholashi va biofizik o‘lchovlar qipiqning sezilarli kamayishini, shox qavat namligi va suv to‘sig‘ining yaxshilanishini qayd etgan; losyon kombinatsiyalangan, annotatsiyada tanlama hajmi va taqqoslash guruhi tasvirlanmagan, shu sababli glycerol hissasini aniqlab bo‘lmaydi.",
+      "ru": "В 8-недельном исследовании несмываемого лосьона для кожи головы, содержащего 10% glycerol вместе с другими полезными для кожи компонентами (насыщенная жирная кислота и масло семян подсолнечника) и наносимого три раза в неделю, экспертная визуальная оценка и биофизические измерения показали значимое уменьшение перхоти с улучшением увлажнённости рогового слоя и водного барьера; лосьон был комбинированным, а в аннотации не указаны размер выборки и описание группы сравнения, поэтому вклад glycerol определить нельзя.",
+      "ar": "في دراسة مدتها 8 أسابيع لمستحلب للفروة يُترك على الجلد دون شطف ويحتوي على 10% glycerol مع عوامل أخرى مفيدة للجلد (حمض دهني مشبع وزيت بذور عباد الشمس) ويُستعمل ثلاث مرات أسبوعيًا، أفاد التقييم البصري للخبير والقياسات الفيزيائية الحيوية بانخفاض ملحوظ في القشرة مع تحسّن ترطيب الطبقة المتقرنة وحاجز الماء؛ وكان المستحلب تركيبة مركّبة، ولا يذكر الملخص حجم العيّنة ولا وصف مجموعة مقارنة، ولذلك لا يمكن تحديد مساهمة glycerol."
+     },
+     "sources": [
+      {
+       "pmid": "25134312",
+       "doi": null,
+       "title": "A high glycerol-containing leave-on scalp care treatment to improve dandruff.",
+       "year": 2014,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/25134312/"
+      }
+     ]
+    },
+    {
+     "id": "glycerin-5",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a randomised, double-blind crossover trial of 32 batik workers with mild-to-moderate occupational hand dermatitis, a glycerin-only cream and a glycerin plus coconut-oil cream were applied after work for two weeks; both were associated with about 20% lower transepidermal water loss and hand eczema severity score and about 20% higher skin capacitance, and the two creams were reported as equally effective. There was no comparison group without glycerin, so the effect cannot be separated from general moisturising or the passage of time, and the sample was small.",
+      "uz": "Yengil va o‘rtacha kasbiy qo‘l dermatiti bo‘lgan 32 nafar batik ishchisida o‘tkazilgan randomizatsiyalangan, ikki tomonlama ko‘r, o‘zaro almashinuvchi (crossover) sinovda faqat glycerin tarkibli krem va glycerin hamda kokos moyi tarkibli krem ish tugagach ikki hafta davomida surtilgan; ikkalasi ham transepidermal suv yo‘qotilishi va qo‘l ekzemasi og‘irlik indeksining taxminan 20% pastroq bo‘lishi hamda teri sig‘imining taxminan 20% yuqoriroq bo‘lishi bilan bog‘langan va ikkala krem teng samarali deb qayd etilgan. Glycerin‘siz taqqoslash guruhi bo‘lmagan, shu sababli ta‘sirni umumiy namlash yoki vaqt o‘tishidan ajratib bo‘lmaydi, tanlama ham kichik.",
+      "ru": "В рандомизированном двойном слепом перекрёстном (crossover) исследовании с участием 32 работников производства батика с лёгким или умеренным профессиональным дерматитом рук крем только с glycerin и крем с glycerin и кокосовым маслом наносили после работы в течение двух недель; оба были связаны примерно с 20% снижением трансэпидермальной потери воды и индекса тяжести экземы рук и примерно с 20% повышением ёмкостного показателя кожи, а два крема были признаны одинаково эффективными. Группы сравнения без glycerin не было, поэтому эффект нельзя отделить от общего увлажнения или течения времени, а выборка была небольшой.",
+      "ar": "في تجربة عشوائية مزدوجة التعمية متقاطعة (crossover) شملت 32 عاملًا في صناعة الباتيك ممن يعانون التهاب جلد اليدين المهني الخفيف إلى المتوسط، وُضع كريم يحتوي على glycerin فقط وكريم يحتوي على glycerin وزيت جوز الهند بعد العمل لمدة أسبوعين؛ وارتبط كلاهما بانخفاض نحو 20% في فقدان الماء عبر البشرة وفي مؤشر شدة أكزيما اليدين، وبارتفاع نحو 20% في سعة الجلد (skin capacitance)، وأُفيد بأن الكريمين متساويان في الفعالية. لم تكن هناك مجموعة مقارنة بدون glycerin، ولذلك لا يمكن فصل التأثير عن الترطيب العام أو مرور الوقت، وكانت العيّنة صغيرة."
+     },
+     "sources": [
+      {
+       "pmid": "39237662",
+       "doi": "10.1038/s41598-024-72010-0",
+       "title": "Cocos nucifera and glycerine afterwork moisturizers for secondary prevention of hand dermatitis among fabric worker: a randomized, double-blind, cross over trial.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39237662/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Glycolic Acid",
+   "slug": "glycolic-acid",
+   "status": "draft",
+   "aliases": [],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Glycolic Acid is an alpha-hydroxy acid used as a cosmetic ingredient that has been studied in topical products for skin texture, photoaging, pigmentation and sun sensitivity. Some of the available studies are small, short-term or use formulas that combine several active ingredients, which limits conclusions about glycolic acid alone. Several studies reported that glycolic acid can temporarily increase the skin's sensitivity to ultraviolet light. This card summarises published evidence only and is not medical advice.",
+    "uz": "Glycolic Acid (glikol kislota) alfa-gidroksi kislotalar guruhiga kiradigan kosmetik ingredient bo‘lib, surtiladigan vositalarda teri tuzilishi, fotoaging, pigmentatsiya va quyoshga sezgirlik bo‘yicha o‘rganilgan. Mavjud tadqiqotlarning ba‘zilari kichik, qisqa muddatli yoki bir nechta faol moddani birlashtirgan formulalar bilan o‘tkazilgan, shuning uchun faqat glikol kislota haqida xulosa qilish cheklangan. Bir nechta tadqiqot glikol kislota quyoshning ultrabinafsha nurlariga teri sezgirligini vaqtincha oshirishi mumkinligini ko‘rsatgan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Glycolic Acid (гликолевая кислота) является косметическим ингредиентом из группы альфа-гидроксикислот, который изучался в средствах для местного применения в отношении текстуры кожи, фотостарения, пигментации и чувствительности к солнцу. Часть имеющихся исследований небольшие, краткосрочные или проведены на составах с несколькими активными компонентами, поэтому выводы только о гликолевой кислоте ограничены. В нескольких исследованиях сообщалось, что гликолевая кислота может временно повышать чувствительность кожи к ультрафиолетовому излучению. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "حمض الغليكوليك (Glycolic Acid) مكوّن تجميلي من مجموعة ألفا هيدروكسي أحماض، جرت دراسته في المنتجات الموضعية فيما يخص ملمس البشرة والشيخوخة الضوئية والتصبغ والحساسية للشمس. بعض الدراسات المتاحة صغيرة أو قصيرة المدة أو أُجريت على تركيبات تجمع عدة مواد فعّالة، مما يحدّ من إمكانية استخلاص نتائج عن حمض الغليكوليك وحده. أفادت عدة دراسات بأن حمض الغليكوليك قد يزيد حساسية الجلد للأشعة فوق البنفسجية بشكل مؤقت. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "glycolic-acid-1",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A systematic review and network meta-analysis of 23 randomised controlled trials (3905 participants) of topical agents for facial photoaging reported that glycolic acid reduced roughness, while glycolic acid and tazarotene were associated with higher adverse event risks; retinoids were reported as more effective for wrinkles and hyperpigmentation. The authors noted limited racial diversity, potential commercial bias and variability in assessments, and the abstract does not specify glycolic acid concentrations or product types.",
+      "uz": "Yuz fotoagingi uchun surtiladigan vositalar bo‘yicha 23 ta randomizatsiyalangan nazoratli tadqiqot (3905 ishtirokchi) tizimli sharhi va tarmoq meta-tahlilida glikol kislota g‘adir-budurlikni kamaytirgani, glikol kislota va tazaroten esa nojo‘ya hodisalar xavfining yuqoriroq bo‘lishi bilan bog‘langani qayd etilgan; retinoidlar ajinlar va giperpigmentatsiya bo‘yicha samaraliroq deb ko‘rsatilgan. Mualliflar irqiy xilma-xillikning cheklanganligini, tijorat tarafkashligi ehtimolini va baholashlardagi farqlarni qayd etgan; annotatsiyada glikol kislotaning konsentratsiyasi va mahsulot turlari ko‘rsatilmagan.",
+      "ru": "В систематическом обзоре и сетевом метаанализе 23 рандомизированных контролируемых исследований (3905 участников) местных средств при фотостарении лица сообщалось, что гликолевая кислота уменьшала шероховатость, тогда как гликолевая кислота и тазаротен были связаны с более высоким риском нежелательных явлений; ретиноиды были названы более эффективными в отношении морщин и гиперпигментации. Авторы отметили ограниченное расовое разнообразие, возможную коммерческую предвзятость и вариабельность оценок; в аннотации не указаны концентрации гликолевой кислоты и типы продуктов.",
+      "ar": "أفادت مراجعة منهجية وتحليل شبكي تلوي لـ 23 تجربة عشوائية مضبوطة (3905 مشاركين) حول العلاجات الموضعية للشيخوخة الضوئية للوجه بأن حمض الغليكوليك قلّل الخشونة، بينما ارتبط حمض الغليكوليك والتازاروتين بارتفاع خطر الأحداث الضائرة؛ وذُكر أن الرتينويدات أكثر فعالية فيما يخص التجاعيد وفرط التصبغ. أشار المؤلفون إلى محدودية التنوع العرقي واحتمال التحيّز التجاري وتباين أساليب التقييم، ولم تحدد الخلاصة تراكيز حمض الغليكوليك ولا أنواع المنتجات."
+     },
+     "sources": [
+      {
+       "pmid": "40707570",
+       "doi": "10.1038/s41598-025-12597-0",
+       "title": "Comparative efficacy of topical interventions for facial photoaging: a network meta-analysis.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40707570/"
+      }
+     ]
+    },
+    {
+     "id": "glycolic-acid-2",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A PRISMA-based systematic review of randomised controlled trials of topical melasma treatments included glycolic acid among the many agents studied; strong clinical recommendations were given to cysteamine, triple combination therapy and tranexamic acid, not to glycolic acid, and the authors called for more research on natural compounds and novel treatments. The abstract does not describe the glycolic acid trials in detail, so no conclusion about glycolic acid alone can be drawn from it.",
+      "uz": "Melazma uchun surtiladigan vositalar bo‘yicha randomizatsiyalangan nazoratli tadqiqotlarning PRISMA asosidagi tizimli sharhida glikol kislota o‘rganilgan ko‘plab vositalar qatoriga kiritilgan; kuchli klinik tavsiyalar glikol kislotaga emas, sisteamin, uch komponentli kombinatsiyalangan terapiya va traneksam kislotaga berilgan, mualliflar tabiiy birikmalar va yangi vositalar bo‘yicha qo‘shimcha tadqiqotlar zarurligini aytgan. Annotatsiyada glikol kislota tadqiqotlari batafsil tasvirlanmagan, shuning uchun undan faqat glikol kislota haqida xulosa chiqarib bo‘lmaydi.",
+      "ru": "В систематическом обзоре рандомизированных контролируемых исследований местных средств при меласме по методике PRISMA гликолевая кислота была включена в число многих изученных средств; сильные клинические рекомендации получили цистеамин, тройная комбинированная терапия и транексамовая кислота, но не гликолевая кислота, а авторы призвали к дополнительным исследованиям природных соединений и новых средств. В аннотации исследования с гликолевой кислотой подробно не описаны, поэтому вывод только о гликолевой кислоте сделать нельзя.",
+      "ar": "في مراجعة منهجية وفق منهجية PRISMA للتجارب العشوائية المضبوطة حول العلاجات الموضعية للكلف، أُدرج حمض الغليكوليك ضمن عدد كبير من المواد المدروسة؛ ومُنحت التوصيات السريرية القوية للسيستامين والعلاج المركّب الثلاثي وحمض الترانيكساميك، وليس لحمض الغليكوليك، ودعا المؤلفون إلى مزيد من البحث حول المركّبات الطبيعية والعلاجات الحديثة. لم تصف الخلاصة تجارب حمض الغليكوليك بالتفصيل، لذلك لا يمكن استخلاص نتيجة عن حمض الغليكوليك وحده."
+     },
+     "sources": [
+      {
+       "pmid": "31741361",
+       "doi": null,
+       "title": "Topical Treatments for Melasma: A Systematic Review of Randomized Controlled Trials.",
+       "year": 2019,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/31741361/"
+      }
+     ]
+    },
+    {
+     "id": "glycolic-acid-3",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a randomised, double-blind study of 29 Caucasian adults, daily application of 10% glycolic acid (pH 3.5) for four weeks increased the skin's sensitivity to ultraviolet light compared with placebo (more sunburn cells and lower minimal erythema dose); the effect was no longer evident one week after stopping, and the increase in DNA damage (cyclobutane pyrimidine dimers) was not statistically significant. A separate vehicle-controlled study of 14 adults reported increased erythema, DNA damage and sunburn cell formation after 3.5 weeks of 10% glycolic acid. Both studies were small and short-term, and the abstracts do not report other concentrations or sunscreen use.",
+      "uz": "29 nafar oq tanli kattalar ishtirok etgan randomizatsiyalangan ikki tomonlama ko‘r tadqiqotda 10% glikol kislotani (pH 3,5) to‘rt hafta davomida har kuni surtish plasebo bilan solishtirganda terining ultrabinafsha nurga sezgirligini oshirgan (quyosh kuyishi hujayralari ko‘proq, minimal eritema dozasi pastroq); bu ta‘sir to‘xtatilgandan bir hafta keyin sezilmagan, DNK shikastlanishining (siklobutan pirimidin dimerlari) ortishi esa statistik jihatdan ahamiyatli bo‘lmagan. 14 nafar kattalar ishtirok etgan alohida vehikul nazoratli tadqiqotda 3,5 hafta davomida 10% glikol kislota surtilgandan keyin eritema, DNK shikastlanishi va quyosh kuyishi hujayralari hosil bo‘lishining ortishi qayd etilgan. Ikkala tadqiqot ham kichik va qisqa muddatli bo‘lgan, annotatsiyalarda boshqa konsentratsiyalar yoki quyoshdan himoya vositasi qo‘llanishi haqida ma‘lumot yo‘q.",
+      "ru": "В рандомизированном двойном слепом исследовании с участием 29 взрослых европеоидной расы ежедневное нанесение 10% гликолевой кислоты (pH 3,5) в течение четырёх недель повышало чувствительность кожи к ультрафиолету по сравнению с плацебо (больше «клеток солнечного ожога», ниже минимальная эритемная доза); через неделю после прекращения эффект уже не выявлялся, а увеличение повреждения ДНК (циклобутановые пиримидиновые димеры) не было статистически значимым. В отдельном исследовании с контролем носителем (14 взрослых) сообщалось об усилении эритемы, повреждения ДНК и образования «клеток солнечного ожога» после 3,5 недель применения 10% гликолевой кислоты. Оба исследования были небольшими и краткосрочными; в аннотациях нет данных о других концентрациях или использовании солнцезащитных средств.",
+      "ar": "في دراسة عشوائية مزدوجة التعمية شملت 29 بالغًا من ذوي البشرة البيضاء، أدى تطبيق 10% من حمض الغليكوليك (درجة الحموضة 3.5) يوميًا لمدة أربعة أسابيع إلى زيادة حساسية الجلد للأشعة فوق البنفسجية مقارنة بالدواء الوهمي (عدد أكبر من خلايا حروق الشمس وانخفاض في الجرعة الدنيا المسببة للحمامى)؛ ولم يعد هذا التأثير ظاهرًا بعد أسبوع من التوقف، كما أن الزيادة في تلف الحمض النووي (ثنائيات البيريميدين الحلقية) لم تكن ذات دلالة إحصائية. وأفادت دراسة منفصلة مضبوطة بالسواغ شملت 14 بالغًا بزيادة الحمامى وتلف الحمض النووي وتكوّن خلايا حروق الشمس بعد 3.5 أسبوع من استخدام 10% من حمض الغليكوليك. كانت الدراستان صغيرتين وقصيرتي المدة، ولا تذكر الخلاصتان تراكيز أخرى أو استخدام واقي الشمس."
+     },
+     "sources": [
+      {
+       "pmid": "12713551",
+       "doi": "10.1034/j.1600-0781.2003.00013.x",
+       "title": "Topical glycolic acid enhances photodamage by ultraviolet light.",
+       "year": 2003,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/12713551/"
+      },
+      {
+       "pmid": "19411163",
+       "doi": "10.1016/j.jdermsci.2009.03.011",
+       "title": "The effects of topically applied glycolic acid and salicylic acid on ultraviolet radiation-induced erythema, DNA damage and sunburn cell formation in human skin.",
+       "year": 2009,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/19411163/"
+      }
+     ]
+    },
+    {
+     "id": "glycolic-acid-4",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a double-blind, randomised, placebo-controlled study of 40 women with photodamaged skin, a cream combining retinol, lactose and glycolic acid, applied twice daily to one side of the face for 12 weeks, was associated with improvement in clinical photoageing signs, skin microrelief and moisturisation compared with baseline and the placebo-treated side; effects cannot be attributed to glycolic acid alone, and the abstract does not give concentrations.",
+      "uz": "Fotoshikastlangan terisi bor 40 nafar ayol ishtirok etgan ikki tomonlama ko‘r, randomizatsiyalangan, plasebo nazoratli tadqiqotda retinol, laktoza va glikol kislotani birlashtirgan krem yuzning bir tomoniga 12 hafta davomida kuniga ikki marta surtilganda, boshlang‘ich holat va plasebo surtilgan tomon bilan solishtirganda klinik fotoaging belgilari, teri mikrorelyefi va namlanishning yaxshilanishi bilan bog‘langan; natijalarni faqat glikol kislotaga bog‘lab bo‘lmaydi, annotatsiyada konsentratsiyalar keltirilmagan.",
+      "ru": "В двойном слепом рандомизированном плацебо-контролируемом исследовании с участием 40 женщин с фотоповреждённой кожей крем, сочетающий ретинол, лактозу и гликолевую кислоту, наносимый два раза в день на одну половину лица в течение 12 недель, был связан с улучшением клинических признаков фотостарения, микрорельефа и увлажнённости кожи по сравнению с исходным уровнем и стороной с плацебо; эффекты нельзя приписать только гликолевой кислоте, концентрации в аннотации не указаны.",
+      "ar": "في دراسة عشوائية مزدوجة التعمية مضبوطة بالدواء الوهمي شملت 40 امرأة ذوات بشرة متضررة ضوئيًا، ارتبط استخدام كريم يجمع الريتينول واللاكتوز وحمض الغليكوليك، يُطبَّق مرتين يوميًا على جانب واحد من الوجه لمدة 12 أسبوعًا، بتحسن في العلامات السريرية للشيخوخة الضوئية والتضاريس الدقيقة للجلد والترطيب مقارنة بالحالة الأولية والجانب المعالج بالدواء الوهمي؛ ولا يمكن عزو التأثيرات إلى حمض الغليكوليك وحده، ولا تذكر الخلاصة التراكيز."
+     },
+     "sources": [
+      {
+       "pmid": "18452434",
+       "doi": "10.1111/j.1468-2494.2008.00441.x",
+       "title": "Combined retinol-lactose-glycolic acid effects on photoaged skin: a double-blind placebo-controlled study.",
+       "year": 2008,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/18452434/"
+      }
+     ]
+    },
+    {
+     "id": "glycolic-acid-5",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A single-author review of alpha-hydroxy acids, including glycolic acid, reported their use in cosmetic dermatology to improve skin texture and luminosity and in conditions such as photoaging and hyperpigmentation, but stated that the optimal concentrations for efficacy with minimal side effects are not yet precisely defined; it notes that international guidelines recommend specific concentrations and pH levels to minimise skin irritation. The review covers chemical peels alongside cosmetic products and is not a systematic evidence synthesis.",
+      "uz": "Alfa-gidroksi kislotalar, jumladan glikol kislota, haqidagi bir muallifli sharhda ular kosmetik dermatologiyada teri tuzilishi va yorqinligini yaxshilash uchun hamda fotoaging va giperpigmentatsiya kabi holatlarda qo‘llanishi qayd etilgan, biroq nojo‘ya ta‘sirlar minimal bo‘lgan holda samaradorlik uchun optimal konsentratsiyalar hali aniq belgilanmagani aytilgan; sharhda xalqaro ko‘rsatmalar teri tirnash xususiyatini kamaytirish uchun muayyan konsentratsiya va pH darajalarini tavsiya qilishi ta‘kidlangan. Sharh kimyoviy pilinglarni kosmetik mahsulotlar bilan birga ko‘rib chiqadi va tizimli dalillar sintezi emas.",
+      "ru": "В обзоре одного автора, посвящённом альфа-гидроксикислотам, включая гликолевую кислоту, сообщалось об их использовании в косметической дерматологии для улучшения текстуры и сияния кожи, а также при таких состояниях, как фотостарение и гиперпигментация, но указывалось, что оптимальные концентрации для эффективности при минимуме побочных эффектов пока точно не определены; отмечается, что международные рекомендации задают определённые концентрации и уровни pH для снижения раздражения кожи. Обзор рассматривает химические пилинги наряду с косметическими средствами и не является систематическим синтезом данных.",
+      "ar": "أفادت مراجعة لمؤلف واحد حول ألفا هيدروكسي أحماض، ومنها حمض الغليكوليك، باستخدامها في الأمراض الجلدية التجميلية لتحسين ملمس البشرة ونضارتها وفي حالات مثل الشيخوخة الضوئية وفرط التصبغ، لكنها ذكرت أن التراكيز المثلى للفعالية مع أقل قدر من الآثار الجانبية لم تُحدَّد بدقة بعد؛ وتشير المراجعة إلى أن الإرشادات الدولية توصي بتراكيز ودرجات حموضة محددة لتقليل تهيّج الجلد. تتناول المراجعة التقشير الكيميائي إلى جانب المنتجات التجميلية وليست تجميعًا منهجيًا للأدلة."
+     },
+     "sources": [
+      {
+       "pmid": "39050562",
+       "doi": "10.2147/CCID.S453243",
+       "title": "Evaluating the Efficacy and Safety of Alpha-Hydroxy Acids in Dermatological Practice: A Comprehensive Clinical and Legal Review.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39050562/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Panthenol",
+   "slug": "panthenol",
+   "status": "draft",
+   "aliases": [],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Panthenol (the alcohol analogue of pantothenic acid, vitamin B5; studies often use the name dexpanthenol) is a common ingredient in moisturisers and hair-care products. Evidence on skin hydration and barrier outcomes includes older studies of dexpanthenol-containing creams, and cases of contact allergy to panthenol have been reported. This card summarises published evidence only and is not medical advice.",
+    "uz": "Panthenol (pantotenik kislotaning, ya‘ni B5 vitaminining spirtli analogi; tadqiqotlarda ko‘pincha dexpanthenol nomi ishlatiladi) namlovchi vositalar va soch parvarishi mahsulotlarida keng uchraydigan ingredient. Teri namligi va to‘siq funksiyasiga oid dalillar orasida dexpanthenol tarkibli kremlar bo‘yicha eski tadqiqotlar bor, shuningdek panthenol‘ga kontakt allergiya holatlari qayd etilgan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Panthenol (спиртовой аналог пантотеновой кислоты, витамина B5; в исследованиях часто используется название dexpanthenol) является распространённым ингредиентом увлажняющих средств и средств по уходу за волосами. Среди данных об увлажнении кожи и барьерной функции есть более старые исследования кремов с dexpanthenol, а также описаны случаи контактной аллергии на panthenol. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "البانثينول (panthenol) هو النظير الكحولي لحمض البانتوثينيك (فيتامين ب5)، وغالبًا ما تستخدم الدراسات اسم dexpanthenol، وهو مكوّن شائع في المرطبات ومنتجات العناية بالشعر. تتضمن الأدلة المتعلقة بترطيب الجلد ووظيفة الحاجز الجلدي دراسات أقدم أجريت على كريمات تحتوي على dexpanthenol، كما سُجّلت حالات حساسية تماسية تجاه panthenol. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "panthenol-1",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "The Expert Panel for Cosmetic Ingredient Safety assessed panthenol, pantothenic acid and five derivatives as used in cosmetics and concluded that these ingredients are safe in cosmetics in the present practices of use and concentration described in its assessment; panthenol is reported to function as a skin-conditioning humectant and as a hair-conditioning agent. This is an expert-panel conclusion limited to the use conditions described in the report, not an EU regulatory opinion.",
+      "uz": "Kosmetik ingredientlar xavfsizligi bo‘yicha ekspertlar kengashi (Expert Panel for Cosmetic Ingredient Safety) kosmetikada qo‘llaniladigan panthenol, pantotenik kislota va beshta hosilani baholab, bu ingredientlar o‘z baholashida tavsiflangan hozirgi qo‘llash amaliyoti va konsentratsiyalarida kosmetikada xavfsiz degan xulosaga kelgan; panthenol terini yumshatuvchi namlovchi (humektant) va sochni yumshatuvchi vosita sifatida ishlashi qayd etilgan. Bu ekspertlar kengashining xulosasi bo‘lib, hisobotda tavsiflangan qo‘llash sharoitlari bilan cheklangan va EI regulyator xulosasi emas.",
+      "ru": "Экспертный совет по безопасности косметических ингредиентов (Expert Panel for Cosmetic Ingredient Safety) оценил panthenol, пантотеновую кислоту и пять производных, применяемых в косметике, и пришёл к выводу, что эти ингредиенты безопасны в косметике при существующей практике применения и концентрациях, описанных в оценке; сообщается, что panthenol выполняет функцию увлажнителя (хумектанта), смягчающего кожу, и кондиционирующего средства для волос. Это заключение экспертного совета, ограниченное условиями применения, описанными в отчёте, а не регуляторное заключение ЕС.",
+      "ar": "قيّمت لجنة الخبراء المعنية بسلامة المكوّنات التجميلية (Expert Panel for Cosmetic Ingredient Safety) مادة panthenol وحمض البانتوثينيك وخمسة مشتقات مستخدمة في مستحضرات التجميل، وخلصت إلى أن هذه المكوّنات آمنة في مستحضرات التجميل ضمن ممارسات الاستخدام الحالية والتراكيز الموصوفة في تقييمها؛ ويُذكر أن panthenol يعمل مرطِّبًا (humectant) مكيِّفًا للجلد ومكيِّفًا للشعر. وهذا استنتاج لجنة خبراء مقيَّد بظروف الاستخدام الموصوفة في التقرير، وليس رأيًا تنظيميًا للاتحاد الأوروبي."
+     },
+     "sources": [
+      {
+       "pmid": "36177798",
+       "doi": "10.1177/10915818221124809",
+       "title": "Safety Assessment of Panthenol, Pantothenic Acid, and Derivatives as Used in Cosmetics.",
+       "year": 2022,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/36177798/"
+      }
+     ]
+    },
+    {
+     "id": "panthenol-2",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A systematic review of 13 studies involving 2,935 children on preventing and treating diaper dermatitis reported that topical emollients, particularly those with zinc oxide or dexpanthenol, were effective with minimal side effects; the review covered several interventions and an infant diaper-area condition, so the finding cannot be attributed to dexpanthenol alone or applied to general adult cosmetic use.",
+      "uz": "Taglik dermatitining oldini olish va davolash bo‘yicha 2 935 nafar bolani qamragan 13 ta tadqiqotning tizimli sharhida surtiladigan yumshatuvchi vositalar, ayniqsa sink oksidi yoki dexpanthenol tarkiblilari, minimal yon ta‘sirlar bilan samarali bo‘lgani qayd etilgan; sharh bir nechta aralashuvni va chaqaloqlarning taglik sohasidagi holatini qamragan, shuning uchun bu natijani faqat dexpanthenol‘ga bog‘lab ham, kattalarning odatiy kosmetik qo‘llanishiga ko‘chirib ham bo‘lmaydi.",
+      "ru": "В систематическом обзоре 13 исследований с участием 2 935 детей, посвящённом профилактике и лечению пелёночного дерматита, сообщалось, что местные смягчающие средства, особенно содержащие оксид цинка или dexpanthenol, были эффективны при минимальных побочных эффектах; обзор охватывал несколько вмешательств и состояние кожи в области подгузника у младенцев, поэтому вывод нельзя приписать только dexpanthenol или распространить на обычное косметическое применение у взрослых.",
+      "ar": "أفادت مراجعة منهجية شملت 13 دراسة و2935 طفلًا حول الوقاية من التهاب الحفاض وعلاجه بأن المطرّيات الموضعية، ولا سيما التي تحتوي على أكسيد الزنك أو dexpanthenol، كانت فعّالة بآثار جانبية قليلة؛ وقد شملت المراجعة عدة تدخلات وحالة جلدية في منطقة الحفاض لدى الرضع، لذلك لا يمكن عزو النتيجة إلى dexpanthenol وحده ولا تعميمها على الاستخدام التجميلي المعتاد لدى البالغين."
+     },
+     "sources": [
+      {
+       "pmid": "41014074",
+       "doi": null,
+       "title": "Preventive and curative approaches to diaper dermatitis in children: a systematic review.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/41014074/"
+      }
+     ]
+    },
+    {
+     "id": "panthenol-3",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a randomised, double-blind, placebo-controlled human study, seven days of topical dexpanthenol formulated in two different lipophilic vehicles improved stratum corneum hydration and reduced transepidermal water loss compared with the vehicle control; the abstract does not report the number of participants, the results apply to those vehicles, and the study dates from 2000.",
+      "uz": "Randomizatsiyalangan, ikki tomonlama ko‘r, plasebo nazoratli odamlar ustidagi tadqiqotda ikki xil lipofil tashuvchida tayyorlangan surtiladigan dexpanthenol‘ni yetti kun qo‘llash tashuvchi nazoratiga nisbatan shox qavat namligini yaxshilagan va transepidermal suv yo‘qotilishini kamaytirgan; annotatsiyada ishtirokchilar soni keltirilmagan, natijalar aynan shu tashuvchilarga tegishli va tadqiqot 2000-yilga oid.",
+      "ru": "В рандомизированном двойном слепом плацебо-контролируемом исследовании на людях семидневное местное применение dexpanthenol в двух разных липофильных основах улучшало увлажнение рогового слоя и снижало трансэпидермальную потерю воды по сравнению с контролем (основой без активного вещества); в аннотации не указано число участников, результаты относятся именно к этим основам, а исследование относится к 2000 году.",
+      "ar": "في دراسة عشوائية مزدوجة التعمية ومضبوطة بالدواء الوهمي أجريت على البشر، أدّى استخدام dexpanthenol موضعيًا لمدة سبعة أيام في مستحلبين دهنيين مختلفين إلى تحسّن ترطيب الطبقة المتقرنة وانخفاض فقدان الماء عبر البشرة مقارنةً بالشاهد (المستحلب بلا مادة فعّالة)؛ ولا يذكر الملخّص عدد المشاركين، وتنطبق النتائج على هذين المستحلبين فقط، والدراسة تعود إلى عام 2000."
+     },
+     "sources": [
+      {
+       "pmid": "10965426",
+       "doi": "10.1055/s-0031-1300268",
+       "title": "Effect of topically applied dexpanthenol on epidermal barrier function and stratum corneum hydration. Results of a human in vivo study.",
+       "year": 2000,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/10965426/"
+      }
+     ]
+    },
+    {
+     "id": "panthenol-4",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a randomised study using sodium lauryl sulphate-induced skin irritation, a dexpanthenol-containing cream was associated with faster skin barrier repair, higher stratum corneum hydration, lower skin roughness and less redness than the vehicle or untreated skin; the irritation was experimentally induced on test areas, and the abstract does not report the number of participants.",
+      "uz": "Natriy lauril sulfat bilan chaqirilgan teri ta‘sirlanishi modelidan foydalangan randomizatsiyalangan tadqiqotda dexpanthenol tarkibli krem tashuvchiga yoki davolanmagan teriga nisbatan teri to‘siqining tezroq tiklanishi, shox qavat namligining yuqoriroq bo‘lishi, teri g‘adir-budurligining kamroq bo‘lishi va qizarishning kamroq bo‘lishi bilan bog‘langan; ta‘sirlanish sinov sohalarida sun‘iy chaqirilgan, annotatsiyada ishtirokchilar soni keltirilmagan.",
+      "ru": "В рандомизированном исследовании с раздражением кожи, вызванным лаурилсульфатом натрия, крем с dexpanthenol был связан с более быстрым восстановлением кожного барьера, более высоким увлажнением рогового слоя, меньшей шероховатостью кожи и меньшим покраснением по сравнению с основой без активного вещества или нелеченой кожей; раздражение вызывалось экспериментально на тестовых участках, число участников в аннотации не указано.",
+      "ar": "في دراسة عشوائية استخدمت تهيّجًا جلديًا مُحدَثًا بكبريتات لوريل الصوديوم، ارتبط كريم يحتوي على dexpanthenol بإصلاح أسرع للحاجز الجلدي وترطيب أعلى للطبقة المتقرنة وخشونة أقل للجلد واحمرار أقل مقارنةً بالمستحلب بلا مادة فعّالة أو بالجلد غير المعالَج؛ وقد أُحدث التهيّج تجريبيًا في مناطق الاختبار، ولا يذكر الملخّص عدد المشاركين."
+     },
+     "sources": [
+      {
+       "pmid": "19753737",
+       "doi": "10.1080/09546630212345674",
+       "title": "Dexpanthenol enhances skin barrier repair and reduces inflammation after sodium lauryl sulphate-induced irritation.",
+       "year": 2002,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/19753737/"
+      }
+     ]
+    },
+    {
+     "id": "panthenol-5",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A review of panthenol allergic contact dermatitis noted that contact allergy to panthenol is rather uncommon but that positive patch-test rates were reported to have risen from 0.2-0.7% to 1.2% in recent years, and that panthenol is present in many personal care products marketed as hypoallergenic. The review does not estimate how often reactions occur in the general population.",
+      "uz": "Panthenol‘dan kelib chiqadigan allergik kontakt dermatit haqidagi sharhda panthenol‘ga kontakt allergiya ancha kam uchrashi, ammo so‘nggi yillarda musbat patch-test (teri yopishtirma sinovi) ko‘rsatkichlari 0,2-0,7% dan 1,2% gacha oshgani qayd etilgan, shuningdek panthenol gipoallergen deb sotiladigan ko‘plab shaxsiy parvarish mahsulotlarida mavjudligi aytilgan. Sharh umumiy aholida reaksiyalar qanchalik tez-tez uchrashini baholamaydi.",
+      "ru": "В обзоре, посвящённом аллергическому контактному дерматиту на panthenol, отмечено, что контактная аллергия на panthenol встречается довольно редко, но частота положительных патч-тестов, по сообщениям, выросла с 0,2-0,7% до 1,2% в последние годы, а panthenol присутствует во многих средствах личной гигиены и ухода, продаваемых как гипоаллергенные. Обзор не оценивает, как часто такие реакции возникают среди населения в целом.",
+      "ar": "أشارت مراجعة حول التهاب الجلد التماسي التحسسي الناتج عن panthenol إلى أن الحساسية التماسية تجاه panthenol غير شائعة نسبيًا، لكن معدلات اختبار اللصاقة الإيجابية ارتفعت بحسب التقارير من 0.2-0.7% إلى 1.2% في السنوات الأخيرة، وأن panthenol موجود في كثير من منتجات العناية الشخصية التي تُسوَّق على أنها قليلة التحسس. ولا تقدّر المراجعة مدى تكرار هذه التفاعلات لدى عامة السكان."
+     },
+     "sources": [
+      {
+       "pmid": "39714944",
+       "doi": "10.1089/derm.2024.0489",
+       "title": "Panthenol Allergic Contact Dermatitis: Sources of Exposure, Reported Cases, and a Call for More Frequent Testing.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39714944/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Urea",
+   "slug": "urea",
+   "status": "draft",
+   "aliases": [],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Urea (carbamide) is a component of the skin's natural moisturising factor and a common humectant in cosmetic moisturisers, studied in topical products for dry skin (xerosis) and skin barrier outcomes. Lower concentrations are described mainly as moisturising and higher concentrations as keratolytic, with mild side effects reported more often at higher concentrations. Much of the clinical evidence comes from small studies, formulas that combine urea with other ingredients, or studies with manufacturer-affiliated authors, which limits conclusions about urea alone. This card summarises published evidence only and is not medical advice.",
+    "uz": "Urea (karbamid) terining tabiiy namlantiruvchi omilining tarkibiy qismi va kosmetik namlantiruvchilarda keng qo‘llaniladigan gumektant bo‘lib, quruq teri (kseroz) va teri to‘siq funksiyasiga oid natijalar bo‘yicha surtiladigan vositalarda o‘rganilgan. Past kontsentratsiyalar asosan namlantiruvchi, yuqori kontsentratsiyalar esa keratolitik deb ta‘riflanadi, yengil yon ta‘sirlar yuqori kontsentratsiyalarda ko‘proq qayd etilgan. Klinik dalillarning katta qismi kichik tadqiqotlar, urea boshqa ingredientlar bilan birlashtirilgan formulalar yoki ishlab chiqaruvchi bilan bog‘liq mualliflar tadqiqotlaridan olingan, shu sababli faqat urea haqida xulosa qilish cheklangan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Urea (карбамид, мочевина) является компонентом естественного увлажняющего фактора кожи и распространённым humectant в косметических увлажняющих средствах; изучалась в средствах для местного применения в отношении сухости кожи (ксероза) и барьерной функции кожи. Низкие концентрации описываются преимущественно как увлажняющие, высокие — как кератолитические, а лёгкие побочные эффекты чаще отмечались при высоких концентрациях. Значительная часть клинических данных получена в небольших исследованиях, на составах, где urea сочетается с другими ингредиентами, или в исследованиях с авторами, связанными с производителем, поэтому выводы только об urea ограничены. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "اليوريا (urea) أو الكارباميد مكوّن من عامل الترطيب الطبيعي للبشرة، وهي مرطّب (humectant) شائع في المرطبات التجميلية، وقد جرت دراستها في المنتجات الموضعية فيما يخص جفاف الجلد (الجفاف المفرط، xerosis) ووظيفة الحاجز الجلدي. توصف التراكيز المنخفضة بأنها مرطّبة في الأساس، والتراكيز المرتفعة بأنها مقشّرة للقرنية (keratolytic)، وقد أُبلغ عن آثار جانبية خفيفة بصورة أكثر عند التراكيز المرتفعة. يأتي جزء كبير من الأدلة السريرية من دراسات صغيرة، أو من تركيبات تجمع urea مع مكوّنات أخرى، أو من دراسات لمؤلفين مرتبطين بجهة مصنّعة، مما يحدّ من إمكانية استخلاص نتائج عن urea وحدها. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "urea-1",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A systematic review and meta-analysis of randomised controlled trials (eleven articles reporting twelve trials) in adults with diabetes and foot xerosis (without ulcers) found that creams containing urea reduced xerosis severity more than standard base creams after four weeks (standardised mean difference -0.36, 95% CI -0.55 to -0.17; high-certainty evidence according to the authors), with adverse events described as rare and mild; the population was limited to adults with diabetes and dry feet, and the authors call for longer-term trials.",
+      "uz": "Diabet bilan kasallangan kattalarda (yara bo‘lmagan) oyoq kserozi bo‘yicha randomizatsiyalangan nazoratli tadqiqotlarning tizimli sharhi va meta-tahlilida (o‘n bir maqola, o‘n ikkita tadqiqot) urea tarkibli kremlar to‘rt haftadan keyin kseroz og‘irligini oddiy asos kremlarga qaraganda ko‘proq kamaytirgani aniqlangan (standartlashtirilgan o‘rtacha farq -0,36, 95% ishonch oralig‘i -0,55 dan -0,17 gacha; mualliflarga ko‘ra yuqori ishonchlilikdagi dalil), nojo‘ya ta‘sirlar kam uchraydigan va yengil deb ta‘riflangan; ishtirokchilar diabet bilan kasallangan va oyoqlari quruq kattalar bilan cheklangan, mualliflar uzoqroq muddatli tadqiqotlar zarurligini ta‘kidlaydi.",
+      "ru": "В систематическом обзоре и метаанализе рандомизированных контролируемых исследований (одиннадцать статей, двенадцать исследований) у взрослых с диабетом и ксерозом стоп (без язв) кремы с urea через четыре недели уменьшали выраженность ксероза сильнее, чем обычные базовые кремы (стандартизованная разность средних -0,36, 95% ДИ от -0,55 до -0,17; по оценке авторов, доказательства высокой достоверности), при этом нежелательные явления описаны как редкие и лёгкие; выборка ограничена взрослыми с диабетом и сухой кожей стоп, авторы указывают на необходимость более длительных исследований.",
+      "ar": "في مراجعة منهجية وتحليل تلوي لتجارب عشوائية مضبوطة (إحدى عشرة مقالة تتناول اثنتي عشرة تجربة) شملت بالغين مصابين بالسكري ولديهم جفاف مفرط في القدمين (دون قرحات)، وُجد أن الكريمات المحتوية على urea خفّضت شدة الجفاف أكثر من الكريمات الأساسية العادية بعد أربعة أسابيع (فرق المتوسطات المعياري -0.36، فاصل الثقة 95% من -0.55 إلى -0.17؛ أدلة عالية اليقين بحسب المؤلفين)، ووُصفت الأحداث الضائرة بأنها نادرة وخفيفة؛ اقتصرت العيّنة على بالغين مصابين بالسكري وجفاف في القدمين، ويدعو المؤلفون إلى تجارب أطول أمدًا."
+     },
+     "sources": [
+      {
+       "pmid": "42755659",
+       "doi": "10.3389/fcdhc.2026.1922860",
+       "title": "Moisturizer formulations for diabetic foot xerosis: a systematic review and meta-analysis of randomized controlled trials.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42755659/"
+      }
+     ]
+    },
+    {
+     "id": "urea-2",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a double-blind, vehicle-controlled study of 44 women with very dry body skin, a moisturiser containing 10% urea plus additional natural moisturising factor components and skin barrier lipids was associated with higher stratum corneum hydration and better barrier function (lower transepidermal water loss) after two weeks of twice-daily use; the product was a multi-ingredient formula, so effects cannot be attributed to urea alone, the sample was small, and the authors were affiliated with a cosmetics company.",
+      "uz": "Tanasi juda quruq 44 nafar ayol ishtirok etgan ikki tomonlama ko‘r, vehikul nazoratli tadqiqotda 10% urea hamda qo‘shimcha tabiiy namlantiruvchi omil komponentlari va teri to‘siq lipidlari tarkibli namlantiruvchi kuniga ikki marta ikki hafta qo‘llanganda shox qavatning yuqoriroq namlanishi va yaxshiroq to‘siq funksiyasi (transepidermal suv yo‘qotilishining pastligi) bilan bog‘langan; mahsulot ko‘p ingredientli formula edi, shu sababli natijalarni faqat ureaga bog‘lab bo‘lmaydi, tanlama kichik va mualliflar kosmetika kompaniyasi bilan bog‘liq edi.",
+      "ru": "В двойном слепом исследовании с контролем носителем (vehicle) с участием 44 женщин с очень сухой кожей тела увлажняющее средство с 10% urea, дополнительными компонентами естественного увлажняющего фактора и липидами кожного барьера было связано с более высокой гидратацией рогового слоя и лучшей барьерной функцией (более низкая трансэпидермальная потеря воды) после двух недель применения два раза в день; продукт представлял собой многокомпонентный состав, поэтому эффекты нельзя приписать только urea, выборка была небольшой, а авторы были связаны с косметической компанией.",
+      "ar": "في دراسة مزدوجة التعمية ومضبوطة بالسواغ (vehicle) شملت 44 امرأة يعانين من جفاف شديد في جلد الجسم، ارتبط مرطّب يحتوي على 10% urea مع مكوّنات إضافية من عامل الترطيب الطبيعي ودهون الحاجز الجلدي بارتفاع ترطيب الطبقة المتقرنة وتحسّن وظيفة الحاجز (انخفاض فقدان الماء عبر البشرة) بعد أسبوعين من الاستخدام مرتين يوميًا؛ كان المنتج تركيبة متعددة المكوّنات، لذا لا يمكن عزو النتائج إلى urea وحدها، وكانت العيّنة صغيرة، وكان المؤلفون مرتبطين بشركة مستحضرات تجميل."
+     },
+     "sources": [
+      {
+       "pmid": "34619676",
+       "doi": "10.1159/000520009",
+       "title": "A Biomimetic Combination of Actives Enhances Skin Hydration and Barrier Function via Modulation of Gene Expression: Results of Two Double-Blind, Vehicle-Controlled Clinical Studies.",
+       "year": 2021,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/34619676/"
+      }
+     ]
+    },
+    {
+     "id": "urea-3",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In an open-label, single-group observational study of 59 people aged 60 to 75 with moderate to severe xerosis of the lower legs, twice-daily use of a 10% urea emollient for four weeks was followed by improvements in physician-assessed xerosis scores and a decrease in transepidermal water loss; with no control group, the changes cannot be attributed to urea itself, and some authors were affiliated with a skincare company.",
+      "uz": "60 yoshdan 75 yoshgacha bo‘lgan, boldirlarida o‘rtacha va og‘ir kseroz bo‘lgan 59 kishi ishtirok etgan ochiq, bitta guruhli kuzatuv tadqiqotida 10% urea tarkibli yumshatuvchi vosita to‘rt hafta davomida kuniga ikki marta qo‘llanganidan keyin shifokorlar baholagan kseroz ballari yaxshilangan va transepidermal suv yo‘qotilishi kamaygan; nazorat guruhi bo‘lmagani uchun o‘zgarishlarni ureaning o‘ziga bog‘lab bo‘lmaydi, ayrim mualliflar teri parvarishi kompaniyasi bilan bog‘liq edi.",
+      "ru": "В открытом одногрупповом наблюдательном исследовании с участием 59 человек в возрасте от 60 до 75 лет с ксерозом голеней средней и тяжёлой степени применение смягчающего средства с 10% urea два раза в день в течение четырёх недель сопровождалось улучшением оценок ксероза, данных врачами, и снижением трансэпидермальной потери воды; при отсутствии контрольной группы изменения нельзя приписать самой urea, а часть авторов была связана с компанией по уходу за кожей.",
+      "ar": "في دراسة رصدية مفتوحة المعالجة وأحادية المجموعة شملت 59 شخصًا تتراوح أعمارهم بين 60 و75 عامًا ولديهم جفاف مفرط متوسط إلى شديد في أسفل الساقين، تبع استخدام مطرٍّ يحتوي على 10% urea مرتين يوميًا لمدة أربعة أسابيع تحسّن في درجات الجفاف التي قيّمها الأطباء وانخفاض في فقدان الماء عبر البشرة؛ ونظرًا لعدم وجود مجموعة ضابطة لا يمكن عزو التغيرات إلى urea نفسها، وكان بعض المؤلفين مرتبطين بشركة للعناية بالبشرة."
+     },
+     "sources": [
+      {
+       "pmid": "41231732",
+       "doi": "10.1159/000549265",
+       "title": "Effects and Patient Benefits of a 10% Urea-Based Moisturizing Lotion on Xerosis in Aging Skin.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/41231732/"
+      }
+     ]
+    },
+    {
+     "id": "urea-4",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative review describes urea as a component of the skin's natural moisturising factor that is involved in stratum corneum hydration and barrier function, and reports that urea-based products are well tolerated, with side effects that are mild and more frequent at high concentrations; the review also covers dermatological uses beyond cosmetic moisturising, and some of its authors were affiliated with a skincare company.",
+      "uz": "Narrativ sharhda urea terining tabiiy namlantiruvchi omilining tarkibiy qismi sifatida ta‘riflanadi, u shox qavatning namlanishi va to‘siq funksiyasida ishtirok etadi; sharhda urea tarkibli vositalar yaxshi o‘zlashtirilishi, yon ta‘sirlari yengil va yuqori kontsentratsiyalarda ko‘proq uchrashi qayd etilgan; sharh kosmetik namlantirishdan tashqari dermatologik qo‘llanishlarni ham qamrab oladi, ayrim mualliflar esa teri parvarishi kompaniyasi bilan bog‘liq edi.",
+      "ru": "В нарративном обзоре urea описывается как компонент естественного увлажняющего фактора кожи, участвующий в увлажнении рогового слоя и барьерной функции; сообщается, что средства с urea хорошо переносятся, а побочные эффекты лёгкие и чаще возникают при высоких концентрациях; обзор охватывает и дерматологические применения помимо косметического увлажнения, а часть его авторов была связана с компанией по уходу за кожей.",
+      "ar": "تصف مراجعة سردية urea بأنها مكوّن من عامل الترطيب الطبيعي للبشرة يشارك في ترطيب الطبقة المتقرنة ووظيفة الحاجز، وتذكر أن المنتجات المحتوية على urea جيدة التحمّل، وأن آثارها الجانبية خفيفة وأكثر شيوعًا عند التراكيز المرتفعة؛ وتشمل المراجعة أيضًا استخدامات جلدية تتجاوز الترطيب التجميلي، وكان بعض مؤلفيها مرتبطين بشركة للعناية بالبشرة."
+     },
+     "sources": [
+      {
+       "pmid": "34596890",
+       "doi": "10.1007/s13555-021-00611-y",
+       "title": "Urea in Dermatology: A Review of its Emollient, Moisturizing, Keratolytic, Skin Barrier Enhancing and Antimicrobial Properties.",
+       "year": 2021,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/34596890/"
+      }
+     ]
+    },
+    {
+     "id": "urea-5",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "Narrative reviews describe topical urea at lower concentrations (10% or less) as acting mainly as a moisturiser and at higher concentrations (above 10%) as having a keratolytic (scale-loosening) action; a separate review of low-concentration products (2% to 12%) reported that stinging or burning was rare and transient. These are narrative reviews rather than systematic comparisons of concentrations.",
+      "uz": "Narrativ sharhlarda surtiladigan urea pastroq kontsentratsiyalarda (10% yoki undan kam) asosan namlantiruvchi sifatida, yuqoriroq kontsentratsiyalarda (10% dan ortiq) esa keratolitik (tangachalarni yumshatuvchi) ta‘sirga ega deb ta‘riflanadi; past kontsentratsiyali vositalar (2% dan 12% gacha) bo‘yicha alohida sharhda achishish yoki kuyish hissi kam uchrashi va o‘tkinchi bo‘lishi qayd etilgan. Bular kontsentratsiyalarni tizimli solishtirish emas, narrativ sharhlardir.",
+      "ru": "В нарративных обзорах местная urea в более низких концентрациях (10% и менее) описывается преимущественно как увлажняющее средство, а в более высоких (свыше 10%) — как обладающая кератолитическим (размягчающим чешуйки) действием; в отдельном обзоре средств с низкой концентрацией (от 2% до 12%) сообщается, что покалывание или жжение возникали редко и были кратковременными. Это нарративные обзоры, а не систематическое сравнение концентраций.",
+      "ar": "تصف مراجعات سردية urea الموضعية عند التراكيز الأقل (10% أو أقل) بأنها تعمل أساسًا كمرطّب، وعند التراكيز الأعلى (أكثر من 10%) بأنها ذات تأثير مقشّر للقرنية (keratolytic، أي يلين القشور)؛ وأفادت مراجعة منفصلة للمنتجات منخفضة التركيز (من 2% إلى 12%) بأن الوخز أو الحرقان كان نادرًا وعابرًا. هذه مراجعات سردية وليست مقارنة منهجية بين التراكيز."
+     },
+     "sources": [
+      {
+       "pmid": "30378232",
+       "doi": "10.1111/dth.12690",
+       "title": "Topical urea in skincare: A review.",
+       "year": 2018,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/30378232/"
+      },
+      {
+       "pmid": "33249706",
+       "doi": "10.1111/ijcp.13626",
+       "title": "Clinical evidences of urea at low concentration.",
+       "year": 2020,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/33249706/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Zinc Oxide",
+   "slug": "zinc-oxide",
+   "status": "draft",
+   "aliases": [],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Zinc oxide is a mineral (physical) UV filter used in sunscreens, and it has been studied for UVA-UVB coverage, for the behaviour of its nanoparticle form and for skin penetration. The evidence summarised here comes from narrative reviews and small studies in human volunteers; no systematic review was identified, and results depend on particle size, coating and formulation. The reviews also noted a potential inhalation concern for spray products containing nanoparticles. Sun protection (SPF) depends on the whole formulation rather than on zinc oxide alone. This card summarises published evidence only and is not medical advice.",
+    "uz": "Sink oksidi quyoshdan himoya vositalarida qo‘llaniladigan mineral (fizik) UV filtr bo‘lib, u UVA-UVB qamrovi, nano-zarracha shaklining xususiyatlari va teri orqali o‘tishi bo‘yicha o‘rganilgan. Bu yerda keltirilgan dalillar hikoyaviy sharhlar va ko‘ngillilarda o‘tkazilgan kichik tadqiqotlardan olingan; tizimli sharh aniqlanmadi, natijalar zarracha o‘lchami, qoplama va formulaga bog‘liq. Sharhlarda nano-zarrachali sprey mahsulotlar uchun nafas yo‘llari orqali olish xavfi ham qayd etilgan. Quyoshdan himoya (SPF) faqat sink oksidiga emas, butun formulaga bog‘liq. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Оксид цинка является минеральным (физическим) УФ-фильтром, используемым в солнцезащитных средствах; его изучали в отношении охвата UVA-UVB, поведения наночастичной формы и проникновения через кожу. Представленные здесь данные получены из повествовательных обзоров и небольших исследований с участием добровольцев; систематический обзор не найден, а результаты зависят от размера частиц, покрытия и состава. В обзорах также отмечена возможная опасность вдыхания для спреев с наночастицами. Солнцезащита (SPF) зависит от всего состава, а не только от оксида цинка. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "أكسيد الزنك (zinc oxide) مرشّح معدني (فيزيائي) للأشعة فوق البنفسجية يُستخدم في واقيات الشمس، وقد جرت دراسته من حيث تغطية UVA-UVB وسلوك شكله النانوي وانتقاله عبر الجلد. تأتي الأدلة الملخّصة هنا من مراجعات سردية ودراسات صغيرة على متطوعين؛ ولم تُحدَّد مراجعة منهجية، وتعتمد النتائج على حجم الجسيمات والغلاف والتركيبة. كما أشارت المراجعات إلى قلق محتمل من الاستنشاق في المنتجات البخاخة التي تحتوي على جسيمات نانوية. وتعتمد الحماية من الشمس (SPF) على التركيبة كاملة وليس على أكسيد الزنك وحده. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "zinc-oxide-1",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative review of the inorganic UV filters zinc oxide and titanium dioxide reported that zinc oxide has a broad UVA-UVB absorption curve while titanium dioxide provides better UVB protection. It described the human health risk of inorganic filters as low because of a lack of percutaneous absorption, but noted a potential risk from inhalation and recommended against spray sunscreen products containing nanoparticles. This is a narrative review, not a systematic one.",
+      "uz": "Noorganik UV filtrlar — sink oksidi va titan dioksidi — haqidagi hikoyaviy sharhda sink oksidining UVA-UVB bo‘yicha keng yutilish egri chizig‘iga ega ekani, titan dioksidi esa UVB‘dan yaxshiroq himoya berishi qayd etilgan. Sharhda noorganik filtrlarning inson salomatligi uchun xavfi teri orqali so‘rilishning yo‘qligi sababli past deb ta‘riflangan, ammo nafas yo‘llari orqali olish mumkin bo‘lgan xavf ta‘kidlangan va nano-zarrachali sprey quyoshdan himoya vositalariga qarshi tavsiya berilgan. Bu tizimli emas, hikoyaviy sharh.",
+      "ru": "В повествовательном обзоре неорганических УФ-фильтров, оксида цинка и диоксида титана, сообщалось, что оксид цинка имеет широкую кривую поглощения в диапазоне UVA-UVB, а диоксид титана обеспечивает лучшую защиту от UVB. Риск неорганических фильтров для здоровья человека описан как низкий из-за отсутствия чрескожного всасывания, однако отмечен возможный риск при вдыхании, и даны рекомендации против спреев-солнцезащитных средств с наночастицами. Это повествовательный, а не систематический обзор.",
+      "ar": "ذكرت مراجعة سردية للمرشحات غير العضوية للأشعة فوق البنفسجية، أكسيد الزنك وثاني أكسيد التيتانيوم، أن أكسيد الزنك له منحنى امتصاص واسع في نطاق UVA-UVB بينما يوفّر ثاني أكسيد التيتانيوم حماية أفضل من UVB. ووصفت المراجعة الخطر على صحة الإنسان من المرشحات غير العضوية بأنه منخفض لعدم وجود امتصاص عبر الجلد، لكنها أشارت إلى خطر محتمل عند الاستنشاق وأوصت بعدم استخدام منتجات واقي الشمس بخاخة الحاوية على جسيمات نانوية. وهي مراجعة سردية وليست مراجعة منهجية."
+     },
+     "sources": [
+      {
+       "pmid": "30444533",
+       "doi": "10.1111/phpp.12439",
+       "title": "A review of inorganic UV filters zinc oxide and titanium dioxide.",
+       "year": 2018,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/30444533/"
+      }
+     ]
+    },
+    {
+     "id": "zinc-oxide-2",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative review of titanium dioxide and zinc oxide nanoparticles in sunscreens reported that replacing micro-sized with nano-sized particles removes the opaque appearance but can alter the balance between UVA and UVB protection, and suggested that mixtures of micro- and nano-sized zinc oxide may improve this. It also reported that the nanoparticles are incorporated into the stratum corneum, that (photo)cytotoxicity and genotoxicity were induced, that particles were sporadically observed in viable skin layers (especially with long-term exposure and zinc oxide), and advised continued caution. The review dates from 2011, and sun protection depends on the whole formulation, not on zinc oxide alone.",
+      "uz": "Quyoshdan himoya vositalaridagi titan dioksidi va sink oksidi nano-zarrachalari haqidagi hikoyaviy sharhda mikro o‘lchamli zarrachalarni nano o‘lchamlisi bilan almashtirish xira ko‘rinishni yo‘qotishi, lekin UVA va UVB himoyasi muvozanatini o‘zgartirishi mumkinligi qayd etilgan; mikro va nano o‘lchamli sink oksidi aralashmalari buni yaxshilashi mumkinligi taklif qilingan. Shuningdek, nano-zarrachalar shox qavatga kirib borishi, (foto)sitotoksiklik va genotoksiklik chaqirilgani, zarrachalar jonli teri qatlamlarida (ayniqsa uzoq muddatli ta‘sir va sink oksidi bilan) vaqti-vaqti bilan kuzatilgani aytilgan va ehtiyotkorlikni davom ettirish tavsiya etilgan. Sharh 2011-yilga oid; quyoshdan himoya faqat sink oksidiga emas, butun formulaga bog‘liq.",
+      "ru": "В повествовательном обзоре наночастиц диоксида титана и оксида цинка в солнцезащитных средствах сообщалось, что замена микроразмерных частиц наноразмерными устраняет непрозрачный вид, но может изменить баланс защиты от UVA и UVB; предложено, что смеси микро- и наноразмерного оксида цинка могут улучшить ситуацию. Также сообщалось, что наночастицы встраиваются в роговой слой, что вызывались (фото)цитотоксичность и генотоксичность, что частицы эпизодически обнаруживались в жизнеспособных слоях кожи (особенно при длительном воздействии и для оксида цинка), и рекомендовано сохранять осторожность. Обзор датирован 2011 годом; солнцезащита зависит от всего состава, а не только от оксида цинка.",
+      "ar": "ذكرت مراجعة سردية لجسيمات ثاني أكسيد التيتانيوم وأكسيد الزنك النانوية في واقيات الشمس أن استبدال الجسيمات الدقيقة بجسيمات نانوية يزيل المظهر المعتم لكنه قد يغيّر التوازن بين الحماية من UVA وUVB، واقترحت أن خلائط أكسيد الزنك بحجم دقيق ونانوي قد تحسّن ذلك. كما أفادت بأن الجسيمات النانوية تندمج في الطبقة المتقرنة، وأنها تُحدث سمية خلوية (ضوئية) وسمية جينية، وأنه لوحظ وجودها بشكل متقطع في طبقات الجلد الحيّة (خاصة مع التعرض طويل الأمد ومع أكسيد الزنك)، ونصحت بمواصلة الحذر. تعود المراجعة إلى عام 2011، والحماية من الشمس تعتمد على التركيبة كاملة وليس على أكسيد الزنك وحده."
+     },
+     "sources": [
+      {
+       "pmid": "24198489",
+       "doi": "10.2147/NSA.S19419",
+       "title": "Titanium dioxide and zinc oxide nanoparticles in sunscreens: focus on their safety and effectiveness.",
+       "year": 2011,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/24198489/"
+      }
+     ]
+    },
+    {
+     "id": "zinc-oxide-3",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In a study in which agglomerated zinc oxide nanoparticles were applied repeatedly to human volunteers over 5 days, multiphoton imaging showed that the particles accumulated on the skin surface and in skin furrows without entering the viable epidermis or causing detectable cellular toxicity there. In excised human skin, zinc ion concentrations in the viable epidermis were slightly elevated, which the authors did not link to local toxicity. The abstract does not state the number of volunteers; the study tested intact skin and may not apply to other formulations or to damaged skin.",
+      "uz": "Agglomeratlangan sink oksidi nano-zarrachalari ko‘ngillilarga 5 kun davomida takroran surtilgan tadqiqotda ko‘p fotonli tasvirlash zarrachalar teri yuzasida va teri egatlarida to‘planib, jonli epidermisga kirmagani va u yerda aniqlanadigan hujayra toksikligini keltirib chiqarmaganini ko‘rsatgan. Ajratib olingan inson terisida jonli epidermisdagi sink ionlari konsentratsiyasi biroz oshgan, mualliflar buni mahalliy toksiklik bilan bog‘lamagan. Annotatsiyada ko‘ngillilar soni ko‘rsatilmagan; tadqiqotda butun teri sinalgan va natijalar boshqa formulalar yoki shikastlangan teriga mos kelmasligi mumkin.",
+      "ru": "В исследовании, где агломерированные наночастицы оксида цинка многократно наносили на кожу добровольцев в течение 5 дней, многофотонная визуализация показала, что частицы накапливались на поверхности кожи и в кожных бороздках, не проникая в жизнеспособный эпидермис и не вызывая там выявляемой клеточной токсичности. В иссечённой коже человека концентрации ионов цинка в жизнеспособном эпидермисе были слегка повышены, что авторы не связали с местной токсичностью. В аннотации число добровольцев не указано; изучалась неповреждённая кожа, и результаты могут не относиться к другим составам или повреждённой коже.",
+      "ar": "في دراسة طُبّقت فيها جسيمات أكسيد الزنك النانوية المتكتلة بشكل متكرر على متطوعين لمدة 5 أيام، أظهر التصوير متعدد الفوتونات أن الجسيمات تراكمت على سطح الجلد وفي أخاديد الجلد دون أن تدخل البشرة الحيّة أو تسبب سمية خلوية يمكن كشفها هناك. وفي جلد بشري مستأصل ارتفعت تراكيز أيونات الزنك في البشرة الحيّة قليلًا، ولم يربط المؤلفون ذلك بسمية موضعية. لا يذكر الملخص عدد المتطوعين؛ وقد اختُبر جلد سليم، وقد لا تنطبق النتائج على تركيبات أخرى أو على جلد متضرر."
+     },
+     "sources": [
+      {
+       "pmid": "30448212",
+       "doi": "10.1016/j.jid.2018.08.024",
+       "title": "Support for the Safe Use of Zinc Oxide Nanoparticle Sunscreens: Lack of Skin Penetration or Cellular Toxicity after Repeated Application in Volunteers.",
+       "year": 2018,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/30448212/"
+      }
+     ]
+    },
+    {
+     "id": "zinc-oxide-4",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "Imaging studies in human volunteers reported that coated and uncoated zinc oxide nanoparticles mostly remained in the superficial stratum corneum and skin furrows. One study observed limited penetration of a coated nanoparticle in a water-in-oil emulsion into the viable epidermis next to furrows without a change in cellular metabolic (redox) state, indicating that formulation and coating matter. A later study found no penetration into the viable epidermis and no apparent toxicity after 6 hours of application, including under occlusion and on barrier-impaired skin. The abstracts do not state sample sizes, and the findings come from imaging techniques in a small number of products.",
+      "uz": "Ko‘ngillilarda o‘tkazilgan tasvirlash tadqiqotlarida qoplamali va qoplamasiz sink oksidi nano-zarrachalari asosan sirtqi shox qavatda va teri egatlarida qolgani qayd etilgan. Bir tadqiqotda suv-moy emulsiyasidagi qoplamali nano-zarracha egatlarga yaqin jonli epidermisga cheklangan darajada kirgani, ammo hujayra metabolik (redoks) holati o‘zgarmagani kuzatilgan; bu formula va qoplama muhimligini ko‘rsatadi. Keyingi tadqiqotda 6 soatlik surtishdan keyin, jumladan okklyuziya sharoitida va to‘siq funksiyasi buzilgan terida ham, jonli epidermisga kirish va sezilarli toksiklik topilmagan. Annotatsiyalarda tanlama hajmi ko‘rsatilmagan; natijalar oz sonli mahsulotlarda tasvirlash usullari bilan olingan.",
+      "ru": "В визуализационных исследованиях с участием добровольцев сообщалось, что наночастицы оксида цинка с покрытием и без покрытия в основном оставались в поверхностном роговом слое и кожных бороздках. В одном исследовании наблюдалось ограниченное проникновение частиц с покрытием в эмульсии «вода в масле» в жизнеспособный эпидермис рядом с бороздками без изменения клеточного метаболического (редокс) состояния, что указывает на значение состава и покрытия. В более позднем исследовании после 6 часов нанесения, в том числе при окклюзии и на коже с нарушенным барьером, проникновения в жизнеспособный эпидермис и явной токсичности не обнаружено. В аннотациях размеры выборок не указаны; результаты получены методами визуализации на небольшом числе продуктов.",
+      "ar": "أفادت دراسات تصوير على متطوعين بأن جسيمات أكسيد الزنك النانوية المغلّفة وغير المغلّفة بقيت في معظمها في الطبقة المتقرنة السطحية وفي أخاديد الجلد. ولاحظت إحدى الدراسات اختراقًا محدودًا لجسيم نانوي مغلّف في مستحلب ماء في زيت إلى البشرة الحيّة بجوار الأخاديد دون تغيّر في الحالة الأيضية (الأكسدة والاختزال) للخلايا، مما يشير إلى أهمية التركيبة والغلاف. ولم تجد دراسة لاحقة اختراقًا للبشرة الحيّة ولا سمية ظاهرة بعد 6 ساعات من التطبيق، بما في ذلك تحت الانسداد وعلى جلد ذي حاجز متضرر. لا تذكر الملخصات أحجام العيّنات، وتأتي النتائج من تقنيات تصوير على عدد محدود من المنتجات."
+     },
+     "sources": [
+      {
+       "pmid": "23454052",
+       "doi": "10.1016/j.ejpb.2013.01.020",
+       "title": "The effect of formulation on the penetration of coated and uncoated zinc oxide nanoparticles into the viable epidermis of human skin in vivo.",
+       "year": 2013,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/23454052/"
+      },
+      {
+       "pmid": "27131753",
+       "doi": "10.1016/j.ejpb.2016.04.022",
+       "title": "Human skin penetration and local effects of topical nano zinc oxide after occlusion and barrier impairment.",
+       "year": 2016,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/27131753/"
+      }
+     ]
+    },
+    {
+     "id": "zinc-oxide-5",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In a stable-isotope tracing study of 20 volunteers using sunscreens containing zinc oxide particles applied outdoors for five consecutive days, most of the applied zinc was not absorbed, but small increases in tracer zinc were detected in blood and urine (blood tracer about one-thousandth of total blood zinc); it is not known whether the zinc was absorbed as particles or as soluble zinc. A 3-person pilot with about 30 nm particles reported very low absorption (minimal estimate below 0.01% of the applied dose). Both studies are small and cover short application periods.",
+      "uz": "Sink oksidi zarrachalari bo‘lgan quyoshdan himoya vositalari 20 nafar ko‘ngillilarga ketma-ket besh kun davomida ochiq havoda surtilgan barqaror izotop bilan kuzatuv tadqiqotida surtilgan sinkning katta qismi so‘rilmagan, lekin qon va siydikda izotop belgili sinkning kichik o‘sishi aniqlangan (qondagi belgili sink umumiy qon sinkining taxminan mingdan biri); sink zarracha shaklida yoki erigan sink sifatida so‘rilgani noma‘lum. Taxminan 30 nm zarrachalar bilan 3 kishilik pilot tadqiqotda juda past so‘rilish qayd etilgan (minimal baho surtilgan dozaning 0,01% idan kam). Ikkala tadqiqot ham kichik va surtish davri qisqa.",
+      "ru": "В исследовании с изотопной меткой на 20 добровольцах, использовавших солнцезащитные средства с частицами оксида цинка на открытом воздухе пять дней подряд, большая часть нанесённого цинка не всасывалась, но в крови и моче обнаружено небольшое повышение меченого цинка (метка в крови около одной тысячной от общего цинка крови); неизвестно, всосался ли цинк в виде частиц или растворимого цинка. В пилотном исследовании на 3 людях с частицами около 30 нм сообщалось об очень низком всасывании (минимальная оценка менее 0,01% нанесённой дозы). Оба исследования небольшие и охватывают короткие периоды нанесения.",
+      "ar": "في دراسة تتبّع بالنظائر المستقرة شملت 20 متطوعًا استخدموا واقيات شمس تحتوي على جسيمات أكسيد الزنك في الهواء الطلق لمدة خمسة أيام متتالية، لم يُمتصّ معظم الزنك المطبّق، لكن رُصدت زيادات صغيرة في الزنك المتتبَّع في الدم والبول (نحو جزء من ألف من إجمالي زنك الدم)، ولا يُعرف هل امتُصّ الزنك على شكل جسيمات أم زنك ذائب. وأفادت دراسة تجريبية على 3 أشخاص بجسيمات نحو 30 نانومتر بامتصاص منخفض جدًا (تقدير أدنى أقل من 0.01% من الجرعة المطبّقة). كلتا الدراستين صغيرة وتغطي فترات تطبيق قصيرة."
+     },
+     "sources": [
+      {
+       "pmid": "20705894",
+       "doi": "10.1093/toxsci/kfq243",
+       "title": "Small amounts of zinc from zinc oxide particles in sunscreens applied outdoors are absorbed through human skin.",
+       "year": 2010,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/20705894/"
+      },
+      {
+       "pmid": "22316633",
+       "doi": "10.1016/j.scitotenv.2011.12.046",
+       "title": "Comparison of dermal absorption of zinc from different sunscreen formulations and differing UV exposure based on stable isotope tracing.",
+       "year": 2012,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/22316633/"
+      }
+     ]
+    }
+   ]
   }
  ]
 }

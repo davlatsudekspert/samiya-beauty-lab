@@ -39,14 +39,16 @@ void main() {
     await analyzeText(t, 'Aqua, Glycerin, Niacinamide, Parfum');
     expect(k('result-page'), findsOneWidget);
     expect(k('result-card-niacinamide'), findsOneWidget);
-    expect(find.descendant(of: k('stat-found'), matching: find.text('1')), findsOneWidget);
-    expect(find.descendant(of: k('stat-unknown'), matching: find.text('3')), findsOneWidget);
-    expect(find.descendant(of: k('result-unknown-chips'), matching: find.text('Glycerin')), findsOneWidget);
+    expect(k('result-card-glycerin'), findsOneWidget);
+    expect(find.descendant(of: k('stat-found'), matching: find.text('2')), findsOneWidget);
+    expect(find.descendant(of: k('stat-unknown'), matching: find.text('2')), findsOneWidget);
+    expect(find.descendant(of: k('result-unknown-chips'), matching: find.text('Parfum')), findsOneWidget);
+    expect(find.descendant(of: k('result-unknown-chips'), matching: find.text('Glycerin')), findsNothing);
   });
 
   testWidgets('bazada hech narsa topilmasa halol xabar, kartalar yo\'q', (t) async {
     await pumpApp(t, state: onboarded(), initial: '/scanner');
-    await analyzeText(t, 'Aqua, Glycerin');
+    await analyzeText(t, 'Aqua, Parfum');
     expect(k('result-none'), findsOneWidget);
     expect(find.byWidgetPredicate((w) => w.key.toString().contains('result-card-')), findsNothing);
   });

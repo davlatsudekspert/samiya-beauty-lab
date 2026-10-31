@@ -13,9 +13,9 @@ void main() {
 
   testWidgets('bosh sahifa: "Mashhur ingredientlar" kartasi ingredient sahifasini ochadi, orqaga -> bosh sahifa', (t) async {
     await pumpApp(t, state: home());
-    await t.ensureVisible(find.text('Retinol').first);
+    await t.ensureVisible(find.text('Niacinamide').first);
     await t.pumpAndSettle();
-    await t.tap(find.text('Retinol').first);
+    await t.tap(find.text('Niacinamide').first);
     await t.pumpAndSettle();
     expect(k('ingredient-page'), findsOneWidget);
     await t.tap(k('back-chip'));
