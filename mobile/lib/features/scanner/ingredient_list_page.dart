@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
+import '../../ui/ingredient_palette.dart';
 import '../../ui/safe_nav.dart';
 import '../../ui/widgets.dart';
 import 'ingredient_models.dart';
@@ -135,6 +136,8 @@ class _IngredientTile extends StatelessWidget {
             decoration: BoxDecoration(borderRadius: BorderRadius.circular(22), border: Border.all(color: SamiyaColors.border)),
             child: ExcludeSemantics(
               child: Row(children: [
+                IngredientMonogram(slug: ing.slug, name: ing.nameFor(lang), size: 46),
+                const SizedBox(width: 14),
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     Text(ing.nameFor(lang),

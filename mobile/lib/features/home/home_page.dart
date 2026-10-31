@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../app/app_state.dart';
 import '../../app/theme.dart';
+import '../../ui/ingredient_palette.dart';
 import '../../ui/safe_nav.dart';
 import '../../l10n/app_localizations.dart';
 import '../../ui/portrait_banner.dart';
@@ -126,6 +127,7 @@ class HomePage extends StatelessWidget {
                 separatorBuilder: (_, _) => const SizedBox(width: 12),
                 itemBuilder: (context, i) => _IngredientCard(
                   name: natural[i].nameFor(lang),
+                  slug: natural[i].slug,
                   icon: Icons.spa_outlined,
                   latin: !natural[i].hasFriendlyName,
                   onTap: () => context.safePush('/scanner/ingredient/${natural[i].slug}'),
@@ -151,6 +153,7 @@ class HomePage extends StatelessWidget {
               separatorBuilder: (_, _) => const SizedBox(width: 12),
               itemBuilder: (context, i) => _IngredientCard(
                 name: actives[i].nameFor(lang),
+                slug: actives[i].slug,
                 icon: Icons.science_outlined,
                 latin: !actives[i].hasFriendlyName,
                 onTap: () => context.safePush('/scanner/ingredient/${actives[i].slug}'),
@@ -223,6 +226,7 @@ class HomePage extends StatelessWidget {
                 separatorBuilder: (_, _) => const SizedBox(width: 12),
                 itemBuilder: (context, i) => _IngredientCard(
                   name: practices[i].nameFor(lang),
+                  slug: practices[i].slug,
                   icon: Icons.self_improvement_outlined,
                   latin: !practices[i].hasFriendlyName,
                   onTap: () => context.safePush('/scanner/ingredient/${practices[i].slug}'),
@@ -306,8 +310,9 @@ class _Tile extends StatelessWidget {
 
 /// Ravoq (arka) shaklidagi kartochka: Sharq me'morchiligi va lyuks atelye uslubi; ingichka oltin chiziq.
 class _IngredientCard extends StatelessWidget {
-  const _IngredientCard({required this.name, required this.onTap, this.latin = true, this.icon = Icons.science_outlined});
+  const _IngredientCard({required this.name, required this.slug, required this.onTap, this.latin = true, this.icon = Icons.science_outlined});
   final String name;
+  final String slug;
   final IconData icon;
 
   /// Lotin INCI nomi bo'lsa matn chapdan o'ngga; tushunarli (mahalliy) nom bo'lsa til yo'nalishida.
@@ -331,19 +336,19 @@ class _IngredientCard extends StatelessWidget {
             width: 140,
             decoration: BoxDecoration(
               borderRadius: _shape,
-              color: Colors.white,
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [Color.lerp(Colors.white, ingredientTint(slug), 0.32)!, Colors.white, Colors.white],
+                stops: const [0, 0.62, 1],
+              ),
               border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.6)),
               boxShadow: SamiyaShadows.soft,
             ),
             padding: const EdgeInsetsDirectional.fromSTEB(14, 26, 14, 16),
             child: ExcludeSemantics(
               child: Column(children: [
-                Container(
-                  width: 50,
-                  height: 50,
-                  decoration: const BoxDecoration(color: SamiyaColors.blush, shape: BoxShape.circle),
-                  child: Icon(icon, color: SamiyaColors.heading, size: 24),
-                ),
+                IngredientMonogram(slug: slug, name: name, size: 56),
                 const Spacer(),
                 Text(name,
                     textDirection: latin ? TextDirection.ltr : null,
