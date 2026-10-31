@@ -1,9 +1,13 @@
+import 'dart:async';
+
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'app/app.dart';
 import 'app/app_state.dart';
 import 'data/backend_api.dart';
+import 'data/install_reporter.dart';
 import 'features/auth/auth_service.dart';
 import 'features/auth/firebase_auth_service.dart';
 
@@ -22,4 +26,7 @@ Future<void> main() async {
   const apiBase = String.fromEnvironment('API_BASE_URL');
   final backend = apiBase.isEmpty ? const NoBackendApi() : HttpBackendApi(apiBase);
   runApp(SamiyaApp(state: await AppState.load(auth: await _initAuth(), backend: backend)));
+  // Anonim o'rnatish hisoblagichi (ilova ochilishini kutdirmaydi, xato bo'lsa jim).
+  final platform = kIsWeb ? 'web' : (defaultTargetPlatform == TargetPlatform.iOS ? 'ios' : 'android');
+  unawaited(reportInstall(backend, platform: platform, appVersion: const String.fromEnvironment('APP_VERSION', defaultValue: '1.0.0')));
 }

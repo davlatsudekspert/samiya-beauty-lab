@@ -91,7 +91,8 @@ class _ProfilePageState extends State<ProfilePage> {
               name: name,
               isGuest: user == null,
               email: user?.displayName != null ? user?.email : null,
-              provider: user?.provider),
+              provider: user?.provider,
+              pro: state.isPro),
           const SizedBox(height: 16),
           if (user == null)
             GradientButton(
@@ -117,6 +118,10 @@ class _ProfilePageState extends State<ProfilePage> {
                 onTap: () => context.safePush('/role'),
               ),
               const Divider(height: 1, color: SamiyaColors.border),
+              if (state.isAdmin) ...[
+                _Row(key: const Key('profile-admin'), icon: Icons.admin_panel_settings_outlined, label: l.adminPanel, onTap: () => context.safePush('/profile/admin')),
+                const Divider(height: 1, color: SamiyaColors.border),
+              ],
               _Row(key: const Key('profile-privacy'), icon: Icons.privacy_tip_outlined, label: l.privacyPolicy, onTap: _soon),
               const Divider(height: 1, color: SamiyaColors.border),
               _Row(key: const Key('profile-terms'), icon: Icons.description_outlined, label: l.termsOfUse, onTap: _soon),
@@ -149,7 +154,8 @@ class _ProfilePageState extends State<ProfilePage> {
 }
 
 class _AccountCard extends StatelessWidget {
-  const _AccountCard({required this.name, required this.isGuest, required this.email, required this.provider});
+  const _AccountCard({required this.name, required this.isGuest, required this.email, required this.provider, required this.pro});
+  final bool pro;
   final String name;
   final bool isGuest;
   final String? email;
@@ -189,7 +195,10 @@ class _AccountCard extends StatelessWidget {
             if (email != null) Text(email!, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.ltr, style: t.bodyMedium),
             if (provider != null) ...[
               const SizedBox(height: 6),
-              InfoPill(provider == 'apple.com' ? 'Apple' : provider == 'google.com' ? 'Google' : provider!, upper: false),
+              Wrap(spacing: 6, runSpacing: 6, children: [
+                InfoPill(provider == 'apple.com' ? 'Apple' : provider == 'google.com' ? 'Google' : provider!, upper: false),
+                if (pro) InfoPill(AppLocalizations.of(context).proBadge, key: const Key('profile-pro'), upper: false),
+              ]),
             ],
           ]),
         ),

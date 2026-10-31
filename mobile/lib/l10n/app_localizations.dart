@@ -689,6 +689,162 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Terms of Use'**
   String get termsOfUse;
+
+  /// No description provided for @adminPanel.
+  ///
+  /// In en, this message translates to:
+  /// **'Admin panel'**
+  String get adminPanel;
+
+  /// No description provided for @adminInstalls.
+  ///
+  /// In en, this message translates to:
+  /// **'Installs'**
+  String get adminInstalls;
+
+  /// No description provided for @adminInstallsNote.
+  ///
+  /// In en, this message translates to:
+  /// **'This is not the store download count: it counts devices where the app was opened at least once.'**
+  String get adminInstallsNote;
+
+  /// No description provided for @adminTotal.
+  ///
+  /// In en, this message translates to:
+  /// **'Total'**
+  String get adminTotal;
+
+  /// No description provided for @adminWeb.
+  ///
+  /// In en, this message translates to:
+  /// **'Web'**
+  String get adminWeb;
+
+  /// No description provided for @adminNew7d.
+  ///
+  /// In en, this message translates to:
+  /// **'New in 7 days'**
+  String get adminNew7d;
+
+  /// No description provided for @adminActive7d.
+  ///
+  /// In en, this message translates to:
+  /// **'Active in 7 days'**
+  String get adminActive7d;
+
+  /// No description provided for @adminActive30d.
+  ///
+  /// In en, this message translates to:
+  /// **'Active in 30 days'**
+  String get adminActive30d;
+
+  /// No description provided for @adminUsers.
+  ///
+  /// In en, this message translates to:
+  /// **'Signed-in users'**
+  String get adminUsers;
+
+  /// No description provided for @adminProPaid.
+  ///
+  /// In en, this message translates to:
+  /// **'Pro (paid)'**
+  String get adminProPaid;
+
+  /// No description provided for @adminProGranted.
+  ///
+  /// In en, this message translates to:
+  /// **'Pro (granted by admin)'**
+  String get adminProGranted;
+
+  /// No description provided for @adminGrantTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Give Pro to an email'**
+  String get adminGrantTitle;
+
+  /// No description provided for @adminEmailHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Email address'**
+  String get adminEmailHint;
+
+  /// No description provided for @adminForever.
+  ///
+  /// In en, this message translates to:
+  /// **'Forever'**
+  String get adminForever;
+
+  /// No description provided for @adminDays.
+  ///
+  /// In en, this message translates to:
+  /// **'{n} days'**
+  String adminDays(int n);
+
+  /// No description provided for @adminGrantAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Give Pro'**
+  String get adminGrantAction;
+
+  /// No description provided for @adminRevoke.
+  ///
+  /// In en, this message translates to:
+  /// **'Revoke'**
+  String get adminRevoke;
+
+  /// No description provided for @adminGrantsList.
+  ///
+  /// In en, this message translates to:
+  /// **'Pro granted'**
+  String get adminGrantsList;
+
+  /// No description provided for @adminGrantsEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'Nobody yet.'**
+  String get adminGrantsEmpty;
+
+  /// No description provided for @adminGranted.
+  ///
+  /// In en, this message translates to:
+  /// **'Pro granted.'**
+  String get adminGranted;
+
+  /// No description provided for @adminRevoked.
+  ///
+  /// In en, this message translates to:
+  /// **'Pro revoked.'**
+  String get adminRevoked;
+
+  /// No description provided for @adminInvalidEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'The email address is not valid.'**
+  String get adminInvalidEmail;
+
+  /// No description provided for @adminLoadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not load the data.'**
+  String get adminLoadFailed;
+
+  /// No description provided for @adminRetry.
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get adminRetry;
+
+  /// No description provided for @adminUntil.
+  ///
+  /// In en, this message translates to:
+  /// **'until {date}'**
+  String adminUntil(String date);
+
+  /// No description provided for @proBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'Pro'**
+  String get proBadge;
 }
 
 class _AppLocalizationsDelegate

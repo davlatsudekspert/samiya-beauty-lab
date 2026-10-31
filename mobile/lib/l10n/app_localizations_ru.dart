@@ -317,4 +317,87 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get termsOfUse => 'Условия использования';
+
+  @override
+  String get adminPanel => 'Панель администратора';
+
+  @override
+  String get adminInstalls => 'Установки';
+
+  @override
+  String get adminInstallsNote =>
+      'Это не число загрузок в магазинах, а устройства, где приложение открывали хотя бы раз.';
+
+  @override
+  String get adminTotal => 'Всего';
+
+  @override
+  String get adminWeb => 'Веб';
+
+  @override
+  String get adminNew7d => 'Новые за 7 дней';
+
+  @override
+  String get adminActive7d => 'Активны за 7 дней';
+
+  @override
+  String get adminActive30d => 'Активны за 30 дней';
+
+  @override
+  String get adminUsers => 'Зарегистрированные';
+
+  @override
+  String get adminProPaid => 'Pro (по оплате)';
+
+  @override
+  String get adminProGranted => 'Pro (выдано админом)';
+
+  @override
+  String get adminGrantTitle => 'Выдать Pro по email';
+
+  @override
+  String get adminEmailHint => 'Адрес email';
+
+  @override
+  String get adminForever => 'Бессрочно';
+
+  @override
+  String adminDays(int n) {
+    return '$n дн.';
+  }
+
+  @override
+  String get adminGrantAction => 'Выдать Pro';
+
+  @override
+  String get adminRevoke => 'Отозвать';
+
+  @override
+  String get adminGrantsList => 'Выданные Pro';
+
+  @override
+  String get adminGrantsEmpty => 'Пока никому не выдано.';
+
+  @override
+  String get adminGranted => 'Pro выдан.';
+
+  @override
+  String get adminRevoked => 'Pro отозван.';
+
+  @override
+  String get adminInvalidEmail => 'Неверный адрес email.';
+
+  @override
+  String get adminLoadFailed => 'Не удалось загрузить данные.';
+
+  @override
+  String get adminRetry => 'Повторить';
+
+  @override
+  String adminUntil(String date) {
+    return 'до $date';
+  }
+
+  @override
+  String get proBadge => 'Pro';
 }

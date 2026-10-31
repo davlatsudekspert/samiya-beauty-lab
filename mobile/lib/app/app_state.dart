@@ -43,8 +43,47 @@ class AppState extends ChangeNotifier {
     _authSub = this.auth.changes.listen((u) {
       _user = u;
       notifyListeners();
+      refreshMe();
     });
+    if (_user != null) refreshMe();
   }
+
+  MeInfo _me = MeInfo.none;
+
+  /// Admin va Pro holati FAQAT serverdan (kirgan va backend sozlangan bo'lsa); xatoda xavfsiz tomon: false.
+  bool get isAdmin => _user != null && _me.isAdmin;
+  bool get isPro => _user != null && _me.pro;
+
+  /// Serverdan /me ni olib, admin/Pro holatini yangilaydi. Hech qachon xato tashlamaydi.
+  Future<void> refreshMe() async {
+    final uid = _user?.uid;
+    var next = MeInfo.none;
+    if (uid != null && backend.isConfigured) {
+      try {
+        final token = await auth.idToken();
+        if (token != null) next = await backend.me(token);
+      } catch (_) {
+        next = MeInfo.none;
+      }
+    }
+    if (_user?.uid != uid) return; // kutish paytida boshqa foydalanuvchi/chiqish bo'ldi
+    if (next.isAdmin != _me.isAdmin || next.pro != _me.pro) {
+      _me = next;
+      notifyListeners();
+    }
+  }
+
+  Future<String> _adminToken() async {
+    if (!isAdmin) throw StateError('admin emas');
+    final token = await auth.idToken();
+    if (token == null) throw StateError('token yo\'q');
+    return token;
+  }
+
+  Future<AdminStats> adminStats() async => backend.adminStats(await _adminToken());
+  Future<List<ProGrant>> listGrants() async => backend.listGrants(await _adminToken());
+  Future<void> grantPro(String email, {int? days}) async => backend.grantPro(await _adminToken(), email, days: days);
+  Future<void> revokePro(String email) async => backend.revokePro(await _adminToken(), email);
 
   /// Kirish xizmati (Firebase yoki "mavjud emas" holati).
   final AuthService auth;

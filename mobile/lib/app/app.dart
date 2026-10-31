@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:go_router/go_router.dart';
 
+import '../features/admin/admin_page.dart';
 import '../features/auth/login_page.dart';
 import '../features/home/home_page.dart';
 import '../features/language/language_page.dart';
@@ -75,7 +76,18 @@ class _SamiyaAppState extends State<SamiyaApp> {
                 builder: (_, _) => const PlaceholderTab(pageKey: 'tab-journal', title: _journalTitle)),
           ]),
           StatefulShellBranch(routes: [
-            GoRoute(path: '/profile', builder: (_, _) => const ProfilePage()),
+            GoRoute(
+              path: '/profile',
+              builder: (_, _) => const ProfilePage(),
+              routes: [
+                // Faqat serverda tasdiqlangan admin; boshqalar profilga qaytariladi.
+                GoRoute(
+                  path: 'admin',
+                  redirect: (_, _) => widget.state.isAdmin ? null : '/profile',
+                  builder: (_, _) => const AdminPage(),
+                ),
+              ],
+            ),
           ]),
         ],
       ),

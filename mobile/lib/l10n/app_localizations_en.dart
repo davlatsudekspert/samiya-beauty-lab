@@ -317,4 +317,87 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get termsOfUse => 'Terms of Use';
+
+  @override
+  String get adminPanel => 'Admin panel';
+
+  @override
+  String get adminInstalls => 'Installs';
+
+  @override
+  String get adminInstallsNote =>
+      'This is not the store download count: it counts devices where the app was opened at least once.';
+
+  @override
+  String get adminTotal => 'Total';
+
+  @override
+  String get adminWeb => 'Web';
+
+  @override
+  String get adminNew7d => 'New in 7 days';
+
+  @override
+  String get adminActive7d => 'Active in 7 days';
+
+  @override
+  String get adminActive30d => 'Active in 30 days';
+
+  @override
+  String get adminUsers => 'Signed-in users';
+
+  @override
+  String get adminProPaid => 'Pro (paid)';
+
+  @override
+  String get adminProGranted => 'Pro (granted by admin)';
+
+  @override
+  String get adminGrantTitle => 'Give Pro to an email';
+
+  @override
+  String get adminEmailHint => 'Email address';
+
+  @override
+  String get adminForever => 'Forever';
+
+  @override
+  String adminDays(int n) {
+    return '$n days';
+  }
+
+  @override
+  String get adminGrantAction => 'Give Pro';
+
+  @override
+  String get adminRevoke => 'Revoke';
+
+  @override
+  String get adminGrantsList => 'Pro granted';
+
+  @override
+  String get adminGrantsEmpty => 'Nobody yet.';
+
+  @override
+  String get adminGranted => 'Pro granted.';
+
+  @override
+  String get adminRevoked => 'Pro revoked.';
+
+  @override
+  String get adminInvalidEmail => 'The email address is not valid.';
+
+  @override
+  String get adminLoadFailed => 'Could not load the data.';
+
+  @override
+  String get adminRetry => 'Retry';
+
+  @override
+  String adminUntil(String date) {
+    return 'until $date';
+  }
+
+  @override
+  String get proBadge => 'Pro';
 }

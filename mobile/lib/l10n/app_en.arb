@@ -104,5 +104,45 @@
   "actionFailed": "The action failed. Please try again.",
   "roleSection": "Role",
   "privacyPolicy": "Privacy Policy",
-  "termsOfUse": "Terms of Use"
+  "termsOfUse": "Terms of Use",
+  "adminPanel": "Admin panel",
+  "adminInstalls": "Installs",
+  "adminInstallsNote": "This is not the store download count: it counts devices where the app was opened at least once.",
+  "adminTotal": "Total",
+  "adminWeb": "Web",
+  "adminNew7d": "New in 7 days",
+  "adminActive7d": "Active in 7 days",
+  "adminActive30d": "Active in 30 days",
+  "adminUsers": "Signed-in users",
+  "adminProPaid": "Pro (paid)",
+  "adminProGranted": "Pro (granted by admin)",
+  "adminGrantTitle": "Give Pro to an email",
+  "adminEmailHint": "Email address",
+  "adminForever": "Forever",
+  "adminDays": "{n} days",
+  "adminGrantAction": "Give Pro",
+  "adminRevoke": "Revoke",
+  "adminGrantsList": "Pro granted",
+  "adminGrantsEmpty": "Nobody yet.",
+  "adminGranted": "Pro granted.",
+  "adminRevoked": "Pro revoked.",
+  "adminInvalidEmail": "The email address is not valid.",
+  "adminLoadFailed": "Could not load the data.",
+  "adminRetry": "Retry",
+  "adminUntil": "until {date}",
+  "proBadge": "Pro",
+  "@adminDays": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@adminUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  }
 }

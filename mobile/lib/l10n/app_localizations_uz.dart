@@ -318,4 +318,87 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get termsOfUse => 'Foydalanish shartlari';
+
+  @override
+  String get adminPanel => 'Admin paneli';
+
+  @override
+  String get adminInstalls => 'O‘rnatishlar';
+
+  @override
+  String get adminInstallsNote =>
+      'Bu do‘konlardagi yuklab olishlar soni emas: ilova kamida bir marta ochilgan qurilmalar.';
+
+  @override
+  String get adminTotal => 'Jami';
+
+  @override
+  String get adminWeb => 'Veb';
+
+  @override
+  String get adminNew7d => '7 kunda yangi';
+
+  @override
+  String get adminActive7d => '7 kunda faol';
+
+  @override
+  String get adminActive30d => '30 kunda faol';
+
+  @override
+  String get adminUsers => 'Ro‘yxatdan o‘tganlar';
+
+  @override
+  String get adminProPaid => 'Pro (to‘lov orqali)';
+
+  @override
+  String get adminProGranted => 'Pro (admin bergan)';
+
+  @override
+  String get adminGrantTitle => 'Emailga Pro berish';
+
+  @override
+  String get adminEmailHint => 'Email manzil';
+
+  @override
+  String get adminForever => 'Cheksiz';
+
+  @override
+  String adminDays(int n) {
+    return '$n kun';
+  }
+
+  @override
+  String get adminGrantAction => 'Pro berish';
+
+  @override
+  String get adminRevoke => 'Qaytarib olish';
+
+  @override
+  String get adminGrantsList => 'Pro berilganlar';
+
+  @override
+  String get adminGrantsEmpty => 'Hali hech kimga berilmagan.';
+
+  @override
+  String get adminGranted => 'Pro berildi.';
+
+  @override
+  String get adminRevoked => 'Pro qaytarib olindi.';
+
+  @override
+  String get adminInvalidEmail => 'Email manzil noto‘g‘ri.';
+
+  @override
+  String get adminLoadFailed => 'Ma‘lumotni yuklab bo‘lmadi.';
+
+  @override
+  String get adminRetry => 'Qayta urinish';
+
+  @override
+  String adminUntil(String date) {
+    return '$date gacha';
+  }
+
+  @override
+  String get proBadge => 'Pro';
 }

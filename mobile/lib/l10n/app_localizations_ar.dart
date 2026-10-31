@@ -312,4 +312,87 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get termsOfUse => 'شروط الاستخدام';
+
+  @override
+  String get adminPanel => 'لوحة المشرف';
+
+  @override
+  String get adminInstalls => 'التثبيتات';
+
+  @override
+  String get adminInstallsNote =>
+      'هذا ليس عدد التنزيلات من المتاجر، بل الأجهزة التي فُتح عليها التطبيق مرة واحدة على الأقل.';
+
+  @override
+  String get adminTotal => 'الإجمالي';
+
+  @override
+  String get adminWeb => 'الويب';
+
+  @override
+  String get adminNew7d => 'جديد خلال 7 أيام';
+
+  @override
+  String get adminActive7d => 'نشط خلال 7 أيام';
+
+  @override
+  String get adminActive30d => 'نشط خلال 30 يومًا';
+
+  @override
+  String get adminUsers => 'المستخدمون المسجّلون';
+
+  @override
+  String get adminProPaid => 'Pro (مدفوع)';
+
+  @override
+  String get adminProGranted => 'Pro (منحه المشرف)';
+
+  @override
+  String get adminGrantTitle => 'منح Pro لبريد إلكتروني';
+
+  @override
+  String get adminEmailHint => 'البريد الإلكتروني';
+
+  @override
+  String get adminForever => 'دائم';
+
+  @override
+  String adminDays(int n) {
+    return '$n يومًا';
+  }
+
+  @override
+  String get adminGrantAction => 'منح Pro';
+
+  @override
+  String get adminRevoke => 'سحب';
+
+  @override
+  String get adminGrantsList => 'من مُنحوا Pro';
+
+  @override
+  String get adminGrantsEmpty => 'لم يُمنح أحد بعد.';
+
+  @override
+  String get adminGranted => 'تم منح Pro.';
+
+  @override
+  String get adminRevoked => 'تم سحب Pro.';
+
+  @override
+  String get adminInvalidEmail => 'عنوان البريد الإلكتروني غير صالح.';
+
+  @override
+  String get adminLoadFailed => 'تعذّر تحميل البيانات.';
+
+  @override
+  String get adminRetry => 'إعادة المحاولة';
+
+  @override
+  String adminUntil(String date) {
+    return 'حتى $date';
+  }
+
+  @override
+  String get proBadge => 'Pro';
 }
