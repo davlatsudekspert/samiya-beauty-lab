@@ -1,0 +1,111 @@
+{
+ "inci": "Cucumis Sativus Fruit Extract",
+ "slug": "cucumber",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Cucumber (Cucumis sativus) fruit extract (INCI: Cucumis Sativus Fruit Extract) is a plant-derived cosmetic ingredient commonly associated with moisturising, soothing and eye-area products. This card covers topical cosmetic use only; eating cucumber is out of scope. In the PubMed searches done for this card, no human clinical study of cucumber fruit extract on skin hydration, soothing, irritation or the eye area was found. The published evidence located consists of laboratory (in vitro) studies, partly on mixtures, plus old case reports of skin reactions to cucumber-containing products, so benefits for human skin are unproven. Natural origin does not mean a product is free of risk: skin reactions have been reported. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "cucumber-1",
+   "text_en": "In a laboratory study of a formulation combining about 80% Chaves thermal spring water with mallow (Malva sylvestris) and cucumber (Cucumis sativus) extracts, the mixture showed higher antioxidant capacity in chemical assays than the thermal water alone and reduced interleukin-1α and interleukin-6 in a particulate-matter-stimulated human keratinocyte cell line (HaCaT). These are cell and test-tube results on a multi-ingredient mixture; the effect of cucumber extract alone was not isolated and the abstract reports no testing on human skin.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "42717854",
+     "doi": "10.1111/ics.70137",
+     "title": "Chaves thermal spring water formulation: Substantiating anti-ageing and anti-inflammatory effects.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42717854/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "cucumber-2",
+   "text_en": "In a cell-culture study, a water/ethanol extract of cucumber fruit reduced several inflammatory signals (for example IL-8, and later IL-6 and IL-1α) in porcine aortic endothelial cells exposed to bacterial lipopolysaccharide. These were blood-vessel cells, not skin cells, so the result does not show that cucumber extract soothes or reduces inflammation in human skin; the authors mention traditional use of the fruit for sunburn irritation only as background.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "29941006",
+     "doi": "10.1186/s12906-018-2254-1",
+     "title": "Water/ethanol extract of Cucumis sativus L. fruit attenuates lipopolysaccharide-induced inflammatory response in endothelial cells.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29941006/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "cucumber-4",
+   "text_en": "Case reports describe skin reactions linked to cucumber-containing products or exposure. Two reports from 1992 and 1993 describe contact dermatitis from preservatives (Euxyl K 400 and dibromodicyanobutane) in a cucumber eye gel, so their titles attribute the reaction to the preservative rather than to cucumber; a 2000 report is titled 'Cucumber contact dermatitis'. Abstracts are not available in PubMed, so details are limited, and case reports cannot show how often such reactions occur.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "1600741",
+     "doi": "10.1111/j.1600-0536.1992.tb00878.x",
+     "title": "Contact dermatitis from Euxyl K 400 in cucumber eye gel.",
+     "year": 1992,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/1600741/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "8365190",
+     "doi": "10.1111/j.1600-0536.1993.tb03496.x",
+     "title": "Contact dermatitis due to dibromodicyanobutane in cucumber eye gel.",
+     "year": 1993,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8365190/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "11011937",
+     "title": "Cucumber contact dermatitis.",
+     "year": 2000,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11011937/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Bodring (Cucumis sativus) mevasi ekstrakti (INCI: Cucumis Sativus Fruit Extract) o'simlik asosli kosmetik ingredient bo'lib, odatda namlovchi, tinchlantiruvchi va ko'z atrofi vositalari bilan bog'lanadi. Bu kartochka faqat surtiladigan kosmetik qo'llanishni qamrab oladi; bodringni iste'mol qilish qamrovdan tashqarida. Ushbu kartochka uchun o'tkazilgan PubMed qidiruvlarida bodring mevasi ekstraktining teri namligi, tinchlantirish, ta'sirlanish yoki ko'z atrofiga ta'sirini o'rgangan, odamlarda o'tkazilgan klinik tadqiqot topilmadi. Topilgan nashr etilgan dalillar laboratoriya (in vitro) tadqiqotlaridan (ularning bir qismi aralashmalar haqida), hamda bodring tarkibli vositalarga teri reaksiyalari haqidagi eski hikoya (case report) xabarlaridan iborat, shuning uchun inson terisi uchun foydasi isbotlanmagan. Tabiiy kelib chiqish mahsulot xavfdan holi ekanini bildirmaydi: teri reaksiyalari qayd etilgan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "cucumber-1": "Chaves termal buloq suvining taxminan 80%, hamda malva (Malva sylvestris) va bodring (Cucumis sativus) ekstraktlarini birlashtirgan formula bo'yicha laboratoriya tadqiqotida aralashma kimyoviy testlarda faqat termal suvga qaraganda yuqoriroq antioksidant faolligini ko'rsatgan hamda zarracha moddalar bilan rag'batlantirilgan inson keratinotsit hujayra qatorida (HaCaT) interleykin-1α va interleykin-6 miqdorini kamaytirgan. Bu hujayra va probirka natijalari bo'lib, ko'p komponentli aralashma haqida; bodring ekstrakti alohida ajratib o'rganilmagan va annotatsiyada inson terisida sinov haqida ma'lumot yo'q.",
+    "cucumber-2": "Hujayra kulturasi tadqiqotida bodring mevasining suv/etanolli ekstrakti bakterial lipopolisaxaridga duchor qilingan cho'chqa aorta endotelial hujayralarida bir nechta yallig'lanish signalini (masalan IL-8, keyinroq IL-6 va IL-1α) kamaytirgan. Bular qon tomir hujayralari bo'lib, teri hujayralari emas, shu sababli natija bodring ekstrakti inson terisida tinchlantirishi yoki yallig'lanishni kamaytirishini ko'rsatmaydi; mualliflar mevaning quyoshdan kuygandan keyingi ta'sirlanishda an'anaviy qo'llanilishini faqat fon sifatida eslatgan.",
+    "cucumber-4": "Hikoya (case report) xabarlarida bodring tarkibli vositalar yoki bodring bilan aloqaga bog'liq teri reaksiyalari tasvirlangan. 1992 va 1993-yillardagi ikki xabarda bodringli ko'z geli tarkibidagi konservantlar (Euxyl K 400 va dibromodicyanobutane) sababli kontakt dermatit tasvirlangan, ya'ni sarlavhalar reaksiyani bodringga emas, konservantga bog'laydi; 2000-yildagi xabar «Cucumber contact dermatitis» deb nomlangan. PubMed'da annotatsiyalar mavjud emas, shu sababli tafsilotlar cheklangan, hikoya xabarlari esa bunday reaksiyalar qanchalik tez-tez uchrashini ko'rsata olmaydi."
+   }
+  },
+  "ru": {
+   "summary": "Экстракт плодов огурца (Cucumis sativus) (INCI: Cucumis Sativus Fruit Extract) — косметический ингредиент растительного происхождения, который обычно связывают с увлажняющими и успокаивающими средствами и средствами для области вокруг глаз. Эта карточка охватывает только местное косметическое применение; употребление огурца в пищу не рассматривается. В поисках по PubMed, проведённых для этой карточки, клинических исследований экстракта плодов огурца на людях в отношении увлажнения кожи, успокаивающего эффекта, раздражения или области вокруг глаз не найдено. Найденные опубликованные данные состоят из лабораторных (in vitro) исследований, частично на смесях, а также из старых описаний случаев кожных реакций на средства с огурцом, поэтому польза для кожи человека не доказана. Естественное происхождение не означает отсутствия риска: сообщалось о кожных реакциях. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "cucumber-1": "В лабораторном исследовании состава, включающего около 80% термальной минеральной воды Chaves, экстракты мальвы лесной (Malva sylvestris) и огурца (Cucumis sativus), смесь показала в химических тестах более высокую антиоксидантную активность, чем одна термальная вода, и снижала интерлейкин-1α и интерлейкин-6 в линии кератиноцитов человека (HaCaT), стимулированных твёрдыми частицами. Это результаты на клетках и в пробирке для многокомпонентной смеси; эффект одного экстракта огурца не выделялся, а в аннотации нет данных об испытаниях на коже человека.",
+    "cucumber-2": "В исследовании на клеточной культуре водно-спиртовой экстракт плодов огурца снижал несколько воспалительных сигналов (например, IL-8, а позднее IL-6 и IL-1α) в эндотелиальных клетках аорты свиньи, подвергнутых действию бактериального липополисахарида. Это были клетки сосудов, а не кожи, поэтому результат не показывает, что экстракт огурца успокаивает кожу человека или уменьшает в ней воспаление; традиционное применение плода при раздражении после солнечного ожога упоминается авторами лишь как фон.",
+    "cucumber-4": "Описания случаев сообщают о кожных реакциях, связанных со средствами, содержащими огурец, или с контактом с огурцом. В двух сообщениях 1992 и 1993 годов описан контактный дерматит, вызванный консервантами (Euxyl K 400 и dibromodicyanobutane) в геле для глаз с огурцом, то есть в заголовках реакция отнесена к консерванту, а не к огурцу; сообщение 2000 года названо «Cucumber contact dermatitis». Аннотации в PubMed недоступны, поэтому подробности ограничены, а описания случаев не позволяют судить о частоте таких реакций."
+   }
+  },
+  "ar": {
+   "summary": "مستخلص ثمرة الخيار (Cucumis sativus) (الاسم في INCI: Cucumis Sativus Fruit Extract) مكوّن تجميلي من أصل نباتي يرتبط عادةً بمنتجات الترطيب والتهدئة والعناية بمحيط العينين. تغطي هذه البطاقة الاستعمال التجميلي الموضعي فقط؛ أما تناول الخيار عن طريق الفم فهو خارج نطاقها. في عمليات البحث في PubMed التي أُجريت لهذه البطاقة لم تُوجد دراسة سريرية على البشر عن مستخلص ثمرة الخيار فيما يخص ترطيب البشرة أو التهدئة أو التهيّج أو محيط العينين. وتتألف الأدلة المنشورة التي وُجدت من دراسات مخبرية (in vitro)، بعضها على خلائط، إضافةً إلى تقارير حالات قديمة عن تفاعلات جلدية تجاه منتجات تحتوي على الخيار، ولذلك فإن الفائدة للبشرة البشرية غير مثبتة. والأصل الطبيعي لا يعني خلوّ المنتج من المخاطر: فقد أُبلغ عن تفاعلات جلدية. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "cucumber-1": "في دراسة مخبرية لتركيبة تضم نحو 80% من مياه ينبوع Chaves الحرارية مع مستخلصي الخبّازى (Malva sylvestris) والخيار (Cucumis sativus)، أظهر الخليط قدرة مضادة للأكسدة في الاختبارات الكيميائية أعلى من الماء الحراري وحده، وخفّض الإنترلوكين-1α والإنترلوكين-6 في خط خلايا كيراتينية بشرية (HaCaT) مُحفَّزة بالجسيمات الدقيقة. هذه نتائج على الخلايا وفي المختبر لخليط متعدد المكوّنات؛ ولم يُعزل تأثير مستخلص الخيار وحده، ولا يذكر الملخص إجراء اختبار على جلد الإنسان.",
+    "cucumber-2": "في دراسة على مزارع الخلايا، خفّض مستخلص مائي/إيثانولي من ثمرة الخيار عدة إشارات التهابية (مثل الإنترلوكين-8، ثم الإنترلوكين-6 والإنترلوكين-1α لاحقًا) في خلايا بطانية من أبهر الخنزير عُرّضت لعديد السكاريد الشحمي البكتيري. كانت هذه خلايا وعائية وليست خلايا جلدية، لذلك لا تُظهر النتيجة أن مستخلص الخيار يهدّئ جلد الإنسان أو يقلّل الالتهاب فيه؛ ويذكر المؤلفون الاستعمال التقليدي للثمرة لتهيّج الجلد بعد حروق الشمس كخلفية فقط.",
+    "cucumber-4": "تصف تقارير الحالات تفاعلات جلدية مرتبطة بمنتجات تحتوي على الخيار أو بالتعرّض له. يصف تقريران من عامي 1992 و1993 التهاب جلد تماسّيًا ناجمًا عن مواد حافظة (Euxyl K 400 وdibromodicyanobutane) في جِل للعينين يحتوي على الخيار، أي أن عنواني التقريرين ينسبان التفاعل إلى المادة الحافظة لا إلى الخيار؛ أما تقرير عام 2000 فعنوانه «Cucumber contact dermatitis». الملخصات غير متاحة في PubMed، لذا فالتفاصيل محدودة، ولا تُظهر تقارير الحالات مدى تكرار مثل هذه التفاعلات."
+   }
+  }
+ }
+}

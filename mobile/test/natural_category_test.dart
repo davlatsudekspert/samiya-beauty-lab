@@ -10,7 +10,7 @@ Ingredient _ing(String slug, String inci, {String? category}) => Ingredient.from
       'inci': inci,
       'slug': slug,
       'status': 'draft',
-      if (category != null) 'category': category,
+      'category': ?category,
       'aliases': <String>[],
       'eu': {'verified': false},
       'summary': {'en': 'summary', 'uz': 'xulosa', 'ru': 'resume', 'ar': 'mulakhas'},

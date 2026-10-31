@@ -5,6 +5,7 @@
    "inci": "Niacinamide",
    "slug": "niacinamide",
    "status": "draft",
+   "category": "active",
    "aliases": [
     "Nicotinamide",
     "Vitamin B3"
@@ -106,6 +107,7 @@
    "inci": "Hyaluronic Acid",
    "slug": "hyaluronic-acid",
    "status": "draft",
+   "category": "active",
    "aliases": [],
    "eu": {
     "annex": "unverified",
@@ -204,6 +206,7 @@
    "inci": "Salicylic Acid",
    "slug": "salicylic-acid",
    "status": "draft",
+   "category": "active",
    "aliases": [
     "2-Hydroxybenzoic Acid"
    ],
@@ -284,6 +287,7 @@
    "inci": "Ascorbic Acid",
    "slug": "ascorbic-acid",
    "status": "draft",
+   "category": "active",
    "aliases": [
     "L-Ascorbic Acid",
     "Vitamin C"
@@ -385,6 +389,7 @@
    "inci": "Retinol",
    "slug": "retinol",
    "status": "draft",
+   "category": "active",
    "aliases": [],
    "eu": {
     "annex": "unverified",
@@ -480,9 +485,267 @@
    ]
   },
   {
+   "inci": "Aloe Barbadensis Leaf Juice",
+   "slug": "aloe-vera",
+   "status": "draft",
+   "category": "natural",
+   "aliases": [
+    "Aloe Vera"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Aloe vera gel (INCI: Aloe Barbadensis Leaf Juice) is a common cosmetic ingredient used in moisturising and after-sun products. This card covers topical cosmetic use only. Published human evidence is limited and consists mostly of small studies with mixed results: trials of after-sun use disagree with each other, and the one moisturisation trial summarised here had no placebo arm. As a plant-derived ingredient it should not be assumed to be free of risk: contact reactions have been reported and ingredient quality (for example anthraquinone content) matters. This card summarises published evidence only and is not medical advice.",
+    "uz": "Aloe vera geli (INCI: Aloe Barbadensis Leaf Juice) namlantiruvchi va quyoshdan keyingi vositalarda qo‘llaniladigan keng tarqalgan kosmetik ingredient. Bu kartochka faqat surtiladigan kosmetik qo‘llanishni qamrab oladi. Odamlarda chop etilgan dalillar cheklangan va asosan natijalari aralash bo‘lgan kichik tadqiqotlardan iborat: quyoshdan keyingi qo‘llanish bo‘yicha sinovlar bir-biriga zid, bu yerda keltirilgan yagona namlantirish sinovida esa plasebo guruhi bo‘lmagan. O‘simlikdan olingan ingredient sifatida uni xavf-xatarsiz deb faraz qilmaslik kerak: kontakt reaksiyalar haqida xabar berilgan va ingredient sifati (masalan, antraxinon miqdori) muhim. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Гель алоэ вера (INCI: Aloe Barbadensis Leaf Juice) является распространённым косметическим ингредиентом, который используется в увлажняющих средствах и средствах после загара. Эта карточка охватывает только местное косметическое применение. Опубликованные данные у людей ограничены и представлены в основном небольшими исследованиями со смешанными результатами: испытания применения после солнца противоречат друг другу, а единственное приведённое здесь испытание увлажнения не имело группы плацебо. Растительный ингредиент не следует считать заведомо не несущим риска: сообщалось о контактных реакциях, а качество ингредиента (например, содержание антрахинонов) имеет значение. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "جل الصبار (Aloe vera) (INCI: Aloe Barbadensis Leaf Juice) مكوّن تجميلي شائع يُستخدم في المرطّبات ومنتجات ما بعد التعرّض للشمس. تقتصر هذه البطاقة على الاستخدام التجميلي الموضعي فقط. الأدلة المنشورة على البشر محدودة وتتألف في معظمها من دراسات صغيرة ذات نتائج متباينة: فالتجارب الخاصة بالاستخدام بعد التعرّض للشمس تتعارض فيما بينها، والتجربة الوحيدة المعروضة هنا حول الترطيب لم تكن فيها مجموعة دواء وهمي. وبوصفه مكوّنًا نباتيًا لا ينبغي افتراض أنه خالٍ من المخاطر: فقد أُبلغ عن تفاعلات تماسّية، وجودة المكوّن (مثل محتوى الأنثراكينونات) مهمة. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "aloe-vera-1",
+     "level": "C",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A systematic review of 40 dermatology-oriented studies of aloe vera preparations concluded that topical aloe vera offered no sunburn or suntan protection and that the clinical effectiveness of topical and oral aloe vera has not yet been sufficiently explored; the included studies were of mixed design (in vitro, animal and clinical).",
+      "uz": "Aloe vera preparatlari bo‘yicha 40 ta dermatologiyaga oid tadqiqotning tizimli sharhi surtiladigan aloe vera quyosh kuyishi yoki qorayishidan himoya bermaganini va surtiladigan hamda og‘iz orqali qabul qilinadigan aloe veraning klinik samaradorligi hali yetarlicha o‘rganilmaganini xulosa qilgan; kiritilgan tadqiqotlar dizayni aralash bo‘lgan (in vitro, hayvonlarda va klinik).",
+      "ru": "Систематический обзор 40 дерматологических исследований препаратов алоэ вера пришёл к выводу, что алоэ вера для местного применения не обеспечивало защиты от солнечных ожогов и загара, а клиническая эффективность местного и перорального алоэ вера пока недостаточно изучена; включённые исследования были разнородными по дизайну (in vitro, на животных и клинические).",
+      "ar": "خلصت مراجعة منهجية شملت 40 دراسة جلدية حول مستحضرات الصبار (Aloe vera) إلى أن الصبار الموضعي لم يوفّر حماية من حروق الشمس أو اسمرار البشرة، وإلى أن الفعالية السريرية للصبار الموضعي والفموي لم تُستكشف بعد بما يكفي؛ وكانت الدراسات المشمولة متباينة التصميم (مخبرية in vitro وعلى الحيوانات وسريرية)."
+     },
+     "sources": [
+      {
+       "pmid": "19218914",
+       "doi": null,
+       "title": "Aloe vera in dermatology: a brief review.",
+       "year": 2009,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/19218914/"
+      }
+     ]
+    },
+    {
+     "id": "aloe-vera-2",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "Two small randomised, double-blind trials in healthy volunteers reached different conclusions about sunburn-related effects after experimental UVB exposure: in 40 volunteers, a 97.5% aloe vera gel significantly reduced UV-induced erythema after 48 hours (a 1% hydrocortisone cream was more effective), whereas in 20 volunteers a 70% aloe vera cream showed no sunburn or suntan protection and no benefit versus placebo. Both used artificial UV on small skin test areas and different formulations (a gel and a cream), so the results do not establish how aloe vera performs after real sun exposure.",
+      "uz": "Sog‘lom ko‘ngillilarda o‘tkazilgan ikkita kichik randomizatsiyalangan ikki tomonlama ko‘r sinov tajribaviy UVB ta‘siridan keyin quyosh kuyishiga oid ta‘sirlar bo‘yicha turlicha xulosaga kelgan: 40 ko‘ngillida 97,5% aloe vera geli 48 soatdan keyin UV chaqirgan qizarishni sezilarli kamaytirgan (1% gidrokortizon kremi esa samaraliroq bo‘lgan), 20 ko‘ngillida esa 70% aloe vera kremi quyosh kuyishi yoki qorayishidan himoya ko‘rsatmagan va plasebo bilan solishtirganda foyda bermagan. Ikkala sinovda ham terining kichik sinov maydonlariga sun‘iy UV qo‘llangan va turli shakllar (gel va krem) ishlatilgan, shu sababli natijalar aloe vera haqiqiy quyosh ta‘siridan keyin qanday ishlashini belgilab bermaydi.",
+      "ru": "Два небольших рандомизированных двойных слепых исследования на здоровых добровольцах пришли к разным выводам об эффектах, связанных с солнечным ожогом, после экспериментального облучения UVB: у 40 добровольцев гель алоэ вера 97,5% значительно уменьшал УФ-индуцированную эритему через 48 часов (крем с 1% гидрокортизона был эффективнее), тогда как у 20 добровольцев крем алоэ вера 70% не показал защиты от солнечных ожогов и загара и не дал преимущества по сравнению с плацебо. В обоих исследованиях использовали искусственный УФ на небольших тестовых участках кожи и разные формы (гель и крем), поэтому результаты не позволяют судить о том, как алоэ вера действует после реального пребывания на солнце.",
+      "ar": "توصّلت تجربتان عشوائيتان صغيرتان مزدوجتا التعمية على متطوعين أصحاء إلى نتائج مختلفة بشأن التأثيرات المتعلقة بحروق الشمس بعد تعريض تجريبي للأشعة فوق البنفسجية UVB: ففي 40 متطوعًا خفّض جل الصبار بتركيز 97.5% احمرار البشرة الناجم عن الأشعة فوق البنفسجية بشكل ملحوظ بعد 48 ساعة (وكان كريم الهيدروكورتيزون 1% أكثر فعالية)، بينما لم يُظهر كريم الصبار بتركيز 70% في 20 متطوعًا أي حماية من حروق الشمس أو اسمرار البشرة ولا أي فائدة مقارنة بالدواء الوهمي. استُخدمت في التجربتين أشعة فوق بنفسجية اصطناعية على مساحات اختبار صغيرة من الجلد وبتركيبتين مختلفتين (جل وكريم)، لذلك لا تحدّد النتائج أداء الصبار بعد التعرّض الفعلي للشمس."
+     },
+     "sources": [
+      {
+       "pmid": "18253066",
+       "doi": "10.1159/000114871",
+       "title": "Investigation of the anti-inflammatory potential of Aloe vera gel (97.5%) in the ultraviolet erythema test.",
+       "year": 2008,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/18253066/"
+      },
+      {
+       "pmid": "16623024",
+       "doi": null,
+       "title": "Efficacy of aloe vera cream in prevention and treatment of sunburn and suntan.",
+       "year": 2005,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/16623024/"
+      }
+     ]
+    },
+    {
+     "id": "aloe-vera-3",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a randomised trial of 35 patients with chronic kidney disease on haemodialysis and dry skin (xerosis cutis), a 30% aloe vera cream and a 20% urea cream each increased skin moisture (corneometer readings) and lowered dry-skin scores over 4 weeks compared with baseline, with no significant difference between the two creams; the trial had no placebo arm, so the improvement cannot be attributed to aloe vera alone.",
+      "uz": "Gemodializdagi surunkali buyrak kasalligi va quruq teri (kserozis) bilan og‘rigan 35 bemor ishtirok etgan randomizatsiyalangan sinovda 30% aloe vera kremi va 20% mochevina kremi 4 hafta davomida boshlang‘ich ko‘rsatkichlarga nisbatan teri namligini (korneometr ko‘rsatkichlari) oshirgan va quruq teri ballarini pasaytirgan, ikki krem o‘rtasida sezilarli farq bo‘lmagan; sinovda plasebo guruhi bo‘lmagan, shu sababli yaxshilanishni faqat aloe veraga bog‘lab bo‘lmaydi.",
+      "ru": "В рандомизированном исследовании с участием 35 пациентов с хронической болезнью почек на гемодиализе и сухой кожей (ксероз) крем алоэ вера 30% и крем с мочевиной 20% оба повышали увлажнённость кожи (показания корнеометра) и снижали баллы сухости кожи за 4 недели по сравнению с исходным уровнем, без значимой разницы между двумя кремами; в исследовании не было группы плацебо, поэтому улучшение нельзя приписать только алоэ вера.",
+      "ar": "في تجربة عشوائية شملت 35 مريضًا بالداء الكلوي المزمن يخضعون لغسيل الكلى ويعانون من جفاف الجلد (جفاف الجلد المرضي xerosis cutis)، رفع كريم الصبار بتركيز 30% وكريم اليوريا بتركيز 20% كلٌّ منهما رطوبة الجلد (قراءات مقياس الرطوبة corneometer) وخفّضا درجات جفاف الجلد على مدى 4 أسابيع مقارنة بالقيم الأساسية، دون فرق معنوي بين الكريمين؛ ولم تكن في التجربة مجموعة دواء وهمي، لذلك لا يمكن عزو التحسن إلى الصبار وحده."
+     },
+     "sources": [
+      {
+       "pmid": "42340432",
+       "doi": "10.4081/dr.2026.10496",
+       "title": "Comparison of the effectiveness of 30%cream and 20% urea cream as topical treatment for xerosis cutis in chronic kidney disease: a randomized clinical trial.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42340432/"
+      }
+     ]
+    },
+    {
+     "id": "aloe-vera-4",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "The Cosmetic Ingredient Review (CIR), an industry expert panel and not a regulator, reported in 2007 that aloe-derived cosmetic ingredients, including Aloe Barbadensis Leaf Juice, function primarily as skin-conditioning agents and are mostly used at low concentrations; the leaf latex contains anthraquinones, which are phototoxic and gastrointestinal irritants, and the panel advised an industry limit of 50 ppm anthraquinones in aloe materials for non-medicinal use, together with limits on pesticide and heavy-metal contamination. It noted case reports of eczema, contact urticaria and dermatitis after topical use. This report is from 2007 and does not cover later studies.",
+      "uz": "Kosmetik ingredientlar sharhi (CIR) — regulyator emas, sanoat ekspert kengashi — 2007 yilda aloe asosidagi kosmetik ingredientlar, jumladan Aloe Barbadensis Leaf Juice, asosan terini kondensionerlovchi vosita vazifasini bajarishini va ko‘pincha past konsentratsiyalarda ishlatilishini xabar qilgan; barg lateksida antraxinonlar bor, ular fototoksik va oshqozon-ichak yo‘lini bezovta qiluvchi moddalardir, kengash esa tibbiy bo‘lmagan maqsadlar uchun aloe materiallarida antraxinonlar bo‘yicha 50 ppm sanoat chegarasini hamda pestitsid va og‘ir metall ifloslanishiga chegaralarni tavsiya qilgan. Surtilgandan keyin ekzema, kontakt urtikariya va dermatit holatlari haqidagi xabarlar qayd etilgan. Bu hisobot 2007 yilga oid bo‘lib, keyingi tadqiqotlarni qamrab olmaydi.",
+      "ru": "Cosmetic Ingredient Review (CIR) — экспертная комиссия отрасли, а не регулятор — сообщила в 2007 году, что косметические ингредиенты на основе алоэ, включая Aloe Barbadensis Leaf Juice, выполняют главным образом функцию кондиционирующих кожу средств и в основном применяются в низких концентрациях; латекс листа содержит антрахиноны, которые фототоксичны и раздражают желудочно-кишечный тракт, а комиссия рекомендовала отраслевой предел 50 ppm антрахинонов в материалах алоэ немедицинского назначения, а также пределы загрязнения пестицидами и тяжёлыми металлами. Отмечены сообщения о случаях экземы, контактной крапивницы и дерматита после местного применения. Этот отчёт относится к 2007 году и не охватывает более поздние исследования.",
+      "ar": "أفادت هيئة مراجعة المكوّنات التجميلية (CIR)، وهي لجنة خبراء تابعة للصناعة وليست جهة تنظيمية، في عام 2007 بأن المكوّنات التجميلية المشتقة من الصبار، ومنها Aloe Barbadensis Leaf Juice، تعمل أساسًا كعوامل لتكييف الجلد وتُستخدم غالبًا بتراكيز منخفضة؛ ويحتوي لاتكس الأوراق على أنثراكينونات هي مواد سامّة ضوئيًا ومهيّجة للجهاز الهضمي، وأوصت اللجنة بحد صناعي قدره 50 جزءًا في المليون من الأنثراكينونات في مواد الصبار المخصّصة للاستخدام غير الطبي، إضافة إلى حدود للتلوث بالمبيدات والمعادن الثقيلة. وأشارت إلى تقارير حالات عن الإكزيما والشرى التماسّي والتهاب الجلد بعد الاستخدام الموضعي. هذا التقرير يعود إلى عام 2007 ولا يشمل الدراسات اللاحقة."
+     },
+     "sources": [
+      {
+       "pmid": "17613130",
+       "doi": "10.1080/10915810701351186",
+       "title": "Final report on the safety assessment of AloeAndongensis Extract, Aloe Andongensis Leaf Juice,aloe Arborescens Leaf Extract, Aloe Arborescens Leaf Juice, Aloe Arborescens Leaf Protoplasts, Aloe Barbadensis Flower Extract, Aloe Barbadensis Leaf, Aloe Barbadensis Leaf Extract, Aloe Barbadensis Leaf Juice,aloe Barbadensis Leaf Polysaccharides, Aloe Barbadensis Leaf Water, Aloe Ferox Leaf Extract, Aloe Ferox Leaf Juice, and Aloe Ferox Leaf Juice Extract.",
+       "year": 2007,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/17613130/"
+      }
+     ]
+    },
+    {
+     "id": "aloe-vera-5",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "A patch-test study of 702 consecutive patients found no reactions to an oily leaf extract, an aloe powder from the whole plant or a concentrated aloe vera gel, and the authors noted that allergic reactions to aloe are rare; however, a case report described allergic contact dermatitis in a woman who applied home-made aloe vera juice to her legs, with positive patch tests to the aloe leaf and the macerated aloe jelly (and to nickel sulfate). These are limited observational data and cannot exclude reactions in individual people.",
+      "uz": "Ketma-ket 702 bemor ishtirok etgan patch-test (teri yamoq sinovi) tadqiqotida moyli barg ekstrakti, butun o‘simlikdan olingan aloe kukuni yoki konsentratlangan aloe vera geliga hech qanday reaksiya topilmagan va mualliflar aloega allergik reaksiyalar kam uchrashini qayd etgan; biroq bitta klinik holat tavsifida oyoqlariga uyda tayyorlangan aloe vera sharbatini surtgan ayolda allergik kontakt dermatit yuzaga kelgan, aloe bargi va maydalangan aloe jelega (hamda nikel sulfatga) patch-test musbat chiqqan. Bu cheklangan kuzatuv ma‘lumotlari bo‘lib, alohida odamlarda reaksiyalarni inkor eta olmaydi.",
+      "ru": "В исследовании с патч-тестами у 702 последовательных пациентов не было реакций на масляный экстракт листьев, порошок алоэ из цельного растения и концентрированный гель алоэ вера, и авторы отметили, что аллергические реакции на алоэ редки; однако в описании клинического случая сообщалось об аллергическом контактном дерматите у женщины, наносившей на ноги домашний сок алоэ вера, с положительными патч-тестами на лист алоэ и измельчённое желе алоэ (а также на сульфат никеля). Это ограниченные данные наблюдений, которые не исключают реакций у отдельных людей.",
+      "ar": "لم تجد دراسة اختبارات اللصقة (patch test) على 702 مريض متتالين أي تفاعل تجاه مستخلص زيتي من الأوراق أو مسحوق صبار من النبات كاملًا أو جل صبار مركّز، ولاحظ المؤلفون أن التفاعلات التحسسية تجاه الصبار نادرة؛ غير أن تقرير حالة وصف التهاب جلد تماسّيًا تحسسيًا لدى امرأة وضعت عصير صبار منزلي الصنع على ساقيها، مع نتائج إيجابية لاختبار اللصقة تجاه ورقة الصبار وهلام الصبار المهروس (وكذلك تجاه كبريتات النيكل). هذه بيانات رصدية محدودة ولا يمكنها استبعاد حدوث تفاعلات لدى أفراد بعينهم."
+     },
+     "sources": [
+      {
+       "pmid": "16364121",
+       "doi": "10.1111/j.0105-1873.2005.00713.x",
+       "title": "Absence of contact sensitization to Aloe vera (L.) Burm. f.",
+       "year": 2005,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/16364121/"
+      },
+      {
+       "pmid": "17868225",
+       "doi": "10.1111/j.1600-0536.2007.01118.x",
+       "title": "Allergic contact dermatitis to Aloe vera.",
+       "year": 2007,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/17868225/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Musa Sapientum Fruit Extract",
+   "slug": "banana",
+   "status": "draft",
+   "category": "natural",
+   "aliases": [
+    "Banana",
+    "Musa Sapientum (Banana) Fruit Extract"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Banana (Musa) fruit and peel extracts are used in some topical cosmetic products, and laboratory studies have examined their antioxidant and pigmentation-related properties. The evidence found for topical skin use is very limited: one small uncontrolled human study plus laboratory (in vitro and animal) experiments. No randomised controlled trial of topical banana extract in humans was found in the PubMed searches done for this card. Most of the studies used peel extracts of various banana varieties, which may differ from the fruit extract named on ingredient labels. Banana can also cause allergic reactions, including cross-reactivity in people with latex allergy (latex-fruit syndrome) and, in case reports, contact urticaria. This card summarises published evidence only and is not medical advice.",
+    "uz": "Banan (Musa) mevasi va po‘stlog‘i ekstrakti ba‘zi surtiladigan kosmetik vositalarda ishlatiladi, laboratoriya tadqiqotlarida esa ularning antioksidant va pigmentatsiyaga oid xossalari o‘rganilgan. Teriga surtish bo‘yicha topilgan dalillar juda cheklangan: bitta kichik nazoratsiz tadqiqot odamlarda, shuningdek laboratoriya (in vitro va hayvonlarda) tajribalari. Ushbu kartochka uchun o‘tkazilgan PubMed qidiruvlarida odamlarda surtiladigan banan ekstrakti bo‘yicha randomizatsiyalangan nazoratli tadqiqot topilmadi. Tadqiqotlarning ko‘pchiligida banan navlarining po‘stlog‘i ekstrakti ishlatilgan, bu ingredient yorlig‘ida ko‘rsatilgan meva ekstraktidan farq qilishi mumkin. Banan allergik reaksiyalarni ham keltirib chiqarishi mumkin, jumladan lateks allergiyasi bo‘lgan odamlarda o‘zaro reaktivlikni (lateks-meva sindromi) va hodisa hisobotlarida kontakt urtikariyani. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Экстракты плодов и кожуры банана (Musa) используются в некоторых косметических средствах для местного применения, а в лабораторных исследованиях изучались их антиоксидантные свойства и свойства, связанные с пигментацией. Найденные данные о применении на коже очень ограничены: одно небольшое неконтролируемое исследование на людях, а также лабораторные (in vitro и на животных) эксперименты. В поисках PubMed, проведённых для этой карточки, рандомизированных контролируемых исследований местного применения экстракта банана у людей не найдено. В большинстве исследований использовались экстракты кожуры разных сортов банана, которые могут отличаться от экстракта плодов, указанного в составе средств. Банан также может вызывать аллергические реакции, включая перекрёстную реактивность у людей с аллергией на латекс (латексно-фруктовый синдром) и, по описаниям клинических случаев, контактную крапивницу. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "تُستخدم مستخلصات ثمرة الموز وقشره (Musa) في بعض المنتجات التجميلية الموضعية، وقد درست الأبحاث المخبرية خصائصها المضادة للأكسدة والمتعلقة بالتصبغ. الأدلة التي وُجدت عن الاستخدام الموضعي على الجلد محدودة جدًا: دراسة صغيرة واحدة غير مضبوطة على البشر، إضافة إلى تجارب مخبرية (في المختبر وعلى الحيوانات). لم يُعثر في عمليات البحث في PubMed التي أُجريت لهذه البطاقة على تجربة عشوائية مضبوطة لمستخلص الموز الموضعي على البشر. استخدمت معظم الدراسات مستخلصات قشور أصناف مختلفة من الموز، وقد تختلف عن مستخلص الثمرة المذكور على ملصقات المكوّنات. كما قد يسبب الموز تفاعلات تحسسية، منها التفاعل المتصالب لدى المصابين بحساسية اللاتكس (متلازمة اللاتكس والفاكهة) وكذلك الشرى التماسي بحسب تقارير الحالات. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "banana-1",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In a single-arm, uncontrolled proof-of-concept study, 49 women aged 25 to 50 who completed 12 weeks of nightly use of a serum containing 5% lady finger banana (Musa acuminata Colla) peel extract nanoparticles had lower dermoscopic photoaging scores and lower serum MMP-1 levels at week 12 than at baseline, and no adverse events were reported. Without a control group, the authors state the findings are preliminary and do not establish efficacy or causality.",
+      "uz": "Bitta guruhli, nazoratsiz dastlabki tadqiqotda tarkibida 5% lady finger bananining (Musa acuminata Colla) po‘stlog‘i ekstrakti nanozarrachalari bo‘lgan zardobni 12 hafta davomida har kecha ishlatib bo‘lgan 25 yoshdan 50 yoshgacha bo‘lgan 49 nafar ayolda 12-haftada dermoskopik fotoqarish ballari va qon zardobidagi MMP-1 darajasi boshlang‘ich holatga qaraganda pastroq bo‘lgan, nojo‘ya ta‘sirlar qayd etilmagan. Nazorat guruhi bo‘lmagani sababli, mualliflar natijalarni dastlabki deb hisoblaydi va ular samaradorlik yoki sababiy bog‘liqlikni isbotlamaydi, deb ta‘kidlaydi.",
+      "ru": "В одногрупповом неконтролируемом пилотном исследовании у 49 женщин в возрасте от 25 до 50 лет, завершивших 12 недель ежевечернего применения сыворотки с наночастицами 5% экстракта кожуры банана lady finger (Musa acuminata Colla), на 12-й неделе дерматоскопические показатели фотостарения и уровень MMP-1 в сыворотке крови были ниже исходных, нежелательных явлений не зарегистрировано. Из-за отсутствия контрольной группы авторы считают результаты предварительными, не доказывающими эффективность или причинно-следственную связь.",
+      "ar": "في دراسة استكشافية أحادية الذراع وغير مضبوطة، سجّلت 49 امرأة تتراوح أعمارهن بين 25 و50 عامًا أكملن 12 أسبوعًا من الاستخدام الليلي لمصل يحتوي على جسيمات نانوية من مستخلص قشر الموز lady finger (Musa acuminata Colla) بتركيز 5% درجات أقل للشيخوخة الضوئية بالتنظير الجلدي ومستويات أقل لـ MMP-1 في المصل في الأسبوع 12 مقارنة بالقياس الأساسي، ولم تُسجَّل أي أعراض جانبية. ونظرًا لعدم وجود مجموعة ضابطة، يرى المؤلفون أن النتائج أولية ولا تثبت الفعالية أو العلاقة السببية."
+     },
+     "sources": [
+      {
+       "pmid": "42657390",
+       "doi": "10.3389/fmed.2026.1886006",
+       "title": "Changes in dermoscopic photoaging and serum MMP-1 following 12 weeks of 5% lady finger banana peel extract nanoparticle serum: a single-arm proof-of-concept study.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42657390/"
+      }
+     ]
+    },
+    {
+     "id": "banana-2",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In laboratory experiments (in vitro), extracts of Hom Thong banana peel, which are rich in phenolic compounds, were reported to reduce melanin content and tyrosinase activity in human and mouse melanoma cells and to suppress expression of melanogenesis-related genes, with effects described as comparable to the arbutin and kojic acid comparison groups; a molecular docking analysis also suggested that rosmarinic acid may interact with tyrosinase. These are cell-line and computational results and do not show an effect on human skin.",
+      "uz": "Laboratoriya tajribalarida (in vitro) fenol birikmalariga boy Hom Thong banani po‘stlog‘i ekstraktlari inson va sichqon melanoma hujayralarida melanin miqdori va tirozinaza faolligini kamaytirgani hamda melanogenezga oid genlar ifodasini susaytirgani qayd etilgan, ta‘sir arbutin va kojik kislota qiyosiy guruhlariga o‘xshash deb ta‘riflangan; molekulyar dokking tahlili ham rosmarin kislotasi tirozinaza bilan o‘zaro ta‘sirlashishi mumkinligini ko‘rsatgan. Bular hujayra liniyalari va hisoblash natijalari bo‘lib, inson terisiga ta‘sirni ko‘rsatmaydi.",
+      "ru": "В лабораторных экспериментах (in vitro) экстракты кожуры банана Hom Thong, богатые фенольными соединениями, по сообщениям, снижали содержание меланина и активность тирозиназы в клетках меланомы человека и мыши и подавляли экспрессию генов, связанных с меланогенезом, причём эффекты описаны как сопоставимые с группами сравнения с арбутином и койевой кислотой; молекулярный докинг также показал, что розмариновая кислота может взаимодействовать с тирозиназой. Это результаты на клеточных линиях и компьютерные расчёты, они не показывают эффекта на коже человека.",
+      "ar": "في تجارب مخبرية (in vitro)، أُفيد بأن مستخلصات قشر الموز Hom Thong، الغنية بالمركبات الفينولية، خفّضت محتوى الميلانين ونشاط التيروزيناز في خلايا الورم الميلانيني البشرية والفأرية وثبّطت التعبير عن الجينات المرتبطة بتكوين الميلانين، ووُصفت التأثيرات بأنها قابلة للمقارنة بمجموعتي المقارنة أربوتين وحمض الكوجيك؛ كما أشار تحليل الالتحام الجزيئي إلى أن حمض الروزمارينيك قد يتفاعل مع التيروزيناز. هذه نتائج على خطوط خلوية وحسابية ولا تُظهر تأثيرًا على جلد الإنسان."
+     },
+     "sources": [
+      {
+       "pmid": "39684912",
+       "doi": "10.3390/ijms252313202",
+       "title": "Valorization of Hom Thong Banana Peel (sp., AAA Group) as an Anti-Melanogenic Agent Through Inhibition of Pigmentary Genes and Molecular Docking Study.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39684912/"
+      }
+     ]
+    },
+    {
+     "id": "banana-3",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In a UVB-induced photoaging model in Wistar rats, a transfersome gel of kepok banana (Musa balbisiana) peel ethanol extract, applied three times a week for 4 weeks, was reported to reduce wrinkle degree, epidermal thickening, lipid peroxidation markers (MDA, TNF-alpha) and MMP-1 expression compared with a non-transfersome gel group. This is animal data and cannot be extrapolated to human skin.",
+      "uz": "Wistar kalamushlarida UVB sabab bo‘lgan fotoqarish modelida kepok banani (Musa balbisiana) po‘stlog‘i etanol ekstraktining transfersoma geli haftasiga uch marta 4 hafta davomida surtilganda, transfersoma bo‘lmagan gel guruhiga qaraganda ajinlar darajasi, epidermis qalinlashuvi, lipid peroksidlanish ko‘rsatkichlari (MDA, TNF-alfa) va MMP-1 ifodasi kamaygani qayd etilgan. Bu hayvonlardagi ma‘lumot bo‘lib, uni inson terisiga ko‘chirib bo‘lmaydi.",
+      "ru": "В модели фотостарения, вызванного UVB, у крыс Wistar гель-трансферсома с этанольным экстрактом кожуры банана kepok (Musa balbisiana), наносимый три раза в неделю в течение 4 недель, по сообщениям, уменьшал степень морщин, утолщение эпидермиса, маркеры перекисного окисления липидов (MDA, TNF-альфа) и экспрессию MMP-1 по сравнению с группой геля без трансферсом. Это данные на животных, их нельзя переносить на кожу человека.",
+      "ar": "في نموذج للشيخوخة الضوئية المحدثة بالأشعة فوق البنفسجية UVB لدى جرذان Wistar، أُفيد بأن جل ترانسفيرسوم من المستخلص الإيثانولي لقشر الموز kepok (Musa balbisiana)، المطبّق ثلاث مرات أسبوعيًا لمدة 4 أسابيع، خفّض درجة التجاعيد وسماكة البشرة ومؤشرات أكسدة الدهون (MDA وTNF-alpha) والتعبير عن MMP-1 مقارنة بمجموعة الجل الخالي من الترانسفيرسوم. هذه بيانات على الحيوانات ولا يمكن تعميمها على جلد الإنسان."
+     },
+     "sources": [
+      {
+       "pmid": "39308702",
+       "doi": "10.5455/OVJ.2024.v14.i8.28",
+       "title": "Ameliorative effect of transfersome gel of kepok banana peel extract () against photoaging in Wistar rat skin.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39308702/"
+      }
+     ]
+    },
+    {
+     "id": "banana-4",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A PRISMA-based literature review of latex-fruit syndrome (cross-reactivity between natural latex allergens and some fruit allergens) reported banana among the fruits most commonly involved in affected people, together with avocado, kiwifruit and papaya; reported prevalence varied widely between studies (4-88%), and systemic symptoms accounted for 73% and localised symptoms for 27% of reported symptoms. The review does not test cosmetic products, but people with a known latex or banana allergy may wish to be cautious with banana-containing products.",
+      "uz": "Lateks-meva sindromi (tabiiy lateks allergenlari va ba‘zi meva allergenlari o‘rtasidagi o‘zaro reaktivlik) bo‘yicha PRISMA asosidagi adabiyotlar sharhida banan ta‘sirlangan odamlarda eng ko‘p uchraydigan mevalar qatorida, avokado, kivi va papayya bilan birga, keltirilgan; qayd etilgan tarqalish tadqiqotlar o‘rtasida keng farq qilgan (4-88%), qayd etilgan alomatlarning 73 foizi tizimli, 27 foizi mahalliy bo‘lgan. Sharh kosmetik vositalarni sinamagan, ammo ma‘lum lateks yoki banan allergiyasi bo‘lgan odamlar tarkibida banan bo‘lgan vositalarda ehtiyot bo‘lishni xohlashi mumkin.",
+      "ru": "В обзоре литературы по методике PRISMA, посвящённом латексно-фруктовому синдрому (перекрёстная реактивность между аллергенами натурального латекса и некоторых фруктов), банан назван среди фруктов, наиболее часто вовлечённых у пострадавших, наряду с авокадо, киви и папайей; распространённость в разных исследованиях сильно различалась (4-88%), а системные симптомы составили 73%, местные 27% зарегистрированных симптомов. В обзоре косметические средства не тестировались, но людям с известной аллергией на латекс или банан может быть разумно соблюдать осторожность со средствами, содержащими банан.",
+      "ar": "أشارت مراجعة للأدبيات وفق منهجية PRISMA حول متلازمة اللاتكس والفاكهة (التفاعل المتصالب بين مستضدات اللاتكس الطبيعي ومستضدات بعض الفواكه) إلى أن الموز من أكثر الفواكه ارتباطًا بالمصابين، إلى جانب الأفوكادو والكيوي والبابايا؛ وتباينت معدلات الانتشار المسجّلة تباينًا واسعًا بين الدراسات (4-88%)، وشكّلت الأعراض الجهازية 73% والأعراض الموضعية 27% من الأعراض المسجّلة. لم تختبر المراجعة المنتجات التجميلية، لكن قد يرغب من لديهم حساسية معروفة من اللاتكس أو الموز في توخي الحذر مع المنتجات المحتوية على الموز."
+     },
+     "sources": [
+      {
+       "pmid": "39064262",
+       "doi": "10.3390/jcm13144222",
+       "title": "Revisiting Latex-Fruit Syndrome after 30 Years of Research: A Comprehensive Literature Review and Description of Two Cases.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39064262/"
+      }
+     ]
+    },
+    {
+     "id": "banana-5",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "A French case report of two atopic patients described contact urticaria after skin contact with foods; one 45-year-old woman had face and hand dermatitis with contact urticaria to potato and banana, and a Prausnitz-Kustner passive transfer test was positive only for potato and banana. This is an old report of two cases involving fresh foods, not cosmetic products, and it cannot show how common such reactions are.",
+      "uz": "Fransuz tilidagi hodisa hisobotida atopiyali ikki bemorda oziq-ovqat mahsulotlari bilan teri aloqasidan keyingi kontakt urtikariya tasvirlangan; 45 yoshli bir ayolda yuz va qo‘llar dermatiti bo‘lib, kartoshka va bananga kontakt urtikariya kuzatilgan, Prausnits-Kyustner passiv o‘tkazish sinovi faqat kartoshka va banan uchun musbat bo‘lgan. Bu ikki holat haqidagi eski hisobot bo‘lib, unda yangi oziq-ovqat mahsulotlari ishtirok etgan, kosmetik vositalar emas, va bunday reaksiyalar qanchalik tez-tez uchrashini ko‘rsata olmaydi.",
+      "ru": "В французском описании клинических случаев двух пациентов с атопией была описана контактная крапивница после контакта кожи с пищевыми продуктами; у одной 45-летней женщины был дерматит лица и рук с контактной крапивницей на картофель и банан, а проба пассивного переноса Праусница-Кюстнера была положительной только для картофеля и банана. Это старое описание двух случаев со свежими пищевыми продуктами, а не косметическими средствами, и оно не позволяет судить о том, как часто возникают такие реакции.",
+      "ar": "وصف تقرير حالات فرنسي لمريضين مصابين بالتأتب الشرى التماسي بعد تلامس الجلد مع أطعمة؛ إذ عانت امرأة في الخامسة والأربعين من التهاب جلد في الوجه واليدين مع شرى تماسي تجاه البطاطا والموز، وكان اختبار النقل السلبي (برواسنيتز-كوستنر) إيجابيًا للبطاطا والموز فقط. هذا تقرير قديم عن حالتين شمل أطعمة طازجة وليس منتجات تجميلية، ولا يمكنه بيان مدى شيوع هذه التفاعلات."
+     },
+     "sources": [
+      {
+       "pmid": "7171194",
+       "doi": null,
+       "title": "[Contact urticaria in atopic patients. Apropos of 2 cases].",
+       "year": 1982,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/7171194/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "inci": "Ceramide NP",
    "slug": "ceramide-np",
    "status": "draft",
+   "category": "active",
    "aliases": [],
    "eu": {
     "annex": "unverified",
@@ -578,10 +841,225 @@
    ]
   },
   {
+   "inci": "Cocos Nucifera Oil",
+   "slug": "coconut-oil",
+   "status": "draft",
+   "category": "natural",
+   "aliases": [
+    "Coconut Oil",
+    "Cocos Nucifera (Coconut) Oil"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Coconut oil (INCI: Cocos Nucifera Oil) is a plant-derived oil used in topical products as an emollient for dry skin. Published clinical studies of topical coconut oil are small to moderate in size and often compare it with mineral oil, and the evidence for babies' skin is mixed. Plant-derived does not mean free of risk: allergic contact reactions to coconut-derived ingredients have been described in case reports. This card covers topical cosmetic use only, summarises published evidence only and is not medical advice.",
+    "uz": "Kokos moyi (INCI: Cocos Nucifera Oil) quruq teri uchun yumshatuvchi (emolent) sifatida surtiladigan vositalarda ishlatiladigan o‘simlik moyi. Surtiladigan kokos moyi bo‘yicha chop etilgan klinik tadqiqotlar kichikdan o‘rtacha hajmgacha bo‘lib, ko‘pincha mineral moy bilan solishtirilgan, chaqaloqlar terisi bo‘yicha dalillar esa aralash. O‘simlik manbasidan olingani xavf yo‘qligini anglatmaydi: kokosdan olingan ingredientlarga allergik kontakt reaksiyalar alohida klinik holatlar bayonida (case report) tasvirlangan. Bu kartochka faqat surtiladigan kosmetik qo‘llanishni qamrab oladi, faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Кокосовое масло (INCI: Cocos Nucifera Oil) — растительное масло, которое используется в средствах для местного применения как смягчающее (эмолент) для сухой кожи. Опубликованные клинические исследования местного применения кокосового масла имеют небольшой или средний объём и часто сравнивают его с минеральным маслом, а данные по коже младенцев неоднородны. Растительное происхождение не означает отсутствия риска: в описаниях клинических случаев (case report) сообщалось об аллергических контактных реакциях на ингредиенты, полученные из кокоса. Эта карточка охватывает только местное косметическое применение, обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "زيت جوز الهند (INCI: Cocos Nucifera Oil) زيت نباتي المصدر يُستخدم في المنتجات الموضعية كمُلطِّف (emollient) للبشرة الجافة. الدراسات السريرية المنشورة عن زيت جوز الهند الموضعي صغيرة إلى متوسطة الحجم وغالبًا ما تقارنه بالزيت المعدني، كما أن الأدلة المتعلقة ببشرة الرضّع متباينة. كون المنتج نباتي المصدر لا يعني خلوّه من المخاطر: فقد وُصفت في تقارير الحالات (case reports) تفاعلات تماسّية تحسسية تجاه مكوّنات مشتقة من جوز الهند. تغطي هذه البطاقة الاستخدام التجميلي الموضعي فقط، وتلخّص الأدلة المنشورة فقط، وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "coconut-oil-2",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a double-blind randomised trial of 117 children with mild to moderate atopic dermatitis, eight weeks of topical virgin coconut oil was associated with a larger fall in SCORAD score (68.23% vs 38.13%) and with better transepidermal water loss and skin capacitance than mineral oil; this was a single trial in a clinical population, with mineral oil rather than placebo as the comparator.",
+      "uz": "Yengil va o‘rtacha atopik dermatitli 117 nafar bola ishtirok etgan ikki tomonlama ko‘r randomizatsiyalangan tadqiqotda sakkiz hafta davomida surtilgan sof (virgin) kokos moyi mineral moyga nisbatan SCORAD ballining kattaroq pasayishi (68,23% ga qarshi 38,13%) hamda transepidermal suv yo‘qotilishi va teri sig‘imining yaxshiroq ko‘rsatkichlari bilan bog‘langan; bu klinik guruhdagi yagona tadqiqot bo‘lib, solishtirish guruhida plasebo emas, mineral moy ishlatilgan.",
+      "ru": "В двойном слепом рандомизированном исследовании с участием 117 детей с атопическим дерматитом лёгкой и средней степени восемь недель наружного применения нерафинированного (virgin) кокосового масла были связаны с большим снижением балла SCORAD (68,23% против 38,13%) и с лучшими показателями трансэпидермальной потери воды и ёмкости кожи по сравнению с минеральным маслом; это единственное исследование в клинической группе, а в качестве сравнения использовалось минеральное масло, а не плацебо.",
+      "ar": "في تجربة عشوائية مزدوجة التعمية شملت 117 طفلًا مصابين بالتهاب الجلد التأتبي الخفيف إلى المتوسط، ارتبط استخدام زيت جوز الهند البكر موضعيًا لمدة ثمانية أسابيع بانخفاض أكبر في درجة SCORAD (68.23% مقابل 38.13%) وبأفضلية في فقدان الماء عبر البشرة وسعة الجلد مقارنةً بالزيت المعدني؛ وهذه تجربة واحدة في فئة سريرية، وكان المقارِن زيتًا معدنيًا لا دواءً وهميًا."
+     },
+     "sources": [
+      {
+       "pmid": "24320105",
+       "doi": "10.1111/ijd.12339",
+       "title": "The effect of topical virgin coconut oil on SCORAD index, transepidermal water loss, and skin capacitance in mild to moderate pediatric atopic dermatitis: a randomized, double-blind, clinical trial.",
+       "year": 2013,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/24320105/"
+      }
+     ]
+    },
+    {
+     "id": "coconut-oil-3",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a double-blind randomised trial of 34 people with mild to moderate xerosis (dry skin), twice-daily extra virgin coconut oil on the legs for two weeks improved skin hydration and skin surface lipids to a degree comparable with mineral oil, with no significant difference in transepidermal water loss or skin pH; the trial was small and short, and participants had negative patch tests to the test products beforehand, so it does not address people who react to them.",
+      "uz": "Yengil va o‘rtacha kserozli (quruq teri) 34 kishi ishtirok etgan ikki tomonlama ko‘r randomizatsiyalangan tadqiqotda oyoqlarga kuniga ikki marta surtilgan ekstra sof (extra virgin) kokos moyi ikki hafta ichida teri namligini va teri yuzasidagi lipidlarni mineral moy bilan taqqoslanadigan darajada yaxshilagan, transepidermal suv yo‘qotilishi va teri pH‘sida sezilarli farq bo‘lmagan; tadqiqot kichik va qisqa bo‘lgan, ishtirokchilarning sinov vositalariga patch-testlari oldindan manfiy bo‘lgan, shuning uchun u bu vositalarga reaksiya beradigan odamlarga taalluqli emas.",
+      "ru": "В двойном слепом рандомизированном исследовании с участием 34 человек с ксерозом (сухой кожей) лёгкой и средней степени нанесение экстра-нерафинированного (extra virgin) кокосового масла на ноги два раза в день в течение двух недель улучшило увлажнённость кожи и поверхностные липиды кожи в степени, сопоставимой с минеральным маслом, без значимой разницы в трансэпидермальной потере воды и pH кожи; исследование было небольшим и коротким, а у участников заранее были отрицательные патч-тесты на испытуемые средства, поэтому оно не касается людей, которые реагируют на эти средства.",
+      "ar": "في تجربة عشوائية مزدوجة التعمية شملت 34 شخصًا مصابًا بجفاف الجلد (xerosis) الخفيف إلى المتوسط، حسّن وضع زيت جوز الهند البكر الممتاز على الساقين مرتين يوميًا لمدة أسبوعين ترطيب الجلد ودهون سطح الجلد بدرجة قابلة للمقارنة مع الزيت المعدني، دون فرق معنوي في فقدان الماء عبر البشرة أو درجة حموضة الجلد؛ وكانت التجربة صغيرة وقصيرة، وكانت اختبارات اللصقة (patch tests) للمشاركين سلبية مسبقًا تجاه المنتجات المختبَرة، لذلك لا تتناول الأشخاص الذين يتفاعلون معها."
+     },
+     "sources": [
+      {
+       "pmid": "15724344",
+       "doi": "10.2310/6620.2004.04006",
+       "title": "A randomized double-blind controlled trial comparing extra virgin coconut oil with mineral oil as a moisturizer for mild to moderate xerosis.",
+       "year": 2004,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/15724344/"
+      }
+     ]
+    },
+    {
+     "id": "coconut-oil-4",
+     "level": "C",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A systematic review of 14 randomised trials of topical oils on neonatal skin (5,683 neonates, most of them preterm; coconut oil was used in 5 trials, alongside sunflower, almond and other oils) reported that 11 trials concluded the oils improved skin condition and barrier function, while 3 had equivocal, negative or mixed findings, and the authors state that more high-level evidence is needed; the findings are not specific to coconut oil and mostly concern preterm infants, so they cannot be applied to routine skin care of babies.",
+      "uz": "Chaqaloqlar terisiga surtiladigan moylar bo‘yicha 14 ta randomizatsiyalangan tadqiqotning tizimli sharhida (5 683 chaqaloq, ko‘pchiligi muddatidan oldin tug‘ilgan; 5 ta tadqiqotda kokos moyi, boshqalarida kungaboqar, bodom va boshqa moylar ishlatilgan) 11 ta tadqiqot moylar teri holatini va to‘siq funksiyasini yaxshilagan degan xulosaga kelgani, 3 tasida esa natijalar noaniq, salbiy yoki aralash bo‘lgani qayd etilgan, mualliflar yuqoriroq darajadagi dalillar zarurligini aytadi; natijalar kokos moyiga xos emas va asosan muddatidan oldin tug‘ilgan chaqaloqlarga tegishli, shuning uchun ularni chaqaloqlar terisini odatiy parvarishlashga qo‘llab bo‘lmaydi.",
+      "ru": "В систематическом обзоре 14 рандомизированных исследований наружных масел для кожи новорождённых (5 683 младенца, большинство — недоношенные; кокосовое масло применялось в 5 исследованиях, в остальных — подсолнечное, миндальное и другие масла) сообщается, что 11 исследований пришли к выводу об улучшении состояния кожи и барьерной функции под действием масел, а в 3 результаты были неоднозначными, отрицательными или смешанными; авторы указывают, что нужны данные более высокого уровня; результаты не специфичны для кокосового масла и в основном относятся к недоношенным младенцам, поэтому их нельзя переносить на обычный уход за кожей младенцев.",
+      "ar": "أفادت مراجعة منهجية لـ14 تجربة عشوائية حول الزيوت الموضعية على بشرة حديثي الولادة (5683 رضيعًا، معظمهم خدّج؛ واستُخدم زيت جوز الهند في 5 تجارب إلى جانب زيوت عباد الشمس واللوز وغيرها) بأن 11 تجربة خلصت إلى أن الزيوت حسّنت حالة الجلد ووظيفة الحاجز، بينما كانت نتائج 3 تجارب غير حاسمة أو سلبية أو مختلطة، ويذكر المؤلفون أن هناك حاجة إلى أدلة أعلى مستوى؛ والنتائج ليست خاصة بزيت جوز الهند وتتعلق في معظمها بالرضّع الخدّج، ولذلك لا يمكن تطبيقها على العناية الروتينية ببشرة الرضّع."
+     },
+     "sources": [
+      {
+       "pmid": "36409192",
+       "doi": "10.1097/01.ASW.0000891088.69828.2e",
+       "title": "Effects of Topical Oils on Neonatal Skin: A Systematic Review.",
+       "year": 2022,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/36409192/"
+      }
+     ]
+    },
+    {
+     "id": "coconut-oil-5",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "Published case reports indexed under coconut oil describe allergic contact dermatitis attributed to cocamide DEA (a surfactant) in an intimate gel, to caprylic/capric triglyceride in an anti-aging face cream, and to an Ayurvedic coconut-oil-based herbal massage oil blend; these are single cases involving processed derivatives or multi-ingredient products rather than coconut oil itself, abstracts were available for only one of them, and they say nothing about how common such reactions are, but they show that plant-derived products can still cause skin reactions.",
+      "uz": "Kokos moyi bo‘yicha indekslangan e‘lon qilingan klinik holatlar bayonlarida allergik kontakt dermatit intim gelda cocamide DEA (sirt faol modda) ga, qarishga qarshi yuz kremida caprylic/capric triglyceride ga va kokos moyi asosidagi Ayurveda o‘simlik massaj moyi aralashmasiga bog‘langan; bular kokos moyining o‘ziga emas, balki qayta ishlangan hosilalar yoki ko‘p komponentli vositalarga oid alohida holatlar bo‘lib, ulardan faqat bittasining annotatsiyasi mavjud edi va ular bunday reaksiyalar qanchalik tez-tez uchrashini aytmaydi, lekin o‘simlik manbasidan olingan vositalar ham teri reaksiyalarini keltirib chiqarishi mumkinligini ko‘rsatadi.",
+      "ru": "В опубликованных описаниях клинических случаев (case report), индексированных по теме кокосового масла, аллергический контактный дерматит связывали с cocamide DEA (поверхностно-активным веществом) в интимном геле, с caprylic/capric triglyceride в антивозрастном креме для лица и со смесью растительных масел для массажа по аюрведе на основе кокосового масла; это единичные случаи, связанные с переработанными производными или многокомпонентными средствами, а не с самим кокосовым маслом, аннотация была доступна лишь для одного из них, и они ничего не говорят о том, как часто возникают такие реакции, но показывают, что средства растительного происхождения тоже могут вызывать кожные реакции.",
+      "ar": "تصف تقارير حالات منشورة مفهرَسة تحت زيت جوز الهند التهاب الجلد التماسّي التحسسي المنسوب إلى cocamide DEA (مادة خافضة للتوتر السطحي) في جل حميمي، وإلى caprylic/capric triglyceride في كريم للوجه مضاد للشيخوخة، وإلى خليط زيوت عشبية للتدليك وفق الأيورفيدا يعتمد على زيت جوز الهند؛ وهذه حالات فردية تتعلق بمشتقات مُعالَجة أو بمنتجات متعددة المكوّنات وليس بزيت جوز الهند نفسه، ولم يتوفر ملخص سوى لواحد منها، ولا تدل على مدى شيوع هذه التفاعلات، لكنها تبيّن أن المنتجات نباتية المصدر قد تسبب تفاعلات جلدية أيضًا."
+     },
+     "sources": [
+      {
+       "pmid": "34250626",
+       "doi": "10.1111/cod.13934",
+       "title": "Genital allergic contact dermatitis caused by cocamide DEA.",
+       "year": 2021,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/34250626/"
+      },
+      {
+       "pmid": "32542693",
+       "doi": "10.1111/cod.13641",
+       "title": "Allergic contact dermatitis caused by caprylic/capric triglyceride from an anti-aging cosmetic cream.",
+       "year": 2020,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/32542693/"
+      },
+      {
+       "pmid": "24891661",
+       "doi": "10.4103/0019-5154.131402",
+       "title": "Allergic Contact Dermatitis (Type IV Hypersensitivity) and Type I Hypersensitivity Following Aromatherapy with Ayurvedic Oils (Dhanwantharam Thailam, Eladi Coconut Oil) Presenting as Generalized Erythema and Pruritus with Flexural Eczema.",
+       "year": 2014,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/24891661/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Cucumis Sativus Fruit Extract",
+   "slug": "cucumber",
+   "status": "draft",
+   "category": "natural",
+   "aliases": [
+    "Cucumber",
+    "Cucumis Sativus (Cucumber) Fruit Extract"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Cucumber (Cucumis sativus) fruit extract (INCI: Cucumis Sativus Fruit Extract) is a plant-derived cosmetic ingredient commonly associated with moisturising, soothing and eye-area products. This card covers topical cosmetic use only; eating cucumber is out of scope. In the PubMed searches done for this card, no human clinical study of cucumber fruit extract on skin hydration, soothing, irritation or the eye area was found. The published evidence located consists of laboratory (in vitro) studies, partly on mixtures, plus old case reports of skin reactions to cucumber-containing products, so benefits for human skin are unproven. Natural origin does not mean a product is free of risk: skin reactions have been reported. This card summarises published evidence only and is not medical advice.",
+    "uz": "Bodring (Cucumis sativus) mevasi ekstrakti (INCI: Cucumis Sativus Fruit Extract) o‘simlik asosli kosmetik ingredient bo‘lib, odatda namlovchi, tinchlantiruvchi va ko‘z atrofi vositalari bilan bog‘lanadi. Bu kartochka faqat surtiladigan kosmetik qo‘llanishni qamrab oladi; bodringni iste‘mol qilish qamrovdan tashqarida. Ushbu kartochka uchun o‘tkazilgan PubMed qidiruvlarida bodring mevasi ekstraktining teri namligi, tinchlantirish, ta‘sirlanish yoki ko‘z atrofiga ta‘sirini o‘rgangan, odamlarda o‘tkazilgan klinik tadqiqot topilmadi. Topilgan nashr etilgan dalillar laboratoriya (in vitro) tadqiqotlaridan (ularning bir qismi aralashmalar haqida), hamda bodring tarkibli vositalarga teri reaksiyalari haqidagi eski hikoya (case report) xabarlaridan iborat, shuning uchun inson terisi uchun foydasi isbotlanmagan. Tabiiy kelib chiqish mahsulot xavfdan holi ekanini bildirmaydi: teri reaksiyalari qayd etilgan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Экстракт плодов огурца (Cucumis sativus) (INCI: Cucumis Sativus Fruit Extract) — косметический ингредиент растительного происхождения, который обычно связывают с увлажняющими и успокаивающими средствами и средствами для области вокруг глаз. Эта карточка охватывает только местное косметическое применение; употребление огурца в пищу не рассматривается. В поисках по PubMed, проведённых для этой карточки, клинических исследований экстракта плодов огурца на людях в отношении увлажнения кожи, успокаивающего эффекта, раздражения или области вокруг глаз не найдено. Найденные опубликованные данные состоят из лабораторных (in vitro) исследований, частично на смесях, а также из старых описаний случаев кожных реакций на средства с огурцом, поэтому польза для кожи человека не доказана. Естественное происхождение не означает отсутствия риска: сообщалось о кожных реакциях. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "مستخلص ثمرة الخيار (Cucumis sativus) (الاسم في INCI: Cucumis Sativus Fruit Extract) مكوّن تجميلي من أصل نباتي يرتبط عادةً بمنتجات الترطيب والتهدئة والعناية بمحيط العينين. تغطي هذه البطاقة الاستعمال التجميلي الموضعي فقط؛ أما تناول الخيار عن طريق الفم فهو خارج نطاقها. في عمليات البحث في PubMed التي أُجريت لهذه البطاقة لم تُوجد دراسة سريرية على البشر عن مستخلص ثمرة الخيار فيما يخص ترطيب البشرة أو التهدئة أو التهيّج أو محيط العينين. وتتألف الأدلة المنشورة التي وُجدت من دراسات مخبرية (in vitro)، بعضها على خلائط، إضافةً إلى تقارير حالات قديمة عن تفاعلات جلدية تجاه منتجات تحتوي على الخيار، ولذلك فإن الفائدة للبشرة البشرية غير مثبتة. والأصل الطبيعي لا يعني خلوّ المنتج من المخاطر: فقد أُبلغ عن تفاعلات جلدية. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "cucumber-1",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In a laboratory study of a formulation combining about 80% Chaves thermal spring water with mallow (Malva sylvestris) and cucumber (Cucumis sativus) extracts, the mixture showed higher antioxidant capacity in chemical assays than the thermal water alone and reduced interleukin-1α and interleukin-6 in a particulate-matter-stimulated human keratinocyte cell line (HaCaT). These are cell and test-tube results on a multi-ingredient mixture; the effect of cucumber extract alone was not isolated and the abstract reports no testing on human skin.",
+      "uz": "Chaves termal buloq suvining taxminan 80%, hamda malva (Malva sylvestris) va bodring (Cucumis sativus) ekstraktlarini birlashtirgan formula bo‘yicha laboratoriya tadqiqotida aralashma kimyoviy testlarda faqat termal suvga qaraganda yuqoriroq antioksidant faolligini ko‘rsatgan hamda zarracha moddalar bilan rag‘batlantirilgan inson keratinotsit hujayra qatorida (HaCaT) interleykin-1α va interleykin-6 miqdorini kamaytirgan. Bu hujayra va probirka natijalari bo‘lib, ko‘p komponentli aralashma haqida; bodring ekstrakti alohida ajratib o‘rganilmagan va annotatsiyada inson terisida sinov haqida ma‘lumot yo‘q.",
+      "ru": "В лабораторном исследовании состава, включающего около 80% термальной минеральной воды Chaves, экстракты мальвы лесной (Malva sylvestris) и огурца (Cucumis sativus), смесь показала в химических тестах более высокую антиоксидантную активность, чем одна термальная вода, и снижала интерлейкин-1α и интерлейкин-6 в линии кератиноцитов человека (HaCaT), стимулированных твёрдыми частицами. Это результаты на клетках и в пробирке для многокомпонентной смеси; эффект одного экстракта огурца не выделялся, а в аннотации нет данных об испытаниях на коже человека.",
+      "ar": "في دراسة مخبرية لتركيبة تضم نحو 80% من مياه ينبوع Chaves الحرارية مع مستخلصي الخبّازى (Malva sylvestris) والخيار (Cucumis sativus)، أظهر الخليط قدرة مضادة للأكسدة في الاختبارات الكيميائية أعلى من الماء الحراري وحده، وخفّض الإنترلوكين-1α والإنترلوكين-6 في خط خلايا كيراتينية بشرية (HaCaT) مُحفَّزة بالجسيمات الدقيقة. هذه نتائج على الخلايا وفي المختبر لخليط متعدد المكوّنات؛ ولم يُعزل تأثير مستخلص الخيار وحده، ولا يذكر الملخص إجراء اختبار على جلد الإنسان."
+     },
+     "sources": [
+      {
+       "pmid": "42717854",
+       "doi": "10.1111/ics.70137",
+       "title": "Chaves thermal spring water formulation: Substantiating anti-ageing and anti-inflammatory effects.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42717854/"
+      }
+     ]
+    },
+    {
+     "id": "cucumber-2",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In a cell-culture study, a water/ethanol extract of cucumber fruit reduced several inflammatory signals (for example IL-8, and later IL-6 and IL-1α) in porcine aortic endothelial cells exposed to bacterial lipopolysaccharide. These were blood-vessel cells, not skin cells, so the result does not show that cucumber extract soothes or reduces inflammation in human skin; the authors mention traditional use of the fruit for sunburn irritation only as background.",
+      "uz": "Hujayra kulturasi tadqiqotida bodring mevasining suv/etanolli ekstrakti bakterial lipopolisaxaridga duchor qilingan cho‘chqa aorta endotelial hujayralarida bir nechta yallig‘lanish signalini (masalan IL-8, keyinroq IL-6 va IL-1α) kamaytirgan. Bular qon tomir hujayralari bo‘lib, teri hujayralari emas, shu sababli natija bodring ekstrakti inson terisida tinchlantirishi yoki yallig‘lanishni kamaytirishini ko‘rsatmaydi; mualliflar mevaning quyoshdan kuygandan keyingi ta‘sirlanishda an‘anaviy qo‘llanilishini faqat fon sifatida eslatgan.",
+      "ru": "В исследовании на клеточной культуре водно-спиртовой экстракт плодов огурца снижал несколько воспалительных сигналов (например, IL-8, а позднее IL-6 и IL-1α) в эндотелиальных клетках аорты свиньи, подвергнутых действию бактериального липополисахарида. Это были клетки сосудов, а не кожи, поэтому результат не показывает, что экстракт огурца успокаивает кожу человека или уменьшает в ней воспаление; традиционное применение плода при раздражении после солнечного ожога упоминается авторами лишь как фон.",
+      "ar": "في دراسة على مزارع الخلايا، خفّض مستخلص مائي/إيثانولي من ثمرة الخيار عدة إشارات التهابية (مثل الإنترلوكين-8، ثم الإنترلوكين-6 والإنترلوكين-1α لاحقًا) في خلايا بطانية من أبهر الخنزير عُرّضت لعديد السكاريد الشحمي البكتيري. كانت هذه خلايا وعائية وليست خلايا جلدية، لذلك لا تُظهر النتيجة أن مستخلص الخيار يهدّئ جلد الإنسان أو يقلّل الالتهاب فيه؛ ويذكر المؤلفون الاستعمال التقليدي للثمرة لتهيّج الجلد بعد حروق الشمس كخلفية فقط."
+     },
+     "sources": [
+      {
+       "pmid": "29941006",
+       "doi": "10.1186/s12906-018-2254-1",
+       "title": "Water/ethanol extract of Cucumis sativus L. fruit attenuates lipopolysaccharide-induced inflammatory response in endothelial cells.",
+       "year": 2018,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/29941006/"
+      }
+     ]
+    },
+    {
+     "id": "cucumber-4",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "Case reports describe skin reactions linked to cucumber-containing products or exposure. Two reports from 1992 and 1993 describe contact dermatitis from preservatives (Euxyl K 400 and dibromodicyanobutane) in a cucumber eye gel, so their titles attribute the reaction to the preservative rather than to cucumber; a 2000 report is titled 'Cucumber contact dermatitis'. Abstracts are not available in PubMed, so details are limited, and case reports cannot show how often such reactions occur.",
+      "uz": "Hikoya (case report) xabarlarida bodring tarkibli vositalar yoki bodring bilan aloqaga bog‘liq teri reaksiyalari tasvirlangan. 1992 va 1993-yillardagi ikki xabarda bodringli ko‘z geli tarkibidagi konservantlar (Euxyl K 400 va dibromodicyanobutane) sababli kontakt dermatit tasvirlangan, ya‘ni sarlavhalar reaksiyani bodringga emas, konservantga bog‘laydi; 2000-yildagi xabar «Cucumber contact dermatitis» deb nomlangan. PubMed‘da annotatsiyalar mavjud emas, shu sababli tafsilotlar cheklangan, hikoya xabarlari esa bunday reaksiyalar qanchalik tez-tez uchrashini ko‘rsata olmaydi.",
+      "ru": "Описания случаев сообщают о кожных реакциях, связанных со средствами, содержащими огурец, или с контактом с огурцом. В двух сообщениях 1992 и 1993 годов описан контактный дерматит, вызванный консервантами (Euxyl K 400 и dibromodicyanobutane) в геле для глаз с огурцом, то есть в заголовках реакция отнесена к консерванту, а не к огурцу; сообщение 2000 года названо «Cucumber contact dermatitis». Аннотации в PubMed недоступны, поэтому подробности ограничены, а описания случаев не позволяют судить о частоте таких реакций.",
+      "ar": "تصف تقارير الحالات تفاعلات جلدية مرتبطة بمنتجات تحتوي على الخيار أو بالتعرّض له. يصف تقريران من عامي 1992 و1993 التهاب جلد تماسّيًا ناجمًا عن مواد حافظة (Euxyl K 400 وdibromodicyanobutane) في جِل للعينين يحتوي على الخيار، أي أن عنواني التقريرين ينسبان التفاعل إلى المادة الحافظة لا إلى الخيار؛ أما تقرير عام 2000 فعنوانه «Cucumber contact dermatitis». الملخصات غير متاحة في PubMed، لذا فالتفاصيل محدودة، ولا تُظهر تقارير الحالات مدى تكرار مثل هذه التفاعلات."
+     },
+     "sources": [
+      {
+       "pmid": "1600741",
+       "doi": "10.1111/j.1600-0536.1992.tb00878.x",
+       "title": "Contact dermatitis from Euxyl K 400 in cucumber eye gel.",
+       "year": 1992,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/1600741/"
+      },
+      {
+       "pmid": "8365190",
+       "doi": "10.1111/j.1600-0536.1993.tb03496.x",
+       "title": "Contact dermatitis due to dibromodicyanobutane in cucumber eye gel.",
+       "year": 1993,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/8365190/"
+      },
+      {
+       "pmid": "11011937",
+       "doi": null,
+       "title": "Cucumber contact dermatitis.",
+       "year": 2000,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/11011937/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "inci": "Glycerin",
    "slug": "glycerin",
    "status": "draft",
-   "aliases": [],
+   "category": "active",
+   "aliases": [
+    "Glycerol"
+   ],
    "eu": {
     "annex": "unverified",
     "verified": false
@@ -699,6 +1177,7 @@
    "inci": "Glycolic Acid",
    "slug": "glycolic-acid",
    "status": "draft",
+   "category": "active",
    "aliases": [],
    "eu": {
     "annex": "unverified",
@@ -821,9 +1300,534 @@
    ]
   },
   {
+   "inci": "Camellia Sinensis Leaf Extract",
+   "slug": "green-tea",
+   "status": "draft",
+   "category": "natural",
+   "aliases": [
+    "Green Tea",
+    "Camellia Sinensis (Green Tea) Leaf Extract"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Green tea leaf extract (Camellia Sinensis Leaf Extract, rich in polyphenols such as EGCG) is a common cosmetic ingredient that has been studied in topical products for acne-related outcomes, antioxidant effects and ultraviolet-related skin changes. The evidence is mixed: a meta-analysis reported lower acne lesion counts in its topical subgroup, while a systematic review found no significant reduction in wrinkling; much of the remaining evidence is small, specific to EGCG, drawn from narrative reviews, or from animal safety tests that showed signs of skin irritation and sensitisation. This card covers topical use only, summarises published evidence only and is not medical advice.",
+    "uz": "Yashil choy barg ekstrakti (Camellia Sinensis Leaf Extract; EGCG kabi polifenollarga boy) keng qo‘llaniladigan kosmetik ingredient bo‘lib, surtiladigan vositalarda akne bilan bog‘liq natijalar, antioksidant ta‘sir va ultrabinafsha nuri bilan bog‘liq teri o‘zgarishlari bo‘yicha o‘rganilgan. Dalillar bir xil emas: meta-tahlilda surtiladigan kichik guruhda akne toshmalari soni kamroq bo‘lgani qayd etilgan, tizimli sharhda esa ajinlarning sezilarli kamayishi topilmagan; qolgan dalillarning ko‘pi kichik, faqat EGCG‘ga oid, hikoyaviy sharhlardan yoki terining ta‘sirlanishi va sensibilizatsiya belgilarini ko‘rsatgan hayvonlardagi xavfsizlik sinovlaridan olingan. Bu kartochka faqat surtiladigan qo‘llanishni qamrab oladi, faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Экстракт листьев зелёного чая (Camellia Sinensis Leaf Extract, богатый полифенолами, такими как EGCG) является распространённым косметическим ингредиентом, который изучался в средствах для местного применения в отношении результатов, связанных с акне, антиоксидантных эффектов и изменений кожи, связанных с ультрафиолетом. Данные неоднозначны: в мета-анализе в подгруппе местного применения сообщалось о меньшем числе высыпаний акне, тогда как в систематическом обзоре не обнаружено значимого уменьшения морщин; значительная часть остальных данных получена в небольших исследованиях, касается только EGCG, взята из нарративных обзоров или из испытаний безопасности на животных, показавших признаки раздражения кожи и сенсибилизации. Эта карточка охватывает только местное применение, обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "مستخلص أوراق الشاي الأخضر (Camellia Sinensis Leaf Extract، الغني بالبوليفينولات مثل EGCG) مكوّن تجميلي شائع جرت دراسته في المنتجات الموضعية فيما يخص نتائج حب الشباب والتأثيرات المضادة للأكسدة والتغيرات الجلدية المرتبطة بالأشعة فوق البنفسجية. الأدلة متباينة: أفاد تحليل تلوي بانخفاض أعداد آفات حب الشباب في مجموعته الفرعية للاستعمال الموضعي، بينما لم تجد مراجعة منهجية انخفاضًا ملحوظًا في التجاعيد؛ ويأتي جزء كبير من بقية الأدلة من دراسات صغيرة أو خاصة بمركّب EGCG وحده أو من مراجعات سردية أو من اختبارات أمان على الحيوانات أظهرت علامات تهيّج الجلد والتحسس. تغطي هذه البطاقة الاستعمال الموضعي فقط، وتلخّص الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "green-tea-1",
+     "level": "A",
+     "studyType": "meta-analysis",
+     "text": {
+      "en": "A systematic review and meta-analysis of randomised controlled trials of green tea extract in acne (five trials in total) reported that, in its topical subgroup, inflammatory and non-inflammatory acne lesion counts were lower than with control. The abstract does not give the number of topical trials, the outcome was lesion counts rather than sebum measurements, and the authors called for further high-quality trials.",
+      "uz": "Akne bo‘yicha yashil choy ekstrakti ishtirokidagi randomizatsiyalangan nazoratli tadqiqotlarning tizimli sharhi va meta-tahlilida (jami beshta tadqiqot) surtiladigan kichik guruhda yallig‘lanishli va yallig‘lanishsiz akne toshmalari soni nazoratdagiga qaraganda kamroq bo‘lgani qayd etilgan. Annotatsiyada surtiladigan tadqiqotlar soni ko‘rsatilmagan, natija sebum o‘lchovlari emas, toshmalar soni bo‘lgan va mualliflar yuqori sifatli qo‘shimcha tadqiqotlar zarurligini ta‘kidlagan.",
+      "ru": "В систематическом обзоре и мета-анализе рандомизированных контролируемых исследований экстракта зелёного чая при акне (всего пять исследований) в подгруппе местного применения число воспалительных и невоспалительных высыпаний акне было ниже, чем в контроле. В аннотации не указано число исследований местного применения, результатом было число высыпаний, а не измерения себума, и авторы призвали к дальнейшим высококачественным исследованиям.",
+      "ar": "في مراجعة منهجية وتحليل تلوي للتجارب العشوائية المضبوطة حول مستخلص الشاي الأخضر في حب الشباب (خمس دراسات في المجموع)، كانت أعداد آفات حب الشباب الالتهابية وغير الالتهابية في المجموعة الفرعية للاستعمال الموضعي أقل منها في المجموعة الضابطة. ولم يذكر الملخص عدد الدراسات الموضعية، وكانت النتيجة المقيسة أعداد الآفات لا قياسات الدهون الجلدية (الزهم)، ودعا المؤلفون إلى مزيد من الدراسات عالية الجودة."
+     },
+     "sources": [
+      {
+       "pmid": "32812270",
+       "doi": "10.1002/ptr.6809",
+       "title": "The effects of green tea on acne vulgaris: A systematic review and meta-analysis of randomized clinical trials.",
+       "year": 2020,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/32812270/"
+      }
+     ]
+    },
+    {
+     "id": "green-tea-2",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A systematic review of randomised or controlled trials of botanical extracts as anti-ageing skin preparations (11 trials, literature searched to October 2009) reported no significant reduction in wrinkling for green tea or for a combination product containing green tea; the review rated all included trials as poor in methodological quality and described the overall evidence for botanical extracts as weak.",
+      "uz": "Terini yoshartiruvchi vositalar sifatida o‘simlik ekstraktlarining randomizatsiyalangan yoki nazoratli tadqiqotlari bo‘yicha tizimli sharhda (11 ta tadqiqot, adabiyot 2009-yil oktyabrigacha qidirilgan) yashil choy yoki yashil choy tarkibli kombinatsiyalangan mahsulot uchun ajinlarning sezilarli kamayishi qayd etilmagan; sharhda barcha kiritilgan tadqiqotlarning uslubiy sifati past deb baholangan va o‘simlik ekstraktlari bo‘yicha umumiy dalil zaif deb ta‘riflangan.",
+      "ru": "В систематическом обзоре рандомизированных или контролируемых исследований растительных экстрактов как средств против старения кожи (11 исследований, поиск литературы до октября 2009 года) не сообщалось о значимом уменьшении морщин для зелёного чая или для комбинированного продукта, содержащего зелёный чай; обзор оценил методологическое качество всех включённых исследований как низкое и охарактеризовал общие данные по растительным экстрактам как слабые.",
+      "ar": "في مراجعة منهجية للتجارب العشوائية أو المضبوطة حول المستخلصات النباتية كمستحضرات للجلد مضادة للشيخوخة (11 تجربة، وبحثت الأدبيات حتى أكتوبر 2009)، لم يُسجَّل انخفاض ملحوظ في التجاعيد مع الشاي الأخضر ولا مع منتج مركّب يحتوي على الشاي الأخضر؛ وقيّمت المراجعة جميع التجارب المشمولة بأنها ضعيفة الجودة المنهجية ووصفت الأدلة الإجمالية للمستخلصات النباتية بأنها ضعيفة."
+     },
+     "sources": [
+      {
+       "pmid": "21087067",
+       "doi": "10.2165/11584420-000000000-00000",
+       "title": "Botanical extracts as anti-aging preparations for the skin: a systematic review.",
+       "year": 2010,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/21087067/"
+      }
+     ]
+    },
+    {
+     "id": "green-tea-3",
+     "level": "C",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a small randomised, double-blind split-face trial, four healthy volunteers with facial erythema and telangiectasia applied a cream with 2.5% EGCG to one side of the face and a vehicle cream to the other, twice daily for six weeks. Skin biopsies showed lower staining for the tissue markers HIF-1 alpha and VEGF on the EGCG-treated side. The abstract reports tissue markers only, and four participants are too few to support general conclusions.",
+      "uz": "Kichik, ikki tomonlama ko‘r, randomizatsiyalangan yarim yuz tadqiqotida yuzida qizarish va telangiektaziyasi bo‘lgan to‘rt nafar sog‘lom ko‘ngilli yuzning bir tomoniga 2,5% EGCG li krem, ikkinchi tomoniga asos (vehikul) krem olti hafta davomida kuniga ikki marta surtgan. Teri biopsiyalarida EGCG surtilgan tomonda to‘qima markerlari HIF-1 alfa va VEGF bo‘yalishi pastroq bo‘lgan. Annotatsiyada faqat to‘qima markerlari keltirilgan, to‘rt ishtirokchi esa umumiy xulosalar uchun juda kam.",
+      "ru": "В небольшом рандомизированном двойном слепом исследовании с разделением лица четыре здоровых добровольца с покраснением и телеангиэктазиями на лице наносили крем с 2,5% EGCG на одну половину лица и крем-основу на другую два раза в день в течение шести недель. Биопсии кожи показали меньшее окрашивание тканевых маркеров HIF-1 alpha и VEGF на стороне, обработанной EGCG. В аннотации приведены только тканевые маркеры, а четыре участника — слишком малая выборка для общих выводов.",
+      "ar": "في دراسة عشوائية صغيرة مزدوجة التعمية بتصميم نصف الوجه، وضع أربعة متطوعين أصحاء يعانون من احمرار وتوسّع الشعيرات الدموية في الوجه كريمًا يحتوي على 2.5% من EGCG على أحد جانبي الوجه وكريمًا حاملًا (سواغًا) على الجانب الآخر مرتين يوميًا لمدة ستة أسابيع. وأظهرت خزعات الجلد انخفاضًا في صبغ العلامتين النسيجيتين HIF-1 alpha وVEGF في الجانب المعالج بـ EGCG. ويذكر الملخص العلامات النسيجية فقط، وأربعة مشاركين عدد قليل جدًا لاستخلاص استنتاجات عامة."
+     },
+     "sources": [
+      {
+       "pmid": "20830241",
+       "doi": null,
+       "title": "Anti-angiogenic effects of epigallocatechin-3-gallate in human skin.",
+       "year": 2010,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/20830241/"
+      }
+     ]
+    },
+    {
+     "id": "green-tea-4",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative literature review of EGCG for topical use in dermatology reported that EGCG has antioxidant properties described as effective in preventing UV-induced skin damage and that titanium dioxide coated with EGCG proved a suitable ingredient in sunscreens. The review also noted that EGCG is unstable, which may hinder dermatological and cosmetic use, and that reported interactions with cosmetic ingredients were limited. As a narrative review, it does not provide pooled evidence of sun protection by green tea extract in finished cosmetic products.",
+      "uz": "Dermatologiyada EGCG‘ning surtiladigan qo‘llanishi bo‘yicha hikoyaviy adabiyot sharhida EGCG‘ning antioksidant xossalari ultrabinafsha nuri keltirib chiqargan teri shikastlanishining oldini olishda samarali deb ta‘riflangani va EGCG bilan qoplangan titan dioksidi quyoshdan himoya vositalari uchun mos tarkibiy qism ekanligi qayd etilgan. Sharhda yana EGCG beqaror ekani, bu esa dermatologik va kosmetik qo‘llanishga to‘sqinlik qilishi mumkinligi va kosmetik ingredientlar bilan o‘zaro ta‘sir haqidagi ma‘lumotlar cheklanganligi ta‘kidlangan. Hikoyaviy sharh sifatida u tayyor kosmetik mahsulotlarda yashil choy ekstrakti quyoshdan himoya qilishining jamlangan dalilini bermaydi.",
+      "ru": "В нарративном обзоре литературы об EGCG для местного применения в дерматологии сообщалось, что антиоксидантные свойства EGCG описаны как эффективные в предотвращении повреждения кожи, вызванного ультрафиолетом, а диоксид титана с покрытием из EGCG оказался подходящим ингредиентом солнцезащитных средств. В обзоре также отмечено, что EGCG нестабилен, что может ограничивать его дерматологическое и косметическое применение, а сообщения о взаимодействии с косметическими ингредиентами были ограниченными. Как нарративный обзор, он не даёт объединённых данных о защите от солнца экстрактом зелёного чая в готовых косметических продуктах.",
+      "ar": "ذكرت مراجعة سردية للأدبيات حول استعمال EGCG موضعيًا في الأمراض الجلدية أن خصائص EGCG المضادة للأكسدة وُصفت بأنها فعّالة في الوقاية من تلف الجلد الناجم عن الأشعة فوق البنفسجية، وأن ثاني أكسيد التيتانيوم المغلّف بـ EGCG كان مكوّنًا مناسبًا في واقيات الشمس. وأشارت المراجعة أيضًا إلى أن EGCG غير مستقر، مما قد يعيق استعماله الجلدي والتجميلي، وأن التفاعلات المبلغ عنها مع المكوّنات التجميلية كانت محدودة. وبما أنها مراجعة سردية، فهي لا تقدّم أدلة مجمّعة على حماية مستخلص الشاي الأخضر من الشمس في المنتجات التجميلية الجاهزة."
+     },
+     "sources": [
+      {
+       "pmid": "32189392",
+       "doi": "10.1002/ptr.6670",
+       "title": "Great green tea ingredient? A narrative literature review on epigallocatechin gallate and its biophysical properties for topical use in dermatology.",
+       "year": 2020,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/32189392/"
+      }
+     ]
+    },
+    {
+     "id": "green-tea-5",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In safety studies of a purified, EGCG-rich green tea preparation (not a finished cosmetic product), topical application caused minor skin irritation in rats and guinea pigs but not in rabbits, and the preparation was a moderate skin sensitiser in the guinea pig maximisation test. These are animal data; they do not show the risk for people using cosmetic products, but they indicate that skin irritation and contact sensitisation potential are relevant considerations.",
+      "uz": "Tozalangan, EGCG‘ga boy yashil choy preparati (tayyor kosmetik mahsulot emas) xavfsizlik tadqiqotlarida surtilganda kalamush va dengiz cho‘chqalarida terining yengil ta‘sirlanishiga sabab bo‘lgan, quyonlarda esa bunday holat kuzatilmagan; dengiz cho‘chqasi maksimizatsiya sinovida preparat terini o‘rtacha darajada sensibilizatsiya qiluvchi modda bo‘lgan. Bu hayvonlardagi ma‘lumotlar; ular kosmetik vositalardan foydalanuvchi odamlardagi xavfni ko‘rsatmaydi, lekin terining ta‘sirlanishi va kontakt sensibilizatsiya imkoniyati e‘tiborga olinadigan omillar ekanini bildiradi.",
+      "ru": "В исследованиях безопасности очищенного, богатого EGCG препарата зелёного чая (не готового косметического продукта) нанесение на кожу вызывало слабое раздражение у крыс и морских свинок, но не у кроликов, а в тесте максимизации на морских свинках препарат был умеренным сенсибилизатором кожи. Это данные на животных; они не показывают риск для людей, использующих косметические средства, но указывают, что раздражение кожи и потенциал контактной сенсибилизации следует учитывать.",
+      "ar": "في دراسات أمان أجريت على مستحضر شاي أخضر منقّى وغني بـ EGCG (وليس منتجًا تجميليًا جاهزًا)، تسبّب التطبيق الموضعي في تهيّج خفيف للجلد لدى الجرذان وخنازير غينيا ولكن ليس لدى الأرانب، وكان المستحضر مُحسِّسًا جلديًا بدرجة متوسطة في اختبار التعظيم على خنازير غينيا. هذه بيانات حيوانية؛ فهي لا تُظهر الخطر على الأشخاص الذين يستخدمون المنتجات التجميلية، لكنها تشير إلى أن تهيّج الجلد وإمكانية التحسس التلامسي من الاعتبارات ذات الصلة."
+     },
+     "sources": [
+      {
+       "pmid": "16387402",
+       "doi": "10.1016/j.fct.2005.11.003",
+       "title": "Safety studies on epigallocatechin gallate (EGCG) preparations. Part 2: dermal, acute and short-term toxicity studies.",
+       "year": 2006,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/16387402/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Mel",
+   "slug": "honey",
+   "status": "draft",
+   "category": "natural",
+   "aliases": [
+    "Honey"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Honey (INCI: Mel; also written Honey) is a bee-derived ingredient used in topical cosmetic products, and an industry-associated safety panel lists its derived ingredients as skin-conditioning agents. Published cosmetic evidence on moisturisation and the skin barrier is limited to a few small studies, some on combination products, so conclusions about honey alone are limited. Safety points include possible impurities (pesticides, endotoxins) and a reported case of contact allergy. Wound-care uses are outside the scope of this card. This card summarises published evidence only and is not medical advice.",
+    "uz": "Asal (INCI: Mel; «Honey» deb ham yoziladi) — ari mahsuloti bo‘lib, surtiladigan kosmetik vositalarda ishlatiladi; sanoat bilan bog‘liq xavfsizlik ekspert kengashi asaldan olingan ingredientlarni teri holatini yaxshilovchi (skin-conditioning) vositalar sifatida ro‘yxatga olgan. Namlantirish va teri to‘sig‘i bo‘yicha chop etilgan kosmetik dalillar bir nechta kichik tadqiqot bilan cheklangan, ularning ba‘zilari kombinatsiyalangan mahsulotlarda o‘tkazilgan, shu sababli faqat asal haqida xulosa qilish cheklangan. Xavfsizlik jihatlari orasida ehtimoliy aralashmalar (pestitsidlar, endotoksinlar) va kontakt allergiyaning qayd etilgan bitta holati bor. Yara bilan bog‘liq qo‘llanilishi bu kartochka qamrovidan tashqarida. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Мёд (INCI: Mel; также пишут Honey) — продукт пчеловодства, используемый в косметических средствах для местного применения; экспертный совет по безопасности, связанный с индустрией, относит производные от мёда ингредиенты к кондиционирующим кожу (skin-conditioning) агентам. Опубликованные косметические данные об увлажнении и барьере кожи ограничены несколькими небольшими исследованиями, часть которых проведена на комбинированных средствах, поэтому выводы только о мёде ограничены. К вопросам безопасности относятся возможные примеси (пестициды, эндотоксины) и описанный случай контактной аллергии. Применение для ухода за ранами выходит за рамки этой карточки. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "العسل (INCI: Mel؛ ويُكتب أيضًا Honey) منتج نحلي يُستخدم في المنتجات التجميلية الموضعية، وتُدرج لجنة خبراء لسلامة المكوّنات مرتبطة بالصناعة المكوّنات المشتقة من العسل ضمن العوامل المحسِّنة لحالة الجلد (skin-conditioning). الأدلة التجميلية المنشورة حول الترطيب والحاجز الجلدي محدودة بعدد قليل من الدراسات الصغيرة، وبعضها أُجري على منتجات مركّبة، مما يحدّ من إمكانية استخلاص نتائج عن العسل وحده. ومن نقاط السلامة وجود شوائب محتملة (مبيدات الآفات والسموم الداخلية) وحالة مُبلَّغ عنها من الحساسية التماسية. استخدامات العناية بالجروح خارج نطاق هذه البطاقة. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "honey-1",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In a 4-week study of 24 volunteers (23 completed) who applied hand creams containing 0%, 5%, 10% or 15% multifloral honey, skin hydration measured with a Corneometer rose more with the honey creams than with the 0% placebo cream (about +29.7% with 15% honey versus +10.6% with placebo). Transepidermal water loss fell to a similar extent with the placebo, 5% and 10% creams and did not change significantly with the 15% cream, so a barrier benefit specific to honey was not shown. The study was small and single-blinded, randomisation is not reported, only hand skin was tested, only multifloral honey from Poland was used, and participants confirmed they had no allergy to honey.",
+      "uz": "Ko‘p gulli asalning 0%, 5%, 10% yoki 15% miqdori bo‘lgan qo‘l kremlarini 4 hafta davomida qo‘llagan 24 nafar ko‘ngilli (23 nafari yakunlagan) ishtirok etgan tadqiqotda Korneometr bilan o‘lchangan teri namligi asalli kremlarda 0% plasebo kremga qaraganda ko‘proq oshdi (15% asalda taxminan +29,7%, plasebo bilan +10,6%). Transepidermal suv yo‘qotilishi plasebo, 5% va 10% kremlarda o‘xshash darajada kamaydi, 15% kremda esa sezilarli o‘zgarmadi, shu sababli asalga xos to‘siq foydasi ko‘rsatilmagan. Tadqiqot kichik va bir tomonlama ko‘r bo‘lgan, randomizatsiya haqida ma‘lumot berilmagan, faqat qo‘l terisi sinalgan, faqat Polshadan olingan ko‘p gulli asal ishlatilgan va ishtirokchilar asalga allergiyasi yo‘qligini tasdiqlagan.",
+      "ru": "В 4-недельном исследовании с участием 24 добровольцев (завершили 23), наносивших кремы для рук с 0%, 5%, 10% или 15% многоцветочного мёда, увлажнённость кожи, измеренная корнеометром, выросла в большей степени при использовании кремов с мёдом, чем с плацебо-кремом без мёда (около +29,7% при 15% мёда против +10,6% при плацебо). Трансэпидермальная потеря воды снижалась сходным образом при использовании плацебо, 5% и 10% кремов и существенно не изменилась при 15% креме, поэтому барьерная польза, специфичная для мёда, не показана. Исследование было небольшим и простым слепым, о рандомизации не сообщается, тестировалась только кожа рук, использовался только многоцветочный мёд из Польши, а участники подтвердили отсутствие аллергии на мёд.",
+      "ar": "في دراسة مدتها 4 أسابيع شملت 24 متطوعًا (أكمل 23 منهم) استخدموا كريمات لليدين تحتوي على 0% أو 5% أو 10% أو 15% من العسل متعدد الأزهار، ارتفع ترطيب الجلد المقاس بجهاز الكورنيوميتر بدرجة أكبر مع الكريمات المحتوية على العسل مقارنة بالكريم الوهمي الخالي منه (نحو +29.7% مع 15% عسل مقابل +10.6% مع الكريم الوهمي). وانخفض فقدان الماء عبر البشرة بدرجة متقاربة مع الكريم الوهمي وكريمي 5% و10%، ولم يتغير بصورة ملحوظة مع كريم 15%، ولذلك لم تثبت فائدة للحاجز الجلدي خاصة بالعسل. كانت الدراسة صغيرة وأحادية التعمية، ولم يُذكر إجراء التوزيع العشوائي، واقتصر الاختبار على جلد اليدين، واستُخدم عسل متعدد الأزهار من بولندا فقط، وأكد المشاركون عدم إصابتهم بحساسية تجاه العسل."
+     },
+     "sources": [
+      {
+       "pmid": "39770550",
+       "doi": "10.3390/ph17121709",
+       "title": "Innovative Honey-Based Product and Its Beneficial Effects Measured by Modern Biophysical and Imaging Skin Techniques.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39770550/"
+      }
+     ]
+    },
+    {
+     "id": "honey-2",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In an eight-week, single-group study of 40 women aged 40 to 55 who used a commercial manuka honey face serum that also contains royal jelly, bee venom and other ingredients, participants' own questionnaire ratings of dryness and hydration improved, but dermatologist grading of photographs was mixed (for example, 60.6% of participants were judged improved in brightness, versus 15.2% to 33.3% for the other parameters), and an imaging analysis of four participants showed no statistically significant changes. With no control group, self-reported outcomes and a multi-ingredient product, the effects cannot be attributed to honey. People with an allergy to bees or bee products were excluded from the study.",
+      "uz": "40 yoshdan 55 yoshgacha bo‘lgan 40 nafar ayol ishtirok etgan sakkiz haftalik bir guruhli tadqiqotda tarkibida qirollik jeli (royal jelly), ari zahari va boshqa ingredientlar ham bo‘lgan sotuvdagi manuka asalli yuz zardobi qo‘llanilgan: ishtirokchilarning o‘z anketa baholarida terining quruqligi va namligi yaxshilangan, ammo dermatologning fotosuratlar bo‘yicha bahosi aralash bo‘lgan (masalan, ishtirokchilarning 60,6 foizida yorqinlik yaxshilangan, boshqa ko‘rsatkichlar bo‘yicha 15,2 foizdan 33,3 foizgacha), to‘rt ishtirokchida o‘tkazilgan tasvir tahlilida statistik jihatdan ahamiyatli o‘zgarish topilmagan. Nazorat guruhi bo‘lmagani, natijalar o‘z-o‘zini baholashga asoslangani va mahsulot ko‘p komponentli bo‘lgani sababli ta‘sirni asalga bog‘lab bo‘lmaydi. Ari yoki ari mahsulotlariga allergiyasi bo‘lganlar tadqiqotga kiritilmagan.",
+      "ru": "В восьминедельном исследовании с одной группой, в котором 40 женщин в возрасте от 40 до 55 лет использовали коммерческую сыворотку для лица с мёдом манука, которая также содержит маточное молочко, пчелиный яд и другие ингредиенты, оценки самих участниц по анкетам в отношении сухости и увлажнённости кожи улучшились, однако оценка дерматолога по фотографиям была неоднозначной (например, улучшение яркости кожи отмечено у 60,6% участниц, по остальным показателям — у 15,2%–33,3%), а анализ изображений у четырёх участниц не выявил статистически значимых изменений. Из-за отсутствия контрольной группы, субъективных оценок и многокомпонентного состава эффекты нельзя приписать мёду. Лица с аллергией на пчёл или продукты пчеловодства в исследование не включались.",
+      "ar": "في دراسة مدتها ثمانية أسابيع على مجموعة واحدة شملت 40 امرأة تتراوح أعمارهن بين 40 و55 عامًا استخدمن سيرومًا تجاريًا للوجه يحتوي على عسل المانوكا ويحتوي كذلك على الغذاء الملكي وسم النحل ومكوّنات أخرى، تحسّنت تقييمات المشاركات أنفسهن في الاستبيانات لجفاف الجلد وترطيبه، غير أن تقييم طبيب الجلدية من الصور كان متباينًا (فعلى سبيل المثال حُكم بتحسّن إشراق البشرة لدى 60.6% من المشاركات مقابل 15.2% إلى 33.3% للمعايير الأخرى)، ولم يُظهر تحليل التصوير لدى أربع مشاركات تغيّرات ذات دلالة إحصائية. ونظرًا لعدم وجود مجموعة ضابطة، واعتماد النتائج على التقييم الذاتي، وكون المنتج متعدد المكوّنات، لا يمكن عزو التأثيرات إلى العسل. وقد استُبعد من الدراسة من لديهم حساسية تجاه النحل أو منتجات النحل."
+     },
+     "sources": [
+      {
+       "pmid": "40291268",
+       "doi": "10.7759/cureus.81244",
+       "title": "Investigating the Effects of a Manuka Honey, Royal Jelly, and Bee Venom-Derived Face Serum on Skin Health and Signs of Aging.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40291268/"
+      }
+     ]
+    },
+    {
+     "id": "honey-3",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "The Expert Panel for Cosmetic Ingredient Safety (CIR, an industry-associated body, not a regulator) assessed 7 honey-derived cosmetic ingredients, all reported to function as skin-conditioning agents. Because impurities, particularly pesticides and endotoxins, may be present, the panel advised formulators to use good manufacturing practices to monitor and limit them, and concluded that the ingredients are safe in cosmetics under the present practices of use and concentration described in the assessment. This is the conclusion of an industry-associated panel, not a regulatory approval, and it applies to the conditions described, not to every product or every person.",
+      "uz": "Kosmetik ingredientlar xavfsizligi bo‘yicha ekspert kengashi (CIR — sanoat bilan bog‘liq tashkilot, regulyator emas) asaldan olingan 7 ta kosmetik ingredientni baholadi; ularning barchasi teri holatini yaxshilovchi (skin-conditioning) vositalar sifatida ishlatilishi qayd etilgan. Aralashmalar, ayniqsa pestitsidlar va endotoksinlar bo‘lishi mumkinligi sababli kengash ishlab chiqaruvchilarga ularni nazorat qilish va cheklash uchun yaxshi ishlab chiqarish amaliyotidan foydalanishni tavsiya qildi va ingredientlar baholashda tasvirlangan hozirgi qo‘llanish amaliyoti va konsentratsiyalarida kosmetikada xavfsiz degan xulosaga keldi. Bu sanoat bilan bog‘liq kengashning xulosasi bo‘lib, regulyator ruxsati emas va tasvirlangan sharoitlarga taalluqli, har bir mahsulot yoki har bir inson uchun emas.",
+      "ru": "Экспертный совет по безопасности косметических ингредиентов (CIR — организация, связанная с индустрией, а не регулятор) оценил 7 косметических ингредиентов, полученных из мёда; сообщается, что все они выполняют в косметике функцию кондиционирующих кожу агентов. Поскольку возможны примеси, в частности пестициды и эндотоксины, совет рекомендовал производителям применять надлежащую производственную практику для их контроля и ограничения и пришёл к выводу, что эти ингредиенты безопасны в косметике при существующей практике применения и концентрациях, описанных в оценке. Это вывод связанного с индустрией совета, а не разрешение регулятора; он относится к описанным условиям, а не к каждому продукту или каждому человеку.",
+      "ar": "قيّمت لجنة الخبراء لسلامة المكوّنات التجميلية (CIR، وهي جهة مرتبطة بالصناعة وليست جهة تنظيمية) سبعة مكوّنات تجميلية مشتقة من العسل؛ وأُفيد بأنها جميعًا تعمل في مستحضرات التجميل كعوامل محسِّنة لحالة الجلد (skin-conditioning). ولأن الشوائب، وخاصة مبيدات الآفات والسموم الداخلية، قد تكون موجودة، أوصت اللجنة المصنّعين باتباع ممارسات التصنيع الجيدة لرصدها والحدّ منها، وخلصت إلى أن هذه المكوّنات آمنة في مستحضرات التجميل في ظل ممارسات الاستخدام الحالية والتراكيز الموصوفة في التقييم. وهذا استنتاج لجنة مرتبطة بالصناعة وليس موافقة تنظيمية، وهو ينطبق على الظروف الموصوفة وليس على كل منتج أو كل شخص."
+     },
+     "sources": [
+      {
+       "pmid": "40673535",
+       "doi": "10.1177/10915818251340381",
+       "title": "Safety Assessment of Honey-Derived Ingredients as Used in Cosmetics.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40673535/"
+      }
+     ]
+    },
+    {
+     "id": "honey-4",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "A single case report (PubMed provides no abstract, so this statement relies only on the title, keywords and indexing terms) described allergic contact dermatitis attributed to propolis-enriched honey; patch testing appears among its keywords. One case cannot show how common this is, and it concerns a honey product enriched with propolis, not necessarily honey alone; the route of exposure is not stated in the available metadata.",
+      "uz": "Bitta klinik hol bayoni (PubMed‘da annotatsiya yo‘q, shuning uchun bu bayon faqat sarlavha, kalit so‘zlar va indekslash atamalariga tayanadi) propolis bilan boyitilgan asalga bog‘langan allergik kontakt dermatitni tasvirlagan; kalit so‘zlari orasida patch-test (teri sinamasi) bor. Bitta holat bu qanchalik tez-tez uchrashini ko‘rsata olmaydi, u faqat asalga emas, propolis bilan boyitilgan asal mahsulotiga tegishli; ta‘sir yo‘li mavjud metama‘lumotlarda ko‘rsatilmagan.",
+      "ru": "Один клинический случай (в PubMed нет аннотации, поэтому это утверждение опирается только на заголовок, ключевые слова и индексные термины) описал аллергический контактный дерматит, связываемый с мёдом, обогащённым прополисом; среди ключевых слов указаны патч-тесты (кожные пробы). Один случай не позволяет судить о том, как часто это бывает, и относится к продукту из мёда с прополисом, а не обязательно только к мёду; путь воздействия в доступных метаданных не указан.",
+      "ar": "وصف تقرير حالة واحد (لا يتوفر ملخص في PubMed، ولذلك يستند هذا الطرح إلى العنوان والكلمات المفتاحية ومصطلحات الفهرسة فقط) التهاب الجلد التماسي التحسسي المنسوب إلى عسل مدعَّم بالبروبوليس، وتتضمن كلماته المفتاحية الاختبارات اللصوقية (اختبارات الرقعة الجلدية). ولا تتيح حالة واحدة معرفة مدى تكرر ذلك، وهي تخص منتج عسل مدعَّم بالبروبوليس وليس بالضرورة العسل وحده؛ ولم تُذكر طريقة التعرّض في البيانات الوصفية المتاحة."
+     },
+     "sources": [
+      {
+       "pmid": "25524122",
+       "doi": "10.1111/cod.12297",
+       "title": "A case of allergic contact dermatitis caused by propolis-enriched honey.",
+       "year": 2015,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/25524122/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Nigella Sativa Seed Oil",
+   "slug": "nigella-sativa-oil",
+   "status": "draft",
+   "category": "natural",
+   "aliases": [
+    "Black Seed Oil",
+    "Nigella Sativa Oil"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Nigella sativa seed oil (black seed oil or black cumin oil; thymoquinone is one of its main constituents) has been examined in laboratory, animal and a small number of human studies for skin-related outcomes such as acne-associated bacteria, pigmentation, dryness and irritation. Most of the available evidence is preclinical, comes from mixed or combination products, or is not specific to cosmetic use, and no controlled study specific to cosmetic use of the oil was identified in this search. Published case reports describe allergic contact dermatitis after topical use, so natural origin does not mean the oil is free of risk. This card summarises published evidence only and is not medical advice.",
+    "uz": "Nigella sativa urug‘ moyi (qora zira moyi, inglizcha \"black seed oil\"; timokinon uning asosiy tarkibiy qismlaridan biri) teriga oid natijalar bo‘yicha laboratoriya, hayvonlar va odamlardagi oz sonli tadqiqotlarda o‘rganilgan: akne bilan bog‘liq bakteriyalar, pigmentatsiya, terining qurishi va ta‘sirlanish. Mavjud dalillarning katta qismi klinikadan oldingi, aralash yoki kombinatsiyalangan mahsulotlardan olingan yoki kosmetik qo‘llanilishga xos emas; ushbu qidiruvda moyning kosmetik qo‘llanilishiga xos nazoratli tadqiqot topilmadi. Chop etilgan holat bayonlarida surtilgandan keyin allergik kontakt dermatit tasvirlangan, shu sababli tabiiy kelib chiqish moyning xavfsiz ekanini anglatmaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Масло семян Nigella sativa (чёрный тмин; по-английски \"black seed oil\"; тимохинон — один из его основных компонентов) изучалось в лабораторных, животных и небольшом числе исследований на людях по показателям, связанным с кожей: бактерии, связанные с акне, пигментация, сухость и раздражение. Большая часть имеющихся данных получена в доклинических исследованиях, на смешанных или комбинированных продуктах либо не относится именно к косметическому применению; контролируемого исследования, посвящённого косметическому применению масла, в этом поиске найдено не было. В опубликованных описаниях клинических случаев сообщается об аллергическом контактном дерматите после местного применения, поэтому природное происхождение не означает, что масло безопасно. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "جرت دراسة زيت بذور Nigella sativa (حبة البركة أو الكمّون الأسود؛ ويُعرف بالإنجليزية باسم \"black seed oil\"، ويُعدّ الثيموكينون أحد مكوّناته الرئيسية) في دراسات مخبرية وحيوانية وعدد قليل من الدراسات على البشر فيما يخص نتائج متعلقة بالبشرة، مثل البكتيريا المرتبطة بحب الشباب والتصبغ والجفاف والتهيّج. معظم الأدلة المتاحة ما قبل سريرية، أو مأخوذة من منتجات مختلطة أو مركّبة، أو غير خاصة بالاستخدام التجميلي، ولم تُحدَّد في هذا البحث أي دراسة مضبوطة خاصة بالاستخدام التجميلي للزيت. وتصف تقارير حالات منشورة التهاب الجلد التماسي التحسسي بعد الاستعمال الموضعي، لذا فإن المصدر الطبيعي لا يعني أن الزيت خالٍ من المخاطر. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "nigella-sativa-oil-1",
+     "level": "C",
+     "studyType": "meta-analysis",
+     "text": {
+      "en": "A systematic review and meta-analysis of 14 randomised-trial records (732 participants) of Nigella sativa in any form, not only topical, in people with skin conditions including acne, eczema, atopic dermatitis, psoriasis, vitiligo, warts and cutaneous leishmaniasis reported a pooled odds ratio of 4.59 (95% CI 2.02 to 10.39), which the authors interpreted as possible effectiveness; the conditions, preparations and follow-up (4 days to 24 weeks) varied widely, the results are not specific to cosmetic use, and the authors state that more research is needed.",
+      "uz": "Nigella sativa‘ni har qanday shaklda (faqat surtiladigan emas) teri kasalliklari, jumladan akne, ekzema, atopik dermatit, psoriaz, vitiligo, so‘gallar va teri leyshmanioziga ega odamlarda o‘rgangan 14 ta randomizatsiyalangan tadqiqot yozuvi (732 ishtirokchi) bo‘yicha tizimli sharh va meta-tahlilda umumiy odds nisbati 4,59 (95% ishonch oralig‘i 2,02 dan 10,39 gacha) qayd etilgan; mualliflar buni ehtimoliy samaradorlik deb talqin qilgan. Kasalliklar, preparatlar va kuzatuv muddati (4 kundan 24 haftagacha) juda xilma-xil bo‘lgan, natijalar kosmetik qo‘llanilishga xos emas, mualliflar esa qo‘shimcha tadqiqotlar kerakligini ta‘kidlaydi.",
+      "ru": "В систематическом обзоре и метаанализе 14 записей о рандомизированных исследованиях (732 участника), посвящённых Nigella sativa в любой форме (не только местной) у людей с кожными заболеваниями, включая акне, экзему, атопический дерматит, псориаз, витилиго, бородавки и кожный лейшманиоз, получено объединённое отношение шансов 4,59 (95% ДИ от 2,02 до 10,39), которое авторы трактовали как возможную эффективность; заболевания, препараты и сроки наблюдения (от 4 дней до 24 недель) сильно различались, результаты не относятся именно к косметическому применению, а авторы указывают, что необходимы дополнительные исследования.",
+      "ar": "أفادت مراجعة منهجية وتحليل تلوي لـ 14 سجلًا من التجارب العشوائية (732 مشاركًا) حول Nigella sativa بأي شكل، وليس الموضعي فقط، لدى أشخاص يعانون من حالات جلدية تشمل حب الشباب والإكزيما والتهاب الجلد التأتبي والصدفية والبهاق والثآليل وداء الليشمانيات الجلدي، بنسبة أرجحية مجمّعة قدرها 4.59 (فاصل ثقة 95%: من 2.02 إلى 10.39)، فسّرها المؤلفون على أنها فعالية محتملة؛ وقد تباينت الحالات والمستحضرات ومدة المتابعة (من 4 أيام إلى 24 أسبوعًا) تباينًا كبيرًا، والنتائج غير خاصة بالاستخدام التجميلي، ويذكر المؤلفون أن هناك حاجة إلى مزيد من البحث."
+     },
+     "sources": [
+      {
+       "pmid": "36518853",
+       "doi": "10.1155/2022/7993579",
+       "title": "The Therapeutic Effects of Nigella sativa on Skin Disease: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+       "year": 2022,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/36518853/"
+      }
+     ]
+    },
+    {
+     "id": "nigella-sativa-oil-2",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In a laboratory study (in vitro), topical gels made with an ethyl acetate extract of Nigella sativa seeds inhibited the growth of acne-associated bacteria, with the highest activity at 15% extract, and the gels stayed physically stable over 30 days; this was an antibacterial test on cultures using an extract rather than the oil, not a trial showing fewer acne lesions in people.",
+      "uz": "Laboratoriya tadqiqotida (in vitro) Nigella sativa urug‘larining etilatsetat ekstrakti bilan tayyorlangan surtiladigan gellar akne bilan bog‘liq bakteriyalar o‘sishini to‘xtatgan, eng yuqori faollik 15% ekstraktda kuzatilgan, gellar 30 kun davomida jismoniy jihatdan barqaror bo‘lgan; bu moy emas, ekstrakt bilan madaniyatlarda o‘tkazilgan antibakterial sinov bo‘lib, odamlarda akne toshmalari kamayganini ko‘rsatgan sinov emas.",
+      "ru": "В лабораторном исследовании (in vitro) гели для местного применения с этилацетатным экстрактом семян Nigella sativa подавляли рост бактерий, связанных с акне, при этом наибольшая активность наблюдалась при 15% экстракта, а гели оставались физически стабильными в течение 30 дней; это был антибактериальный тест на культурах с использованием экстракта, а не масла, и не исследование, показавшее уменьшение высыпаний акне у людей.",
+      "ar": "في دراسة مخبرية (in vitro)، ثبّطت جيلات موضعية محضّرة بمستخلص أسيتات الإيثيل من بذور Nigella sativa نمو البكتيريا المرتبطة بحب الشباب، وكان أعلى نشاط عند تركيز 15% من المستخلص، وظلّت الجيلات مستقرة فيزيائيًا خلال 30 يومًا؛ وكان ذلك اختبارًا مضادًا للبكتيريا على المزارع باستخدام مستخلص لا زيت، وليس تجربة أظهرت انخفاض عدد آفات حب الشباب لدى البشر."
+     },
+     "sources": [
+      {
+       "pmid": "31485198",
+       "doi": "10.1155/2019/5985207",
+       "title": "Development of Novel Topical Cosmeceutical Formulations from Nigella sativa L. with Antimicrobial Activity against Acne-Causing Microorganisms.",
+       "year": 2019,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/31485198/"
+      }
+     ]
+    },
+    {
+     "id": "nigella-sativa-oil-3",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In rats with hyperpigmentation induced by stress-augmented UV-B irradiation, a cream containing a combination of dill, nagarmotha and black cumin oils (2%, 4% or 6% of each oil) applied twice daily for 30 days was associated with improved pigmentation compared with untreated animals; this was an animal study of a three-oil blend, so effects cannot be attributed to black cumin oil alone or assumed for people, and the authors call for evaluation in human subjects.",
+      "uz": "Stress bilan kuchaytirilgan UV-B nurlanishi sabab giperpigmentatsiya chaqirilgan kalamushlarda arpabodiyon, nagarmotha va qora zira moylari aralashmasi (har bir moydan 2%, 4% yoki 6%) bo‘lgan krem 30 kun davomida kuniga ikki marta surtilganda davolanmagan hayvonlarga nisbatan pigmentatsiyaning yaxshilanishi bilan bog‘langan; bu uch moyli aralashma bilan o‘tkazilgan hayvon tadqiqoti, shu sababli ta‘sirni faqat qora zira moyiga bog‘lab bo‘lmaydi va odamlarga ham ko‘chirib bo‘lmaydi; mualliflar odamlarda baholash zarurligini aytadi.",
+      "ru": "У крыс с гиперпигментацией, вызванной усиленным стрессом УФ-В-облучением, крем с комбинацией масел укропа, нагармоты и чёрного тмина (по 2%, 4% или 6% каждого масла), наносимый дважды в день в течение 30 дней, был связан с улучшением пигментации по сравнению с нелечёнными животными; это было исследование на животных со смесью из трёх масел, поэтому эффекты нельзя приписать только маслу чёрного тмина или переносить на людей, а авторы указывают на необходимость оценки на людях.",
+      "ar": "لدى جرذان أُصيبت بفرط تصبغ ناتج عن التعرض للأشعة فوق البنفسجية UV-B المعزَّزة بالإجهاد، ارتبط كريم يحتوي على مزيج من زيوت الشبت والناغارموثا والكمّون الأسود (2% أو 4% أو 6% من كل زيت) مطبَّقًا مرتين يوميًا لمدة 30 يومًا بتحسّن التصبغ مقارنةً بالحيوانات غير المعالَجة؛ وكانت هذه دراسة على الحيوانات لمزيج من ثلاثة زيوت، لذا لا يمكن عزو التأثيرات إلى زيت الكمّون الأسود وحده ولا افتراضها لدى البشر، ويدعو المؤلفون إلى تقييمها لدى البشر."
+     },
+     "sources": [
+      {
+       "pmid": "32479252",
+       "doi": "10.2174/1872211314666200601163458",
+       "title": "Development, Characterization and Pharmacological Evaluation of Antiblemish Cream Containing Herbal Oils.",
+       "year": 2020,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/32479252/"
+      }
+     ]
+    },
+    {
+     "id": "nigella-sativa-oil-4",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "Published case reports describe allergic contact dermatitis after topical use of black cumin (Nigella sativa) oil or an ointment containing it; one report identifies thymoquinone as a causative allergen with cross-reactivity to tert-butylhydroquinone, and another describes five further cases in which tert-butylhydroquinone was proposed as a marker of sensitivity. These are individual case reports (abstracts were not available in PubMed, so this description is limited to titles and keywords), and the frequency of such reactions is unknown.",
+      "uz": "Chop etilgan holat bayonlarida qora zira (Nigella sativa) moyi yoki uni o‘z ichiga olgan malham surtilgandan keyin allergik kontakt dermatit tasvirlangan; bir xabarda timokinon sabab bo‘lgan allergen sifatida va tert-butilgidrokinon bilan o‘zaro reaksiya bilan aniqlangan, boshqasida esa yana beshta holat tasvirlanib, tert-butilgidrokinon sezuvchanlik belgisi sifatida taklif qilingan. Bular alohida holat bayonlari (PubMed‘da annotatsiyalar mavjud emas edi, shu sababli bu tavsif sarlavha va kalit so‘zlar bilan cheklangan), bunday reaksiyalar chastotasi noma‘lum.",
+      "ru": "В опубликованных описаниях клинических случаев сообщается об аллергическом контактном дерматите после местного применения масла чёрного тмина (Nigella sativa) или мази, содержащей его; в одном сообщении тимохинон назван причинным аллергеном с перекрёстной реакцией на трет-бутилгидрохинон, в другом описаны ещё пять случаев, в которых трет-бутилгидрохинон предложен как маркер чувствительности. Это отдельные описания случаев (аннотации в PubMed были недоступны, поэтому описание ограничено заголовками и ключевыми словами), а частота таких реакций неизвестна.",
+      "ar": "تصف تقارير حالات منشورة التهاب الجلد التماسي التحسسي بعد الاستعمال الموضعي لزيت الكمّون الأسود (Nigella sativa) أو مرهم يحتوي عليه؛ ويحدّد أحد التقارير الثيموكينون مسبّبًا للحساسية مع تفاعل متصالب مع ثالثي بوتيل الهيدروكينون، ويصف تقرير آخر خمس حالات إضافية اقتُرح فيها ثالثي بوتيل الهيدروكينون علامةً على الحساسية. وهذه تقارير حالات فردية (لم تكن الملخصات متاحة في PubMed، لذا يقتصر هذا الوصف على العناوين والكلمات المفتاحية)، وتواتر مثل هذه التفاعلات غير معروف."
+     },
+     "sources": [
+      {
+       "pmid": "9197967",
+       "doi": "10.1111/j.1600-0536.1997.tb00219.x",
+       "title": "Allergic contact dermatitis from black cumin (Nigella sativa) oil after topical use.",
+       "year": 1997,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/9197967/"
+      },
+      {
+       "pmid": "12000337",
+       "doi": "10.1034/j.1600-0536.2002.460318.x",
+       "title": "Allergic contact dermatitis from black cumin (Nigella sativa) oil-containing ointment.",
+       "year": 2002,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/12000337/"
+      },
+      {
+       "pmid": "32232855",
+       "doi": "10.1111/cod.13542",
+       "title": "Thymoquinone as a causative allergen in Nigella sativa oil contact dermatitis with cross-reactivity to tert-butylhydroquinone.",
+       "year": 2020,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/32232855/"
+      },
+      {
+       "pmid": "33236781",
+       "doi": "10.1111/cod.13750",
+       "title": "Tert-butylhydroquinone is a marker for sensitivity to Nigella sativa oil allergy: Five new cases.",
+       "year": 2020,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/33236781/"
+      }
+     ]
+    },
+    {
+     "id": "nigella-sativa-oil-5",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative review of nine articles (searched 2014 to March 2024) on Nigella sativa and its constituent thymoquinone in photoaging concluded that they may help prevent photoaging through antioxidant and anti-inflammatory mechanisms, such as neutralising UV-induced reactive oxygen species; the included studies mixed oral and topical use, and the authors state that more studies are needed.",
+      "uz": "Fotokeksayishda Nigella sativa va uning tarkibiy qismi timokinon haqidagi to‘qqizta maqolaning (2014 yildan 2024 yil martigacha qidirilgan) hikoyaviy sharhida ular antioksidant va yallig‘lanishga qarshi mexanizmlar, masalan UV keltirib chiqargan reaktiv kislorod turlarini zararsizlantirish orqali fotokeksayishning oldini olishga yordam berishi mumkin degan xulosa qilingan; kiritilgan tadqiqotlarda og‘iz orqali va surtiladigan qo‘llanilish aralash bo‘lgan, mualliflar esa qo‘shimcha tadqiqotlar kerakligini ta‘kidlaydi.",
+      "ru": "В нарративном обзоре девяти статей (поиск с 2014 года по март 2024 года) о Nigella sativa и её компоненте тимохиноне при фотостарении сделан вывод, что они могут помогать предотвращать фотостарение через антиоксидантные и противовоспалительные механизмы, например нейтрализацию вызванных УФ активных форм кислорода; в включённых исследованиях смешивались пероральное и местное применение, а авторы указывают, что необходимы дополнительные исследования.",
+      "ar": "خلصت مراجعة سردية لتسع مقالات (جرى البحث فيها من عام 2014 إلى مارس 2024) حول Nigella sativa ومكوّنها الثيموكينون في الشيخوخة الضوئية إلى أنهما قد يساعدان على الوقاية من الشيخوخة الضوئية عبر آليات مضادة للأكسدة ومضادة للالتهاب، مثل تعطيل أنواع الأكسجين التفاعلية الناتجة عن الأشعة فوق البنفسجية؛ وقد جمعت الدراسات المشمولة بين الاستخدام الفموي والموضعي، ويذكر المؤلفون أن هناك حاجة إلى مزيد من الدراسات."
+     },
+     "sources": [
+      {
+       "pmid": "40530399",
+       "doi": "10.3892/br.2025.2009",
+       "title": "Role of Nigella sativa L. seed (black cumin) in preventing photoaging (Review).",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40530399/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Avena Sativa Kernel Flour",
+   "slug": "oat",
+   "status": "draft",
+   "category": "natural",
+   "aliases": [
+    "Oatmeal",
+    "Colloidal Oatmeal",
+    "Avena Sativa (Oat) Kernel Flour"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Colloidal oatmeal (finely milled oat, INCI Avena Sativa Kernel Flour; people also write it as \"oatmeal\" or \"oat\") is used in leave-on creams, washes and baths and has been studied in topical products for dry skin, skin barrier and tolerability. The clinical evidence on this card comes from small studies, often of finished products or comparisons with other creams, so effects cannot be attributed to oat alone; the mechanistic data are laboratory-based. Sensitisation to oat in topical products has been reported, mainly in children with atopic dermatitis. This card summarises published evidence only and is not medical advice.",
+    "uz": "Kolloid suli uni (maydalangan suli, INCI: Avena Sativa Kernel Flour; odamlar uni \"oatmeal\" yoki \"oat\" deb ham yozadi) qoldiriladigan kremlar, yuvish vositalari va vannalarda ishlatiladi va quruq teri, teri to‘sig‘i hamda teri tomonidan yaxshi qabul qilinishi bo‘yicha surtiladigan vositalarda o‘rganilgan. Bu kartochkadagi klinik dalillar kichik tadqiqotlardan olingan bo‘lib, ko‘pincha tayyor mahsulotlar yoki boshqa kremlar bilan taqqoslashlar haqida, shu sababli natijalarni faqat suliga bog‘lab bo‘lmaydi; mexanizm bo‘yicha ma‘lumotlar laboratoriya sharoitidagi tadqiqotlarga asoslangan. Surtiladigan vositalarda suliga nisbatan sensibilizatsiya (allergik sezgirlik) qayd etilgan, asosan atopik dermatitli bolalarda. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Коллоидная овсяная мука (тонко измельчённый овёс, INCI: Avena Sativa Kernel Flour; люди также пишут «oatmeal» или «oat») используется в несмываемых кремах, средствах для умывания и ваннах и изучалась в средствах для местного применения в отношении сухой кожи, кожного барьера и переносимости. Клинические данные в этой карточке получены из небольших исследований, часто готовых продуктов или сравнений с другими кремами, поэтому эффекты нельзя приписать только овсу; данные о механизмах получены в лабораторных условиях. О сенсибилизации к овсу в средствах для местного применения сообщалось, главным образом у детей с атопическим дерматитом. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "دقيق الشوفان الغروي (colloidal oatmeal، شوفان مطحون ناعمًا، وفق INCI: Avena Sativa Kernel Flour؛ ويكتبه الناس أيضًا «oatmeal» أو «oat») يُستخدم في الكريمات التي تبقى على البشرة ومنتجات الغسل وحمّامات الاستحمام، وقد جرت دراسته في المنتجات الموضعية فيما يخص الجلد الجاف والحاجز الجلدي وقابلية التحمّل. تأتي الأدلة السريرية في هذه البطاقة من دراسات صغيرة، غالبًا على منتجات جاهزة أو مقارنات مع كريمات أخرى، ولذلك لا يمكن عزو التأثيرات إلى الشوفان وحده؛ أما البيانات المتعلقة بالآلية فمصدرها المختبر. وقد وُثّق تحسّس تجاه الشوفان في المنتجات الموضعية، وخاصةً لدى الأطفال المصابين بالتهاب الجلد التأتبي. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "oat-1",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "Laboratory studies reported that colloidal oatmeal extracts increased the expression of skin-barrier-related genes in cell and skin-model experiments, and that avenanthramides (oat polyphenols) reduced inflammatory signalling in cultured skin cells and in mouse models of skin inflammation and itch; a synthetic avenanthramide analogue also increased tight junction protein expression in skin-cell models. These are in vitro and animal findings and do not show the same effects in people.",
+      "uz": "Laboratoriya tadqiqotlarida kolloid suli ekstraktlari hujayra va teri modellari tajribalarida teri to‘sig‘i bilan bog‘liq genlar ifodasini oshirgani, avenantramidlar (suli polifenollari) esa o‘stirilgan teri hujayralarida hamda teri yallig‘lanishi va qichishining sichqon modellarida yallig‘lanish signalini kamaytirgani xabar qilingan; sintetik avenantramid analogi ham teri hujayralari modellarida zich birikma oqsillari ifodasini oshirgan. Bu in vitro va hayvonlarda olingan topilmalar bo‘lib, odamlarda xuddi shunday ta‘sirni ko‘rsatmaydi.",
+      "ru": "В лабораторных исследованиях сообщалось, что экстракты коллоидной овсяной муки повышали экспрессию генов, связанных с кожным барьером, в экспериментах на клетках и моделях кожи, а авенантрамиды (полифенолы овса) снижали воспалительную сигнализацию в культивируемых клетках кожи и на мышиных моделях воспаления кожи и зуда; синтетический аналог авенантрамида также повышал экспрессию белков плотных контактов в моделях клеток кожи. Это данные in vitro и на животных, и они не показывают тех же эффектов у людей.",
+      "ar": "أفادت دراسات مخبرية بأن مستخلصات دقيق الشوفان الغروي زادت تعبير الجينات المرتبطة بالحاجز الجلدي في تجارب على الخلايا ونماذج الجلد، وبأن الأفينانثراميدات (البوليفينولات الموجودة في الشوفان) خفّضت الإشارات الالتهابية في خلايا الجلد المستنبتة وفي نماذج فئران للالتهاب الجلدي والحكة؛ كما زاد نظير اصطناعي للأفينانثراميد تعبير بروتينات الوصلات المحكمة في نماذج خلايا الجلد. وهذه نتائج مخبرية (in vitro) وعلى الحيوانات، ولا تُظهر التأثيرات نفسها لدى البشر."
+     },
+     "sources": [
+      {
+       "pmid": "27272074",
+       "doi": null,
+       "title": "Colloidal Oatmeal (Avena Sativa) Improves Skin Barrier Through Multi-Therapy Activity.",
+       "year": 2016,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/27272074/"
+      },
+      {
+       "pmid": "18461339",
+       "doi": "10.1007/s00403-008-0858-x",
+       "title": "Avenanthramides, polyphenols from oats, exhibit anti-inflammatory and anti-itch activity.",
+       "year": 2008,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/18461339/"
+      },
+      {
+       "pmid": "39329899",
+       "doi": "10.3390/cimb46090547",
+       "title": "Dihydroavenanthramide D Enhances Skin Barrier Function through Upregulation of Epidermal Tight Junction Expression.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39329899/"
+      }
+     ]
+    },
+    {
+     "id": "oat-2",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a randomised study of 32 participants with very dry leg skin, a colloidal oatmeal moisturising cream and a different natural-ingredient cream, each applied twice daily to randomly assigned legs for three weeks, were both associated with higher skin hydration, lower transepidermal water loss and reduced visual dryness and roughness; the oatmeal cream served as the comparator and no untreated or vehicle-only comparison is described in the abstract, so the effect of oatmeal alone cannot be separated from the cream formulation, and the sample was small.",
+      "uz": "Oyoq terisi juda quruq bo‘lgan 32 ishtirokchi bilan o‘tkazilgan randomizatsiyalangan tadqiqotda kolloid suli tarkibli namlantiruvchi krem va boshqa tabiiy tarkibli krem, tasodifiy tanlangan oyoqlarga kuniga ikki marta uch hafta davomida surtilganda, ikkalasi ham teri namligining yuqoriroq bo‘lishi, transepidermal suv yo‘qotilishining pastroq bo‘lishi hamda ko‘zga ko‘rinadigan quruqlik va dag‘allikning kamayishi bilan bog‘langan; suli kremi taqqoslash vositasi bo‘lgan, annotatsiyada davolanmagan yoki faqat vehikul bilan taqqoslash tasvirlanmagan, shu sababli faqat suli ta‘sirini krem formulasidan ajratib bo‘lmaydi, tanlama ham kichik bo‘lgan.",
+      "ru": "В рандомизированном исследовании с участием 32 человек с очень сухой кожей ног увлажняющий крем с коллоидной овсяной мукой и другой крем на натуральной основе, наносимые дважды в день на случайно выбранные ноги в течение трёх недель, были связаны с более высокой гидратацией кожи, более низкой трансэпидермальной потерей воды и уменьшением видимой сухости и шероховатости; крем с овсом служил препаратом сравнения, а сравнение с отсутствием обработки или только с основой в аннотации не описано, поэтому эффект одного овса нельзя отделить от рецептуры крема, и выборка была небольшой.",
+      "ar": "في دراسة عشوائية شملت 32 مشاركًا يعانون جفافًا شديدًا في جلد الساقين، ارتبط كل من كريم مرطّب يحتوي على دقيق الشوفان الغروي وكريم آخر بمكوّنات طبيعية، وقد طُبّقا مرتين يوميًا على ساقين مختارتين عشوائيًا لمدة ثلاثة أسابيع، بارتفاع ترطيب الجلد وانخفاض فقدان الماء عبر البشرة وتراجع الجفاف المرئي والخشونة؛ وكان كريم الشوفان هو المقارن، ولم تصف الخلاصة مقارنة مع جلد غير معالج أو مع قاعدة الكريم وحدها، ولذلك لا يمكن فصل تأثير الشوفان وحده عن تركيبة الكريم، وكانت العينة صغيرة."
+     },
+     "sources": [
+      {
+       "pmid": "30005098",
+       "doi": null,
+       "title": "Clinical Improvements in Very Dry Skin from a Natural Ingredient-Based Moisturizing Cream Compared With a Leading Colloidal Oatmeal Control.",
+       "year": 2018,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/30005098/"
+      }
+     ]
+    },
+    {
+     "id": "oat-3",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In a 4-week, single-centre, non-randomised study of 29 babies aged 3 to 36 months who were prone to atopic dermatitis (24 completed it), a colloidal oatmeal-containing baby wash was reported as well tolerated; clinician-rated dryness, redness, rash/irritation and roughness and parent-rated itching scored lower at week 4, while the overall skin condition score did not change significantly. There was no control group and all completers were White, so conclusions are limited.",
+      "uz": "Atopik dermatitga moyil 3 oydan 36 oygacha bo‘lgan 29 nafar chaqaloq ishtirok etgan (24 nafari yakunlagan) 4 haftalik, bitta markazli, randomizatsiyalanmagan tadqiqotda kolloid suli tarkibli chaqaloq yuvish vositasi yaxshi qabul qilingani xabar qilingan; shifokor baholagan quruqlik, qizarish, toshma/tirnash va dag‘allik hamda ota-onalar baholagan qichish ko‘rsatkichlari 4-haftada past bo‘lgan, terining umumiy holati bahosi esa sezilarli o‘zgarmagan. Nazorat guruhi bo‘lmagan va yakunlaganlarning hammasi oq tanli bo‘lgan, shu sababli xulosalar cheklangan.",
+      "ru": "В 4-недельном одноцентровом нерандомизированном исследовании с участием 29 младенцев в возрасте от 3 до 36 месяцев, склонных к атопическому дерматиту (завершили 24), средство для купания с коллоидной овсяной мукой сообщалось как хорошо переносимое; оценённые врачом сухость, покраснение, сыпь/раздражение и шероховатость, а также оценённый родителями зуд были ниже на 4-й неделе, тогда как общий балл состояния кожи значимо не изменился. Контрольной группы не было, и все завершившие исследование были европеоидной расы, поэтому выводы ограничены.",
+      "ar": "في دراسة غير عشوائية مدتها 4 أسابيع في مركز واحد شملت 29 رضيعًا تتراوح أعمارهم بين 3 و36 شهرًا ومهيّئين للإصابة بالتهاب الجلد التأتبي (أكمل الدراسة 24 منهم)، أُفيد بأن غسول الأطفال المحتوي على دقيق الشوفان الغروي كان جيد التحمّل؛ وكانت درجات الجفاف والاحمرار والطفح/التهيّج والخشونة التي قيّمها الطبيب، ودرجة الحكة التي قيّمها الأهل، أقل في الأسبوع الرابع، بينما لم تتغير الدرجة العامة لحالة الجلد تغيرًا معنويًا. لم توجد مجموعة ضابطة، وكان جميع من أكملوا الدراسة من ذوي البشرة البيضاء، ولذلك فإن الاستنتاجات محدودة."
+     },
+     "sources": [
+      {
+       "pmid": "40709409",
+       "doi": "10.1111/ics.70010",
+       "title": "A colloidal oat-containing baby wash is gentle and effective for atopic-prone skin.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40709409/"
+      }
+     ]
+    },
+    {
+     "id": "oat-4",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A literature review of clinical trials of commercially available moisturisers for atopic dermatitis (studies published 2006 to 2019 that used corneometry, transepidermal water loss or flare incidence) reported that regular moisturisation improved skin barrier measures; the authors also state that moisturisers marketed in the USA with atopic dermatitis treatment claims must contain colloidal oatmeal. The review does not isolate the contribution of oatmeal itself.",
+      "uz": "Atopik dermatit uchun sotuvda mavjud namlantiruvchi vositalarning klinik tadqiqotlari bo‘yicha adabiyot sharhida (korneometriya, transepidermal suv yo‘qotilishi yoki qaytalanish chastotasidan foydalangan, 2006 yildan 2019 yilgacha chop etilgan tadqiqotlar) muntazam namlantirish teri to‘siqi ko‘rsatkichlarini yaxshilagani xabar qilingan; mualliflar shuningdek AQShda atopik dermatit bo‘yicha terapevtik da‘volari bilan sotiladigan namlantiruvchi vositalar tarkibida kolloid suli bo‘lishi shart ekanini bildiradi. Sharh sulining o‘z hissasini alohida ajratmaydi.",
+      "ru": "В обзоре литературы по клиническим исследованиям продающихся увлажняющих средств при атопическом дерматите (исследования 2006–2019 годов с использованием корнеометрии, трансэпидермальной потери воды или частоты обострений) сообщалось, что регулярное увлажнение улучшало показатели кожного барьера; авторы также указывают, что увлажняющие средства, продаваемые в США с терапевтическими заявлениями при атопическом дерматите, должны содержать коллоидную овсяную муку. Обзор не выделяет вклад самого овса.",
+      "ar": "أفادت مراجعة أدبيات للتجارب السريرية على المرطّبات المتوفرة تجاريًا لالتهاب الجلد التأتبي (دراسات نُشرت بين عامي 2006 و2019 استخدمت قياس رطوبة الجلد أو فقدان الماء عبر البشرة أو معدل النوبات) بأن الترطيب المنتظم حسّن مؤشرات الحاجز الجلدي؛ ويذكر المؤلفون أيضًا أن المرطّبات المسوّقة في الولايات المتحدة بادعاءات علاجية لالتهاب الجلد التأتبي يجب أن تحتوي على دقيق الشوفان الغروي. ولا تعزل المراجعة مساهمة الشوفان نفسه."
+     },
+     "sources": [
+      {
+       "pmid": "32524381",
+       "doi": "10.1007/s40257-020-00529-9",
+       "title": "Efficacy of Nonprescription Moisturizers for Atopic Dermatitis: An Updated Review of Clinical Evidence.",
+       "year": 2020,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/32524381/"
+      }
+     ]
+    },
+    {
+     "id": "oat-5",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "Sensitisation to oat in topical products has been reported, mainly in people with atopic dermatitis: in a prospective study of 302 children with atopic dermatitis referred for allergy testing, oat patch tests were positive in 14.6% and skin prick tests in 19.2%, and the authors suggested avoiding topical products containing oat proteins in infants with atopic dermatitis. Other small studies found no allergic reactions to oat-based cosmetics in 12 cereal-sensitised adults with atopic dermatitis, or to colloidal oat and rice suspensions in 65 children, so the evidence is mixed and comes from small or selected groups.",
+      "uz": "Surtiladigan vositalardagi suliga nisbatan sensibilizatsiya qayd etilgan, asosan atopik dermatitli odamlarda: allergiya tekshiruviga yuborilgan atopik dermatitli 302 nafar bolada o‘tkazilgan prospektiv tadqiqotda suli bilan teri \"patch\" (yopishtirma) testlari 14,6% da, teri prik-testlari 19,2% da ijobiy bo‘lgan, mualliflar atopik dermatitli chaqaloqlarda suli oqsillari bor surtiladigan vositalardan qochishni taklif qilgan. Boshqa kichik tadqiqotlarda atopik dermatitli, donli o‘simliklarga sensibilizatsiyalangan 12 nafar kattada suli asosidagi kosmetikaga yoki 65 nafar bolada kolloid suli va guruch suspenziyalariga allergik reaksiya kuzatilmagan, shu sababli dalillar aralash bo‘lib, kichik yoki tanlab olingan guruhlardan olingan.",
+      "ru": "О сенсибилизации к овсу в средствах для местного применения сообщалось, главным образом у людей с атопическим дерматитом: в проспективном исследовании 302 детей с атопическим дерматитом, направленных на аллергологическое обследование, патч-тесты с овсом были положительными в 14,6% случаев, а прик-тесты кожи — в 19,2%, и авторы предложили избегать средств для местного применения с белками овса у младенцев с атопическим дерматитом. В других небольших исследованиях не наблюдали аллергических реакций на косметику на основе овса у 12 взрослых с атопическим дерматитом и сенсибилизацией к злакам или на суспензии коллоидного овса и риса у 65 детей, поэтому данные неоднозначны и получены на небольших или отобранных группах.",
+      "ar": "وُثّق تحسّس تجاه الشوفان في المنتجات الموضعية، وخاصةً لدى المصابين بالتهاب الجلد التأتبي: ففي دراسة مستقبلية شملت 302 طفل مصابين بالتهاب الجلد التأتبي أُحيلوا لإجراء اختبارات الحساسية، كانت اختبارات اللصقة بالشوفان إيجابية في 14.6% واختبارات وخز الجلد إيجابية في 19.2%، واقترح المؤلفون تجنّب المنتجات الموضعية المحتوية على بروتينات الشوفان لدى الرضّع المصابين بالتهاب الجلد التأتبي. ولم تلاحظ دراسات صغيرة أخرى ردود فعل تحسسية تجاه مستحضرات التجميل المعتمدة على الشوفان لدى 12 بالغًا مصابين بالتهاب الجلد التأتبي ومتحسسين للحبوب، ولا تجاه معلّقات الشوفان والأرز الغروية لدى 65 طفلًا، ولذلك فإن الأدلة متباينة ومصدرها مجموعات صغيرة أو منتقاة."
+     },
+     "sources": [
+      {
+       "pmid": "17919139",
+       "doi": "10.1111/j.1398-9995.2007.01527.x",
+       "title": "Oat sensitization in children with atopic dermatitis: prevalence, risks and associated factors.",
+       "year": 2007,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/17919139/"
+      },
+      {
+       "pmid": "24201466",
+       "doi": "10.1097/DER.0b013e3182a745f8",
+       "title": "Oat and wheat as contact allergens in personal care products.",
+       "year": 2013,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/24201466/"
+      },
+      {
+       "pmid": "19223682",
+       "doi": "10.1159/000203649",
+       "title": "Tolerance of oat-based topical products in cereal-sensitized adults with atopic dermatitis.",
+       "year": 2009,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/19223682/"
+      },
+      {
+       "pmid": "9358111",
+       "doi": null,
+       "title": "An evaluation of the allergic contact dermatitis potential of colloidal grain suspensions.",
+       "year": 1997,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/9358111/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "inci": "Panthenol",
    "slug": "panthenol",
    "status": "draft",
+   "category": "active",
    "aliases": [],
    "eu": {
     "annex": "unverified",
@@ -939,9 +1943,131 @@
    ]
   },
   {
+   "inci": "Rosa Canina Fruit Oil",
+   "slug": "rosehip-oil",
+   "status": "draft",
+   "category": "natural",
+   "aliases": [
+    "Rosehip Oil"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Rosehip oil (INCI: Rosa Canina Fruit Oil; obtained from Rosa canina or Rosa rubiginosa and also sold as rosehip seed oil) is a plant oil used in leave-on skin-care products. Published evidence on topical use is limited: one randomised trial of a multi-ingredient stretch-mark cream, one small skin hydration comparison, and a narrative review of scar studies that judged the evidence insufficient. No suitable human studies on photoaging were found in this search. A case report of allergic contact dermatitis and laboratory data on light-induced oxidation are included as cautions. A natural origin does not by itself indicate how any individual will tolerate a product. This card summarises published evidence only and is not medical advice.",
+    "uz": "Itburun moyi (INCI: Rosa Canina Fruit Oil; Rosa canina yoki Rosa rubiginosa‘dan olinadi va itburun urug‘ moyi nomi bilan ham sotiladi) teriga surtib, yuvilmaydigan parvarish vositalarida ishlatiladigan o‘simlik moyidir. Surtib qo‘llanishi bo‘yicha chop etilgan dalillar cheklangan: ko‘p komponentli yoriq izlariga qarshi kremning bitta randomizatsiyalangan tadqiqoti, teri namligini solishtirgan bitta kichik tadqiqot va dalilni yetarli emas deb baholagan chandiqlar bo‘yicha hikoyaviy sharh. Ushbu qidiruvda fotoaging bo‘yicha mos keladigan odamlardagi tadqiqotlar topilmadi. Allergik kontakt dermatit haqidagi klinik hodisa bayoni va yorug‘lik ta‘sirida oksidlanish bo‘yicha laboratoriya ma‘lumotlari ehtiyot choralari sifatida keltirilgan. Tabiiy kelib chiqish o‘z-o‘zidan har bir kishi vositani qanday ko‘tarishini ko‘rsatmaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Масло шиповника (INCI: Rosa Canina Fruit Oil; получают из Rosa canina или Rosa rubiginosa, продаётся также как масло семян шиповника) — растительное масло, используемое в несмываемых средствах по уходу за кожей. Опубликованные данные о наружном применении ограничены: одно рандомизированное исследование многокомпонентного крема от растяжек, одно небольшое сравнение увлажнённости кожи и нарративный обзор исследований рубцов, признавший данные недостаточными. В этом поиске не найдено подходящих исследований на людях по фотостарению. Клиническое описание случая аллергического контактного дерматита и лабораторные данные об окислении под действием света приведены как предостережения. Естественное происхождение само по себе не показывает, как конкретный человек перенесёт средство. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "زيت ثمر الورد البري (INCI: Rosa Canina Fruit Oil؛ يُستخلص من Rosa canina أو Rosa rubiginosa ويُباع أيضًا باسم زيت بذور ثمر الورد البري) هو زيت نباتي يُستخدم في منتجات العناية بالبشرة التي تبقى على الجلد. الأدلة المنشورة حول استخدامه الموضعي محدودة: تجربة عشوائية واحدة لكريم متعدد المكوّنات للعلامات التمددية، ومقارنة صغيرة واحدة لترطيب الجلد، ومراجعة سردية لدراسات الندبات رأت أن الأدلة غير كافية. لم تُعثر في هذا البحث على دراسات بشرية مناسبة حول الشيخوخة الضوئية. أُدرج تقرير حالة عن التهاب الجلد التماسي التحسسي وبيانات مخبرية عن الأكسدة الناتجة عن الضوء بوصفها تنبيهات احترازية. لا يدل الأصل الطبيعي بحد ذاته على كيفية تحمّل أي شخص للمنتج. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "rosehip-oil-1",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative review of rosehip oil and postsurgical scars found a scarcity of high-quality studies, with only two human clinical trials; it reported some evidence that topical products containing rosehip oil extract may reduce scar size and redness, but concluded that evidence is insufficient to recommend rosehip oil for wounds and that further research is needed.",
+      "uz": "Itburun moyi va operatsiyadan keyingi chandiqlar bo‘yicha hikoyaviy sharhda yuqori sifatli tadqiqotlar kamligi, odamlarda faqat ikkita klinik sinov mavjudligi aniqlangan; itburun moyi ekstrakti tarkibli surtiladigan vositalar chandiq o‘lchami va qizarishini kamaytirishi mumkinligi haqida ba‘zi dalillar keltirilgan, ammo itburun moyini yaralar uchun tavsiya etishga dalil yetarli emas va qo‘shimcha tadqiqotlar kerak degan xulosaga kelingan.",
+      "ru": "В нарративном обзоре о масле шиповника и послеоперационных рубцах отмечена нехватка высококачественных исследований, всего два клинических исследования на людях; сообщалось о некоторых данных, что средства для наружного применения с экстрактом масла шиповника могут уменьшать размер и покраснение рубцов, но сделан вывод, что данных недостаточно, чтобы рекомендовать масло шиповника при ранах, и нужны дальнейшие исследования.",
+      "ar": "في مراجعة سردية عن زيت ثمر الورد البري والندبات بعد الجراحة، وُجد نقص في الدراسات عالية الجودة مع تجربتين سريريتين فقط على البشر؛ وأُفيد بوجود بعض الأدلة على أن المنتجات الموضعية المحتوية على مستخلص زيت ثمر الورد البري قد تقلّل حجم الندبة واحمرارها، لكن المراجعة خلصت إلى أن الأدلة غير كافية للتوصية باستخدام زيت ثمر الورد البري للجروح وأن هناك حاجة إلى مزيد من البحث."
+     },
+     "sources": [
+      {
+       "pmid": "37605366",
+       "doi": "10.1111/jocd.15971",
+       "title": "Rosehip extract and wound healing: A review.",
+       "year": 2023,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37605366/"
+      }
+     ]
+    },
+    {
+     "id": "rosehip-oil-2",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a double-blind, placebo-controlled randomised trial in pregnant women, a cream containing rosehip oil together with hydroxyprolisilane-C, Centella asiatica triterpenes and vitamin E did not change the overall incidence of stretch marks (33.3% control vs 37.6% treated, not significant); in women with no stretch marks at baseline, new stretch marks were less frequent with the cream (5.6% vs 35%, a small subgroup with a wide confidence interval). Effects cannot be attributed to rosehip oil alone.",
+      "uz": "Homilador ayollarda o‘tkazilgan ikki tomonlama ko‘r, plasebo nazoratli randomizatsiyalangan sinovda itburun moyi, gidroksiprolisilan-C, Centella asiatica triterpenlari va E vitamini birga bo‘lgan krem yoriq izlari umumiy uchrash ko‘rsatkichini o‘zgartirmagan (nazoratda 33,3%, davolangan guruhda 37,6%, statistik ahamiyatsiz); boshlang‘ich holatda yoriq izlari bo‘lmagan ayollarda kremdan foydalanganda yangi yoriq izlari kamroq uchragan (5,6% va 35%, ishonch oralig‘i keng bo‘lgan kichik kichik guruh). Ta‘sirni faqat itburun moyiga bog‘lab bo‘lmaydi.",
+      "ru": "В двойном слепом плацебо-контролируемом рандомизированном исследовании с участием беременных женщин крем, содержащий масло шиповника вместе с гидроксипролисиланом-C, тритерпенами Centella asiatica и витамином E, не изменил общую частоту появления растяжек (33,3% в контроле против 37,6% в группе крема, различие не значимо); у женщин без растяжек на исходном уровне новые растяжки встречались реже при использовании крема (5,6% против 35%, небольшая подгруппа с широким доверительным интервалом). Эффекты нельзя приписать только маслу шиповника.",
+      "ar": "في تجربة عشوائية مزدوجة التعمية ومضبوطة بالدواء الوهمي شملت نساءً حوامل، لم يغيّر كريم يحتوي على زيت ثمر الورد البري مع هيدروكسي برولي سيلان-C وتريتربينات Centella asiatica وفيتامين هـ معدل حدوث العلامات التمددية الإجمالي (33.3% في المجموعة الضابطة مقابل 37.6% في مجموعة الكريم، وهو فرق غير ذي دلالة)؛ وفي النساء اللواتي لم تكن لديهن علامات تمددية عند البداية كانت العلامات الجديدة أقل تكرارًا مع الكريم (5.6% مقابل 35%، في مجموعة فرعية صغيرة ذات فاصل ثقة واسع). ولا يمكن عزو التأثيرات إلى زيت ثمر الورد البري وحده."
+     },
+     "sources": [
+      {
+       "pmid": "23237514",
+       "doi": "10.1111/ics.12029",
+       "title": "Use of a specific anti-stretch mark cream for preventing or reducing the severity of striae gravidarum. Randomized, double-blind, controlled trial.",
+       "year": 2013,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/23237514/"
+      }
+     ]
+    },
+    {
+     "id": "rosehip-oil-3",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In a small laboratory and skin-measurement study with eight healthy volunteers, rosehip oil was used as a reference oil next to olive oils and liquid paraffin, and gave the highest increase in skin oil content and hydration measured with a dermoanalyser; rosehip oil was a comparator rather than the main subject of the study, it was not a finished cosmetic product, and the abstract does not report the follow-up duration.",
+      "uz": "Sakkiz nafar sog‘lom ko‘ngilli ishtirok etgan kichik laboratoriya va teri o‘lchovi tadqiqotida itburun moyi zaytun moylari va suyuq parafin bilan yonma-yon taqqoslash uchun mo‘ljallangan moy sifatida ishlatilgan va dermoanalizator bilan o‘lchanganda teridagi moy miqdori va namlikning eng yuqori oshishini bergan; itburun moyi tadqiqotning asosiy ob‘ekti emas, taqqoslash moyi bo‘lgan, tayyor kosmetik vosita bo‘lmagan, annotatsiyada esa kuzatuv davomiyligi keltirilmagan.",
+      "ru": "В небольшом лабораторном исследовании с измерениями кожи у восьми здоровых добровольцев масло шиповника использовалось как эталонное масло наряду с оливковыми маслами и жидким парафином и дало наибольшее увеличение содержания кожного жира и увлажнённости по данным дерматоанализатора; масло шиповника было сравнительным образцом, а не основным предметом исследования, это не готовое косметическое средство, а длительность наблюдения в аннотации не указана.",
+      "ar": "في دراسة مخبرية صغيرة مع قياسات للجلد شملت ثمانية متطوعين أصحاء، استُخدم زيت ثمر الورد البري زيتًا مرجعيًا إلى جانب زيوت الزيتون والبارافين السائل، وأعطى أعلى زيادة في محتوى الجلد من الزيت والترطيب وفق قياسات جهاز تحليل الجلد؛ وكان زيت ثمر الورد البري مادة للمقارنة وليس الموضوع الرئيسي للدراسة، ولم يكن منتجًا تجميليًا جاهزًا، ولم تذكر الخلاصة مدة المتابعة."
+     },
+     "sources": [
+      {
+       "pmid": "36559109",
+       "doi": "10.3390/pharmaceutics14122615",
+       "title": "In Vitro and In Vivo Characteristics of Olive Oil as Excipient for Topical Administration.",
+       "year": 2022,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/36559109/"
+      }
+     ]
+    },
+    {
+     "id": "rosehip-oil-4",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "A published case report described allergic contact dermatitis caused by \"Rosa mosqueta\" (rosehip) oil used on the skin; the abstract is not available in PubMed, so this is based on the title, keywords and indexing only. A single case report cannot show how common such reactions are, but it shows that a plant oil can cause an allergic reaction in some individuals.",
+      "uz": "Chop etilgan klinik hodisa bayonida teriga surtilgan \"Rosa mosqueta\" (itburun) moyidan kelib chiqqan allergik kontakt dermatit tasvirlangan; annotatsiya PubMed‘da mavjud emas, shu sababli bu faqat sarlavha, kalit so‘zlar va indekslashga asoslangan. Bitta klinik hodisa bayoni bunday reaksiyalar qanchalik tez-tez uchrashini ko‘rsata olmaydi, lekin o‘simlik moyi ba‘zi odamlarda allergik reaksiya chaqirishi mumkinligini ko‘rsatadi.",
+      "ru": "В опубликованном описании клинического случая сообщалось об аллергическом контактном дерматите, вызванном маслом «Rosa mosqueta» (шиповника), нанесённым на кожу; аннотация в PubMed недоступна, поэтому это основано только на названии, ключевых словах и индексации. Одно описание случая не показывает, насколько часто бывают такие реакции, но показывает, что растительное масло может вызвать аллергическую реакцию у некоторых людей.",
+      "ar": "وصف تقرير حالة منشور التهاب الجلد التماسي التحسسي الناتج عن زيت «Rosa mosqueta» (ثمر الورد البري) المستخدم على الجلد؛ والخلاصة غير متاحة في PubMed، لذا يستند هذا إلى العنوان والكلمات المفتاحية والفهرسة فقط. لا يستطيع تقرير حالة واحد أن يبيّن مدى شيوع مثل هذه التفاعلات، لكنه يُظهر أن الزيت النباتي قد يسبب تفاعلًا تحسسيًا لدى بعض الأفراد."
+     },
+     "sources": [
+      {
+       "pmid": "30022513",
+       "doi": "10.1111/cod.13083",
+       "title": "Allergic contact dermatitis caused by \"Rosa mosqueta\" oil.",
+       "year": 2018,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/30022513/"
+      }
+     ]
+    },
+    {
+     "id": "rosehip-oil-5",
+     "level": "C",
+     "studyType": "in vitro",
+     "text": {
+      "en": "In a laboratory (in vitro) study, rosehip oil was oxidised by UVA and UVC exposure, and encapsulating the oil in nanocapsules reduced this oxidation; the study did not test commercial products or normal storage conditions, so it only suggests that the oil can be sensitive to light-induced oxidation.",
+      "uz": "Laboratoriya (in vitro) tadqiqotida itburun moyi UVA va UVC nurlari ta‘sirida oksidlangan, moyni nanokapsulalarga joylash esa bu oksidlanishni kamaytirgan; tadqiqotda tijoriy mahsulotlar yoki oddiy saqlash sharoitlari sinalmagan, shu sababli u faqat moy yorug‘lik ta‘sirida oksidlanishga sezgir bo‘lishi mumkinligini ko‘rsatadi.",
+      "ru": "В лабораторном (in vitro) исследовании масло шиповника окислялось при воздействии UVA и UVC, а помещение масла в нанокапсулы уменьшало это окисление; исследование не проверяло готовые продукты и обычные условия хранения, поэтому оно лишь позволяет предположить, что масло может быть чувствительно к окислению под действием света.",
+      "ar": "في دراسة مخبرية (in vitro)، تأكسد زيت ثمر الورد البري عند تعريضه للأشعة فوق البنفسجية UVA وUVC، وقلّل تغليف الزيت في كبسولات نانوية هذه الأكسدة؛ ولم تختبر الدراسة منتجات تجارية أو ظروف التخزين المعتادة، لذا فهي تشير فقط إلى أن الزيت قد يكون حساسًا للأكسدة الناتجة عن الضوء."
+     },
+     "sources": [
+      {
+       "pmid": "26381915",
+       "doi": "10.1208/s12249-015-0379-9",
+       "title": "Nanoencapsulation of Rose-Hip Oil Prevents Oil Oxidation and Allows Obtainment of Gel and Film Topical Formulations.",
+       "year": 2015,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/26381915/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "inci": "Urea",
    "slug": "urea",
    "status": "draft",
+   "category": "active",
    "aliases": [],
    "eu": {
     "annex": "unverified",
@@ -1067,6 +2193,7 @@
    "inci": "Zinc Oxide",
    "slug": "zinc-oxide",
    "status": "draft",
+   "category": "active",
    "aliases": [],
    "eu": {
     "annex": "unverified",

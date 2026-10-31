@@ -43,10 +43,11 @@ void main() {
         r'(\d+\s*%\s*(safe|xavfsiz|безопас)|halal[\s-]*certif|safe for all|\bcures?\b|\bheals?\b|\bguarantee|davolaydi|гарантир|лечит)',
         caseSensitive: false);
 
-    test('11 ingredient, har biri 4 tilda xulosa bilan, hammasi draft', () {
+    test('20 ingredient, har biri 4 tilda xulosa bilan, hammasi draft', () {
       expect(repo.all.map((e) => e.slug).toSet(), {
         'niacinamide', 'hyaluronic-acid', 'salicylic-acid', 'ascorbic-acid', 'retinol',
         'glycerin', 'panthenol', 'ceramide-np', 'zinc-oxide', 'urea', 'glycolic-acid',
+        'honey', 'aloe-vera', 'coconut-oil', 'nigella-sativa-oil', 'rosehip-oil', 'cucumber', 'banana', 'oat', 'green-tea',
       });
       for (final i in repo.all) {
         expect(i.status, 'draft', reason: i.slug);
