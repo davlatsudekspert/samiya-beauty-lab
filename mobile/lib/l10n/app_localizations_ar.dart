@@ -405,4 +405,29 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get ingredientsNoMatch =>
       'لم يتم العثور على شيء. القاعدة تتوسّع باستمرار.';
+
+  @override
+  String get scanSourceCamera => 'التقاط صورة';
+
+  @override
+  String get scanSourceGallery => 'اختيار من المعرض';
+
+  @override
+  String get scanReading => 'جارٍ قراءة النص...';
+
+  @override
+  String get scanNoText =>
+      'لم يتم العثور على قائمة المكوّنات. صوّر قائمة المكوّنات عن قرب وبوضوح وبإضاءة جيدة.';
+
+  @override
+  String get scanFailed =>
+      'تعذّرت قراءة الصورة. حاول مرة أخرى أو أدخل المكوّنات يدويًا.';
+
+  @override
+  String get scanUnavailable =>
+      'المسح بالكاميرا غير متاح على هذا الجهاز. أدخل المكوّنات يدويًا.';
+
+  @override
+  String get scanReviewHint =>
+      'تمت قراءة النص من الصورة. راجعه وصحّح الأخطاء إن وُجدت.';
 }

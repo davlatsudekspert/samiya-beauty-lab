@@ -863,6 +863,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Nothing found. The database keeps growing.'**
   String get ingredientsNoMatch;
+
+  /// No description provided for @scanSourceCamera.
+  ///
+  /// In en, this message translates to:
+  /// **'Take a photo'**
+  String get scanSourceCamera;
+
+  /// No description provided for @scanSourceGallery.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose from gallery'**
+  String get scanSourceGallery;
+
+  /// No description provided for @scanReading.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading the text...'**
+  String get scanReading;
+
+  /// No description provided for @scanNoText.
+  ///
+  /// In en, this message translates to:
+  /// **'No ingredient list found. Take a closer, sharper photo of the ingredients in good light.'**
+  String get scanNoText;
+
+  /// No description provided for @scanFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not read the image. Try again or enter the ingredients manually.'**
+  String get scanFailed;
+
+  /// No description provided for @scanUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Camera scanning is not available on this device. Enter the ingredients manually.'**
+  String get scanUnavailable;
+
+  /// No description provided for @scanReviewHint.
+  ///
+  /// In en, this message translates to:
+  /// **'The text was read from the photo. Check it and fix any mistakes.'**
+  String get scanReviewHint;
 }
 
 class _AppLocalizationsDelegate

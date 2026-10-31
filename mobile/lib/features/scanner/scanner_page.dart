@@ -1,13 +1,80 @@
 import 'package:flutter/material.dart';
 import '../../ui/safe_nav.dart';
 
+
+import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../ui/widgets.dart';
+import 'manual_input_page.dart';
+import 'ocr_extract.dart';
+import 'text_scanner.dart';
 
-/// 16 Skaner. Kamera/OCR hali ulanmagan (halol "tez orada"); qo'lda kiritish ishlaydi.
-class ScannerPage extends StatelessWidget {
+/// 16 Skaner. Kamera/galereyadan tarkib matnini qurilmada o'qiydi (rasm serverga yuborilmaydi);
+/// natija foydalanuvchi tekshirishi uchun qo'lda kiritish sahifasiga to'ldirilgan holda ochiladi.
+class ScannerPage extends StatefulWidget {
   const ScannerPage({super.key});
+
+  @override
+  State<ScannerPage> createState() => _ScannerPageState();
+}
+
+class _ScannerPageState extends State<ScannerPage> {
+  bool _busy = false;
+  String? _message;
+
+  Future<void> _pickSource() async {
+    if (_busy) return;
+    final state = AppScope.of(context);
+    final l = AppLocalizations.of(context);
+    if (!state.scanner.isAvailable) {
+      setState(() => _message = l.scanUnavailable);
+      return;
+    }
+    final source = await showModalBottomSheet<ScanSource>(
+      context: context,
+      showDragHandle: true,
+      isScrollControlled: true,
+      builder: (ctx) => SafeArea(
+        child: SingleChildScrollView(child: Column(mainAxisSize: MainAxisSize.min, children: [
+          ListTile(
+            key: const Key('scan-source-camera'),
+            leading: const Icon(Icons.photo_camera_outlined, color: SamiyaColors.rose),
+            title: Text(l.scanSourceCamera),
+            onTap: () => Navigator.pop(ctx, ScanSource.camera),
+          ),
+          ListTile(
+            key: const Key('scan-source-gallery'),
+            leading: const Icon(Icons.photo_library_outlined, color: SamiyaColors.rose),
+            title: Text(l.scanSourceGallery),
+            onTap: () => Navigator.pop(ctx, ScanSource.gallery),
+          ),
+        ])),
+      ),
+    );
+    if (source == null || !mounted) return;
+    setState(() {
+      _busy = true;
+      _message = null;
+    });
+    try {
+      final raw = await state.scanner.scan(source);
+      if (!mounted) return;
+      if (raw == null) return; // foydalanuvchi o'zi bekor qildi
+      final text = extractInciText(raw);
+      if (text.isEmpty) {
+        setState(() => _message = l.scanNoText);
+      } else {
+        context.safePush('/scanner/manual', extra: ManualInputArgs(text, fromScan: true));
+      }
+    } on ScanException catch (e) {
+      if (mounted) setState(() => _message = e.kind == ScanFailure.unavailable ? l.scanUnavailable : l.scanFailed);
+    } catch (_) {
+      if (mounted) setState(() => _message = l.scanFailed);
+    } finally {
+      if (mounted) setState(() => _busy = false);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -24,11 +91,36 @@ class ScannerPage extends StatelessWidget {
           const SizedBox(height: 8),
           Text(l.scannerHeroBody, textAlign: TextAlign.center, style: t.bodyLarge),
           const SizedBox(height: 24),
+          if (_busy) ...[
+            Row(key: const Key('scan-busy'), mainAxisAlignment: MainAxisAlignment.center, children: [
+              const SizedBox(width: 22, height: 22, child: CircularProgressIndicator(strokeWidth: 2.5, color: SamiyaColors.rose)),
+              const SizedBox(width: 12),
+              Flexible(child: Text(l.scanReading, style: t.bodyLarge)),
+            ]),
+            const SizedBox(height: 16),
+          ],
+          if (_message != null) ...[
+            Semantics(
+              liveRegion: true,
+              child: Container(
+                key: const Key('scan-message'),
+                width: double.infinity,
+                padding: const EdgeInsets.all(14),
+                decoration: BoxDecoration(
+                  color: const Color(0xFFFFF0F1),
+                  borderRadius: BorderRadius.circular(18),
+                  border: Border.all(color: const Color(0xFFF2B8BD)),
+                ),
+                child: Text(_message!, style: t.bodyMedium?.copyWith(color: const Color(0xFF7A1F1A))),
+              ),
+            ),
+            const SizedBox(height: 16),
+          ],
           GradientButton(
             key: const Key('scan-manual'),
             label: l.scanManual,
             trailing: Icons.arrow_forward_rounded,
-            onPressed: () => context.safePush('/scanner/manual'),
+            onPressed: _busy ? null : () => context.safePush('/scanner/manual'),
           ),
           const SizedBox(height: 12),
           SizedBox(
@@ -43,9 +135,7 @@ class ScannerPage extends StatelessWidget {
               ),
               icon: const Icon(Icons.photo_camera_outlined),
               label: Text(l.scanCamera, textAlign: TextAlign.center, style: t.titleMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w700)),
-              onPressed: () => ScaffoldMessenger.of(context)
-                ..hideCurrentSnackBar()
-                ..showSnackBar(SnackBar(content: Text(l.comingSoon), behavior: SnackBarBehavior.floating)),
+              onPressed: _busy ? null : _pickSource,
             ),
           ),
         ]),

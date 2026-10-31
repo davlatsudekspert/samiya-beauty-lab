@@ -7,16 +7,24 @@ import '../../l10n/app_localizations.dart';
 import '../../ui/widgets.dart';
 import 'inci_parser.dart';
 
+/// Qo'lda kiritish sahifasiga uzatiladigan boshlang'ich matn (kameradan o'qilgan bo'lsa [fromScan]).
+class ManualInputArgs {
+  const ManualInputArgs(this.text, {this.fromScan = false});
+  final String text;
+  final bool fromScan;
+}
+
 /// 19 Tarkibni tasdiqlash/kiritish: foydalanuvchi matnni o'zi ko'radi va tuzatadi (OCR ham shu yerga keladi).
 class ManualInputPage extends StatefulWidget {
-  const ManualInputPage({super.key});
+  const ManualInputPage({super.key, this.args});
+  final ManualInputArgs? args;
 
   @override
   State<ManualInputPage> createState() => _ManualInputPageState();
 }
 
 class _ManualInputPageState extends State<ManualInputPage> {
-  final _controller = TextEditingController();
+  late final _controller = TextEditingController(text: widget.args?.text ?? '');
 
   @override
   void dispose() {
@@ -44,6 +52,16 @@ class _ManualInputPageState extends State<ManualInputPage> {
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               const SizedBox(height: 8),
               Text(l.manualHelp, style: t.bodyLarge),
+              if (widget.args?.fromScan == true) ...[
+                const SizedBox(height: 10),
+                Container(
+                  key: const Key('manual-ocr-hint'),
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(color: SamiyaColors.blush, borderRadius: BorderRadius.circular(16)),
+                  child: Text(l.scanReviewHint, style: t.bodyMedium?.copyWith(fontWeight: FontWeight.w600)),
+                ),
+              ],
               const SizedBox(height: 16),
               TextField(
                 key: const Key('manual-input'),

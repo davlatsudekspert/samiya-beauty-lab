@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Kamera mahsulot tarkibi yozuvini suratga olish uchun kerak. Rasm qurilmangizda o‘qiladi va serverga yuborilmaydi. / The camera is used to photograph a product's ingredient list. The image is read on your device and is not uploaded.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Galereya tarkib yozuvi tushirilgan rasmni tanlash uchun kerak. Rasm qurilmangizda o‘qiladi va serverga yuborilmaydi. / The photo library is used to pick a picture of an ingredient list. The image is read on your device and is not uploaded.</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>

@@ -411,4 +411,29 @@ class AppLocalizationsUz extends AppLocalizations {
   @override
   String get ingredientsNoMatch =>
       'Hech narsa topilmadi. Baza kengayib boradi.';
+
+  @override
+  String get scanSourceCamera => 'Kamera bilan suratga olish';
+
+  @override
+  String get scanSourceGallery => 'Galereyadan tanlash';
+
+  @override
+  String get scanReading => 'Matn o‘qilmoqda...';
+
+  @override
+  String get scanNoText =>
+      'Tarkib topilmadi. Tarkib yozuvini yaqindan, yorug‘da va aniq suratga oling.';
+
+  @override
+  String get scanFailed =>
+      'Rasmni o‘qib bo‘lmadi. Qayta urinib ko‘ring yoki tarkibni qo‘lda kiriting.';
+
+  @override
+  String get scanUnavailable =>
+      'Kamera orqali o‘qish bu qurilmada mavjud emas. Tarkibni qo‘lda kiriting.';
+
+  @override
+  String get scanReviewHint =>
+      'Matn rasmdan o‘qildi. Xatolarni tekshirib, kerak bo‘lsa tuzating.';
 }

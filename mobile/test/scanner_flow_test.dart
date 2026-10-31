@@ -94,11 +94,12 @@ void main() {
     expect(texts.any((w) => w.textDirection == TextDirection.ltr), isTrue);
   });
 
-  testWidgets('kamera tugmasi halol "Tez orada" xabarini beradi', (t) async {
+  testWidgets('kamera o\'qish mavjud bo\'lmagan muhitda (veb/sinov) halol "mavjud emas" xabari chiqadi', (t) async {
     await pumpApp(t, state: onboarded(), initial: '/scanner');
     await t.tap(k('scan-camera'));
-    await t.pump();
-    expect(find.text('Tez orada'), findsOneWidget);
+    await t.pumpAndSettle();
+    expect(k('scan-message'), findsOneWidget);
+    expect(find.textContaining('mavjud emas'), findsOneWidget);
   });
 
   group('skaner ekranlari 4 tilda 320x568 va 1.5x shriftda overflow bermaydi', () {

@@ -126,5 +126,12 @@
   "proBadge": "Pro",
   "ingredientsTitle": "Ingredientlar bazasi",
   "ingredientsSearchHint": "Ingredient nomi...",
-  "ingredientsNoMatch": "Hech narsa topilmadi. Baza kengayib boradi."
+  "ingredientsNoMatch": "Hech narsa topilmadi. Baza kengayib boradi.",
+  "scanSourceCamera": "Kamera bilan suratga olish",
+  "scanSourceGallery": "Galereyadan tanlash",
+  "scanReading": "Matn o‘qilmoqda...",
+  "scanNoText": "Tarkib topilmadi. Tarkib yozuvini yaqindan, yorug‘da va aniq suratga oling.",
+  "scanFailed": "Rasmni o‘qib bo‘lmadi. Qayta urinib ko‘ring yoki tarkibni qo‘lda kiriting.",
+  "scanUnavailable": "Kamera orqali o‘qish bu qurilmada mavjud emas. Tarkibni qo‘lda kiriting.",
+  "scanReviewHint": "Matn rasmdan o‘qildi. Xatolarni tekshirib, kerak bo‘lsa tuzating."
 }

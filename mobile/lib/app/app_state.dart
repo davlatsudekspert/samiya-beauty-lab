@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../data/backend_api.dart';
 import '../features/auth/auth_service.dart';
 import '../features/scanner/ingredient_models.dart';
+import '../features/scanner/text_scanner.dart';
 
 /// Qo'llab-quvvatlanadigan tillar: O'zbek, Rus, Ingliz, Arab (RTL).
 const supportedLocales = <Locale>[Locale('uz'), Locale('ru'), Locale('en'), Locale('ar')];
@@ -33,9 +34,11 @@ class AppState extends ChangeNotifier {
     IngredientRepository? ingredients,
     AuthService? auth,
     BackendApi? backend,
+    TextScanner? scanner,
   })  : ingredients = ingredients ?? IngredientRepository(const []),
         auth = auth ?? const UnavailableAuthService(),
         backend = backend ?? const NoBackendApi(),
+        scanner = scanner ?? const UnavailableTextScanner(),
         _locale = locale,
         _onboarded = onboarded,
         _role = role {
@@ -90,6 +93,9 @@ class AppState extends ChangeNotifier {
 
   /// Backend mijozi (manzil berilmagan bo'lsa NoBackendApi).
   final BackendApi backend;
+
+  /// Rasmdan tarkib matnini o'qish (qurilmada); veb/sinovda "mavjud emas".
+  final TextScanner scanner;
   AuthUser? _user;
   StreamSubscription<AuthUser?>? _authSub;
 
@@ -113,7 +119,7 @@ class AppState extends ChangeNotifier {
   bool get onboarded => _onboarded;
   UserRole? get role => _role;
 
-  static Future<AppState> load({AuthService? auth, BackendApi? backend}) async {
+  static Future<AppState> load({AuthService? auth, BackendApi? backend, TextScanner? scanner}) async {
     final p = await SharedPreferences.getInstance();
     final code = p.getString('locale');
     final roleName = p.getString('role');
@@ -122,6 +128,7 @@ class AppState extends ChangeNotifier {
       ingredients: repo,
       auth: auth,
       backend: backend,
+      scanner: scanner,
       locale: Locale(languageNativeNames.containsKey(code) ? code! : 'uz'),
       onboarded: p.getBool('onboarded') ?? false,
       role: UserRole.values.where((r) => r.name == roleName).firstOrNull,

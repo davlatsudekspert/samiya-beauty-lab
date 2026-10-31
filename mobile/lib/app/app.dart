@@ -65,7 +65,7 @@ class _SamiyaAppState extends State<SamiyaApp> {
               path: '/scanner',
               builder: (_, _) => const ScannerPage(),
               routes: [
-                GoRoute(path: 'manual', builder: (_, _) => const ManualInputPage()),
+                GoRoute(path: 'manual', builder: (_, st) => ManualInputPage(args: st.extra is ManualInputArgs ? st.extra! as ManualInputArgs : null)),
                 GoRoute(path: 'ingredients', builder: (_, _) => const IngredientListPage()),
                 GoRoute(path: 'result', builder: (_, st) => ResultPage(raw: st.extra is String ? st.extra! as String : '')),
                 GoRoute(path: 'ingredient/:slug', builder: (_, st) => IngredientDetailPage(slug: st.pathParameters['slug']!)),

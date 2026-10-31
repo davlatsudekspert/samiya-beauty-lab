@@ -409,4 +409,29 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ingredientsNoMatch => 'Nothing found. The database keeps growing.';
+
+  @override
+  String get scanSourceCamera => 'Take a photo';
+
+  @override
+  String get scanSourceGallery => 'Choose from gallery';
+
+  @override
+  String get scanReading => 'Reading the text...';
+
+  @override
+  String get scanNoText =>
+      'No ingredient list found. Take a closer, sharper photo of the ingredients in good light.';
+
+  @override
+  String get scanFailed =>
+      'Could not read the image. Try again or enter the ingredients manually.';
+
+  @override
+  String get scanUnavailable =>
+      'Camera scanning is not available on this device. Enter the ingredients manually.';
+
+  @override
+  String get scanReviewHint =>
+      'The text was read from the photo. Check it and fix any mistakes.';
 }

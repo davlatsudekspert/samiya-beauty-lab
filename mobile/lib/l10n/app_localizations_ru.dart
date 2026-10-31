@@ -410,4 +410,29 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get ingredientsNoMatch =>
       'Ничего не найдено. База постоянно расширяется.';
+
+  @override
+  String get scanSourceCamera => 'Сфотографировать';
+
+  @override
+  String get scanSourceGallery => 'Выбрать из галереи';
+
+  @override
+  String get scanReading => 'Распознаём текст...';
+
+  @override
+  String get scanNoText =>
+      'Состав не найден. Сфотографируйте надпись с составом ближе, при хорошем свете и чётко.';
+
+  @override
+  String get scanFailed =>
+      'Не удалось прочитать изображение. Повторите попытку или введите состав вручную.';
+
+  @override
+  String get scanUnavailable =>
+      'Распознавание по камере недоступно на этом устройстве. Введите состав вручную.';
+
+  @override
+  String get scanReviewHint =>
+      'Текст распознан по фото. Проверьте и при необходимости исправьте ошибки.';
 }
