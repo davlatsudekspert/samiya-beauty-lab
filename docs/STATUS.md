@@ -16,7 +16,7 @@
 - Auth, RevenueCat, OCR, AI, QR guruh testi, kontent: hali yozilmagan. 68 ekranning 8 tasi native (Phase 1, pastga qarang).
 - Arab/rus/ingliz matnlari mashina tarjimasi, arabcha matnni ona tili egasi tekshirishi kerak.
 - Git: private repo `davlatsudekspert/samiya-beauty-lab`, `main` ga 2 commit push qilingan (Phase 0 kodi, dizayn referenslari).
-- Bundle ID vaqtincha `uz.samiya.samiya_beauty_lab`; Play'da abadiy bog'lanadi, birinchi yuklashdan oldin egasi tasdiqlaydi.
+- Bundle ID / paket nomi: **`uz.samiya.beautylab`** (Apple'da App ID ro'yxatdan o'tgan; Android va iOS loyihasida shunga o'zgartirildi). Play'da birinchi .aab yuklanganda abadiy bog'lanadi.
 
 ## Egasi qiladigan ishlar
 Hozir: private GitHub repo `samiya-beauty-lab`; Cloudflare hisobi (Workers, D1, R2); bundle ID tanlash; arabcha tekshiruvchi odam.
@@ -24,7 +24,7 @@ Hozir: private GitHub repo `samiya-beauty-lab`; Cloudflare hisobi (Workers, D1, 
 Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobni o'chirish sahifasi, narxlar.
 
 ## Yordamchi hisoboti (2026-10-31) va tekshiruv natijasi
-- **Bajarilgan:** faqat A (GitHub private repo, Flutter .gitignore, MIT). B-J (bundle ID, Cloudflare, Firebase, Apple, Play, RevenueCat, Gemini, huquqiy sahifalar, arabcha tekshiruvchi) egasiga ko'rsatma sifatida berilgan, bajarilmagan. Bundle ID `uz.samiya.beautylab` hali egasi tomonidan TASDIQLANMAGAN.
+- **Bajarilgan:** faqat A (GitHub private repo, Flutter .gitignore, MIT). B-J (bundle ID, Cloudflare, Firebase, Apple, Play, RevenueCat, Gemini, huquqiy sahifalar, arabcha tekshiruvchi) egasiga ko'rsatma sifatida berilgan, bajarilmagan. Bundle ID `uz.samiya.beautylab` keyin Apple'da ro'yxatdan o'tkazildi (pastga qarang).
 - **Tekshirildi (rasmiy manba): Google Play** - O'zbekiston merchant ro'yxatdan o'tishni qo'llab-quvvatlaydi (valyuta USD), [Google jadvali](https://support.google.com/googleplay/android-developer/answer/9306917). Obunaga xos cheklov topilmadi; Payments profile ochilishi amalda egasi tomonidan tekshirilsin.
 - **Tasdiqlanmadi: Apple.** Yordamchi "O'zbekiston uchun Paid Apps Agreement 2022 dan beri mavjud" degan, lekin manba topilmadi. Egasi App Store Connect > Agreements, Tax, and Banking ichida bank ma'lumotini qo'sha oladimi, o'zi tekshiradi. Ishlamasa, iOS'da Pro keyinga qoladi (arxitektura provayderga bog'liq emas).
 - **Tuzatish:** yordamchi "20 tester" degan. Google rasmiy talabi **12 tester, 14 kun** (shaxsiy akkaunt); 20 faqat zaxira uchun. Hisobotdagi "Lifestyle/Beauty" kategoriya maslahati to'g'ri, sog'liq deklaratsiyasi: "Healthcare Services" belgilanmasin.
@@ -55,6 +55,12 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 - `content/pilot/`: niacinamide, hyaluronic-acid, salicylic-acid, ascorbic-acid, retinol + 40 terminli glossary (uz, ru, ar). 19 noyob PMID; `validate_content.py --online` o'tdi (PMID, sarlavha, yil PubMed bilan mos). Qo'lda annotatsiya bilan tekshirildi: niacinamide-2, -3, -5 (oxirgisi olib tashlandi).
 - Ko'rib chiqishda 3 da'vo mazmun doirasiga to'g'ri kelmagani uchun olib tashlandi (dori yoki protsedura: aktinik keratoz/fluorouracil, kimyoviy piling, lazerdan keyingi qizarish). Qoida `content/pilot/README.md`da.
 - **TASDIQLANMAGAN:** barcha 5 kartochkada EU annex va CosIng funksiyalari (`unverified`), chunki EUR-Lex/CosIng bu muhitdan o'qilmadi. Retinol va salitsil kislota cheklovlari qo'lda rasmiy manbadan tekshirilishi shart. Arab/rus/uz matnlari mashina tarjimasi. Validator da'voning manbaga to'liq mosligini tekshirmaydi (faqat sarlavha/yil).
+
+## Apple (yordamchi bajargan, 2026-10-31) - maxfiy bo'lmagan natijalar
+- **App ID yaratildi:** "SAMIYA BEAUTY LAB", Bundle ID `uz.samiya.beautylab`, App ID prefiksi (Team ID) `5Z9CT2W378`. Capability: Sign in with Apple (primary App ID) va In-App Purchase (standart yoqilgan).
+- **Sign in with Apple kaliti yaratildi:** Key ID `94WS6NBPXQ`. `.p8` faylni FAQAT egasi o'zi yuklab oladi (bir martalik) va xavfsiz joyda saqlaydi; keyin Firebase formasiga o'zi joylaydi.
+- **Hali qilinmagan:** Services ID (Firebase loyihasi kutilmoqda), App Store Connect yozuvi, App Store Connect API kaliti (CI), 0-bosqich hisoboti (Paid Apps Agreement, bank formasida O'zbekiston bormi), Firebase, Cloudflare.
+- Ilovaning bosh ekran nomi: **SAMIYA** (Android va iOS), chunki to'liq nom ikonka ostiga sig'maydi.
 
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.
