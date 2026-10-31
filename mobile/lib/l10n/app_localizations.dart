@@ -1229,6 +1229,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Botanical plate: F. E. Köhler, “Köhler\'s Medizinal-Pflanzen”, 1887 (public domain)'**
   String get botanicalCredit;
+
+  /// No description provided for @photoCredit.
+  ///
+  /// In en, this message translates to:
+  /// **'Photo: iNaturalist community, CC0 (no rights reserved)'**
+  String get photoCredit;
 }
 
 class _AppLocalizationsDelegate

@@ -605,4 +605,7 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get botanicalCredit =>
       'رسم نباتي: ف. إ. كولر، «Köhler\'s Medizinal-Pflanzen»، 1887 (ملكية عامة)';
+
+  @override
+  String get photoCredit => 'الصورة: مجتمع iNaturalist، ‏CC0 (بلا حقوق محفوظة)';
 }

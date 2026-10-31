@@ -609,4 +609,8 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get botanicalCredit =>
       'Botanical plate: F. E. Köhler, “Köhler\'s Medizinal-Pflanzen”, 1887 (public domain)';
+
+  @override
+  String get photoCredit =>
+      'Photo: iNaturalist community, CC0 (no rights reserved)';
 }

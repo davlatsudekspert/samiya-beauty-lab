@@ -613,4 +613,8 @@ class AppLocalizationsUz extends AppLocalizations {
   @override
   String get botanicalCredit =>
       'Botanik rasm: F. E. Köhler, “Köhler\'s Medizinal-Pflanzen”, 1887 (jamoat mulki)';
+
+  @override
+  String get photoCredit =>
+      'Foto: iNaturalist hamjamiyati, CC0 (huquqlar saqlanmagan)';
 }

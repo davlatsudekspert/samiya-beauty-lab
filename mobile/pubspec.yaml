@@ -66,6 +66,7 @@ flutter:
   assets:
     - assets/images/
     - assets/botanical/
+    - assets/photos/
     - assets/content/
   fonts:
     - family: Inter

@@ -73,7 +73,12 @@ class IngredientMonogram extends StatelessWidget {
             colors: [Colors.white, Color.lerp(Colors.white, tint, 0.45)!, Color.lerp(Colors.white, tint, 0.75)!],
           ),
         ),
-        child: botanicalSlugs.contains(slug)
+        child: photoSlugs.contains(slug)
+            ? ClipOval(
+                child: Image.asset('assets/photos/$slug.jpg',
+                    width: size, height: size, fit: BoxFit.cover, alignment: photoFocus[slug] ?? Alignment.center, filterQuality: FilterQuality.medium),
+              )
+            : botanicalSlugs.contains(slug)
             ? ClipOval(
                 child: SizedBox.expand(
                   child: Transform.scale(

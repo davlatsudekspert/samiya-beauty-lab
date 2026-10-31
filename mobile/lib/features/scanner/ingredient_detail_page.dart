@@ -38,7 +38,24 @@ class IngredientDetailPage extends StatelessWidget {
               : PageBody(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     const SizedBox(height: 8),
-                    if (botanicalSlugs.contains(ing.slug)) ...[
+                    if (photoSlugs.contains(ing.slug)) ...[
+                      ClipRRect(
+                        key: const Key('botanical-hero'),
+                        borderRadius: const BorderRadius.vertical(top: Radius.circular(150), bottom: Radius.circular(26)),
+                        child: Container(
+                          height: 300,
+                          width: double.infinity,
+                          foregroundDecoration: BoxDecoration(
+                            borderRadius: const BorderRadius.vertical(top: Radius.circular(150), bottom: Radius.circular(26)),
+                            border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.7), width: 1.2),
+                          ),
+                          child: Image.asset('assets/photos/${ing.slug}.jpg', fit: BoxFit.cover, alignment: photoFocus[ing.slug] ?? Alignment.center),
+                        ),
+                      ),
+                      const SizedBox(height: 6),
+                      Text(l.photoCredit, style: t.bodyMedium?.copyWith(fontSize: 11)),
+                      const SizedBox(height: 14),
+                    ] else if (botanicalSlugs.contains(ing.slug)) ...[
                       Container(
                         key: const Key('botanical-hero'),
                         height: 260,

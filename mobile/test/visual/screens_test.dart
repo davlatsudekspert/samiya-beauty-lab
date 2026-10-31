@@ -76,6 +76,7 @@ void main() {
     '15_ingredients': ('/scanner/ingredients?filter=natural', const Size(780, 1688)),
     '21_natural_detail': ('/scanner/ingredient/honey', const Size(780, 1688)),
     '22_ibn_sina': ('/scanner/ibn-sina', const Size(780, 1688)),
+    '24_banana': ('/scanner/ingredient/banana', const Size(780, 1688)),
     '23_honey_full': ('/scanner/ingredient/honey', const Size(780, 4200)),
   };
   for (final lang in ['uz', 'ar']) {
@@ -97,6 +98,9 @@ void main() {
           }
           for (final b in botanicalSlugs) {
             await precacheImage(AssetImage('assets/botanical/$b.jpg'), ctx);
+          }
+          for (final b in photoSlugs) {
+            await precacheImage(AssetImage('assets/photos/$b.jpg'), ctx);
           }
         });
         await t.pump(const Duration(milliseconds: 1200));

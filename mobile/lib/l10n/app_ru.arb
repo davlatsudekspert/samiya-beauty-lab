@@ -187,5 +187,6 @@
   "journalNoteHint": "Заметка (необязательно)",
   "saveAction": "Сохранить",
   "personalDataNote": "Эти данные хранятся только на этом телефоне.",
-  "botanicalCredit": "Ботаническая иллюстрация: Ф. Э. Кёлер, «Köhler's Medizinal-Pflanzen», 1887 (общественное достояние)"
+  "botanicalCredit": "Ботаническая иллюстрация: Ф. Э. Кёлер, «Köhler's Medizinal-Pflanzen», 1887 (общественное достояние)",
+  "photoCredit": "Фото: сообщество iNaturalist, CC0 (без сохранения прав)"
 }
