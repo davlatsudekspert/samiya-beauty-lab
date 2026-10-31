@@ -55,6 +55,8 @@ jobs:
             echo "::error::ASC_KEY_P8_B64 yaroqli .p8 kalit emas (fayl to'liq nusxalanmagan yoki boshqa fayl)"; exit 1
           fi
           rm -f "$TMP" "$TMP.ec"
+      - name: API kalitini Apple bilan tekshirish (401/403 sababini aniqlash)
+        run: ruby .github/scripts/asc_check.rb
       - name: Firebase fayli (majburiy)
         env:
           PLIST_B64: ${{ secrets.GOOGLE_SERVICE_INFO_PLIST_B64 }}
