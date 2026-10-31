@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   testflight:
-    runs-on: macos-15
+    runs-on: macos-26   # Xcode 26.x (Firebase uchun Swift 6.2 va Apple'ning yangi SDK talabi)
     timeout-minutes: 60
     env:
       TEAM_ID: 5Z9CT2W378
@@ -41,6 +41,8 @@ jobs:
           PLIST_B64: ${{ secrets.GOOGLE_SERVICE_INFO_PLIST_B64 }}
         run: |
           .github/scripts/write_secret.sh "$PLIST_B64" mobile/ios/Runner/GoogleService-Info.plist xml
+      - name: Xcode versiyasi
+        run: xcodebuild -version
       - name: Flutter tayyorlash
         working-directory: mobile
         run: |
