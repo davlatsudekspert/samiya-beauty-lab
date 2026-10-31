@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
+import '../../ui/safe_nav.dart';
 
 import '../../app/app_state.dart';
 import '../../app/theme.dart';
@@ -26,7 +26,7 @@ class LanguagePage extends StatelessWidget {
                   key: const Key('language-continue'),
                   label: l.continueLabel,
                   trailing: Icons.arrow_forward_rounded,
-                  onPressed: () => context.push('/welcome'),
+                  onPressed: () => context.safePush('/welcome'),
                 ),
                 child: Column(children: [
                   const SizedBox(height: 12),

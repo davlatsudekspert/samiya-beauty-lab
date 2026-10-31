@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../ui/safe_nav.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/app_state.dart';
@@ -36,7 +37,7 @@ class _LoginPageState extends State<LoginPage> {
       if (state.onboarded && state.role != null) {
         context.go('/home');
       } else {
-        context.push('/role');
+        context.safePush('/role');
       }
     } on AuthException catch (e) {
       if (!mounted) return;
@@ -105,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                     height: 52,
                     child: TextButton(
                       key: const Key('btn-guest'),
-                      onPressed: _busy ? null : () => context.push('/role'),
+                      onPressed: _busy ? null : () => context.safePush('/role'),
                       child: Text(l.continueAsGuest,
                           textAlign: TextAlign.center, style: t.titleMedium?.copyWith(color: SamiyaColors.heading)),
                     ),

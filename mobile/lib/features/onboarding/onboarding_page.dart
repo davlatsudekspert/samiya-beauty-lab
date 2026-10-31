@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../ui/safe_nav.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
@@ -25,7 +26,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
 
   void _next() {
     if (_index == _pages - 1) {
-      context.push('/login');
+      context.safePush('/login');
     } else {
       _controller.nextPage(duration: const Duration(milliseconds: 350), curve: Curves.easeOutCubic);
     }
@@ -84,7 +85,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                       ? null
                       : TextButton(
                           key: const Key('onboarding-skip'),
-                          onPressed: () => context.push('/login'),
+                          onPressed: () => context.safePush('/login'),
                           child: Text(l.skip,
                               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                                   color: SamiyaColors.heading, fontWeight: FontWeight.w600)),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../ui/safe_nav.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
@@ -38,7 +39,7 @@ class _ManualInputPageState extends State<ManualInputPage> {
               key: const Key('manual-analyze'),
               label: l.analyzeAction,
               trailing: Icons.arrow_forward_rounded,
-              onPressed: count == 0 ? null : () => context.push('/scanner/result', extra: _controller.text),
+              onPressed: count == 0 ? null : () => context.safePush('/scanner/result', extra: _controller.text),
             ),
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               const SizedBox(height: 8),

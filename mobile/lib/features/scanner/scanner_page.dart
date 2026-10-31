@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
+import '../../ui/safe_nav.dart';
 
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
@@ -28,7 +28,7 @@ class ScannerPage extends StatelessWidget {
             key: const Key('scan-manual'),
             label: l.scanManual,
             trailing: Icons.arrow_forward_rounded,
-            onPressed: () => context.push('/scanner/manual'),
+            onPressed: () => context.safePush('/scanner/manual'),
           ),
           const SizedBox(height: 12),
           SizedBox(

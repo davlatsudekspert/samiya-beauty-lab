@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../ui/safe_nav.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/app_state.dart';
@@ -97,7 +98,7 @@ class _ProfilePageState extends State<ProfilePage> {
               key: const Key('profile-signin'),
               label: l.actionSignIn,
               trailing: Icons.arrow_forward_rounded,
-              onPressed: _busy ? null : () => context.push('/login'),
+              onPressed: _busy ? null : () => context.safePush('/login'),
             ),
           const SizedBox(height: 20),
           _Section(title: l.chooseLanguage, child: Wrap(spacing: 8, runSpacing: 8, children: [
@@ -113,7 +114,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 icon: Icons.badge_outlined,
                 label: l.roleSection,
                 value: state.role == null ? '—' : roleLabel(l, state.role!),
-                onTap: () => context.push('/role'),
+                onTap: () => context.safePush('/role'),
               ),
               const Divider(height: 1, color: SamiyaColors.border),
               _Row(key: const Key('profile-privacy'), icon: Icons.privacy_tip_outlined, label: l.privacyPolicy, onTap: _soon),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../ui/safe_nav.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/app_state.dart';
@@ -47,7 +48,7 @@ class ResultPage extends StatelessWidget {
                     position: item.position,
                     inci: item.ingredient!.inci,
                     summary: item.ingredient!.summaryFor(lang),
-                    onTap: () => context.push('/scanner/ingredient/${item.ingredient!.slug}'),
+                    onTap: () => context.safePush('/scanner/ingredient/${item.ingredient!.slug}'),
                   ),
                   const SizedBox(height: 12),
                 ],

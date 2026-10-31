@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../ui/safe_nav.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/app_state.dart';
@@ -26,7 +27,7 @@ class WelcomePage extends StatelessWidget {
                     key: const Key('welcome-start'),
                     label: l.start,
                     trailing: Icons.arrow_forward_rounded,
-                    onPressed: () => context.push('/onboarding'),
+                    onPressed: () => context.safePush('/onboarding'),
                   ),
                   const SizedBox(height: 14),
                   Wrap(spacing: 8, runSpacing: 8, alignment: WrapAlignment.center, children: [
