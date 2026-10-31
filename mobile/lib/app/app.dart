@@ -1,83 +1,72 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:go_router/go_router.dart';
 
+import '../features/auth/login_page.dart';
+import '../features/home/home_page.dart';
+import '../features/language/language_page.dart';
+import '../features/onboarding/onboarding_page.dart';
+import '../features/role/role_page.dart';
+import '../features/splash/splash_page.dart';
+import '../features/welcome/welcome_page.dart';
 import '../l10n/app_localizations.dart';
-import 'locale_controller.dart';
+import 'app_state.dart';
 import 'theme.dart';
 
-class SamiyaApp extends StatelessWidget {
-  const SamiyaApp({super.key, required this.controller});
-  final LocaleController controller;
+class SamiyaApp extends StatefulWidget {
+  const SamiyaApp({
+    super.key,
+    required this.state,
+    this.initialLocation = '/splash',
+    this.splashDuration = const Duration(milliseconds: 1800),
+  });
+
+  final AppState state;
+  final String initialLocation;
+  final Duration splashDuration;
 
   @override
-  Widget build(BuildContext context) {
-    return ValueListenableBuilder<Locale>(
-      valueListenable: controller,
-      builder: (context, locale, _) => MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: buildTheme(),
-        locale: locale,
-        supportedLocales: supportedLocales,
-        localizationsDelegates: const [
-          AppLocalizations.delegate,
-          GlobalMaterialLocalizations.delegate,
-          GlobalWidgetsLocalizations.delegate,
-          GlobalCupertinoLocalizations.delegate,
-        ],
-        // Arab tilida GlobalWidgetsLocalizations avtomatik RTL beradi.
-        home: WelcomePage(controller: controller),
-      ),
-    );
-  }
+  State<SamiyaApp> createState() => _SamiyaAppState();
 }
 
-/// Phase 0 uchun vaqtinchalik sahifa: 4 til + RTL asosini isbotlaydi.
-/// Haqiqiy 03_welcome dizayni Phase 1 da quriladi.
-class WelcomePage extends StatelessWidget {
-  const WelcomePage({super.key, required this.controller});
-  final LocaleController controller;
+class _SamiyaAppState extends State<SamiyaApp> {
+  late final GoRouter _router = GoRouter(
+    initialLocation: widget.initialLocation,
+    routes: [
+      GoRoute(path: '/splash', builder: (_, _) => SplashPage(duration: widget.splashDuration)),
+      GoRoute(path: '/language', builder: (_, _) => const LanguagePage()),
+      GoRoute(path: '/welcome', builder: (_, _) => const WelcomePage()),
+      GoRoute(path: '/onboarding', builder: (_, _) => const OnboardingPage()),
+      GoRoute(path: '/login', builder: (_, _) => const LoginPage()),
+      GoRoute(path: '/role', builder: (_, _) => const RolePage()),
+      GoRoute(path: '/home', builder: (_, _) => const HomePage()),
+    ],
+  );
+
+  @override
+  void dispose() {
+    _router.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
-    final l = AppLocalizations.of(context);
-    return Scaffold(
-      key: const Key('welcome-page'),
-      body: SafeArea(
-        child: Padding(
-          // Directional: arab tilida avtomatik aks etadi.
-          padding: const EdgeInsetsDirectional.fromSTEB(20, 24, 20, 24),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Wrap(
-                spacing: 8,
-                children: [
-                  for (final code in languageNativeNames.keys)
-                    ChoiceChip(
-                      key: Key('lang-$code'),
-                      label: Text(languageNativeNames[code]!),
-                      selected: controller.value.languageCode == code,
-                      onSelected: (_) => controller.select(code),
-                    ),
-                ],
-              ),
-              const Spacer(),
-              Text(l.appName,
-                  style: Theme.of(context).textTheme.headlineMedium?.copyWith(color: SamiyaColors.roseDeep)),
-              const SizedBox(height: 12),
-              Text(l.welcomeTagline, style: Theme.of(context).textTheme.titleMedium),
-              const SizedBox(height: 8),
-              Text(l.campaignPill, style: const TextStyle(color: SamiyaColors.muted)),
-              const Spacer(),
-              FilledButton(onPressed: () {}, child: Text(l.start)),
-              const SizedBox(height: 12),
-              OutlinedButton(key: const Key('btn-google'), onPressed: () {}, child: Text(l.continueWithGoogle)),
-              const SizedBox(height: 8),
-              OutlinedButton(key: const Key('btn-apple'), onPressed: () {}, child: Text(l.continueWithApple)),
-              const SizedBox(height: 8),
-              TextButton(key: const Key('btn-guest'), onPressed: () {}, child: Text(l.continueAsGuest)),
-            ],
-          ),
+    return AppScope(
+      state: widget.state,
+      child: ListenableBuilder(
+        listenable: widget.state,
+        builder: (context, _) => MaterialApp.router(
+          debugShowCheckedModeBanner: false,
+          routerConfig: _router,
+          theme: buildTheme(widget.state.locale),
+          locale: widget.state.locale,
+          supportedLocales: supportedLocales,
+          localizationsDelegates: const [
+            AppLocalizations.delegate,
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+          ],
         ),
       ),
     );

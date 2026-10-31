@@ -13,7 +13,7 @@
 ## BajarilMAGAN (da'vo qilinmaydi)
 - Hech narsa Cloudflare'ga deploy qilinmagan, D1 yaratilmagan (`wrangler.jsonc`da `REPLACE_WITH_D1_ID`).
 - APK/AAB/IPA yo'q (bu muhitda Android SDK va Xcode yo'q; build GitHub Actions orqali, Phase 8).
-- Auth, RevenueCat, OCR, AI, QR guruh testi, kontent: hali yozilmagan. 68 ekranning faqat vaqtinchalik Welcome sahifasi bor.
+- Auth, RevenueCat, OCR, AI, QR guruh testi, kontent: hali yozilmagan. 68 ekranning 8 tasi native (Phase 1, pastga qarang).
 - Arab/rus/ingliz matnlari mashina tarjimasi, arabcha matnni ona tili egasi tekshirishi kerak.
 - Git: private repo `davlatsudekspert/samiya-beauty-lab`, `main` ga 2 commit push qilingan (Phase 0 kodi, dizayn referenslari).
 - Bundle ID vaqtincha `uz.samiya.samiya_beauty_lab`; Play'da abadiy bog'lanadi, birinchi yuklashdan oldin egasi tasdiqlaydi.
@@ -29,6 +29,17 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 - **Tasdiqlanmadi: Apple.** Yordamchi "O'zbekiston uchun Paid Apps Agreement 2022 dan beri mavjud" degan, lekin manba topilmadi. Egasi App Store Connect > Agreements, Tax, and Banking ichida bank ma'lumotini qo'sha oladimi, o'zi tekshiradi. Ishlamasa, iOS'da Pro keyinga qoladi (arxitektura provayderga bog'liq emas).
 - **Tuzatish:** yordamchi "20 tester" degan. Google rasmiy talabi **12 tester, 14 kun** (shaxsiy akkaunt); 20 faqat zaxira uchun. Hisobotdagi "Lifestyle/Beauty" kategoriya maslahati to'g'ri, sog'liq deklaratsiyasi: "Healthcare Services" belgilanmasin.
 - Cloudflare Pages `samiya-legal.pages.dev` hali yaratilmagan, nom band bo'lishi mumkin.
+
+## Phase 1 (davom etmoqda): dizayn tizimi va 1-10 ekranlar, TEKSHIRILGAN
+- **Native Flutter ekranlar (4 tilda, RTL bilan):** 01 splash, 02 til tanlash, 03 welcome, 04-06 onboarding (bitta PageView, 3 sahifa), 07 kirish (faqat Google, Apple, mehmon), 10 rol tanlash, 11 bosh sahifa (VAQTINCHALIK stub). Router: go_router. Til, onboarding va rol diskda saqlanadi.
+- **Ongli o'zgarishlar:** 08 (ro'yxatdan o'tish) va 09 (parolni tiklash) yo'q, chunki email/parol yo'q. Dizayndagi yurakcha ikonkasi olib tashlangan (ma'nosiz). Rol oldindan tanlanmaydi (aniq tanlov). Bayroq emojilari o'rniga UZ/RU/EN/AR monogrammalari. Wordmark native matn (rasm emas).
+- **Tekshiruv:** `flutter analyze` toza; `flutter test` 57 ta o'tdi (oqim, saqlash, RTL, 48 px bosish maydoni, 320x568 ekran va 1.5x shriftda 4 tilda overflow yo'q); `flutter test --tags visual` 18 skrinshotni `qa/visual/` ga yozdi (uz, ar, ru). Testlar haqiqiy xatolarni topdi va tuzatildi (gradient yo'nalishi, overflow, arab raqam tartibi).
+- **Shriftlar (OFL, ilovaga joylangan):** Inter + Playfair Display (lotin va kirill), IBM Plex Sans Arabic + Amiri (arab). Litsenziyalar `mobile/assets/licenses/`.
+- **MUHIM ogohlantirishlar (egasi qarori kerak):**
+  1. **Rasm aktivlari past sifatli** (taxta 1536 px, portretlar ~300-400 px; men faqat 2x silliq kattalashtirdim, aniqlik oshmaydi). Haqiqiy reliz uchun asl yuqori sifatli fayllar (logotip belgisi, hijobli portretlar) kerak.
+  2. **Logotip ostidagi "BEAUTY · SCIENCE · HALAL"** va taxtadagi "Xavfsizlik darajasi 88%", "Halol mahsulot", "Teri uchun mos" matnlari mahsulot siyosatiga zid (dalilsiz da'vo). Ilova ularni ishlatmaydi; "HALAL" so'zini brenddan olib tashlash egasining qarori.
+  3. Google tugmasidagi "G" vaqtincha (rasmiy Google belgisi Phase 2 da).
+  4. Arab, rus, ingliz matnlari mashina tarjimasi; arabchani ona tili egasi tekshirishi kerak.
 
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.

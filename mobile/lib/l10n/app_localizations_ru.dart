@@ -32,4 +32,88 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get chooseLanguage => 'Язык';
+
+  @override
+  String get languageTitle => 'Выберите язык';
+
+  @override
+  String get continueLabel => 'Продолжить';
+
+  @override
+  String get skip => 'Пропустить';
+
+  @override
+  String get onboarding1Title => 'Красота начинается с науки';
+
+  @override
+  String get onboarding1Body =>
+      'Разбирайтесь в составе и осознанно выбирайте средства.';
+
+  @override
+  String get onboarding2Title => 'Личный уход';
+
+  @override
+  String get onboarding2Body =>
+      'Составляйте удобные утренние и вечерние ритуалы.';
+
+  @override
+  String get onboarding3Title => 'Учитесь и развивайтесь';
+
+  @override
+  String get onboarding3Body =>
+      'Академия, тесты и помощник SAMIYA AI в одном приложении.';
+
+  @override
+  String get loginBanner => 'Красота, наука и забота';
+
+  @override
+  String get campaignNoCard => '90 дней бесплатно · карта не нужна';
+
+  @override
+  String get welcomeTitle => 'Добро пожаловать!';
+
+  @override
+  String get loginSubtitle =>
+      'Продолжайте путь ухода и знаний вместе с SAMIYA.';
+
+  @override
+  String get legalNotice =>
+      'Продолжая, вы принимаете Условия использования и Политику конфиденциальности.';
+
+  @override
+  String get comingSoon => 'Скоро';
+
+  @override
+  String get roleTitle => 'Кто вы?';
+
+  @override
+  String get roleSubtitle =>
+      'Мы покажем разделы обучения и ухода, подходящие вашей роли.';
+
+  @override
+  String get roleUser => 'Пользователь';
+
+  @override
+  String get roleUserDesc => 'Личный уход и ингредиенты';
+
+  @override
+  String get roleStudent => 'Студент';
+
+  @override
+  String get roleStudentDesc => 'Академия и тесты';
+
+  @override
+  String get roleCosmetologist => 'Косметолог';
+
+  @override
+  String get roleCosmetologistDesc => 'Профессиональный справочник';
+
+  @override
+  String get roleTeacher => 'Преподаватель';
+
+  @override
+  String get roleTeacherDesc => 'Учебные материалы и группы';
+
+  @override
+  String get goHome => 'Перейти на главную';
 }

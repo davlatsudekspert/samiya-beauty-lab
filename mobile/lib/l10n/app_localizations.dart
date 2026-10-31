@@ -149,6 +149,162 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Language'**
   String get chooseLanguage;
+
+  /// No description provided for @languageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your language'**
+  String get languageTitle;
+
+  /// No description provided for @continueLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get continueLabel;
+
+  /// No description provided for @skip.
+  ///
+  /// In en, this message translates to:
+  /// **'Skip'**
+  String get skip;
+
+  /// No description provided for @onboarding1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Beauty begins with science'**
+  String get onboarding1Title;
+
+  /// No description provided for @onboarding1Body.
+  ///
+  /// In en, this message translates to:
+  /// **'Understand ingredients and choose products with confidence.'**
+  String get onboarding1Body;
+
+  /// No description provided for @onboarding2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your personal care'**
+  String get onboarding2Title;
+
+  /// No description provided for @onboarding2Body.
+  ///
+  /// In en, this message translates to:
+  /// **'Build morning and evening routines that suit you.'**
+  String get onboarding2Body;
+
+  /// No description provided for @onboarding3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Learn and grow'**
+  String get onboarding3Title;
+
+  /// No description provided for @onboarding3Body.
+  ///
+  /// In en, this message translates to:
+  /// **'The Academy, quizzes and the SAMIYA AI assistant in one app.'**
+  String get onboarding3Body;
+
+  /// No description provided for @loginBanner.
+  ///
+  /// In en, this message translates to:
+  /// **'Beauty, science and care'**
+  String get loginBanner;
+
+  /// No description provided for @campaignNoCard.
+  ///
+  /// In en, this message translates to:
+  /// **'90 days free · no card needed'**
+  String get campaignNoCard;
+
+  /// No description provided for @welcomeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome!'**
+  String get welcomeTitle;
+
+  /// No description provided for @loginSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue your care and learning journey with SAMIYA.'**
+  String get loginSubtitle;
+
+  /// No description provided for @legalNotice.
+  ///
+  /// In en, this message translates to:
+  /// **'By continuing, you agree to the Terms of Use and Privacy Policy.'**
+  String get legalNotice;
+
+  /// No description provided for @comingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming soon'**
+  String get comingSoon;
+
+  /// No description provided for @roleTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Who are you?'**
+  String get roleTitle;
+
+  /// No description provided for @roleSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'We will show the learning and care sections that fit your role.'**
+  String get roleSubtitle;
+
+  /// No description provided for @roleUser.
+  ///
+  /// In en, this message translates to:
+  /// **'User'**
+  String get roleUser;
+
+  /// No description provided for @roleUserDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Personal care and ingredients'**
+  String get roleUserDesc;
+
+  /// No description provided for @roleStudent.
+  ///
+  /// In en, this message translates to:
+  /// **'Student'**
+  String get roleStudent;
+
+  /// No description provided for @roleStudentDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Academy and quizzes'**
+  String get roleStudentDesc;
+
+  /// No description provided for @roleCosmetologist.
+  ///
+  /// In en, this message translates to:
+  /// **'Cosmetologist'**
+  String get roleCosmetologist;
+
+  /// No description provided for @roleCosmetologistDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Professional reference'**
+  String get roleCosmetologistDesc;
+
+  /// No description provided for @roleTeacher.
+  ///
+  /// In en, this message translates to:
+  /// **'Teacher'**
+  String get roleTeacher;
+
+  /// No description provided for @roleTeacherDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Learning materials and groups'**
+  String get roleTeacherDesc;
+
+  /// No description provided for @goHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Go to home'**
+  String get goHome;
 }
 
 class _AppLocalizationsDelegate

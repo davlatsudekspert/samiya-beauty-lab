@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'app/app.dart';
-import 'app/locale_controller.dart';
+import 'app/app_state.dart';
 
-void main() => runApp(SamiyaApp(controller: LocaleController()));
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(SamiyaApp(state: await AppState.load()));
+}
