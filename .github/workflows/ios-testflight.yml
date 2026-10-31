@@ -32,10 +32,23 @@ jobs:
           flutter-version: '3.47.9'
           channel: stable
           cache: true
-      - name: API kalitini joylash
+      - name: API kalitini joylash va tekshirish
         run: |
-          mkdir -p ~/.appstoreconnect/private_keys
-          .github/scripts/write_secret.sh "$ASC_KEY_P8_B64" ~/.appstoreconnect/private_keys/AuthKey_${ASC_KEY_ID}.p8
+          # Nusxalashda tushgan ko'rinmas bo'shliq/qator ajratgichlarni olib tashlaymiz
+          KEY_ID="$(printf '%s' "$ASC_KEY_ID" | tr -d '[:space:]')"
+          ISSUER="$(printf '%s' "$ASC_ISSUER_ID" | tr -d '[:space:]')"
+          echo "ASC_KEY_ID=$KEY_ID" >> "$GITHUB_ENV"
+          echo "ASC_ISSUER_ID=$ISSUER" >> "$GITHUB_ENV"
+          echo "Key ID uzunligi: ${#KEY_ID} (kutilgan: 10), Issuer uzunligi: ${#ISSUER} (kutilgan: 36)"
+          KEY="$HOME/.appstoreconnect/private_keys/AuthKey_${KEY_ID}.p8"
+          mkdir -p "$(dirname "$KEY")"
+          .github/scripts/write_secret.sh "$ASC_KEY_P8_B64" "$KEY"
+          echo "Kalit fayli birinchi qatori: $(head -1 "$KEY")"   # sarlavha qatori maxfiy emas
+          if openssl pkcs8 -in "$KEY" -nocrypt -out /dev/null 2>/dev/null; then
+            echo "Kalit formati to'g'ri (PKCS#8)"
+          else
+            echo "::error::ASC_KEY_P8_B64 yaroqli .p8 kalit emas (fayl to'liq nusxalanmagan yoki boshqa fayl)"; exit 1
+          fi
       - name: Firebase fayli (majburiy)
         env:
           PLIST_B64: ${{ secrets.GOOGLE_SERVICE_INFO_PLIST_B64 }}
