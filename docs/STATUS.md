@@ -98,5 +98,12 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 - **Ilova:** `BackendApi` (HttpBackendApi, `--dart-define=API_BASE_URL=...`; manzil berilmasa NoBackendApi: server ma'lumoti yo'q, faqat Firebase hisobi o'chiriladi). 147 test o'tdi.
 - **Ochiq:** Worker hali deploy qilinmagan (D1 ID yo'q), shuning uchun `API_BASE_URL` berilmaydi. Maxfiylik siyosati URL va shartlar sahifasi yo'q. Hisob o'chirish veb-sahifasi (Play talab qiladi) yo'q.
 
+## Cloudflare (yordamchi, 2026-10-31) - maxfiy bo'lmagan natijalar
+- **Account ID:** `31c4b3d8ece4b65de515debc4552334a` (URL'dan; maxfiy emas). **workers.dev subdomain:** `davlatsudekspert` (allaqachon ro'yxatdan o'tgan), shuning uchun Worker manzili `https://samiya-api.davlatsudekspert.workers.dev` bo'ladi.
+- **D1 bazasi yaratildi:** `samiya`, Eastern Europe, UUID `9f25a933-c4f9-4050-a1d1-27ce27b55eee`. (Hisobda 9 ta D1 bor, limit 10; boshqa loyihalar ham shu hisobda.)
+- **API token:** "samiya-ci" (Workers Scripts: Edit, D1: Edit, Cloudflare Pages: Edit, Account Settings: Read; muddati 2027-10-31) **hali yaratilmagan**: "Create Token" ni yordamchi bosa olmadi (xavfsizlik to'sig'i), egasi o'zi bosadi va `CLOUDFLARE_API_TOKEN` hamda `CLOUDFLARE_ACCOUNT_ID` Secrets'ni qo'yadi.
+- **Ogohlantirish:** token butun hisobga tegishli (boshqa loyihalarning Worker va D1'lariga ham ruxsati bor). Imkon bo'lsa SAMIYA uchun alohida Cloudflare hisobi ochish xavfsizroq. Hozirgi himoya: Secrets forklarga berilmaydi, deploy faqat qo'lda ishga tushadi.
+- **Navbat:** token qo'yilgach `Deploy backend (Cloudflare)` ishga tushadi (D1'ni nomi bo'yicha topadi); keyin ilovaga `API_BASE_URL` ulanadi (deploy tasdiqlangandan SO'NG: aks holda hisobni o'chirish ishlamay qolardi).
+
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.
