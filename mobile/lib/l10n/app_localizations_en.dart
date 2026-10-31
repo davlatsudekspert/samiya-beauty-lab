@@ -267,4 +267,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get studyTypeNarrative => 'Narrative review';
+
+  @override
+  String get authFailed => 'Sign-in failed. Please try again.';
+
+  @override
+  String get authUnavailable => 'Sign-in is not available right now.';
 }

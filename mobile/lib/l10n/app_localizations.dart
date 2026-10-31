@@ -593,6 +593,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Narrative review'**
   String get studyTypeNarrative;
+
+  /// No description provided for @authFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign-in failed. Please try again.'**
+  String get authFailed;
+
+  /// No description provided for @authUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign-in is not available right now.'**
+  String get authUnavailable;
 }
 
 class _AppLocalizationsDelegate

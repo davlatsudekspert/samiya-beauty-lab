@@ -77,5 +77,12 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 - **Firebase:** loyiha yaratish shartlarini qabul qilishni egasi o'zi bajaradi (yordamchi to'xtagan).
 - **CI ish oqimlari qo'shildi** (`.github/workflows/`): `ci.yml` (har push, Linux: tahlil, testlar, kontent tekshiruvi), `android-aab.yml` va `ios-testflight.yml` (faqat qo'lda; **tekshirilmagan qoralamalar**, Android SDK va Mac bu yerda yo'q). Kerakli Secrets: `docs/SECRETS.md`. Android release imzosi `key.properties` orqali (kalit yo'q bo'lsa debug imzo, faqat lokal).
 
+## Firebase va haqiqiy kirish (2026-10-31)
+- **Firebase loyihasi:** Project ID `samiya-beauty-lab` (raqam `256361630285`), bepul Spark rejasi. Google va Apple provayderlari yoqilgan (Apple: Services ID `uz.samiya.beautylab.signin`, Team `5Z9CT2W378`, Key `94WS6NBPXQ`; `.p8` ni egasi o'zi kiritdi). Android va iOS ilovalari ro'yxatdan o'tgan. Apple callback: `https://samiya-beauty-lab.firebaseapp.com/__/auth/handler`.
+- **Hali qolgan (egasi/yordamchi):** `google-services.json` va `GoogleService-Info.plist` ni egasi yuklab olib Secrets'ga qo'yadi; Apple Services ID'da Domains/Return URL ni saqlash (Save); Android SHA-1.
+- **Backend:** `GET /api/v1/me` Firebase ID tokenini Worker'da tekshiradi (RS256, kalitlar Google'dan, kesh; aud/iss/exp/iat/sub, alg=none va HS256 hujumlari rad etiladi); foydalanuvchini D1'ga bir marta yozadi. 31 backend test o'tdi.
+- **Ilova:** `AuthService` abstraksiyasi, `FirebaseAuthService` (Google va Apple, provayder oqimi), Firebase sozlanmagan bo'lsa `UnavailableAuthService` ("Kirish hozircha mavjud emas", qulamaydi). Kirish ekrani: band holati, bekor qilish jim, xato xabari 4 tilda. 122 test o'tdi (soxta kirish xizmati bilan). **Haqiqiy qurilmada Google/Apple kirishi HALI SINALMAGAN** (konfiguratsiya fayllari va qurilma kerak).
+- **Xavf:** iOS'da `GoogleService-Info.plist` bo'lmasa Firebase ishga tushganda native qulash bo'lishi mumkin; shu sabab CI uni majburiy qildi. Android'da google-services plagini faqat `google-services.json` bor bo'lsa ulanadi (tekshirilmagan gradle).
+
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.

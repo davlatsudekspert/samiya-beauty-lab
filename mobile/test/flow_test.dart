@@ -70,10 +70,11 @@ void main() {
     expect(k('btn-google'), findsOneWidget);
     expect(k('btn-apple'), findsOneWidget);
     expect(k('btn-guest'), findsOneWidget);
-    // Google hali ulanmagan (Phase 2): halol "tez orada" xabari, ekran o'zgarmaydi.
+    // Firebase sozlanmagan holat: halol xabar, ekran o'zgarmaydi (haqiqiy kirish: auth_flow_test).
     await t.tap(k('btn-google'));
     await t.pump();
-    expect(find.text('Tez orada'), findsOneWidget);
+    await t.pump(const Duration(milliseconds: 300));
+    expect(find.text('Kirish hozircha mavjud emas.'), findsOneWidget);
     expect(k('login-page'), findsOneWidget);
   });
 

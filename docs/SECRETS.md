@@ -15,3 +15,16 @@ Repo > Settings > Secrets and variables > Actions > New repository secret. Qiyma
 Cloudflare uchun (Worker deploy): `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` (keyingi bosqich).
 
 Workflow'lar: `ci.yml` (har push, Linux), `android-aab.yml` va `ios-testflight.yml` (faqat QO'LDA, ikkalasi tekshirilmagan qoralama).
+
+## Fayllarni base64 qilish (Windows PowerShell)
+Fayl turgan papkada (Yuklamalar) PowerShell oching. Natija vaqtinchalik xotiraga (clipboard) nusxalanadi va ekranda ko'rinmaydi; keyin GitHub Secret maydoniga Ctrl+V qiling.
+
+```powershell
+# Firebase Android
+[Convert]::ToBase64String([IO.File]::ReadAllBytes("google-services.json")) | Set-Clipboard
+# Firebase iOS
+[Convert]::ToBase64String([IO.File]::ReadAllBytes("GoogleService-Info.plist")) | Set-Clipboard
+# App Store Connect CI kaliti
+[Convert]::ToBase64String([IO.File]::ReadAllBytes("AuthKey_ZC53Z723LK.p8")) | Set-Clipboard
+```
+Har buyruqdan keyin tegishli Secret'ni (`GOOGLE_SERVICES_JSON_B64`, `GOOGLE_SERVICE_INFO_PLIST_B64`, `ASC_KEY_P8_B64`) yarating va Ctrl+V bilan joylang.

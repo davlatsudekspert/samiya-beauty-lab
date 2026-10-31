@@ -1,7 +1,10 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../features/auth/auth_service.dart';
 import '../features/scanner/ingredient_models.dart';
 
 /// Qo'llab-quvvatlanadigan tillar: O'zbek, Rus, Ingliz, Arab (RTL).
@@ -27,10 +30,32 @@ class AppState extends ChangeNotifier {
     bool onboarded = false,
     UserRole? role,
     IngredientRepository? ingredients,
+    AuthService? auth,
   })  : ingredients = ingredients ?? IngredientRepository(const []),
+        auth = auth ?? const UnavailableAuthService(),
         _locale = locale,
         _onboarded = onboarded,
-        _role = role;
+        _role = role {
+    _user = this.auth.currentUser;
+    _authSub = this.auth.changes.listen((u) {
+      _user = u;
+      notifyListeners();
+    });
+  }
+
+  /// Kirish xizmati (Firebase yoki "mavjud emas" holati).
+  final AuthService auth;
+  AuthUser? _user;
+  StreamSubscription<AuthUser?>? _authSub;
+
+  /// Kirgan foydalanuvchi (mehmon rejimida null).
+  AuthUser? get user => _user;
+
+  @override
+  void dispose() {
+    _authSub?.cancel();
+    super.dispose();
+  }
 
   /// Ingredient bazasi (assets/content/ingredients.json), o'zgarmas.
   final IngredientRepository ingredients;
@@ -43,13 +68,14 @@ class AppState extends ChangeNotifier {
   bool get onboarded => _onboarded;
   UserRole? get role => _role;
 
-  static Future<AppState> load() async {
+  static Future<AppState> load({AuthService? auth}) async {
     final p = await SharedPreferences.getInstance();
     final code = p.getString('locale');
     final roleName = p.getString('role');
     final repo = IngredientRepository.fromJson(await rootBundle.loadString('assets/content/ingredients.json'));
     return AppState(
       ingredients: repo,
+      auth: auth,
       locale: Locale(languageNativeNames.containsKey(code) ? code! : 'uz'),
       onboarded: p.getBool('onboarded') ?? false,
       role: UserRole.values.where((r) => r.name == roleName).firstOrNull,

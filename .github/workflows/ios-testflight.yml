@@ -33,11 +33,12 @@ jobs:
         run: |
           mkdir -p ~/.appstoreconnect/private_keys
           echo "$ASC_KEY_P8_B64" | base64 --decode > ~/.appstoreconnect/private_keys/AuthKey_${ASC_KEY_ID}.p8
-      - name: Firebase fayli (bo'lsa)
+      - name: Firebase fayli (majburiy)
         env:
           PLIST_B64: ${{ secrets.GOOGLE_SERVICE_INFO_PLIST_B64 }}
         run: |
-          if [ -n "$PLIST_B64" ]; then echo "$PLIST_B64" | base64 --decode > mobile/ios/Runner/GoogleService-Info.plist; fi
+          if [ -z "$PLIST_B64" ]; then echo "::error::GOOGLE_SERVICE_INFO_PLIST_B64 Secret yo'q: busiz iOS ilova ishga tushganda qulashi mumkin (docs/SECRETS.md)."; exit 1; fi
+          echo "$PLIST_B64" | base64 --decode > mobile/ios/Runner/GoogleService-Info.plist
       - name: Flutter tayyorlash
         working-directory: mobile
         run: |

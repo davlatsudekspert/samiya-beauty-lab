@@ -81,5 +81,7 @@
   "studyTypeObservational": "دراسة رصدية",
   "studyTypeInVitro": "دراسة مخبرية",
   "studyTypeRegulatory": "رأي تنظيمي",
-  "studyTypeNarrative": "مراجعة سردية"
+  "studyTypeNarrative": "مراجعة سردية",
+  "authFailed": "تعذّر تسجيل الدخول. حاول مرة أخرى.",
+  "authUnavailable": "تسجيل الدخول غير متاح حاليًا."
 }

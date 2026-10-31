@@ -88,5 +88,7 @@
         "type": "int"
       }
     }
-  }
+  },
+  "authFailed": "Sign-in failed. Please try again.",
+  "authUnavailable": "Sign-in is not available right now."
 }

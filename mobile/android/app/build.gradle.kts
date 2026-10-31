@@ -14,6 +14,11 @@ if (keystorePropertiesFile.exists()) {
     FileInputStream(keystorePropertiesFile).use { keystoreProperties.load(it) }
 }
 
+// Firebase: google-services.json bo'lsa plagin ulanadi (CI uni Secret'dan yozadi). Bo'lmasa ilova ishlaydi, kirish "mavjud emas" bo'ladi.
+if (file("google-services.json").exists()) {
+    apply(plugin = "com.google.gms.google-services")
+}
+
 android {
     namespace = "uz.samiya.beautylab"
     compileSdk = flutter.compileSdkVersion

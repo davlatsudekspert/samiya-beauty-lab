@@ -266,4 +266,10 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get studyTypeNarrative => 'Нарративный обзор';
+
+  @override
+  String get authFailed => 'Не удалось войти. Попробуйте ещё раз.';
+
+  @override
+  String get authUnavailable => 'Вход пока недоступен.';
 }

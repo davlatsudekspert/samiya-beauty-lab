@@ -81,5 +81,7 @@
   "studyTypeObservational": "Kuzatuv tadqiqoti",
   "studyTypeInVitro": "Laboratoriya tadqiqoti",
   "studyTypeRegulatory": "Regulyator xulosasi",
-  "studyTypeNarrative": "Hikoyaviy sharh"
+  "studyTypeNarrative": "Hikoyaviy sharh",
+  "authFailed": "Kirish bajarilmadi. Qayta urinib ko‘ring.",
+  "authUnavailable": "Kirish hozircha mavjud emas."
 }

@@ -268,4 +268,10 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get studyTypeNarrative => 'Hikoyaviy sharh';
+
+  @override
+  String get authFailed => 'Kirish bajarilmadi. Qayta urinib ko‘ring.';
+
+  @override
+  String get authUnavailable => 'Kirish hozircha mavjud emas.';
 }

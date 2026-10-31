@@ -262,4 +262,10 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get studyTypeNarrative => 'مراجعة سردية';
+
+  @override
+  String get authFailed => 'تعذّر تسجيل الدخول. حاول مرة أخرى.';
+
+  @override
+  String get authUnavailable => 'تسجيل الدخول غير متاح حاليًا.';
 }

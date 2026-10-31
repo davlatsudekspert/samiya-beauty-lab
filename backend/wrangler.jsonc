@@ -9,10 +9,11 @@
     "AI_FREE_DAILY_REQUESTS": "5",
     "AI_PRO_DAILY_REQUESTS": "50",
     "BILLING_ENABLED": "false",
-    "ADS_ENABLED": "false"
+    "ADS_ENABLED": "false",
+    "FIREBASE_PROJECT_ID": "samiya-beauty-lab"
   },
   "d1_databases": [
     { "binding": "DB", "database_name": "samiya", "database_id": "REPLACE_WITH_D1_ID", "migrations_dir": "migrations" }
   ]
-  // Maxfiylar (FIREBASE_PROJECT_ID, GEMINI_API_KEY, REVENUECAT_WEBHOOK_SECRET...) faqat `wrangler secret put` orqali.
+  // FIREBASE_PROJECT_ID maxfiy emas (ommaviy loyiha ID). Maxfiylar (GEMINI_API_KEY, REVENUECAT_WEBHOOK_SECRET...) faqat `wrangler secret put` orqali.
 }
