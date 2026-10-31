@@ -6,6 +6,7 @@ import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../ui/widgets.dart';
+import '../../ui/ingredient_palette.dart';
 import 'analysis.dart';
 
 /// 20 Tahlil natijasi. Faqat "bazada bor/yo'q": xavfsizlik bahosi, foiz yoki "sizga mos" xulosasi YO'Q.
@@ -65,6 +66,9 @@ class ResultPage extends StatelessWidget {
                   _FoundCard(
                     key: Key('result-card-${item.ingredient!.slug}'),
                     position: item.position,
+                    slug: item.ingredient!.slug,
+                    name: item.ingredient!.nameFor(lang),
+                    friendly: item.ingredient!.hasFriendlyName,
                     inci: item.ingredient!.inci,
                     summary: item.ingredient!.summaryFor(lang),
                     onTap: () => context.safePush('/scanner/ingredient/${item.ingredient!.slug}'),
@@ -122,8 +126,11 @@ class _Stat extends StatelessWidget {
 }
 
 class _FoundCard extends StatelessWidget {
-  const _FoundCard({super.key, required this.position, required this.inci, required this.summary, required this.onTap});
+  const _FoundCard({super.key, required this.position, required this.slug, required this.name, required this.friendly, required this.inci, required this.summary, required this.onTap});
   final int position;
+  final String slug;
+  final String name;
+  final bool friendly;
   final String inci;
   final String summary;
   final VoidCallback onTap;
@@ -133,7 +140,7 @@ class _FoundCard extends StatelessWidget {
     final t = Theme.of(context).textTheme;
     return Semantics(
       button: true,
-      label: inci,
+      label: name,
       child: Material(
         color: Colors.white,
         borderRadius: BorderRadius.circular(24),
@@ -145,17 +152,15 @@ class _FoundCard extends StatelessWidget {
             decoration: BoxDecoration(borderRadius: BorderRadius.circular(24), border: Border.all(color: SamiyaColors.border), boxShadow: SamiyaShadows.soft),
             child: ExcludeSemantics(
               child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Container(
-                  width: 36,
-                  height: 36,
-                  alignment: Alignment.center,
-                  decoration: const BoxDecoration(color: SamiyaColors.blush, shape: BoxShape.circle),
-                  child: Text('$position', style: const TextStyle(fontFamily: 'Jost', fontWeight: FontWeight.w700, color: SamiyaColors.rose)),
-                ),
+                IngredientMonogram(slug: slug, name: name, size: 48),
                 const SizedBox(width: 14),
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text(inci, textDirection: TextDirection.ltr, style: t.titleMedium?.copyWith(fontSize: 18, fontWeight: FontWeight.w700, color: SamiyaColors.heading)),
+                    Text(name,
+                        textDirection: friendly ? null : TextDirection.ltr,
+                        style: t.titleMedium?.copyWith(fontSize: 18, fontWeight: FontWeight.w600, color: SamiyaColors.heading)),
+                    Text(friendly ? '$inci · #$position' : '#$position',
+                        textDirection: TextDirection.ltr, style: t.bodyMedium?.copyWith(fontSize: 12, fontWeight: FontWeight.w500)),
                     const SizedBox(height: 4),
                     Text(summary, maxLines: 3, overflow: TextOverflow.ellipsis, style: t.bodyMedium),
                   ]),

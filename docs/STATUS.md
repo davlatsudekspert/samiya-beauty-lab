@@ -127,5 +127,13 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 - **Testlar:** backend 61, ilova 195 (qizil->yashil). Jonli backend yangilandi (migratsiyalar 0002, 0003); jonli admin amallari haqiqiy Google kirishi bilan telefonda tasdiqlanishi kerak (TEKSHIRILMAGAN).
 - **iOS TestFlight:** kalit muammosi hal qilindi (Admin rolli kalit "SAMIYA CI Admin"), birinchi build muvaffaqiyatli yuklandi.
 
+## Premium dizayn va yangi bo'limlar (2026-10-31, kechasi)
+- **Dizayn "Atelier":** chinni fon, ud-olxo'ri (#3B1E2B), Toif atirguli yuzalar, shampan oltini (#B08D57); Cormorant Garamond + Jost, arabcha Amiri/IBM Plex. Ravoq kartochkalar, oltin halqali belgilar, animatsiyali pastki menyu.
+- **Rasmlar:** tabiiy ingredientlar uchun iNaturalist CC0 fotosuratlari (`mobile/assets/photos/CREDITS.json`), boshqalarida rangli monogramma.
+- **Kontent:** 28 kartochka (11 faol, 13 tabiiy, 2 usul, 2 ogohlantirish), 4 tilda tushunarli nomlar; an'anaviy qo'llanish bloki va Ibn Sino sahifasi ("ilmiy dalil emas" izohi bilan). 185 PMID onlayn tekshirildi.
+- **Yangi (faqat qurilmada):** Teri afzalliklari ("chetlab o'tish" ro'yxati skanerda ogohlantiradi), Parvarish rejasi, Kundalik; kamera skaneri (ML Kit).
+- **Reklama roligi:** 4 tilda (edge-tts: Madina, Svetlana, Sonia, Fatima), haqiqiy ekranlardan.
+- **Hali yo'q:** Akademiya (kosmetolog tekshiruvi kerak), SAMIYA AI (GEMINI kaliti), Pro to'lov, reklama bo'limi (90 kun o'chiq), maxfiylik siyosati (email va ism kerak), iOS'da Google kirishi (yangi GoogleService-Info.plist kerak). Yangi buildlar egasining tasdig'ini kutmoqda.
+
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.
