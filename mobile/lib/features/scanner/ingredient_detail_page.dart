@@ -7,6 +7,7 @@ import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../ui/widgets.dart';
 import 'evidence_widgets.dart';
+import '../../ui/botanical_assets.dart';
 import 'ingredient_models.dart';
 import 'traditional_widgets.dart';
 
@@ -37,6 +38,24 @@ class IngredientDetailPage extends StatelessWidget {
               : PageBody(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     const SizedBox(height: 8),
+                    if (botanicalSlugs.contains(ing.slug)) ...[
+                      Container(
+                        key: const Key('botanical-hero'),
+                        height: 260,
+                        width: double.infinity,
+                        padding: const EdgeInsets.fromLTRB(18, 22, 18, 12),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: const BorderRadius.vertical(top: Radius.circular(140), bottom: Radius.circular(24)),
+                          border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.6)),
+                          boxShadow: SamiyaShadows.soft,
+                        ),
+                        child: Image.asset('assets/botanical/${ing.slug}.jpg', fit: BoxFit.contain, filterQuality: FilterQuality.medium),
+                      ),
+                      const SizedBox(height: 6),
+                      Text(l.botanicalCredit, style: t.bodyMedium?.copyWith(fontSize: 11)),
+                      const SizedBox(height: 14),
+                    ],
                     Text(ing.nameFor(lang), textDirection: ing.hasFriendlyName ? null : TextDirection.ltr, style: t.headlineMedium),
                     if (ing.hasFriendlyName && !ing.isPractice) ...[
                       const SizedBox(height: 4),

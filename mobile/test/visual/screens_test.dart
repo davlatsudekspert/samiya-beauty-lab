@@ -13,6 +13,8 @@ import 'package:samiya_beauty_lab/features/auth/auth_service.dart';
 import 'package:samiya_beauty_lab/features/scanner/ingredient_models.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'package:samiya_beauty_lab/ui/botanical_assets.dart';
+
 import '../support/fonts.dart';
 
 /// Vizual tekshiruv: haqiqiy shrift va rasmlar bilan ekranlarni qa/visual/ ga PNG qilib yozadi.
@@ -92,6 +94,9 @@ void main() {
           final ctx = t.element(find.byType(MaterialApp));
           for (final a in ['ob2_routine']) {
             await precacheImage(AssetImage('assets/images/$a.png'), ctx);
+          }
+          for (final b in botanicalSlugs) {
+            await precacheImage(AssetImage('assets/botanical/$b.jpg'), ctx);
           }
         });
         await t.pump(const Duration(milliseconds: 1200));

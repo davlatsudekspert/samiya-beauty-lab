@@ -601,4 +601,8 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get personalDataNote => 'تُحفظ هذه المعلومات على هذا الهاتف فقط.';
+
+  @override
+  String get botanicalCredit =>
+      'رسم نباتي: ف. إ. كولر، «Köhler\'s Medizinal-Pflanzen»، 1887 (ملكية عامة)';
 }

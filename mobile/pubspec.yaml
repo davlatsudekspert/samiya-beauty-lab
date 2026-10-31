@@ -65,6 +65,7 @@ flutter:
   generate: true
   assets:
     - assets/images/
+    - assets/botanical/
     - assets/content/
   fonts:
     - family: Inter

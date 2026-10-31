@@ -605,4 +605,8 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get personalDataNote =>
       'This information is stored only on this phone.';
+
+  @override
+  String get botanicalCredit =>
+      'Botanical plate: F. E. Köhler, “Köhler\'s Medizinal-Pflanzen”, 1887 (public domain)';
 }

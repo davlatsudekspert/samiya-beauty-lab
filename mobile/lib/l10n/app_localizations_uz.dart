@@ -609,4 +609,8 @@ class AppLocalizationsUz extends AppLocalizations {
   @override
   String get personalDataNote =>
       'Bu ma‘lumotlar faqat shu telefonda saqlanadi.';
+
+  @override
+  String get botanicalCredit =>
+      'Botanik rasm: F. E. Köhler, “Köhler\'s Medizinal-Pflanzen”, 1887 (jamoat mulki)';
 }

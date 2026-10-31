@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../app/theme.dart';
+import 'botanical_assets.dart';
 
 /// Har bir ingredientning o'z "rang hikoyasi" (tabiiy manbasidan ilhomlangan yumshoq ton).
 const _tints = <String, Color>{
@@ -72,7 +73,17 @@ class IngredientMonogram extends StatelessWidget {
             colors: [Colors.white, Color.lerp(Colors.white, tint, 0.45)!, Color.lerp(Colors.white, tint, 0.75)!],
           ),
         ),
-        child: Text(
+        child: botanicalSlugs.contains(slug)
+            ? ClipOval(
+                child: SizedBox.expand(
+                  child: Transform.scale(
+                    scale: botanicalFocus[slug]?.$1 ?? 1.4,
+                    alignment: botanicalFocus[slug]?.$2 ?? Alignment.center,
+                    child: Image.asset('assets/botanical/$slug.jpg', fit: BoxFit.cover, alignment: botanicalFocus[slug]?.$2 ?? Alignment.center, filterQuality: FilterQuality.medium),
+                  ),
+                ),
+              )
+            : Text(
           letter,
           style: TextStyle(
             fontFamily: arabic ? 'Amiri' : 'CormorantGaramond',

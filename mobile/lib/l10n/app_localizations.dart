@@ -1223,6 +1223,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'This information is stored only on this phone.'**
   String get personalDataNote;
+
+  /// No description provided for @botanicalCredit.
+  ///
+  /// In en, this message translates to:
+  /// **'Botanical plate: F. E. Köhler, “Köhler\'s Medizinal-Pflanzen”, 1887 (public domain)'**
+  String get botanicalCredit;
 }
 
 class _AppLocalizationsDelegate

@@ -606,4 +606,8 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get personalDataNote => 'Эти данные хранятся только на этом телефоне.';
+
+  @override
+  String get botanicalCredit =>
+      'Ботаническая иллюстрация: Ф. Э. Кёлер, «Köhler\'s Medizinal-Pflanzen», 1887 (общественное достояние)';
 }
