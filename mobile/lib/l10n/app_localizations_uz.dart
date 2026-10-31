@@ -401,4 +401,14 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get proBadge => 'Pro';
+
+  @override
+  String get ingredientsTitle => 'Ingredientlar bazasi';
+
+  @override
+  String get ingredientsSearchHint => 'Ingredient nomi...';
+
+  @override
+  String get ingredientsNoMatch =>
+      'Hech narsa topilmadi. Baza kengayib boradi.';
 }

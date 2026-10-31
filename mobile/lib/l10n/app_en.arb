@@ -144,5 +144,8 @@
         "type": "String"
       }
     }
-  }
+  },
+  "ingredientsTitle": "Ingredient database",
+  "ingredientsSearchHint": "Ingredient name...",
+  "ingredientsNoMatch": "Nothing found. The database keeps growing."
 }

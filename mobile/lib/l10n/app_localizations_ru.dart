@@ -400,4 +400,14 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get proBadge => 'Pro';
+
+  @override
+  String get ingredientsTitle => 'База ингредиентов';
+
+  @override
+  String get ingredientsSearchHint => 'Название ингредиента...';
+
+  @override
+  String get ingredientsNoMatch =>
+      'Ничего не найдено. База постоянно расширяется.';
 }

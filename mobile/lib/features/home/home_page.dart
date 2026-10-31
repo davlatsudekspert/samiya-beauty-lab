@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../app/app_state.dart';
 import '../../app/theme.dart';
+import '../../ui/safe_nav.dart';
 import '../../l10n/app_localizations.dart';
 import '../../ui/portrait_banner.dart';
 
@@ -64,7 +66,7 @@ class HomePage extends StatelessWidget {
             child: InkWell(
               key: const Key('home-search'),
               borderRadius: BorderRadius.circular(28),
-              onTap: () => _soon(context),
+              onTap: () => context.safePush('/scanner/ingredients'),
               child: Container(
                 constraints: const BoxConstraints(minHeight: 54),
                 padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
@@ -104,7 +106,8 @@ class HomePage extends StatelessWidget {
           Row(children: [
             Expanded(child: Text(l.popularIngredients, style: t.titleMedium?.copyWith(fontSize: 18, fontWeight: FontWeight.w700))),
             TextButton(
-              onPressed: () => _soon(context),
+              key: const Key('home-see-all'),
+              onPressed: () => context.safePush('/scanner/ingredients'),
               child: Text(l.seeAll, style: t.titleMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w700)),
             ),
           ]),
@@ -115,7 +118,13 @@ class HomePage extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               itemCount: ingredients.length,
               separatorBuilder: (_, _) => const SizedBox(width: 12),
-              itemBuilder: (context, i) => _IngredientCard(name: ingredients[i], onTap: () => _soon(context)),
+              itemBuilder: (context, i) => _IngredientCard(
+                name: ingredients[i],
+                onTap: () {
+                  final ing = AppScope.of(context).ingredients.all.where((x) => x.inci == ingredients[i]).firstOrNull;
+                  ing == null ? _soon(context) : context.safePush('/scanner/ingredient/${ing.slug}');
+                },
+              ),
             ),
           ),
         ]),

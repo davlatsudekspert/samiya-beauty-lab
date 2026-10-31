@@ -400,4 +400,13 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get proBadge => 'Pro';
+
+  @override
+  String get ingredientsTitle => 'Ingredient database';
+
+  @override
+  String get ingredientsSearchHint => 'Ingredient name...';
+
+  @override
+  String get ingredientsNoMatch => 'Nothing found. The database keeps growing.';
 }

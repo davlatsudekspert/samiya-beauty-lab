@@ -395,4 +395,14 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get proBadge => 'Pro';
+
+  @override
+  String get ingredientsTitle => 'قاعدة المكوّنات';
+
+  @override
+  String get ingredientsSearchHint => 'اسم المكوّن...';
+
+  @override
+  String get ingredientsNoMatch =>
+      'لم يتم العثور على شيء. القاعدة تتوسّع باستمرار.';
 }

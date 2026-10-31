@@ -123,5 +123,8 @@
   "adminLoadFailed": "Не удалось загрузить данные.",
   "adminRetry": "Повторить",
   "adminUntil": "до {date}",
-  "proBadge": "Pro"
+  "proBadge": "Pro",
+  "ingredientsTitle": "База ингредиентов",
+  "ingredientsSearchHint": "Название ингредиента...",
+  "ingredientsNoMatch": "Ничего не найдено. База постоянно расширяется."
 }

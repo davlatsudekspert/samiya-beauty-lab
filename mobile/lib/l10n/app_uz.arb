@@ -123,5 +123,8 @@
   "adminLoadFailed": "Ma‘lumotni yuklab bo‘lmadi.",
   "adminRetry": "Qayta urinish",
   "adminUntil": "{date} gacha",
-  "proBadge": "Pro"
+  "proBadge": "Pro",
+  "ingredientsTitle": "Ingredientlar bazasi",
+  "ingredientsSearchHint": "Ingredient nomi...",
+  "ingredientsNoMatch": "Hech narsa topilmadi. Baza kengayib boradi."
 }

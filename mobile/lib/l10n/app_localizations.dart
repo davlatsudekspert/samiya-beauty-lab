@@ -845,6 +845,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Pro'**
   String get proBadge;
+
+  /// No description provided for @ingredientsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Ingredient database'**
+  String get ingredientsTitle;
+
+  /// No description provided for @ingredientsSearchHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Ingredient name...'**
+  String get ingredientsSearchHint;
+
+  /// No description provided for @ingredientsNoMatch.
+  ///
+  /// In en, this message translates to:
+  /// **'Nothing found. The database keeps growing.'**
+  String get ingredientsNoMatch;
 }
 
 class _AppLocalizationsDelegate

@@ -123,5 +123,8 @@
   "adminLoadFailed": "تعذّر تحميل البيانات.",
   "adminRetry": "إعادة المحاولة",
   "adminUntil": "حتى {date}",
-  "proBadge": "Pro"
+  "proBadge": "Pro",
+  "ingredientsTitle": "قاعدة المكوّنات",
+  "ingredientsSearchHint": "اسم المكوّن...",
+  "ingredientsNoMatch": "لم يتم العثور على شيء. القاعدة تتوسّع باستمرار."
 }
