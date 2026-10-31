@@ -80,6 +80,20 @@ void main() {
     expect(k('login-page'), findsOneWidget);
   });
 
+  testWidgets('xato sahifa ichida ko\'rsatiladi (tugmalarni yopmaydi), keyingi urinishda tozalanadi', (t) async {
+    await pumpApp(t, initial: '/login');
+    await t.tap(k('btn-google'));
+    await t.pumpAndSettle();
+    expect(k('login-error'), findsOneWidget);
+    expect(find.byType(SnackBar), findsNothing, reason: 'snackbar pastdagi tugmalarni yopib qo\'yadi');
+    // Xabar turganda ham "mehmon" tugmasi bosiladi (sahifa aylanadi: avval ko'rinadigan qilamiz)
+    await t.ensureVisible(k('btn-guest'));
+    await t.pumpAndSettle();
+    await t.tap(k('btn-guest'));
+    await t.pumpAndSettle();
+    expect(k('role-page'), findsOneWidget);
+  });
+
   testWidgets('kirish davomida tugmalar o\'chadi: ikki marta bosish ikkinchi so\'rov yubormaydi', (t) async {
     final auth = FakeAuthService()..gate = Completer<AuthUser>();
     await pumpApp(t, state: stateWith(auth), initial: '/login');

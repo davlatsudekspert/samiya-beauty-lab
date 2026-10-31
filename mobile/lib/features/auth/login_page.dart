@@ -18,15 +18,17 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   bool _busy = false;
+  String? _error; // sahifa ichidagi xabar: pastdagi tugmalarni yopmaydi
 
-  void _message(String text) => ScaffoldMessenger.of(context)
-    ..hideCurrentSnackBar()
-    ..showSnackBar(SnackBar(content: Text(text), behavior: SnackBarBehavior.floating));
+  void _message(String text) => setState(() => _error = text);
 
   Future<void> _signIn(Future<AuthUser> Function(AuthService) run) async {
     if (_busy) return;
     final state = AppScope.of(context);
-    setState(() => _busy = true);
+    setState(() {
+      _busy = true;
+      _error = null;
+    });
     try {
       await run(state.auth);
       if (!mounted) return;
@@ -77,6 +79,10 @@ class _LoginPageState extends State<LoginPage> {
                   const SizedBox(height: 8),
                   Text(l.loginSubtitle, textAlign: TextAlign.center, style: t.bodyLarge),
                   const SizedBox(height: 22),
+                  if (_error != null) ...[
+                    _InlineError(key: const Key('login-error'), text: _error!),
+                    const SizedBox(height: 12),
+                  ],
                   _ProviderButton(
                     key: const Key('btn-google'),
                     label: l.continueWithGoogle,
@@ -112,6 +118,32 @@ class _LoginPageState extends State<LoginPage> {
             ),
           ]),
         ),
+      ),
+    );
+  }
+}
+
+class _InlineError extends StatelessWidget {
+  const _InlineError({super.key, required this.text});
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return Semantics(
+      liveRegion: true,
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: const Color(0xFFFFF0F1),
+          borderRadius: BorderRadius.circular(18),
+          border: Border.all(color: const Color(0xFFF2B8BD)),
+        ),
+        child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          const Icon(Icons.info_outline_rounded, size: 20, color: Color(0xFFB3261E)),
+          const SizedBox(width: 10),
+          Expanded(child: Text(text, style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: const Color(0xFF7A1F1A)))),
+        ]),
       ),
     );
   }

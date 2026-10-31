@@ -111,5 +111,11 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 - **TEKSHIRILMAGAN (jonli):** Firebase tokenini Worker'da tekshirish (`/api/v1/me`, `DELETE /api/v1/me`) haqiqiy token bilan sinalmagan: birinchi telefon sinovida (kirish, so'ng hisobni o'chirish) tasdiqlanadi.
 - **Hali yo'q:** GEMINI_API_KEY (AI), RevenueCat webhook, maxfiylik siyosati sahifasi.
 
+## Foydalanuvchi sifatida aylanib chiqish (QA, 2026-10-31)
+- **Usul:** ilovaning veb-versiyasi (Flutter web) haqiqiy brauzerda (Chromium, Playwright) uz va ar tillarida to'liq oqim bo'yicha bosib chiqildi: til, welcome, 3 onboarding, kirish (Google xatosi), mehmon, rol, bosh sahifa, skaner, kiritish, natija, ingredient sahifasi, profil, til almashtirish. 19+19 qadam xatosiz o'tdi, brauzer konsolida xato yo'q, resurslar to'liq yuklandi. Skrinshotlar ko'rib chiqildi.
+- **Topilgan va tuzatilgan:** (1) xato xabari (snackbar) pastdagi tugmalarni, jumladan "Mehmon sifatida davom etish" ni YOPIB QO'YARDI: endi sahifa ichidagi xabar (`login-error`); (2) xabar keyingi ekranga o'tib qolardi; (3) welcome'da rasm ostida katta bo'sh joy: rasm ekran balandligiga moslashadi. 148 test o'tdi.
+- **Halollik tekshiruvi (jonli):** "Sodium Hyaluronate" kiritilganda "Bazada hali yo'q" deb ko'rsatildi (Hyaluronic Acid bilan aralashtirilmadi).
+- **QA'da TEKSHIRILMAGAN:** haqiqiy Google/Apple kirishi (veb'da Firebase sozlanmagan), kamera, push, telefon qurilmasi xususiyatlari.
+
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.

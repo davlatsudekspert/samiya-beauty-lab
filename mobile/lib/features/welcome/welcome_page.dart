@@ -96,6 +96,8 @@ class _Hero extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Katta ekranda bo'sh joy qolmasin, kichikda sig'sin (260..440 px).
+    final height = (MediaQuery.sizeOf(context).height * 0.42).clamp(260.0, 440.0);
     return ShaderMask(
       blendMode: BlendMode.dstIn,
       shaderCallback: (rect) => const LinearGradient(
@@ -107,7 +109,7 @@ class _Hero extends StatelessWidget {
       child: ClipRRect(
         borderRadius: const BorderRadius.vertical(top: Radius.circular(120)),
         child: Image.asset('assets/images/hero_welcome.png',
-            height: 290, width: double.infinity, fit: BoxFit.cover, filterQuality: FilterQuality.high),
+            height: height, width: double.infinity, fit: BoxFit.cover, filterQuality: FilterQuality.high),
       ),
     );
   }
