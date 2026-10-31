@@ -272,4 +272,49 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get authUnavailable => 'Вход пока недоступен.';
+
+  @override
+  String get guestName => 'Гость';
+
+  @override
+  String get actionSignIn => 'Войти';
+
+  @override
+  String get signOut => 'Выйти';
+
+  @override
+  String get deleteAccount => 'Удалить аккаунт';
+
+  @override
+  String get deleteConfirmTitle => 'Удалить аккаунт?';
+
+  @override
+  String get deleteConfirmBody =>
+      'Ваш аккаунт и связанные с ним данные будут удалены безвозвратно. Это действие нельзя отменить.';
+
+  @override
+  String get cancel => 'Отмена';
+
+  @override
+  String get deleteAction => 'Удалить';
+
+  @override
+  String get deleteDone => 'Аккаунт удалён.';
+
+  @override
+  String get deleteNeedsRelogin =>
+      'В целях безопасности войдите снова и повторите удаление.';
+
+  @override
+  String get actionFailed =>
+      'Не удалось выполнить действие. Попробуйте ещё раз.';
+
+  @override
+  String get roleSection => 'Роль';
+
+  @override
+  String get privacyPolicy => 'Политика конфиденциальности';
+
+  @override
+  String get termsOfUse => 'Условия использования';
 }

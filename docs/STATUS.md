@@ -91,5 +91,12 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 - **Telefonda HALI SINALMAGAN:** Google/Apple bilan kirish, ilova umuman ishga tushishi.
 - **iOS TestFlight:** workflow tayyor, ishga tushirilmagan (macOS). Navbatda: Profil ekrani, hisobni o'chirish (`DELETE /api/v1/me`), Google Play ichki test.
 
+## Profil ekrani va hisobni o'chirish (2026-10-31) - TEKSHIRILGAN (qurilmada emas)
+- **59 Profil:** hisob kartasi (ism/email/provayder yoki "Mehmon"), mehmon uchun "Kirish", til almashtirish, rol qatori (rol ekraniga olib boradi), maxfiylik va shartlar qatorlari (URL tayyor emas: halol "Tez orada"), **Chiqish** va **Hisobni o'chirish** (tasdiq oynasi bilan). Do'konlar hisobni ilova ichida o'chirishni talab qiladi.
+- **Tartib (muhim):** hisobni o'chirishda AVVAL backend `DELETE /api/v1/me` (token yaroqliyida), KEYIN Firebase hisobi. Backend o'chira olmasa Firebase hisobi saqlanadi (ma'lumot yetim qolmaydi, qayta urinish xavfsiz). Firebase "yaqinda kirish" talab qilsa aniq xabar chiqadi.
+- **Backend:** `DELETE /api/v1/me` foydalanuvchining barcha qatorlarini bitta batch'da o'chiradi (entitlements, ai_daily_usage, ai_request_idempotency, users). 36 backend test o'tdi.
+- **Ilova:** `BackendApi` (HttpBackendApi, `--dart-define=API_BASE_URL=...`; manzil berilmasa NoBackendApi: server ma'lumoti yo'q, faqat Firebase hisobi o'chiriladi). 147 test o'tdi.
+- **Ochiq:** Worker hali deploy qilinmagan (D1 ID yo'q), shuning uchun `API_BASE_URL` berilmaydi. Maxfiylik siyosati URL va shartlar sahifasi yo'q. Hisob o'chirish veb-sahifasi (Play talab qiladi) yo'q.
+
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.

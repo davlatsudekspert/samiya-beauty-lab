@@ -31,7 +31,7 @@ void main() {
     await pumpApp(t, state: AppState(onboarded: true), initial: '/home');
     await t.tap(k('nav-profile'));
     await t.pumpAndSettle();
-    expect(k('tab-profile'), findsOneWidget);
+    expect(k('profile-page'), findsOneWidget);
     await t.tap(k('nav-home'));
     await t.pumpAndSettle();
     await t.tap(k('tile-academy'));

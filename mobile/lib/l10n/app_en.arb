@@ -90,5 +90,19 @@
     }
   },
   "authFailed": "Sign-in failed. Please try again.",
-  "authUnavailable": "Sign-in is not available right now."
+  "authUnavailable": "Sign-in is not available right now.",
+  "guestName": "Guest",
+  "actionSignIn": "Sign in",
+  "signOut": "Sign out",
+  "deleteAccount": "Delete account",
+  "deleteConfirmTitle": "Delete your account?",
+  "deleteConfirmBody": "Your account and its data will be permanently deleted. This cannot be undone.",
+  "cancel": "Cancel",
+  "deleteAction": "Delete",
+  "deleteDone": "Account deleted.",
+  "deleteNeedsRelogin": "For security, sign in again and then delete your account.",
+  "actionFailed": "The action failed. Please try again.",
+  "roleSection": "Role",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfUse": "Terms of Use"
 }

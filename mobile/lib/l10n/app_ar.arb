@@ -83,5 +83,19 @@
   "studyTypeRegulatory": "رأي تنظيمي",
   "studyTypeNarrative": "مراجعة سردية",
   "authFailed": "تعذّر تسجيل الدخول. حاول مرة أخرى.",
-  "authUnavailable": "تسجيل الدخول غير متاح حاليًا."
+  "authUnavailable": "تسجيل الدخول غير متاح حاليًا.",
+  "guestName": "ضيف",
+  "actionSignIn": "تسجيل الدخول",
+  "signOut": "تسجيل الخروج",
+  "deleteAccount": "حذف الحساب",
+  "deleteConfirmTitle": "حذف الحساب؟",
+  "deleteConfirmBody": "سيتم حذف حسابك وبياناتك نهائيًا. لا يمكن التراجع عن هذا الإجراء.",
+  "cancel": "إلغاء",
+  "deleteAction": "حذف",
+  "deleteDone": "تم حذف الحساب.",
+  "deleteNeedsRelogin": "لأسباب أمنية، سجّل الدخول مرة أخرى ثم احذف الحساب.",
+  "actionFailed": "تعذّر تنفيذ الإجراء. حاول مرة أخرى.",
+  "roleSection": "الدور",
+  "privacyPolicy": "سياسة الخصوصية",
+  "termsOfUse": "شروط الاستخدام"
 }

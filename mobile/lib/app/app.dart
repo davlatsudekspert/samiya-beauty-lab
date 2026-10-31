@@ -6,6 +6,7 @@ import '../features/auth/login_page.dart';
 import '../features/home/home_page.dart';
 import '../features/language/language_page.dart';
 import '../features/onboarding/onboarding_page.dart';
+import '../features/profile/profile_page.dart';
 import '../features/role/role_page.dart';
 import '../features/scanner/ingredient_detail_page.dart';
 import '../features/scanner/manual_input_page.dart';
@@ -21,7 +22,6 @@ import 'theme.dart';
 
 String _academyTitle(AppLocalizations l) => l.navAcademy;
 String _journalTitle(AppLocalizations l) => l.navJournal;
-String _profileTitle(AppLocalizations l) => l.navProfile;
 
 class SamiyaApp extends StatefulWidget {
   const SamiyaApp({
@@ -75,9 +75,7 @@ class _SamiyaAppState extends State<SamiyaApp> {
                 builder: (_, _) => const PlaceholderTab(pageKey: 'tab-journal', title: _journalTitle)),
           ]),
           StatefulShellBranch(routes: [
-            GoRoute(
-                path: '/profile',
-                builder: (_, _) => const PlaceholderTab(pageKey: 'tab-profile', title: _profileTitle)),
+            GoRoute(path: '/profile', builder: (_, _) => const ProfilePage()),
           ]),
         ],
       ),

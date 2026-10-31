@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'app/app.dart';
 import 'app/app_state.dart';
+import 'data/backend_api.dart';
 import 'features/auth/auth_service.dart';
 import 'features/auth/firebase_auth_service.dart';
 
@@ -18,5 +19,7 @@ Future<AuthService> _initAuth() async {
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(SamiyaApp(state: await AppState.load(auth: await _initAuth())));
+  const apiBase = String.fromEnvironment('API_BASE_URL');
+  final backend = apiBase.isEmpty ? const NoBackendApi() : HttpBackendApi(apiBase);
+  runApp(SamiyaApp(state: await AppState.load(auth: await _initAuth(), backend: backend)));
 }

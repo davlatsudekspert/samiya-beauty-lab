@@ -10,6 +10,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:samiya_beauty_lab/app/app.dart';
 import 'package:samiya_beauty_lab/app/app_state.dart';
+import 'package:samiya_beauty_lab/features/auth/auth_service.dart';
 import 'package:samiya_beauty_lab/features/scanner/ingredient_models.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -105,8 +106,35 @@ void main() {
       await t.pumpAndSettle();
     }),
     '21_ingredient': ('/scanner/ingredient/niacinamide', null),
+    '59_profile': ('/profile', null),
   };
   for (final lang in ['uz', 'ar']) {
+    testWidgets('$lang 59_profile_signedin', (t) async {
+      t.view.physicalSize = const Size(780, 1688);
+      t.view.devicePixelRatio = 2;
+      addTearDown(t.view.reset);
+      final key = GlobalKey();
+      final auth = _FakeAuth();
+      await t.pumpWidget(RepaintBoundary(
+        key: key,
+        child: SamiyaApp(
+          key: UniqueKey(),
+          state: AppState(locale: Locale(lang), onboarded: true, role: UserRole.student, auth: auth),
+          initialLocation: '/profile',
+          splashDuration: const Duration(minutes: 5),
+        ),
+      ));
+      await t.pump(const Duration(milliseconds: 600));
+      await t.runAsync(() async {
+        final boundary = key.currentContext!.findRenderObject()! as RenderRepaintBoundary;
+        final image = await boundary.toImage(pixelRatio: 1);
+        final data = await image.toByteData(format: ui.ImageByteFormat.png);
+        File('../qa/visual/${lang}_59_profile_signedin.png')
+          ..createSync(recursive: true)
+          ..writeAsBytesSync(data!.buffer.asUint8List());
+      });
+      await t.pumpWidget(const SizedBox());
+    });
     for (final e in scan.entries) {
       testWidgets('$lang ${e.key}', (t) async {
         t.view.physicalSize = const Size(780, 1688);
@@ -144,4 +172,21 @@ void main() {
       });
     }
   }
+}
+
+class _FakeAuth implements AuthService {
+  @override
+  AuthUser? get currentUser => const AuthUser(uid: 'u', provider: 'google.com', email: 'samiya@example.com', displayName: 'Samiya A.');
+  @override
+  Stream<AuthUser?> get changes => const Stream.empty();
+  @override
+  Future<AuthUser> signInWithGoogle() => throw UnimplementedError();
+  @override
+  Future<AuthUser> signInWithApple() => throw UnimplementedError();
+  @override
+  Future<void> signOut() async {}
+  @override
+  Future<void> deleteAccount() async {}
+  @override
+  Future<String?> idToken() async => 't';
 }

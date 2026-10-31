@@ -274,4 +274,48 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get authUnavailable => 'Kirish hozircha mavjud emas.';
+
+  @override
+  String get guestName => 'Mehmon';
+
+  @override
+  String get actionSignIn => 'Kirish';
+
+  @override
+  String get signOut => 'Chiqish';
+
+  @override
+  String get deleteAccount => 'Hisobni o‘chirish';
+
+  @override
+  String get deleteConfirmTitle => 'Hisob o‘chirilsinmi?';
+
+  @override
+  String get deleteConfirmBody =>
+      'Hisobingiz va u bilan bog‘liq ma‘lumotlar butunlay o‘chiriladi. Buni qaytarib bo‘lmaydi.';
+
+  @override
+  String get cancel => 'Bekor qilish';
+
+  @override
+  String get deleteAction => 'O‘chirish';
+
+  @override
+  String get deleteDone => 'Hisob o‘chirildi.';
+
+  @override
+  String get deleteNeedsRelogin =>
+      'Xavfsizlik uchun qayta kiring, so‘ng hisobni o‘chiring.';
+
+  @override
+  String get actionFailed => 'Amal bajarilmadi. Qayta urinib ko‘ring.';
+
+  @override
+  String get roleSection => 'Rol';
+
+  @override
+  String get privacyPolicy => 'Maxfiylik siyosati';
+
+  @override
+  String get termsOfUse => 'Foydalanish shartlari';
 }

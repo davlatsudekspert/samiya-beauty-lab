@@ -605,6 +605,90 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Sign-in is not available right now.'**
   String get authUnavailable;
+
+  /// No description provided for @guestName.
+  ///
+  /// In en, this message translates to:
+  /// **'Guest'**
+  String get guestName;
+
+  /// No description provided for @actionSignIn.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in'**
+  String get actionSignIn;
+
+  /// No description provided for @signOut.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign out'**
+  String get signOut;
+
+  /// No description provided for @deleteAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete account'**
+  String get deleteAccount;
+
+  /// No description provided for @deleteConfirmTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete your account?'**
+  String get deleteConfirmTitle;
+
+  /// No description provided for @deleteConfirmBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Your account and its data will be permanently deleted. This cannot be undone.'**
+  String get deleteConfirmBody;
+
+  /// No description provided for @cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get cancel;
+
+  /// No description provided for @deleteAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get deleteAction;
+
+  /// No description provided for @deleteDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Account deleted.'**
+  String get deleteDone;
+
+  /// No description provided for @deleteNeedsRelogin.
+  ///
+  /// In en, this message translates to:
+  /// **'For security, sign in again and then delete your account.'**
+  String get deleteNeedsRelogin;
+
+  /// No description provided for @actionFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'The action failed. Please try again.'**
+  String get actionFailed;
+
+  /// No description provided for @roleSection.
+  ///
+  /// In en, this message translates to:
+  /// **'Role'**
+  String get roleSection;
+
+  /// No description provided for @privacyPolicy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get privacyPolicy;
+
+  /// No description provided for @termsOfUse.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of Use'**
+  String get termsOfUse;
 }
 
 class _AppLocalizationsDelegate

@@ -83,5 +83,19 @@
   "studyTypeRegulatory": "Заключение регулятора",
   "studyTypeNarrative": "Нарративный обзор",
   "authFailed": "Не удалось войти. Попробуйте ещё раз.",
-  "authUnavailable": "Вход пока недоступен."
+  "authUnavailable": "Вход пока недоступен.",
+  "guestName": "Гость",
+  "actionSignIn": "Войти",
+  "signOut": "Выйти",
+  "deleteAccount": "Удалить аккаунт",
+  "deleteConfirmTitle": "Удалить аккаунт?",
+  "deleteConfirmBody": "Ваш аккаунт и связанные с ним данные будут удалены безвозвратно. Это действие нельзя отменить.",
+  "cancel": "Отмена",
+  "deleteAction": "Удалить",
+  "deleteDone": "Аккаунт удалён.",
+  "deleteNeedsRelogin": "В целях безопасности войдите снова и повторите удаление.",
+  "actionFailed": "Не удалось выполнить действие. Попробуйте ещё раз.",
+  "roleSection": "Роль",
+  "privacyPolicy": "Политика конфиденциальности",
+  "termsOfUse": "Условия использования"
 }

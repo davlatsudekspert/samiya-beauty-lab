@@ -34,8 +34,8 @@ function publicConfig(env: Env, now: Date): Response {
   });
 }
 
-/** GET /api/v1/me: Firebase tokenini tekshiradi, foydalanuvchini bazaga (bir marta) yozadi. */
-async function me(request: Request, env: Env): Promise<Response> {
+/** Authorization: Bearer <Firebase ID token> ni tekshiradi. Muvaffaqiyatsiz bo'lsa tayyor Response qaytaradi. */
+async function authenticate(request: Request, env: Env): Promise<{ uid: string; provider?: string } | Response> {
   if (!env.FIREBASE_PROJECT_ID) return json({ error: "server_misconfigured" }, 500);
   const m = /^Bearer (.+)$/.exec(request.headers.get("authorization") ?? "");
   if (!m) return json({ error: "unauthorized" }, 401);
@@ -47,11 +47,38 @@ async function me(request: Request, env: Env): Promise<Response> {
   }
   try {
     const user = await verifyFirebaseIdToken(m[1], { projectId: env.FIREBASE_PROJECT_ID, jwks });
-    await env.DB?.prepare("INSERT OR IGNORE INTO users (id) VALUES (?)").bind(user.uid).run();
-    return json({ uid: user.uid, provider: user.provider });
+    return { uid: user.uid, provider: user.provider };
   } catch (e) {
     if (e instanceof AuthError) return json({ error: "unauthorized" }, 401); // sababi oshkor qilinmaydi
     throw e;
+  }
+}
+
+/** GET /api/v1/me: foydalanuvchini bazaga (bir marta) yozadi va uid qaytaradi. */
+async function me(request: Request, env: Env): Promise<Response> {
+  const a = await authenticate(request, env);
+  if (a instanceof Response) return a;
+  await env.DB?.prepare("INSERT OR IGNORE INTO users (id) VALUES (?)").bind(a.uid).run();
+  return json({ uid: a.uid, provider: a.provider });
+}
+
+/** DELETE /api/v1/me: foydalanuvchining BARCHA serverdagi ma'lumotlarini bitta batch'da o'chiradi (Apple/Google talabi). */
+async function deleteMe(request: Request, env: Env): Promise<Response> {
+  const a = await authenticate(request, env);
+  if (a instanceof Response) return a;
+  const db = env.DB;
+  if (!db) return json({ error: "server_misconfigured" }, 500);
+  try {
+    // Bog'liq jadvallar avval (users'ga FOREIGN KEY bor)
+    await db.batch([
+      db.prepare("DELETE FROM entitlements WHERE user_id = ?").bind(a.uid),
+      db.prepare("DELETE FROM ai_daily_usage WHERE user_id = ?").bind(a.uid),
+      db.prepare("DELETE FROM ai_request_idempotency WHERE user_id = ?").bind(a.uid),
+      db.prepare("DELETE FROM users WHERE id = ?").bind(a.uid),
+    ]);
+    return json({ deleted: true });
+  } catch {
+    return json({ error: "delete_failed" }, 500);
   }
 }
 
@@ -64,8 +91,9 @@ export default {
       return publicConfig(env, new Date()); // soat faqat serverdan
     }
     if (pathname === "/api/v1/me") {
-      if (request.method !== "GET") return json({ error: "method_not_allowed" }, 405);
-      return me(request, env);
+      if (request.method === "GET") return me(request, env);
+      if (request.method === "DELETE") return deleteMe(request, env);
+      return json({ error: "method_not_allowed" }, 405);
     }
     return json({ error: "not_found" }, 404);
   },

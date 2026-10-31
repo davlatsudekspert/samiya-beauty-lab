@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../data/backend_api.dart';
 import '../features/auth/auth_service.dart';
 import '../features/scanner/ingredient_models.dart';
 
@@ -31,8 +32,10 @@ class AppState extends ChangeNotifier {
     UserRole? role,
     IngredientRepository? ingredients,
     AuthService? auth,
+    BackendApi? backend,
   })  : ingredients = ingredients ?? IngredientRepository(const []),
         auth = auth ?? const UnavailableAuthService(),
+        backend = backend ?? const NoBackendApi(),
         _locale = locale,
         _onboarded = onboarded,
         _role = role {
@@ -45,6 +48,9 @@ class AppState extends ChangeNotifier {
 
   /// Kirish xizmati (Firebase yoki "mavjud emas" holati).
   final AuthService auth;
+
+  /// Backend mijozi (manzil berilmagan bo'lsa NoBackendApi).
+  final BackendApi backend;
   AuthUser? _user;
   StreamSubscription<AuthUser?>? _authSub;
 
@@ -68,7 +74,7 @@ class AppState extends ChangeNotifier {
   bool get onboarded => _onboarded;
   UserRole? get role => _role;
 
-  static Future<AppState> load({AuthService? auth}) async {
+  static Future<AppState> load({AuthService? auth, BackendApi? backend}) async {
     final p = await SharedPreferences.getInstance();
     final code = p.getString('locale');
     final roleName = p.getString('role');
@@ -76,6 +82,7 @@ class AppState extends ChangeNotifier {
     return AppState(
       ingredients: repo,
       auth: auth,
+      backend: backend,
       locale: Locale(languageNativeNames.containsKey(code) ? code! : 'uz'),
       onboarded: p.getBool('onboarded') ?? false,
       role: UserRole.values.where((r) => r.name == roleName).firstOrNull,
@@ -99,6 +106,27 @@ class AppState extends ChangeNotifier {
     _onboarded = true;
     notifyListeners();
     await (await SharedPreferences.getInstance()).setBool('onboarded', true);
+  }
+
+  Future<void> signOut() => auth.signOut();
+
+  /// Hisobni o'chirish. Tartib muhim: AVVAL backend ma'lumotlari (token hali yaroqli), KEYIN auth hisobi.
+  /// Backend o'chira olmasa auth hisobi saqlanadi (ma'lumot yetim qolmaydi, qayta urinish mumkin).
+  /// Auth "yaqinda kirish" talab qilsa [AuthFailure.requiresRecentLogin]; backend o'chirilgan bo'lsa ham qayta urinish xavfsiz (idempotent).
+  Future<void> deleteAccount() async {
+    final token = await auth.idToken();
+    if (backend.isConfigured) {
+      if (token == null) throw const AuthException(AuthFailure.requiresRecentLogin);
+      try {
+        await backend.deleteMe(token);
+      } on BackendException {
+        throw const AuthException(AuthFailure.failed);
+      }
+    }
+    await auth.deleteAccount();
+    _role = null;
+    notifyListeners();
+    await (await SharedPreferences.getInstance()).remove('role');
   }
 }
 

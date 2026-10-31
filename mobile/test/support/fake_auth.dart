@@ -4,7 +4,9 @@ import 'package:samiya_beauty_lab/features/auth/auth_service.dart';
 
 /// Sinov uchun soxta kirish xizmati: natijani, xatoni yoki kutishni (Completer) boshqarish mumkin.
 class FakeAuthService implements AuthService {
-  FakeAuthService({this.error});
+  FakeAuthService({this.error, List<String>? order, this.deleteError}) : order = order ?? [];
+  final List<String> order;
+  AuthException? deleteError;
   AuthException? error;
   Completer<AuthUser>? gate;
   int googleCalls = 0, appleCalls = 0, signOutCalls = 0;
@@ -38,7 +40,11 @@ class FakeAuthService implements AuthService {
   @override
   Future<void> signOut() async { signOutCalls++; emit(null); }
   @override
-  Future<void> deleteAccount() async => emit(null);
+  Future<void> deleteAccount() async {
+    order.add('auth');
+    if (deleteError != null) throw deleteError!;
+    emit(null);
+  }
   @override
   Future<String?> idToken() async => _user == null ? null : 'fake-token';
 }

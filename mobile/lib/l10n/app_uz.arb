@@ -83,5 +83,19 @@
   "studyTypeRegulatory": "Regulyator xulosasi",
   "studyTypeNarrative": "Hikoyaviy sharh",
   "authFailed": "Kirish bajarilmadi. Qayta urinib ko‘ring.",
-  "authUnavailable": "Kirish hozircha mavjud emas."
+  "authUnavailable": "Kirish hozircha mavjud emas.",
+  "guestName": "Mehmon",
+  "actionSignIn": "Kirish",
+  "signOut": "Chiqish",
+  "deleteAccount": "Hisobni o‘chirish",
+  "deleteConfirmTitle": "Hisob o‘chirilsinmi?",
+  "deleteConfirmBody": "Hisobingiz va u bilan bog‘liq ma‘lumotlar butunlay o‘chiriladi. Buni qaytarib bo‘lmaydi.",
+  "cancel": "Bekor qilish",
+  "deleteAction": "O‘chirish",
+  "deleteDone": "Hisob o‘chirildi.",
+  "deleteNeedsRelogin": "Xavfsizlik uchun qayta kiring, so‘ng hisobni o‘chiring.",
+  "actionFailed": "Amal bajarilmadi. Qayta urinib ko‘ring.",
+  "roleSection": "Rol",
+  "privacyPolicy": "Maxfiylik siyosati",
+  "termsOfUse": "Foydalanish shartlari"
 }

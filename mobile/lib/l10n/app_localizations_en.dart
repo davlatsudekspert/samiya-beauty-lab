@@ -273,4 +273,48 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get authUnavailable => 'Sign-in is not available right now.';
+
+  @override
+  String get guestName => 'Guest';
+
+  @override
+  String get actionSignIn => 'Sign in';
+
+  @override
+  String get signOut => 'Sign out';
+
+  @override
+  String get deleteAccount => 'Delete account';
+
+  @override
+  String get deleteConfirmTitle => 'Delete your account?';
+
+  @override
+  String get deleteConfirmBody =>
+      'Your account and its data will be permanently deleted. This cannot be undone.';
+
+  @override
+  String get cancel => 'Cancel';
+
+  @override
+  String get deleteAction => 'Delete';
+
+  @override
+  String get deleteDone => 'Account deleted.';
+
+  @override
+  String get deleteNeedsRelogin =>
+      'For security, sign in again and then delete your account.';
+
+  @override
+  String get actionFailed => 'The action failed. Please try again.';
+
+  @override
+  String get roleSection => 'Role';
+
+  @override
+  String get privacyPolicy => 'Privacy Policy';
+
+  @override
+  String get termsOfUse => 'Terms of Use';
 }

@@ -268,4 +268,48 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get authUnavailable => 'تسجيل الدخول غير متاح حاليًا.';
+
+  @override
+  String get guestName => 'ضيف';
+
+  @override
+  String get actionSignIn => 'تسجيل الدخول';
+
+  @override
+  String get signOut => 'تسجيل الخروج';
+
+  @override
+  String get deleteAccount => 'حذف الحساب';
+
+  @override
+  String get deleteConfirmTitle => 'حذف الحساب؟';
+
+  @override
+  String get deleteConfirmBody =>
+      'سيتم حذف حسابك وبياناتك نهائيًا. لا يمكن التراجع عن هذا الإجراء.';
+
+  @override
+  String get cancel => 'إلغاء';
+
+  @override
+  String get deleteAction => 'حذف';
+
+  @override
+  String get deleteDone => 'تم حذف الحساب.';
+
+  @override
+  String get deleteNeedsRelogin =>
+      'لأسباب أمنية، سجّل الدخول مرة أخرى ثم احذف الحساب.';
+
+  @override
+  String get actionFailed => 'تعذّر تنفيذ الإجراء. حاول مرة أخرى.';
+
+  @override
+  String get roleSection => 'الدور';
+
+  @override
+  String get privacyPolicy => 'سياسة الخصوصية';
+
+  @override
+  String get termsOfUse => 'شروط الاستخدام';
 }
