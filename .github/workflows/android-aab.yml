@@ -1,7 +1,8 @@
-# QO'LDA ishga tushiriladi. Imzolangan Android App Bundle (.aab) yasaydi va artefakt sifatida beradi.
+# QO'LDA ishga tushiriladi. Imzolangan Android App Bundle (.aab, do'kon uchun) va APK (telefonga o'rnatish uchun) yasaydi.
+# Natija parol bilan (AES-256) zip qilinadi: repo ommaviy, artefaktlar hamma uchun ochiq. Ochish: 7-Zip.
 # TEKSHIRILMAGAN qoralama: Android SDK bu yerda sinalmagan, birinchi ishga tushirishda xato chiqishi mumkin.
 # Kerakli Secrets: docs/SECRETS.md. Imzo kaliti bo'lmasa ish ataylab to'xtaydi (debug imzoli AAB chiqmasin).
-name: Android AAB
+name: Android AAB va APK
 on:
   workflow_dispatch:
 permissions:
@@ -47,16 +48,19 @@ jobs:
       - run: flutter pub get
       - run: flutter test --exclude-tags visual --timeout 60s
       - run: flutter build appbundle --release --build-number ${{ github.run_number }}
-      # Repo ommaviy: artefaktni GitHub'ga kirgan har kim yuklab olishi mumkin, shuning uchun AAB shifrlanadi.
-      - name: AAB'ni shifrlash (AES-256)
+      - run: flutter build apk --release --build-number ${{ github.run_number }}
+      - name: AAB va APK'ni parol bilan arxivlash (AES-256)
         env:
           ARTIFACT_PASSPHRASE: ${{ secrets.ARTIFACT_PASSPHRASE }}
         run: |
           if [ -z "$ARTIFACT_PASSPHRASE" ]; then echo "::error::ARTIFACT_PASSPHRASE Secret yo'q (docs/SECRETS.md)"; exit 1; fi
-          gpg --batch --yes --symmetric --cipher-algo AES256 --pinentry-mode loopback \
-            --passphrase "$ARTIFACT_PASSPHRASE" -o app-release.aab.gpg build/app/outputs/bundle/release/app-release.aab
+          sudo apt-get install -y -qq p7zip-full
+          mkdir -p "$RUNNER_TEMP/out"
+          cp build/app/outputs/bundle/release/app-release.aab build/app/outputs/flutter-apk/app-release.apk "$RUNNER_TEMP/out/"
+          cd "$RUNNER_TEMP/out"
+          7z a -tzip -mem=AES256 -p"$ARTIFACT_PASSPHRASE" "$GITHUB_WORKSPACE/samiya-android-${{ github.run_number }}.zip" app-release.aab app-release.apk
       - uses: actions/upload-artifact@v4
         with:
-          name: samiya-release-aab-encrypted-${{ github.run_number }}
-          path: mobile/app-release.aab.gpg
+          name: samiya-android-encrypted-${{ github.run_number }}
+          path: samiya-android-${{ github.run_number }}.zip
           retention-days: 7

@@ -12,7 +12,7 @@ Repo > Settings > Secrets and variables > Actions > New repository secret. Qiyma
 | `ANDROID_KEYSTORE_B64` | Android imzo kaliti (.jks), base64 | `keytool -genkeypair ...` (men buyruqni beraman); kalit va parolni yo'qotsangiz ilovani yangilab bo'lmaydi | egasi yaratadi |
 | `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`, `ANDROID_KEY_PASSWORD` | imzo kaliti paroli va nomi | yuqoridagi bilan birga | egasi yaratadi |
 
-| `ARTIFACT_PASSPHRASE` | Android AAB artefaktini shifrlash paroli (repo ommaviy) | uzun tasodifiy parol; faqat o'zingizda saqlang, ochish: `gpg -d app-release.aab.gpg > app-release.aab` | egasi yaratadi |
+| `ARTIFACT_PASSPHRASE` | Android AAB/APK arxivini shifrlash paroli (repo ommaviy) | uzun tasodifiy parol; faqat o'zingizda saqlang, artefakt zip'ini shu parol bilan 7-Zip'da oching | egasi yaratadi |
 
 Cloudflare uchun (Worker deploy): `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` (keyingi bosqich).
 
