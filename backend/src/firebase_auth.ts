@@ -13,6 +13,7 @@ export interface Jwk {
 export interface VerifiedToken {
   uid: string;
   email?: string;
+  emailVerified?: boolean;
   provider?: string;
   authTime: number;
   exp: number;
@@ -84,6 +85,7 @@ export async function verifyFirebaseIdToken(
   return {
     uid: c.sub,
     email: typeof c.email === "string" ? c.email : undefined,
+    emailVerified: c.email_verified === true,
     provider: typeof fb?.sign_in_provider === "string" ? fb.sign_in_provider : undefined,
     authTime: num(c.auth_time),
     exp: num(c.exp),

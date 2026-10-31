@@ -98,7 +98,7 @@ describe("GET /api/v1/me", () => {
   };
   const fakeDb = () => {
     const calls: unknown[][] = [];
-    return { calls, db: { prepare: (sql: string) => ({ bind: (...a: unknown[]) => ({ run: async () => { calls.push([sql, ...a]); return {}; } }) }) } };
+    return { calls, db: { prepare: (sql: string) => ({ bind: (...a: unknown[]) => ({ run: async () => { calls.push([sql, ...a]); return {}; }, first: async () => ({ n: 0 }) }) }) } };
   };
   const call = (token: string | null, env: Record<string, unknown>) =>
     worker.fetch(new Request("https://api.test/api/v1/me", { headers: token ? { authorization: `Bearer ${token}` } : {} }), env as never);
@@ -118,7 +118,7 @@ describe("GET /api/v1/me", () => {
     const r = await call(await sign(goodPayload()), { FIREBASE_PROJECT_ID: PROJECT, DB: db });
     vi.useRealTimers();
     expect(r.status).toBe(200);
-    expect(await r.json()).toEqual({ uid: "uid-123", provider: "apple.com" });
+    expect(await r.json()).toEqual({ uid: "uid-123", provider: "apple.com", isAdmin: false, pro: false });
     expect(calls).toHaveLength(1);
     expect(String(calls[0][0])).toMatch(/INSERT OR IGNORE INTO users/i);
     expect(calls[0][1]).toBe("uid-123");

@@ -10,7 +10,8 @@
     "AI_PRO_DAILY_REQUESTS": "50",
     "BILLING_ENABLED": "false",
     "ADS_ENABLED": "false",
-    "FIREBASE_PROJECT_ID": "samiya-beauty-lab"
+    "FIREBASE_PROJECT_ID": "samiya-beauty-lab",
+    "ADMIN_EMAILS": "davlatsudekspert@gmail.com"
   },
   "d1_databases": [
     { "binding": "DB", "database_name": "samiya", "database_id": "REPLACE_WITH_D1_ID", "migrations_dir": "migrations" }
