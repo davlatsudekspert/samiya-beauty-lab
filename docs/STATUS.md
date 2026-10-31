@@ -84,5 +84,12 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 - **Ilova:** `AuthService` abstraksiyasi, `FirebaseAuthService` (Google va Apple, provayder oqimi), Firebase sozlanmagan bo'lsa `UnavailableAuthService` ("Kirish hozircha mavjud emas", qulamaydi). Kirish ekrani: band holati, bekor qilish jim, xato xabari 4 tilda. 122 test o'tdi (soxta kirish xizmati bilan). **Haqiqiy qurilmada Google/Apple kirishi HALI SINALMAGAN** (konfiguratsiya fayllari va qurilma kerak).
 - **Xavf:** iOS'da `GoogleService-Info.plist` bo'lmasa Firebase ishga tushganda native qulash bo'lishi mumkin; shu sabab CI uni majburiy qildi. Android'da google-services plagini faqat `google-services.json` bor bo'lsa ulanadi (tekshirilmagan gradle).
 
+## CI va Android build (2026-10-31)
+- **Repo OMMAVIY** (egasi qarori): GitHub Actions bepul ishlaydi. Litsenziya MIT'dan "barcha huquqlar himoyalangan" ga almashtirildi (huquq egasi hozircha brend nomi; yuridik nomga almashtirish egasining ishi). Workflow'lar `contents: read`, Android natijasi AES-256 parolli zip.
+- **CI** (`ci.yml`, har push): GitHub'da o'tdi (backend, mobile, content).
+- **Android AAB va APK** (`android-aab.yml`, qo'lda): **birinchi muvaffaqiyatli build** (7 daqiqa, run 41199555366): testlar, `appbundle` va `apk` quriladi; imzo yuklash kaliti bilan (SHA-1 `D1:F8:C3:33:38:27:89:6F:5E:1E:AC:90:C8:47:3D:FD:67:5F:49:8A`, Firebase'ga qo'shilgan). Secret dekoderi chidamli (`.github/scripts/write_secret.sh`).
+- **Telefonda HALI SINALMAGAN:** Google/Apple bilan kirish, ilova umuman ishga tushishi.
+- **iOS TestFlight:** workflow tayyor, ishga tushirilmagan (macOS). Navbatda: Profil ekrani, hisobni o'chirish (`DELETE /api/v1/me`), Google Play ichki test.
+
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.
