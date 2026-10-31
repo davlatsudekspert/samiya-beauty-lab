@@ -7,6 +7,10 @@ import '../features/home/home_page.dart';
 import '../features/language/language_page.dart';
 import '../features/onboarding/onboarding_page.dart';
 import '../features/role/role_page.dart';
+import '../features/scanner/ingredient_detail_page.dart';
+import '../features/scanner/manual_input_page.dart';
+import '../features/scanner/result_page.dart';
+import '../features/scanner/scanner_page.dart';
 import '../features/shell/app_shell.dart';
 import '../features/tabs/placeholder_tab.dart';
 import '../features/splash/splash_page.dart';
@@ -16,7 +20,6 @@ import 'app_state.dart';
 import 'theme.dart';
 
 String _academyTitle(AppLocalizations l) => l.navAcademy;
-String _scannerTitle(AppLocalizations l) => l.navScanner;
 String _journalTitle(AppLocalizations l) => l.navJournal;
 String _profileTitle(AppLocalizations l) => l.navProfile;
 
@@ -57,8 +60,14 @@ class _SamiyaAppState extends State<SamiyaApp> {
           ]),
           StatefulShellBranch(routes: [
             GoRoute(
-                path: '/scanner',
-                builder: (_, _) => const PlaceholderTab(pageKey: 'tab-scanner', title: _scannerTitle)),
+              path: '/scanner',
+              builder: (_, _) => const ScannerPage(),
+              routes: [
+                GoRoute(path: 'manual', builder: (_, _) => const ManualInputPage()),
+                GoRoute(path: 'result', builder: (_, st) => ResultPage(raw: st.extra is String ? st.extra! as String : '')),
+                GoRoute(path: 'ingredient/:slug', builder: (_, st) => IngredientDetailPage(slug: st.pathParameters['slug']!)),
+              ],
+            ),
           ]),
           StatefulShellBranch(routes: [
             GoRoute(

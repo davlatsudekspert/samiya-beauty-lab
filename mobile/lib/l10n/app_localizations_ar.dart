@@ -163,4 +163,103 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get navProfile => 'الملف';
+
+  @override
+  String get scannerHeroTitle => 'افحص المكوّنات';
+
+  @override
+  String get scannerHeroBody =>
+      'أدخل مكوّنات المنتج. سنعرض معلومات موثّقة بالمصادر عن كل مكوّن.';
+
+  @override
+  String get scanCamera => 'المسح بالكاميرا';
+
+  @override
+  String get scanManual => 'إدخال يدوي';
+
+  @override
+  String get manualTitle => 'أدخل المكوّنات';
+
+  @override
+  String get manualHelp => 'انسخ قائمة INCI من العبوة (بالأحرف اللاتينية).';
+
+  @override
+  String get manualHint => 'مثال: Aqua, Glycerin, Niacinamide...';
+
+  @override
+  String foundCount(int n) {
+    return 'عدد المكوّنات: $n';
+  }
+
+  @override
+  String get analyzeAction => 'تحليل';
+
+  @override
+  String get resultTitle => 'نتيجة التحليل';
+
+  @override
+  String get inDatabase => 'موجود في قاعدتنا';
+
+  @override
+  String get notInDatabase => 'غير موجود في قاعدتنا بعد';
+
+  @override
+  String get resultNoneFound =>
+      'لم نجد في القائمة المُدخلة مكوّنات من قاعدتنا. القاعدة تتوسّع باستمرار.';
+
+  @override
+  String get resultNote =>
+      'هذه ليست نصيحة طبية. المعلومات مبنية على دراسات منشورة ولا تعني أن المنتج مناسب لك.';
+
+  @override
+  String get detailClaims => 'ماذا وجدت الدراسات';
+
+  @override
+  String get detailSource => 'المصدر';
+
+  @override
+  String get openSource => 'فتح المصدر';
+
+  @override
+  String get draftNote => 'مسودة: لم تتم مراجعة الترجمة بعد.';
+
+  @override
+  String get euUnverified =>
+      'لم يتم التحقق بعد من بيانات التشريع الأوروبي وCosIng.';
+
+  @override
+  String get evidenceLegendTitle => 'مستويات الأدلة';
+
+  @override
+  String get evidenceA => 'A: مراجعة منهجية أو رأي تنظيمي';
+
+  @override
+  String get evidenceB => 'B: دراسة عشوائية محكومة على البشر';
+
+  @override
+  String get evidenceC => 'C: أدلة محدودة';
+
+  @override
+  String get evidenceInsufficient => 'الأدلة غير كافية';
+
+  @override
+  String get studyTypeSystematicReview => 'مراجعة منهجية';
+
+  @override
+  String get studyTypeMetaAnalysis => 'تحليل تلوي';
+
+  @override
+  String get studyTypeRct => 'دراسة عشوائية محكومة';
+
+  @override
+  String get studyTypeObservational => 'دراسة رصدية';
+
+  @override
+  String get studyTypeInVitro => 'دراسة مخبرية';
+
+  @override
+  String get studyTypeRegulatory => 'رأي تنظيمي';
+
+  @override
+  String get studyTypeNarrative => 'مراجعة سردية';
 }

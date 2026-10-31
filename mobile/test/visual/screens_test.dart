@@ -10,6 +10,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:samiya_beauty_lab/app/app.dart';
 import 'package:samiya_beauty_lab/app/app_state.dart';
+import 'package:samiya_beauty_lab/features/scanner/ingredient_models.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Vizual tekshiruv: haqiqiy shrift va rasmlar bilan ekranlarni qa/visual/ ga PNG qilib yozadi.
@@ -86,6 +87,59 @@ void main() {
           out.writeAsBytesSync(data!.buffer.asUint8List());
         });
         // Dastlabki taymerni tozalash (splash 5 daqiqalik taymeri)
+        await t.pumpWidget(const SizedBox());
+      });
+    }
+  }
+  // Skaner oqimi: haqiqiy baza bilan, kiritish va natija bosqichlari.
+  final scan = <String, (String, Future<void> Function(WidgetTester)?)>{
+    '16_scanner': ('/scanner', null),
+    '19_manual': ('/scanner/manual', (t) async {
+      await t.enterText(find.byKey(const Key('manual-input')), 'Aqua, Glycerin, Niacinamide (2%), Retinol, Parfum');
+      await t.pump(const Duration(milliseconds: 300));
+    }),
+    '20_result': ('/scanner/manual', (t) async {
+      await t.enterText(find.byKey(const Key('manual-input')), 'Aqua, Glycerin, Niacinamide (2%), Retinol, Parfum');
+      await t.pump();
+      await t.tap(find.byKey(const Key('manual-analyze')));
+      await t.pumpAndSettle();
+    }),
+    '21_ingredient': ('/scanner/ingredient/niacinamide', null),
+  };
+  for (final lang in ['uz', 'ar']) {
+    for (final e in scan.entries) {
+      testWidgets('$lang ${e.key}', (t) async {
+        t.view.physicalSize = const Size(780, 1688);
+        t.view.devicePixelRatio = 2;
+        addTearDown(t.view.reset);
+        final key = GlobalKey();
+        final repo = IngredientRepository.fromJson(File('assets/content/ingredients.json').readAsStringSync());
+        await t.pumpWidget(RepaintBoundary(
+          key: key,
+          child: SamiyaApp(
+            key: UniqueKey(),
+            state: AppState(locale: Locale(lang), onboarded: true, ingredients: repo),
+            initialLocation: e.value.$1,
+            splashDuration: const Duration(minutes: 5),
+          ),
+        ));
+        await t.runAsync(() async {
+          final ctx = t.element(find.byType(MaterialApp));
+          for (final a in ['logo_icon', 'hero_welcome', 'ob1_ingredients', 'ob2_routine', 'ob3_learn']) {
+            await precacheImage(AssetImage('assets/images/$a.png'), ctx);
+          }
+        });
+        await t.pump(const Duration(milliseconds: 600));
+        if (e.value.$2 != null) await e.value.$2!(t);
+        await t.pump(const Duration(milliseconds: 400));
+        await t.runAsync(() async {
+          final boundary = key.currentContext!.findRenderObject()! as RenderRepaintBoundary;
+          final image = await boundary.toImage(pixelRatio: 1);
+          final data = await image.toByteData(format: ui.ImageByteFormat.png);
+          File('../qa/visual/${lang}_${e.key}.png')
+            ..createSync(recursive: true)
+            ..writeAsBytesSync(data!.buffer.asUint8List());
+        });
         await t.pumpWidget(const SizedBox());
       });
     }

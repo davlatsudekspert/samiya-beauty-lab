@@ -50,5 +50,43 @@
   "navAcademy": "Academy",
   "navScanner": "Scanner",
   "navJournal": "Journal",
-  "navProfile": "Profile"
+  "navProfile": "Profile",
+  "scannerHeroTitle": "Check the ingredients",
+  "scannerHeroBody": "Enter a product's ingredient list. We show sourced information about each ingredient.",
+  "scanCamera": "Scan with camera",
+  "scanManual": "Enter manually",
+  "manualTitle": "Enter ingredients",
+  "manualHelp": "Copy the INCI list from the packaging (Latin letters).",
+  "manualHint": "E.g. Aqua, Glycerin, Niacinamide...",
+  "foundCount": "Ingredients found: {n}",
+  "analyzeAction": "Analyze",
+  "resultTitle": "Analysis result",
+  "inDatabase": "In our database",
+  "notInDatabase": "Not in our database yet",
+  "resultNoneFound": "None of the entered ingredients are in our database yet. The database keeps growing.",
+  "resultNote": "This is not medical advice. Information is based on published studies and does not indicate whether a product suits you.",
+  "detailClaims": "What studies found",
+  "detailSource": "Source",
+  "openSource": "Open source",
+  "draftNote": "Draft: the translation has not been reviewed yet.",
+  "euUnverified": "EU regulation and CosIng data have not been verified yet.",
+  "evidenceLegendTitle": "Evidence levels",
+  "evidenceA": "A: systematic review or regulatory opinion",
+  "evidenceB": "B: randomised trial in people",
+  "evidenceC": "C: limited evidence",
+  "evidenceInsufficient": "Insufficient evidence",
+  "studyTypeSystematicReview": "Systematic review",
+  "studyTypeMetaAnalysis": "Meta-analysis",
+  "studyTypeRct": "Randomised trial",
+  "studyTypeObservational": "Observational study",
+  "studyTypeInVitro": "Laboratory study",
+  "studyTypeRegulatory": "Regulatory opinion",
+  "studyTypeNarrative": "Narrative review",
+  "@foundCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  }
 }

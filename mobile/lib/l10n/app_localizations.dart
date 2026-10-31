@@ -407,6 +407,192 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Profile'**
   String get navProfile;
+
+  /// No description provided for @scannerHeroTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Check the ingredients'**
+  String get scannerHeroTitle;
+
+  /// No description provided for @scannerHeroBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a product\'s ingredient list. We show sourced information about each ingredient.'**
+  String get scannerHeroBody;
+
+  /// No description provided for @scanCamera.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan with camera'**
+  String get scanCamera;
+
+  /// No description provided for @scanManual.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter manually'**
+  String get scanManual;
+
+  /// No description provided for @manualTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter ingredients'**
+  String get manualTitle;
+
+  /// No description provided for @manualHelp.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy the INCI list from the packaging (Latin letters).'**
+  String get manualHelp;
+
+  /// No description provided for @manualHint.
+  ///
+  /// In en, this message translates to:
+  /// **'E.g. Aqua, Glycerin, Niacinamide...'**
+  String get manualHint;
+
+  /// No description provided for @foundCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Ingredients found: {n}'**
+  String foundCount(int n);
+
+  /// No description provided for @analyzeAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Analyze'**
+  String get analyzeAction;
+
+  /// No description provided for @resultTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Analysis result'**
+  String get resultTitle;
+
+  /// No description provided for @inDatabase.
+  ///
+  /// In en, this message translates to:
+  /// **'In our database'**
+  String get inDatabase;
+
+  /// No description provided for @notInDatabase.
+  ///
+  /// In en, this message translates to:
+  /// **'Not in our database yet'**
+  String get notInDatabase;
+
+  /// No description provided for @resultNoneFound.
+  ///
+  /// In en, this message translates to:
+  /// **'None of the entered ingredients are in our database yet. The database keeps growing.'**
+  String get resultNoneFound;
+
+  /// No description provided for @resultNote.
+  ///
+  /// In en, this message translates to:
+  /// **'This is not medical advice. Information is based on published studies and does not indicate whether a product suits you.'**
+  String get resultNote;
+
+  /// No description provided for @detailClaims.
+  ///
+  /// In en, this message translates to:
+  /// **'What studies found'**
+  String get detailClaims;
+
+  /// No description provided for @detailSource.
+  ///
+  /// In en, this message translates to:
+  /// **'Source'**
+  String get detailSource;
+
+  /// No description provided for @openSource.
+  ///
+  /// In en, this message translates to:
+  /// **'Open source'**
+  String get openSource;
+
+  /// No description provided for @draftNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Draft: the translation has not been reviewed yet.'**
+  String get draftNote;
+
+  /// No description provided for @euUnverified.
+  ///
+  /// In en, this message translates to:
+  /// **'EU regulation and CosIng data have not been verified yet.'**
+  String get euUnverified;
+
+  /// No description provided for @evidenceLegendTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence levels'**
+  String get evidenceLegendTitle;
+
+  /// No description provided for @evidenceA.
+  ///
+  /// In en, this message translates to:
+  /// **'A: systematic review or regulatory opinion'**
+  String get evidenceA;
+
+  /// No description provided for @evidenceB.
+  ///
+  /// In en, this message translates to:
+  /// **'B: randomised trial in people'**
+  String get evidenceB;
+
+  /// No description provided for @evidenceC.
+  ///
+  /// In en, this message translates to:
+  /// **'C: limited evidence'**
+  String get evidenceC;
+
+  /// No description provided for @evidenceInsufficient.
+  ///
+  /// In en, this message translates to:
+  /// **'Insufficient evidence'**
+  String get evidenceInsufficient;
+
+  /// No description provided for @studyTypeSystematicReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Systematic review'**
+  String get studyTypeSystematicReview;
+
+  /// No description provided for @studyTypeMetaAnalysis.
+  ///
+  /// In en, this message translates to:
+  /// **'Meta-analysis'**
+  String get studyTypeMetaAnalysis;
+
+  /// No description provided for @studyTypeRct.
+  ///
+  /// In en, this message translates to:
+  /// **'Randomised trial'**
+  String get studyTypeRct;
+
+  /// No description provided for @studyTypeObservational.
+  ///
+  /// In en, this message translates to:
+  /// **'Observational study'**
+  String get studyTypeObservational;
+
+  /// No description provided for @studyTypeInVitro.
+  ///
+  /// In en, this message translates to:
+  /// **'Laboratory study'**
+  String get studyTypeInVitro;
+
+  /// No description provided for @studyTypeRegulatory.
+  ///
+  /// In en, this message translates to:
+  /// **'Regulatory opinion'**
+  String get studyTypeRegulatory;
+
+  /// No description provided for @studyTypeNarrative.
+  ///
+  /// In en, this message translates to:
+  /// **'Narrative review'**
+  String get studyTypeNarrative;
 }
 
 class _AppLocalizationsDelegate

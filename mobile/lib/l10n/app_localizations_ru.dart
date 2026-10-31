@@ -167,4 +167,103 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get navProfile => 'Профиль';
+
+  @override
+  String get scannerHeroTitle => 'Проверка состава';
+
+  @override
+  String get scannerHeroBody =>
+      'Введите состав продукта. Мы покажем информацию об ингредиентах с источниками.';
+
+  @override
+  String get scanCamera => 'Сканировать камерой';
+
+  @override
+  String get scanManual => 'Ввести вручную';
+
+  @override
+  String get manualTitle => 'Введите состав';
+
+  @override
+  String get manualHelp => 'Скопируйте список INCI с упаковки (латиницей).';
+
+  @override
+  String get manualHint => 'Например: Aqua, Glycerin, Niacinamide...';
+
+  @override
+  String foundCount(int n) {
+    return 'Найдено ингредиентов: $n';
+  }
+
+  @override
+  String get analyzeAction => 'Анализировать';
+
+  @override
+  String get resultTitle => 'Результат анализа';
+
+  @override
+  String get inDatabase => 'Есть в базе';
+
+  @override
+  String get notInDatabase => 'Пока нет в базе';
+
+  @override
+  String get resultNoneFound =>
+      'В введённом списке нет ингредиентов из нашей базы. База постепенно расширяется.';
+
+  @override
+  String get resultNote =>
+      'Это не медицинская рекомендация. Информация основана на опубликованных исследованиях и не показывает, подойдёт ли продукт вам.';
+
+  @override
+  String get detailClaims => 'Что показали исследования';
+
+  @override
+  String get detailSource => 'Источник';
+
+  @override
+  String get openSource => 'Открыть источник';
+
+  @override
+  String get draftNote => 'Черновик: перевод ещё не проверен.';
+
+  @override
+  String get euUnverified =>
+      'Данные по законодательству ЕС и CosIng ещё не проверены.';
+
+  @override
+  String get evidenceLegendTitle => 'Уровни доказательности';
+
+  @override
+  String get evidenceA => 'A: систематический обзор или заключение регулятора';
+
+  @override
+  String get evidenceB => 'B: рандомизированное исследование на людях';
+
+  @override
+  String get evidenceC => 'C: ограниченные данные';
+
+  @override
+  String get evidenceInsufficient => 'Доказательств недостаточно';
+
+  @override
+  String get studyTypeSystematicReview => 'Систематический обзор';
+
+  @override
+  String get studyTypeMetaAnalysis => 'Метаанализ';
+
+  @override
+  String get studyTypeRct => 'Рандомизированное исследование';
+
+  @override
+  String get studyTypeObservational => 'Наблюдательное исследование';
+
+  @override
+  String get studyTypeInVitro => 'Лабораторное исследование';
+
+  @override
+  String get studyTypeRegulatory => 'Заключение регулятора';
+
+  @override
+  String get studyTypeNarrative => 'Нарративный обзор';
 }

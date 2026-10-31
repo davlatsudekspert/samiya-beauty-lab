@@ -102,7 +102,8 @@ void main() {
   testWidgets('saqlangan holat (til, onboarding, rol) qayta ishga tushganda tiklanadi', (t) async {
     SharedPreferences.setMockInitialValues(
         {'locale': 'ar', 'onboarded': true, 'role': 'student'});
-    final s = await AppState.load();
+    // Asset o'qish haqiqiy asinxron operatsiya: soxta vaqt zonasida runAsync kerak.
+    final s = (await t.runAsync(AppState.load))!;
     expect(s.role, UserRole.student);
     await pumpApp(t, state: s);
     expect(k('home-page'), findsOneWidget);

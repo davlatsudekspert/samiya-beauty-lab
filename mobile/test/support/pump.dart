@@ -1,7 +1,14 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:samiya_beauty_lab/app/app.dart';
 import 'package:samiya_beauty_lab/app/app_state.dart';
+import 'package:samiya_beauty_lab/features/scanner/ingredient_models.dart';
+
+/// Haqiqiy kontent fayli (assets/content/ingredients.json) bilan baza.
+IngredientRepository testRepo() =>
+    IngredientRepository.fromJson(File('assets/content/ingredients.json').readAsStringSync());
 
 /// Ilovani berilgan ekran o'lchami va shrift masshtabida ishga tushiradi.
 Future<AppState> pumpApp(
@@ -18,7 +25,7 @@ Future<AppState> pumpApp(
     t.view.reset();
     t.platformDispatcher.clearAllTestValues();
   });
-  final s = state ?? AppState();
+  final s = state ?? AppState(ingredients: testRepo());
   await t.pumpWidget(SamiyaApp(
     key: UniqueKey(),
     state: s,

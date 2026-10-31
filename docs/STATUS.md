@@ -26,7 +26,7 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 ## Yordamchi hisoboti (2026-10-31) va tekshiruv natijasi
 - **Bajarilgan:** faqat A (GitHub private repo, Flutter .gitignore, MIT). B-J (bundle ID, Cloudflare, Firebase, Apple, Play, RevenueCat, Gemini, huquqiy sahifalar, arabcha tekshiruvchi) egasiga ko'rsatma sifatida berilgan, bajarilmagan. Bundle ID `uz.samiya.beautylab` keyin Apple'da ro'yxatdan o'tkazildi (pastga qarang).
 - **Tekshirildi (rasmiy manba): Google Play** - O'zbekiston merchant ro'yxatdan o'tishni qo'llab-quvvatlaydi (valyuta USD), [Google jadvali](https://support.google.com/googleplay/android-developer/answer/9306917). Obunaga xos cheklov topilmadi; Payments profile ochilishi amalda egasi tomonidan tekshirilsin.
-- **Tasdiqlanmadi: Apple.** Yordamchi "O'zbekiston uchun Paid Apps Agreement 2022 dan beri mavjud" degan, lekin manba topilmadi. Egasi App Store Connect > Agreements, Tax, and Banking ichida bank ma'lumotini qo'sha oladimi, o'zi tekshiradi. Ishlamasa, iOS'da Pro keyinga qoladi (arxitektura provayderga bog'liq emas).
+- **Apple (yordamchi sahifadan o'qigan, 2026-10-31):** Paid Applications Agreement holati **Active**, faol bank yozuvi bor (O'zbekiston uchun), 2 ta AQSh soliq formasi Active. Demak iOS'da pullik obuna uchun to'siq ko'rinmayapti. Men buni o'zim ko'rmadim (yordamchi hisoboti), amalda obuna mahsulotini yaratganda qayta tasdiqlanadi.
 - **Tuzatish:** yordamchi "20 tester" degan. Google rasmiy talabi **12 tester, 14 kun** (shaxsiy akkaunt); 20 faqat zaxira uchun. Hisobotdagi "Lifestyle/Beauty" kategoriya maslahati to'g'ri, sog'liq deklaratsiyasi: "Healthcare Services" belgilanmasin.
 - Cloudflare Pages `samiya-legal.pages.dev` hali yaratilmagan, nom band bo'lishi mumkin.
 
@@ -59,8 +59,17 @@ Reliz oldidan: 12+ tester (Play shaxsiy akkaunt), maxfiylik siyosati URL, hisobn
 ## Apple (yordamchi bajargan, 2026-10-31) - maxfiy bo'lmagan natijalar
 - **App ID yaratildi:** "SAMIYA BEAUTY LAB", Bundle ID `uz.samiya.beautylab`, App ID prefiksi (Team ID) `5Z9CT2W378`. Capability: Sign in with Apple (primary App ID) va In-App Purchase (standart yoqilgan).
 - **Sign in with Apple kaliti yaratildi:** Key ID `94WS6NBPXQ`. `.p8` faylni FAQAT egasi o'zi yuklab oladi (bir martalik) va xavfsiz joyda saqlaydi; keyin Firebase formasiga o'zi joylaydi.
-- **Hali qilinmagan:** Services ID (Firebase loyihasi kutilmoqda), App Store Connect yozuvi, App Store Connect API kaliti (CI), 0-bosqich hisoboti (Paid Apps Agreement, bank formasida O'zbekiston bormi), Firebase, Cloudflare.
+- **Services ID yaratildi:** `uz.samiya.beautylab.signin` ("SAMIYA sign in"). Uning Domains/Return URL sozlamasi SAQLANMAGAN: Firebase loyihasi yaratilgach `<project-id>.firebaseapp.com` va `https://<project-id>.firebaseapp.com/__/auth/handler` kiritiladi.
+- **Akkaunt turi:** Individual (Team ID `5Z9CT2W378`).
+- **Hali qilinmagan:** Firebase loyihasi (asosiy to'siq), App Store Connect ilova yozuvi (til va kategoriya qarori kerak), App Store Connect API kaliti (CI), Cloudflare.
 - Ilovaning bosh ekran nomi: **SAMIYA** (Android va iOS), chunki to'liq nom ikonka ostiga sig'maydi.
+
+## Phase 1 davomi: skaner oqimi (16, 19, 20, 21) - TEKSHIRILGAN
+- **16 Skaner** (kamera tugmasi hali "Tez orada"), **19 Tarkibni kiritish** (qo'lda, matn tahlilchisi bilan), **20 Tahlil natijasi**, **21 Ingredient sahifasi** (xulosa, dalil darajalari A/B/C, har da'vo uchun PubMed havolasi).
+- **Natija faqat "bazada bor/yo'q":** xavfsizlik bahosi, foiz yoki "sizga mos" xulosasi yo'q. Moslashtirish faqat aniq INCI nomi yoki tasdiqlangan sinonim bo'yicha (Sodium Hyaluronate, Retinyl Palmitate kabi hosilalar taxmin bilan bog'lanmaydi, testlar bilan himoyalangan). Bazada 5 ingredient bor.
+- **Halol belgilar:** har ingredient sahifasida "matn qoralama, tarjima tekshirilmagan" va "EU/CosIng tasdiqlanmagan" eslatmalari ko'rinadi.
+- **Kontent yagona manbadan:** `content/tools/build_app_content.py` `content/pilot` dan `mobile/assets/content/ingredients.json` ni yasaydi (qo'lda tahrirlanmaydi).
+- **Testlar:** `flutter test` 142 ta o'tdi (jumladan kontent shartnomasi, siyosat va 320x568/1.5x shriftda 4 tilda overflow yo'q); `flutter analyze` toza. Test topgan xato: asset o'qish soxta vaqt zonasida qotib qolgan edi (`runAsync` bilan tuzatildi).
 
 ## Keyingi qadamlar
 1. Phase 1: dizayn tizimi + 1-10 ekranlar (4 tilda, RTL) · 2. Kontent pilot: 5 ingredient, 4 tilda, manbalar bilan · 3. Phase 2: Firebase auth + Worker token tekshiruvi.

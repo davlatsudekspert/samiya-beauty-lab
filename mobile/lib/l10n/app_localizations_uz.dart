@@ -168,4 +168,104 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get navProfile => 'Profil';
+
+  @override
+  String get scannerHeroTitle => 'Tarkibni tekshirish';
+
+  @override
+  String get scannerHeroBody =>
+      'Mahsulot tarkibini kiriting. Biz ingredientlar haqida manbali ma‘lumot ko‘rsatamiz.';
+
+  @override
+  String get scanCamera => 'Kamera bilan skanerlash';
+
+  @override
+  String get scanManual => 'Qo‘lda kiritish';
+
+  @override
+  String get manualTitle => 'Tarkibni kiriting';
+
+  @override
+  String get manualHelp =>
+      'Mahsulot qutisidagi INCI ro‘yxatini nusxalang (lotin harflarida).';
+
+  @override
+  String get manualHint => 'Masalan: Aqua, Glycerin, Niacinamide...';
+
+  @override
+  String foundCount(int n) {
+    return 'Topilgan ingredientlar: $n';
+  }
+
+  @override
+  String get analyzeAction => 'Tahlil qilish';
+
+  @override
+  String get resultTitle => 'Tahlil natijasi';
+
+  @override
+  String get inDatabase => 'Bazada ma‘lumot bor';
+
+  @override
+  String get notInDatabase => 'Bazada hali yo‘q';
+
+  @override
+  String get resultNoneFound =>
+      'Kiritilgan ro‘yxatda bazamizdagi ingredientlar topilmadi. Baza kengayib boradi.';
+
+  @override
+  String get resultNote =>
+      'Bu tibbiy maslahat emas. Ma‘lumotlar chop etilgan tadqiqotlarga asoslangan va mahsulot sizga mosligini ko‘rsatmaydi.';
+
+  @override
+  String get detailClaims => 'Tadqiqotlarda nima aniqlangan';
+
+  @override
+  String get detailSource => 'Manba';
+
+  @override
+  String get openSource => 'Manbani ochish';
+
+  @override
+  String get draftNote => 'Matn qoralama: tarjima hali tekshirilmagan.';
+
+  @override
+  String get euUnverified =>
+      'EU qonunchiligi va CosIng ma‘lumoti hali tekshirilmagan.';
+
+  @override
+  String get evidenceLegendTitle => 'Dalil darajalari';
+
+  @override
+  String get evidenceA => 'A: tizimli sharh yoki regulyator xulosasi';
+
+  @override
+  String get evidenceB => 'B: odamlarda randomizatsiyalangan tadqiqot';
+
+  @override
+  String get evidenceC => 'C: cheklangan dalil';
+
+  @override
+  String get evidenceInsufficient => 'Dalil yetarli emas';
+
+  @override
+  String get studyTypeSystematicReview => 'Tizimli sharh';
+
+  @override
+  String get studyTypeMetaAnalysis => 'Meta-tahlil';
+
+  @override
+  String get studyTypeRct => 'Randomizatsiyalangan tadqiqot';
+
+  @override
+  String get studyTypeObservational => 'Kuzatuv tadqiqoti';
+
+  @override
+  String get studyTypeInVitro => 'Laboratoriya tadqiqoti';
+
+  @override
+  String get studyTypeRegulatory => 'Regulyator xulosasi';
+
+  @override
+  String get studyTypeNarrative => 'Hikoyaviy sharh';
 }

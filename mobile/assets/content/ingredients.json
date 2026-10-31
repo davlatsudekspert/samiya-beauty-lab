@@ -1,0 +1,483 @@
+{
+ "version": 1,
+ "ingredients": [
+  {
+   "inci": "Niacinamide",
+   "slug": "niacinamide",
+   "status": "draft",
+   "aliases": [
+    "Nicotinamide",
+    "Vitamin B3"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Niacinamide (the amide form of vitamin B3) is a common cosmetic ingredient that has been studied in topical products for skin barrier, sebum and pigmentation outcomes. Much of the clinical evidence comes from formulas that combine several active ingredients, which limits conclusions about niacinamide alone. This card summarises published evidence only and is not medical advice.",
+    "uz": "Niacinamide (B3 vitaminining amid shakli) keng qo‘llaniladigan kosmetik ingredient bo‘lib, teri to‘siq funksiyasi, sebum va pigmentatsiyaga oid natijalar bo‘yicha surtiladigan vositalarda o‘rganilgan. Klinik dalillarning katta qismi bir nechta faol moddani birlashtirgan formulalardan olingan, shu sababli faqat niacinamide haqida xulosa qilish cheklangan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Niacinamide (амидная форма витамина B3) является распространённым косметическим ингредиентом, который изучался в средствах для местного применения в отношении кожного барьера, себума и пигментации. Значительная часть клинических данных получена на составах с несколькими активными компонентами, поэтому выводы только о niacinamide ограничены. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "النياسيناميد (niacinamide) هو الشكل الأميدي من فيتامين ب3، وهو مكوّن تجميلي شائع جرت دراسته في المنتجات الموضعية فيما يخص الحاجز الجلدي والدهون الجلدية (الزهم) والتصبغ. يأتي جزء كبير من الأدلة السريرية من تركيبات تجمع عدة مواد فعّالة، مما يحدّ من إمكانية استخلاص نتائج عن niacinamide وحده. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "niacinamide-1",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A systematic review of topical treatments for post-inflammatory hyperpigmentation listed niacinamide among the agents supported by high-quality studies; retinoids, hydroxy acids and broad-spectrum sunscreen were supported by the greatest number of such studies.",
+      "uz": "Postinflammator giperpigmentatsiya uchun surtiladigan vositalar bo‘yicha tizimli sharhda niacinamide yuqori sifatli tadqiqotlar qo‘llab-quvvatlagan vositalar qatorida sanalgan; retinoidlar, gidroksi kislotalar va keng spektrli quyoshdan himoya vositalari eng ko‘p shunday tadqiqotlar bilan qo‘llab-quvvatlangan.",
+      "ru": "В систематическом обзоре местных средств при поствоспалительной гиперпигментации niacinamide назван среди средств, подтверждённых высококачественными исследованиями; наибольшее число таких исследований было у ретиноидов, гидроксикислот и солнцезащитных средств широкого спектра.",
+      "ar": "في مراجعة منهجية للعلاجات الموضعية لفرط التصبغ التالي للالتهاب، ورد niacinamide ضمن المواد التي دعمتها دراسات عالية الجودة؛ وكانت الرتينويدات والأحماض الهيدروكسيلية وواقيات الشمس واسعة الطيف الأكثر دعمًا بعدد هذه الدراسات."
+     },
+     "sources": [
+      {
+       "pmid": "34525885",
+       "doi": "10.1080/09546634.2021.1981814",
+       "title": "Topical treatment for postinflammatory hyperpigmentation: a systematic review.",
+       "year": 2021,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/34525885/"
+      }
+     ]
+    },
+    {
+     "id": "niacinamide-2",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A PRISMA-based systematic review of topical melasma treatments reported niacinamide among the agents shown to be effective as adjuvant therapy with minimal side effects, while triple-combination therapy remained the gold standard of care; some included studies had small samples.",
+      "uz": "Melazma uchun surtiladigan vositalar bo‘yicha PRISMA asosidagi tizimli sharhda niacinamide yordamchi terapiya sifatida samarali va yon ta‘sirlari minimal vositalar qatorida keltirilgan, uch komponentli kombinatsiyalangan terapiya esa asosiy standart bo‘lib qolgan; ba‘zi tadqiqotlarda ishtirokchilar soni kam bo‘lgan.",
+      "ru": "В систематическом обзоре по методике PRISMA, посвящённом местным средствам при меласме, niacinamide указан среди средств, эффективных в качестве вспомогательной терапии с минимальными побочными эффектами, тогда как тройная комбинированная терапия оставалась золотым стандартом; в некоторых исследованиях выборки были небольшими.",
+      "ar": "في مراجعة منهجية وفق منهجية PRISMA للعلاجات الموضعية للكلف، ورد niacinamide ضمن المواد الفعّالة كعلاج مساعد بآثار جانبية قليلة، بينما ظل العلاج المركّب الثلاثي هو المعيار الذهبي للرعاية؛ وكانت عيّنات بعض الدراسات المشمولة صغيرة."
+     },
+     "sources": [
+      {
+       "pmid": "35642229",
+       "doi": null,
+       "title": "Topical Treatments for Melasma and Their Mechanism of Action.",
+       "year": 2022,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/35642229/"
+      }
+     ]
+    },
+    {
+     "id": "niacinamide-3",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a double-blind, placebo-controlled randomised study of 67 women aged 30 to 60, a cosmetic formulation containing niacinamide was associated with higher stratum corneum water content, lower transepidermal water loss and lower sebum content after eight weeks; effects cannot be attributed to niacinamide alone.",
+      "uz": "30 yoshdan 60 yoshgacha bo‘lgan 67 nafar ayol ishtirok etgan ikki tomonlama ko‘r, plasebo nazoratli randomizatsiyalangan tadqiqotda niacinamide tarkibli kosmetik formula sakkiz haftadan keyin shox qavatdagi suv miqdorining yuqoriroq bo‘lishi, transepidermal suv yo‘qotilishining pastroq bo‘lishi va sebum miqdorining kamroq bo‘lishi bilan bog‘langan; natijalarni faqat niacinamide‘ga bog‘lab bo‘lmaydi.",
+      "ru": "В двойном слепом плацебо-контролируемом рандомизированном исследовании с участием 67 женщин в возрасте от 30 до 60 лет косметический состав с niacinamide был связан с более высоким содержанием воды в роговом слое, более низкой трансэпидермальной потерей воды и меньшим содержанием себума через восемь недель; эффекты нельзя приписать только niacinamide.",
+      "ar": "في دراسة عشوائية مزدوجة التعمية ومضبوطة بالدواء الوهمي شملت 67 امرأة تتراوح أعمارهن بين 30 و60 عامًا، ارتبطت تركيبة تجميلية تحتوي على niacinamide بارتفاع محتوى الماء في الطبقة المتقرنة وانخفاض فقدان الماء عبر البشرة وانخفاض محتوى الدهون الجلدية (الزهم) بعد ثمانية أسابيع؛ ولا يمكن عزو النتائج إلى niacinamide وحده."
+     },
+     "sources": [
+      {
+       "pmid": "39171587",
+       "doi": "10.2174/0109298673325125240813075250",
+       "title": "Topical Formulation with Niacinamide Combined with 5 MHz Ultrasound for Improving Skin Ageing: A Double-blind, Randomised, Placebo-controlled Clinical Study.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39171587/"
+      }
+     ]
+    },
+    {
+     "id": "niacinamide-4",
+     "level": "B",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A systematic review of topical treatments for mild-to-moderate acne reported that niacinamide, examined in one randomised controlled trial of 41 participants, reduced sebum production.",
+      "uz": "Yengil va o‘rtacha akne uchun surtiladigan vositalar bo‘yicha tizimli sharhda 41 ishtirokchili bitta randomizatsiyalangan nazoratli tadqiqotda niacinamide sebum ishlab chiqarilishini kamaytirgani qayd etilgan.",
+      "ru": "В систематическом обзоре местных средств при акне лёгкой и средней степени сообщается, что niacinamide, изученный в одном рандомизированном контролируемом исследовании с 41 участником, снижал выработку себума.",
+      "ar": "أفادت مراجعة منهجية للعلاجات الموضعية لحب الشباب الخفيف إلى المتوسط بأن niacinamide، الذي جرى فحصه في تجربة عشوائية مضبوطة واحدة شملت 41 مشاركًا، قلّل إنتاج الدهون الجلدية (الزهم)."
+     },
+     "sources": [
+      {
+       "pmid": "38725769",
+       "doi": "10.7759/cureus.57909",
+       "title": "Efficacy of Topical Treatments in the Management of Mild-to-Moderate Acne Vulgaris: A Systematic Review.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38725769/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Hyaluronic Acid",
+   "slug": "hyaluronic-acid",
+   "status": "draft",
+   "aliases": [],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Hyaluronic acid is a water-binding polysaccharide widely used in moisturisers and serums, often in the form of sodium hyaluronate. Published studies on topical products mostly measure skin hydration over a few weeks, and many are small, open-label or sponsored by manufacturers. Whether molecular weight changes the benefit is still not well established. This card summarises published evidence only and is not medical advice.",
+    "uz": "Gialuron kislotasi (Hyaluronic Acid) suvni bog‘laydigan polisaxarid bo‘lib, namlantiruvchi vositalar va zardoblarda, ko‘pincha natriy gialuronat shaklida keng qo‘llaniladi. Surtiladigan mahsulotlar bo‘yicha chop etilgan tadqiqotlar asosan bir necha hafta davomida teri namligini o‘lchaydi, ularning ko‘pi kichik, ochiq (open-label) yoki ishlab chiqaruvchi homiyligida o‘tkazilgan. Molekulyar og‘irlik foydani o‘zgartiradimi, bu hali yaxshi aniqlanmagan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Гиалуроновая кислота (Hyaluronic Acid) является водосвязывающим полисахаридом, который широко используется в увлажняющих средствах и сыворотках, часто в виде гиалуроната натрия. Опубликованные исследования местных средств в основном измеряют увлажнённость кожи в течение нескольких недель, многие из них небольшие, открытые или спонсированы производителями. Влияет ли молекулярная масса на результат, пока не установлено достоверно. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "حمض الهيالورونيك (Hyaluronic Acid) سكر متعدد يرتبط بالماء، ويُستخدم على نطاق واسع في المرطبات والمصالل، وغالبًا على شكل هيالورونات الصوديوم. تقيس الدراسات المنشورة عن المنتجات الموضعية في الغالب ترطيب الجلد على مدى بضعة أسابيع، وكثير منها صغير أو مفتوح التسمية أو برعاية جهات مصنّعة. وما زال غير مثبت جيدًا ما إذا كان الوزن الجزيئي يغيّر الفائدة. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "hyaluronic-acid-1",
+     "level": "C",
+     "studyType": "narrative review",
+     "text": {
+      "en": "A narrative literature review of topical hyaluronic acid (by authors affiliated with a cosmetics company) concluded that several clinical studies indicate hyaluronic acid cosmeceuticals are well tolerated and can improve skin hydration; it is not a systematic review.",
+      "uz": "Surtiladigan gialuron kislotasi bo‘yicha hikoyaviy adabiyot sharhi (kosmetika kompaniyasi bilan bog‘liq mualliflar tomonidan) bir nechta klinik tadqiqotlar gialuron kislotali kosmetseftiklar yaxshi o‘zlashtirilishini va teri namligini yaxshilashi mumkinligini ko‘rsatadi, degan xulosaga kelgan; bu tizimli sharh emas.",
+      "ru": "Нарративный обзор литературы по местному применению гиалуроновой кислоты (авторы связаны с косметической компанией) пришёл к выводу, что ряд клинических исследований указывает на хорошую переносимость косметических средств с гиалуроновой кислотой и возможное улучшение увлажнённости кожи; это не систематический обзор.",
+      "ar": "خلصت مراجعة سردية للأدبيات حول حمض الهيالورونيك الموضعي (أجراها مؤلفون مرتبطون بشركة مستحضرات تجميل) إلى أن عدة دراسات سريرية تشير إلى أن المستحضرات التجميلية الحاوية على حمض الهيالورونيك جيدة التحمل وقد تحسّن ترطيب الجلد؛ وهي ليست مراجعة منهجية."
+     },
+     "sources": [
+      {
+       "pmid": "36200921",
+       "doi": "10.1111/dth.15903",
+       "title": "Benefits of topical hyaluronic acid for skin quality and signs of skin aging: From literature review to clinical evidence.",
+       "year": 2022,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/36200921/"
+      }
+     ]
+    },
+    {
+     "id": "hyaluronic-acid-2",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a double-blind randomised trial of 36 nursing-home residents aged 60 to 80 with dry skin, a lotion with low-molecular-weight hyaluronic acid gave higher skin capacitance (a hydration measure) after four weeks than a high-molecular-weight lotion or vehicle; transepidermal water loss did not differ significantly between groups.",
+      "uz": "Terisi quruq, 60 yoshdan 80 yoshgacha bo‘lgan 36 nafar qariyalar uyi yashovchisi ishtirok etgan ikki tomonlama ko‘r randomizatsiyalangan tadqiqotda past molekulyar og‘irlikdagi gialuron kislotali losyon to‘rt haftadan keyin yuqori molekulyar og‘irlikdagi losyon yoki vehikulga (asos) qaraganda teri sig‘imi (namlik ko‘rsatkichi) yuqoriroq bo‘lishini ko‘rsatgan; transepidermal suv yo‘qotilishi guruhlar o‘rtasida sezilarli farq qilmagan.",
+      "ru": "В двойном слепом рандомизированном исследовании с участием 36 жителей дома престарелых в возрасте от 60 до 80 лет с сухой кожей лосьон с низкомолекулярной гиалуроновой кислотой через четыре недели дал более высокую ёмкость кожи (показатель увлажнённости), чем лосьон с высокомолекулярной кислотой или основа без активного вещества; трансэпидермальная потеря воды между группами значимо не различалась.",
+      "ar": "في دراسة عشوائية مزدوجة التعمية شملت 36 من نزلاء دار رعاية تتراوح أعمارهم بين 60 و80 عامًا ويعانون من جفاف الجلد، أعطى غسول يحتوي على حمض الهيالورونيك منخفض الوزن الجزيئي سعة جلدية (مقياسًا للترطيب) أعلى بعد أربعة أسابيع مقارنةً بغسول عالي الوزن الجزيئي أو الحامل الخالي من المادة الفعّالة؛ ولم يختلف فقدان الماء عبر البشرة اختلافًا ملحوظًا بين المجموعات."
+     },
+     "sources": [
+      {
+       "pmid": "38829483",
+       "doi": "10.1007/s00403-024-03003-2",
+       "title": "Effectiveness of topical hyaluronic acid of different molecular weights in xerosis cutis treatment in elderly: a double-blind, randomized controlled trial.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38829483/"
+      }
+     ]
+    },
+    {
+     "id": "hyaluronic-acid-3",
+     "level": "C",
+     "studyType": "observational",
+     "text": {
+      "en": "In an open-label multicentre study without a control group, a high-molecular-weight hyaluronic acid serum was followed by increases in skin hydration measurements from baseline over eight weeks; the serum also contained peptides and the study was linked to the manufacturer.",
+      "uz": "Nazorat guruhisiz o‘tkazilgan ochiq ko‘p markazli tadqiqotda yuqori molekulyar og‘irlikdagi gialuron kislotali zardobdan keyin sakkiz hafta davomida teri namligi o‘lchovlari boshlang‘ich holatga nisbatan oshgan; zardob tarkibida peptidlar ham bo‘lgan va tadqiqot ishlab chiqaruvchi bilan bog‘liq edi.",
+      "ru": "В открытом многоцентровом исследовании без контрольной группы после применения сыворотки с высокомолекулярной гиалуроновой кислотой показатели увлажнённости кожи в течение восьми недель росли по сравнению с исходными; сыворотка содержала также пептиды, а исследование было связано с производителем.",
+      "ar": "في دراسة مفتوحة متعددة المراكز دون مجموعة ضابطة، ارتفعت قياسات ترطيب الجلد مقارنةً بالقياس الأساسي على مدى ثمانية أسابيع بعد استخدام مصل يحتوي على حمض الهيالورونيك عالي الوزن الجزيئي؛ وكان المصل يحتوي أيضًا على ببتيدات، وكانت الدراسة مرتبطة بالجهة المصنّعة."
+     },
+     "sources": [
+      {
+       "pmid": "35833366",
+       "doi": "10.1111/jocd.15241",
+       "title": "Multicenter evaluation of a topical hyaluronic acid serum.",
+       "year": 2022,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/35833366/"
+      }
+     ]
+    },
+    {
+     "id": "hyaluronic-acid-4",
+     "level": "insufficient",
+     "studyType": "RCT",
+     "text": {
+      "en": "Clinical research on whether the molecular weight of topical hyaluronic acid changes its benefit is limited; the authors of one randomised trial noted a lack of clinical research supporting the belief that low-molecular-weight hyaluronic acid is more effective.",
+      "uz": "Surtiladigan gialuron kislotasining molekulyar og‘irligi uning foydasini o‘zgartiradimi, degan savol bo‘yicha klinik tadqiqotlar cheklangan; bitta randomizatsiyalangan tadqiqot mualliflari past molekulyar og‘irlikdagi gialuron kislotasi samaraliroq, degan fikrni qo‘llab-quvvatlovchi klinik tadqiqotlar yetishmasligini qayd etgan.",
+      "ru": "Клинических исследований о том, меняет ли молекулярная масса местной гиалуроновой кислоты её пользу, мало; авторы одного рандомизированного исследования отметили нехватку клинических данных в поддержку мнения, что низкомолекулярная гиалуроновая кислота эффективнее.",
+      "ar": "الأبحاث السريرية حول ما إذا كان الوزن الجزيئي لحمض الهيالورونيك الموضعي يغيّر فائدته محدودة؛ وقد أشار مؤلفو إحدى التجارب العشوائية إلى نقص الأبحاث السريرية التي تدعم الاعتقاد بأن حمض الهيالورونيك منخفض الوزن الجزيئي أكثر فعالية."
+     },
+     "sources": [
+      {
+       "pmid": "38829483",
+       "doi": "10.1007/s00403-024-03003-2",
+       "title": "Effectiveness of topical hyaluronic acid of different molecular weights in xerosis cutis treatment in elderly: a double-blind, randomized controlled trial.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38829483/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Salicylic Acid",
+   "slug": "salicylic-acid",
+   "status": "draft",
+   "aliases": [
+    "2-Hydroxybenzoic Acid"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Salicylic acid is a beta-hydroxy acid used in cleansers, lotions and professional peels, and it is mainly studied for acne and related skin concerns. Many published trials test it inside multi-ingredient regimens, so the effect of salicylic acid alone is hard to separate. Its use in cosmetics is regulated in the EU. This card summarises published evidence only and is not medical advice.",
+    "uz": "Salitsil kislotasi (Salicylic Acid) beta-gidroksi kislota bo‘lib, yuvish vositalari, losyonlar va professional pilinglarda qo‘llaniladi hamda asosan akne va unga yaqin teri muammolari bo‘yicha o‘rganilgan. Chop etilgan ko‘plab tadqiqotlar uni bir nechta ingredientli sxemalar ichida sinaydi, shu sababli faqat salitsil kislotasining ta‘sirini ajratish qiyin. Uning kosmetikada qo‘llanilishi Yevropa Ittifoqida tartibga solinadi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Салициловая кислота (Salicylic Acid) является бета-гидроксикислотой, которую используют в средствах для умывания, лосьонах и профессиональных пилингах; она изучалась в основном при акне и связанных проблемах кожи. Многие опубликованные исследования проверяют её в составе многокомпонентных схем, поэтому действие одной только салициловой кислоты трудно выделить. Её применение в косметике регулируется в ЕС. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "حمض الساليسيليك (Salicylic Acid) هو حمض بيتا هيدروكسي يُستخدم في منظفات الوجه والغسولات والتقشير المهني، وقد جرت دراسته في الغالب فيما يخص حب الشباب والمشكلات الجلدية المرتبطة به. تختبره كثير من التجارب المنشورة ضمن برامج متعددة المكونات، لذلك يصعب فصل تأثير حمض الساليسيليك وحده. ويخضع استخدامه في مستحضرات التجميل للتنظيم في الاتحاد الأوروبي. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "salicylic-acid-1",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "The 2024 American Academy of Dermatology acne guideline, based on a systematic review and GRADE assessment, made a conditional recommendation for topical salicylic acid, and strong recommendations for benzoyl peroxide and topical retinoids.",
+      "uz": "Tizimli sharh va GRADE baholashiga asoslangan Amerika dermatologiya akademiyasining 2024-yilgi akne bo‘yicha klinik ko‘rsatmasi surtiladigan salitsil kislotasi uchun shartli tavsiya, benzoil peroksid va surtiladigan retinoidlar uchun esa kuchli tavsiya bergan.",
+      "ru": "Клиническое руководство Американской академии дерматологии по акне 2024 года, основанное на систематическом обзоре и оценке по GRADE, дало условную рекомендацию в отношении местной салициловой кислоты и сильные рекомендации в отношении бензоилпероксида и местных ретиноидов.",
+      "ar": "قدّمت إرشادات الأكاديمية الأمريكية للأمراض الجلدية لعام 2024 بشأن حب الشباب، المبنية على مراجعة منهجية وتقييم GRADE، توصية مشروطة بخصوص حمض الساليسيليك الموضعي، وتوصيات قوية بخصوص بيروكسيد البنزويل والرتينويدات الموضعية."
+     },
+     "sources": [
+      {
+       "pmid": "38300170",
+       "doi": "10.1016/j.jaad.2023.12.017",
+       "title": "Guidelines of care for the management of acne vulgaris.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38300170/"
+      }
+     ]
+    },
+    {
+     "id": "salicylic-acid-3",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a double-blind randomised study of 54 adults with mild to moderate facial acne, an over-the-counter regimen containing salicylic acid showed efficacy comparable to a prescription adapalene/benzoyl peroxide regimen over 12 weeks, with less tightness or dryness reported; the study was linked to the manufacturer and tested whole regimens, not salicylic acid alone.",
+      "uz": "Yengil va o‘rtacha yuz akneli 54 nafar kattalar ishtirok etgan ikki tomonlama ko‘r randomizatsiyalangan tadqiqotda salitsil kislotali retseptsiz sxema 12 hafta davomida retsept bilan beriladigan adapalen/benzoil peroksid sxemasi bilan taqqoslanadigan samara ko‘rsatgan, tarang tortilish yoki quruqlik kamroq qayd etilgan; tadqiqot ishlab chiqaruvchi bilan bog‘liq edi va faqat salitsil kislotasini emas, butun sxemalarni sinagan.",
+      "ru": "В двойном слепом рандомизированном исследовании с участием 54 взрослых с акне лёгкой и средней степени на лице безрецептурная схема с салициловой кислотой за 12 недель показала эффективность, сопоставимую с рецептурной схемой адапален/бензоилпероксид, при меньшем ощущении стянутости или сухости; исследование было связано с производителем и проверяло схемы целиком, а не одну салициловую кислоту.",
+      "ar": "في دراسة عشوائية مزدوجة التعمية شملت 54 بالغًا يعانون من حب شباب خفيف إلى متوسط في الوجه، أظهر برنامج متاح دون وصفة طبية يحتوي على حمض الساليسيليك فعالية مماثلة لبرنامج بوصفة طبية من أدابالين/بيروكسيد البنزويل على مدى 12 أسبوعًا، مع الإبلاغ عن شدّ أو جفاف أقل؛ وكانت الدراسة مرتبطة بالجهة المصنّعة واختبرت برامج كاملة وليس حمض الساليسيليك وحده."
+     },
+     "sources": [
+      {
+       "pmid": "39301780",
+       "doi": "10.1111/jocd.16568",
+       "title": "Efficacy and Tolerability of a Novel Cosmetic and Over-the-Counter Facial Acne Regimen Versus a Prescription Treatment.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39301780/"
+      }
+     ]
+    },
+    {
+     "id": "salicylic-acid-4",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a small randomised split-face study in which 21 adults completed a 12-week regimen of azelaic acid, salicylic acid and retinol, lesion reduction was similar to a benzoyl peroxide regimen with fewer dropouts due to irritation; because several actives were combined, effects cannot be attributed to salicylic acid alone.",
+      "uz": "Azelain kislotasi, salitsil kislotasi va retinoldan iborat 12 haftalik sxemani 21 nafar kattalar yakunlagan kichik randomizatsiyalangan yarim yuzli tadqiqotda toshmalar kamayishi benzoil peroksid sxemasi bilan o‘xshash bo‘lgan, tirnash sababli tadqiqotni tark etganlar esa kamroq bo‘lgan; bir nechta faol modda birlashtirilgani uchun natijalarni faqat salitsil kislotasiga bog‘lab bo‘lmaydi.",
+      "ru": "В небольшом рандомизированном исследовании по принципу «половина лица», в котором 21 взрослый завершил 12-недельную схему с азелаиновой кислотой, салициловой кислотой и ретинолом, уменьшение высыпаний было сходным со схемой с бензоилпероксидом, а выбывших из-за раздражения было меньше; поскольку сочетались несколько активных компонентов, эффекты нельзя приписать одной салициловой кислоте.",
+      "ar": "في دراسة عشوائية صغيرة بتصميم نصف الوجه أتمّ فيها 21 بالغًا برنامجًا مدته 12 أسبوعًا من حمض الأزيليك وحمض الساليسيليك والريتينول، كان انخفاض الآفات مماثلًا لبرنامج بيروكسيد البنزويل مع انسحاب أقل بسبب التهيج؛ ونظرًا إلى الجمع بين عدة مواد فعّالة لا يمكن عزو النتائج إلى حمض الساليسيليك وحده."
+     },
+     "sources": [
+      {
+       "pmid": "38787441",
+       "doi": "10.1007/s00403-024-02874-9",
+       "title": "A randomized controlled double-blinded split-face prospective clinical trial to assess the efficacy, safety, and tolerability of a novel 3-step routine compared to benzoyl peroxide for the treatment of mild to moderate acne vulgaris.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38787441/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Ascorbic Acid",
+   "slug": "ascorbic-acid",
+   "status": "draft",
+   "aliases": [
+    "L-Ascorbic Acid",
+    "Vitamin C"
+   ],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Ascorbic acid is the main form of vitamin C used in cosmetic serums and is studied for photoaging and pigmentation outcomes. It is chemically unstable, so published results depend strongly on the derivative, pH, vehicle and stabilisation, and many trials test combinations such as vitamin C with vitamin E and ferulic acid. This card summarises published evidence only and is not medical advice.",
+    "uz": "Askorbin kislotasi (Ascorbic Acid) kosmetik zardoblarda ishlatiladigan C vitaminining asosiy shakli bo‘lib, fotoqarish va pigmentatsiya natijalari bo‘yicha o‘rganilgan. U kimyoviy jihatdan beqaror, shuning uchun chop etilgan natijalar hosila, pH, tashuvchi baza va stabilizatsiyaga kuchli bog‘liq; ko‘plab tadqiqotlar C vitamini bilan E vitamini va ferul kislotasi kabi kombinatsiyalarni sinaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Аскорбиновая кислота (Ascorbic Acid) является основной формой витамина C в косметических сыворотках и изучается в отношении фотостарения и пигментации. Она химически нестабильна, поэтому опубликованные результаты сильно зависят от производного, pH, основы и стабилизации, а многие исследования проверяют сочетания, например витамин C с витамином E и феруловой кислотой. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "حمض الأسكوربيك (Ascorbic Acid) هو الشكل الرئيسي لفيتامين ج المستخدم في المصالل التجميلية، وتجري دراسته فيما يخص الشيخوخة الضوئية والتصبغ. وهو غير مستقر كيميائيًا، لذلك تعتمد النتائج المنشورة بقوة على المشتق ودرجة الحموضة والحامل والتثبيت، وتختبر كثير من التجارب توليفات مثل فيتامين ج مع فيتامين هـ وحمض الفيروليك. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "ascorbic-acid-1",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A systematic review of 44 studies of vitamin C in dermatology described ascorbic acid as the most clinically validated form, with stabilised low-pH systems and L-ascorbic acid, vitamin E and ferulic acid combinations reported to improve photoaging and pigmentary outcomes.",
+      "uz": "Dermatologiyada C vitamini bo‘yicha 44 ta tadqiqotning tizimli sharhida askorbin kislotasi klinik jihatdan eng yaxshi tasdiqlangan shakl sifatida ta‘riflangan; barqarorlashtirilgan past pH tizimlari hamda L-askorbin kislotasi, E vitamini va ferul kislotasi kombinatsiyalari fotoqarish va pigmentatsiya ko‘rsatkichlarini yaxshilashi qayd etilgan.",
+      "ru": "В систематическом обзоре 44 исследований витамина C в дерматологии аскорбиновая кислота описана как наиболее клинически подтверждённая форма; сообщается, что стабилизированные системы с низким pH и сочетания L-аскорбиновой кислоты, витамина E и феруловой кислоты улучшают показатели фотостарения и пигментации.",
+      "ar": "وصفت مراجعة منهجية شملت 44 دراسة عن فيتامين ج في الأمراض الجلدية حمض الأسكوربيك بأنه الشكل الأكثر تأكيدًا سريريًا؛ وأُفيد بأن الأنظمة المثبّتة منخفضة الحموضة وتوليفات حمض الأسكوربيك (L-ascorbic acid) وفيتامين هـ وحمض الفيروليك تحسّن مؤشرات الشيخوخة الضوئية والتصبغ."
+     },
+     "sources": [
+      {
+       "pmid": "42761976",
+       "doi": null,
+       "title": "Clinical Applications of Vitamin C in Dermatology: A Systematic Review.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42761976/"
+      }
+     ]
+    },
+    {
+     "id": "ascorbic-acid-2",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A systematic review of 30 studies on antioxidants in melasma found that combining vitamin C with physical therapies such as peels and lasers gave better results, and that combinations of vitamins C, E and ferulic acid showed potential as adjuncts.",
+      "uz": "Melazmada antioksidantlar bo‘yicha 30 ta tadqiqotning tizimli sharhida C vitaminini pilinglar va lazerlar kabi jismoniy usullar bilan birga qo‘llash yaxshiroq natija bergani, C, E vitaminlari va ferul kislotasi kombinatsiyalari esa yordamchi vosita sifatida imkoniyat ko‘rsatgani aniqlangan.",
+      "ru": "В систематическом обзоре 30 исследований антиоксидантов при меласме обнаружено, что сочетание витамина C с физическими методами, такими как пилинги и лазеры, давало лучшие результаты, а сочетания витаминов C, E и феруловой кислоты показали потенциал в качестве вспомогательных средств.",
+      "ar": "وجدت مراجعة منهجية شملت 30 دراسة عن مضادات الأكسدة في الكلف أن الجمع بين فيتامين ج والعلاجات الفيزيائية مثل التقشير والليزر أعطى نتائج أفضل، وأن توليفات فيتامينات ج وهـ وحمض الفيروليك أظهرت إمكانات كعلاج مساعد."
+     },
+     "sources": [
+      {
+       "pmid": "40487500",
+       "doi": "10.4103/ijd.ijd_473_24",
+       "title": "Role of Antioxidants in Melasma: A Systematic Review.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40487500/"
+      }
+     ]
+    },
+    {
+     "id": "ascorbic-acid-3",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a randomised double-blind trial of 66 healthy women, a topical vitamin C serum used for 12 weeks was associated with lower markers of skin glycation, protein carbonylation and interleukin-1 alpha, and with changes in skin colour parameters, compared with an untreated group; the authors were linked to the manufacturer.",
+      "uz": "66 nafar sog‘lom ayol ishtirok etgan randomizatsiyalangan ikki tomonlama ko‘r tadqiqotda 12 hafta davomida surtilgan C vitamini zardobi davolanmagan guruhga nisbatan teri glikatsiyasi, oqsil karbonillanishi va interleykin-1 alfa ko‘rsatkichlarining pastroq bo‘lishi hamda teri rangi parametrlaridagi o‘zgarishlar bilan bog‘langan; mualliflar ishlab chiqaruvchi bilan bog‘liq edi.",
+      "ru": "В рандомизированном двойном слепом исследовании с участием 66 здоровых женщин сыворотка с витамином C, применявшаяся 12 недель, была связана с более низкими показателями гликации кожи, карбонилирования белков и интерлейкина-1 альфа, а также с изменением параметров цвета кожи по сравнению с группой без лечения; авторы были связаны с производителем.",
+      "ar": "في دراسة عشوائية مزدوجة التعمية شملت 66 امرأة سليمة، ارتبط استخدام مصل فيتامين ج موضعيًا لمدة 12 أسبوعًا بانخفاض مؤشرات تسكّر الجلد (الغلكزة) وكربنة البروتينات والإنترلوكين-1 ألفا، وبتغيّر في معايير لون الجلد مقارنةً بمجموعة غير معالجة؛ وكان المؤلفون مرتبطين بالجهة المصنّعة."
+     },
+     "sources": [
+      {
+       "pmid": "42087444",
+       "doi": "10.1111/jocd.70888",
+       "title": "Study on the Multiple Efficacies of Vitamin C Serum in Anti-Glycation, Anti-Carbonylation, Antioxidation, and Anti-Inflammation of Human Skin Based on In Vivo Tests.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42087444/"
+      }
+     ]
+    },
+    {
+     "id": "ascorbic-acid-5",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "The same systematic review of vitamin C in dermatology concluded that clinical effectiveness depends on derivative chemistry, vehicle, pH, stabilisation and delivery method, and that study heterogeneity and limited standardised data, especially across skin phototypes, restrict direct comparison.",
+      "uz": "Dermatologiyada C vitamini bo‘yicha o‘sha tizimli sharh klinik samara hosila kimyosi, tashuvchi baza, pH, stabilizatsiya va yetkazish usuliga bog‘liq, tadqiqotlar xilma-xilligi va standartlashtirilgan ma‘lumotlar cheklanganligi, ayniqsa turli teri fototiplari bo‘yicha, to‘g‘ridan-to‘g‘ri taqqoslashni cheklaydi, degan xulosaga kelgan.",
+      "ru": "Тот же систематический обзор по витамину C в дерматологии пришёл к выводу, что клиническая эффективность зависит от химии производного, основы, pH, стабилизации и способа доставки, а разнородность исследований и ограниченность стандартизированных данных, особенно по фототипам кожи, затрудняют прямое сравнение.",
+      "ar": "خلصت المراجعة المنهجية نفسها حول فيتامين ج في الأمراض الجلدية إلى أن الفعالية السريرية تعتمد على كيمياء المشتق والحامل ودرجة الحموضة والتثبيت وطريقة الإيصال، وأن تباين الدراسات ومحدودية البيانات الموحّدة، خاصةً عبر أنماط البشرة الضوئية، يحدّان من المقارنة المباشرة."
+     },
+     "sources": [
+      {
+       "pmid": "42761976",
+       "doi": null,
+       "title": "Clinical Applications of Vitamin C in Dermatology: A Systematic Review.",
+       "year": 2026,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/42761976/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "inci": "Retinol",
+   "slug": "retinol",
+   "status": "draft",
+   "aliases": [],
+   "eu": {
+    "annex": "unverified",
+    "verified": false
+   },
+   "summary": {
+    "en": "Retinol is a form of vitamin A used in cosmetic products and is mainly studied for photoaging, wrinkles and uneven pigmentation. It must be converted in the skin to the active retinoid form, is chemically unstable, and can cause irritation. Published comparisons with the prescription retinoid tretinoin are limited and often of low quality. Its use in cosmetics is regulated in the EU. This card summarises published evidence only and is not medical advice.",
+    "uz": "Retinol (Retinol) A vitaminining bir shakli bo‘lib, kosmetik vositalarda qo‘llaniladi va asosan fotoqarish, ajinlar hamda notekis pigmentatsiya bo‘yicha o‘rganilgan. U teri ichida faol retinoid shaklga aylanishi kerak, kimyoviy jihatdan beqaror va tirnash keltirib chiqarishi mumkin. Retsept bilan beriladigan tretinoin bilan chop etilgan taqqoslashlar cheklangan va ko‘pincha sifati past. Uning kosmetikada qo‘llanilishi Yevropa Ittifoqida tartibga solinadi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+    "ru": "Ретинол (Retinol) является формой витамина A, используется в косметических средствах и изучается в основном в отношении фотостарения, морщин и неравномерной пигментации. В коже он должен превращаться в активную форму ретиноида, химически нестабилен и может вызывать раздражение. Опубликованные сравнения с рецептурным ретиноидом третиноином ограничены и часто низкого качества. Его применение в косметике регулируется в ЕС. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+    "ar": "الريتينول (Retinol) هو شكل من فيتامين أ يُستخدم في مستحضرات التجميل، وقد جرت دراسته في الغالب فيما يخص الشيخوخة الضوئية والتجاعيد وعدم تجانس التصبغ. يجب أن يتحول في الجلد إلى الشكل الفعّال من الرتينويد، وهو غير مستقر كيميائيًا وقد يسبب التهيج. والمقارنات المنشورة مع التريتينوين الرتينويد الموصوف طبيًا محدودة وغالبًا منخفضة الجودة. ويخضع استخدامه في مستحضرات التجميل للتنظيم في الاتحاد الأوروبي. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية."
+   },
+   "claims": [
+    {
+     "id": "retinol-1",
+     "level": "A",
+     "studyType": "meta-analysis",
+     "text": {
+      "en": "A systematic review and network meta-analysis of 23 randomised trials (3,905 participants) on topical agents for facial photoaging found that retinol, tretinoin and isotretinoin significantly improved fine wrinkles, and that tretinoin and retinol were superior for hyperpigmentation; the authors noted limited racial diversity and possible commercial bias.",
+      "uz": "Yuz fotoqarishi uchun surtiladigan vositalar bo‘yicha 23 ta randomizatsiyalangan tadqiqotni (3905 ishtirokchi) o‘z ichiga olgan tizimli sharh va tarmoqli meta-tahlil retinol, tretinoin va izotretinoin mayda ajinlarni sezilarli yaxshilashini, tretinoin va retinol esa giperpigmentatsiya bo‘yicha ustun ekanini aniqlagan; mualliflar irqiy xilma-xillik cheklanganini va tijoriy tarafkashlik ehtimolini qayd etgan.",
+      "ru": "В систематическом обзоре и сетевом метаанализе 23 рандомизированных исследований (3905 участников) местных средств при фотостарении лица обнаружено, что ретинол, третиноин и изотретиноин значимо уменьшали мелкие морщины, а третиноин и ретинол были лучше при гиперпигментации; авторы отметили ограниченное расовое разнообразие и возможную коммерческую предвзятость.",
+      "ar": "وجدت مراجعة منهجية وتحليل تلوي شبكي شمل 23 تجربة عشوائية (3905 مشاركين) للعوامل الموضعية في الشيخوخة الضوئية للوجه أن الريتينول والتريتينوين والإيزوتريتينوين حسّنت التجاعيد الدقيقة تحسنًا ملحوظًا، وأن التريتينوين والريتينول كانا أفضل في فرط التصبغ؛ وأشار المؤلفون إلى محدودية التنوع العرقي واحتمال التحيز التجاري."
+     },
+     "sources": [
+      {
+       "pmid": "40707570",
+       "doi": "10.1038/s41598-025-12597-0",
+       "title": "Comparative efficacy of topical interventions for facial photoaging: a network meta-analysis.",
+       "year": 2025,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/40707570/"
+      }
+     ]
+    },
+    {
+     "id": "retinol-2",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A PRISMA systematic review of 25 studies comparing topical tretinoin with other anti-aging agents, most often other forms of vitamin A, found that most comparators were less irritating and better tolerated, but most comparison studies were of poor quality or biased, so evidence for any alternative first-line option is limited.",
+      "uz": "Surtiladigan tretinoinni boshqa qarishga qarshi vositalar, ko‘pincha A vitaminining boshqa shakllari bilan taqqoslagan 25 ta tadqiqotning PRISMA asosidagi tizimli sharhida taqqoslangan vositalarning ko‘pchiligi kamroq tirnash keltirgani va yaxshiroq o‘zlashtirilgani aniqlangan, biroq taqqoslash tadqiqotlarining ko‘pi sifati past yoki tarafkash bo‘lgan, shu sababli birinchi qator muqobil variant uchun dalillar cheklangan.",
+      "ru": "В систематическом обзоре по методике PRISMA, охватившем 25 исследований, в которых местный третиноин сравнивали с другими средствами против старения, чаще всего с другими формами витамина A, обнаружено, что большинство сравниваемых средств вызывали меньше раздражения и лучше переносились, но большинство сравнительных исследований было низкого качества или предвзятым, поэтому данных в пользу альтернативы первой линии мало.",
+      "ar": "وجدت مراجعة منهجية وفق PRISMA شملت 25 دراسة قارنت التريتينوين الموضعي بعوامل أخرى مضادة للشيخوخة، وغالبًا أشكال أخرى من فيتامين أ، أن معظم البدائل كانت أقل تهيجًا وأفضل تحملًا، لكن معظم دراسات المقارنة كانت منخفضة الجودة أو متحيزة، لذلك فإن الأدلة على أي بديل كخيار أول محدودة."
+     },
+     "sources": [
+      {
+       "pmid": "39348007",
+       "doi": "10.1007/s40257-024-00893-w",
+       "title": "Comparing Tretinoin to Other Topical Therapies in the Treatment of Skin Photoaging: A Systematic Review.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/39348007/"
+      }
+     ]
+    },
+    {
+     "id": "retinol-3",
+     "level": "B",
+     "studyType": "RCT",
+     "text": {
+      "en": "In a double-blind randomised trial of 24 patients with facial photodamage (20 analysed), a formulation of retinol and retinyl esters showed no significant difference in photoaging score from tretinoin after 24 weeks, and erythema was reported less often with the retinol-based formulation.",
+      "uz": "Yuz fotozararlanishi bo‘lgan 24 bemor (20 nafari tahlil qilingan) ishtirok etgan ikki tomonlama ko‘r randomizatsiyalangan tadqiqotda retinol va retinil efirlari formulasi 24 haftadan keyin fotoqarish balli bo‘yicha tretinoindan sezilarli farq qilmagan, retinolli formulada esa eritema kamroq qayd etilgan.",
+      "ru": "В двойном слепом рандомизированном исследовании с участием 24 пациентов с фотоповреждением лица (проанализированы 20) состав с ретинолом и эфирами ретинола через 24 недели значимо не отличался от третиноина по баллу фотостарения, а эритема при использовании состава на основе ретинола отмечалась реже.",
+      "ar": "في تجربة عشوائية مزدوجة التعمية شملت 24 مريضًا بتضرر الوجه بالتعرض للضوء (جرى تحليل 20 منهم)، لم تختلف تركيبة تحتوي على الريتينول وإسترات الريتينيل اختلافًا ملحوظًا في درجة الشيخوخة الضوئية عن التريتينوين بعد 24 أسبوعًا، وسُجّلت الحمامى بوتيرة أقل مع التركيبة المعتمدة على الريتينول."
+     },
+     "sources": [
+      {
+       "pmid": "35675051",
+       "doi": "10.1001/jamadermatol.2022.1891",
+       "title": "Biomarkers of Tretinoin Precursors and Tretinoin Efficacy in Patients With Moderate to Severe Facial Photodamage: A Randomized Clinical Trial.",
+       "year": 2022,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/35675051/"
+      }
+     ]
+    },
+    {
+     "id": "retinol-4",
+     "level": "A",
+     "studyType": "systematic review",
+     "text": {
+      "en": "A systematic review described retinoids, including retinol, as chemically unstable (sensitive to light, oxygen and temperature) and as often causing skin irritation, and summarised ongoing work on derivatives, lipid-based carriers and combinations intended to reduce these problems.",
+      "uz": "Tizimli sharhda retinol kabi retinoidlar kimyoviy jihatdan beqaror (yorug‘lik, kislorod va haroratga sezgir) va ko‘pincha teri tirnashini keltirib chiqaradi, deb ta‘riflangan hamda bu muammolarni kamaytirishga qaratilgan hosilalar, lipid asosidagi tashuvchilar va kombinatsiyalar bo‘yicha davom etayotgan ishlar umumlashtirilgan.",
+      "ru": "В систематическом обзоре ретиноиды, включая ретинол, описаны как химически нестабильные (чувствительные к свету, кислороду и температуре) и часто вызывающие раздражение кожи, а также обобщены текущие работы по производным, липидным носителям и комбинациям, призванным уменьшить эти проблемы.",
+      "ar": "وصفت مراجعة منهجية الرتينويدات، ومنها الريتينول، بأنها غير مستقرة كيميائيًا (حساسة للضوء والأكسجين والحرارة) وكثيرًا ما تسبب تهيج الجلد، ولخّصت الأعمال الجارية على المشتقات والحوامل الدهنية والتوليفات الرامية إلى تقليل هذه المشكلات."
+     },
+     "sources": [
+      {
+       "pmid": "38952060",
+       "doi": "10.1111/jocd.16415",
+       "title": "Topical retinoids: Novel derivatives, nano lipid-based carriers, and combinations to improve chemical instability and skin irritation.",
+       "year": 2024,
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38952060/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

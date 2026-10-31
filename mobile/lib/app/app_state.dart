@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../features/scanner/ingredient_models.dart';
 
 /// Qo'llab-quvvatlanadigan tillar: O'zbek, Rus, Ingliz, Arab (RTL).
 const supportedLocales = <Locale>[Locale('uz'), Locale('ru'), Locale('en'), Locale('ar')];
@@ -19,10 +22,18 @@ enum UserRole { user, student, cosmetologist, teacher }
 
 /// Ilovaning global holati: til, onboarding tugaganmi, rol. Diskda saqlanadi.
 class AppState extends ChangeNotifier {
-  AppState({Locale locale = const Locale('uz'), bool onboarded = false, UserRole? role})
-      : _locale = locale,
+  AppState({
+    Locale locale = const Locale('uz'),
+    bool onboarded = false,
+    UserRole? role,
+    IngredientRepository? ingredients,
+  })  : ingredients = ingredients ?? IngredientRepository(const []),
+        _locale = locale,
         _onboarded = onboarded,
         _role = role;
+
+  /// Ingredient bazasi (assets/content/ingredients.json), o'zgarmas.
+  final IngredientRepository ingredients;
 
   Locale _locale;
   bool _onboarded;
@@ -36,7 +47,9 @@ class AppState extends ChangeNotifier {
     final p = await SharedPreferences.getInstance();
     final code = p.getString('locale');
     final roleName = p.getString('role');
+    final repo = IngredientRepository.fromJson(await rootBundle.loadString('assets/content/ingredients.json'));
     return AppState(
+      ingredients: repo,
       locale: Locale(languageNativeNames.containsKey(code) ? code! : 'uz'),
       onboarded: p.getBool('onboarded') ?? false,
       role: UserRole.values.where((r) => r.name == roleName).firstOrNull,
