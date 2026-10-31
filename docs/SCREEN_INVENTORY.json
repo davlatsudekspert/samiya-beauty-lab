@@ -1,0 +1,410 @@
+[
+  {
+    "number": 1,
+    "id": "splash",
+    "title": "Splash",
+    "png": "screenshots/all_68/01_splash.png"
+  },
+  {
+    "number": 2,
+    "id": "language",
+    "title": "Til tanlash",
+    "png": "screenshots/all_68/02_language.png"
+  },
+  {
+    "number": 3,
+    "id": "welcome",
+    "title": "Welcome",
+    "png": "screenshots/all_68/03_welcome.png"
+  },
+  {
+    "number": 4,
+    "id": "onboarding1",
+    "title": "Onboarding · 1",
+    "png": "screenshots/all_68/04_onboarding1.png"
+  },
+  {
+    "number": 5,
+    "id": "onboarding2",
+    "title": "Onboarding · 2",
+    "png": "screenshots/all_68/05_onboarding2.png"
+  },
+  {
+    "number": 6,
+    "id": "onboarding3",
+    "title": "Onboarding · 3",
+    "png": "screenshots/all_68/06_onboarding3.png"
+  },
+  {
+    "number": 7,
+    "id": "login",
+    "title": "Kirish",
+    "png": "screenshots/all_68/07_login.png"
+  },
+  {
+    "number": 8,
+    "id": "signup",
+    "title": "Ro‘yxatdan o‘tish",
+    "png": "screenshots/all_68/08_signup.png"
+  },
+  {
+    "number": 9,
+    "id": "forgot",
+    "title": "Parolni tiklash",
+    "png": "screenshots/all_68/09_forgot.png"
+  },
+  {
+    "number": 10,
+    "id": "role",
+    "title": "Profil turini tanlash",
+    "png": "screenshots/all_68/10_role.png"
+  },
+  {
+    "number": 11,
+    "id": "home",
+    "title": "Bosh sahifa",
+    "png": "screenshots/all_68/11_home.png"
+  },
+  {
+    "number": 12,
+    "id": "search",
+    "title": "Umumiy qidiruv",
+    "png": "screenshots/all_68/12_search.png"
+  },
+  {
+    "number": 13,
+    "id": "notifications",
+    "title": "Bildirishnomalar",
+    "png": "screenshots/all_68/13_notifications.png"
+  },
+  {
+    "number": 14,
+    "id": "favorites",
+    "title": "Sevimlilar",
+    "png": "screenshots/all_68/14_favorites.png"
+  },
+  {
+    "number": 15,
+    "id": "dashboard",
+    "title": "Shaxsiy panel",
+    "png": "screenshots/all_68/15_dashboard.png"
+  },
+  {
+    "number": 16,
+    "id": "scanner",
+    "title": "Ingredient skaneri",
+    "png": "screenshots/all_68/16_scanner.png"
+  },
+  {
+    "number": 17,
+    "id": "camera",
+    "title": "Kamera",
+    "png": "screenshots/all_68/17_camera.png"
+  },
+  {
+    "number": 18,
+    "id": "gallery",
+    "title": "Galereyadan tanlash",
+    "png": "screenshots/all_68/18_gallery.png"
+  },
+  {
+    "number": 19,
+    "id": "ocr",
+    "title": "OCR tasdiqlash",
+    "png": "screenshots/all_68/19_ocr.png"
+  },
+  {
+    "number": 20,
+    "id": "analysis",
+    "title": "Tahlil natijasi",
+    "png": "screenshots/all_68/20_analysis.png"
+  },
+  {
+    "number": 21,
+    "id": "ingredient",
+    "title": "Ingredient tafsiloti",
+    "png": "screenshots/all_68/21_ingredient.png"
+  },
+  {
+    "number": 22,
+    "id": "catalog",
+    "title": "Ingredient katalogi",
+    "png": "screenshots/all_68/22_catalog.png"
+  },
+  {
+    "number": 23,
+    "id": "history",
+    "title": "Skaner tarixi",
+    "png": "screenshots/all_68/23_history.png"
+  },
+  {
+    "number": 24,
+    "id": "saved-products",
+    "title": "Saqlangan mahsulotlar",
+    "png": "screenshots/all_68/24_saved-products.png"
+  },
+  {
+    "number": 25,
+    "id": "skincare",
+    "title": "Parvarish paneli",
+    "png": "screenshots/all_68/25_skincare.png"
+  },
+  {
+    "number": 26,
+    "id": "morning",
+    "title": "Ertalabki reja",
+    "png": "screenshots/all_68/26_morning.png"
+  },
+  {
+    "number": 27,
+    "id": "evening",
+    "title": "Kechki reja",
+    "png": "screenshots/all_68/27_evening.png"
+  },
+  {
+    "number": 28,
+    "id": "routine-builder",
+    "title": "Reja yaratish",
+    "png": "screenshots/all_68/28_routine-builder.png"
+  },
+  {
+    "number": 29,
+    "id": "journal",
+    "title": "Kundalik",
+    "png": "screenshots/all_68/29_journal.png"
+  },
+  {
+    "number": 30,
+    "id": "calendar",
+    "title": "Kalendar",
+    "png": "screenshots/all_68/30_calendar.png"
+  },
+  {
+    "number": 31,
+    "id": "journal-entry",
+    "title": "Kundalik qaydi",
+    "png": "screenshots/all_68/31_journal-entry.png"
+  },
+  {
+    "number": 32,
+    "id": "products",
+    "title": "Mahsulotlarim",
+    "png": "screenshots/all_68/32_products.png"
+  },
+  {
+    "number": 33,
+    "id": "product-add",
+    "title": "Mahsulot qo‘shish",
+    "png": "screenshots/all_68/33_product-add.png"
+  },
+  {
+    "number": 34,
+    "id": "academy",
+    "title": "Akademiya",
+    "png": "screenshots/all_68/34_academy.png"
+  },
+  {
+    "number": 35,
+    "id": "courses",
+    "title": "Kurslar katalogi",
+    "png": "screenshots/all_68/35_courses.png"
+  },
+  {
+    "number": 36,
+    "id": "course-detail",
+    "title": "Kurs tafsiloti",
+    "png": "screenshots/all_68/36_course-detail.png"
+  },
+  {
+    "number": 37,
+    "id": "lesson",
+    "title": "Matnli dars",
+    "png": "screenshots/all_68/37_lesson.png"
+  },
+  {
+    "number": 38,
+    "id": "video",
+    "title": "Video dars",
+    "png": "screenshots/all_68/38_video.png"
+  },
+  {
+    "number": 39,
+    "id": "quiz",
+    "title": "Test",
+    "png": "screenshots/all_68/39_quiz.png"
+  },
+  {
+    "number": 40,
+    "id": "quiz-results",
+    "title": "Test natijasi",
+    "png": "screenshots/all_68/40_quiz-results.png"
+  },
+  {
+    "number": 41,
+    "id": "progress",
+    "title": "O‘quv progressi",
+    "png": "screenshots/all_68/41_progress.png"
+  },
+  {
+    "number": 42,
+    "id": "teacher",
+    "title": "Ustoz paneli",
+    "png": "screenshots/all_68/42_teacher.png"
+  },
+  {
+    "number": 43,
+    "id": "quiz-builder",
+    "title": "Test yaratish",
+    "png": "screenshots/all_68/43_quiz-builder.png"
+  },
+  {
+    "number": 44,
+    "id": "slides",
+    "title": "Dars taqdimoti",
+    "png": "screenshots/all_68/44_slides.png"
+  },
+  {
+    "number": 45,
+    "id": "group-create",
+    "title": "QR guruh testi yaratish",
+    "png": "screenshots/all_68/45_group-create.png"
+  },
+  {
+    "number": 46,
+    "id": "group-join",
+    "title": "Guruh testiga qo‘shilish",
+    "png": "screenshots/all_68/46_group-join.png"
+  },
+  {
+    "number": 47,
+    "id": "group-lobby",
+    "title": "QR va guruh kutish xonasi",
+    "png": "screenshots/all_68/47_group-lobby.png"
+  },
+  {
+    "number": 48,
+    "id": "group-quiz",
+    "title": "Guruh testi savollari",
+    "png": "screenshots/all_68/48_group-quiz.png"
+  },
+  {
+    "number": 49,
+    "id": "group-results",
+    "title": "Guruh natijalari",
+    "png": "screenshots/all_68/49_group-results.png"
+  },
+  {
+    "number": 50,
+    "id": "mistake-review",
+    "title": "Xatolar va slaydga qaytish",
+    "png": "screenshots/all_68/50_mistake-review.png"
+  },
+  {
+    "number": 51,
+    "id": "ai",
+    "title": "SAMIYA AI",
+    "png": "screenshots/all_68/51_ai.png"
+  },
+  {
+    "number": 52,
+    "id": "ai-history",
+    "title": "Suhbatlar tarixi",
+    "png": "screenshots/all_68/52_ai-history.png"
+  },
+  {
+    "number": 53,
+    "id": "ai-sources",
+    "title": "Manbalar",
+    "png": "screenshots/all_68/53_ai-sources.png"
+  },
+  {
+    "number": 54,
+    "id": "journey",
+    "title": "Mening bugunim",
+    "png": "screenshots/all_68/54_journey.png"
+  },
+  {
+    "number": 55,
+    "id": "skin-profile",
+    "title": "Teri afzalliklari",
+    "png": "screenshots/all_68/55_skin-profile.png"
+  },
+  {
+    "number": 56,
+    "id": "product-guide",
+    "title": "Mahsulot tanlash",
+    "png": "screenshots/all_68/56_product-guide.png"
+  },
+  {
+    "number": 57,
+    "id": "mini-lesson",
+    "title": "2 daqiqalik dars",
+    "png": "screenshots/all_68/57_mini-lesson.png"
+  },
+  {
+    "number": 58,
+    "id": "weekly-review",
+    "title": "Haftalik kuzatuv",
+    "png": "screenshots/all_68/58_weekly-review.png"
+  },
+  {
+    "number": 59,
+    "id": "profile",
+    "title": "Profil",
+    "png": "screenshots/all_68/59_profile.png"
+  },
+  {
+    "number": 60,
+    "id": "edit-profile",
+    "title": "Profilni o‘zgartirish",
+    "png": "screenshots/all_68/60_edit-profile.png"
+  },
+  {
+    "number": 61,
+    "id": "pro",
+    "title": "Pro tariflari",
+    "png": "screenshots/all_68/61_pro.png"
+  },
+  {
+    "number": 62,
+    "id": "subscription",
+    "title": "Obuna boshqaruvi",
+    "png": "screenshots/all_68/62_subscription.png"
+  },
+  {
+    "number": 63,
+    "id": "settings",
+    "title": "Sozlamalar",
+    "png": "screenshots/all_68/63_settings.png"
+  },
+  {
+    "number": 64,
+    "id": "language-settings",
+    "title": "Til sozlamalari",
+    "png": "screenshots/all_68/64_language-settings.png"
+  },
+  {
+    "number": 65,
+    "id": "privacy",
+    "title": "Maxfiylik",
+    "png": "screenshots/all_68/65_privacy.png"
+  },
+  {
+    "number": 66,
+    "id": "data-tools",
+    "title": "Ma’lumotlarni boshqarish",
+    "png": "screenshots/all_68/66_data-tools.png"
+  },
+  {
+    "number": 67,
+    "id": "help",
+    "title": "Yordam markazi",
+    "png": "screenshots/all_68/67_help.png"
+  },
+  {
+    "number": 68,
+    "id": "about",
+    "title": "Ilova haqida",
+    "png": "screenshots/all_68/68_about.png"
+  }
+]

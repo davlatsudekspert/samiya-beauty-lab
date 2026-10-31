@@ -1,0 +1,18 @@
+{
+  // Cloudflare Worker. Hisob ID va D1 database_id ni egasi o'z hisobidan qo'yadi (maxfiy emas, lekin shaxsiy).
+  "name": "samiya-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "vars": {
+    // PUBLIC_LAUNCH_DATE ni FAQAT rasmiy ommaviy launch kuni egasi qo'yadi (YYYY-MM-DD). Hozir bo'sh = prelaunch.
+    "CAMPAIGN_DURATION_DAYS": "90",
+    "AI_FREE_DAILY_REQUESTS": "5",
+    "AI_PRO_DAILY_REQUESTS": "50",
+    "BILLING_ENABLED": "false",
+    "ADS_ENABLED": "false"
+  },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "samiya", "database_id": "REPLACE_WITH_D1_ID", "migrations_dir": "migrations" }
+  ]
+  // Maxfiylar (FIREBASE_PROJECT_ID, GEMINI_API_KEY, REVENUECAT_WEBHOOK_SECRET...) faqat `wrangler secret put` orqali.
+}

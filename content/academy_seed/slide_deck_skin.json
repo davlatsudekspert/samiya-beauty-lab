@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "owner_app": "SAMIYA BEAUTY LAB",
+    "language": "uz-Latn",
+    "created": "2026-10-28",
+    "official_faculty_exam_bank": false,
+    "status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+    "statement": "Original educational seed, not official university/faculty exam questions"
+  },
+  "slides": [
+    {
+      "id": "SKIN-S01",
+      "title": "Teri — himoya organi",
+      "body": "Teri tashqi muhitga qarshi muhim to‘siq bo‘lib, suv muvozanati va harorat boshqaruvida ishtirok etadi.",
+      "bullets": [
+        "Epidermis",
+        "Derma",
+        "Gipoderma"
+      ],
+      "source_id": "NCBI_SKIN"
+    },
+    {
+      "id": "SKIN-S02",
+      "title": "Epidermis va shox qavat",
+      "body": "Epidermis tashqi qatlam; stratum corneum uning eng ustki qavati bo‘lib, namlik yo‘qotilishini cheklashda ishtirok etadi.",
+      "bullets": [
+        "Keratinotsitlar",
+        "Stratum corneum",
+        "Teri to‘sig‘i"
+      ],
+      "source_id": "NCBI_SKIN"
+    },
+    {
+      "id": "SKIN-S03",
+      "title": "Derma nima?",
+      "body": "Derma kollagenli biriktiruvchi to‘qima, tomirlar, sezuvchi nervlar hamda ter bezlari va follikulalarni o‘z ichiga oladi.",
+      "bullets": [
+        "Qon tomirlari",
+        "Nervlar",
+        "Biriktiruvchi to‘qima"
+      ],
+      "source_id": "NCBI_SKIN"
+    },
+    {
+      "id": "SKIN-S04",
+      "title": "Gipoderma",
+      "body": "Terining chuqur qismi asosan yog‘ va biriktiruvchi to‘qimadan tashkil topadi.",
+      "bullets": [
+        "Yog‘ to‘qimasi",
+        "Biriktiruvchi tolalar",
+        "Tayanch vazifa"
+      ],
+      "source_id": "NCBI_SKIN"
+    },
+    {
+      "id": "SKIN-S05",
+      "title": "Teri to‘sig‘i va namlik",
+      "body": "Teri to‘sig‘i namlikning ortiqcha yo‘qolishiga qarshi yordam beradi. Yumshoq parvarish va namlantirish kundalik o‘quv mavzularidir.",
+      "bullets": [
+        "Tashqi muhit",
+        "Suv yo‘qotilishi",
+        "Namlantirish"
+      ],
+      "source_id": "NCBI_SKIN"
+    },
+    {
+      "id": "SKIN-S06",
+      "title": "Bilimingizni tekshiring",
+      "body": "Teri qatlamlarini ketma-ket tushuntirib bering, keyin mavzuli testga o‘ting. Xato javobdan tegishli slaydga qaytish mumkin.",
+      "bullets": [
+        "Qayta takrorlash",
+        "5 ta mavzuli savol",
+        "Natijani tahlil qilish"
+      ],
+      "source_id": "NCBI_SKIN"
+    }
+  ],
+  "references": {
+    "NCBI_SKIN": {
+      "title": "Anatomy, Skin (Integument), Epidermis — NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470464/"
+    },
+    "EU_COSING": {
+      "title": "European Commission CosIng database",
+      "url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en"
+    },
+    "FDA_LABEL": {
+      "title": "FDA: Summary of Cosmetics Labeling Requirements",
+      "url": "https://www.fda.gov/cosmetics/cosmetics-labeling-regulations/summary-cosmetics-labeling-requirements"
+    },
+    "AAD_SPF": {
+      "title": "AAD: How to select a sunscreen",
+      "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-select-sunscreen"
+    },
+    "AAD_DRY": {
+      "title": "AAD: Dermatologists’ top tips for relieving dry skin",
+      "url": "https://www.aad.org/public/everyday-care/skin-care-basics/dry/dermatologists-tips-relieve-dry-skin/"
+    },
+    "CDC_PRECAUTIONS": {
+      "title": "CDC: Standard Precautions for All Patient Care",
+      "url": "https://www.cdc.gov/infection-control/hcp/basics/standard-precautions.html"
+    },
+    "FDA_COSMETICS": {
+      "title": "FDA: Cosmetics Safety Q&A",
+      "url": "https://www.fda.gov/cosmetics/resources-consumers-cosmetics/cosmetics-safety-qa-personal-care-products"
+    }
+  }
+}

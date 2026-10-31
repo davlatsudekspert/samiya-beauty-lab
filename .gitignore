@@ -1,6 +1,5 @@
 # Miscellaneous
 *.class
-*.lock
 *.log
 *.pyc
 *.swp
@@ -117,3 +116,16 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+# --- SAMIYA: maxfiylar va generatsiya qilingan fayllar ---
+node_modules/
+.dev.vars
+.wrangler/
+*.p8
+*.jks
+*.keystore
+google-services.json
+GoogleService-Info.plist
+.env
+mobile/build/
+mobile/.dart_tool/

@@ -1,0 +1,582 @@
+{
+  "metadata": {
+    "owner_app": "SAMIYA BEAUTY LAB",
+    "language": "uz-Latn",
+    "created": "2026-10-28",
+    "official_faculty_exam_bank": false,
+    "status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+    "statement": "Original educational seed, not official university/faculty exam questions"
+  },
+  "questions": [
+    {
+      "id": "SKIN-01",
+      "topic": "skin",
+      "question": "Terining eng tashqi asosiy qatlami qaysi?",
+      "options": [
+        "Derma",
+        "Epidermis",
+        "Gipoderma",
+        "Mushak"
+      ],
+      "correct": 1,
+      "explanation": "Epidermis terining tashqi qatlamidir.",
+      "source_id": "NCBI_SKIN",
+      "slide_index": 1,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SKIN-02",
+      "topic": "skin",
+      "question": "Qaysi qatlamda ko‘plab qon tomirlari va nerv tuzilmalari mavjud?",
+      "options": [
+        "Epidermis",
+        "Tirnoq plastinkasi",
+        "Derma",
+        "Stratum corneum"
+      ],
+      "correct": 2,
+      "explanation": "Derma biriktiruvchi to‘qima, tomirlar va nerv tuzilmalarini o‘z ichiga oladi.",
+      "source_id": "NCBI_SKIN",
+      "slide_index": 2,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SKIN-03",
+      "topic": "skin",
+      "question": "Gipoderma odatda nimadan tashkil topadi?",
+      "options": [
+        "Asosan yog‘ va biriktiruvchi to‘qima",
+        "Faqat keratin",
+        "Faqat epidermal hujayra",
+        "Faqat pigment"
+      ],
+      "correct": 0,
+      "explanation": "Gipoderma asosan yog‘ to‘qimasi va biriktiruvchi tuzilmadan iborat.",
+      "source_id": "NCBI_SKIN",
+      "slide_index": 3,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SKIN-04",
+      "topic": "skin",
+      "question": "Shox qavat (stratum corneum) qaysi qatlamning bir qismi?",
+      "options": [
+        "Dermisning",
+        "Epidermisning",
+        "Gipodermaning",
+        "Suyakning"
+      ],
+      "correct": 1,
+      "explanation": "Shox qavat epidermisning eng ustki qismidir.",
+      "source_id": "NCBI_SKIN",
+      "slide_index": 1,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SKIN-05",
+      "topic": "skin",
+      "question": "Teri to‘sig‘ining vazifalaridan biri nima?",
+      "options": [
+        "Barcha UV nurlarini 100% to‘sish",
+        "Mahsulot formulalarini tuzish",
+        "Suv yo‘qotilishini cheklash",
+        "Faqat ter rangini belgilash"
+      ],
+      "correct": 2,
+      "explanation": "Teri to‘sig‘i tashqi ta’sirlardan himoya va namlikni saqlashda ishtirok etadi.",
+      "source_id": "NCBI_SKIN",
+      "slide_index": 4,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SKIN-06",
+      "topic": "skin",
+      "question": "Teri qatlamlarini tashqaridan ichkariga to‘g‘ri tartiblang.",
+      "options": [
+        "Derma → Epidermis → Gipoderma",
+        "Epidermis → Derma → Gipoderma",
+        "Gipoderma → Derma → Epidermis",
+        "Epidermis → Gipoderma → Derma"
+      ],
+      "correct": 1,
+      "explanation": "Tashqi qatlam epidermis, undan so‘ng derma va gipoderma joylashadi.",
+      "source_id": "NCBI_SKIN",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "INCI-01",
+      "topic": "inci",
+      "question": "INCI ro‘yxatining asosiy maqsadi nima?",
+      "options": [
+        "Mahsulot narxini belgilash",
+        "Ingredient nomlarini standart ko‘rsatish",
+        "Dermatologik tashxis berish",
+        "Halol sertifikatlash"
+      ],
+      "correct": 1,
+      "explanation": "INCI ingredient nomlarini umumiy formatda ifodalaydi.",
+      "source_id": "EU_COSING",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "INCI-02",
+      "topic": "inci",
+      "question": "CosIng bazasida ingredient borligi nimani anglatadi?",
+      "options": [
+        "Har qanday formulada xavfsiz",
+        "Barcha davlatda avtomatik tasdiqlangan",
+        "Ingredient haqidagi ma’lumot mavjud",
+        "Halol sertifikati mavjud"
+      ],
+      "correct": 2,
+      "explanation": "CosIng ma’lumotnoma; mavjudlik avtomatik ruxsat yoki xavfsizlik kafolati emas.",
+      "source_id": "EU_COSING",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "INCI-03",
+      "topic": "inci",
+      "question": "Kosmetik mahsulot tarkibidan 88% xavfsizlik bahosini berish ...",
+      "options": [
+        "Har doim aniq",
+        "Faqat rangga bog‘liq",
+        "Qo‘shimcha baholashsiz asoslanmaydi",
+        "Majburiy standart"
+      ],
+      "correct": 2,
+      "explanation": "Faqat ingredientlar ro‘yxati tayyor mahsulot xavfsizligini foizda tasdiqlamaydi.",
+      "source_id": "EU_COSING",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "INCI-04",
+      "topic": "inci",
+      "question": "AQSH FDA umumiy yorliq qoidasida ko‘p ingredientlar qanday tartibda ko‘rsatiladi?",
+      "options": [
+        "Narx bo‘yicha",
+        "Dastlab ko‘p miqdordagidan kamayish tartibida, ayrim istisnolar bilan",
+        "Alifbo bo‘yicha doim",
+        "Faqat ishlab chiqaruvchi tanlovi bilan"
+      ],
+      "correct": 1,
+      "explanation": "FDA qoidasida ustuvor tartib kamayib boradi; 1% yoki kam va ranglar uchun istisnolar bor.",
+      "source_id": "FDA_LABEL",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "INCI-05",
+      "topic": "inci",
+      "question": "Ingredient ro‘yxati o‘zi mahsulotning halolligini tasdiqlaydimi?",
+      "options": [
+        "Ha, har doim",
+        "Faqat 5 tadan ko‘p ingredient bo‘lsa",
+        "Yo‘q, alohida tekshirish talab qilinadi",
+        "QR kodi bo‘lsa"
+      ],
+      "correct": 2,
+      "explanation": "INCI tarkib ro‘yxati bo‘lib, sertifikatni almashtirmaydi.",
+      "source_id": "EU_COSING",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SPF-01",
+      "topic": "spf",
+      "question": "Keng spektrli (broad-spectrum) SPF himoyasi nimani anglatadi?",
+      "options": [
+        "Faqat UVB",
+        "UVA va UVB",
+        "Faqat infraqizil",
+        "Faqat ko‘rinadigan yorug‘lik"
+      ],
+      "correct": 1,
+      "explanation": "Keng spektrli mahsulot UVA va UVB nurlarga qarshi himoyani bildiradi.",
+      "source_id": "AAD_SPF",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SPF-02",
+      "topic": "spf",
+      "question": "AAD SPF bo‘yicha odatda qaysi ko‘rsatkichni tavsiya etadi?",
+      "options": [
+        "SPF 5",
+        "SPF 10",
+        "SPF 30 yoki yuqori",
+        "Faqat SPF 100"
+      ],
+      "correct": 2,
+      "explanation": "AAD keng spektrli SPF 30 yoki yuqori vositani tavsiya qiladi.",
+      "source_id": "AAD_SPF",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SPF-03",
+      "topic": "spf",
+      "question": "SPF 50 mahsulot terini UVBdan 100% himoya qiladimi?",
+      "options": [
+        "Ha",
+        "Yo‘q",
+        "Faqat qishda",
+        "Faqat yuzda"
+      ],
+      "correct": 1,
+      "explanation": "Hech bir quyoshdan himoya vositasi UVBni 100% to‘smaydi.",
+      "source_id": "AAD_SPF",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SPF-04",
+      "topic": "spf",
+      "question": "Suvga chidamli SPF yorlig‘i nimani anglatadi?",
+      "options": [
+        "Butun kun suvda himoya",
+        "Ma’lum sinov sharoitida 40 yoki 80 daqiqalik chidamlilik",
+        "Cheksiz himoya",
+        "Qayta surish kerak emas"
+      ],
+      "correct": 1,
+      "explanation": "Suvga chidamlilik muayyan vaqt (40/80 min) uchun ko‘rsatiladi.",
+      "source_id": "AAD_SPF",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SPF-05",
+      "topic": "spf",
+      "question": "Tashqarida uzoq bo‘lganda SPFni qo‘llash qanday?",
+      "options": [
+        "Faqat bir marta",
+        "Odatda har 2 soatda va terlash/suzishdan keyin qayta qo‘llash",
+        "Faqat kechasi",
+        "Faqat makiyajdan oldin"
+      ],
+      "correct": 1,
+      "explanation": "AAD tashqarida bo‘lganda odatda har 2 soatda takror surtishni tavsiya qiladi.",
+      "source_id": "AAD_SPF",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "MOIST-01",
+      "topic": "moist",
+      "question": "Humektant (masalan, glitserin) nima bilan bog‘liq?",
+      "options": [
+        "Mahsulotni bo‘yash",
+        "Namlikni jalb qilish/ushlash",
+        "SPF o‘lchash",
+        "Yorliq bosish"
+      ],
+      "correct": 1,
+      "explanation": "Glitserin teri namlanishini qo‘llab-quvvatlashda ishlatiladi.",
+      "source_id": "AAD_DRY",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "MOIST-02",
+      "topic": "moist",
+      "question": "Quruq va sezgir terida qaysi yorliq ko‘pincha ma’qul?",
+      "options": [
+        "Fragrance-free",
+        "Juda kuchli atirli",
+        "Faqat oltin rang quti",
+        "Faqat eng qimmat"
+      ],
+      "correct": 0,
+      "explanation": "AAD quruq/sezgir terida atirsiz, yumshoq vositalarni ko‘rib chiqishni tavsiya qiladi.",
+      "source_id": "AAD_DRY",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "MOIST-03",
+      "topic": "moist",
+      "question": "Quruq teriga ko‘proq namlik berishi mumkin bo‘lgan shakl qaysi?",
+      "options": [
+        "Qalin krem yoki malham",
+        "Faqat suv purkagich",
+        "Faqat qattiq sovun",
+        "Faqat atir"
+      ],
+      "correct": 0,
+      "explanation": "AAD losonga nisbatan krem yoki malhamni ko‘proq namlantiruvchi variant sifatida tilga oladi.",
+      "source_id": "AAD_DRY",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "MOIST-04",
+      "topic": "moist",
+      "question": "Namlanish bilan bog‘liq ingredientni toping.",
+      "options": [
+        "Glitserin",
+        "Qadoq kartoni",
+        "QR kodi",
+        "Parfyumeriya reklamasi"
+      ],
+      "correct": 0,
+      "explanation": "Glitserin ko‘plab namlantiruvchi formulalarda uchraydi.",
+      "source_id": "AAD_DRY",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "MOIST-05",
+      "topic": "moist",
+      "question": "Quruqlik davom etsa nima qilish foydali?",
+      "options": [
+        "Kuchli mahsulotlarni aralashtirish",
+        "Dermatolog bilan maslahatlashish",
+        "Har kuni ko‘proq skrab qilish",
+        "Yorliqni o‘qimaslik"
+      ],
+      "correct": 1,
+      "explanation": "Doimiy yoki kuchli quruqlikda sababni shifokor baholashi kerak.",
+      "source_id": "AAD_DRY",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "HYGIENE-01",
+      "topic": "hygiene",
+      "question": "Muolajadan oldin qo‘l gigiyenasi nimaga xizmat qiladi?",
+      "options": [
+        "Faqat xushbo‘ylik",
+        "Infeksiya tarqalishi xavfini kamaytirish",
+        "Terining SPFini oshirish",
+        "Mahsulot hajmini ko‘paytirish"
+      ],
+      "correct": 1,
+      "explanation": "Qo‘l gigiyenasi standart ehtiyot choralarining asosiy qismidir.",
+      "source_id": "CDC_PRECAUTIONS",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "HYGIENE-02",
+      "topic": "hygiene",
+      "question": "PPE qachon tanlanadi?",
+      "options": [
+        "Har doim bitta turda",
+        "Infeksion material bilan ehtimoliy kontaktdan kelib chiqib",
+        "Faqat suratga olishda",
+        "Faqat mijoz talab qilsa"
+      ],
+      "correct": 1,
+      "explanation": "CDC xavf baholashiga ko‘ra tegishli shaxsiy himoya vositalarini tanlashni ko‘rsatadi.",
+      "source_id": "CDC_PRECAUTIONS",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "HYGIENE-03",
+      "topic": "hygiene",
+      "question": "Standart ehtiyot choralarining maqsadi nima?",
+      "options": [
+        "Faqat tez ishlash",
+        "Xodim va mijozni infeksiya yuqishidan himoya qilish",
+        "Faqat dizayn",
+        "Faol ingredientni oshirish"
+      ],
+      "correct": 1,
+      "explanation": "Standart choralar infeksiyaning tarqalish xavfini kamaytiradi.",
+      "source_id": "CDC_PRECAUTIONS",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "HYGIENE-04",
+      "topic": "hygiene",
+      "question": "Kosmetologik muolajada infeksiya xavfi baholanishi kerakmi?",
+      "options": [
+        "Yo‘q",
+        "Ha",
+        "Faqat premium xizmatda",
+        "Faqat nazariyada"
+      ],
+      "correct": 1,
+      "explanation": "Kutilayotgan ekspozitsiya asosida himoya choralari ko‘riladi.",
+      "source_id": "CDC_PRECAUTIONS",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "HYGIENE-05",
+      "topic": "hygiene",
+      "question": "Qo‘l gigiyenasi himoya qo‘lqoplarini har doim almashtiradimi?",
+      "options": [
+        "Ha",
+        "Yo‘q, ular bir-birini to‘liq almashtirmaydi",
+        "Faqat reklamaga bog‘liq",
+        "Faqat quruq terida"
+      ],
+      "correct": 1,
+      "explanation": "Gigiyena va PPE riskka ko‘ra birgalikda qo‘llanadi.",
+      "source_id": "CDC_PRECAUTIONS",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SAFETY-01",
+      "topic": "safety",
+      "question": "Kosmetik mahsulotdagi “natural” yozuvi uni har kimga xavfsiz qiladimi?",
+      "options": [
+        "Ha",
+        "Yo‘q",
+        "Faqat yangi mahsulotda",
+        "Faqat katalogda"
+      ],
+      "correct": 1,
+      "explanation": "Tabiiy kelib chiqish har qanday shaxs uchun mutlaq xavfsizlik kafolati emas.",
+      "source_id": "FDA_COSMETICS",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SAFETY-02",
+      "topic": "safety",
+      "question": "Kosmetika bilan dori vositasini farqlashda nimaga qaraladi?",
+      "options": [
+        "Faqat idish rangi",
+        "Da’vo va mahsulotning mo‘ljallangan ta’siri",
+        "Faqat brend nomi",
+        "Faqat narx"
+      ],
+      "correct": 1,
+      "explanation": "Kasallikni davolash/preventsiya qilish da’volari tartibga solish maqomiga ta’sir qiladi.",
+      "source_id": "FDA_COSMETICS",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SAFETY-03",
+      "topic": "safety",
+      "question": "Kosmetikada allergiya ehtimolini qaysi asosda 0% deyish mumkin?",
+      "options": [
+        "Faqat INCI bo‘yicha",
+        "Har kim uchun 0% deb bo‘lmaydi",
+        "Faqat premium brendda",
+        "Faqat atirsiz mahsulotda"
+      ],
+      "correct": 1,
+      "explanation": "Shaxsiy ta’sirchanlik va kontekst muhim; nol xavf deb kafolat berilmaydi.",
+      "source_id": "FDA_COSMETICS",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "SAFETY-04",
+      "topic": "safety",
+      "question": "Mahsulot yorlig‘idagi ogohlantirishlar nima uchun kerak?",
+      "options": [
+        "Faqat bezak",
+        "Tegishli xavf va ehtiyot choralarini bildirish",
+        "Faqat reklama",
+        "Tarkibni yashirish"
+      ],
+      "correct": 1,
+      "explanation": "Ayrim kosmetik mahsulotlar xavfsiz qo‘llash uchun ogohlantirish va ko‘rsatmalar talab qiladi.",
+      "source_id": "FDA_LABEL",
+      "slide_index": 0,
+      "review_status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+      "official_exam_question": false,
+      "difficulty": "beginner"
+    }
+  ],
+  "references": {
+    "NCBI_SKIN": {
+      "title": "Anatomy, Skin (Integument), Epidermis — NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470464/"
+    },
+    "EU_COSING": {
+      "title": "European Commission CosIng database",
+      "url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en"
+    },
+    "FDA_LABEL": {
+      "title": "FDA: Summary of Cosmetics Labeling Requirements",
+      "url": "https://www.fda.gov/cosmetics/cosmetics-labeling-regulations/summary-cosmetics-labeling-requirements"
+    },
+    "AAD_SPF": {
+      "title": "AAD: How to select a sunscreen",
+      "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-select-sunscreen"
+    },
+    "AAD_DRY": {
+      "title": "AAD: Dermatologists’ top tips for relieving dry skin",
+      "url": "https://www.aad.org/public/everyday-care/skin-care-basics/dry/dermatologists-tips-relieve-dry-skin/"
+    },
+    "CDC_PRECAUTIONS": {
+      "title": "CDC: Standard Precautions for All Patient Care",
+      "url": "https://www.cdc.gov/infection-control/hcp/basics/standard-precautions.html"
+    },
+    "FDA_COSMETICS": {
+      "title": "FDA: Cosmetics Safety Q&A",
+      "url": "https://www.fda.gov/cosmetics/resources-consumers-cosmetics/cosmetics-safety-qa-personal-care-products"
+    }
+  }
+}

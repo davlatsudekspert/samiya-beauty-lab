@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "owner_app": "SAMIYA BEAUTY LAB",
+    "language": "uz-Latn",
+    "created": "2026-10-28",
+    "official_faculty_exam_bank": false,
+    "status": "DRAFT_NEEDS_COSMETOLOGIST_REVIEW",
+    "statement": "Original educational seed, not official university/faculty exam questions"
+  },
+  "topics": [
+    {
+      "id": "skin",
+      "title": "Teri anatomiyasi va fiziologiyasi",
+      "source_id": "NCBI_SKIN",
+      "status": "DRAFT_NEEDS_EXPERT_REVIEW"
+    },
+    {
+      "id": "inci",
+      "title": "INCI va kosmetik ingredientlar",
+      "source_id": "EU_COSING",
+      "status": "DRAFT_NEEDS_EXPERT_REVIEW"
+    },
+    {
+      "id": "spf",
+      "title": "Quyoshdan himoyalanish",
+      "source_id": "AAD_SPF",
+      "status": "DRAFT_NEEDS_EXPERT_REVIEW"
+    },
+    {
+      "id": "moist",
+      "title": "Namlantirish va teri to‘sig‘i",
+      "source_id": "AAD_DRY",
+      "status": "DRAFT_NEEDS_EXPERT_REVIEW"
+    },
+    {
+      "id": "hygiene",
+      "title": "Gigiyena va infeksiya nazorati",
+      "source_id": "CDC_PRECAUTIONS",
+      "status": "DRAFT_NEEDS_EXPERT_REVIEW"
+    },
+    {
+      "id": "safety",
+      "title": "Kosmetik xavfsizlik va yorliqlar",
+      "source_id": "FDA_COSMETICS",
+      "status": "DRAFT_NEEDS_EXPERT_REVIEW"
+    }
+  ]
+}
