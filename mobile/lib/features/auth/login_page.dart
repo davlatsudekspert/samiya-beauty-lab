@@ -72,7 +72,7 @@ class _LoginPageState extends State<LoginPage> {
               child: PageBody(
                 child: Column(children: [
                   const SizedBox(height: 4),
-                  PortraitBanner(title: l.loginBanner, eyebrow: l.appName),
+                  PortraitBanner(key: const Key('login-banner'), title: l.loginBanner, eyebrow: l.appName),
                   const SizedBox(height: 18),
                   InfoPill(l.campaignNoCard),
                   const SizedBox(height: 14),

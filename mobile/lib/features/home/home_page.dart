@@ -81,7 +81,7 @@ class HomePage extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 16),
-          PortraitBanner(title: l.homeBannerTitle, tag: l.homeBannerTag, minHeight: 150),
+          PortraitBanner(key: const Key('home-banner'), title: l.homeBannerTitle, tag: l.homeBannerTag, minHeight: 150),
           const SizedBox(height: 18),
           GridView.builder(
             shrinkWrap: true,

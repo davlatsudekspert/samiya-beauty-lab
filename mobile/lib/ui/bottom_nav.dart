@@ -73,12 +73,14 @@ class _NavItem extends StatelessWidget {
             child: Column(mainAxisAlignment: MainAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
               Icon(icon, size: 26, color: color),
               const SizedBox(height: 3),
-              Text(label,
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                  textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                      color: color, fontSize: 11, fontWeight: selected ? FontWeight.w700 : FontWeight.w500, letterSpacing: 0)),
+              FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(label,
+                    maxLines: 1,
+                    textAlign: TextAlign.center,
+                    style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                        color: color, fontSize: 11, fontWeight: selected ? FontWeight.w700 : FontWeight.w500, letterSpacing: 0)),
+              ),
             ]),
           ),
         ),

@@ -11,7 +11,13 @@ class PortraitBanner extends StatelessWidget {
   final double minHeight;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => LayoutBuilder(builder: (context, c) => _build(context, c.maxWidth));
+
+  Widget _build(BuildContext context, double width) {
+    // Ingichka ekranda portret torayadi va matn kengroq maydon oladi (so'z o'rtasidan uzilmasligi uchun).
+    final narrow = width < 330;
+    final portraitW = narrow ? (width * 0.38).clamp(96.0, 180.0) : 180.0;
+    final textEnd = portraitW - (narrow ? 14 : 30);
     final t = Theme.of(context).textTheme;
     final label = t.labelSmall?.copyWith(color: Colors.white, fontSize: 11, letterSpacing: 1.6);
     return Container(
@@ -33,7 +39,7 @@ class PortraitBanner extends StatelessWidget {
             top: 0,
             bottom: 0,
             end: 0,
-            width: 180,
+            width: portraitW,
             child: ExcludeSemantics(
               child: ShaderMask(
                 blendMode: BlendMode.dstIn,
@@ -49,7 +55,7 @@ class PortraitBanner extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(22, 22, 150, 22),
+            padding: EdgeInsetsDirectional.fromSTEB(narrow ? 18 : 22, 22, textEnd, 22),
             child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
               if (eyebrow != null) ...[
                 Row(mainAxisSize: MainAxisSize.min, children: [
@@ -59,7 +65,9 @@ class PortraitBanner extends StatelessWidget {
                 ]),
                 const SizedBox(height: 10),
               ],
-              Text(title, style: t.headlineSmall?.copyWith(color: Colors.white, fontWeight: FontWeight.w500)),
+              Text(title,
+                  style: t.headlineSmall?.copyWith(
+                      color: Colors.white, fontWeight: FontWeight.w500, fontSize: narrow ? 20 : null)),
               if (tag != null) ...[
                 const SizedBox(height: 10),
                 Text(Localizations.localeOf(context).languageCode == 'ar' ? tag! : tag!.toUpperCase(),

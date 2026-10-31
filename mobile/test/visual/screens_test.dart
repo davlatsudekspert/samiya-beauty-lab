@@ -6,7 +6,6 @@ import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:samiya_beauty_lab/app/app.dart';
 import 'package:samiya_beauty_lab/app/app_state.dart';
@@ -14,36 +13,12 @@ import 'package:samiya_beauty_lab/features/auth/auth_service.dart';
 import 'package:samiya_beauty_lab/features/scanner/ingredient_models.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../support/fonts.dart';
+
 /// Vizual tekshiruv: haqiqiy shrift va rasmlar bilan ekranlarni qa/visual/ ga PNG qilib yozadi.
 /// Ishga tushirish: flutter test --tags visual
-Future<void> _loadFonts() async {
-  const families = {
-    'Inter': ['Regular', 'Medium', 'SemiBold', 'Bold'],
-    'PlayfairDisplay': ['Medium', 'SemiBold', 'Bold'],
-    'IBMPlexSansArabic': ['Regular', 'Medium', 'SemiBold', 'Bold'],
-    'Amiri': ['Regular', 'Bold'],
-  };
-  for (final e in families.entries) {
-    final loader = FontLoader(e.key);
-    for (final w in e.value) {
-      final bytes = File('assets/fonts/${e.key}-$w.ttf').readAsBytesSync();
-      loader.addFont(Future.value(ByteData.sublistView(bytes)));
-    }
-    await loader.load();
-  }
-  final root = Platform.environment['FLUTTER_ROOT'];
-  if (root != null) {
-    final icons = File('$root/bin/cache/artifacts/material_fonts/MaterialIcons-Regular.otf');
-    if (icons.existsSync()) {
-      final l = FontLoader('MaterialIcons')
-        ..addFont(Future.value(ByteData.sublistView(icons.readAsBytesSync())));
-      await l.load();
-    }
-  }
-}
-
 void main() {
-  setUpAll(_loadFonts);
+  setUpAll(loadAppFonts);
   setUp(() => SharedPreferences.setMockInitialValues({}));
 
   final shots = <String, String>{
