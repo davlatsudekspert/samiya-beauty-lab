@@ -7,7 +7,9 @@ Ishlatish:  python3 -I content/tools/validate_content.py content/pilot [--online
 import difflib, json, re, sys, time, urllib.request, urllib.error
 from pathlib import Path
 
-SLUGS = ["niacinamide", "retinol", "salicylic-acid", "hyaluronic-acid", "ascorbic-acid"]
+_FIRST = ["niacinamide", "retinol", "salicylic-acid", "hyaluronic-acid", "ascorbic-acid"]  # birinchi 5 ta tartibi saqlanadi; qolganlari fayllardan avtomatik (alifbo tartibida)
+_PILOT = Path(__file__).resolve().parent.parent / "pilot"
+SLUGS = _FIRST + sorted(p.stem for p in _PILOT.glob("*.json") if p.stem != "glossary" and p.stem not in _FIRST)
 LEVELS = {"A", "B", "C", "insufficient"}
 ANNEX = {"none", "II", "III", "IV", "V", "VI", "unverified"}
 # Qat'iy da'vo va tibbiy va'dalar: ilova siyosati bo'yicha taqiqlangan.

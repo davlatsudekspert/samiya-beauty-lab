@@ -11,7 +11,9 @@ def uz(t: str) -> str:
     """O'zbek lotin: tutuq/oʻ-gʻ belgisi interfeys matnlari bilan bir xil (‘)."""
     return t.replace("'", "\u2018").replace("\u2019", "\u2018")
 
-SLUGS = ["niacinamide", "hyaluronic-acid", "salicylic-acid", "ascorbic-acid", "retinol"]
+_FIRST = ["niacinamide", "hyaluronic-acid", "salicylic-acid", "ascorbic-acid", "retinol"]  # birinchi 5 ta tartibi saqlanadi; qolganlari fayllardan avtomatik (alifbo tartibida)
+_PILOT = Path(__file__).resolve().parent.parent / "pilot"
+SLUGS = _FIRST + sorted(p.stem for p in _PILOT.glob("*.json") if p.stem != "glossary" and p.stem not in _FIRST)
 LANGS = ["en", "uz", "ru", "ar"]
 # Faqat bir xil modda ekanligi aniq nomlar (taxmin qilinmaydi).
 ALIASES = {
