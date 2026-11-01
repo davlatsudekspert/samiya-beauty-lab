@@ -1,0 +1,147 @@
+{
+  "id": "oat-milk-gentle-cleanse",
+  "status": "draft",
+  "photo": "oat",
+  "ingredients": [
+    "oat"
+  ],
+  "minutes": 15,
+  "title": {
+    "uz": "Suli suti bilan yumshoq yuvinish",
+    "ru": "Мягкое умывание овсяным молочком",
+    "en": "Gentle oat milk rinse",
+    "ar": "غسول حليب الشوفان اللطيف"
+  },
+  "intro": {
+    "uz": "Suvda ivitilgan suli sutsimon, mayin suyuqlik beradi. Ertalab yoki pardoz olib tashlangandan keyin yuzni ohista chayish uchun sokin usul.",
+    "ru": "Овёс, настоянный в воде, даёт мягкую, похожую на молоко жидкость. Спокойный способ бережно умыться утром или после снятия макияжа.",
+    "en": "Oats soaked in water give a soft, milky liquid. A calm way to rinse your face gently in the morning or after removing make-up.",
+    "ar": "يمنح الشوفان المنقوع في الماء سائلًا ناعمًا يشبه الحليب: طريقة هادئة لشطف وجهكِ برفق صباحًا أو بعد إزالة المكياج."
+  },
+  "items": [
+    {
+      "uz": "2 osh qoshiq oddiy suli yormasi (shakar va ta'm beruvchi qo'shimchalarsiz)",
+      "ru": "2 ст. ложки обычных овсяных хлопьев (без сахара и ароматизаторов)",
+      "en": "2 tablespoons plain rolled oats (no sugar or flavourings)",
+      "ar": "ملعقتان كبيرتان من رقائق الشوفان العادية (بلا سكر أو منكّهات)"
+    },
+    {
+      "uz": "120 ml qaynatib, iliq holatgacha sovitilgan suv",
+      "ru": "120 мл кипячёной воды, остуженной до тёплой",
+      "en": "120 ml boiled water, cooled until just warm",
+      "ar": "120 مل من ماء مغليّ مبرّد حتى يصير دافئًا"
+    },
+    {
+      "uz": "Toza idish, mayda elak yoki toza doka",
+      "ru": "Чистая миска, мелкое сито или чистая марля",
+      "en": "A clean bowl and a fine sieve or clean muslin",
+      "ar": "وعاء نظيف ومصفاة ناعمة أو قطعة شاش نظيفة"
+    },
+    {
+      "uz": "Yumshoq toza sochiq",
+      "ru": "Мягкое чистое полотенце",
+      "en": "A soft, clean towel",
+      "ar": "منشفة ناعمة نظيفة"
+    }
+  ],
+  "steps": [
+    {
+      "uz": "Sulini idishga soling, iliq suv quying va 10 daqiqa ivitib qo'ying, vaqti-vaqti bilan aralashtirib turing.",
+      "ru": "Насыпьте хлопья в миску, залейте тёплой водой и оставьте на 10 минут, время от времени помешивая.",
+      "en": "Put the oats in the bowl, pour over the warm water and leave to soak for 10 minutes, stirring now and then.",
+      "ar": "ضعي الشوفان في الوعاء، واسكبي عليه الماء الدافئ، واتركيه منقوعًا عشر دقائق مع التحريك من حين لآخر."
+    },
+    {
+      "uz": "Elak yoki doka orqali boshqa toza idishga suzib oling, sulini yengil siqing — sutsimon suyuqlik qoladi. Sulining o'zini tashlab yuboring.",
+      "ru": "Процедите через сито или марлю в другую чистую миску, слегка отжав хлопья, — останется молочная жидкость. Сами хлопья выбросьте.",
+      "en": "Strain through the sieve or muslin into a second clean bowl, pressing the oats lightly — you will be left with a milky liquid. Discard the oats.",
+      "ar": "صفّي الخليط عبر المصفاة أو الشاش في وعاء نظيف آخر مع عصر الشوفان بخفّة، فيبقى سائل حليبي، ثم تخلّصي من الشوفان."
+    },
+    {
+      "uz": "Qo'llaringizni yuving. Pardoz yoki quyoshdan himoya kremi bo'lsa, avval ularni odatiy vositangiz bilan olib tashlang.",
+      "ru": "Вымойте руки. Если на лице макияж или солнцезащитный крем, сначала снимите их привычным средством.",
+      "en": "Wash your hands. If you are wearing make-up or sunscreen, remove it first with your usual product.",
+      "ar": "اغسلي يديكِ. وإن كان على وجهكِ مكياج أو واقي شمس، فأزيليه أولًا بمنتجكِ المعتاد."
+    },
+    {
+      "uz": "Kaftlar bilan suli sutini yuzga sepib, 30–60 soniya barmoq uchlari bilan yengil siling.",
+      "ru": "Ладонями наносите овсяное молочко на лицо и 30–60 секунд мягко массируйте подушечками пальцев.",
+      "en": "Splash the oat milk onto your face with your palms and massage gently with your fingertips for 30–60 seconds.",
+      "ar": "انثري حليب الشوفان على وجهكِ براحتيكِ، ودلّكيه بأطراف أصابعكِ برفق مدة 30 إلى 60 ثانية."
+    },
+    {
+      "uz": "Iliq suv bilan chaying va sochiq bilan bosib quriting.",
+      "ru": "Смойте тёплой водой и промокните лицо полотенцем.",
+      "en": "Rinse with lukewarm water and pat dry with the towel.",
+      "ar": "اشطفي وجهكِ بماء فاتر وجففيه بالتربيت بالمنشفة."
+    },
+    {
+      "uz": "Namlovchi krem bilan yakunlang va qolgan suli sutini to'kib tashlang.",
+      "ru": "Завершите увлажняющим кремом, а остатки овсяного молочка вылейте.",
+      "en": "Finish with your moisturiser and pour away the leftover oat milk.",
+      "ar": "اختمي بالمرطّب، وتخلّصي مما تبقّى من حليب الشوفان."
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Birinchi marta qo'llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo'lsa, bu retseptdan voz keching.",
+      "ru": "Перед первым применением нанесите немного на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+      "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+      "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+      "uz": "Sulili mahsulotlarga allergiyangiz bo'lsa, ishlatmang. Sulili surtma vositalarga sezuvchanlik asosan atopik dermatitli odamlarda qayd etilgan — atopik dermatitingiz bo'lsa, avval shifokor bilan maslahatlashing.",
+      "ru": "Не используйте при аллергии на овёс. Сенсибилизация к овсу в средствах для кожи описана в основном у людей с атопическим дерматитом — если он у вас есть, сначала посоветуйтесь с врачом.",
+      "en": "Do not use if you are allergic to oats. Sensitisation to oat in skin products has been reported mainly in people with atopic dermatitis — if you have it, check with your doctor first.",
+      "ar": "لا تستخدميه إذا كانت لديكِ حساسية من الشوفان. وقد سُجّل التحسّس من الشوفان في منتجات البشرة غالبًا لدى المصابين بالتهاب الجلد التأتبي، فإن كنتِ منهم فاستشيري طبيبكِ أولًا."
+    },
+    {
+      "uz": "Suli suti pardoz va quyoshdan himoya kremini to'liq olib tashlamaydi; uni tozalovchi vosita o'rnida emas, yumshoq chayish sifatida ishlating.",
+      "ru": "Овсяное молочко не смывает полностью макияж и солнцезащитный крем; используйте его как мягкое ополаскивание, а не вместо очищающего средства.",
+      "en": "Oat milk will not fully remove make-up or sunscreen; use it as a gentle rinse, not as a replacement for a cleanser.",
+      "ar": "لا يزيل حليب الشوفان المكياج وواقي الشمس إزالة كاملة، فاستخدميه شطفًا لطيفًا لا بديلًا عن المنظّف."
+    },
+    {
+      "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek yallig'langan toshmalar ustiga hech qachon qo'llamang.",
+      "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённые высыпания.",
+      "en": "Never apply to broken, scratched, cracked or burnt skin, or over inflamed breakouts.",
+      "ar": "لا تضعيه أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا فوق البثور الملتهبة."
+    },
+    {
+      "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv bilan yuvib tashlang. Noqulaylik o'tmasa, shifokorga murojaat qiling.",
+      "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой. Если дискомфорт не проходит, обратитесь к врачу.",
+      "en": "If you feel stinging, redness or itching, rinse it off at once with lukewarm water. If the discomfort does not settle, see a doctor.",
+      "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسلي بشرتكِ فورًا بماء فاتر. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+      "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo'shmang: ular terini ta'sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o'xshash reaksiyalarga sabab bo'lgani qayd etilgan.",
+      "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+      "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+      "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, toza idish, elak va sochiqdan foydalaning.",
+      "ru": "Вымойте руки, используйте чистую посуду, сито и полотенце.",
+      "en": "Wash your hands and use a clean bowl, sieve and towel.",
+      "ar": "اغسلي يديكِ واستخدمي وعاءً ومصفاة ومنشفة نظيفة."
+    },
+    {
+      "uz": "Har safar yangi miqdorda tayyorlang va darhol ishlating; qolganini saqlamang, to'kib tashlang — suli suti tez buziladi va unda konservant yo'q.",
+      "ru": "Готовьте свежую порцию каждый раз и используйте сразу; остатки не храните, а выливайте — овсяное молочко быстро портится, и в нём нет консервантов.",
+      "en": "Make a fresh batch each time and use it straight away; do not keep leftovers — oat milk spoils quickly and has no preservative.",
+      "ar": "حضّري كمية جديدة في كل مرة واستخدميها فورًا، ولا تحتفظي بالبقايا؛ فحليب الشوفان يفسد سريعًا ولا يحتوي على مادة حافظة."
+    },
+    {
+      "uz": "Ko'zga tushirmang; tushsa, ko'p miqdordagi toza suv bilan yuving.",
+      "ru": "Не допускайте попадания в глаза; если попало — промойте большим количеством чистой воды.",
+      "en": "Keep it out of your eyes; if any gets in, rinse with plenty of clean water.",
+      "ar": "أبعديه عن عينيكِ، وإذا دخل شيء منه فاغسليهما بكثير من الماء النظيف."
+    }
+  ],
+  "evidence": {
+    "uz": "Suli kartochkasidagi dalillar tayyor mahsulotlar — kolloid suli qo'shilgan kremlar va yuvish vositalari ustidagi kichik tadqiqotlardan iborat bo'lib, ularda sulining o'z ta'sirini formuladan ajratib bo'lmagan; qolganlari laboratoriya natijalari. Uyda ivitilgan suli standartlashtirilgan kolloid suli bilan bir xil emas va bu usulning o'zi o'rganilmagan.",
+    "ru": "Данные в карточке овса получены в небольших исследованиях готовых средств — кремов и средств для умывания с коллоидной овсянкой, где эффект овса нельзя отделить от формулы; остальное — лабораторные результаты. Овёс, настоянный дома, не равен стандартизированной коллоидной овсянке, а сам этот способ не изучался.",
+    "en": "The oat card describes small studies of finished products — creams and washes containing colloidal oatmeal — in which the effect of oat could not be separated from the formulation, plus laboratory findings. Oats soaked at home are not the same as standardised colloidal oatmeal, and this rinse itself has not been studied.",
+    "ar": "تصف بطاقة الشوفان دراسات صغيرة على منتجات جاهزة، كريمات وغسولات تحتوي على الشوفان الغرواني، لم يمكن فيها فصل أثر الشوفان عن التركيبة، إلى جانب نتائج مخبرية. والشوفان المنقوع في البيت ليس كالشوفان الغرواني الموحّد المعايير، ولم يُدرس هذا الغسول بحدّ ذاته."
+  }
+}

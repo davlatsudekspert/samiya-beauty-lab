@@ -1,0 +1,154 @@
+{
+  "id": "aloe-cucumber-cooling-gel-mask",
+  "status": "draft",
+  "photo": "aloe-vera",
+  "ingredients": [
+    "aloe-vera",
+    "cucumber"
+  ],
+  "minutes": 25,
+  "title": {
+    "uz": "Aloe va bodringli salqin gel-niqob",
+    "ru": "Охлаждающая гель-маска с алоэ и огурцом",
+    "en": "Cooling aloe & cucumber gel mask",
+    "ar": "قناع جل الألوفيرا والخيار المنعش"
+  },
+  "intro": {
+    "uz": "Kosmetik aloe geli va bir qoshiq bodring sharbati — issiq kun oxirida yuzga yengil salqinlik. Asosiy yoqimli tuyg'u salqinlik va dam olishdan keladi.",
+    "ru": "Косметический гель алоэ и ложечка огуречного сока — лёгкая прохлада для лица в конце жаркого дня. Главное удовольствие здесь — прохлада и отдых.",
+    "en": "Cosmetic aloe gel and a spoonful of cucumber juice — a light, cool feeling for your face at the end of a warm day. The pleasure here comes mostly from coolness and rest.",
+    "ar": "جل ألوفيرا تجميلي وملعقة من عصير الخيار: برودة خفيفة لوجهكِ في نهاية يوم حارّ. والمتعة هنا تأتي أساسًا من البرودة والراحة."
+  },
+  "items": [
+    {
+      "uz": "2 choy qoshiq kosmetik aloe geli: tarkib ro'yxati boshida Aloe Barbadensis Leaf Juice, spirt va xushbo'ylantirgichsiz",
+      "ru": "2 ч. ложки косметического геля алоэ: Aloe Barbadensis Leaf Juice в начале состава, без спирта и отдушек",
+      "en": "2 teaspoons cosmetic aloe vera gel: Aloe Barbadensis Leaf Juice near the top of the ingredient list, with no alcohol or added fragrance",
+      "ar": "ملعقتان صغيرتان من جل الألوفيرا التجميلي: يأتي Aloe Barbadensis Leaf Juice في أول قائمة المكوّنات، بلا كحول ولا عطور مضافة"
+    },
+    {
+      "uz": "Taxminan 5 sm bodring bo'lagi, muzlatkichda sovitilgan",
+      "ru": "Кусочек огурца длиной около 5 см, охлаждённый в холодильнике",
+      "en": "About 5 cm of cucumber, chilled in the fridge",
+      "ar": "قطعة خيار بطول 5 سم تقريبًا، مبرّدة في الثلاجة"
+    },
+    {
+      "uz": "Toza qirg'ich, mayda elak yoki toza doka, idish va qoshiq",
+      "ru": "Чистая тёрка, мелкое сито или чистая марля, миска и ложка",
+      "en": "A clean grater, a fine sieve or clean muslin, a bowl and a spoon",
+      "ar": "مبشرة نظيفة، ومصفاة ناعمة أو قطعة شاش نظيفة، ووعاء وملعقة"
+    },
+    {
+      "uz": "Yumshoq toza sochiq",
+      "ru": "Мягкое чистое полотенце",
+      "en": "A soft, clean towel",
+      "ar": "منشفة ناعمة نظيفة"
+    }
+  ],
+  "steps": [
+    {
+      "uz": "Bodringni oqar suvda yaxshilab yuving, mayda qirg'ichda qirib, elak yoki doka orqali siqib, 1 choy qoshiq sharbat oling.",
+      "ru": "Тщательно вымойте огурец под проточной водой, натрите на мелкой тёрке и отожмите через сито или марлю 1 ч. ложку сока.",
+      "en": "Wash the cucumber well under running water, grate it finely and press it through the sieve or muslin to collect 1 teaspoon of juice.",
+      "ar": "اغسلي الخيار جيدًا تحت الماء الجاري، وابشريه ناعمًا، ثم اعصريه عبر المصفاة أو الشاش لتحصلي على ملعقة صغيرة من العصير."
+    },
+    {
+      "uz": "Idishda aloe geli va bodring sharbatini toza qoshiq bilan aralashtiring.",
+      "ru": "Смешайте в миске чистой ложкой гель алоэ и огуречный сок.",
+      "en": "Stir the aloe gel and cucumber juice together in the bowl with a clean spoon.",
+      "ar": "امزجي جل الألوفيرا وعصير الخيار في الوعاء بملعقة نظيفة."
+    },
+    {
+      "uz": "Idishni muzlatkichga (morozilnikka emas) 10 daqiqaga qo'ying.",
+      "ru": "Поставьте миску в холодильник (не в морозилку) на 10 минут.",
+      "en": "Chill the bowl in the fridge (not the freezer) for 10 minutes.",
+      "ar": "ضعي الوعاء في الثلاجة (لا في المجمّد) عشر دقائق."
+    },
+    {
+      "uz": "Toza yuzga yupqa qatlam surting; ko'z atrofi va lablarni chetlab o'ting.",
+      "ru": "Нанесите тонкий слой на чистое лицо, обходя область вокруг глаз и губы.",
+      "en": "Smooth a thin layer over your clean face, avoiding the eye area and lips.",
+      "ar": "وزّعي طبقة رقيقة على وجهكِ النظيف متجنبةً محيط العينين والشفتين."
+    },
+    {
+      "uz": "10 daqiqa xotirjam dam oling. Teri tortisha boshlasa, oldinroq yuving.",
+      "ru": "Спокойно отдохните 10 минут. Если кожу начнёт стягивать, смойте раньше.",
+      "en": "Rest quietly for 10 minutes. If your skin starts to feel tight, rinse sooner.",
+      "ar": "استرخي بهدوء عشر دقائق، وإن بدأتِ تشعرين بشدّ في بشرتكِ فاغسليه قبل ذلك."
+    },
+    {
+      "uz": "Salqin suv bilan yuving, sochiq bilan bosib quriting va namlovchi krem surting. Qolgan aralashmani to'kib tashlang.",
+      "ru": "Смойте прохладной водой, промокните полотенцем и нанесите увлажняющий крем. Остатки смеси выбросьте.",
+      "en": "Rinse with cool water, pat dry and apply your moisturiser. Throw away any leftover mixture.",
+      "ar": "اغسلي وجهكِ بماء بارد، وجففيه بالتربيت، وضعي مرطّبكِ، ثم تخلّصي من بقية الخليط."
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Birinchi marta qo'llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo'lsa, bu retseptdan voz keching.",
+      "ru": "Перед первым применением нанесите немного смеси на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+      "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+      "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+      "uz": "Yangi barg emas, kosmetik geldan foydalaning: bargdagi sariq shira (lateks) tarkibida fototoksik antraxinonlar bor, uyda tayyorlangan aloe sharbatidan esa allergik dermatit qayd etilgan.",
+      "ru": "Используйте косметический гель, а не свежий лист: в жёлтом соке листа (латексе) есть фототоксичные антрахиноны, а на домашний сок алоэ описан аллергический дерматит.",
+      "en": "Use a cosmetic gel rather than a fresh leaf: the yellow leaf sap (latex) contains anthraquinones, which are phototoxic, and allergic dermatitis from home-made aloe juice has been reported.",
+      "ar": "استخدمي جلًا تجميليًا لا ورقة طازجة، فالعصارة الصفراء للورقة (اللاتكس) تحتوي على أنثراكينونات سامّة ضوئيًا، وقد أُبلغ عن التهاب جلد تحسّسي من عصير ألوفيرا منزلي."
+    },
+    {
+      "uz": "Bodring bilan bog'liq kontakt dermatit haqida xabarlar bor. Bodring yoki aloega allergiyangiz bo'lsa, ishlatmang.",
+      "ru": "Описаны случаи контактного дерматита, связанного с огурцом. Не используйте при аллергии на огурец или алоэ.",
+      "en": "Contact dermatitis linked to cucumber has been reported. Do not use if you are allergic to cucumber or aloe.",
+      "ar": "أُبلغ عن حالات التهاب جلد تماسي مرتبطة بالخيار. لا تستخدميه إذا كانت لديكِ حساسية من الخيار أو الألوفيرا."
+    },
+    {
+      "uz": "Bu kuyishni davolash vositasi emas va quyoshdan himoya qilmaydi. Teri quyoshda kuyib, pufakchalar, kuchli og'riq yoki isitma bo'lsa, tibbiy yordamga murojaat qiling.",
+      "ru": "Это не средство от ожогов и не защита от солнца. При солнечном ожоге с пузырями, сильной болью или температурой обратитесь за медицинской помощью.",
+      "en": "This is not a burn treatment and does not protect you from the sun. If sunburn brings blisters, severe pain or fever, seek medical help.",
+      "ar": "هذا ليس علاجًا للحروق ولا يحمي من الشمس. وإذا سبّبت حروق الشمس بثورًا مائية أو ألمًا شديدًا أو حمّى، فاطلبي المساعدة الطبية."
+    },
+    {
+      "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek yallig'langan toshmalar ustiga hech qachon qo'llamang.",
+      "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённые высыпания.",
+      "en": "Never apply to broken, scratched, cracked or burnt skin, or over inflamed breakouts.",
+      "ar": "لا تضعيه أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا فوق البثور الملتهبة."
+    },
+    {
+      "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv bilan yuvib tashlang. Noqulaylik o'tmasa, shifokorga murojaat qiling.",
+      "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой. Если дискомфорт не проходит, обратитесь к врачу.",
+      "en": "If you feel stinging, redness or itching, rinse it off at once with lukewarm water. If the discomfort does not settle, see a doctor.",
+      "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسلي بشرتكِ فورًا بماء فاتر. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+      "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo'shmang: ular terini ta'sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o'xshash reaksiyalarga sabab bo'lgani qayd etilgan.",
+      "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+      "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+      "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, toza idish, qoshiq va sochiqdan foydalaning; gelni idishdan toza qoshiq bilan oling va qopqog'ini mahkam yoping.",
+      "ru": "Вымойте руки, используйте чистую посуду, ложку и полотенце; набирайте гель из упаковки чистой ложкой и плотно закрывайте крышку.",
+      "en": "Wash your hands and use a clean bowl, spoon and towel; take gel out of its container with a clean spoon and close the lid tightly.",
+      "ar": "اغسلي يديكِ واستخدمي وعاءً وملعقة ومنشفة نظيفة، وخذي الجل من عبوته بملعقة نظيفة وأحكمي إغلاقها."
+    },
+    {
+      "uz": "Har safar yangi miqdorda tayyorlang va darhol ishlating; qolganini saqlamang, to'kib tashlang — uyda tayyorlangan aralashmada konservant yo'q.",
+      "ru": "Готовьте свежую порцию каждый раз и используйте сразу; остатки не храните, а выбрасывайте — в домашней смеси нет консервантов.",
+      "en": "Make a fresh batch each time and use it straight away; do not keep leftovers — a home mixture has no preservative.",
+      "ar": "حضّري كمية جديدة في كل مرة واستخدميها فورًا، ولا تحتفظي بالبقايا؛ فالخليط المنزلي لا يحتوي على مادة حافظة."
+    },
+    {
+      "uz": "Ko'z atrofi va lablardan uzoqroq tuting; ko'zga tushsa, ko'p miqdordagi toza suv bilan yuving.",
+      "ru": "Не наносите на область вокруг глаз и на губы; при попадании в глаза промойте их большим количеством чистой воды.",
+      "en": "Keep away from the eye area and lips; if any gets into your eyes, rinse with plenty of clean water.",
+      "ar": "أبعديه عن محيط العينين والشفتين، وإذا دخل شيء منه إلى عينيكِ فاغسليهما بكثير من الماء النظيف."
+    }
+  ],
+  "evidence": {
+    "uz": "Aloe vera kartochkasidagi kichik tadqiqotlar natijalari bir-biriga zid, tizimli sharh esa aloe quyosh kuyishidan himoya qilmasligini topgan. Bodring kartochkasida teri bo'yicha odamlarda o'tkazilgan birorta tadqiqot topilmagan — faqat laboratoriya ishlari va reaksiyalar haqidagi xabarlar bor. Yoqimli his asosan salqinlikdan keladi; bu niqobning o'zi o'rganilmagan.",
+    "ru": "Небольшие исследования в карточке алоэ вера дают противоречивые результаты, а систематический обзор показал, что алоэ не защищает от солнечного ожога. В карточке огурца не найдено ни одного исследования на коже людей — только лабораторные работы и сообщения о реакциях. Приятное ощущение дают прежде всего прохлада; сама маска не изучалась.",
+    "en": "The small studies on the aloe vera card disagree with each other, and a systematic review found that aloe gives no protection against sunburn. The cucumber card found no human study on the skin — only laboratory work and reports of reactions. The pleasant feeling comes mainly from coolness; this mask itself has not been studied.",
+    "ar": "تتعارض نتائج الدراسات الصغيرة في بطاقة الألوفيرا، ووجدت مراجعة منهجية أن الألوفيرا لا تحمي من حروق الشمس. ولم تعثر بطاقة الخيار على أي دراسة بشرية على الجلد، بل على أعمال مخبرية وتقارير عن تفاعلات. والإحساس اللطيف يأتي أساسًا من البرودة، ولم يُدرس هذا القناع بحدّ ذاته."
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "morning-skincare-sequence",
+  "status": "draft",
+  "photo": "deco_jasmine",
+  "title": {
+    "uz": "Ertalabki parvarish tartibi",
+    "ru": "Утренний порядок ухода",
+    "en": "Morning skincare sequence",
+    "ar": "تسلسل العناية الصباحية"
+  },
+  "intro": {
+    "uz": "Tozalash, zardob, namlovchi krem va quyoshdan himoya — har biriga o'z vaqti. Olti daqiqalik sokin tartib, unda qatlamlar bir-biriga shoshilmasdan joylashadi.",
+    "ru": "Очищение, сыворотка, увлажняющий крем и защита от солнца — каждому своё время. Шесть минут спокойного порядка, в котором слои ложатся без спешки.",
+    "en": "Cleanse, serum, moisturiser and sun protection — each in its own time. Six calm minutes in which every layer settles without hurry.",
+    "ar": "التنظيف، فالسيروم، فالمرطّب، فالحماية من الشمس، ولكلٍّ وقته. ست دقائق هادئة تستقرّ فيها كل طبقة دون استعجال."
+  },
+  "steps": [
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Tozalash",
+        "ru": "Очищение",
+        "en": "Cleanse",
+        "ar": "التنظيف"
+      },
+      "text": {
+        "uz": "Yuzingizni iliq suv bilan chaying yoki teringiz yog'li bo'lsa, ozgina yumshoq yuvish vositasidan foydalaning. Qattiq ishqalamang.",
+        "ru": "Умойтесь тёплой водой, а если кожа жирная — небольшим количеством мягкого средства. Не трите сильно.",
+        "en": "Rinse your face with lukewarm water, or use a little gentle cleanser if your skin is oily. Do not scrub.",
+        "ar": "اشطفي وجهكِ بماء فاتر، أو استخدمي قليلًا من منظّف لطيف إن كانت بشرتكِ دهنية، ودون فرك قوي."
+      }
+    },
+    {
+      "seconds": 15,
+      "title": {
+        "uz": "Quritish",
+        "ru": "Промокните",
+        "en": "Pat dry",
+        "ar": "التجفيف"
+      },
+      "text": {
+        "uz": "Toza sochiq bilan yuzni yengil bosib quriting.",
+        "ru": "Промокните лицо чистым полотенцем.",
+        "en": "Pat your face dry with a clean towel.",
+        "ar": "جففي وجهكِ بالتربيت بمنشفة نظيفة."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Zardob",
+        "ru": "Сыворотка",
+        "en": "Serum",
+        "ar": "السيروم"
+      },
+      "text": {
+        "uz": "Agar zardob ishlatsangiz, qadoqdagi ko'rsatmaga ko'ra bir-ikki tomchisini kaftlarga oling va yuzga bosib-bosib surting. Zardob ishlatmasangiz, bu qadamni o'tkazib yuboring.",
+        "ru": "Если пользуетесь сывороткой, возьмите одну-две капли по инструкции на упаковке и вбейте в кожу мягкими прижатиями ладоней. Если сыворотки нет, пропустите этот шаг.",
+        "en": "If you use a serum, take one or two drops as the label directs and press it into your skin with your palms. If you do not use one, skip this step.",
+        "ar": "إن كنتِ تستخدمين سيرومًا، فخذي قطرة أو قطرتين بحسب تعليمات العبوة واضغطيه على بشرتكِ براحتيكِ. وإن لم تستخدميه، فتجاوزي هذه الخطوة."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Kutish",
+        "ru": "Пауза",
+        "en": "Pause",
+        "ar": "انتظار"
+      },
+      "text": {
+        "uz": "Bir daqiqa kuting, toki zardob so'rilib, teri yopishqoq bo'lmay qolsin. Bu vaqtda sochingizni tarashingiz yoki suv ichishingiz mumkin.",
+        "ru": "Подождите минуту, пока сыворотка впитается и кожа перестанет быть липкой. Можно пока причесаться или выпить воды.",
+        "en": "Wait a minute until the serum has sunk in and your skin no longer feels tacky. You can brush your hair or drink some water meanwhile.",
+        "ar": "انتظري دقيقة حتى يتشرّب السيروم ولا تعود بشرتكِ لزجة، ويمكنكِ في أثنائها تمشيط شعركِ أو شرب الماء."
+      }
+    },
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Namlovchi krem",
+        "ru": "Увлажняющий крем",
+        "en": "Moisturiser",
+        "ar": "المرطّب"
+      },
+      "text": {
+        "uz": "No'xatdek namlovchi kremni yuz va bo'yinga yupqa, bir tekis qatlam qilib surting.",
+        "ru": "Распределите увлажняющий крем размером с горошину тонким ровным слоем по лицу и шее.",
+        "en": "Smooth a pea-sized amount of moisturiser over your face and neck in a thin, even layer.",
+        "ar": "وزّعي مقدار حبّة بازلاء من المرطّب على وجهكِ ورقبتكِ بطبقة رقيقة متساوية."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Kutish",
+        "ru": "Пауза",
+        "en": "Pause",
+        "ar": "انتظار"
+      },
+      "text": {
+        "uz": "Yana bir daqiqa kuting. Shoshilib surtilgan qatlamlar yumaloqlanib, bir-birini «surib» ketishi mumkin.",
+        "ru": "Подождите ещё минуту. Слои, нанесённые впопыхах, могут скатываться и сдвигать друг друга.",
+        "en": "Wait another minute. Layers applied in a rush can pill and push each other around.",
+        "ar": "انتظري دقيقة أخرى، فالطبقات الموضوعة على عجل قد تتكتّل ويزيح بعضها بعضًا."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Quyoshdan himoya",
+        "ru": "Защита от солнца",
+        "en": "Sunscreen",
+        "ar": "واقي الشمس"
+      },
+      "text": {
+        "uz": "Oxirgi qatlam — keng spektrli, SPF 30 yoki undan yuqori himoya kremi. Yuz va bo'yin uchun taxminan ikki barmoq uzunligida oling va bir tekis surting; quloqlar va soch chizig'ini unutmang.",
+        "ru": "Последний слой — солнцезащитное средство широкого спектра с SPF 30 или выше. Для лица и шеи возьмите примерно две полоски длиной с палец и распределите равномерно, не забывая уши и линию роста волос.",
+        "en": "The last layer is a broad-spectrum sunscreen with SPF 30 or higher. For face and neck, use about two finger-lengths and spread it evenly, including your ears and hairline.",
+        "ar": "الطبقة الأخيرة واقٍ من الشمس واسع الطيف بعامل حماية 30 أو أعلى. استخدمي للوجه والرقبة نحو طول إصبعين، ووزّعيه بالتساوي، ولا تنسي الأذنين ومنبت الشعر."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Yakun",
+        "ru": "Завершение",
+        "en": "Let it set",
+        "ar": "الثبات"
+      },
+      "text": {
+        "uz": "Pardoz qilsangiz, himoya kremi o'rnashib olishi uchun bir-ikki daqiqa kuting. Ochiq havoda uzoq bo'lsangiz, uni kun davomida yangilashni rejalashtiring.",
+        "ru": "Если наносите макияж, подождите минуту-две, чтобы солнцезащитный крем схватился. Если долго будете на улице, запланируйте его обновление в течение дня.",
+        "en": "If you wear make-up, wait a minute or two for the sunscreen to set. If you will be outdoors for long, plan to reapply during the day.",
+        "ar": "إن كنتِ تضعين المكياج، فانتظري دقيقة أو دقيقتين حتى يثبت الواقي. وإن كنتِ ستمكثين طويلًا في الخارج، فخطّطي لتجديده خلال اليوم."
+      }
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Yangi vositalarni bittadan, oraliq bilan kiriting. Birinchi marta ishlatishdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting.",
+      "ru": "Вводите новые средства по одному и с перерывом. Перед первым применением нанесите немного на внутреннюю сторону запястья или за ухо и подождите 24 часа.",
+      "en": "Introduce new products one at a time, with a gap in between. Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours.",
+      "ar": "أدخلي المنتجات الجديدة واحدًا تلو الآخر بفاصل زمني. وقبل الاستخدام الأول، ضعي قليلًا منها على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة."
+    },
+    {
+      "uz": "Faol moddali vositalardan (masalan, kislotalar, C vitamini, retinoidlar) foydalansangiz, qadoqdagi ko'rsatmaga amal qiling; retinoidlar odatda kechqurun ishlatiladi. Achishish yoki qizarish kuchaysa, vositani yuvib tashlang va undan foydalanishni to'xtating.",
+      "ru": "Если вы пользуетесь средствами с активными веществами (кислотами, витамином C, ретиноидами), следуйте инструкции на упаковке; ретиноиды обычно наносят вечером. При усиливающемся жжении или покраснении смойте средство и прекратите его использовать.",
+      "en": "If you use products with actives (such as acids, vitamin C or retinoids), follow the label; retinoids are usually applied in the evening. If stinging or redness builds up, rinse the product off and stop using it.",
+      "ar": "إن كنتِ تستخدمين منتجات بمواد فعّالة (كالأحماض أو فيتامين C أو الريتينويدات)، فاتّبعي تعليمات العبوة، فالريتينويدات تُستخدم عادة مساءً. وإذا اشتدّت اللسعة أو الاحمرار، فاغسلي المنتج وتوقّفي عن استخدامه."
+    },
+    {
+      "uz": "Homiladorlik yoki emizish davrida, shuningdek shifokor buyurgan teri vositalaridan foydalansangiz, faol moddalarni shifokor bilan kelishing.",
+      "ru": "Во время беременности и кормления грудью, а также если вы используете назначенные врачом средства для кожи, согласуйте активные компоненты с врачом.",
+      "en": "If you are pregnant or breastfeeding, or use skin treatments prescribed by a doctor, check any active ingredients with your doctor.",
+      "ar": "إن كنتِ حاملًا أو مرضعًا، أو تستخدمين علاجات جلدية وصفها الطبيب، فراجعي معه أي مواد فعّالة."
+    },
+    {
+      "uz": "Vositalarni ko'zdan uzoq tuting; ko'zga tushsa, ko'p miqdordagi toza suv bilan yuving.",
+      "ru": "Не допускайте попадания средств в глаза; если попали — промойте большим количеством чистой воды.",
+      "en": "Keep products out of your eyes; if any gets in, rinse with plenty of clean water.",
+      "ar": "أبعدي المنتجات عن عينيكِ، وإذا دخل شيء منها فاغسليهما بكثير من الماء النظيف."
+    },
+    {
+      "uz": "Quyoshdan himoya kremi — himoyaning faqat bir qismi: soya, bosh kiyimi, quyosh ko'zoynagi va kunning eng issiq soatlarida quyoshdan qochish ham muhim.",
+      "ru": "Солнцезащитный крем — лишь часть защиты: важны также тень, головной убор, солнцезащитные очки и избегание солнца в самые жаркие часы.",
+      "en": "Sunscreen is only part of sun protection: shade, a hat, sunglasses and avoiding the strongest midday sun matter too.",
+      "ar": "واقي الشمس جزء واحد من الحماية فقط، فالظلّ والقبعة والنظارات الشمسية وتجنّب شمس الظهيرة القوية مهمّة أيضًا."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, vositalarning yaroqlilik muddatini tekshiring va qopqoqlarini mahkam yoping.",
+      "ru": "Мойте руки, проверяйте срок годности средств и плотно закрывайте крышки.",
+      "en": "Wash your hands, check expiry dates and close lids tightly.",
+      "ar": "اغسلي يديكِ، وتحقّقي من تواريخ الصلاحية، وأحكمي إغلاق العبوات."
+    }
+  ],
+  "evidence": {
+    "uz": "Bu tartib va kutish vaqtlari amaliy maslahat bo'lib, tadqiqotlarda sinalmagan: ular qatlamlar bir-biriga yaxshi o'rnashishi va yumaloqlanmasligi uchun. Ilovadagi ingrediyent kartochkalarining ko'p dalillari tayyor mahsulotlar ustidagi kichik tadqiqotlarga asoslangan. Quyoshdan himoya darajasi butun formulaga va yetarli miqdorda surtishga bog'liq. Marosim yoshartirish yoki terini oqartirishni va'da qilmaydi.",
+    "ru": "Этот порядок и паузы — практический совет, а не результат исследований: они нужны, чтобы слои хорошо ложились и не скатывались. Многие данные в карточках ингредиентов приложения получены в небольших исследованиях готовых средств. Степень защиты от солнца зависит от всей формулы и от достаточного количества средства. Ритуал не обещает омоложения или отбеливания кожи.",
+    "en": "This order and the waiting times are practical advice, not tested in studies: they help layers sit well and avoid pilling. Much of the evidence on the app's ingredient cards comes from small studies of finished products. How well a sunscreen protects depends on the whole formulation and on applying enough of it. This ritual does not promise anti-ageing or skin whitening.",
+    "ar": "هذا الترتيب وأوقات الانتظار نصيحة عملية لم تُختبر في دراسات، والغاية منها أن تستقرّ الطبقات جيدًا ولا تتكتّل. ومعظم الأدلة في بطاقات المكوّنات في التطبيق مأخوذة من دراسات صغيرة على منتجات جاهزة. وتعتمد حماية الواقي على تركيبته كاملة وعلى وضع كمية كافية منه. لا يَعِد هذا الطقس بمكافحة الشيخوخة أو بتبييض البشرة."
+  }
+}

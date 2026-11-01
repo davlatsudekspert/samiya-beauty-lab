@@ -1,0 +1,162 @@
+{
+  "id": "before-sleep-wind-down",
+  "status": "draft",
+  "photo": "deco_lavender",
+  "title": {
+    "uz": "Uyqu oldidan sokinlik",
+    "ru": "Спокойствие перед сном",
+    "en": "Before-sleep wind-down",
+    "ar": "سكينة ما قبل النوم"
+  },
+  "intro": {
+    "uz": "Chiroqni xira qiling, telefonni chetga qo'ying. Besh daqiqa — terini parvarish qilish va sekin nafas bilan kunni ohista yopish uchun.",
+    "ru": "Приглушите свет, отложите телефон. Пять минут, чтобы позаботиться о коже и мягко закрыть день медленным дыханием.",
+    "en": "Dim the lights and put your phone aside. Five minutes to care for your skin and gently close the day with slow breathing.",
+    "ar": "خفّفي الإضاءة وضعي هاتفكِ جانبًا. خمس دقائق للعناية ببشرتكِ ولإغلاق يومكِ برفق مع تنفّس بطيء."
+  },
+  "steps": [
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Sokin muhit",
+        "ru": "Тихая обстановка",
+        "en": "Set the scene",
+        "ar": "تهيئة الأجواء"
+      },
+      "text": {
+        "uz": "Chiroqni xira qiling, telefonni ovozsiz rejimga o'tkazib, qo'l yetmaydigan joyga qo'ying.",
+        "ru": "Приглушите свет, включите на телефоне беззвучный режим и уберите его подальше.",
+        "en": "Dim the lights, switch your phone to silent and put it out of reach.",
+        "ar": "خفّفي الإضاءة، واجعلي هاتفكِ صامتًا، وضعيه بعيدًا عن متناول يدكِ."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Tozalash",
+        "ru": "Очищение",
+        "en": "Cleanse",
+        "ar": "التنظيف"
+      },
+      "text": {
+        "uz": "Yuzingizni iliq suv va yumshoq vosita bilan yuving, toza sochiq bilan bosib quriting. Pardoz bo'lsa, avval uni olib tashlang.",
+        "ru": "Умойтесь тёплой водой с мягким средством и промокните лицо чистым полотенцем. Если на лице макияж, сначала снимите его.",
+        "en": "Wash your face with lukewarm water and a gentle cleanser, then pat dry with a clean towel. If you wear make-up, remove it first.",
+        "ar": "اغسلي وجهكِ بماء فاتر ومنظّف لطيف، وجففيه بالتربيت بمنشفة نظيفة. وإن كان عليكِ مكياج، فأزيليه أولًا."
+      }
+    },
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Namlash",
+        "ru": "Увлажнение",
+        "en": "Moisturise",
+        "ar": "الترطيب"
+      },
+      "text": {
+        "uz": "Kechki kremingizni kaftlarda isiting va yuzga sekin bosib-bosib surting — peshona, yonoqlar, iyak.",
+        "ru": "Согрейте вечерний крем в ладонях и медленными прижатиями нанесите на лицо — лоб, щёки, подбородок.",
+        "en": "Warm your night cream between your palms and press it slowly onto your face — forehead, cheeks, chin.",
+        "ar": "دفّئي كريمكِ الليلي بين راحتيكِ، واضغطيه ببطء على وجهكِ: الجبين، فالخدّين، فالذقن."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Kaftlar va nafas",
+        "ru": "Ладони и дыхание",
+        "en": "Palms and breath",
+        "ar": "الراحتان والنَّفَس"
+      },
+      "text": {
+        "uz": "Kaftlarni yuzga yengil qo'ying. To'rtgacha sanab burun orqali nafas oling, oltigacha sanab sekin chiqaring. Qulay bo'lsa, besh-olti marta takrorlang.",
+        "ru": "Мягко приложите ладони к лицу. Вдохните носом на четыре счёта и медленно выдохните на шесть. Если комфортно, повторите пять-шесть раз.",
+        "en": "Rest your palms lightly over your face. Breathe in through your nose for a count of four and out slowly for six. Repeat five or six times if it feels comfortable.",
+        "ar": "ضعي راحتيكِ برفق على وجهكِ. تنفّسي من أنفكِ وأنتِ تعدّين إلى أربعة، وازفري ببطء حتى ستة، وكرّري ذلك خمس أو ست مرات إن كان مريحًا."
+      }
+    },
+    {
+      "seconds": 40,
+      "title": {
+        "uz": "Yelka va bo'yin",
+        "ru": "Плечи и шея",
+        "en": "Shoulders and neck",
+        "ar": "الكتفان والرقبة"
+      },
+      "text": {
+        "uz": "Yelkalarni quloqqa tomon ko'tarib, so'ng erkin tushiring. Kaftlar bilan bo'yinning yon tomonlarini quloq ostidan o'mrov tomon yengil pastga silang.",
+        "ru": "Поднимите плечи к ушам и свободно опустите. Ладонями легко поглаживайте боковые стороны шеи вниз — от области под ушами к ключицам.",
+        "en": "Lift your shoulders towards your ears, then let them drop. With your palms, stroke lightly down the sides of your neck from below your ears to your collarbones.",
+        "ar": "ارفعي كتفيكِ نحو أذنيكِ ثم أسقطيهما بارتخاء، وامسحي بباطن كفّيكِ بخفّة على جانبي الرقبة من أسفل الأذنين نحو الترقوتين."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Qorin bilan nafas",
+        "ru": "Дыхание животом",
+        "en": "Belly breathing",
+        "ar": "التنفّس من البطن"
+      },
+      "text": {
+        "uz": "Bir kaftni ko'krakka, ikkinchisini qoringa qo'ying. Nafas olganda qorin ko'tarilib, chiqarganda pasayishini his qiling; ko'krak deyarli harakatsiz qolsin.",
+        "ru": "Положите одну ладонь на грудь, другую — на живот. Почувствуйте, как на вдохе живот поднимается, а на выдохе опускается; грудь почти неподвижна.",
+        "en": "Place one palm on your chest and the other on your belly. Feel your belly rise as you breathe in and fall as you breathe out, while your chest stays almost still.",
+        "ar": "ضعي راحة على صدركِ والأخرى على بطنكِ، واستشعري ارتفاع البطن مع الشهيق وانخفاضه مع الزفير، بينما يبقى الصدر شبه ساكن."
+      }
+    },
+    {
+      "seconds": 15,
+      "title": {
+        "uz": "Yakun",
+        "ru": "Завершение",
+        "en": "Close",
+        "ar": "الختام"
+      },
+      "text": {
+        "uz": "Nafasingizni odatiy holiga qaytaring, chiroqni o'chiring va to'shakka yoting.",
+        "ru": "Вернитесь к обычному дыханию, выключите свет и ложитесь.",
+        "en": "Let your breathing return to normal, turn off the light and lie down.",
+        "ar": "دعي تنفّسكِ يعود إلى طبيعته، وأطفئي الضوء، واستلقي في فراشكِ."
+      }
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Nafas mashqi yengil va qulay bo'lsin. Bosh aylansa, havo yetishmasa yoki xavotir kuchaysa, odatiy nafasga qayting. Yurak yoki o'pka kasalligingiz bo'lsa, nafasni ushlab turmang va sanoqni o'zingizga moslang.",
+      "ru": "Дыхательная практика должна быть лёгкой и комфортной. Если кружится голова, не хватает воздуха или усиливается тревога, вернитесь к обычному дыханию. При заболеваниях сердца или лёгких не задерживайте дыхание и подстройте счёт под себя.",
+      "en": "Keep the breathing easy and comfortable. If you feel dizzy, short of breath or more anxious, return to normal breathing. If you have a heart or lung condition, do not hold your breath and adjust the counts to suit you.",
+      "ar": "ليكن تمرين التنفّس سهلًا ومريحًا. وإذا شعرتِ بدوخة أو ضيق نفس أو ازدياد في القلق، فعودي إلى تنفّسكِ العادي. وإن كانت لديكِ حالة في القلب أو الرئتين، فلا تحبسي نفسكِ وعدّلي العدّ بما يناسبكِ."
+    },
+    {
+      "uz": "Uyqusizlik uzoq davom etsa, kunduzgi holsizlik, kuchli xavotir yoki tushkunlik bo'lsa, shifokorga murojaat qiling — bu marosim davolash o'rnini bosmaydi.",
+      "ru": "При длительной бессоннице, дневной разбитости, сильной тревоге или подавленности обратитесь к врачу — этот ритуал не заменяет лечения.",
+      "en": "If sleeplessness lasts, or you have daytime exhaustion, strong anxiety or low mood, see a doctor — this ritual does not replace treatment.",
+      "ar": "إذا طال الأرق، أو صاحبه إرهاق نهاري أو قلق شديد أو مزاج منخفض، فراجعي الطبيب؛ فهذا الطقس لا يغني عن العلاج."
+    },
+    {
+      "uz": "Faol husnbuzar, yallig'lanish, toshma yoki yara bo'lgan joylarni ishqalamang. Bo'yinning old qismini bosmang.",
+      "ru": "Не трите участки с активными высыпаниями, воспалением, сыпью или ранками. Не давите на переднюю часть шеи.",
+      "en": "Do not rub over active breakouts, inflammation, rashes or cuts. Do not press on the front of your neck.",
+      "ar": "لا تفركي المناطق التي فيها حبوب نشطة أو التهاب أو طفح أو جروح، ولا تضغطي على مقدّمة الرقبة."
+    },
+    {
+      "uz": "Teringiz yaxshi ko'taradigan, avval sinab ko'rilgan krem va yuvish vositasidan foydalaning; ko'zga tushirmang.",
+      "ru": "Используйте крем и умывающее средство, которые ваша кожа уже хорошо переносит; не допускайте попадания в глаза.",
+      "en": "Use a cleanser and cream your skin already tolerates well, and keep them out of your eyes.",
+      "ar": "استخدمي منظّفًا وكريمًا اعتادتهما بشرتكِ وتتحمّلهما جيدًا، وأبعديهما عن عينيكِ."
+    },
+    {
+      "uz": "Qo'llaringizni yuving va toza sochiqdan foydalaning; yostiq jildini muntazam almashtiring.",
+      "ru": "Мойте руки и пользуйтесь чистым полотенцем; регулярно меняйте наволочку.",
+      "en": "Wash your hands, use a clean towel and change your pillowcase regularly.",
+      "ar": "اغسلي يديكِ، واستخدمي منشفة نظيفة، وغيّري غطاء الوسادة بانتظام."
+    }
+  ],
+  "evidence": {
+    "uz": "Yuz massaji kartochkasidagi bitta kichik tadqiqotda yumshoq silash va bosish qisqa muddatli xotirjamlik va qulaylik hissi bilan bog'langan, ammo unda teri o'lchanmagan. Nafas mashqlari bo'yicha ilovada alohida kartochka hozircha yo'q, bu marosimning o'zi ham o'rganilmagan. U uyqusizlikni davolash yoki terini yoshartirishni va'da qilmaydi — bu kunni sokin yakunlash uchun.",
+    "ru": "В одном небольшом исследовании из карточки массажа лица мягкое поглаживание с надавливанием было связано с кратковременным снижением стресса и ощущением комфорта, но состояние кожи там не измеряли. Отдельной карточки о дыхательных практиках в приложении пока нет, и сам ритуал не изучался. Он не обещает излечить бессонницу или омолодить кожу — это способ спокойно завершить день.",
+    "en": "One small study on the facial massage card linked a gentle smoothing-and-press gesture with lower stress and greater comfort in the short term, but it measured no skin outcomes. There is no separate card on breathing practices in the app yet, and this ritual itself has not been studied. It does not promise to cure sleeplessness or rejuvenate your skin — it is a way to end the day calmly.",
+    "ar": "ربطت دراسة صغيرة واحدة في بطاقة تدليك الوجه المسح مع الضغط اللطيف بانخفاض التوتر وزيادة الشعور بالراحة على المدى القصير، لكنها لم تقِس أي أثر على البشرة. ولا توجد بعدُ في التطبيق بطاقة مستقلة عن تمارين التنفّس، ولم يُدرس هذا الطقس بحدّ ذاته. لا يَعِد بعلاج الأرق أو بتجديد شباب البشرة، بل هو طريقة لإنهاء يومكِ بهدوء."
+  }
+}

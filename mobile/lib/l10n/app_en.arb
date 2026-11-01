@@ -355,10 +355,10 @@
   "ritualStep": "Step {i} of {n}",
   "@ritualStep": {
     "placeholders": {
-      "n": {
+      "i": {
         "type": "int"
       },
-      "i": {
+      "n": {
         "type": "int"
       }
     }

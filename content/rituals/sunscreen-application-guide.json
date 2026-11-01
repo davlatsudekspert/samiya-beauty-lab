@@ -1,0 +1,174 @@
+{
+  "id": "sunscreen-application-guide",
+  "status": "draft",
+  "photo": "deco_jasmine",
+  "title": {
+    "uz": "Quyoshdan himoya kremini to'g'ri surtish",
+    "ru": "Как правильно наносить SPF",
+    "en": "How to apply sunscreen",
+    "ar": "كيف تضعين واقي الشمس"
+  },
+  "intro": {
+    "uz": "Himoya kremi yorlig'idagi SPF faqat yetarli miqdor surtilganda o'zini oqlaydi. To'rt daqiqa — miqdor, tekis qatlam va yangilash rejasi uchun.",
+    "ru": "SPF на этикетке работает в полную силу, только если средства нанесено достаточно. Четыре минуты — на правильное количество, ровный слой и план обновления.",
+    "en": "The SPF on the label only lives up to its number when you apply enough. Four minutes for the right amount, an even layer and a plan to reapply.",
+    "ar": "لا يحقّق عامل الحماية المكتوب على العبوة رقمه إلا بوضع كمية كافية. أربع دقائق للكمية الصحيحة، والطبقة المتساوية، وخطة التجديد."
+  },
+  "steps": [
+    {
+      "seconds": 20,
+      "title": {
+        "uz": "Tekshiring",
+        "ru": "Проверьте",
+        "en": "Check",
+        "ar": "التحقّق"
+      },
+      "text": {
+        "uz": "Keng spektrli (UVA va UVB), SPF 30 yoki undan yuqori himoya kremini tanlang va yaroqlilik muddatini tekshiring. Kerak bo'lsa, idishni silkiting.",
+        "ru": "Выберите средство широкого спектра (UVA и UVB) с SPF 30 или выше и проверьте срок годности. При необходимости встряхните флакон.",
+        "en": "Choose a broad-spectrum (UVA and UVB) sunscreen with SPF 30 or higher and check the expiry date. Shake the bottle if the label says so.",
+        "ar": "اختاري واقيًا واسع الطيف (UVA وUVB) بعامل حماية 30 أو أعلى، وتحقّقي من تاريخ الصلاحية، ورجّي العبوة إن طلبت التعليمات ذلك."
+      }
+    },
+    {
+      "seconds": 20,
+      "title": {
+        "uz": "Ikki barmoq qoidasi",
+        "ru": "Правило двух пальцев",
+        "en": "Two-finger rule",
+        "ar": "قاعدة الإصبعين"
+      },
+      "text": {
+        "uz": "Ko'rsatkich va o'rta barmoqlaringiz bo'ylab, asosidan uchigacha, bittadan chiziq qilib krem siqing. Bu taxminan yuz va bo'yin uchun yetarli miqdor.",
+        "ru": "Выдавите по полоске крема вдоль указательного и среднего пальцев — от основания до кончика. Это примерно нужное количество для лица и шеи.",
+        "en": "Squeeze one line of sunscreen along your index finger and one along your middle finger, from base to tip. That is roughly enough for your face and neck.",
+        "ar": "اعصري خطًّا من الواقي على طول السبّابة وآخر على طول الوسطى، من القاعدة حتى الطرف، فهذه تقريبًا الكمية الكافية للوجه والرقبة."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Nuqtalar",
+        "ru": "Точки",
+        "en": "Dot it on",
+        "ar": "النقاط"
+      },
+      "text": {
+        "uz": "Kremni peshona, ikki yonoq, burun, iyak va bo'yinga nuqta-nuqta qilib qo'ying, shunda u bir joyga to'planib qolmaydi.",
+        "ru": "Распределите крем точками на лоб, обе щеки, нос, подбородок и шею, чтобы он не скапливался в одном месте.",
+        "en": "Dot the sunscreen over your forehead, both cheeks, nose, chin and neck so it does not pile up in one place.",
+        "ar": "وزّعي الواقي نقاطًا على الجبين والخدّين والأنف والذقن والرقبة، كي لا يتراكم في موضع واحد."
+      }
+    },
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Tekis yoyish",
+        "ru": "Равномерно распределите",
+        "en": "Spread evenly",
+        "ar": "التوزيع المتساوي"
+      },
+      "text": {
+        "uz": "Kremni barmoq uchlari bilan bir tekis yoying — qattiq ishqalamang. Burun yonlari va iyak ostiga ham yetkazing.",
+        "ru": "Подушечками пальцев равномерно распределите крем, не втирая с силой. Не пропустите крылья носа и область под подбородком.",
+        "en": "Spread it evenly with your fingertips without rubbing hard. Reach the sides of your nose and under your chin too.",
+        "ar": "وزّعيه بالتساوي بأطراف أصابعكِ دون فرك قوي، وأوصليه إلى جانبي الأنف وأسفل الذقن أيضًا."
+      }
+    },
+    {
+      "seconds": 40,
+      "title": {
+        "uz": "Unutiladigan joylar",
+        "ru": "Забытые места",
+        "en": "Easy-to-miss spots",
+        "ar": "المواضع المنسيّة"
+      },
+      "text": {
+        "uz": "Quloqlar, soch chizig'i, bo'yinning orqasi va ko'z atrofidagi suyakni (qovoqqa yaqinlashmasdan) qamrab oling. Lablarga SPF li lab balzamini surting.",
+        "ru": "Охватите уши, линию роста волос, заднюю поверхность шеи и костный край вокруг глаз (не заходя на веко). На губы нанесите бальзам с SPF.",
+        "en": "Cover your ears, hairline, the back of your neck and the bony area around your eyes (without going onto the eyelid). Use a lip balm with SPF on your lips.",
+        "ar": "غطّي الأذنين ومنبت الشعر ومؤخرة الرقبة والمنطقة العظمية حول العينين (دون الاقتراب من الجفن)، وضعي على شفتيكِ بلسمًا بعامل حماية."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "O'rnashsin",
+        "ru": "Дайте схватиться",
+        "en": "Let it set",
+        "ar": "دعيه يثبت"
+      },
+      "text": {
+        "uz": "Pardoz qilishdan yoki tashqariga chiqishdan oldin bir-ikki daqiqa kuting, toki krem teriga o'rnashsin.",
+        "ru": "Перед макияжем или выходом на улицу подождите минуту-две, чтобы крем схватился на коже.",
+        "en": "Wait a minute or two before make-up or going outside so the sunscreen can settle on your skin.",
+        "ar": "انتظري دقيقة أو دقيقتين قبل المكياج أو الخروج حتى يستقرّ الواقي على بشرتكِ."
+      }
+    },
+    {
+      "seconds": 20,
+      "title": {
+        "uz": "Yangilash rejasi",
+        "ru": "План обновления",
+        "en": "Reapply plan",
+        "ar": "خطة التجديد"
+      },
+      "text": {
+        "uz": "Ochiq havoda har 2 soatda, shuningdek suzish, kuchli terlash yoki sochiq bilan artinishdan keyin darhol yangilang — yorliqdagi ko'rsatmaga amal qiling.",
+        "ru": "На улице обновляйте каждые 2 часа, а также сразу после купания, сильного потоотделения или вытирания полотенцем — следуйте инструкции на этикетке.",
+        "en": "Outdoors, reapply every 2 hours and straight after swimming, heavy sweating or towelling off — follow the directions on the label.",
+        "ar": "في الخارج، جدّديه كل ساعتين، وفورًا بعد السباحة أو التعرّق الشديد أو التجفيف بالمنشفة، مع اتّباع تعليمات العبوة."
+      }
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Quyoshdan himoya kremi — himoyaning faqat bir qismi: soya, keng hoshiyali shlyapa, yopiq kiyim, quyosh ko'zoynagi va kunning eng issiq soatlarida quyoshdan qochish ham muhim. Himoya kremi bilan quyoshda uzoqroq qolish mumkin degan fikr noto'g'ri.",
+      "ru": "Солнцезащитный крем — лишь часть защиты: важны также тень, широкополая шляпа, закрытая одежда, солнцезащитные очки и избегание солнца в самые жаркие часы. Крем не повод дольше оставаться на солнце.",
+      "en": "Sunscreen is only part of sun protection: shade, a wide-brimmed hat, covering clothes, sunglasses and avoiding the strongest midday sun matter too. Sunscreen is not a reason to stay in the sun longer.",
+      "ar": "واقي الشمس جزء واحد من الحماية فقط، فالظلّ والقبعة العريضة والملابس الساترة والنظارات الشمسية وتجنّب شمس الظهيرة القوية مهمّة أيضًا. ولا يعني الواقي أنه يمكنكِ البقاء تحت الشمس مدة أطول."
+    },
+    {
+      "uz": "Sprey ko'rinishidagi kremni to'g'ridan-to'g'ri yuzga sepmang va nafas bilan yutmang: avval kaftga seping, so'ng yuzga surting. Rux oksidi kartochkasidagi sharhlarda nanozarrachali spreylarni nafas bilan yutish xavfi qayd etilgan.",
+      "ru": "Не распыляйте спрей прямо на лицо и не вдыхайте его: сначала распылите на ладонь, затем нанесите на лицо. В обзорах из карточки оксида цинка отмечен возможный риск при вдыхании спреев с наночастицами.",
+      "en": "Do not spray sunscreen straight onto your face or breathe it in: spray it into your palm first, then apply. Reviews on the zinc oxide card note a possible inhalation risk with nanoparticle sprays.",
+      "ar": "لا ترشّي الواقي مباشرة على وجهكِ ولا تستنشقيه، بل رشّيه في راحة يدكِ أولًا ثم ضعيه. وتشير مراجعات في بطاقة أكسيد الزنك إلى خطر محتمل عند استنشاق البخاخات المحتوية على جسيمات نانوية."
+    },
+    {
+      "uz": "Yangi himoya kremini birinchi marta ishlatishdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Achishish, qizarish yoki toshma paydo bo'lsa, boshqa formulani tanlang.",
+      "ru": "Перед первым применением нового солнцезащитного средства нанесите немного на внутреннюю сторону запястья или за ухо и подождите 24 часа. При жжении, покраснении или сыпи выберите другую формулу.",
+      "en": "Before using a new sunscreen for the first time, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If it stings, reddens or causes a rash, choose a different formula.",
+      "ar": "قبل استخدام واقٍ جديد لأول مرة، ضعي قليلًا منه على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة، وإن سبّب لسعة أو احمرارًا أو طفحًا فاختاري تركيبة أخرى."
+    },
+    {
+      "uz": "Krem ko'zga tushsa, ko'p miqdordagi toza suv bilan yuving. Ko'z atrofi achishsa, bu joy uchun mineral yoki «ko'z atrofi uchun sinalgan» deb belgilangan formulani tanlang.",
+      "ru": "Если крем попал в глаза, промойте их большим количеством чистой воды. Если щиплет вокруг глаз, выберите для этой зоны минеральную формулу или средство с пометкой о тестировании вокруг глаз.",
+      "en": "If sunscreen gets into your eyes, rinse with plenty of clean water. If it stings around the eyes, choose a mineral formula or one labelled as tested around the eyes for that area.",
+      "ar": "إذا دخل الواقي إلى عينيكِ، فاغسليهما بكثير من الماء النظيف. وإن سبّب لسعة حولهما، فاختاري لهذه المنطقة تركيبة معدنية أو منتجًا مكتوبًا عليه أنه مُختبر حول العينين."
+    },
+    {
+      "uz": "6 oylikkacha chaqaloqlarni to'g'ridan-to'g'ri quyoshdan saqlang va ularga himoya kremi haqida pediatr bilan maslahatlashing.",
+      "ru": "Младенцев до 6 месяцев держите вне прямого солнца, а о солнцезащитных средствах для них посоветуйтесь с педиатром.",
+      "en": "Keep babies under 6 months out of direct sun, and ask a paediatrician about sunscreen for them.",
+      "ar": "أبعدي الرُّضّع دون ستة أشهر عن الشمس المباشرة، واستشيري طبيب الأطفال بشأن واقي الشمس لهم."
+    },
+    {
+      "uz": "Yangi yoki o'zgarayotgan xol, qon ketadigan yoki bitmaydigan dog' sezsangiz, dermatologga ko'rining.",
+      "ru": "Если заметили новую или меняющуюся родинку, кровоточащее или незаживающее пятно, покажитесь дерматологу.",
+      "en": "If you notice a new or changing mole, or a spot that bleeds or will not heal, see a dermatologist.",
+      "ar": "إذا لاحظتِ شامة جديدة أو متغيّرة، أو بقعة تنزف أو لا تلتئم، فراجعي طبيب الجلدية."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, idishni mahkam yoping va issiq mashinada qoldirmang; muddati o'tgan kremni ishlatmang.",
+      "ru": "Мойте руки, плотно закрывайте флакон и не оставляйте его в горячей машине; не пользуйтесь просроченным средством.",
+      "en": "Wash your hands, close the bottle tightly and do not leave it in a hot car; do not use sunscreen past its expiry date.",
+      "ar": "اغسلي يديكِ، وأحكمي إغلاق العبوة، ولا تتركيها في سيارة حارّة، ولا تستخدمي واقيًا منتهي الصلاحية."
+    }
+  ],
+  "evidence": {
+    "uz": "Yorliqdagi SPF laboratoriyada ancha qalin qatlam (har kvadrat santimetrga 2 mg) bilan o'lchanadi; ikki barmoq qoidasi shu miqdorga yaqinlashish uchun taxminiy uy usuli, aniq o'lchov emas. Rux oksidi kartochkasidagi dalillar sharhlar va kichik tadqiqotlardan iborat bo'lib, himoya butun formulaga bog'liqligini ta'kidlaydi. Bu qo'llanmaning o'zi alohida o'rganilmagan; u ajinlarni yo'qotish yoki terini oqartirishni va'da qilmaydi.",
+    "ru": "SPF на этикетке измеряют в лаборатории при довольно толстом слое (2 мг на квадратный сантиметр); правило двух пальцев — примерный домашний способ приблизиться к этому количеству, а не точная мера. Данные в карточке оксида цинка получены из обзоров и небольших исследований и подчёркивают, что защита зависит от всей формулы. Само это руководство отдельно не изучалось; оно не обещает избавить от морщин или отбелить кожу.",
+    "en": "The SPF on the label is measured in a laboratory with a fairly thick layer (2 mg per square centimetre); the two-finger rule is a rough home guide to get closer to that amount, not a precise measure. The evidence on the zinc oxide card comes from reviews and small studies and stresses that protection depends on the whole formulation. This guide itself has not been studied; it does not promise to remove wrinkles or whiten the skin.",
+    "ar": "يُقاس عامل الحماية المكتوب على العبوة في المختبر بطبقة سميكة نسبيًا (2 ملغ لكل سنتيمتر مربع)، وقاعدة الإصبعين وسيلة منزلية تقريبية للاقتراب من هذه الكمية لا مقياس دقيق. وأدلة بطاقة أكسيد الزنك مأخوذة من مراجعات ودراسات صغيرة، وتؤكد أن الحماية تعتمد على التركيبة كاملة. ولم يُدرس هذا الدليل بحدّ ذاته، ولا يَعِد بإزالة التجاعيد أو تبييض البشرة."
+  }
+}

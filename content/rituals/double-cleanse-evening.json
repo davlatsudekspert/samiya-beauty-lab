@@ -1,0 +1,174 @@
+{
+  "id": "double-cleanse-evening",
+  "status": "draft",
+  "photo": "deco_rose",
+  "title": {
+    "uz": "Kechki ikki bosqichli tozalash",
+    "ru": "Вечернее двойное очищение",
+    "en": "Evening double cleanse",
+    "ar": "التنظيف المزدوج المسائي"
+  },
+  "intro": {
+    "uz": "Avval moy yoki balzam pardoz va quyoshdan himoya kremini eritadi, so'ng yumshoq vosita terini yuvadi. To'rt daqiqa — kunni yuzingizdan ohista olib tashlash uchun.",
+    "ru": "Сначала масло или бальзам растворяют макияж и солнцезащитный крем, затем мягкое средство умывает кожу. Четыре минуты, чтобы бережно смыть с лица прошедший день.",
+    "en": "First an oil or balm melts away make-up and sunscreen, then a gentle cleanser washes the skin. Four minutes to softly rinse the day from your face.",
+    "ar": "يذيب الزيت أو البلسم أولًا المكياج وواقي الشمس، ثم يغسل منظّف لطيف البشرة. أربع دقائق لتزيلي النهار عن وجهكِ برفق."
+  },
+  "steps": [
+    {
+      "seconds": 20,
+      "title": {
+        "uz": "Tayyorgarlik",
+        "ru": "Подготовка",
+        "en": "Prepare",
+        "ar": "التحضير"
+      },
+      "text": {
+        "uz": "Sochingizni yig'ing, qo'llaringizni yuving va quriting, kontakt linzalarni yeching. Birinchi bosqich quruq yuz va quruq qo'llar bilan qilinadi.",
+        "ru": "Уберите волосы, вымойте и вытрите руки, снимите контактные линзы. Первый этап делается сухими руками по сухому лицу.",
+        "en": "Tie back your hair, wash and dry your hands, and remove contact lenses. The first step is done with dry hands on a dry face.",
+        "ar": "اجمعي شعركِ، واغسلي يديكِ وجففيهما، وانزعي العدسات اللاصقة. تتمّ الخطوة الأولى بيدين جافتين على وجه جاف."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Moy yoki balzam",
+        "ru": "Масло или бальзам",
+        "en": "Oil or balm",
+        "ar": "الزيت أو البلسم"
+      },
+      "text": {
+        "uz": "Kaftga bir-ikki dozator gidrofil moy yoki o'rmon yong'og'idek balzam oling va quruq yuzga sekin aylanma harakatlar bilan surting. Ko'z atrofida faqat yumshoq siling, ishqalamang.",
+        "ru": "Возьмите на ладонь одно-два нажатия гидрофильного масла или бальзам размером с фундук и медленными кругами распределите по сухому лицу. Вокруг глаз — только мягкие касания, без трения.",
+        "en": "Take one or two pumps of cleansing oil, or a hazelnut-sized scoop of balm, and massage it over your dry face in slow circles. Around the eyes, stroke softly — no rubbing.",
+        "ar": "خذي ضغطة أو ضغطتين من زيت التنظيف أو مقدار حبّة بندق من البلسم، ودلّكي به وجهكِ الجاف بدوائر بطيئة، ومرّري يدكِ حول العينين بنعومة دون فرك."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Emulsiya",
+        "ru": "Эмульгирование",
+        "en": "Emulsify",
+        "ar": "الاستحلاب"
+      },
+      "text": {
+        "uz": "Barmoqlarni iliq suv bilan namlab, yana yuzni siling: moy sutsimon bo'lib oqara boshlaydi — shunda u oson yuviladi.",
+        "ru": "Смочите пальцы тёплой водой и снова помассируйте лицо: масло побелеет и станет похожим на молочко — так оно легко смоется.",
+        "en": "Wet your fingertips with lukewarm water and massage again: the oil turns milky and white — that is what lets it rinse away easily.",
+        "ar": "بلّلي أطراف أصابعكِ بماء فاتر ودلّكي وجهكِ مجددًا، فيتحوّل الزيت إلى سائل حليبي أبيض يسهل شطفه."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Chayish",
+        "ru": "Смывание",
+        "en": "Rinse",
+        "ar": "الشطف"
+      },
+      "text": {
+        "uz": "Iliq (issiq emas) suv bilan yaxshilab chaying; soch chizig'i va jag' ostini unutmang.",
+        "ru": "Тщательно смойте тёплой (не горячей) водой, не забывая про линию роста волос и область под подбородком.",
+        "en": "Rinse well with lukewarm (not hot) water, including your hairline and under your jaw.",
+        "ar": "اشطفي جيدًا بماء فاتر لا ساخن، ولا تنسي منبت الشعر وأسفل الفكّ."
+      }
+    },
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Yumshoq yuvish vositasi",
+        "ru": "Мягкое умывание",
+        "en": "Gentle cleanser",
+        "ar": "المنظّف اللطيف"
+      },
+      "text": {
+        "uz": "Nam yuzga no'xatdek yumshoq yuvish vositasini surting va barmoq uchlari bilan taxminan 30 soniya siling.",
+        "ru": "Нанесите на влажное лицо мягкое умывающее средство размером с горошину и около 30 секунд массируйте подушечками пальцев.",
+        "en": "Massage a pea-sized amount of gentle cleanser over your damp face with your fingertips for about 30 seconds.",
+        "ar": "دلّكي وجهكِ الرطب بمقدار حبّة بازلاء من منظّف لطيف بأطراف أصابعكِ نحو 30 ثانية."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Yana chayish",
+        "ru": "Снова смойте",
+        "en": "Rinse again",
+        "ar": "الشطف مجددًا"
+      },
+      "text": {
+        "uz": "Iliq suv bilan yaxshilab chaying, toza yumshoq sochiq bilan bosib quriting, ishqalamang.",
+        "ru": "Тщательно смойте тёплой водой и промокните лицо чистым мягким полотенцем, не растирая.",
+        "en": "Rinse thoroughly with lukewarm water and pat dry with a clean, soft towel, without rubbing.",
+        "ar": "اشطفي جيدًا بماء فاتر، ثم جففي وجهكِ بالتربيت بمنشفة نظيفة ناعمة دون فرك."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Namlash",
+        "ru": "Увлажнение",
+        "en": "Moisturise",
+        "ar": "الترطيب"
+      },
+      "text": {
+        "uz": "Teri hali biroz nam ekan, odatiy kechki parvarishingiz va namlovchi kremingizni surting.",
+        "ru": "Пока кожа ещё слегка влажная, нанесите привычный вечерний уход и увлажняющий крем.",
+        "en": "While your skin is still slightly damp, apply your usual evening care and moisturiser.",
+        "ar": "وبشرتكِ ما زالت رطبة قليلًا، ضعي عنايتكِ المسائية المعتادة ومرطّبكِ."
+      }
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Birinchi bosqich uchun yuvilish uchun mo'ljallangan tayyor gidrofil moy yoki balzam tanlang. Oshxona moylari suv bilan yaxshi yuvilmaydi; zaytun moyi kartochkasida uni yuvish moyi sifatida o'rgangan tadqiqot topilmagan va oleyn kislotasi bilan bog'liq to'siq zaiflashuvi ehtimoli muhokama qilinadi.",
+      "ru": "Для первого этапа выбирайте готовое гидрофильное масло или бальзам, рассчитанные на смывание. Кухонные масла плохо смываются водой; в карточке оливкового масла не найдено исследований его применения как очищающего масла, а возможное ослабление барьера из-за олеиновой кислоты обсуждается.",
+      "en": "For the first step, choose a ready-made cleansing oil or balm designed to rinse off. Kitchen oils do not rinse away well; the olive oil card found no study of olive oil as a cleansing oil, and possible barrier-weakening effects of its oleic acid are discussed.",
+      "ar": "اختاري للخطوة الأولى زيت تنظيف أو بلسمًا جاهزًا مصمّمًا للشطف. فزيوت المطبخ لا تُشطف جيدًا بالماء، ولم تجد بطاقة زيت الزيتون أي دراسة عنه كزيت تنظيف، ويُناقَش احتمال إضعاف حمض الأوليك لحاجز البشرة."
+    },
+    {
+      "uz": "Ikki bosqichli tozalash har kuni shart emas. Pardoz yoki quyoshdan himoya kremi surtmagan kunlari, yoki teri quruq va tortishib qolsa, bitta yumshoq yuvish yetarli.",
+      "ru": "Двойное очищение не обязательно каждый день. В дни без макияжа и солнцезащитного крема или если кожа сухая и стянутая, достаточно одного мягкого умывания.",
+      "en": "Double cleansing is not needed every night. On days without make-up or sunscreen, or if your skin feels dry and tight, one gentle cleanse is enough.",
+      "ar": "التنظيف المزدوج ليس ضروريًا كل ليلة. ففي الأيام التي لا تضعين فيها مكياجًا أو واقي شمس، أو إذا شعرتِ بجفاف البشرة وشدّها، يكفي تنظيف لطيف واحد."
+    },
+    {
+      "uz": "Qattiq ishqalamang, skrab yoki cho'tka qo'shmang va issiq suvdan foydalanmang: bular terini quritishi va ta'sirlantirishi mumkin.",
+      "ru": "Не трите сильно, не добавляйте скрабы и щёточки и не умывайтесь горячей водой: это может пересушить и раздражить кожу.",
+      "en": "Do not scrub hard, add scrubs or brushes, or use hot water: these can dry out and irritate the skin.",
+      "ar": "لا تفركي بقوة، ولا تضيفي مقشّرًا أو فرشاة، ولا تستخدمي ماءً ساخنًا؛ فكلّ ذلك قد يجفّف البشرة ويهيّجها."
+    },
+    {
+      "uz": "Vositalarni ko'zdan uzoq tuting; ko'zga tushsa, ko'p miqdordagi toza suv bilan yuving. Suvga chidamli ko'z pardozi uchun alohida yumshoq vositadan foydalaning.",
+      "ru": "Не допускайте попадания средств в глаза; если попали — промойте большим количеством чистой воды. Для водостойкого макияжа глаз используйте отдельное мягкое средство.",
+      "en": "Keep products out of your eyes; if any gets in, rinse with plenty of clean water. For waterproof eye make-up, use a separate gentle remover.",
+      "ar": "أبعدي المنتجات عن عينيكِ، وإذا دخل شيء منها فاغسليهما بكثير من الماء النظيف. واستخدمي مزيلًا لطيفًا منفصلًا لمكياج العينين المقاوم للماء."
+    },
+    {
+      "uz": "Yangi vositani birinchi marta ishlatishdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Achishish, qizarish, qichishish yoki yangi toshmalar paydo bo'lsa, undan voz keching.",
+      "ru": "Перед первым применением нового средства нанесите немного на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились жжение, покраснение, зуд или новые высыпания, откажитесь от него.",
+      "en": "Before using a new product for the first time, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If stinging, redness, itching or new breakouts appear, stop using it.",
+      "ar": "قبل استخدام منتج جديد لأول مرة، ضعي قليلًا منه على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. وإذا ظهرت لسعة أو احمرار أو حكة أو حبوب جديدة، فتوقّفي عن استخدامه."
+    },
+    {
+      "uz": "Yara, kuyish yoki yallig'langan toshmalar ustini ishqalamang. Shifokor buyurgan davolash vositalaridan foydalansangiz, tozalash tartibini u bilan kelishing.",
+      "ru": "Не массируйте поверх ранок, ожогов и воспалённых высыпаний. Если вы пользуетесь назначенными врачом средствами, согласуйте с ним порядок очищения.",
+      "en": "Do not massage over cuts, burns or inflamed breakouts. If you use treatments prescribed by a doctor, check your cleansing routine with them.",
+      "ar": "لا تدلّكي فوق الجروح أو الحروق أو البثور الملتهبة. وإذا كنتِ تستخدمين علاجات وصفها الطبيب، فاتّفقي معه على روتين التنظيف."
+    },
+    {
+      "uz": "Qo'llaringizni yuving va har kecha toza sochiqdan foydalaning.",
+      "ru": "Мойте руки и пользуйтесь каждый вечер чистым полотенцем.",
+      "en": "Wash your hands and use a clean towel each evening.",
+      "ar": "اغسلي يديكِ واستخدمي منشفة نظيفة كل مساء."
+    }
+  ],
+  "evidence": {
+    "uz": "Ikki bosqichli tozalash bo'yicha ilovada alohida dalil kartochkasi hozircha yo'q, bu marosimning o'zi ham o'rganilmagan. Bu — moyga asoslangan pardoz va quyoshdan himoya kremini olib tashlashning amaliy usuli. Zaytun moyi kartochkasida zaytun moyini yuvish moyi sifatida o'rgangan tadqiqot topilmagan. Marosim «teshiklarni chuqur tozalash» yoki «detoks»ni va'da qilmaydi.",
+    "ru": "Отдельной карточки доказательств о двойном очищении в приложении пока нет, и сам ритуал не изучался. Это практичный способ смыть макияж и солнцезащитный крем на масляной основе. В карточке оливкового масла не найдено исследований его применения как очищающего масла. Ритуал не обещает «глубокого очищения пор» или «детокса».",
+    "en": "There is no separate evidence card on double cleansing in the app yet, and this ritual itself has not been studied. It is a practical way to remove oil-based make-up and sunscreen. The olive oil card found no study of olive oil used as a cleansing oil. This ritual does not promise 'deep pore cleansing' or a 'detox'.",
+    "ar": "لا توجد بعدُ في التطبيق بطاقة أدلة مستقلة عن التنظيف المزدوج، ولم يُدرس هذا الطقس بحدّ ذاته. إنه طريقة عملية لإزالة المكياج وواقي الشمس ذوَي القوام الزيتي. ولم تجد بطاقة زيت الزيتون أي دراسة عن استخدامه زيتًا للتنظيف. لا يَعِد هذا الطقس بـ«تنظيف عميق للمسام» أو «تخليص البشرة من السموم»."
+  }
+}

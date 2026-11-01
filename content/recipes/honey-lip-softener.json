@@ -1,0 +1,141 @@
+{
+  "id": "honey-lip-softener",
+  "status": "draft",
+  "photo": "honey",
+  "ingredients": [
+    "honey"
+  ],
+  "minutes": 10,
+  "title": {
+    "uz": "Lablar uchun asalli yumshatish",
+    "ru": "Медовое смягчение для губ",
+    "en": "Honey lip softener",
+    "ar": "تنعيم الشفتين بالعسل"
+  },
+  "intro": {
+    "uz": "Bir tomchi asal va bir necha daqiqa sukunat — quruq lablar uchun yoqimli, oddiy parvarish. Skrabsiz, ishqalamasdan.",
+    "ru": "Капелька мёда и несколько минут тишины — простой и приятный уход для сухих губ. Без скраба и без трения.",
+    "en": "A drop of honey and a few quiet minutes — a simple, pleasant treat for dry lips. No scrub, no rubbing.",
+    "ar": "قطرة عسل وبضع دقائق من الهدوء: عناية بسيطة لطيفة للشفتين الجافتين، بلا تقشير ولا فرك."
+  },
+  "items": [
+    {
+      "uz": "Chorak choy qoshiq suyuq tabiiy asal (propolis va boshqa qo'shimchalarsiz)",
+      "ru": "1/4 ч. ложки жидкого натурального мёда (без прополиса и других добавок)",
+      "en": "1/4 teaspoon runny natural honey (no propolis or other additions)",
+      "ar": "ربع ملعقة صغيرة من العسل الطبيعي السائل (بلا بروبوليس أو إضافات أخرى)"
+    },
+    {
+      "uz": "Toza qoshiq yoki kichik idish",
+      "ru": "Чистая ложка или маленькая мисочка",
+      "en": "A clean spoon or small dish",
+      "ar": "ملعقة نظيفة أو وعاء صغير"
+    },
+    {
+      "uz": "Yumshoq toza mato",
+      "ru": "Мягкая чистая ткань",
+      "en": "A soft, clean cloth",
+      "ar": "قطعة قماش ناعمة نظيفة"
+    },
+    {
+      "uz": "Odatiy lab balzamingiz",
+      "ru": "Ваш привычный бальзам для губ",
+      "en": "Your usual lip balm",
+      "ar": "بلسم الشفاه المعتاد لديكِ"
+    }
+  ],
+  "steps": [
+    {
+      "uz": "Qo'llaringizni yuving. Asalni bankadan toza qoshiq bilan oling — barmoq tiqmang.",
+      "ru": "Вымойте руки. Наберите мёд из баночки чистой ложкой — не пальцем.",
+      "en": "Wash your hands. Take the honey from the jar with a clean spoon — not your finger.",
+      "ar": "اغسلي يديكِ، وخذي العسل من البرطمان بملعقة نظيفة لا بإصبعكِ."
+    },
+    {
+      "uz": "Toza barmoq uchi bilan lablarga yupqa qatlam surting.",
+      "ru": "Чистой подушечкой пальца нанесите на губы тонкий слой.",
+      "en": "With a clean fingertip, spread a thin layer over your lips.",
+      "ar": "بطرف إصبع نظيف، وزّعي طبقة رقيقة على شفتيكِ."
+    },
+    {
+      "uz": "5–10 daqiqa dam oling va lablaringizni yalamaslikka harakat qiling.",
+      "ru": "Отдохните 5–10 минут и постарайтесь не облизывать губы.",
+      "en": "Rest for 5–10 minutes and try not to lick your lips.",
+      "ar": "استرخي من خمس إلى عشر دقائق، وحاولي ألّا تلعقي شفتيكِ."
+    },
+    {
+      "uz": "Iliq suvda namlangan mato bilan asalni ohista artib oling — po'stloqlarni ishqalamang.",
+      "ru": "Мягко снимите мёд тканью, смоченной тёплой водой, — не стирайте шелушки.",
+      "en": "Gently wipe the honey away with the cloth dampened in lukewarm water — do not rub at flakes.",
+      "ar": "امسحي العسل برفق بالقماش المبلّل بماء فاتر، دون فرك القشور."
+    },
+    {
+      "uz": "Lablarni bosib quriting va odatiy lab balzamingizni surting.",
+      "ru": "Промокните губы и нанесите привычный бальзам.",
+      "en": "Pat your lips dry and apply your usual lip balm.",
+      "ar": "جففي شفتيكِ بالتربيت، ثم ضعي بلسمكِ المعتاد."
+    },
+    {
+      "uz": "Qoshiq yoki idishdagi qoldiqni bankaga qaytarmang.",
+      "ru": "Остатки с ложки или из мисочки обратно в баночку не возвращайте.",
+      "en": "Do not return any leftover honey from the spoon or dish to the jar.",
+      "ar": "لا تعيدي بقايا العسل من الملعقة أو الوعاء إلى البرطمان."
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Birinchi marta qo'llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo'lsa, bu retseptdan voz keching.",
+      "ru": "Перед первым применением нанесите немного мёда на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+      "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+      "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+      "uz": "Ari mahsulotlariga (asal, propolis, gulchang) allergiyangiz bo'lsa, ishlatmang. Propolis qo'shilgan asaldan kontakt allergiya kelib chiqqani haqida xabar bor, shuning uchun qo'shimchasiz oddiy asal tanlang.",
+      "ru": "Не используйте при аллергии на продукты пчеловодства (мёд, прополис, пыльцу). Описан случай контактной аллергии на мёд с прополисом, поэтому выбирайте обычный мёд без добавок.",
+      "en": "Do not use if you are allergic to bee products (honey, propolis, pollen). Contact allergy to propolis-enriched honey has been reported, so choose plain honey without additions.",
+      "ar": "لا تستخدميه إذا كانت لديكِ حساسية من منتجات النحل (العسل أو البروبوليس أو حبوب اللقاح). وقد أُبلغ عن حساسية تماسية من عسل مُضاف إليه البروبوليس، لذا اختاري عسلًا عاديًا بلا إضافات."
+    },
+    {
+      "uz": "Lablar shishsa, qichisa yoki achishsa, darhol iliq suv bilan yuvib tashlang. Shish kuchaysa yoki nafas olish qiyinlashsa, zudlik bilan tibbiy yordam chaqiring.",
+      "ru": "Если губы отекают, зудят или жжёт, сразу смойте мёд тёплой водой. Если отёк нарастает или становится трудно дышать, срочно обратитесь за медицинской помощью.",
+      "en": "If your lips swell, itch or sting, rinse the honey off at once with lukewarm water. If swelling grows or breathing becomes difficult, get urgent medical help.",
+      "ar": "إذا تورّمت شفتاكِ أو حكّتاكِ أو شعرتِ بلسعة، فاغسلي العسل فورًا بماء فاتر. وإذا ازداد التورّم أو صعب التنفّس، فاطلبي مساعدة طبية عاجلة."
+    },
+    {
+      "uz": "Labda yara, qonaydigan yoriq yoki uchuq (gerpes) bo'lsa, ishlatmang. Yoriqlar yoki yaralar uzoq bitmasa, shifokorga murojaat qiling.",
+      "ru": "Не используйте, если на губах есть ранки, кровоточащие трещины или герпес. Если трещины или ранки долго не заживают, обратитесь к врачу.",
+      "en": "Do not use on lips with sores, bleeding cracks or a cold sore. If cracks or sores do not heal, see a doctor.",
+      "ar": "لا تستخدميه على شفتين فيهما قروح أو تشقّقات تنزف أو قرحة برد (هربس). وإذا لم تلتئم التشقّقات أو القروح، فراجعي الطبيب."
+    },
+    {
+      "uz": "Shakar qo'shib skrab qilmang va limon sharbati, ichimlik sodasi yoki efir moylarini qo'shmang: ular nozik lab terisini ta'sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o'xshash reaksiyalarga sabab bo'lgani qayd etilgan.",
+      "ru": "Не превращайте мёд в скраб с сахаром и не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать тонкую кожу губ, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+      "en": "Do not turn it into a sugar scrub, and do not add lemon juice, baking soda or essential oils: they can irritate the thin skin of the lips, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+      "ar": "لا تحوّليه إلى مقشّر بالسكر، ولا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج جلد الشفتين الرقيق، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+      "uz": "Bir yoshgacha bo'lgan chaqaloqlarning lablariga asal surtmang: bu yoshda asal botulizm xavfi tufayli tavsiya etilmaydi.",
+      "ru": "Не наносите мёд на губы младенцам до года: в этом возрасте мёд не рекомендуют из-за риска ботулизма.",
+      "en": "Never put honey on the lips of babies under one year old: honey is not recommended at this age because of the risk of botulism.",
+      "ar": "لا تضعي العسل أبدًا على شفاه الرُّضّع دون عمر السنة، فالعسل غير موصى به في هذه السنّ بسبب خطر التسمّم الوشيقي."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, toza qoshiq va matodan foydalaning; har safar yangi miqdorda oling.",
+      "ru": "Вымойте руки, используйте чистую ложку и ткань; каждый раз берите свежую порцию.",
+      "en": "Wash your hands, use a clean spoon and cloth, and take a fresh portion each time.",
+      "ar": "اغسلي يديكِ، واستخدمي ملعقة وقماشًا نظيفين، وخذي كمية جديدة في كل مرة."
+    },
+    {
+      "uz": "Ko'zdan uzoqroq tuting; ko'zga tushsa, ko'p miqdordagi toza suv bilan yuving.",
+      "ru": "Не допускайте попадания в глаза; если попало — промойте большим количеством чистой воды.",
+      "en": "Keep away from your eyes; if any gets in, rinse with plenty of clean water.",
+      "ar": "أبعديه عن عينيكِ، وإذا دخل شيء منه فاغسليهما بكثير من الماء النظيف."
+    }
+  ],
+  "evidence": {
+    "uz": "Asal kartochkasidagi kichik, 4 haftalik tadqiqotda asalli qo'l kremlari asalsiz kremga qaraganda teri namligini ko'proq oshirgan, ammo bu qo'l terisi bo'lib, asalga xos to'siq foydasi ko'rsatilmagan. Lablarga surtilgan asal o'rganilmagan, bu retseptning o'zi ham o'rganilmagan.",
+    "ru": "В небольшом 4-недельном исследовании из карточки мёда кремы для рук с мёдом повышали увлажнённость кожи сильнее, чем крем без мёда, но речь шла о коже рук, и специфической пользы мёда для барьера показано не было. Мёд на губах не изучался, как и сам этот рецепт.",
+    "en": "In a small 4-week study on the honey card, hand creams containing honey raised skin hydration more than a honey-free cream, but this was hand skin and no barrier benefit specific to honey was shown. Honey on the lips has not been studied, and neither has this recipe.",
+    "ar": "في دراسة صغيرة مدتها أربعة أسابيع وردت في بطاقة العسل، رفعت كريمات اليدين المحتوية على العسل ترطيب البشرة أكثر من كريم خالٍ منه، لكنها أُجريت على جلد اليدين ولم تثبت فائدة خاصة بالعسل لحاجز البشرة. ولم يُدرس العسل على الشفتين، ولا هذه الوصفة بحدّ ذاتها."
+  }
+}

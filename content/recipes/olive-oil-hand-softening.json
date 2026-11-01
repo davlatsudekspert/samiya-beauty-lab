@@ -1,0 +1,141 @@
+{
+  "id": "olive-oil-hand-softening",
+  "status": "draft",
+  "photo": "olive-oil",
+  "ingredients": [
+    "olive-oil"
+  ],
+  "minutes": 15,
+  "title": {
+    "uz": "Zaytun moyi bilan qo'llarni yumshatish",
+    "ru": "Смягчение рук оливковым маслом",
+    "en": "Olive oil hand softening",
+    "ar": "تنعيم اليدين بزيت الزيتون"
+  },
+  "intro": {
+    "uz": "Bir choy qoshiq moy, paxta qo'lqoplar va o'n daqiqa dam — quruq qo'llar uchun vaqti-vaqti bilan qilinadigan iliq parvarish. Har kunlik odat emas, balki ba'zan o'zingizni erkalash uchun.",
+    "ru": "Чайная ложка масла, хлопковые перчатки и десять минут отдыха — тёплый уход для сухих рук время от времени. Не ежедневная привычка, а повод иногда себя побаловать.",
+    "en": "A teaspoon of oil, cotton gloves and ten minutes of rest — an occasional, comforting treat for dry hands. Not a daily habit, but a way to spoil yourself now and then.",
+    "ar": "ملعقة صغيرة من الزيت وقفّازان قطنيان وعشر دقائق من الراحة: عناية دافئة لليدين الجافتين من حين لآخر. ليست عادة يومية، بل تدليل لنفسكِ بين الحين والآخر."
+  },
+  "items": [
+    {
+      "uz": "1 choy qoshiq oddiy zaytun moyi (ziravor, sarimsoq yoki o'tlar qo'shilmagan)",
+      "ru": "1 ч. ложка обычного оливкового масла (без специй, чеснока и трав)",
+      "en": "1 teaspoon plain olive oil (not infused with spices, garlic or herbs)",
+      "ar": "ملعقة صغيرة من زيت الزيتون العادي (غير منكّه بالتوابل أو الثوم أو الأعشاب)"
+    },
+    {
+      "uz": "Kichik toza idish",
+      "ru": "Небольшая чистая мисочка",
+      "en": "A small, clean dish",
+      "ar": "وعاء صغير نظيف"
+    },
+    {
+      "uz": "Bir juft toza paxta qo'lqop (ixtiyoriy)",
+      "ru": "Пара чистых хлопковых перчаток (по желанию)",
+      "en": "A pair of clean cotton gloves (optional)",
+      "ar": "زوج من القفّازات القطنية النظيفة (اختياري)"
+    },
+    {
+      "uz": "Yumshoq sochiq yoki qog'oz salfetka",
+      "ru": "Мягкое полотенце или бумажная салфетка",
+      "en": "A soft towel or paper towel",
+      "ar": "منشفة ناعمة أو منديل ورقي"
+    }
+  ],
+  "steps": [
+    {
+      "uz": "Qo'llaringizni iliq suv va yumshoq sovun bilan yuving, sochiq bilan bosib, biroz nam qoldiring.",
+      "ru": "Вымойте руки тёплой водой с мягким мылом и промокните полотенцем, оставив их чуть влажными.",
+      "en": "Wash your hands with lukewarm water and mild soap, then pat them so they stay slightly damp.",
+      "ar": "اغسلي يديكِ بماء فاتر وصابون لطيف، ثم ربّتي عليهما بالمنشفة مع إبقائهما رطبتين قليلًا."
+    },
+    {
+      "uz": "Moyni idishga quying — shishaga barmoq tiqmang. Plitada qizitmang; kaftlarda ishqalab isitish yetarli.",
+      "ru": "Налейте масло в мисочку — не макайте пальцы в бутылку. Не нагревайте его на плите: достаточно согреть, растерев в ладонях.",
+      "en": "Pour the oil into the dish rather than dipping your fingers into the bottle. Do not heat it on the stove; warming it between your palms is enough.",
+      "ar": "اسكبي الزيت في الوعاء بدل غمس أصابعكِ في الزجاجة، ولا تسخّنيه على الموقد؛ يكفي تدفئته بفركه بين راحتيكِ."
+    },
+    {
+      "uz": "Moyni qo'lning orqa tomoni, bo'g'imlar, barmoqlar va tirnoq atrofiga 2–3 daqiqa sekin surting.",
+      "ru": "2–3 минуты медленно втирайте масло в тыльную сторону кистей, костяшки, пальцы и кожу вокруг ногтей.",
+      "en": "Slowly massage the oil into the backs of your hands, knuckles, fingers and around your nails for 2–3 minutes.",
+      "ar": "دلّكي الزيت ببطء على ظاهر اليدين والمفاصل والأصابع وحول الأظافر مدة دقيقتين إلى ثلاث."
+    },
+    {
+      "uz": "Xohlasangiz, paxta qo'lqop kiyib, 10 daqiqa dam oling.",
+      "ru": "По желанию наденьте хлопковые перчатки и отдохните 10 минут.",
+      "en": "If you like, slip on the cotton gloves and rest for 10 minutes.",
+      "ar": "إن شئتِ، البسي القفّازين القطنيين واسترخي عشر دقائق."
+    },
+    {
+      "uz": "Qo'lqoplarni yeching va ortiqcha moyni salfetka bilan bosib oling.",
+      "ru": "Снимите перчатки и промокните излишки масла салфеткой.",
+      "en": "Take off the gloves and blot away any excess oil with the towel.",
+      "ar": "انزعي القفّازين وانشفي الزيت الزائد بالمنديل."
+    },
+    {
+      "uz": "Idishdagi qoldiqni to'kib tashlang, qo'lqoplarni yuving.",
+      "ru": "Остатки масла из мисочки вылейте, перчатки постирайте.",
+      "en": "Pour away what is left in the dish and wash the gloves.",
+      "ar": "تخلّصي مما تبقّى في الوعاء واغسلي القفّازين."
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Birinchi marta qo'llashdan oldin ozgina miqdorini bilakning ichki tomoniga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo'lsa, bu retseptdan voz keching.",
+      "ru": "Перед первым применением нанесите немного масла на внутреннюю сторону запястья и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+      "en": "Before the first use, apply a little to the inside of your wrist and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+      "ar": "قبل الاستخدام الأول، ضعي قليلًا منه على باطن معصمكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+      "uz": "Buni vaqti-vaqti bilan qiling, har kuni emas. Zaytun moyi kartochkasidagi kichik tadqiqotda bilakka to'rt hafta kuniga ikki marta surtilgan zaytun moyi terining ustki qatlami yaxlitligini pasaytirgan va yengil qizarish bilan bog'langan; sharhlar buni oleyn kislotasi bilan bog'laydi.",
+      "ru": "Делайте это время от времени, а не каждый день. В небольшом исследовании из карточки оливкового масла нанесение на предплечье дважды в день в течение четырёх недель было связано со снижением целостности рогового слоя и лёгким покраснением; обзоры связывают это с олеиновой кислотой.",
+      "en": "Do this occasionally, not every day. In a small study on the olive oil card, olive oil applied to the forearm twice daily for four weeks was linked to reduced integrity of the skin's outer layer and mild redness; reviews attribute this to its oleic acid.",
+      "ar": "افعلي ذلك من حين لآخر لا كل يوم. ففي دراسة صغيرة في بطاقة زيت الزيتون، ارتبط وضع الزيت على الساعد مرتين يوميًا أربعة أسابيع بانخفاض سلامة الطبقة الخارجية للجلد واحمرار خفيف، وتعزو المراجعات ذلك إلى حمض الأوليك."
+    },
+    {
+      "uz": "Qo'lda ekzema yoki atopik dermatit bo'lsa, bu retseptni ishlatmang va qo'l parvarishini shifokor bilan kelishing. Chaqaloqlar terisiga zaytun moyini surtmang: pediatriya tavsiyalari boshqa moylarni afzal ko'radi.",
+      "ru": "При экземе на руках или атопическом дерматите не используйте этот рецепт и согласуйте уход за руками с врачом. Не наносите оливковое масло на кожу младенцев: педиатрические рекомендации отдают предпочтение другим маслам.",
+      "en": "If you have hand eczema or atopic dermatitis, do not use this recipe and plan your hand care with a doctor. Do not use olive oil on babies' skin: paediatric guidance prefers other oils.",
+      "ar": "إذا كانت لديكِ إكزيما في اليدين أو التهاب الجلد التأتبي، فلا تستخدمي هذه الوصفة، ونسّقي العناية بيديكِ مع الطبيب. ولا تضعي زيت الزيتون على بشرة الرُّضّع، فإرشادات طب الأطفال تفضّل زيوتًا أخرى."
+    },
+    {
+      "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek tirnoq atrofidagi yallig'langan joylarga hech qachon qo'llamang.",
+      "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённую кожу вокруг ногтей.",
+      "en": "Never apply to broken, scratched, cracked or burnt skin, or to inflamed skin around the nails.",
+      "ar": "لا تضعيه أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا على الجلد الملتهب حول الأظافر."
+    },
+    {
+      "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv va yumshoq sovun bilan yuvib tashlang. Noqulaylik o'tmasa, shifokorga murojaat qiling.",
+      "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой с мягким мылом. Если дискомфорт не проходит, обратитесь к врачу.",
+      "en": "If you feel stinging, redness or itching, wash it off at once with lukewarm water and mild soap. If the discomfort does not settle, see a doctor.",
+      "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسليه فورًا بماء فاتر وصابون لطيف. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+      "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo'shmang: ular terini ta'sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o'xshash reaksiyalarga sabab bo'lgani qayd etilgan.",
+      "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+      "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+      "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, toza idish va sochiqdan foydalaning. Achigan, yoqimsiz hidli moyni ishlatmang; har safar yangi miqdorda oling va qoldig'ini shishaga qaytarmang.",
+      "ru": "Вымойте руки, используйте чистую посуду и полотенце. Не используйте прогорклое масло с неприятным запахом; каждый раз берите свежую порцию и не сливайте остатки обратно в бутылку.",
+      "en": "Wash your hands and use a clean dish and towel. Do not use oil that smells rancid; take a fresh portion each time and never pour leftovers back into the bottle.",
+      "ar": "اغسلي يديكِ واستخدمي وعاءً ومنشفة نظيفين. ولا تستخدمي زيتًا ذا رائحة زنخة، وخذي كمية جديدة في كل مرة، ولا تعيدي البقايا إلى الزجاجة."
+    },
+    {
+      "uz": "Moyli qo'llar bilan ko'zingizni ishqalamang; ko'zga tushsa, ko'p miqdordagi toza suv bilan yuving. Moyli qo'llar sirpanchiq bo'ladi — idish va telefonni ehtiyotkorlik bilan ushlang.",
+      "ru": "Не трите глаза руками в масле; при попадании в глаза промойте их большим количеством чистой воды. Руки в масле скользкие — осторожно берите посуду и телефон.",
+      "en": "Do not rub your eyes with oily hands; if any gets into your eyes, rinse with plenty of clean water. Oily hands are slippery — take care with dishes and your phone.",
+      "ar": "لا تفركي عينيكِ بيدين عليهما زيت، وإذا دخل شيء منه إلى عينيكِ فاغسليهما بكثير من الماء النظيف. واليدان الزيتيتان زلقتان، فانتبهي للأواني والهاتف."
+    }
+  ],
+  "evidence": {
+    "uz": "Zaytun moyi kartochkasidagi tadqiqotlar kichik va asosan bilak terisida o'tkazilgan: birida zaytun moyi namlikni oshirgan, lekin suv bug'lanishini kamaytirmagan, boshqasida esa to'siq yaxlitligini pasaytirgan. Qo'lga surtish alohida o'rganilmagan, bu retseptning o'zi ham o'rganilmagan.",
+    "ru": "Исследования в карточке оливкового масла небольшие и проводились в основном на коже предплечья: в одном масло повышало увлажнённость, но не снижало потерю влаги, в другом — ослабляло целостность барьера. Нанесение на руки отдельно не изучалось, как и сам этот рецепт.",
+    "en": "The studies on the olive oil card are small and were mostly done on forearm skin: in one, olive oil raised hydration but did not reduce water loss; in another, it reduced barrier integrity. Use on the hands has not been studied separately, and neither has this recipe.",
+    "ar": "الدراسات في بطاقة زيت الزيتون صغيرة وأُجريت غالبًا على جلد الساعد: ففي إحداها رفع الزيت الترطيب لكنه لم يقلّل فقدان الماء، وفي أخرى خفّض سلامة الحاجز. ولم يُدرس استخدامه على اليدين بشكل مستقل، ولا هذه الوصفة بحدّ ذاتها."
+  }
+}

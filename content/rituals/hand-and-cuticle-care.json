@@ -1,0 +1,168 @@
+{
+  "id": "hand-and-cuticle-care",
+  "status": "draft",
+  "photo": "deco_peony",
+  "title": {
+    "uz": "Qo'l va tirnoq atrofi parvarishi",
+    "ru": "Уход за руками и кутикулой",
+    "en": "Hand and cuticle care",
+    "ar": "العناية باليدين والجلد حول الأظافر"
+  },
+  "intro": {
+    "uz": "Qo'llarimiz kun bo'yi suv, sovun va sovuq bilan ishlaydi. To'rt daqiqalik iliq parvarish — ularga minnatdorlik bildirish va o'zingizga bir lahza ajratish usuli.",
+    "ru": "Наши руки весь день встречаются с водой, мылом и холодом. Четыре минуты тёплой заботы — способ поблагодарить их и подарить себе минутку.",
+    "en": "Our hands meet water, soap and cold all day long. Four minutes of warm care is a way to thank them and to give yourself a moment.",
+    "ar": "تلقى يداكِ الماء والصابون والبرد طوال اليوم. أربع دقائق من العناية الدافئة طريقة لشكرهما ولمنح نفسكِ لحظة."
+  },
+  "steps": [
+    {
+      "seconds": 40,
+      "title": {
+        "uz": "Yuvish",
+        "ru": "Мытьё",
+        "en": "Wash",
+        "ar": "الغسل"
+      },
+      "text": {
+        "uz": "Qo'llaringizni iliq (issiq emas) suv va yumshoq sovun bilan yuving, barmoqlar orasini ham unutmang.",
+        "ru": "Вымойте руки тёплой (не горячей) водой с мягким мылом, не забывая промежутки между пальцами.",
+        "en": "Wash your hands with lukewarm (not hot) water and mild soap, including between your fingers.",
+        "ar": "اغسلي يديكِ بماء فاتر لا ساخن وصابون لطيف، ولا تنسي ما بين الأصابع."
+      }
+    },
+    {
+      "seconds": 20,
+      "title": {
+        "uz": "Quritish",
+        "ru": "Промокните",
+        "en": "Pat dry",
+        "ar": "التجفيف"
+      },
+      "text": {
+        "uz": "Toza sochiq bilan bosib quriting; barmoqlar orasi va tirnoq atrofi ham quruq bo'lsin.",
+        "ru": "Промокните руки чистым полотенцем, включая промежутки между пальцами и кожу вокруг ногтей.",
+        "en": "Pat dry with a clean towel, including between your fingers and around your nails.",
+        "ar": "جففي يديكِ بالتربيت بمنشفة نظيفة، بما في ذلك ما بين الأصابع وحول الأظافر."
+      }
+    },
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Qo'l kremi",
+        "ru": "Крем для рук",
+        "en": "Hand cream",
+        "ar": "كريم اليدين"
+      },
+      "text": {
+        "uz": "No'xatdek qo'l kremini kaftlarda isiting, avval kaftlarga, so'ng qo'lning orqa tomoni va bilaklarga surting.",
+        "ru": "Согрейте в ладонях крем для рук размером с горошину и нанесите сначала на ладони, затем на тыльную сторону кистей и запястья.",
+        "en": "Warm a pea-sized amount of hand cream between your palms and smooth it first over the palms, then the backs of your hands and wrists.",
+        "ar": "دفّئي مقدار حبّة بازلاء من كريم اليدين بين راحتيكِ، ثم وزّعيه على باطن الكفّين أولًا، فظاهر اليدين والمعصمين."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Barmoqlar",
+        "ru": "Пальцы",
+        "en": "Fingers",
+        "ar": "الأصابع"
+      },
+      "text": {
+        "uz": "Har bir barmoqni asosidan uchigacha boshqa qo'lning bosh va ko'rsatkich barmoqlari bilan sekin silab chiqing, go'yo qo'lqop kiygizayotgandek.",
+        "ru": "Медленно проведите большим и указательным пальцами другой руки по каждому пальцу от основания к кончику, словно надеваете перчатку.",
+        "en": "Slowly stroke each finger from base to tip between the thumb and index finger of your other hand, as if pulling on a glove.",
+        "ar": "امسحي ببطء كل إصبع من قاعدته إلى طرفه بين إبهام اليد الأخرى وسبّابتها، كأنكِ تلبسين قفّازًا."
+      }
+    },
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Tirnoq atrofi",
+        "ru": "Кутикула",
+        "en": "Cuticles",
+        "ar": "حول الأظافر"
+      },
+      "text": {
+        "uz": "Har bir tirnoq atrofidagi teriga ozgina krem yoki bir tomchi kosmetik moy surting va bosh barmoq bilan kichik aylanma harakatlar bilan siling.",
+        "ru": "Нанесите на кожу вокруг каждого ногтя немного крема или каплю косметического масла и вотрите маленькими круговыми движениями большого пальца.",
+        "en": "Dab a little cream or a drop of cosmetic oil onto the skin around each nail and work it in with small circles of your thumb.",
+        "ar": "ضعي قليلًا من الكريم أو قطرة من زيت تجميلي على الجلد حول كل ظفر، ودلّكيه بدوائر صغيرة بإبهامكِ."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Yumshoq itarish",
+        "ru": "Мягко отодвиньте",
+        "en": "Gently ease back",
+        "ar": "الدفع اللطيف"
+      },
+      "text": {
+        "uz": "Xohlasangiz, yumshagan kutikulani sochiq uchi bilan juda yengil orqaga itaring. Kesmang, yulmang va kuch ishlatmang.",
+        "ru": "При желании очень легко отодвиньте размягчённую кутикулу краешком полотенца. Не срезайте, не обрывайте и не прилагайте усилий.",
+        "en": "If you like, ease the softened cuticles back very lightly with the corner of a towel. Do not cut, tear or force them.",
+        "ar": "إن شئتِ، ادفعي الجليدة الطرية إلى الخلف بخفّة شديدة بطرف المنشفة، دون قصّها أو نزعها أو الضغط بقوة."
+      }
+    },
+    {
+      "seconds": 20,
+      "title": {
+        "uz": "Yakun",
+        "ru": "Завершение",
+        "en": "Close",
+        "ar": "الختام"
+      },
+      "text": {
+        "uz": "Barmoqlarni keng yoyib, so'ng sekin musht qiling — uch marta. Bir marta chuqur nafas oling.",
+        "ru": "Широко раскройте пальцы, затем медленно сожмите кулак — три раза. Сделайте глубокий вдох.",
+        "en": "Spread your fingers wide, then slowly curl them into a soft fist — three times. Take one deep breath.",
+        "ar": "افردي أصابعكِ على اتساعها ثم اقبضيها ببطء قبضة لينة، ثلاث مرات، وخذي نفسًا عميقًا."
+      }
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Kutikulani kesmang va yulmang: u tirnoq ildizini infeksiyadan himoya qiladi. Tirnoq atrofi qizarsa, shishsa, og'risa yoki yiring bo'lsa, shifokorga murojaat qiling.",
+      "ru": "Не срезайте и не обрывайте кутикулу: она защищает основание ногтя от инфекции. Если кожа вокруг ногтя покраснела, отекла, болит или появился гной, обратитесь к врачу.",
+      "en": "Do not cut or tear your cuticles: they help protect the base of the nail from infection. If the skin around a nail becomes red, swollen, painful or has pus, see a doctor.",
+      "ar": "لا تقصّي الجليدة ولا تنزعيها، فهي تحمي قاعدة الظفر من العدوى. وإذا احمرّ الجلد حول الظفر أو تورّم أو تألّم أو ظهر فيه صديد، فراجعي الطبيب."
+    },
+    {
+      "uz": "Qo'lda ekzema, qonaydigan yoriqlar, kuchli qichishish yoki uzoq o'tmaydigan quruqlik bo'lsa, shifokorga ko'rining; uyda parvarish davolash o'rnini bosmaydi.",
+      "ru": "При экземе на руках, кровоточащих трещинах, сильном зуде или стойкой сухости покажитесь врачу; домашний уход не заменяет лечения.",
+      "en": "If you have hand eczema, bleeding cracks, strong itching or dryness that does not settle, see a doctor; home care does not replace treatment.",
+      "ar": "إذا كان لديكِ إكزيما في اليدين، أو تشقّقات تنزف، أو حكة شديدة، أو جفاف لا يزول، فراجعي الطبيب؛ فالعناية المنزلية لا تغني عن العلاج."
+    },
+    {
+      "uz": "Yangi krem yoki moyni birinchi marta ishlatishdan oldin ozgina miqdorini bilakning ichki tomoniga surtib, 24 soat kuting. Achishish, qizarish yoki qichishish bo'lsa, undan voz keching.",
+      "ru": "Перед первым применением нового крема или масла нанесите немного на внутреннюю сторону запястья и подождите 24 часа. При жжении, покраснении или зуде откажитесь от него.",
+      "en": "Before using a new cream or oil for the first time, apply a little to the inside of your wrist and wait 24 hours. If it stings, reddens or itches, do not use it.",
+      "ar": "قبل استخدام كريم أو زيت جديد لأول مرة، ضعي قليلًا منه على باطن معصمكِ وانتظري 24 ساعة، وإذا سبّب لسعة أو احمرارًا أو حكة فلا تستخدميه."
+    },
+    {
+      "uz": "Yara, tirnalgan yoki yorilgan teriga, shuningdek tirnoq atrofidagi yallig'langan joylarga moy va krem surtmang.",
+      "ru": "Не наносите масло и крем на ранки, царапины, трещины и воспалённую кожу вокруг ногтей.",
+      "en": "Do not apply oil or cream to cuts, scratches, cracks or inflamed skin around the nails.",
+      "ar": "لا تضعي الزيت أو الكريم على الجروح أو الخدوش أو التشقّقات أو الجلد الملتهب حول الأظافر."
+    },
+    {
+      "uz": "Moy yoki krem tegan qo'llar bilan ko'zingizni ishqalamang. Sirpanchiq qo'llar bilan idishlarni ehtiyotkorlik bilan ushlang.",
+      "ru": "Не трите глаза руками, на которых масло или крем. Осторожно берите посуду скользкими руками.",
+      "en": "Do not rub your eyes with oily or creamy hands, and take care handling dishes while your hands are slippery.",
+      "ar": "لا تفركي عينيكِ بيدين عليهما زيت أو كريم، وانتبهي عند الإمساك بالأواني ويداكِ زلقتان."
+    },
+    {
+      "uz": "Idish yuvish va tozalash ishlarida qo'lqop kiyish qo'llarni suv va yuvish vositalaridan himoya qiladi.",
+      "ru": "Перчатки при мытье посуды и уборке защищают руки от воды и моющих средств.",
+      "en": "Wearing gloves for washing up and cleaning protects your hands from water and detergents.",
+      "ar": "يحمي ارتداء القفّازات عند غسل الأواني والتنظيف يديكِ من الماء والمنظّفات."
+    }
+  ],
+  "evidence": {
+    "uz": "Qo'l parvarishi bo'yicha ilovada alohida kartochka hozircha yo'q, bu marosimning o'zi ham o'rganilmagan. Asal kartochkasidagi kichik, 4 haftalik tadqiqotda hatto asalsiz platsebo qo'l kremi ham teri namligini taxminan 11% ga oshirgan — demak, asosiy ish muntazam namlashda. Marosim tirnoqlarni mustahkamlash yoki o'stirishni va'da qilmaydi.",
+    "ru": "Отдельной карточки об уходе за руками в приложении пока нет, и сам ритуал не изучался. В небольшом 4-недельном исследовании из карточки мёда даже крем для рук без мёда (плацебо) повышал увлажнённость кожи примерно на 11% — то есть главное здесь регулярное увлажнение. Ритуал не обещает укрепления или роста ногтей.",
+    "en": "There is no separate card on hand care in the app yet, and this ritual itself has not been studied. In a small 4-week study on the honey card, even the honey-free placebo hand cream raised skin hydration by about 11% — so the main work is regular moisturising. This ritual does not promise stronger or faster-growing nails.",
+    "ar": "لا توجد بعدُ في التطبيق بطاقة مستقلة عن العناية باليدين، ولم يُدرس هذا الطقس بحدّ ذاته. وفي دراسة صغيرة مدتها أربعة أسابيع وردت في بطاقة العسل، رفع حتى كريم اليدين الخالي من العسل (الدواء الوهمي) ترطيب البشرة بنحو 11%، أي أن الأساس هو الترطيب المنتظم. لا يَعِد هذا الطقس بتقوية الأظافر أو تسريع نموّها."
+  }
+}

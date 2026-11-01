@@ -1,0 +1,174 @@
+{
+  "id": "eye-area-gentle-tapping",
+  "status": "draft",
+  "photo": "deco_jasmine",
+  "title": {
+    "uz": "Ko'z atrofiga yengil tupish",
+    "ru": "Мягкое постукивание вокруг глаз",
+    "en": "Gentle eye-area tapping",
+    "ar": "النقر اللطيف حول العينين"
+  },
+  "intro": {
+    "uz": "Ekran va uzoq kundan keyin ko'zlaringizga uch daqiqalik tanaffus bering. Nomsiz barmoqning patdek yengil teginishi va sekin nafas — faqat dam olish uchun.",
+    "ru": "Подарите глазам трёхминутную паузу после экрана и долгого дня. Невесомые касания безымянного пальца и медленное дыхание — только ради отдыха.",
+    "en": "Give your eyes a three-minute pause after screens and a long day. Feather-light touches of the ring finger and slow breathing — simply to rest.",
+    "ar": "امنحي عينيكِ استراحة ثلاث دقائق بعد الشاشات ويوم طويل. لمسات خفيفة كالريشة بإصبع البنصر وتنفّس بطيء، من أجل الراحة فحسب."
+  },
+  "steps": [
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Tayyorgarlik",
+        "ru": "Подготовка",
+        "en": "Prepare",
+        "ar": "التحضير"
+      },
+      "text": {
+        "uz": "Qo'llaringizni yuving, kontakt linzalar va ko'z pardozini yeching. Ikkala nomsiz barmoq uchiga guruch donasidek ko'z kremi yoki odatiy namlovchi krem oling.",
+        "ru": "Вымойте руки, снимите контактные линзы и макияж с глаз. Возьмите на подушечки безымянных пальцев крем для век или привычный увлажняющий крем — с рисовое зёрнышко.",
+        "en": "Wash your hands and remove contact lenses and eye make-up. Take a rice-grain amount of eye cream or your usual moisturiser onto the pads of both ring fingers.",
+        "ar": "اغسلي يديكِ وانزعي العدسات اللاصقة ومكياج العينين، ثم ضعي على طرفي إصبعي البنصر مقدار حبّة أرز من كريم العينين أو مرطّبكِ المعتاد."
+      }
+    },
+    {
+      "seconds": 20,
+      "title": {
+        "uz": "Nafas",
+        "ru": "Дыхание",
+        "en": "Breathe",
+        "ar": "التنفّس"
+      },
+      "text": {
+        "uz": "Ko'zlaringizni yumib, yelkalaringizni bo'shashtiring va ikki marta sekin, chuqur nafas oling.",
+        "ru": "Закройте глаза, расслабьте плечи и сделайте два медленных глубоких вдоха.",
+        "en": "Close your eyes, let your shoulders drop and take two slow, deep breaths.",
+        "ar": "أغمضي عينيكِ وأرخي كتفيكِ، وخذي نفسين بطيئين عميقين."
+      }
+    },
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Ko'z osti suyagi",
+        "ru": "Под глазами",
+        "en": "Under the eyes",
+        "ar": "أسفل العينين"
+      },
+      "text": {
+        "uz": "Nomsiz barmoqlar bilan ko'z ostidagi suyak bo'ylab ichki burchakdan tashqi tomonga yomg'ir tomchisidek yengil tuping. Terini tortmang, siljitmang.",
+        "ru": "Безымянными пальцами легко, как капли дождя, постукивайте по костному краю под глазами от внутреннего уголка к внешнему. Не растягивайте и не сдвигайте кожу.",
+        "en": "With your ring fingers, tap as lightly as raindrops along the bone beneath your eyes, from the inner corner outwards. Do not stretch or drag the skin.",
+        "ar": "بإصبعي البنصر، انقري بخفّة قطرات المطر على العظم أسفل العينين من الزاوية الداخلية نحو الخارج، دون شدّ الجلد أو سحبه."
+      }
+    },
+    {
+      "seconds": 40,
+      "title": {
+        "uz": "Qosh suyagi",
+        "ru": "Надбровная дуга",
+        "en": "Brow bone",
+        "ar": "عظم الحاجب"
+      },
+      "text": {
+        "uz": "Xuddi shu yengil tupishni qosh ostidagi suyak bo'ylab, ichki burchakdan tashqi chetgacha davom ettiring. Qovoqning o'ziga tegmang.",
+        "ru": "Продолжайте так же легко постукивать вдоль кости под бровью — от внутреннего края к внешнему. Самого века не касайтесь.",
+        "en": "Continue the same light tapping along the bone just under your brows, from the inner end to the outer edge. Do not touch the eyelid itself.",
+        "ar": "تابعي النقر الخفيف نفسه على العظم أسفل الحاجبين من الطرف الداخلي إلى الحافة الخارجية، دون لمس الجفن نفسه."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Chakkalar",
+        "ru": "Виски",
+        "en": "Temples",
+        "ar": "الصدغان"
+      },
+      "text": {
+        "uz": "Barmoq uchlarini chakkalarga qo'ying va juda sekin, kichik aylanma harakatlar qiling. Nafasingiz bir tekis bo'lsin.",
+        "ru": "Положите подушечки пальцев на виски и делайте очень медленные маленькие круги. Дышите ровно.",
+        "en": "Rest your fingertips on your temples and make very slow, small circles. Keep your breathing even.",
+        "ar": "ضعي أطراف أصابعكِ على الصدغين وارسمي دوائر صغيرة بطيئة جدًا، مع تنفّس منتظم."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Iliq kaftlar",
+        "ru": "Тёплые ладони",
+        "en": "Warm palms",
+        "ar": "دفء الراحتين"
+      },
+      "text": {
+        "uz": "Kaftlarni ishqalab isiting va yopiq ko'zlar ustiga kosacha qilib qo'ying — ko'zga bosmasdan, faqat iliqlik va qorong'ilikni his qiling.",
+        "ru": "Разотрите ладони и сложите их «чашечкой» над закрытыми глазами — не надавливая, просто почувствуйте тепло и темноту.",
+        "en": "Rub your palms together and cup them over your closed eyes — without pressing, simply feel the warmth and darkness.",
+        "ar": "افركي راحتيكِ ثم ضعيهما مقوّستين فوق عينيكِ المغمضتين دون أي ضغط، واستشعري الدفء والظلمة فحسب."
+      }
+    },
+    {
+      "seconds": 15,
+      "title": {
+        "uz": "Yakun",
+        "ru": "Завершение",
+        "en": "Close",
+        "ar": "الختام"
+      },
+      "text": {
+        "uz": "Kaftlarni sekin oling, ko'zlaringizni asta oching va bir marta chuqur nafas oling.",
+        "ru": "Медленно уберите ладони, мягко откройте глаза и сделайте один глубокий вдох.",
+        "en": "Slowly lower your hands, open your eyes gently and take one deep breath.",
+        "ar": "أبعدي راحتيكِ ببطء، وافتحي عينيكِ برفق، وخذي نفسًا عميقًا واحدًا."
+      }
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Faqat ko'z kosasi suyagi bo'ylab, eng yengil teginish bilan ishlang; ko'z olmasi va qovoqqa hech qachon bosmang.",
+      "ru": "Работайте только по костному краю глазницы и самым лёгким касанием; никогда не давите на глазное яблоко и веки.",
+      "en": "Work only along the bony rim of the eye socket with the lightest touch; never press on the eyeball or eyelids.",
+      "ar": "اعملي على الحافة العظمية لمحجر العين فقط وبأخفّ لمسة، ولا تضغطي أبدًا على مقلة العين أو الجفنين."
+    },
+    {
+      "uz": "Qovoqda toshma, yallig'lanish (masalan, arpa), ko'zda qizarish yoki ajralma bo'lsa, marosimni o'tkazmang.",
+      "ru": "Не выполняйте ритуал, если на веках есть сыпь или воспаление (например, ячмень), а глаза покраснели или есть выделения.",
+      "en": "Skip the ritual if your eyelids have a rash or inflammation (such as a stye), or your eyes are red or discharging.",
+      "ar": "تجاوزي هذا الطقس إذا كان على جفنيكِ طفح أو التهاب (كالشحّاذ)، أو كانت عيناكِ محمرّتين أو فيهما إفرازات."
+    },
+    {
+      "uz": "Ko'z operatsiyasi (masalan, katarakta, lazer korreksiyasi yoki qovoq plastikasi) yoki ko'z atrofiga in'eksiyadan keyin qachon boshlash mumkinligini shifokoringizdan so'rang.",
+      "ru": "После операции на глазах (например, катаракты, лазерной коррекции или блефаропластики) или инъекций вокруг глаз уточните у врача, когда можно начинать.",
+      "en": "After eye surgery (such as cataract, laser correction or eyelid surgery) or injections around the eyes, ask your doctor when it is safe to start.",
+      "ar": "بعد جراحة في العين (كإزالة الساد أو التصحيح بالليزر أو جراحة الجفون) أو حقن حول العينين، اسألي طبيبكِ متى يمكنكِ البدء."
+    },
+    {
+      "uz": "Qovoq to'satdan shishsa, ko'z og'risa, ko'rish o'zgarsa yoki shish tez-tez va uzoq saqlansa, marosim o'rniga shifokorga murojaat qiling.",
+      "ru": "При внезапном отёке век, боли в глазах, изменении зрения или если отёки частые и стойкие, вместо ритуала обратитесь к врачу.",
+      "en": "If your eyelids swell suddenly, your eyes hurt, your vision changes, or puffiness is frequent and lasting, see a doctor instead.",
+      "ar": "إذا انتفخ جفناكِ فجأة، أو تألّمت عيناكِ، أو تغيّرت رؤيتكِ، أو تكرّر الانتفاخ واستمرّ، فاستشيري الطبيب بدلًا من هذا الطقس."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, tirnoqlaringiz kalta va silliq bo'lsin. Ko'z atrofi uchun mo'ljallangan yoki teringiz yaxshi ko'taradigan, avval sinab ko'rilgan kremdan foydalaning.",
+      "ru": "Вымойте руки; ногти должны быть короткими и гладкими. Используйте крем для век или средство, которое ваша кожа уже хорошо переносит.",
+      "en": "Wash your hands and keep your nails short and smooth. Use an eye cream or a product your skin already tolerates well.",
+      "ar": "اغسلي يديكِ، ولتكن أظافركِ قصيرة ناعمة. واستخدمي كريمًا مخصّصًا للعينين أو منتجًا اعتادته بشرتكِ وتتحمّله جيدًا."
+    },
+    {
+      "uz": "Krem ko'zga tushsa yoki achishtirsa, ko'zni ko'p miqdordagi toza suv bilan yuving. Noqulaylik o'tmasa, shifokorga murojaat qiling.",
+      "ru": "Если крем попал в глаз или щиплет, промойте глаз большим количеством чистой воды. Если дискомфорт не проходит, обратитесь к врачу.",
+      "en": "If cream gets into your eye or stings, rinse with plenty of clean water. If the discomfort does not settle, see a doctor.",
+      "ar": "إذا دخل الكريم إلى عينكِ أو سبّب لسعة، فاغسليها بكثير من الماء النظيف. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+      "uz": "Bu marosim dam olish uchun; u tibbiy muolaja o'rnini bosmaydi.",
+      "ru": "Этот ритуал — для отдыха и не заменяет лечения.",
+      "en": "This ritual is for relaxation and does not replace medical care.",
+      "ar": "هذا الطقس للاسترخاء ولا يغني عن الرعاية الطبية."
+    }
+  ],
+  "evidence": {
+    "uz": "Ko'z atrofiga tupish alohida o'rganilmagan. Yuz massaji kartochkasida tizimli sharh yuz terisining ko'rinishiga ta'sirni tasdiqlash uchun dalillar yetarli emas degan xulosaga kelgan, qolgan tadqiqotlar kichik va nazorat guruhisiz. Marosim ko'z ostidagi qorayish yoki shishni kamaytirishni va'da qilmaydi — bu ko'zlar uchun qisqa dam olish.",
+    "ru": "Постукивание вокруг глаз отдельно не изучалось. В карточке массажа лица систематический обзор пришёл к выводу, что данных недостаточно, чтобы подтвердить влияние на вид кожи лица, а остальные исследования небольшие и без контрольной группы. Ритуал не обещает убрать тёмные круги или отёки — это короткий отдых для глаз.",
+    "en": "Tapping around the eyes has not been studied on its own. On the facial massage card, a systematic review concluded there is not enough evidence to establish effects on facial skin appearance, and the other studies are small and lack an untreated control group. This ritual does not promise to reduce dark circles or puffiness — it is a short rest for your eyes.",
+    "ar": "لم يُدرس النقر حول العينين بحدّ ذاته. وفي بطاقة تدليك الوجه، خلصت مراجعة منهجية إلى أن الأدلة غير كافية لإثبات أثر على مظهر بشرة الوجه، والدراسات الأخرى صغيرة ومن دون مجموعة ضابطة. لا يَعِد هذا الطقس بتخفيف الهالات الداكنة أو الانتفاخ؛ إنه استراحة قصيرة لعينيكِ."
+  }
+}

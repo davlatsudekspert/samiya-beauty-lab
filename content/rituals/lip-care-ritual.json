@@ -1,0 +1,168 @@
+{
+  "id": "lip-care-ritual",
+  "status": "draft",
+  "photo": "deco_rose",
+  "title": {
+    "uz": "Lablar uchun nozik parvarish",
+    "ru": "Бережный уход за губами",
+    "en": "Gentle lip care",
+    "ar": "عناية لطيفة بالشفتين"
+  },
+  "intro": {
+    "uz": "Lablarning terisi yupqa va tez quriydi. Uch daqiqalik iliqlik, balzam va yengil teginish — skrabsiz, shoshilmasdan.",
+    "ru": "Кожа губ тонкая и быстро пересыхает. Три минуты тепла, бальзама и лёгких касаний — без скрабов и без спешки.",
+    "en": "The skin of the lips is thin and dries out quickly. Three minutes of warmth, balm and light touch — no scrubs, no hurry.",
+    "ar": "جلد الشفتين رقيق ويجفّ سريعًا. ثلاث دقائق من الدفء والبلسم واللمس الخفيف، بلا مقشّرات ولا استعجال."
+  },
+  "steps": [
+    {
+      "seconds": 15,
+      "title": {
+        "uz": "Qarab chiqing",
+        "ru": "Осмотр",
+        "en": "Check",
+        "ar": "التفقّد"
+      },
+      "text": {
+        "uz": "Qo'llaringizni yuving va lablaringizga ko'zguda qarang. Yara, pufakcha yoki qonaydigan yoriq bo'lsa, marosimni bugun o'tkazmang.",
+        "ru": "Вымойте руки и посмотрите на губы в зеркало. Если есть ранки, пузырьки или кровоточащие трещины, сегодня ритуал пропустите.",
+        "en": "Wash your hands and look at your lips in the mirror. If there are sores, blisters or bleeding cracks, skip the ritual today.",
+        "ar": "اغسلي يديكِ وانظري إلى شفتيكِ في المرآة. وإن كانت فيهما قروح أو بثور مائية أو تشقّقات تنزف، فتجاوزي الطقس اليوم."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Iliq kompress",
+        "ru": "Тёплый компресс",
+        "en": "Warm compress",
+        "ar": "كمادة دافئة"
+      },
+      "text": {
+        "uz": "Toza yumshoq matoni iliq (issiq emas) suvda namlab, siqib oling va lablarga 30 soniya bosib turing.",
+        "ru": "Смочите чистую мягкую ткань тёплой (не горячей) водой, отожмите и приложите к губам на 30 секунд.",
+        "en": "Soak a clean, soft cloth in lukewarm (not hot) water, wring it out and hold it against your lips for 30 seconds.",
+        "ar": "بلّلي قطعة قماش ناعمة نظيفة بماء فاتر لا ساخن، واعصريها، ثم ضعيها على شفتيكِ 30 ثانية."
+      }
+    },
+    {
+      "seconds": 15,
+      "title": {
+        "uz": "Quritish",
+        "ru": "Промокните",
+        "en": "Pat dry",
+        "ar": "التجفيف"
+      },
+      "text": {
+        "uz": "Lablarni mato bilan yengil bosib quriting. Po'stloqlarni ishqalab yoki tortib olib tashlamang.",
+        "ru": "Легко промокните губы тканью. Не стирайте и не отрывайте шелушки.",
+        "en": "Pat your lips dry with the cloth. Do not rub or pull off any flakes.",
+        "ar": "جففي شفتيكِ بالتربيت بالقماش، ولا تفركي القشور أو تنزعيها."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Balzam",
+        "ru": "Бальзам",
+        "en": "Balm",
+        "ar": "البلسم"
+      },
+      "text": {
+        "uz": "Xushbo'ylantirgichsiz, oddiy lab balzamini yupqa qatlam qilib surting — lab chegarasidan biroz chiqib ham.",
+        "ru": "Нанесите тонким слоем простой бальзам для губ без отдушек — чуть заходя за контур губ.",
+        "en": "Smooth on a thin layer of a simple, fragrance-free lip balm, taking it just past the edge of your lips.",
+        "ar": "ضعي طبقة رقيقة من بلسم شفاه بسيط خالٍ من العطور، وامدّيه قليلًا إلى ما بعد حدود الشفتين."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Yengil silash",
+        "ru": "Лёгкий массаж",
+        "en": "Soft massage",
+        "ar": "تدليك خفيف"
+      },
+      "text": {
+        "uz": "Nomsiz barmoq uchi bilan lablarni o'rtadan burchaklarga tomon juda sekin, kichik aylanma harakatlar bilan siling.",
+        "ru": "Подушечкой безымянного пальца очень медленно, маленькими кругами проведите по губам от центра к уголкам.",
+        "en": "With the pad of your ring finger, make very slow, small circles across your lips from the centre to the corners.",
+        "ar": "بطرف إصبع البنصر، ارسمي دوائر صغيرة بطيئة جدًا على شفتيكِ من الوسط نحو الزاويتين."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Og'iz atrofi",
+        "ru": "Вокруг рта",
+        "en": "Around the mouth",
+        "ar": "حول الفم"
+      },
+      "text": {
+        "uz": "Lab burchaklari va lab ustidagi teriga yengil aylanma harakatlar qiling, so'ng lablarni bo'shashtirib, sekin nafas chiqaring.",
+        "ru": "Сделайте лёгкие круговые движения в уголках рта и над верхней губой, затем расслабьте губы и медленно выдохните.",
+        "en": "Make light circles at the corners of your mouth and above your upper lip, then relax your lips and breathe out slowly.",
+        "ar": "ارسمي دوائر خفيفة عند زاويتي الفم وفوق الشفة العليا، ثم أرخي شفتيكِ وازفري ببطء."
+      }
+    },
+    {
+      "seconds": 20,
+      "title": {
+        "uz": "Yakun",
+        "ru": "Завершение",
+        "en": "Close",
+        "ar": "الختام"
+      },
+      "text": {
+        "uz": "Kunduzi tashqariga chiqsangiz, ustidan SPF li lab balzamini surting. Kechasi oddiy balzam qatlami yetarli.",
+        "ru": "Днём перед выходом на улицу нанесите сверху бальзам для губ с SPF. Вечером достаточно слоя обычного бальзама.",
+        "en": "In the daytime, add a lip balm with SPF before going outdoors. At night, a layer of plain balm is enough.",
+        "ar": "في النهار، ضعي فوقه بلسم شفاه بعامل حماية من الشمس قبل الخروج. أما ليلًا فتكفي طبقة من البلسم العادي."
+      }
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Lablarni skrablamang, po'stloqlarni tishlamang va yalamang: so'lak quriganda lablar yanada quruqlashadi.",
+      "ru": "Не скрабируйте губы, не скусывайте шелушки и не облизывайте губы: высыхая, слюна сушит их ещё больше.",
+      "en": "Do not scrub your lips, bite off flakes or lick them: as saliva dries, it leaves lips even drier.",
+      "ar": "لا تقشّري شفتيكِ ولا تقضمي القشور ولا تلعقيهما؛ فاللعاب حين يجفّ يزيدهما جفافًا."
+    },
+    {
+      "uz": "Labda uchuq (gerpes) bo'lsa, unga tegmang, keyin qo'llaringizni yuving, balzamni boshqalar bilan bo'lishmang va farmatsevt yoki shifokor bilan maslahatlashing.",
+      "ru": "При герпесе на губах не трогайте его, мойте руки после касания, не делитесь бальзамом и посоветуйтесь с фармацевтом или врачом.",
+      "en": "If you have a cold sore, do not touch it, wash your hands afterwards, do not share your balm, and ask a pharmacist or doctor for advice.",
+      "ar": "إذا ظهرت لديكِ قرحة برد (هربس) على الشفة، فلا تلمسيها، واغسلي يديكِ بعد أي لمس، ولا تشاركي البلسم مع أحد، واستشيري الصيدلي أو الطبيب."
+    },
+    {
+      "uz": "Lab burchaklaridagi yoriqlar uzoq o'tmasa, labda bitmaydigan yara, tuguncha yoki rang o'zgarishi bo'lsa, shifokorga murojaat qiling.",
+      "ru": "Если трещины в уголках рта долго не заживают или на губе появилась незаживающая ранка, уплотнение либо изменился цвет, обратитесь к врачу.",
+      "en": "If cracks at the corners of your mouth will not heal, or you notice a sore that does not heal, a lump or a change in colour on your lip, see a doctor.",
+      "ar": "إذا لم تلتئم التشقّقات عند زاويتي الفم، أو لاحظتِ على الشفة قرحة لا تلتئم أو كتلة أو تغيّرًا في اللون، فراجعي الطبيب."
+    },
+    {
+      "uz": "Mentol, kamfora yoki kuchli xushbo'y moddalar qo'shilgan balzamlar ba'zan lablarni ta'sirlantiradi. Propolis qo'shilgan asal mahsulotiga kontakt allergiya haqida xabar bor — ari mahsulotlariga allergiyangiz bo'lsa, tarkibni tekshiring.",
+      "ru": "Бальзамы с ментолом, камфорой или сильными отдушками иногда раздражают губы. Описан случай контактной аллергии на мёд с прополисом — при аллергии на продукты пчеловодства проверяйте состав.",
+      "en": "Balms with menthol, camphor or strong fragrance sometimes irritate the lips. Contact allergy to propolis-enriched honey has been reported — if you are allergic to bee products, check the ingredients.",
+      "ar": "قد تهيّج البلاسم المحتوية على المنثول أو الكافور أو العطور القوية الشفتين أحيانًا. وقد أُبلغ عن حساسية تماسية من عسل مُضاف إليه البروبوليس، فإن كانت لديكِ حساسية من منتجات النحل فتحقّقي من المكوّنات."
+    },
+    {
+      "uz": "Lablar shishsa, qichisa yoki achishsa, balzamni artib tashlang va iliq suv bilan yuving. Shish kuchaysa yoki nafas olish qiyinlashsa, darhol tibbiy yordam chaqiring.",
+      "ru": "Если губы отекают, зудят или жжёт, сотрите бальзам и умойтесь тёплой водой. Если отёк нарастает или становится трудно дышать, срочно обратитесь за медицинской помощью.",
+      "en": "If your lips swell, itch or sting, wipe the balm off and rinse with lukewarm water. If swelling grows or breathing becomes difficult, get urgent medical help.",
+      "ar": "إذا تورّمت شفتاكِ أو حكّتاكِ أو شعرتِ بلسعة، فامسحي البلسم واغسليهما بماء فاتر. وإذا ازداد التورّم أو صعب التنفّس، فاطلبي مساعدة طبية عاجلة."
+    },
+    {
+      "uz": "Qo'llaringizni yuving va har safar toza matodan foydalaning; balzam idishiga barmoq bilan tegsangiz, avval qo'llaringizni yuving.",
+      "ru": "Мойте руки и каждый раз берите чистую ткань; если набираете бальзам из баночки пальцем, сначала вымойте руки.",
+      "en": "Wash your hands and use a clean cloth each time; if you scoop balm from a pot with your finger, wash your hands first.",
+      "ar": "اغسلي يديكِ واستخدمي قطعة قماش نظيفة في كل مرة، وإن كنتِ تأخذين البلسم من علبة بإصبعكِ فاغسلي يديكِ أولًا."
+    }
+  ],
+  "evidence": {
+    "uz": "Lab parvarishi bo'yicha ilovada alohida dalil kartochkasi hozircha yo'q, bu marosimning o'zi ham o'rganilmagan. Asal kartochkasida propolis qo'shilgan asalga kontakt allergiya haqidagi bitta xabar bor — bu balzam tarkibiga e'tibor berish kerakligini eslatadi. Marosim lablarni «to'ldirish» yoki rangini o'zgartirishni va'da qilmaydi; bu nozik terini avaylash uchun.",
+    "ru": "Отдельной карточки доказательств об уходе за губами в приложении пока нет, и сам ритуал не изучался. В карточке мёда описан один случай контактной аллергии на мёд с прополисом — это напоминание внимательно смотреть на состав бальзама. Ритуал не обещает увеличения объёма или изменения цвета губ — это бережность к тонкой коже.",
+    "en": "There is no separate evidence card on lip care in the app yet, and this ritual itself has not been studied. The honey card notes one report of contact allergy to propolis-enriched honey — a reminder to look at what is in your balm. This ritual does not promise plumper or rosier lips; it is about being gentle with thin skin.",
+    "ar": "لا توجد بعدُ في التطبيق بطاقة أدلة مستقلة عن العناية بالشفتين، ولم يُدرس هذا الطقس بحدّ ذاته. وتذكر بطاقة العسل تقريرًا واحدًا عن حساسية تماسية من عسل مُضاف إليه البروبوليس، وهو تذكير بالانتباه إلى مكوّنات البلسم. لا يَعِد هذا الطقس بتكبير الشفتين أو تغيير لونهما، بل هو رفق بجلد رقيق."
+  }
+}

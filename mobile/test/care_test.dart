@@ -80,10 +80,12 @@ void main() {
     await t.tap(find.byKey(const Key('ritual-start')));
     await t.pump();
     expect(find.byKey(const Key('ritual-time')), findsOneWidget);
+    expect(find.text('1-qadam / 2'), findsOneWidget); // tartib: qadam / jami
     await t.pump(const Duration(seconds: 1));
     expect(find.text('0:02'), findsWidgets);
     await t.pump(const Duration(seconds: 2));
     expect(find.text('2-qadam / 2'), findsOneWidget);
+    expect(find.text('2-qadam / 2').evaluate().length, 1);
     await t.pump(const Duration(seconds: 2));
     expect(find.byKey(const Key('ritual-done')), findsOneWidget);
   });

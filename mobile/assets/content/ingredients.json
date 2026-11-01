@@ -7864,7 +7864,7 @@
   {
    "id": "honey-oat-mask",
    "status": "draft",
-   "photo": "honey",
+   "photo": "oat",
    "title": {
     "en": "Honey & oat mask",
     "uz": "Asal va suli niqobi",
@@ -8346,6 +8346,558 @@
       "uz": "Asbobni sovun va suv bilan yuving, quriting va toza joyda saqlang. Uni boshqalar bilan bo‘lishmang.",
       "ru": "Вымойте инструмент водой с мылом, высушите и храните в чистом месте. Не давайте его другим.",
       "ar": "اغسلي الأداة بالماء والصابون وجففيها واحفظيها في مكان نظيف، ولا تشاركيها مع أحد."
+     }
+    }
+   ]
+  },
+  {
+   "id": "eye-area-gentle-tapping",
+   "status": "draft",
+   "photo": "deco_jasmine",
+   "title": {
+    "en": "Gentle eye-area tapping",
+    "uz": "Ko‘z atrofiga yengil tupish",
+    "ru": "Мягкое постукивание вокруг глаз",
+    "ar": "النقر اللطيف حول العينين"
+   },
+   "intro": {
+    "en": "Give your eyes a three-minute pause after screens and a long day. Feather-light touches of the ring finger and slow breathing — simply to rest.",
+    "uz": "Ekran va uzoq kundan keyin ko‘zlaringizga uch daqiqalik tanaffus bering. Nomsiz barmoqning patdek yengil teginishi va sekin nafas — faqat dam olish uchun.",
+    "ru": "Подарите глазам трёхминутную паузу после экрана и долгого дня. Невесомые касания безымянного пальца и медленное дыхание — только ради отдыха.",
+    "ar": "امنحي عينيكِ استراحة ثلاث دقائق بعد الشاشات ويوم طويل. لمسات خفيفة كالريشة بإصبع البنصر وتنفّس بطيء، من أجل الراحة فحسب."
+   },
+   "safety": [
+    {
+     "en": "Work only along the bony rim of the eye socket with the lightest touch; never press on the eyeball or eyelids.",
+     "uz": "Faqat ko‘z kosasi suyagi bo‘ylab, eng yengil teginish bilan ishlang; ko‘z olmasi va qovoqqa hech qachon bosmang.",
+     "ru": "Работайте только по костному краю глазницы и самым лёгким касанием; никогда не давите на глазное яблоко и веки.",
+     "ar": "اعملي على الحافة العظمية لمحجر العين فقط وبأخفّ لمسة، ولا تضغطي أبدًا على مقلة العين أو الجفنين."
+    },
+    {
+     "en": "Skip the ritual if your eyelids have a rash or inflammation (such as a stye), or your eyes are red or discharging.",
+     "uz": "Qovoqda toshma, yallig‘lanish (masalan, arpa), ko‘zda qizarish yoki ajralma bo‘lsa, marosimni o‘tkazmang.",
+     "ru": "Не выполняйте ритуал, если на веках есть сыпь или воспаление (например, ячмень), а глаза покраснели или есть выделения.",
+     "ar": "تجاوزي هذا الطقس إذا كان على جفنيكِ طفح أو التهاب (كالشحّاذ)، أو كانت عيناكِ محمرّتين أو فيهما إفرازات."
+    },
+    {
+     "en": "After eye surgery (such as cataract, laser correction or eyelid surgery) or injections around the eyes, ask your doctor when it is safe to start.",
+     "uz": "Ko‘z operatsiyasi (masalan, katarakta, lazer korreksiyasi yoki qovoq plastikasi) yoki ko‘z atrofiga in‘eksiyadan keyin qachon boshlash mumkinligini shifokoringizdan so‘rang.",
+     "ru": "После операции на глазах (например, катаракты, лазерной коррекции или блефаропластики) или инъекций вокруг глаз уточните у врача, когда можно начинать.",
+     "ar": "بعد جراحة في العين (كإزالة الساد أو التصحيح بالليزر أو جراحة الجفون) أو حقن حول العينين، اسألي طبيبكِ متى يمكنكِ البدء."
+    },
+    {
+     "en": "If your eyelids swell suddenly, your eyes hurt, your vision changes, or puffiness is frequent and lasting, see a doctor instead.",
+     "uz": "Qovoq to‘satdan shishsa, ko‘z og‘risa, ko‘rish o‘zgarsa yoki shish tez-tez va uzoq saqlansa, marosim o‘rniga shifokorga murojaat qiling.",
+     "ru": "При внезапном отёке век, боли в глазах, изменении зрения или если отёки частые и стойкие, вместо ритуала обратитесь к врачу.",
+     "ar": "إذا انتفخ جفناكِ فجأة، أو تألّمت عيناكِ، أو تغيّرت رؤيتكِ، أو تكرّر الانتفاخ واستمرّ، فاستشيري الطبيب بدلًا من هذا الطقس."
+    },
+    {
+     "en": "Wash your hands and keep your nails short and smooth. Use an eye cream or a product your skin already tolerates well.",
+     "uz": "Qo‘llaringizni yuving, tirnoqlaringiz kalta va silliq bo‘lsin. Ko‘z atrofi uchun mo‘ljallangan yoki teringiz yaxshi ko‘taradigan, avval sinab ko‘rilgan kremdan foydalaning.",
+     "ru": "Вымойте руки; ногти должны быть короткими и гладкими. Используйте крем для век или средство, которое ваша кожа уже хорошо переносит.",
+     "ar": "اغسلي يديكِ، ولتكن أظافركِ قصيرة ناعمة. واستخدمي كريمًا مخصّصًا للعينين أو منتجًا اعتادته بشرتكِ وتتحمّله جيدًا."
+    },
+    {
+     "en": "If cream gets into your eye or stings, rinse with plenty of clean water. If the discomfort does not settle, see a doctor.",
+     "uz": "Krem ko‘zga tushsa yoki achishtirsa, ko‘zni ko‘p miqdordagi toza suv bilan yuving. Noqulaylik o‘tmasa, shifokorga murojaat qiling.",
+     "ru": "Если крем попал в глаз или щиплет, промойте глаз большим количеством чистой воды. Если дискомфорт не проходит, обратитесь к врачу.",
+     "ar": "إذا دخل الكريم إلى عينكِ أو سبّب لسعة، فاغسليها بكثير من الماء النظيف. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+     "en": "This ritual is for relaxation and does not replace medical care.",
+     "uz": "Bu marosim dam olish uchun; u tibbiy muolaja o‘rnini bosmaydi.",
+     "ru": "Этот ритуал — для отдыха и не заменяет лечения.",
+     "ar": "هذا الطقس للاسترخاء ولا يغني عن الرعاية الطبية."
+    }
+   ],
+   "evidence": {
+    "en": "Tapping around the eyes has not been studied on its own. On the facial massage card, a systematic review concluded there is not enough evidence to establish effects on facial skin appearance, and the other studies are small and lack an untreated control group. This ritual does not promise to reduce dark circles or puffiness — it is a short rest for your eyes.",
+    "uz": "Ko‘z atrofiga tupish alohida o‘rganilmagan. Yuz massaji kartochkasida tizimli sharh yuz terisining ko‘rinishiga ta‘sirni tasdiqlash uchun dalillar yetarli emas degan xulosaga kelgan, qolgan tadqiqotlar kichik va nazorat guruhisiz. Marosim ko‘z ostidagi qorayish yoki shishni kamaytirishni va‘da qilmaydi — bu ko‘zlar uchun qisqa dam olish.",
+    "ru": "Постукивание вокруг глаз отдельно не изучалось. В карточке массажа лица систематический обзор пришёл к выводу, что данных недостаточно, чтобы подтвердить влияние на вид кожи лица, а остальные исследования небольшие и без контрольной группы. Ритуал не обещает убрать тёмные круги или отёки — это короткий отдых для глаз.",
+    "ar": "لم يُدرس النقر حول العينين بحدّ ذاته. وفي بطاقة تدليك الوجه، خلصت مراجعة منهجية إلى أن الأدلة غير كافية لإثبات أثر على مظهر بشرة الوجه، والدراسات الأخرى صغيرة ومن دون مجموعة ضابطة. لا يَعِد هذا الطقس بتخفيف الهالات الداكنة أو الانتفاخ؛ إنه استراحة قصيرة لعينيكِ."
+   },
+   "steps": [
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Prepare",
+      "uz": "Tayyorgarlik",
+      "ru": "Подготовка",
+      "ar": "التحضير"
+     },
+     "text": {
+      "en": "Wash your hands and remove contact lenses and eye make-up. Take a rice-grain amount of eye cream or your usual moisturiser onto the pads of both ring fingers.",
+      "uz": "Qo‘llaringizni yuving, kontakt linzalar va ko‘z pardozini yeching. Ikkala nomsiz barmoq uchiga guruch donasidek ko‘z kremi yoki odatiy namlovchi krem oling.",
+      "ru": "Вымойте руки, снимите контактные линзы и макияж с глаз. Возьмите на подушечки безымянных пальцев крем для век или привычный увлажняющий крем — с рисовое зёрнышко.",
+      "ar": "اغسلي يديكِ وانزعي العدسات اللاصقة ومكياج العينين، ثم ضعي على طرفي إصبعي البنصر مقدار حبّة أرز من كريم العينين أو مرطّبكِ المعتاد."
+     }
+    },
+    {
+     "seconds": 20,
+     "title": {
+      "en": "Breathe",
+      "uz": "Nafas",
+      "ru": "Дыхание",
+      "ar": "التنفّس"
+     },
+     "text": {
+      "en": "Close your eyes, let your shoulders drop and take two slow, deep breaths.",
+      "uz": "Ko‘zlaringizni yumib, yelkalaringizni bo‘shashtiring va ikki marta sekin, chuqur nafas oling.",
+      "ru": "Закройте глаза, расслабьте плечи и сделайте два медленных глубоких вдоха.",
+      "ar": "أغمضي عينيكِ وأرخي كتفيكِ، وخذي نفسين بطيئين عميقين."
+     }
+    },
+    {
+     "seconds": 45,
+     "title": {
+      "en": "Under the eyes",
+      "uz": "Ko‘z osti suyagi",
+      "ru": "Под глазами",
+      "ar": "أسفل العينين"
+     },
+     "text": {
+      "en": "With your ring fingers, tap as lightly as raindrops along the bone beneath your eyes, from the inner corner outwards. Do not stretch or drag the skin.",
+      "uz": "Nomsiz barmoqlar bilan ko‘z ostidagi suyak bo‘ylab ichki burchakdan tashqi tomonga yomg‘ir tomchisidek yengil tuping. Terini tortmang, siljitmang.",
+      "ru": "Безымянными пальцами легко, как капли дождя, постукивайте по костному краю под глазами от внутреннего уголка к внешнему. Не растягивайте и не сдвигайте кожу.",
+      "ar": "بإصبعي البنصر، انقري بخفّة قطرات المطر على العظم أسفل العينين من الزاوية الداخلية نحو الخارج، دون شدّ الجلد أو سحبه."
+     }
+    },
+    {
+     "seconds": 40,
+     "title": {
+      "en": "Brow bone",
+      "uz": "Qosh suyagi",
+      "ru": "Надбровная дуга",
+      "ar": "عظم الحاجب"
+     },
+     "text": {
+      "en": "Continue the same light tapping along the bone just under your brows, from the inner end to the outer edge. Do not touch the eyelid itself.",
+      "uz": "Xuddi shu yengil tupishni qosh ostidagi suyak bo‘ylab, ichki burchakdan tashqi chetgacha davom ettiring. Qovoqning o‘ziga tegmang.",
+      "ru": "Продолжайте так же легко постукивать вдоль кости под бровью — от внутреннего края к внешнему. Самого века не касайтесь.",
+      "ar": "تابعي النقر الخفيف نفسه على العظم أسفل الحاجبين من الطرف الداخلي إلى الحافة الخارجية، دون لمس الجفن نفسه."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Temples",
+      "uz": "Chakkalar",
+      "ru": "Виски",
+      "ar": "الصدغان"
+     },
+     "text": {
+      "en": "Rest your fingertips on your temples and make very slow, small circles. Keep your breathing even.",
+      "uz": "Barmoq uchlarini chakkalarga qo‘ying va juda sekin, kichik aylanma harakatlar qiling. Nafasingiz bir tekis bo‘lsin.",
+      "ru": "Положите подушечки пальцев на виски и делайте очень медленные маленькие круги. Дышите ровно.",
+      "ar": "ضعي أطراف أصابعكِ على الصدغين وارسمي دوائر صغيرة بطيئة جدًا، مع تنفّس منتظم."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Warm palms",
+      "uz": "Iliq kaftlar",
+      "ru": "Тёплые ладони",
+      "ar": "دفء الراحتين"
+     },
+     "text": {
+      "en": "Rub your palms together and cup them over your closed eyes — without pressing, simply feel the warmth and darkness.",
+      "uz": "Kaftlarni ishqalab isiting va yopiq ko‘zlar ustiga kosacha qilib qo‘ying — ko‘zga bosmasdan, faqat iliqlik va qorong‘ilikni his qiling.",
+      "ru": "Разотрите ладони и сложите их «чашечкой» над закрытыми глазами — не надавливая, просто почувствуйте тепло и темноту.",
+      "ar": "افركي راحتيكِ ثم ضعيهما مقوّستين فوق عينيكِ المغمضتين دون أي ضغط، واستشعري الدفء والظلمة فحسب."
+     }
+    },
+    {
+     "seconds": 15,
+     "title": {
+      "en": "Close",
+      "uz": "Yakun",
+      "ru": "Завершение",
+      "ar": "الختام"
+     },
+     "text": {
+      "en": "Slowly lower your hands, open your eyes gently and take one deep breath.",
+      "uz": "Kaftlarni sekin oling, ko‘zlaringizni asta oching va bir marta chuqur nafas oling.",
+      "ru": "Медленно уберите ладони, мягко откройте глаза и сделайте один глубокий вдох.",
+      "ar": "أبعدي راحتيكِ ببطء، وافتحي عينيكِ برفق، وخذي نفسًا عميقًا واحدًا."
+     }
+    }
+   ]
+  },
+  {
+   "id": "forehead-smoothing-relax",
+   "status": "draft",
+   "photo": "deco_lavender",
+   "title": {
+    "en": "Forehead unwind",
+    "uz": "Peshona uchun sokin silash",
+    "ru": "Расслабление лба",
+    "ar": "إرخاء الجبين"
+   },
+   "intro": {
+    "en": "When we concentrate, we frown and tighten the forehead. Four minutes of soft strokes help you let that tension go and come back to yourself.",
+    "uz": "Diqqat bilan ishlaganda qoshlarimizni chimirib, peshonani taranglashtiramiz. To‘rt daqiqalik yumshoq silash shu taranglikni bo‘shatishga va o‘zingizga qaytishga yordam beradi.",
+    "ru": "Сосредоточившись, мы хмурим брови и напрягаем лоб. Четыре минуты мягких поглаживаний помогут отпустить это напряжение и вернуться к себе.",
+    "ar": "حين نركّز، نقطّب حواجبنا ونشدّ جبيننا. أربع دقائق من المسح الناعم تساعدكِ على التخلّي عن هذا الشدّ والعودة إلى نفسكِ."
+   },
+   "safety": [
+    {
+     "en": "Do not massage over active breakouts, inflammation, rashes, cuts or skin infections — work around them or save the ritual for another day.",
+     "uz": "Faol husnbuzar, yallig‘lanish, toshma, yara yoki teri infeksiyasi bo‘lgan joylarni massaj qilmang — ularni chetlab o‘ting yoki marosimni keyinga qoldiring.",
+     "ru": "Не массируйте участки с активными высыпаниями, воспалением, сыпью, ранками или кожной инфекцией — обходите их или отложите ритуал.",
+     "ar": "لا تدلّكي المناطق التي فيها حبوب نشطة أو التهاب أو طفح أو جروح أو عدوى جلدية؛ تجنّبيها أو أجّلي الطقس."
+    },
+    {
+     "en": "Skip the massage during a rosacea flare or whenever your skin is red and hot: friction and warmth can make redness worse.",
+     "uz": "Rozatsea qo‘zigan, teri qizarib, qizib turgan kunlarda massajdan voz keching: ishqalanish va issiqlik qizarishni kuchaytirishi mumkin.",
+     "ru": "В дни обострения розацеа, когда кожа покраснела и горит, откажитесь от массажа: трение и тепло могут усилить покраснение.",
+     "ar": "امتنعي عن التدليك في أثناء نوبة الوردية أو حين تكون بشرتكِ محمرّة وساخنة، فالاحتكاك والحرارة قد يزيدان الاحمرار."
+    },
+    {
+     "en": "After botulinum toxin or filler injections in the forehead or between the brows, or after peels or laser, ask the specialist who treated you when it is safe to massage.",
+     "uz": "Peshona yoki qoshlar orasiga botulinum toksin yoki filler in‘eksiyasidan, shuningdek piling yoki lazerdan keyin massajni qachon boshlash mumkinligini muolaja qilgan mutaxassisdan so‘rang.",
+     "ru": "После инъекций ботулотоксина или филлеров в лоб и межбровье, а также после пилинга или лазера уточните у специалиста, который их проводил, когда можно массировать.",
+     "ar": "بعد حقن البوتوكس أو الفيلر في الجبين أو بين الحاجبين، أو بعد التقشير أو الليزر، اسألي المختصّ الذي أجراها عن الوقت المناسب للتدليك."
+    },
+    {
+     "en": "If you have a severe, sudden or unusual headache, changes in vision or numbness, see a doctor promptly instead of massaging.",
+     "uz": "Kuchli, to‘satdan boshlangan yoki odatdagidan boshqacha bosh og‘rig‘i, ko‘rish buzilishi yoki uvishish bo‘lsa, massaj o‘rniga darhol shifokorga murojaat qiling.",
+     "ru": "При сильной, внезапной или необычной для вас головной боли, нарушении зрения или онемении вместо массажа сразу обратитесь к врачу.",
+     "ar": "إذا أصابكِ صداع شديد أو مفاجئ أو غير معتاد، أو اضطراب في الرؤية أو خدر، فراجعي الطبيب فورًا بدلًا من التدليك."
+    },
+    {
+     "en": "Keep the pressure light and pleasant: there should be no pain, bruising or red marks. Stop if you feel any discomfort.",
+     "uz": "Bosim yengil va yoqimli bo‘lsin: og‘riq, ko‘karish yoki qizil dog‘lar bo‘lmasligi kerak. Noqulaylik sezsangiz, to‘xtating.",
+     "ru": "Давление должно быть лёгким и приятным: без боли, синяков и красных пятен. При дискомфорте остановитесь.",
+     "ar": "ليكن الضغط خفيفًا ومريحًا، بلا ألم ولا كدمات ولا بقع حمراء، وتوقّفي إذا شعرتِ بأي انزعاج."
+    },
+    {
+     "en": "Wash your hands and keep your nails short and smooth. Use a cream your skin already tolerates, and keep it out of your eyes.",
+     "uz": "Qo‘llaringizni yuving, tirnoqlaringiz kalta va silliq bo‘lsin. Teringiz yaxshi ko‘taradigan, avval sinab ko‘rilgan kremdan foydalaning; krem ko‘zga tushmasin.",
+     "ru": "Вымойте руки; ногти должны быть короткими и гладкими. Используйте уже проверенный на вашей коже крем и не допускайте его попадания в глаза.",
+     "ar": "اغسلي يديكِ، ولتكن أظافركِ قصيرة ناعمة. واستخدمي كريمًا اعتادته بشرتكِ، وأبعديه عن عينيكِ."
+    },
+    {
+     "en": "This ritual is for relaxation and does not replace medical care.",
+     "uz": "Bu marosim dam olish uchun; u tibbiy muolaja o‘rnini bosmaydi.",
+     "ru": "Этот ритуал — для отдыха и не заменяет лечения.",
+     "ar": "هذا الطقس للاسترخاء ولا يغني عن الرعاية الطبية."
+    }
+   ],
+   "evidence": {
+    "en": "According to the facial massage card, the evidence is limited: a systematic review found too little evidence to establish effects on skin appearance, and no controlled study on the card showed fewer wrinkles. One small study linked a smoothing-and-press gesture with short-term relaxation. This ritual itself has not been studied, and it does not promise to smooth forehead lines.",
+    "uz": "Yuz massaji kartochkasiga ko‘ra dalillar cheklangan: tizimli sharh terining ko‘rinishiga ta‘sirni tasdiqlash uchun dalillar yetarli emas degan xulosaga kelgan, nazorat guruhisiz o‘tkazilgan tadqiqotlarda ajinlar kamayishi ko‘rsatilmagan. Bitta kichik tadqiqotda silash va yengil bosish qisqa muddatli xotirjamlik bilan bog‘langan. Bu marosimning o‘zi o‘rganilmagan va u peshonadagi chiziqlarni tekislashni va‘da qilmaydi.",
+    "ru": "Согласно карточке массажа лица, доказательства ограничены: систематический обзор счёл данные недостаточными для вывода о влиянии на вид кожи, а уменьшение морщин в исследованиях с контрольной группой показано не было. В одном небольшом исследовании поглаживание с мягким надавливанием было связано с кратковременным расслаблением. Сам ритуал не изучался и не обещает разгладить морщины на лбу.",
+    "ar": "بحسب بطاقة تدليك الوجه، الأدلة محدودة: فقد وجدت مراجعة منهجية أن الأدلة غير كافية لإثبات أثر على مظهر البشرة، ولم تُظهر أي دراسة مضبوطة في البطاقة تقليلًا للتجاعيد. وربطت دراسة صغيرة واحدة المسح مع الضغط اللطيف باسترخاء قصير الأمد. ولم يُدرس هذا الطقس بحدّ ذاته، ولا يَعِد بتمليس خطوط الجبين."
+   },
+   "steps": [
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Prepare",
+      "uz": "Tayyorgarlik",
+      "ru": "Подготовка",
+      "ar": "التحضير"
+     },
+     "text": {
+      "en": "Wash your hands and face. For glide, warm a little moisturiser between your palms.",
+      "uz": "Qo‘llaringizni va yuzingizni yuving. Sirpanish uchun kaftlarga ozgina namlovchi krem oling.",
+      "ru": "Вымойте руки и умойтесь. Для скольжения возьмите на ладони немного увлажняющего крема.",
+      "ar": "اغسلي يديكِ ووجهكِ، ودفّئي بين راحتيكِ قليلًا من المرطّب لتسهيل الانزلاق."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Warm palm",
+      "uz": "Iliq kaft",
+      "ru": "Тёплая ладонь",
+      "ar": "راحة دافئة"
+     },
+     "text": {
+      "en": "Lay one palm across your forehead and take three slow breaths. With each out-breath, feel your brows soften.",
+      "uz": "Bir kaftni peshonaga yotqizing va uch marta sekin nafas oling. Har nafas chiqarganda qoshlaringiz bo‘shashayotganini his qiling.",
+      "ru": "Положите ладонь на лоб и сделайте три медленных вдоха. С каждым выдохом чувствуйте, как расслабляются брови.",
+      "ar": "ضعي راحة يدكِ على جبينكِ وخذي ثلاثة أنفاس بطيئة، واستشعري مع كل زفير ارتخاء حاجبيكِ."
+     }
+    },
+    {
+     "seconds": 45,
+     "title": {
+      "en": "Upward strokes",
+      "uz": "Yuqoriga silash",
+      "ru": "Поглаживание вверх",
+      "ar": "المسح نحو الأعلى"
+     },
+     "text": {
+      "en": "With alternating palms, stroke lightly upwards from your brows to your hairline, like gentle waves. Do not stretch the skin.",
+      "uz": "Kaftlarni navbatma-navbat qoshlardan soch chizig‘iga qadar yengil yuqoriga silang, xuddi to‘lqinlar kabi. Terini tortmang.",
+      "ru": "Попеременно ладонями легко поглаживайте вверх — от бровей к линии роста волос, словно набегающие волны. Не растягивайте кожу.",
+      "ar": "بالتناوب بين راحتيكِ، امسحي بخفّة نحو الأعلى من الحاجبين إلى منبت الشعر كأمواج هادئة، دون شدّ الجلد."
+     }
+    },
+    {
+     "seconds": 45,
+     "title": {
+      "en": "Out to the temples",
+      "uz": "Chakkalar tomon",
+      "ru": "К вискам",
+      "ar": "نحو الصدغين"
+     },
+     "text": {
+      "en": "Place the fingertips of both hands at the centre of your forehead and glide slowly out to your temples. Start a little higher each time.",
+      "uz": "Ikki qo‘lning barmoq uchlarini peshona markaziga qo‘ying va chakkalar tomon sekin, silliq tortib boring. Har safar biroz yuqoriroqdan boshlang.",
+      "ru": "Поставьте подушечки пальцев обеих рук в центр лба и медленно, плавно ведите к вискам. Каждый раз начинайте чуть выше.",
+      "ar": "ضعي أطراف أصابع اليدين في وسط الجبين ومرّريها ببطء وسلاسة نحو الصدغين، وابدئي في كل مرة أعلى قليلًا."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Between the brows",
+      "uz": "Qoshlar orasi",
+      "ru": "Между бровями",
+      "ar": "بين الحاجبين"
+     },
+     "text": {
+      "en": "With the pads of your index and middle fingers, make tiny, slow circles between your brows. The pressure should be feather-light.",
+      "uz": "Ko‘rsatkich va o‘rta barmoq uchlari bilan qoshlar orasida juda kichik, sekin aylanma harakatlar qiling. Bosim — patdek yengil.",
+      "ru": "Подушечками указательного и среднего пальцев делайте между бровями совсем маленькие медленные круги. Давление — невесомое.",
+      "ar": "بطرفي السبّابة والوسطى، ارسمي دوائر صغيرة جدًا بطيئة بين الحاجبين، بضغط خفيف كالريشة."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Hairline",
+      "uz": "Soch chizig‘i",
+      "ru": "Линия роста волос",
+      "ar": "منبت الشعر"
+     },
+     "text": {
+      "en": "Walk your fingertips along the hairline from the centre out to your temples, pressing softly for a second or two at each point.",
+      "uz": "Barmoq uchlarini soch chizig‘i bo‘ylab o‘rtadan chakkalarga qadam-baqadam yurgizing, har nuqtada bir-ikki soniya yengil bosing.",
+      "ru": "Шаг за шагом ведите подушечки пальцев вдоль линии роста волос от центра к вискам, в каждой точке мягко прижимая на секунду-две.",
+      "ar": "حرّكي أطراف أصابعكِ خطوة خطوة على منبت الشعر من الوسط نحو الصدغين، مع ضغط لطيف لثانية أو ثانيتين عند كل نقطة."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Temples",
+      "uz": "Chakkalar",
+      "ru": "Виски",
+      "ar": "الصدغان"
+     },
+     "text": {
+      "en": "Make a few slow circles at your temples, then hold your fingers still for a moment.",
+      "uz": "Chakkalarda sekin aylanma harakatlar qiling, so‘ng barmoqlarni bir lahza harakatsiz ushlab turing.",
+      "ru": "Сделайте на висках несколько медленных кругов, затем на мгновение задержите пальцы неподвижно.",
+      "ar": "ارسمي بضع دوائر بطيئة على الصدغين، ثم أبقي أصابعكِ ساكنة للحظة."
+     }
+    },
+    {
+     "seconds": 15,
+     "title": {
+      "en": "Close",
+      "uz": "Yakun",
+      "ru": "Завершение",
+      "ar": "الختام"
+     },
+     "text": {
+      "en": "Lower your hands, leave your face soft and take one deep breath.",
+      "uz": "Qo‘llaringizni tushiring, yuzingizni «yumshoq» qoldiring va bir marta chuqur nafas oling.",
+      "ru": "Опустите руки, оставьте лицо «мягким» и сделайте один глубокий вдох.",
+      "ar": "أنزلي يديكِ، واتركي وجهكِ مسترخيًا، وخذي نفسًا عميقًا واحدًا."
+     }
+    }
+   ]
+  },
+  {
+   "id": "jawline-and-jaw-release",
+   "status": "draft",
+   "photo": "deco_peony",
+   "title": {
+    "en": "Jaw release",
+    "uz": "Jag‘ni bo‘shashtirish",
+    "ru": "Расслабление челюсти",
+    "ar": "إرخاء الفكّ"
+   },
+   "intro": {
+    "en": "Many of us clench our teeth without noticing when we are tense. Four and a half minutes of soft movements give your chewing muscles a chance to rest.",
+    "uz": "Ko‘pchiligimiz tashvish paytida bilmagan holda tishlarni qisamiz. To‘rt yarim daqiqalik yumshoq harakatlar chaynash mushaklariga dam olish uchun imkon beradi.",
+    "ru": "Многие из нас, сами того не замечая, сжимают зубы, когда напряжены. Четыре с половиной минуты мягких движений помогут дать жевательным мышцам передышку.",
+    "ar": "كثيرات منّا يضغطن على أسنانهنّ دون انتباه في لحظات التوتر. أربع دقائق ونصف من الحركات الناعمة تمنح عضلات المضغ فرصة للراحة."
+   },
+   "safety": [
+    {
+     "en": "If you have jaw pain, cannot open your mouth fully, your jaw locks or clicks painfully, see a dentist or doctor instead.",
+     "uz": "Jag‘da og‘riq, og‘iz to‘liq ochilmasligi, jag‘ «tiqilib» qolishi yoki og‘riqli qisirlash bo‘lsa, marosim o‘rniga stomatolog yoki shifokorga murojaat qiling.",
+     "ru": "При боли в челюсти, ограниченном открывании рта, «заклинивании» челюсти или болезненных щелчках вместо ритуала обратитесь к стоматологу или врачу.",
+     "ar": "إذا كان لديكِ ألم في الفكّ، أو لا تستطيعين فتح فمكِ كاملًا، أو يتعلّق فكّكِ أو يطقطق بألم، فراجعي طبيب الأسنان أو الطبيب بدلًا من هذا الطقس."
+    },
+    {
+     "en": "If you grind your teeth at night or clench all day, talk to a dentist — massage does not treat this.",
+     "uz": "Kechasi tishlarni g‘ijirlatsangiz yoki kunduzi doimiy qisib yursangiz, buni stomatolog bilan muhokama qiling — massaj bu holatni davolamaydi.",
+     "ru": "Если вы скрипите зубами ночью или постоянно сжимаете их днём, обсудите это со стоматологом — массаж это состояние не лечит.",
+     "ar": "إذا كنتِ تصرّين على أسنانكِ ليلًا أو تضغطين عليها طوال النهار، فتحدّثي إلى طبيب الأسنان؛ فالتدليك لا يعالج ذلك."
+    },
+    {
+     "en": "If you have recently had dental work, a tooth extraction, or a jaw injury or operation, ask your doctor or dentist first.",
+     "uz": "Yaqinda tish davolash, tish sug‘urish, jag‘ jarohati yoki operatsiyasi bo‘lgan bo‘lsa, avval shifokoringizdan so‘rang.",
+     "ru": "Если недавно было лечение или удаление зуба, травма или операция на челюсти, сначала посоветуйтесь с врачом.",
+     "ar": "إذا خضعتِ مؤخرًا لعلاج أسنان أو خلع ضرس أو أُصبتِ في الفكّ أو أُجريت لكِ عملية فيه، فاستشيري طبيبكِ أولًا."
+    },
+    {
+     "en": "After botulinum toxin injections into the jaw muscles, fillers or other cosmetic procedures, ask the specialist who treated you when it is safe to massage.",
+     "uz": "Chaynash mushagi yoki yuzga botulinum toksin, filler in‘eksiyasi yoki boshqa kosmetologik protseduradan keyin massajni qachon boshlash mumkinligini muolaja qilgan mutaxassisdan so‘rang.",
+     "ru": "После инъекций ботулотоксина в жевательные мышцы, филлеров или других косметологических процедур уточните у специалиста, который их проводил, когда можно массировать.",
+     "ar": "بعد حقن البوتوكس في عضلات المضغ أو الفيلر أو غيرها من الإجراءات التجميلية، اسألي المختصّ الذي أجراها عن الوقت المناسب للتدليك."
+    },
+    {
+     "en": "If you notice a swollen or tender lump under your jaw or on your neck, do not massage it — see a doctor.",
+     "uz": "Jag‘ ostida yoki bo‘yinda shishgan, og‘riqli tuguncha sezsangiz, uni massaj qilmang va shifokorga ko‘rining.",
+     "ru": "Если под челюстью или на шее прощупывается припухлость или болезненный узелок, не массируйте это место и покажитесь врачу.",
+     "ar": "إذا لاحظتِ تورّمًا أو كتلة مؤلمة تحت الفكّ أو في الرقبة، فلا تدلّكيها وراجعي الطبيب."
+    },
+    {
+     "en": "If you take blood thinners, have a bleeding disorder or bruise easily, ask your doctor first.",
+     "uz": "Qon suyultiruvchi dori qabul qilsangiz, qon ivishi buzilgan bo‘lsa yoki teringiz oson ko‘karsa, avval shifokor bilan maslahatlashing.",
+     "ru": "Если вы принимаете препараты, разжижающие кровь, у вас нарушена свёртываемость или легко появляются синяки, сначала посоветуйтесь с врачом.",
+     "ar": "إذا كنتِ تتناولين أدوية مميّعة للدم، أو لديكِ اضطراب في التخثّر، أو تظهر الكدمات على جلدكِ بسهولة، فاستشيري طبيبكِ أولًا."
+    },
+    {
+     "en": "Keep the pressure light and pleasant. Stop if you feel pain, numbness, dizziness or discomfort, and work around breakouts or inflamed areas.",
+     "uz": "Bosim yengil va yoqimli bo‘lsin. Og‘riq, uvishish, bosh aylanishi yoki noqulaylik sezsangiz, to‘xtating. Husnbuzar yoki yallig‘langan joylarni chetlab o‘ting.",
+     "ru": "Давление должно быть лёгким и приятным. При боли, онемении, головокружении или дискомфорте остановитесь. Обходите высыпания и воспалённые участки.",
+     "ar": "ليكن الضغط خفيفًا ومريحًا. وتوقّفي إذا شعرتِ بألم أو خدر أو دوخة أو انزعاج، وتجنّبي الحبوب والمناطق الملتهبة."
+    }
+   ],
+   "evidence": {
+    "en": "There is no separate card yet on cosmetic massage of the jaw muscles. The evidence on the facial massage card is limited: a systematic review found too little evidence to establish effects on facial contour, and one small study linked a gentle smoothing-and-press gesture with short-term relaxation. This ritual itself has not been studied; it does not promise a slimmer face or a 'lifted' jawline.",
+    "uz": "Jag‘ mushaklarini kosmetik maqsadda massaj qilish bo‘yicha alohida kartochka hozircha yo‘q. Yuz massaji kartochkasidagi dalillar cheklangan: tizimli sharh yuz konturiga ta‘sirni tasdiqlash uchun dalillar yetarli emas deb topgan, bitta kichik tadqiqotda esa yumshoq silash va bosish qisqa muddatli xotirjamlik bilan bog‘langan. Bu marosimning o‘zi o‘rganilmagan; u yuzni ingichkalashtirish yoki jag‘ chizig‘ini «tortish»ni va‘da qilmaydi.",
+    "ru": "Отдельной карточки о косметическом массаже жевательных мышц пока нет. Данные в карточке массажа лица ограничены: систематический обзор счёл, что доказательств недостаточно для вывода о влиянии на овал лица, а в одном небольшом исследовании мягкое поглаживание с надавливанием было связано с кратковременным расслаблением. Сам ритуал не изучался; он не обещает «похудения» лица или подтянутой линии челюсти.",
+    "ar": "لا توجد بعدُ بطاقة مستقلة عن التدليك التجميلي لعضلات الفكّ. والأدلة في بطاقة تدليك الوجه محدودة: فقد وجدت مراجعة منهجية أن الأدلة غير كافية لإثبات أثر على محيط الوجه، وربطت دراسة صغيرة واحدة المسح مع الضغط اللطيف باسترخاء قصير الأمد. ولم يُدرس هذا الطقس بحدّ ذاته، ولا يَعِد بتنحيف الوجه أو «شدّ» خط الفكّ."
+   },
+   "steps": [
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Settle",
+      "uz": "Holat",
+      "ru": "Положение",
+      "ar": "الجلسة"
+     },
+     "text": {
+      "en": "Wash your hands and sit comfortably. Close your lips softly, leave a small gap between your teeth and let your tongue rest loosely against the roof of your mouth.",
+      "uz": "Qo‘llaringizni yuving va qulay o‘tiring. Lablarni yengil yuming, tishlar orasida ozgina bo‘shliq qolsin, til tanglayga erkin tegib tursin.",
+      "ru": "Вымойте руки и сядьте удобно. Мягко сомкните губы, оставьте между зубами небольшой зазор, язык свободно лежит у нёба.",
+      "ar": "اغسلي يديكِ واجلسي براحة. أطبقي شفتيكِ برفق، واتركي فراغًا صغيرًا بين أسنانكِ، ودعي لسانكِ يستقرّ بارتخاء على سقف فمكِ."
+     }
+    },
+    {
+     "seconds": 20,
+     "title": {
+      "en": "Find the muscle",
+      "uz": "Mushakni toping",
+      "ru": "Найдите мышцу",
+      "ar": "حدّدي العضلة"
+     },
+     "text": {
+      "en": "Place your fingertips below your cheekbones, just in front of your ears. Clench lightly for a moment to feel the muscle firm up, then let go straight away.",
+      "uz": "Barmoq uchlarini yonoq suyagi ostiga, quloqdan biroz oldinga qo‘ying. Tishlarni bir lahza yengil qisib, bo‘rtib chiqqan mushakni his qiling, so‘ng darhol bo‘shating.",
+      "ru": "Положите подушечки пальцев под скулы, чуть впереди ушей. На мгновение слегка сожмите зубы, почувствуйте, как напрягается мышца, и сразу отпустите.",
+      "ar": "ضعي أطراف أصابعكِ أسفل عظمتي الوجنتين أمام الأذنين بقليل. اضغطي أسنانكِ بخفّة للحظة لتشعري بالعضلة تنقبض، ثم أرخيها فورًا."
+     }
+    },
+    {
+     "seconds": 60,
+     "title": {
+      "en": "Slow circles",
+      "uz": "Aylanma harakatlar",
+      "ru": "Круговые движения",
+      "ar": "دوائر بطيئة"
+     },
+     "text": {
+      "en": "Make slow, small circles over that spot with your fingertips. Keep the pressure pleasant, never painful, and let your jaw hang slightly loose.",
+      "uz": "Shu joyda barmoq uchlari bilan sekin, kichik aylanma harakatlar qiling. Bosim yoqimli bo‘lsin, og‘riq bermasin; jag‘ingiz biroz osilib tursin.",
+      "ru": "На этом месте делайте подушечками пальцев медленные маленькие круги. Давление — приятное, без боли; челюсть пусть слегка «повиснет».",
+      "ar": "ارسمي بأطراف أصابعكِ دوائر صغيرة بطيئة في هذا الموضع. ليكن الضغط مريحًا لا مؤلمًا، ودعي فكّكِ يتدلّى قليلًا بارتخاء."
+     }
+    },
+    {
+     "seconds": 45,
+     "title": {
+      "en": "Downward strokes",
+      "uz": "Pastga silash",
+      "ru": "Поглаживание вниз",
+      "ar": "المسح نحو الأسفل"
+     },
+     "text": {
+      "en": "With flat fingers, stroke slowly downwards from your cheekbones towards the angles of your jaw, a few times on each side.",
+      "uz": "Tekis barmoqlar bilan yonoq suyagidan jag‘ burchagi tomon sekin pastga silang, har tomonda bir necha marta.",
+      "ru": "Плоскими пальцами медленно поглаживайте сверху вниз — от скул к углам челюсти, по несколько раз с каждой стороны.",
+      "ar": "بأصابع مبسوطة، امسحي ببطء من عظمتي الوجنتين نزولًا نحو زاويتي الفكّ، بضع مرات في كل جانب."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Lazy yawn",
+      "uz": "Erkin esnash",
+      "ru": "Ленивый зевок",
+      "ar": "تثاؤب كسول"
+     },
+     "text": {
+      "en": "Open your mouth slowly only as far as is comfortable, like a lazy yawn, then close it gently. Repeat three times without forcing.",
+      "uz": "Og‘zingizni og‘riqsiz darajada sekin oching, xuddi erinchoq esnayotgandek, so‘ng asta yoping. Uch marta takrorlang, kuch ishlatmang.",
+      "ru": "Медленно откройте рот настолько, насколько это безболезненно, словно лениво зеваете, и мягко закройте. Повторите три раза, без усилия.",
+      "ar": "افتحي فمكِ ببطء بالقدر المريح فقط، كأنكِ تتثاءبين بكسل، ثم أغلقيه برفق. كرّري ذلك ثلاث مرات دون إجهاد."
+     }
+    },
+    {
+     "seconds": 40,
+     "title": {
+      "en": "Along the jaw",
+      "uz": "Jag‘ chizig‘i",
+      "ru": "Линия челюсти",
+      "ar": "على امتداد الفكّ"
+     },
+     "text": {
+      "en": "Place your fingers at the centre of your chin and glide lightly along the jawline to below your ears. Do not press into the soft area under the jaw or the front of your neck.",
+      "uz": "Barmoqlarni iyak markaziga qo‘yib, jag‘ chizig‘i bo‘ylab quloq ostigacha yengil sirpantiring. Jag‘ ostidagi yumshoq joy va bo‘yinning old qismini bosmang.",
+      "ru": "Поставьте пальцы в центр подбородка и легко скользите вдоль линии челюсти до области под ушами. Не давите на мягкую зону под челюстью и на переднюю часть шеи.",
+      "ar": "ضعي أصابعكِ في منتصف الذقن ومرّريها بخفّة على خط الفكّ حتى أسفل الأذنين، دون الضغط على المنطقة الطرية تحت الفكّ أو مقدّمة الرقبة."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Temples",
+      "uz": "Chakkalar",
+      "ru": "Виски",
+      "ar": "الصدغان"
+     },
+     "text": {
+      "en": "Move your fingertips up to your temples and make slow circles — chewing muscles run here too.",
+      "uz": "Barmoq uchlarini chakkalarga ko‘chiring va sekin aylanma harakatlar qiling — bu yerda ham chaynash mushaklari bor.",
+      "ru": "Переведите пальцы на виски и делайте медленные круги — здесь тоже проходят жевательные мышцы.",
+      "ar": "انقلي أطراف أصابعكِ إلى الصدغين وارسمي دوائر بطيئة، فهنا أيضًا تمتدّ عضلات للمضغ."
+     }
+    },
+    {
+     "seconds": 15,
+     "title": {
+      "en": "Close",
+      "uz": "Yakun",
+      "ru": "Завершение",
+      "ar": "الختام"
+     },
+     "text": {
+      "en": "Lower your hands and take one deep breath, lips together and teeth apart. Return to this jaw position whenever you remember during the day.",
+      "uz": "Qo‘llaringizni tushiring, lablar yopiq, tishlar ajralgan holda bir marta chuqur nafas oling. Kun davomida jag‘ingizni shu holatda eslab turing.",
+      "ru": "Опустите руки и сделайте глубокий вдох: губы сомкнуты, зубы разомкнуты. Вспоминайте об этом положении челюсти в течение дня.",
+      "ar": "أنزلي يديكِ وخذي نفسًا عميقًا والشفتان مطبقتان والأسنان متباعدة، وعودي إلى هذه الوضعية كلما تذكّرتِ خلال اليوم."
      }
     }
    ]
