@@ -1,0 +1,148 @@
+{
+  "id": "honey-oat-mask",
+  "status": "draft",
+  "photo": "honey",
+  "ingredients": [
+    "honey",
+    "oat"
+  ],
+  "minutes": 15,
+  "title": {
+    "uz": "Asal va suli niqobi",
+    "ru": "Маска с мёдом и овсом",
+    "en": "Honey & oat mask",
+    "ar": "قناع العسل والشوفان"
+  },
+  "intro": {
+    "uz": "Bir qoshiq asal va mayin suli — teriga yumshoq, xushbo'y va mayin tuyg'u beruvchi niqob. Hafta oxiridagi sokin kechalar uchun.",
+    "ru": "Ложечка мёда и нежная овсяная мука — маска, которая дарит коже мягкость и уютное, тёплое ощущение. Для неспешных вечеров выходного дня.",
+    "en": "A spoonful of honey and soft oat powder — a mask that feels mellow, fragrant and comforting on the skin. Made for slow weekend evenings.",
+    "ar": "ملعقة عسل وشوفان ناعم: قناع يمنح بشرتكِ إحساسًا بالنعومة والدفء والرائحة الطيبة، لأمسيات نهاية الأسبوع الهادئة."
+  },
+  "items": [
+    {
+      "uz": "1 choy qoshiq suyuq tabiiy asal (qo'shimchasiz)",
+      "ru": "1 ч. ложка жидкого натурального мёда (без добавок)",
+      "en": "1 teaspoon runny natural honey (no additions)",
+      "ar": "ملعقة صغيرة من العسل الطبيعي السائل (بلا إضافات)"
+    },
+    {
+      "uz": "1 osh qoshiq juda mayin tuyilgan oddiy suli",
+      "ru": "1 ст. ложка очень тонко смолотых обычных овсяных хлопьев",
+      "en": "1 tablespoon plain oats, ground very fine",
+      "ar": "ملعقة كبيرة من الشوفان العادي المطحون ناعمًا جدًا"
+    },
+    {
+      "uz": "Kerak bo'lsa, 1–2 choy qoshiq qaynatib sovitilgan iliq suv",
+      "ru": "При необходимости 1–2 ч. ложки тёплой кипячёной воды",
+      "en": "1–2 teaspoons warm boiled water, if needed",
+      "ar": "ملعقة إلى ملعقتان صغيرتان من ماء مغليّ دافئ عند الحاجة"
+    },
+    {
+      "uz": "Toza idish, qoshiq va yumshoq sochiq",
+      "ru": "Чистая миска, ложка и мягкое полотенце",
+      "en": "A clean bowl, spoon and soft towel",
+      "ar": "وعاء وملعقة نظيفان ومنشفة ناعمة"
+    }
+  ],
+  "steps": [
+    {
+      "uz": "Asal qotib qolgan bo'lsa, bankani iliq suvli idishga bir necha daqiqa qo'yib yumshating; qizitmang.",
+      "ru": "Если мёд засахарился, поставьте баночку на несколько минут в миску с тёплой водой; не нагревайте сильно.",
+      "en": "If the honey has set, stand the jar in a bowl of warm water for a few minutes to soften it; do not heat it.",
+      "ar": "إذا كان العسل متبلورًا، فضعي البرطمان بضع دقائق في وعاء ماء دافئ ليلين، دون تسخينه."
+    },
+    {
+      "uz": "Idishda asal va sulini aralashtiring; zarur bo'lsa, oz-ozdan suv qo'shib, yumshoq, surtishga qulay massa hosil qiling.",
+      "ru": "Смешайте в миске мёд и овёс; при необходимости добавьте немного воды до мягкой, удобной для нанесения массы.",
+      "en": "Mix the honey and oats in the bowl, adding water a little at a time if needed, until the paste is soft and easy to spread.",
+      "ar": "امزجي العسل والشوفان في الوعاء، وأضيفي الماء قليلًا قليلًا عند الحاجة حتى تصبح العجينة طرية سهلة الفرد."
+    },
+    {
+      "uz": "Toza yuzga yupqa qatlam surting; ko'z atrofi, lablar va soch chizig'ini chetlab o'ting — asal yopishqoq bo'ladi.",
+      "ru": "Нанесите тонкий слой на чистое лицо, обходя область вокруг глаз, губы и линию роста волос — мёд липкий.",
+      "en": "Spread a thin layer over your clean face, avoiding the eye area, lips and hairline — honey is sticky.",
+      "ar": "وزّعي طبقة رقيقة على وجهكِ النظيف متجنبةً محيط العينين والشفتين وخط الشعر، فالعسل لزج."
+    },
+    {
+      "uz": "Boshingizni suyab, 10 daqiqa xotirjam dam oling.",
+      "ru": "Устройтесь поудобнее и спокойно отдохните 10 минут.",
+      "en": "Lean back and rest quietly for 10 minutes.",
+      "ar": "استندي واسترخي بهدوء عشر دقائق."
+    },
+    {
+      "uz": "Iliq suv bilan yuving — asal oson eriydi — va sochiq bilan bosib quriting.",
+      "ru": "Смойте тёплой водой — мёд легко растворяется — и промокните кожу полотенцем.",
+      "en": "Rinse with lukewarm water — honey dissolves easily — and pat dry.",
+      "ar": "اغسلي وجهكِ بماء فاتر، فالعسل يذوب بسهولة، ثم جففيه بالتربيت."
+    },
+    {
+      "uz": "Namlovchi krem bilan yakunlang.",
+      "ru": "Завершите увлажняющим кремом.",
+      "en": "Finish with your moisturiser.",
+      "ar": "اختمي بالمرطّب."
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Birinchi marta qo'llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo'lsa, bu retseptdan voz keching.",
+      "ru": "Перед первым применением нанесите немного смеси на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+      "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+      "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+      "uz": "Ari mahsulotlariga (asal, propolis, gulchang) allergiyangiz bo'lsa, ishlatmang. Propolis qo'shilgan asaldan kontakt allergiya kelib chiqqani haqida xabar bor, shuning uchun qo'shimchasiz oddiy asal tanlang.",
+      "ru": "Не используйте при аллергии на продукты пчеловодства (мёд, прополис, пыльцу). Описан случай контактной аллергии на мёд с прополисом, поэтому выбирайте обычный мёд без добавок.",
+      "en": "Do not use if you are allergic to bee products (honey, propolis, pollen). Contact allergy to propolis-enriched honey has been reported, so choose plain honey without additions.",
+      "ar": "لا تستخدميها إذا كانت لديكِ حساسية من منتجات النحل (العسل أو البروبوليس أو حبوب اللقاح). وقد أُبلغ عن حساسية تماسية من عسل مُضاف إليه البروبوليس، لذا اختاري عسلًا عاديًا بلا إضافات."
+    },
+    {
+      "uz": "Sulili mahsulotlarga allergiyangiz bo'lsa, ishlatmang. Sulili surtma vositalarga sezuvchanlik asosan atopik dermatitli odamlarda qayd etilgan — atopik dermatitingiz bo'lsa, avval shifokor bilan maslahatlashing.",
+      "ru": "Не используйте при аллергии на овёс. Сенсибилизация к овсу в средствах для кожи описана в основном у людей с атопическим дерматитом — если он у вас есть, сначала посоветуйтесь с врачом.",
+      "en": "Do not use if you are allergic to oats. Sensitisation to oat in skin products has been reported mainly in people with atopic dermatitis — if you have it, check with your doctor first.",
+      "ar": "لا تستخدميها إذا كانت لديكِ حساسية من الشوفان. وقد سُجّل التحسّس من الشوفان في منتجات البشرة غالبًا لدى المصابين بالتهاب الجلد التأتبي، فإن كنتِ منهم فاستشيري طبيبكِ أولًا."
+    },
+    {
+      "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek yallig'langan toshmalar ustiga hech qachon qo'llamang.",
+      "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённые высыпания.",
+      "en": "Never apply to broken, scratched, cracked or burnt skin, or over inflamed breakouts.",
+      "ar": "لا تضعيها أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا فوق البثور الملتهبة."
+    },
+    {
+      "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv bilan yuvib tashlang. Noqulaylik o'tmasa, shifokorga murojaat qiling.",
+      "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой. Если дискомфорт не проходит, обратитесь к врачу.",
+      "en": "If you feel stinging, redness or itching, rinse it off at once with lukewarm water. If the discomfort does not settle, see a doctor.",
+      "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسلي بشرتكِ فورًا بماء فاتر. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+      "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo'shmang: ular terini ta'sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o'xshash reaksiyalarga sabab bo'lgani qayd etilgan.",
+      "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+      "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+      "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, toza idish, qoshiq va sochiqdan foydalaning.",
+      "ru": "Вымойте руки, используйте чистую посуду, ложку и полотенце.",
+      "en": "Wash your hands and use a clean bowl, spoon and towel.",
+      "ar": "اغسلي يديكِ واستخدمي وعاءً وملعقة ومنشفة نظيفة."
+    },
+    {
+      "uz": "Har safar yangi miqdorda tayyorlang va darhol ishlating; qolganini saqlamang, to'kib tashlang — uyda tayyorlangan aralashmada konservant yo'q.",
+      "ru": "Готовьте свежую порцию каждый раз и используйте сразу; остатки не храните, а выбрасывайте — в домашней смеси нет консервантов.",
+      "en": "Make a fresh batch each time and use it straight away; do not keep leftovers — a home mixture has no preservative.",
+      "ar": "حضّري كمية جديدة في كل مرة واستخدميها فورًا، ولا تحتفظي بالبقايا؛ فالخليط المنزلي لا يحتوي على مادة حافظة."
+    },
+    {
+      "uz": "Ko'z atrofi va lablardan uzoqroq tuting; ko'zga tushsa, ko'p miqdordagi toza suv bilan yuving.",
+      "ru": "Не наносите на область вокруг глаз и на губы; при попадании в глаза промойте их большим количеством чистой воды.",
+      "en": "Keep away from the eye area and lips; if any gets into your eyes, rinse with plenty of clean water.",
+      "ar": "أبعديها عن محيط العينين والشفتين، وإذا دخل شيء منها إلى عينيكِ فاغسليهما بكثير من الماء النظيف."
+    }
+  ],
+  "evidence": {
+    "uz": "Asal kartochkasidagi kichik, 4 haftalik tadqiqotda asalli qo'l kremlari asalsiz kremga qaraganda teri namligini ko'proq oshirgan, ammo asalga xos to'siq foydasi ko'rsatilmagan; suli bo'yicha dalillar ham tayyor mahsulotlar ustidagi kichik tadqiqotlardan iborat. Bu niqobning o'zi alohida o'rganilmagan.",
+    "ru": "В небольшом 4-недельном исследовании из карточки мёда кремы для рук с мёдом повышали увлажнённость кожи сильнее, чем крем без мёда, но специфической пользы мёда для барьера показано не было; данные по овсу тоже получены в небольших исследованиях готовых средств. Сама эта маска не изучалась.",
+    "en": "In a small 4-week study on the honey card, hand creams containing honey raised skin hydration more than a honey-free cream, but no barrier benefit specific to honey was shown; the oat evidence likewise comes from small studies of finished products. This mask itself has not been studied.",
+    "ar": "في دراسة صغيرة مدتها أربعة أسابيع وردت في بطاقة العسل، رفعت كريمات اليدين المحتوية على العسل ترطيب البشرة أكثر من كريم خالٍ منه، لكن لم تثبت فائدة خاصة بالعسل لحاجز البشرة؛ كما أن أدلة الشوفان تأتي من دراسات صغيرة على منتجات جاهزة. ولم يُدرس هذا القناع بحدّ ذاته."
+  }
+}

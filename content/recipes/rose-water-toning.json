@@ -1,0 +1,117 @@
+{
+  "id": "rose-water-toning",
+  "status": "draft",
+  "photo": "rose-water",
+  "ingredients": [
+    "rose-water"
+  ],
+  "minutes": 2,
+  "title": {
+    "uz": "Atirgul suvi bilan yumshoq tonlash",
+    "ru": "Мягкое тонизирование розовой водой",
+    "en": "Gentle rose water toning",
+    "ar": "لمسة ماء الورد اللطيفة"
+  },
+  "intro": {
+    "uz": "Atirgul suvi — sharq go'zallik an'analarining eng nafis sirlaridan biri. Yuvinishdan keyin bir lahzalik xushbo'y qadam, kun boshlanishi yoki yakuni uchun mayin marosim.",
+    "ru": "Розовая вода — одна из самых изящных традиций восточной красоты. Ароматный миг после умывания, нежный ритуал в начале или в конце дня.",
+    "en": "Rose water is one of the most graceful traditions of Eastern beauty. A fragrant moment after cleansing — a soft ritual to open or close your day.",
+    "ar": "ماء الورد من أرقّ تقاليد الجمال في الشرق: لحظة عطرة بعد غسل الوجه، وطقس ناعم تفتتحين به يومكِ أو تختمينه."
+  },
+  "items": [
+    {
+      "uz": "Kosmetik atirgul suvi (Rosa Damascena Flower Water): yopiq qadoqda, spirtsiz, qo'shimcha xushbo'ylashtiruvchisiz, yaroqlilik muddati o'tmagan",
+      "ru": "Косметическая розовая вода (Rosa Damascena Flower Water): в герметично закрытой упаковке, без спирта и отдушек, с неистёкшим сроком годности",
+      "en": "Cosmetic rose water (Rosa Damascena Flower Water): sealed, alcohol-free, with no added fragrance, within its expiry date",
+      "ar": "ماء ورد تجميلي (Rosa Damascena Flower Water): في عبوة محكمة، خالٍ من الكحول والعطور المضافة، وضمن تاريخ صلاحيته"
+    },
+    {
+      "uz": "1–2 ta paxta disk yoki purkagichli flakon",
+      "ru": "1–2 ватных диска или флакон-спрей",
+      "en": "1–2 cotton pads, or a spray bottle",
+      "ar": "قرص أو قرصان من القطن، أو عبوة رذاذ"
+    }
+  ],
+  "steps": [
+    {
+      "uz": "Yuzingizni odatdagi vosita bilan yuving va bosib quriting.",
+      "ru": "Умойтесь привычным средством и промокните лицо.",
+      "en": "Cleanse your face as usual and pat it dry.",
+      "ar": "اغسلي وجهكِ بغسولكِ المعتاد وجففيه بالتربيت."
+    },
+    {
+      "uz": "Atirgul suvini diskka quying; shisha bo'g'zini barmoq yoki disk bilan ushlamang.",
+      "ru": "Налейте розовую воду на диск, не касаясь горлышка флакона пальцами или диском.",
+      "en": "Pour a little rose water onto a pad, without touching the bottle's neck with your fingers or the pad.",
+      "ar": "اسكبي قليلًا من ماء الورد على القرص دون أن تلمسي فوهة الزجاجة بأصابعكِ أو بالقرص."
+    },
+    {
+      "uz": "Diskni yuzga ishqalamasdan, markazdan chetlarga qarab ohista bosib chiqing. Yoki ko'zlaringizni yumib, 20–30 sm masofadan purkang.",
+      "ru": "Мягко прижимайте диск к лицу от центра к краям, не растирая. Или распылите с расстояния 20–30 см, закрыв глаза.",
+      "en": "Press the pad softly over your face from the centre outwards, without rubbing. Or close your eyes and mist from 20–30 cm away.",
+      "ar": "اضغطي بالقرص برفق على وجهكِ من الوسط نحو الأطراف دون فرك، أو أغمضي عينيكِ ورشّي من مسافة 20 إلى 30 سم."
+    },
+    {
+      "uz": "Bir necha soniya kutib, namlovchi krem surting; ertalab quyoshdan himoya vositasini unutmang.",
+      "ru": "Подождите несколько секунд и нанесите увлажняющий крем; утром не забудьте о солнцезащитном средстве.",
+      "en": "Wait a few seconds, then apply moisturiser — and, in the morning, your sunscreen.",
+      "ar": "انتظري بضع ثوانٍ ثم ضعي المرطّب، ولا تنسي واقي الشمس صباحًا."
+    },
+    {
+      "uz": "Flakonni mahkam yoping va yorlig'ida ko'rsatilganidek salqin, qorong'i joyda saqlang.",
+      "ru": "Плотно закройте флакон и храните в прохладном тёмном месте, как указано на этикетке.",
+      "en": "Close the bottle tightly and store it somewhere cool and dark, as the label says.",
+      "ar": "أغلقي الزجاجة بإحكام واحفظيها في مكان بارد ومظلم كما هو مدوّن على الملصق."
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Birinchi marta qo'llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo'lsa, bu retseptdan voz keching.",
+      "ru": "Перед первым применением нанесите немного смеси на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+      "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+      "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+      "uz": "Atirgul mahsulotlarida sitronellol va geraniol kabi xushbo'y moddalar bor, ular kontakt allergiyani aniqlash testlariga kiritilgan: atirlarga sezuvchan bo'lsangiz, ehtiyot bo'ling yoki voz keching.",
+      "ru": "В продуктах из розы есть ароматические вещества, например цитронеллол и гераниол, которые входят в тесты на контактную аллергию: если вы чувствительны к парфюмерии, будьте осторожны или откажитесь.",
+      "en": "Rose products contain fragrance compounds such as citronellol and geraniol, which are included in contact-allergy tests: if you react to perfumes, take care or skip it.",
+      "ar": "تحتوي منتجات الورد على مركّبات عطرية مثل السيترونيلول والجيرانيول، وهي من المواد التي يُفحص عنها في اختبارات الحساسية التماسية؛ فإن كانت بشرتكِ تتحسّس من العطور فاحذري أو استغني عنه."
+    },
+    {
+      "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek yallig'langan toshmalar ustiga hech qachon qo'llamang.",
+      "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённые высыпания.",
+      "en": "Never apply to broken, scratched, cracked or burnt skin, or over inflamed breakouts.",
+      "ar": "لا تضعيها أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا فوق البثور الملتهبة."
+    },
+    {
+      "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv bilan yuvib tashlang. Noqulaylik o'tmasa, shifokorga murojaat qiling.",
+      "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой. Если дискомфорт не проходит, обратитесь к врачу.",
+      "en": "If you feel stinging, redness or itching, rinse it off at once with lukewarm water. If the discomfort does not settle, see a doctor.",
+      "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسلي بشرتكِ فورًا بماء فاتر. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+      "uz": "Atirgul suviga limon sharbati, ichimlik sodasi yoki efir moylarini aralashtirmang.",
+      "ru": "Не смешивайте розовую воду с лимонным соком, пищевой содой или эфирными маслами.",
+      "en": "Do not mix lemon juice, baking soda or essential oils into the rose water.",
+      "ar": "لا تمزجي ماء الورد بعصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية."
+    },
+    {
+      "uz": "Atirgul suvini uyda tayyorlamang; xira bo'lib qolgan, hidi o'zgargan yoki muddati o'tgan flakonni ishlatmang — suvli mahsulotlar mikrobiologik nazoratni talab qiladi. Flakonni boshqalar bilan bo'lishmang.",
+      "ru": "Не готовьте розовую воду дома; не используйте помутневшую, изменившую запах или просроченную — продуктам на водной основе нужен микробиологический контроль. Не делитесь флаконом.",
+      "en": "Do not make rose water at home, and do not use a bottle that is cloudy, smells different or is out of date — water-based products need microbiological control. Do not share the bottle.",
+      "ar": "لا تحضّري ماء الورد في البيت، ولا تستخدمي زجاجة صار ماؤها عكرًا أو تغيّرت رائحته أو انتهت صلاحيته، فالمنتجات المائية تحتاج إلى رقابة ميكروبيولوجية. ولا تشاركي الزجاجة مع أحد."
+    },
+    {
+      "uz": "Purkaganda ko'zlaringizni yuming; ko'zga tushsa, toza suv bilan yuving.",
+      "ru": "При распылении закрывайте глаза; при попадании в глаза промойте чистой водой.",
+      "en": "Close your eyes when misting; if it gets into your eyes, rinse with clean water.",
+      "ar": "أغمضي عينيكِ عند الرشّ، وإذا دخل إلى عينيكِ فاغسليهما بماء نظيف."
+    }
+  ],
+  "evidence": {
+    "uz": "Atirgul suvi kartochkasida faqat laboratoriya, hayvonlar ustidagi tadqiqotlar va sharhlar topilgan; atirgul suvining odam terisiga ta'siri bo'yicha nazoratli tadqiqot yo'q. Shu bois undan davo sifatida emas, yoqimli xushbo'y qadam sifatida bahramand bo'ling; bunday qo'llash usuli alohida o'rganilmagan.",
+    "ru": "В карточке розовой воды найдены только лабораторные исследования, работы на животных и обзоры; контролируемых исследований действия розовой воды на кожу человека нет. Поэтому наслаждайтесь ею как приятным ароматным шагом, а не лечением; такой способ применения отдельно не изучался.",
+    "en": "The rose water card found only laboratory, animal and review sources and no controlled human study of rose water on the skin. Enjoy it as a pleasant, fragrant step rather than a treatment; this way of using it has not been studied as such.",
+    "ar": "لم تجد بطاقة ماء الورد سوى مصادر مخبرية ودراسات على الحيوانات ومراجعات، ولا توجد دراسة بشرية مضبوطة عن ماء الورد على البشرة؛ لذا استمتعي به خطوةً عطرة لطيفة لا علاجًا. ولم تُدرس طريقة الاستخدام هذه بحدّ ذاتها."
+  }
+}

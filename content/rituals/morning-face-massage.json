@@ -1,0 +1,210 @@
+{
+  "id": "morning-face-massage",
+  "status": "draft",
+  "photo": "deco_jasmine",
+  "title": {
+    "uz": "Ertalabki yuz massaji",
+    "ru": "Утренний массаж лица",
+    "en": "Morning face massage",
+    "ar": "تدليك الوجه الصباحي"
+  },
+  "intro": {
+    "uz": "Kunni o'z qo'llaringizning iliqligi bilan boshlang. Besh daqiqalik yumshoq harakatlar va sekin nafas — shoshqaloq tongda o'zingizga ajratilgan sokin lahza.",
+    "ru": "Начните день с тепла собственных ладоней. Пять минут мягких движений и медленного дыхания — тихий момент для себя посреди торопливого утра.",
+    "en": "Begin your day with the warmth of your own hands. Five minutes of soft strokes and slow breathing — a quiet moment for yourself in a hurried morning.",
+    "ar": "ابدئي يومكِ بدفء راحتيكِ. خمس دقائق من الحركات الناعمة والتنفّس البطيء: لحظة هادئة لكِ وسط صباح مستعجل."
+  },
+  "steps": [
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Tayyorgarlik",
+        "ru": "Подготовка",
+        "en": "Prepare",
+        "ar": "التحضير"
+      },
+      "text": {
+        "uz": "Qo'llaringizni va yuzingizni yuving. Sirpanish uchun kaftlaringizga ozgina krem yoki bir-ikki tomchi moy oling.",
+        "ru": "Вымойте руки и умойтесь. Для скольжения возьмите на ладони немного крема или одну-две капли масла.",
+        "en": "Wash your hands and face. For glide, warm a little cream or one or two drops of oil between your palms.",
+        "ar": "اغسلي يديكِ ووجهكِ، ثم دفّئي بين راحتيكِ قليلًا من الكريم أو قطرة أو قطرتين من الزيت لتسهيل الانزلاق."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Nafas va iliqlik",
+        "ru": "Дыхание и тепло",
+        "en": "Breathe and warm",
+        "ar": "التنفّس والدفء"
+      },
+      "text": {
+        "uz": "Kaftlarni bir-biriga ishqalab isiting, ularni yuzga ohista qo'ying va uch marta sekin, chuqur nafas oling.",
+        "ru": "Потрите ладони, чтобы согреть их, мягко приложите к лицу и сделайте три медленных глубоких вдоха.",
+        "en": "Rub your palms together to warm them, rest them softly over your face and take three slow, deep breaths.",
+        "ar": "افركي راحتيكِ لتدفئيهما، ثم ضعيهما برفق على وجهكِ وخذي ثلاثة أنفاس بطيئة عميقة."
+      }
+    },
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Peshona",
+        "ru": "Лоб",
+        "en": "Forehead",
+        "ar": "الجبين"
+      },
+      "text": {
+        "uz": "Barmoq uchlari bilan peshona markazidan chakkalar tomon yengil, silliq harakatlar qiling, so'ng chakkalarda sekin aylanma harakatlar bilan to'xtang.",
+        "ru": "Подушечками пальцев ведите лёгкими плавными движениями от центра лба к вискам и задержитесь на висках медленными круговыми движениями.",
+        "en": "With your fingertips, sweep lightly from the centre of your forehead out to your temples, then pause there with slow little circles.",
+        "ar": "مرّري أطراف أصابعكِ بخفّة من وسط الجبين نحو الصدغين، ثم توقّفي عندهما بدوائر صغيرة بطيئة."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Qoshlar",
+        "ru": "Брови",
+        "en": "Brows",
+        "ar": "الحاجبان"
+      },
+      "text": {
+        "uz": "Barmoq uchlarini qosh suyagi bo'ylab ichki burchakdan tashqi tomonga qadam-baqadam, bir necha soniya yengil bosib o'tkazing.",
+        "ru": "Шаг за шагом проводите подушечками пальцев вдоль надбровной дуги от внутреннего края к внешнему, на несколько секунд мягко прижимая.",
+        "en": "Walk your fingertips along the brow bone from the inner end to the outer end, pressing softly for a few seconds at each point.",
+        "ar": "حرّكي أطراف أصابعكِ خطوة خطوة على عظم الحاجب من طرفه الداخلي إلى الخارجي، مع ضغط لطيف لبضع ثوانٍ عند كل نقطة."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Ko'z atrofi",
+        "ru": "Вокруг глаз",
+        "en": "Around the eyes",
+        "ar": "حول العينين"
+      },
+      "text": {
+        "uz": "Nomsiz barmoq bilan ko'z ostidagi suyak bo'ylab ichki burchakdan tashqi tomonga juda yengil tuping. Terini tortmang va qovoqqa bosmang.",
+        "ru": "Безымянным пальцем очень легко постукивайте по костному краю под глазом от внутреннего уголка к внешнему. Не растягивайте кожу и не давите на веки.",
+        "en": "With your ring finger, tap very lightly along the bone beneath your eye, from the inner corner outwards. Do not drag the skin or press on the eyelids.",
+        "ar": "بإصبع البنصر، انقري نقرًا خفيفًا جدًا على العظم أسفل العين من الزاوية الداخلية نحو الخارج، دون شدّ الجلد أو الضغط على الجفنين."
+      }
+    },
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Yonoqlar",
+        "ru": "Щёки",
+        "en": "Cheeks",
+        "ar": "الخدّان"
+      },
+      "text": {
+        "uz": "Tekis barmoqlar bilan burun yonidan quloqlar tomon yonoq suyagi bo'ylab sekin silab o'ting. Har bir tomonda bir necha marta takrorlang.",
+        "ru": "Плоскими пальцами медленно поглаживайте от крыльев носа к ушам вдоль скул. Повторите несколько раз с каждой стороны.",
+        "en": "With flat fingers, stroke slowly from the sides of your nose out towards your ears along the cheekbones. Repeat a few times on each side.",
+        "ar": "بأصابع مبسوطة، امسحي ببطء من جانبي الأنف نحو الأذنين على امتداد عظم الوجنتين، وكرّري ذلك بضع مرات في كل جانب."
+      }
+    },
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Jag' chizig'i",
+        "ru": "Линия подбородка",
+        "en": "Jawline",
+        "ar": "خط الفكّ"
+      },
+      "text": {
+        "uz": "Barmoqlaringizni iyak markaziga qo'ying va jag' chizig'i bo'ylab quloq ostigacha yumshoq silang. Jag'ingizni bo'shashtiring, tishlarni qismang.",
+        "ru": "Поставьте пальцы в центр подбородка и мягко ведите вдоль линии челюсти до области под ушами. Расслабьте челюсть, не сжимайте зубы.",
+        "en": "Place your fingers at the centre of your chin and glide gently along the jawline to just below your ears. Let your jaw relax and keep your teeth apart.",
+        "ar": "ضعي أصابعكِ في منتصف الذقن ومرّريها برفق على خط الفكّ حتى أسفل الأذنين. أرخي فكّكِ ولا تضغطي على أسنانكِ."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Bo'yin",
+        "ru": "Шея",
+        "en": "Neck",
+        "ar": "الرقبة"
+      },
+      "text": {
+        "uz": "Kaftlar bilan quloq ostidan o'mrov suyagi tomon yon tomonlar bo'ylab pastga yengil silang. Tomoqning old qismini bosmang.",
+        "ru": "Ладонями легко поглаживайте боковые стороны шеи сверху вниз — от области под ушами к ключицам. Не давите на переднюю часть горла.",
+        "en": "With your palms, stroke lightly down the sides of your neck, from below your ears towards your collarbones. Do not press on the front of your throat.",
+        "ar": "بباطن كفّيكِ، امسحي بخفّة على جانبي الرقبة من أسفل الأذنين نحو عظمتي الترقوة، دون الضغط على مقدّمة الحلق."
+      }
+    },
+    {
+      "seconds": 15,
+      "title": {
+        "uz": "Yakun",
+        "ru": "Завершение",
+        "en": "Close",
+        "ar": "الختام"
+      },
+      "text": {
+        "uz": "Kaftlarni yana yuzga qo'yib, bir marta chuqur nafas oling. Ertalabki parvarishingizni quyoshdan himoya vositasi bilan yakunlang.",
+        "ru": "Снова приложите ладони к лицу и сделайте глубокий вдох. Завершите утренний уход солнцезащитным средством.",
+        "en": "Rest your palms over your face once more and take one deep breath. Finish your morning routine with sunscreen.",
+        "ar": "ضعي راحتيكِ على وجهكِ مرة أخرى وخذي نفسًا عميقًا، ثم اختمي روتينكِ الصباحي بواقي الشمس."
+      }
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Faol husnbuzar, yallig'lanish, toshma, yara, tirnalish yoki teri infeksiyasi bo'lgan joylarni massaj qilmang — ularni chetlab o'ting yoki marosimni keyinga qoldiring.",
+      "ru": "Не массируйте участки с активными высыпаниями, воспалением, сыпью, ранками, царапинами или кожной инфекцией — обходите их или отложите ритуал.",
+      "en": "Do not massage over active breakouts, inflammation, rashes, cuts, scratches or skin infections — work around them or save the ritual for another day.",
+      "ar": "لا تدلّكي المناطق التي فيها حبوب نشطة أو التهاب أو طفح أو جروح أو خدوش أو عدوى جلدية؛ تجنّبيها أو أجّلي الطقس إلى يوم آخر."
+    },
+    {
+      "uz": "Rozatsea qo'zigan, teri qizarib, qizib turgan kunlarda massajdan voz keching: ishqalanish va issiqlik qizarishni kuchaytirishi mumkin.",
+      "ru": "В дни обострения розацеа, когда кожа покраснела и горит, откажитесь от массажа: трение и тепло могут усилить покраснение.",
+      "en": "Skip the massage during a rosacea flare or whenever your skin is red and hot: friction and warmth can make redness worse.",
+      "ar": "امتنعي عن التدليك في أثناء نوبة الوردية أو حين تكون بشرتكِ محمرّة وساخنة، فالاحتكاك والحرارة قد يزيدان الاحمرار."
+    },
+    {
+      "uz": "Filler yoki botulinum toksin in'eksiyasi, piling, lazer yoki boshqa kosmetologik protseduradan keyin massajni qachon boshlash mumkinligini muolaja qilgan mutaxassisdan so'rang.",
+      "ru": "После инъекций филлеров или ботулотоксина, пилинга, лазера и других косметологических процедур уточните у специалиста, который их проводил, когда можно возвращаться к массажу.",
+      "en": "After filler or botulinum toxin injections, peels, laser or other cosmetic procedures, ask the specialist who treated you when it is safe to massage again.",
+      "ar": "بعد حقن الفيلر أو البوتوكس أو التقشير أو الليزر أو غيرها من الإجراءات التجميلية، اسألي المختصّ الذي أجراها عن الوقت المناسب للعودة إلى التدليك."
+    },
+    {
+      "uz": "Qon suyultiruvchi dori qabul qilsangiz, qon ivishi buzilgan bo'lsa yoki teringiz oson ko'karsa, avval shifokor bilan maslahatlashing.",
+      "ru": "Если вы принимаете препараты, разжижающие кровь, у вас нарушена свёртываемость или легко появляются синяки, сначала посоветуйтесь с врачом.",
+      "en": "If you take blood thinners, have a bleeding disorder or bruise easily, ask your doctor first.",
+      "ar": "إذا كنتِ تتناولين أدوية مميّعة للدم، أو لديكِ اضطراب في التخثّر، أو تظهر الكدمات على جلدكِ بسهولة، فاستشيري طبيبكِ أولًا."
+    },
+    {
+      "uz": "Bosim yengil va yoqimli bo'lsin: og'riq, ko'karish yoki qizil dog'lar bo'lmasligi kerak. Og'riq, uvishish, bosh aylanishi yoki noqulaylik sezsangiz, to'xtating.",
+      "ru": "Давление должно быть лёгким и приятным: без боли, синяков и красных пятен. Если почувствуете боль, онемение, головокружение или дискомфорт, остановитесь.",
+      "en": "Keep the pressure light and pleasant: there should be no pain, bruising or red marks. Stop if you feel pain, numbness, dizziness or discomfort.",
+      "ar": "ليكن الضغط خفيفًا ومريحًا، بلا ألم ولا كدمات ولا بقع حمراء. وتوقّفي إذا شعرتِ بألم أو خدر أو دوخة أو انزعاج."
+    },
+    {
+      "uz": "Ko'z atrofida faqat eng yengil teginish bilan, ko'z kosasi suyagi bo'ylab ishlang; ko'z olmasi va qovoqni bosmang.",
+      "ru": "Вокруг глаз работайте только самым лёгким касанием и по костному краю глазницы; не давите на глазное яблоко и веки.",
+      "en": "Around the eyes, use only the lightest touch and stay on the bony rim of the eye socket; never press on the eyeball or eyelids.",
+      "ar": "حول العينين، اكتفي بأخفّ لمسة والتزمي الحافة العظمية لمحجر العين، ولا تضغطي أبدًا على مقلة العين أو الجفنين."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, tirnoqlaringiz kalta va silliq bo'lsin. Sirpanish uchun o'zingizga mos, avval sinab ko'rilgan krem yoki moydan foydalaning.",
+      "ru": "Вымойте руки; ногти должны быть короткими и гладкими. Для скольжения используйте привычный, уже проверенный на вашей коже крем или масло.",
+      "en": "Wash your hands and keep your nails short and smooth. For glide, use a cream or oil your skin already knows and tolerates.",
+      "ar": "اغسلي يديكِ، ولتكن أظافركِ قصيرة ناعمة. واستخدمي للانزلاق كريمًا أو زيتًا اعتادته بشرتكِ وجرّبتِه من قبل."
+    },
+    {
+      "uz": "Bu marosim dam olish uchun; u tibbiy muolaja o'rnini bosmaydi. Yuzda doimiy shish, og'riq yoki notanish o'zgarishlar bo'lsa, shifokorga murojaat qiling.",
+      "ru": "Этот ритуал — для отдыха и не заменяет лечения. При стойких отёках, боли или непонятных изменениях на лице обратитесь к врачу.",
+      "en": "This ritual is for relaxation and does not replace medical care. If you have lasting swelling, pain or unfamiliar changes in your face, see a doctor.",
+      "ar": "هذا الطقس للاسترخاء ولا يغني عن الرعاية الطبية. وإذا لاحظتِ تورّمًا مستمرًا أو ألمًا أو تغيّرات غير مألوفة في وجهكِ، فاستشيري الطبيب."
+    }
+  ],
+  "evidence": {
+    "uz": "Yuz massaji kartochkasiga ko'ra dalillar cheklangan: tizimli sharh terining ko'rinishi yoki yuz konturiga ta'sirni ishonch bilan tasdiqlash uchun dalillar yetarli emas degan xulosaga kelgan, qolgan tadqiqotlar kichik va qisqa muddatli. Bitta kichik tadqiqotda silash va yengil bosish qisqa muddatli xotirjamlik va qulaylik hissi bilan bog'langan. Ajinlarni kamaytirish, yuzni tortish yoki «limfa detoksi» va'da qilinmaydi — bu dam olish marosimi.",
+    "ru": "Согласно карточке массажа лица, доказательства ограничены: систематический обзор пришёл к выводу, что данных недостаточно, чтобы уверенно говорить о влиянии на вид кожи или овал лица, а остальные исследования небольшие и краткосрочные. В одном небольшом исследовании поглаживание с мягким надавливанием было связано с кратковременным снижением стресса и ощущением комфорта. Уменьшения морщин, лифтинга или «лимфодетокса» ритуал не обещает — это время для отдыха.",
+    "en": "According to the facial massage card, the evidence is limited: a systematic review concluded there is not enough evidence to establish effects on skin appearance or facial contour, and the other studies are small and short. One small study linked a smoothing-and-press gesture with lower stress and greater comfort in the short term. This ritual does not promise fewer wrinkles, lifting or a 'lymphatic detox' — it is a moment to relax.",
+    "ar": "بحسب بطاقة تدليك الوجه، الأدلة محدودة: فقد خلصت مراجعة منهجية إلى أن الأدلة غير كافية لإثبات أثر على مظهر البشرة أو محيط الوجه، والدراسات الأخرى صغيرة وقصيرة المدة. وربطت دراسة صغيرة واحدة حركة المسح مع الضغط اللطيف بانخفاض التوتر وزيادة الشعور بالراحة على المدى القصير. لا يَعِد هذا الطقس بتقليل التجاعيد أو شدّ الوجه أو «تخليص الجسم من السموم عبر اللمف»؛ إنه لحظة للاسترخاء."
+  }
+}

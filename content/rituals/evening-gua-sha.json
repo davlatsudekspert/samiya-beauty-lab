@@ -1,0 +1,222 @@
+{
+  "id": "evening-gua-sha",
+  "status": "draft",
+  "photo": "deco_lavender",
+  "title": {
+    "uz": "Kechki gua sha",
+    "ru": "Вечерняя гуаша",
+    "en": "Evening gua sha",
+    "ar": "الغواشا المسائية"
+  },
+  "intro": {
+    "uz": "Kun tashvishlarini silliq tosh bilan ohista silab tashlang. Yetti daqiqalik sekin, yengil harakatlar — uyqu oldidan o'zingizga bag'ishlangan tinch marosim.",
+    "ru": "Мягко разгладьте заботы дня гладким камнем. Семь минут медленных лёгких движений — спокойный ритуал перед сном, посвящённый себе.",
+    "en": "Gently smooth away the day with a cool, polished stone. Seven minutes of slow, light strokes — a calm ritual for yourself before sleep.",
+    "ar": "امسحي عنكِ همّ النهار برفق بحجر أملس بارد. سبع دقائق من الحركات البطيئة الخفيفة: طقس هادئ لكِ قبل النوم."
+  },
+  "steps": [
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Tayyorgarlik",
+        "ru": "Подготовка",
+        "en": "Prepare",
+        "ar": "التحضير"
+      },
+      "text": {
+        "uz": "Asbobni sovun va suv bilan yuving. Yuzingizni tozalab, yuz va bo'yinga mo'l qilib moy yoki krem surting — asbob quruq teriga hech qachon yurgizilmaydi.",
+        "ru": "Вымойте инструмент водой с мылом. Очистите лицо и щедро нанесите на лицо и шею масло или крем — по сухой коже инструментом не работают.",
+        "en": "Wash the tool with soap and water. Cleanse your face, then apply a generous layer of oil or cream to your face and neck — never glide the tool over dry skin.",
+        "ar": "اغسلي الأداة بالماء والصابون، ونظّفي وجهكِ، ثم ضعي طبقة وافرة من الزيت أو الكريم على الوجه والرقبة؛ فلا تُمرَّر الأداة على جلد جاف أبدًا."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Ushlash va nafas",
+        "ru": "Хват и дыхание",
+        "en": "Hold and breathe",
+        "ar": "الإمساك والتنفّس"
+      },
+      "text": {
+        "uz": "Asbobni teriga deyarli yotiq holda, keng qirrasi bilan ushlang. Yelkalarni bo'shashtiring va uch marta sekin nafas oling. Bosim — ipakdek yengil.",
+        "ru": "Держите инструмент почти плашмя к коже, широким краем. Расслабьте плечи и сделайте три медленных вдоха. Давление — лёгкое, как шёлк.",
+        "en": "Hold the tool almost flat against your skin, using its wide edge. Relax your shoulders and take three slow breaths. The pressure should be silk-light.",
+        "ar": "أمسكي الأداة شبه مسطّحة على الجلد بحافتها العريضة، وأرخي كتفيكِ وخذي ثلاثة أنفاس بطيئة. وليكن الضغط خفيفًا كالحرير."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Bo'yin",
+        "ru": "Шея",
+        "en": "Neck",
+        "ar": "الرقبة"
+      },
+      "text": {
+        "uz": "Bo'yinning yon tomonlari bo'ylab quloq ostidan o'mrov suyagi tomon pastga sekin yurgizing, har tomonda 5 martadan. Tomoqning o'rtasi ustidan o'tmang.",
+        "ru": "Медленно ведите вниз по боковым сторонам шеи — от области под ухом к ключице, по 5 раз с каждой стороны. Не проходите по центру горла.",
+        "en": "Glide slowly down the sides of your neck, from below the ear towards the collarbone, 5 strokes on each side. Do not stroke over the centre of your throat.",
+        "ar": "مرّري الأداة ببطء نزولًا على جانبي الرقبة من أسفل الأذن نحو الترقوة، خمس مرات في كل جانب، دون المرور على منتصف الحلق."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Jag' chizig'i",
+        "ru": "Линия подбородка",
+        "en": "Jawline",
+        "ar": "خط الفكّ"
+      },
+      "text": {
+        "uz": "Asbobning o'yiq qismini iyakka qo'yib, jag' chizig'i bo'ylab quloq tomon yurgizing, har tomonda 5 martadan.",
+        "ru": "Поставьте выемку инструмента к подбородку и ведите вдоль линии челюсти к уху, по 5 раз с каждой стороны.",
+        "en": "Place the notched edge of the tool at your chin and glide along the jawline towards your ear, 5 strokes on each side.",
+        "ar": "ضعي الجزء المقوّس من الأداة عند الذقن ومرّريها على خط الفكّ نحو الأذن، خمس مرات في كل جانب."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Yonoqlar",
+        "ru": "Щёки",
+        "en": "Cheeks",
+        "ar": "الخدّان"
+      },
+      "text": {
+        "uz": "Burun yonidan yonoq suyagi bo'ylab quloq tomon silliq, sekin harakatlar qiling, har tomonda 5 martadan.",
+        "ru": "От крыльев носа ведите плавно и медленно вдоль скул к уху, по 5 раз с каждой стороны.",
+        "en": "From the side of your nose, glide smoothly and slowly along the cheekbone towards your ear, 5 strokes on each side.",
+        "ar": "من جانب الأنف، مرّري الأداة بنعومة وبطء على عظم الوجنة نحو الأذن، خمس مرات في كل جانب."
+      }
+    },
+    {
+      "seconds": 45,
+      "title": {
+        "uz": "Ko'z ostidagi soha",
+        "ru": "Под глазами",
+        "en": "Under the eyes",
+        "ar": "أسفل العينين"
+      },
+      "text": {
+        "uz": "Xohlasangiz: deyarli bosimsiz, ko'z ostidagi suyak bo'ylab ichki burchakdan chakka tomon 3 martadan. Qovoqqa tegmang. Ikkilansangiz, bu qadamni o'tkazib yuboring va shunchaki nafas oling.",
+        "ru": "По желанию: почти без давления, по костному краю под глазом от внутреннего уголка к виску, по 3 раза. Не касайтесь век. Если сомневаетесь, пропустите этот шаг и просто подышите.",
+        "en": "Optional: with almost no pressure, glide along the bone beneath the eye from the inner corner towards the temple, 3 strokes on each side. Do not touch the eyelids. If in doubt, skip this step and simply breathe.",
+        "ar": "اختياري: من دون ضغط تقريبًا، مرّري الأداة على العظم أسفل العين من الزاوية الداخلية نحو الصدغ، ثلاث مرات في كل جانب، دون لمس الجفنين. وإن تردّدتِ، فتجاوزي هذه الخطوة واكتفي بالتنفّس."
+      }
+    },
+    {
+      "seconds": 60,
+      "title": {
+        "uz": "Peshona",
+        "ru": "Лоб",
+        "en": "Forehead",
+        "ar": "الجبين"
+      },
+      "text": {
+        "uz": "Qoshlardan soch chizig'iga qarab yuqoriga, so'ng peshona markazidan chakkalarga qarab yengil yurgizing.",
+        "ru": "Ведите легко вверх — от бровей к линии роста волос, затем от центра лба к вискам.",
+        "en": "Glide lightly upwards from your brows to your hairline, then outwards from the centre of your forehead to your temples.",
+        "ar": "مرّري الأداة بخفّة صعودًا من الحاجبين إلى خط الشعر، ثم من وسط الجبين نحو الصدغين."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Yakun",
+        "ru": "Завершение",
+        "en": "Close",
+        "ar": "الختام"
+      },
+      "text": {
+        "uz": "Asbobni qo'ying, iliq kaftlaringizni yuzga qo'yib, bir necha marta sekin nafas oling.",
+        "ru": "Отложите инструмент, приложите тёплые ладони к лицу и сделайте несколько медленных вдохов.",
+        "en": "Set the tool down, rest your warm palms over your face and take a few slow breaths.",
+        "ar": "ضعي الأداة جانبًا، واحتضني وجهكِ براحتيكِ الدافئتين، وخذي بضعة أنفاس بطيئة."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Asbobni tozalash",
+        "ru": "Уход за инструментом",
+        "en": "Clean the tool",
+        "ar": "تنظيف الأداة"
+      },
+      "text": {
+        "uz": "Asbobni sovun va suv bilan yuving, quriting va toza joyda saqlang. Uni boshqalar bilan bo'lishmang.",
+        "ru": "Вымойте инструмент водой с мылом, высушите и храните в чистом месте. Не давайте его другим.",
+        "en": "Wash the tool with soap and water, dry it and store it somewhere clean. Do not share it.",
+        "ar": "اغسلي الأداة بالماء والصابون وجففيها واحفظيها في مكان نظيف، ولا تشاركيها مع أحد."
+      }
+    }
+  ],
+  "safety": [
+    {
+      "uz": "An'anaviy gua sha ataylab ko'karish va qizil nuqtalar qoldiradi; yuz uchun kosmetik gua sha esa bunday iz qoldirmasligi kerak. Iz paydo bo'lsa, siz juda qattiq bosyapsiz — to'xtating.",
+      "ru": "Традиционная гуаша намеренно оставляет синяки и красные точки; косметическая гуаша для лица таких следов оставлять не должна. Если они появились, вы давите слишком сильно — остановитесь.",
+      "en": "Traditional gua sha deliberately leaves bruises and red dots; gentle cosmetic facial gua sha should leave no such marks. If marks appear, you are pressing too hard — stop.",
+      "ar": "تترك الغواشا التقليدية كدمات ونقاطًا حمراء عن قصد، أما الغواشا التجميلية اللطيفة للوجه فلا ينبغي أن تترك مثل هذه الآثار. وإن ظهرت، فأنتِ تضغطين أكثر من اللازم، فتوقّفي."
+    },
+    {
+      "uz": "Faol husnbuzar, yallig'lanish, toshma, yara, tirnalish yoki teri infeksiyasi bo'lgan joylarni massaj qilmang — ularni chetlab o'ting yoki marosimni keyinga qoldiring.",
+      "ru": "Не массируйте участки с активными высыпаниями, воспалением, сыпью, ранками, царапинами или кожной инфекцией — обходите их или отложите ритуал.",
+      "en": "Do not massage over active breakouts, inflammation, rashes, cuts, scratches or skin infections — work around them or save the ritual for another day.",
+      "ar": "لا تدلّكي المناطق التي فيها حبوب نشطة أو التهاب أو طفح أو جروح أو خدوش أو عدوى جلدية؛ تجنّبيها أو أجّلي الطقس إلى يوم آخر."
+    },
+    {
+      "uz": "Rozatsea qo'zigan, teri qizarib, qizib turgan kunlarda massajdan voz keching: ishqalanish va issiqlik qizarishni kuchaytirishi mumkin.",
+      "ru": "В дни обострения розацеа, когда кожа покраснела и горит, откажитесь от массажа: трение и тепло могут усилить покраснение.",
+      "en": "Skip the massage during a rosacea flare or whenever your skin is red and hot: friction and warmth can make redness worse.",
+      "ar": "امتنعي عن التدليك في أثناء نوبة الوردية أو حين تكون بشرتكِ محمرّة وساخنة، فالاحتكاك والحرارة قد يزيدان الاحمرار."
+    },
+    {
+      "uz": "Filler yoki botulinum toksin in'eksiyasi, piling, lazer yoki boshqa kosmetologik protseduradan keyin massajni qachon boshlash mumkinligini muolaja qilgan mutaxassisdan so'rang.",
+      "ru": "После инъекций филлеров или ботулотоксина, пилинга, лазера и других косметологических процедур уточните у специалиста, который их проводил, когда можно возвращаться к массажу.",
+      "en": "After filler or botulinum toxin injections, peels, laser or other cosmetic procedures, ask the specialist who treated you when it is safe to massage again.",
+      "ar": "بعد حقن الفيلر أو البوتوكس أو التقشير أو الليزر أو غيرها من الإجراءات التجميلية، اسألي المختصّ الذي أجراها عن الوقت المناسب للعودة إلى التدليك."
+    },
+    {
+      "uz": "Qon suyultiruvchi dori qabul qilsangiz, qon ivishi buzilgan bo'lsa yoki teringiz oson ko'karsa, avval shifokor bilan maslahatlashing.",
+      "ru": "Если вы принимаете препараты, разжижающие кровь, у вас нарушена свёртываемость или легко появляются синяки, сначала посоветуйтесь с врачом.",
+      "en": "If you take blood thinners, have a bleeding disorder or bruise easily, ask your doctor first.",
+      "ar": "إذا كنتِ تتناولين أدوية مميّعة للدم، أو لديكِ اضطراب في التخثّر، أو تظهر الكدمات على جلدكِ بسهولة، فاستشيري طبيبكِ أولًا."
+    },
+    {
+      "uz": "Bosim yengil va yoqimli bo'lsin: og'riq, ko'karish yoki qizil dog'lar bo'lmasligi kerak. Og'riq, uvishish, bosh aylanishi yoki noqulaylik sezsangiz, to'xtating.",
+      "ru": "Давление должно быть лёгким и приятным: без боли, синяков и красных пятен. Если почувствуете боль, онемение, головокружение или дискомфорт, остановитесь.",
+      "en": "Keep the pressure light and pleasant: there should be no pain, bruising or red marks. Stop if you feel pain, numbness, dizziness or discomfort.",
+      "ar": "ليكن الضغط خفيفًا ومريحًا، بلا ألم ولا كدمات ولا بقع حمراء. وتوقّفي إذا شعرتِ بألم أو خدر أو دوخة أو انزعاج."
+    },
+    {
+      "uz": "Ko'z atrofida faqat eng yengil teginish bilan, ko'z kosasi suyagi bo'ylab ishlang; ko'z olmasi va qovoqni bosmang.",
+      "ru": "Вокруг глаз работайте только самым лёгким касанием и по костному краю глазницы; не давите на глазное яблоко и веки.",
+      "en": "Around the eyes, use only the lightest touch and stay on the bony rim of the eye socket; never press on the eyeball or eyelids.",
+      "ar": "حول العينين، اكتفي بأخفّ لمسة والتزمي الحافة العظمية لمحجر العين، ولا تضغطي أبدًا على مقلة العين أو الجفنين."
+    },
+    {
+      "uz": "Asbob toza, silliq va butun bo'lsin: darz ketgan yoki uchgan asbobni ishlatmang.",
+      "ru": "Инструмент должен быть чистым, гладким и целым: не используйте треснувший или со сколами.",
+      "en": "Keep the tool clean, smooth and intact: do not use one that is cracked or chipped.",
+      "ar": "لتكن الأداة نظيفة ملساء سليمة، ولا تستخدمي أداة متشقّقة أو مثلومة."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, tirnoqlaringiz kalta va silliq bo'lsin. Sirpanish uchun o'zingizga mos, avval sinab ko'rilgan krem yoki moydan foydalaning.",
+      "ru": "Вымойте руки; ногти должны быть короткими и гладкими. Для скольжения используйте привычный, уже проверенный на вашей коже крем или масло.",
+      "en": "Wash your hands and keep your nails short and smooth. For glide, use a cream or oil your skin already knows and tolerates.",
+      "ar": "اغسلي يديكِ، ولتكن أظافركِ قصيرة ناعمة. واستخدمي للانزلاق كريمًا أو زيتًا اعتادته بشرتكِ وجرّبتِه من قبل."
+    },
+    {
+      "uz": "Bu marosim dam olish uchun; u tibbiy muolaja o'rnini bosmaydi. Yuzda doimiy shish, og'riq yoki notanish o'zgarishlar bo'lsa, shifokorga murojaat qiling.",
+      "ru": "Этот ритуал — для отдыха и не заменяет лечения. При стойких отёках, боли или непонятных изменениях на лице обратитесь к врачу.",
+      "en": "This ritual is for relaxation and does not replace medical care. If you have lasting swelling, pain or unfamiliar changes in your face, see a doctor.",
+      "ar": "هذا الطقس للاسترخاء ولا يغني عن الرعاية الطبية. وإذا لاحظتِ تورّمًا مستمرًا أو ألمًا أو تغيّرات غير مألوفة في وجهكِ، فاستشيري الطبيب."
+    }
+  ],
+  "evidence": {
+    "uz": "Gua sha kartochkasiga ko'ra kosmetik gua sha bo'yicha tadqiqotlar juda kam: muolajasiz nazorat guruhi bo'lmagan bitta kichik, 8 haftalik tadqiqotda yuz o'lchamlarida bir necha millimetrlik o'zgarishlar qayd etilgan, boshqa kichik tadqiqotlarda esa teri qon oqimi qisqa muddat oshgan; uzoq muddatli tadqiqot yo'q. An'anaviy usul va kasallik tarixlarida ko'karishlar tasvirlangan, shuning uchun bosim yengil bo'lishi muhim. Yuzni tortish, shishni ketkazish yoki «detoks» va'da qilinmaydi — bu dam olish marosimi.",
+    "ru": "Согласно карточке гуаши, исследований косметической гуаши очень мало: в одном небольшом 8-недельном исследовании без группы без процедуры отмечены изменения размеров лица на несколько миллиметров, в других небольших работах кратковременно усиливался кровоток в коже; долгосрочных исследований нет. В традиционной практике и описаниях случаев встречаются синяки, поэтому давление должно быть лёгким. Лифтинга, снятия отёков или «детокса» ритуал не обещает — это время для отдыха.",
+    "en": "According to the gua sha card, research on cosmetic gua sha is very limited: one small 8-week study with no untreated control found changes of a few millimetres in facial measurements, and other small studies showed a short-lived rise in skin blood flow; there are no long-term studies. Bruising is described in traditional practice and case reports, which is why the pressure here stays light. This ritual does not promise lifting, de-puffing or 'detox' — it is a moment to relax.",
+    "ar": "بحسب بطاقة الغواشا، الأبحاث عن الغواشا التجميلية قليلة جدًا: فقد سجّلت دراسة صغيرة مدتها ثمانية أسابيع، بلا مجموعة ضابطة غير معالَجة، تغيّرات ببضعة مليمترات في قياسات الوجه، وأظهرت دراسات صغيرة أخرى زيادة قصيرة الأمد في تدفّق الدم إلى الجلد، ولا توجد دراسات طويلة الأمد. كما وُصفت الكدمات في الممارسة التقليدية وفي تقارير الحالات، ولذلك يبقى الضغط هنا خفيفًا. لا يَعِد هذا الطقس بشدّ الوجه أو إزالة الانتفاخ أو «التخلّص من السموم»؛ إنه لحظة للاسترخاء."
+  }
+}

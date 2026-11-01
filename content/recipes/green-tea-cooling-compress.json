@@ -1,0 +1,141 @@
+{
+  "id": "green-tea-cooling-compress",
+  "status": "draft",
+  "photo": "green-tea",
+  "ingredients": [
+    "green-tea"
+  ],
+  "minutes": 35,
+  "title": {
+    "uz": "Salqin yashil choy kompressi",
+    "ru": "Прохладный компресс из зелёного чая",
+    "en": "Cooled green tea compress",
+    "ar": "كمادة الشاي الأخضر الباردة"
+  },
+  "intro": {
+    "uz": "Yangi damlangan, so'ng salqinlatilgan yashil choy — issiq kunda yoki uzoq kechadan keyin yuzga tetiklik bag'ishlaydigan oddiy kompress. Sokin bir piyola choy kabi, faqat teringiz uchun.",
+    "ru": "Свежезаваренный и охлаждённый зелёный чай — простой компресс, который освежает лицо в жаркий день или после долгого вечера. Как спокойная чашка чая, только для кожи.",
+    "en": "Freshly brewed, then chilled green tea — a simple compress that refreshes your face on a warm day or after a long evening. Like a quiet cup of tea, only for your skin.",
+    "ar": "شاي أخضر يُحضَّر طازجًا ثم يُبرَّد: كمادة بسيطة تنعش وجهكِ في يوم حار أو بعد أمسية طويلة، كفنجان شاي هادئ لكن لبشرتكِ."
+  },
+  "items": [
+    {
+      "uz": "1 paket oddiy yashil choy (xushbo'ylashtiruvchi qo'shimchalarsiz)",
+      "ru": "1 пакетик обычного зелёного чая (без ароматизаторов)",
+      "en": "1 bag plain green tea (no added flavourings)",
+      "ar": "كيس واحد من الشاي الأخضر العادي (بلا منكّهات)"
+    },
+    {
+      "uz": "200 ml yangi qaynatilgan suv",
+      "ru": "200 мл свежекипячёной воды",
+      "en": "200 ml freshly boiled water",
+      "ar": "200 مل من الماء المغليّ للتوّ"
+    },
+    {
+      "uz": "Toza piyola",
+      "ru": "Чистая чашка",
+      "en": "A clean cup",
+      "ar": "فنجان نظيف"
+    },
+    {
+      "uz": "4–6 ta paxta disk yoki yumshoq toza paxta mato",
+      "ru": "4–6 ватных дисков или мягкая чистая хлопковая ткань",
+      "en": "4–6 cotton pads or a soft, clean cotton cloth",
+      "ar": "من 4 إلى 6 أقراص قطنية أو قطعة قماش قطني ناعمة ونظيفة"
+    }
+  ],
+  "steps": [
+    {
+      "uz": "Choyni 3 daqiqa damlang, so'ng paketni oling.",
+      "ru": "Заварите чай 3 минуты, затем выньте пакетик.",
+      "en": "Steep the tea for 3 minutes, then remove the bag.",
+      "ar": "انقعي الشاي ثلاث دقائق ثم أخرجي الكيس."
+    },
+    {
+      "uz": "Xona haroratigacha soviting, keyin muzlatkichda 20 daqiqa salqinlating — muzdek emas, salqin bo'lsin.",
+      "ru": "Остудите до комнатной температуры, затем поставьте в холодильник на 20 минут — чай должен быть прохладным, а не ледяным.",
+      "en": "Let it cool to room temperature, then chill it in the fridge for 20 minutes — cool, not icy.",
+      "ar": "اتركيه يبرد حتى حرارة الغرفة، ثم ضعيه في الثلاجة 20 دقيقة ليصبح باردًا لا مثلّجًا."
+    },
+    {
+      "uz": "Yuzingizni yuving va sochiq bilan bosib quriting.",
+      "ru": "Умойтесь и промокните лицо полотенцем.",
+      "en": "Wash your face and pat it dry.",
+      "ar": "اغسلي وجهكِ وجففيه بالتربيت."
+    },
+    {
+      "uz": "Disklarni yoki matoni choyga botiring va tomchilamaydigan qilib yengil siqing.",
+      "ru": "Смочите диски или ткань в чае и слегка отожмите, чтобы не капало.",
+      "en": "Dip the pads or cloth in the tea and squeeze gently so they no longer drip.",
+      "ar": "اغمسي الأقراص أو القماش في الشاي واعصريها برفق حتى لا تقطر."
+    },
+    {
+      "uz": "Peshona, yonoq va iyakka qo'ying va 5–10 daqiqa xotirjam dam oling.",
+      "ru": "Положите на лоб, щёки и подбородок и спокойно отдохните 5–10 минут.",
+      "en": "Lay them on your forehead, cheeks and chin and rest quietly for 5–10 minutes.",
+      "ar": "ضعيها على الجبين والخدين والذقن واسترخي بهدوء من 5 إلى 10 دقائق."
+    },
+    {
+      "uz": "Kompressni oling, terini bosib quriting va namlovchi krem surting. Qolgan choyni to'kib tashlang.",
+      "ru": "Снимите компресс, промокните кожу и нанесите увлажняющий крем. Остатки чая вылейте.",
+      "en": "Remove the compress, pat your skin dry and apply moisturiser. Pour away the leftover tea.",
+      "ar": "أزيلي الكمادة وجففي بشرتكِ بالتربيت وضعي المرطّب، ثم تخلّصي من بقية الشاي."
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Birinchi marta qo'llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo'lsa, bu retseptdan voz keching.",
+      "ru": "Перед первым применением нанесите немного смеси на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+      "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+      "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+      "uz": "Damlamani faqat to'liq sovigandan keyin ishlating: issiq suyuqlik terini kuydirishi mumkin.",
+      "ru": "Используйте настой только полностью остывшим: горячая жидкость может обжечь кожу.",
+      "en": "Use the infusion only once it has fully cooled: hot liquid can scald the skin.",
+      "ar": "لا تستخدمي المنقوع إلا بعد أن يبرد تمامًا، فالسائل الساخن قد يحرق البشرة."
+    },
+    {
+      "uz": "Kompressni peshona, yonoq va iyakka qo'ying, ko'z qovoqlariga emas; suyuqlik ko'zga oqib tushmasligi uchun matoni yaxshilab siqing.",
+      "ru": "Кладите компресс на лоб, щёки и подбородок, но не на веки; хорошо отжимайте ткань, чтобы жидкость не затекала в глаза.",
+      "en": "Place the compress on your forehead, cheeks and chin, not on your eyelids, and wring the cloth well so nothing runs into your eyes.",
+      "ar": "ضعي الكمادة على الجبين والخدين والذقن لا على الجفنين، واعصري القماش جيدًا حتى لا يسيل شيء إلى عينيكِ."
+    },
+    {
+      "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek yallig'langan toshmalar ustiga hech qachon qo'llamang.",
+      "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённые высыпания.",
+      "en": "Never apply to broken, scratched, cracked or burnt skin, or over inflamed breakouts.",
+      "ar": "لا تضعيها أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا فوق البثور الملتهبة."
+    },
+    {
+      "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv bilan yuvib tashlang. Noqulaylik o'tmasa, shifokorga murojaat qiling.",
+      "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой. Если дискомфорт не проходит, обратитесь к врачу.",
+      "en": "If you feel stinging, redness or itching, rinse it off at once with lukewarm water. If the discomfort does not settle, see a doctor.",
+      "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسلي بشرتكِ فورًا بماء فاتر. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+      "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo'shmang: ular terini ta'sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o'xshash reaksiyalarga sabab bo'lgani qayd etilgan.",
+      "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+      "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+      "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, toza idish, qoshiq va sochiqdan foydalaning.",
+      "ru": "Вымойте руки, используйте чистую посуду, ложку и полотенце.",
+      "en": "Wash your hands and use a clean bowl, spoon and towel.",
+      "ar": "اغسلي يديكِ واستخدمي وعاءً وملعقة ومنشفة نظيفة."
+    },
+    {
+      "uz": "Damlamani har safar yangidan tayyorlang va o'sha kunning o'zida ishlating; qolganini to'kib tashlang, ishlatilgan matoni yuving.",
+      "ru": "Каждый раз заваривайте свежий настой и используйте его в тот же день; остатки выливайте, использованную ткань стирайте.",
+      "en": "Brew a fresh infusion each time and use it the same day; pour away what is left and wash the cloth after use.",
+      "ar": "حضّري منقوعًا جديدًا في كل مرة واستخدميه في اليوم نفسه، وتخلّصي من الباقي واغسلي القماش بعد الاستخدام."
+    }
+  ],
+  "evidence": {
+    "uz": "Yashil choy kartochkasidagi tadqiqotlar uyda damlangan choy emas, standartlashtirilgan ekstraktlar yoki EGCG kremlari bilan o'tkazilgan: bir meta-tahlilda surtma vositalar bilan husnbuzar elementlari kamroq bo'lgan, boshqa tizimli sharhda ajinlarning sezilarli kamayishi topilmagan, hayvonlardagi sinovlarda esa ta'sirlanish va sensibilizatsiya belgilari kuzatilgan. Damlamaning quvvati noma'lum, bu kompressning o'zi esa o'rganilmagan.",
+    "ru": "Исследования из карточки зелёного чая проводились не с домашней заваркой, а со стандартизированными экстрактами или кремами с EGCG: в метаанализе при местных средствах было меньше элементов акне, в другом систематическом обзоре значимого уменьшения морщин не нашли, а в тестах на животных отмечались признаки раздражения и сенсибилизации. Крепость настоя неизвестна, а сам компресс не изучался.",
+    "en": "The studies on the green tea card used standardised extracts or EGCG creams, not home-brewed tea: a meta-analysis found lower acne lesion counts with topical products, another systematic review found no significant reduction in wrinkles, and animal tests showed signs of irritation and sensitisation. The strength of a home brew is unknown, and this compress itself has not been studied.",
+    "ar": "استخدمت الدراسات في بطاقة الشاي الأخضر مستخلصات معيارية أو كريمات EGCG لا الشاي المنقوع في البيت: فقد وجد تحليل تجميعي عددًا أقل من آفات حب الشباب مع المنتجات الموضعية، ولم تجد مراجعة منهجية أخرى انخفاضًا ملحوظًا في التجاعيد، وأظهرت اختبارات على الحيوانات علامات تهيّج وتحسّس. وتركيز المنقوع المنزلي غير معروف، ولم تُدرس هذه الكمادة بحدّ ذاتها."
+  }
+}

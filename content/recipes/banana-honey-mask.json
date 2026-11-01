@@ -1,0 +1,142 @@
+{
+  "id": "banana-honey-mask",
+  "status": "draft",
+  "photo": "banana",
+  "ingredients": [
+    "banana",
+    "honey"
+  ],
+  "minutes": 15,
+  "title": {
+    "uz": "Banan va asalli niqob",
+    "ru": "Маска с бананом и мёдом",
+    "en": "Banana & honey mask",
+    "ar": "قناع الموز والعسل"
+  },
+  "intro": {
+    "uz": "Pishgan banan va bir qoshiq asal — oshxonangizdagi eng oddiy ne'matlardan tayyorlangan mayin, kremsimon niqob. O'zingizga mehr ko'rsatishning shirin bir usuli.",
+    "ru": "Спелый банан и ложечка мёда — нежная кремовая маска из самых простых продуктов на вашей кухне. Сладкий способ проявить заботу о себе.",
+    "en": "A ripe banana and a spoonful of honey — a soft, creamy mask made from the simplest things in your kitchen. A sweet way to look after yourself.",
+    "ar": "موزة ناضجة وملعقة عسل: قناع كريمي ناعم من أبسط ما في مطبخكِ، وطريقة حلوة لتدليل نفسكِ."
+  },
+  "items": [
+    {
+      "uz": "2 osh qoshiq pishgan banan eti (taxminan chorak banan)",
+      "ru": "2 ст. ложки мякоти спелого банана (около четверти банана)",
+      "en": "2 tablespoons ripe banana flesh (about a quarter of a banana)",
+      "ar": "ملعقتان كبيرتان من لبّ الموز الناضج (نحو ربع موزة)"
+    },
+    {
+      "uz": "1 choy qoshiq suyuq tabiiy asal (qo'shimchasiz)",
+      "ru": "1 ч. ложка жидкого натурального мёда (без добавок)",
+      "en": "1 teaspoon runny natural honey (no additions)",
+      "ar": "ملعقة صغيرة من العسل الطبيعي السائل (بلا إضافات)"
+    },
+    {
+      "uz": "Toza idish, vilka va yumshoq sochiq",
+      "ru": "Чистая миска, вилка и мягкое полотенце",
+      "en": "A clean bowl, fork and soft towel",
+      "ar": "وعاء وشوكة نظيفان ومنشفة ناعمة"
+    }
+  ],
+  "steps": [
+    {
+      "uz": "Qo'llaringizni yuving va bananni idishda vilka bilan bo'laklarsiz, butunlay silliq bo'lguncha ezing.",
+      "ru": "Вымойте руки и разомните банан вилкой в миске до совершенно гладкого пюре без комочков.",
+      "en": "Wash your hands and mash the banana with a fork until completely smooth, with no lumps.",
+      "ar": "اغسلي يديكِ واهرسي الموز بالشوكة في الوعاء حتى يصبح ناعمًا تمامًا بلا كتل."
+    },
+    {
+      "uz": "Asalni qo'shib, yaxshilab aralashtiring.",
+      "ru": "Добавьте мёд и хорошо перемешайте.",
+      "en": "Stir in the honey until well mixed.",
+      "ar": "أضيفي العسل وحرّكي جيدًا."
+    },
+    {
+      "uz": "Toza yuzga yupqa qatlam surting; ko'z atrofi va lablarni chetlab o'ting.",
+      "ru": "Нанесите тонкий слой на чистое лицо, обходя область вокруг глаз и губы.",
+      "en": "Spread a thin layer over your clean face, avoiding the eye area and lips.",
+      "ar": "وزّعي طبقة رقيقة على وجهكِ النظيف متجنبةً محيط العينين والشفتين."
+    },
+    {
+      "uz": "Niqob sirpanib ketmasligi uchun 10 daqiqa yotib dam oling.",
+      "ru": "Прилягте на 10 минут, чтобы маска не стекала.",
+      "en": "Lie back for 10 minutes so the mask stays in place.",
+      "ar": "استلقي عشر دقائق حتى يبقى القناع في مكانه."
+    },
+    {
+      "uz": "Iliq suv bilan yuving va bosib quriting.",
+      "ru": "Смойте тёплой водой и промокните кожу.",
+      "en": "Rinse with lukewarm water and pat dry.",
+      "ar": "اغسليه بماء فاتر وجففي بشرتكِ بالتربيت."
+    },
+    {
+      "uz": "Namlovchi krem bilan yakunlang.",
+      "ru": "Завершите увлажняющим кремом.",
+      "en": "Finish with your moisturiser.",
+      "ar": "اختمي بالمرطّب."
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Birinchi marta qo'llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo'lsa, bu retseptdan voz keching.",
+      "ru": "Перед первым применением нанесите немного смеси на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+      "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+      "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+      "uz": "Banan yoki lateksga allergiyangiz bo'lsa, ishlatmang: lateks allergiyasi bor odamlarda banan bilan o'zaro reaksiya (lateks-meva sindromi) kuzatiladi, banan bilan teri aloqasidan keyin kontakt eshakemi holatlari ham tasvirlangan.",
+      "ru": "Не используйте при аллергии на банан или латекс: у людей с аллергией на латекс встречается перекрёстная реакция на банан (латексно-фруктовый синдром), описаны и случаи контактной крапивницы после контакта кожи с бананом.",
+      "en": "Do not use if you are allergic to banana or latex: people with latex allergy can cross-react to banana (latex-fruit syndrome), and contact urticaria after skin contact with banana has been described.",
+      "ar": "لا تستخدميها إذا كانت لديكِ حساسية من الموز أو اللاتكس؛ فقد يحدث تفاعل متصالب مع الموز لدى من لديهم حساسية من اللاتكس (متلازمة اللاتكس والفاكهة)، كما وُصفت حالات شَرى تماسي بعد ملامسة الموز للجلد."
+    },
+    {
+      "uz": "Ari mahsulotlariga (asal, propolis, gulchang) allergiyangiz bo'lsa, ishlatmang. Propolis qo'shilgan asaldan kontakt allergiya kelib chiqqani haqida xabar bor, shuning uchun qo'shimchasiz oddiy asal tanlang.",
+      "ru": "Не используйте при аллергии на продукты пчеловодства (мёд, прополис, пыльцу). Описан случай контактной аллергии на мёд с прополисом, поэтому выбирайте обычный мёд без добавок.",
+      "en": "Do not use if you are allergic to bee products (honey, propolis, pollen). Contact allergy to propolis-enriched honey has been reported, so choose plain honey without additions.",
+      "ar": "لا تستخدميها إذا كانت لديكِ حساسية من منتجات النحل (العسل أو البروبوليس أو حبوب اللقاح). وقد أُبلغ عن حساسية تماسية من عسل مُضاف إليه البروبوليس، لذا اختاري عسلًا عاديًا بلا إضافات."
+    },
+    {
+      "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek yallig'langan toshmalar ustiga hech qachon qo'llamang.",
+      "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённые высыпания.",
+      "en": "Never apply to broken, scratched, cracked or burnt skin, or over inflamed breakouts.",
+      "ar": "لا تضعيها أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا فوق البثور الملتهبة."
+    },
+    {
+      "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv bilan yuvib tashlang. Noqulaylik o'tmasa, shifokorga murojaat qiling.",
+      "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой. Если дискомфорт не проходит, обратитесь к врачу.",
+      "en": "If you feel stinging, redness or itching, rinse it off at once with lukewarm water. If the discomfort does not settle, see a doctor.",
+      "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسلي بشرتكِ فورًا بماء فاتر. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+      "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo'shmang: ular terini ta'sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o'xshash reaksiyalarga sabab bo'lgani qayd etilgan.",
+      "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+      "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+      "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, toza idish, qoshiq va sochiqdan foydalaning.",
+      "ru": "Вымойте руки, используйте чистую посуду, ложку и полотенце.",
+      "en": "Wash your hands and use a clean bowl, spoon and towel.",
+      "ar": "اغسلي يديكِ واستخدمي وعاءً وملعقة ومنشفة نظيفة."
+    },
+    {
+      "uz": "Har safar yangi miqdorda tayyorlang va darhol ishlating; qolganini saqlamang, to'kib tashlang — uyda tayyorlangan aralashmada konservant yo'q.",
+      "ru": "Готовьте свежую порцию каждый раз и используйте сразу; остатки не храните, а выбрасывайте — в домашней смеси нет консервантов.",
+      "en": "Make a fresh batch each time and use it straight away; do not keep leftovers — a home mixture has no preservative.",
+      "ar": "حضّري كمية جديدة في كل مرة واستخدميها فورًا، ولا تحتفظي بالبقايا؛ فالخليط المنزلي لا يحتوي على مادة حافظة."
+    },
+    {
+      "uz": "Ko'z atrofi va lablardan uzoqroq tuting; ko'zga tushsa, ko'p miqdordagi toza suv bilan yuving.",
+      "ru": "Не наносите на область вокруг глаз и на губы; при попадании в глаза промойте их большим количеством чистой воды.",
+      "en": "Keep away from the eye area and lips; if any gets into your eyes, rinse with plenty of clean water.",
+      "ar": "أبعديها عن محيط العينين والشفتين، وإذا دخل شيء منها إلى عينيكِ فاغسليهما بكثير من الماء النظيف."
+    }
+  ],
+  "evidence": {
+    "uz": "Banan kartochkasidagi dalillar asosan po'choq ekstraktlari bo'yicha laboratoriya va hayvon tadqiqotlari hamda zardob bilan o'tkazilgan bitta kichik, nazoratsiz tadqiqotdan iborat — yangi banan eti o'rganilmagan; asal bo'yicha ham bir nechta kichik tadqiqot bor, xolos. Bu niqobning o'zi alohida o'rganilmagan.",
+    "ru": "Данные карточки банана — это в основном лабораторные исследования и опыты на животных с экстрактами кожуры и одно небольшое неконтролируемое исследование сыворотки; свежая мякоть не изучалась, а по мёду есть лишь несколько небольших исследований. Сама маска не изучалась.",
+    "en": "The banana card relies mostly on laboratory and animal studies of peel extracts plus one small uncontrolled study of a serum — fresh banana flesh was not studied — and the honey evidence is a few small studies. This mask itself has not been studied.",
+    "ar": "تعتمد بطاقة الموز أساسًا على دراسات مخبرية وأخرى على الحيوانات لمستخلصات القشر، وعلى دراسة صغيرة غير مضبوطة لسيروم واحد، ولم يُدرس لبّ الموز الطازج؛ وأدلة العسل بضع دراسات صغيرة فحسب. ولم يُدرس هذا القناع بحدّ ذاته."
+  }
+}

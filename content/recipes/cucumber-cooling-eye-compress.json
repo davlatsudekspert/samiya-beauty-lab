@@ -1,0 +1,141 @@
+{
+  "id": "cucumber-cooling-eye-compress",
+  "status": "draft",
+  "photo": "cucumber",
+  "ingredients": [
+    "cucumber"
+  ],
+  "minutes": 12,
+  "title": {
+    "uz": "Bodringli salqin ko'z kompressi",
+    "ru": "Охлаждающий огуречный компресс для глаз",
+    "en": "Cooling cucumber eye compress",
+    "ar": "كمادة الخيار المنعشة للعينين"
+  },
+  "intro": {
+    "uz": "Ikki bo'lak salqin bodring va o'n daqiqa jimjitlik — uzoq ish kunidan keyin charchagan ko'zlarga yoqimli tetiklik. Bu yerda asosiy sehr — salqinlik va dam olish.",
+    "ru": "Два прохладных ломтика огурца и десять минут тишины — приятная свежесть для уставших глаз после долгого дня. Главное волшебство здесь — прохлада и отдых.",
+    "en": "Two cool cucumber slices and ten minutes of stillness — a refreshing pause for tired eyes after a long day. The real magic here is coolness and rest.",
+    "ar": "شريحتان من الخيار البارد وعشر دقائق من السكينة: انتعاش لطيف لعينيكِ المتعبتين بعد يوم طويل. والسرّ الحقيقي هنا هو البرودة والراحة."
+  },
+  "items": [
+    {
+      "uz": "1 ta kichik bodring, muzlatkichda (morozilnikda emas) taxminan 30 daqiqa sovitilgan",
+      "ru": "1 небольшой огурец, охлаждённый в холодильнике (не в морозилке) около 30 минут",
+      "en": "1 small cucumber, chilled in the fridge (not the freezer) for about 30 minutes",
+      "ar": "خيارة صغيرة مبرّدة في الثلاجة (لا في المجمّد) نحو 30 دقيقة"
+    },
+    {
+      "uz": "Toza pichoq va taxtacha",
+      "ru": "Чистый нож и разделочная доска",
+      "en": "A clean knife and chopping board",
+      "ar": "سكين ولوح تقطيع نظيفان"
+    },
+    {
+      "uz": "Yumshoq toza sochiq",
+      "ru": "Мягкое чистое полотенце",
+      "en": "A soft, clean towel",
+      "ar": "منشفة ناعمة نظيفة"
+    }
+  ],
+  "steps": [
+    {
+      "uz": "Bodringni oqar suvda yaxshilab yuving va quriting.",
+      "ru": "Тщательно вымойте огурец под проточной водой и обсушите.",
+      "en": "Wash the cucumber well under running water and dry it.",
+      "ar": "اغسلي الخيارة جيدًا تحت الماء الجاري وجففيها."
+    },
+    {
+      "uz": "Undan 3–5 mm qalinlikda ikki bo'lak kesing.",
+      "ru": "Нарежьте два ломтика толщиной 3–5 мм.",
+      "en": "Cut two slices, 3–5 mm thick.",
+      "ar": "اقطعي منها شريحتين بسماكة 3 إلى 5 ملم."
+    },
+    {
+      "uz": "Pardoz va kontakt linzalarni yeching, yuzingizni yuving.",
+      "ru": "Снимите макияж и контактные линзы, умойтесь.",
+      "en": "Remove your make-up and contact lenses, and wash your face.",
+      "ar": "أزيلي المكياج والعدسات اللاصقة واغسلي وجهكِ."
+    },
+    {
+      "uz": "Qulay yotib, ko'zlaringizni yuming va bo'laklarni bosmasdan, yopiq qovoqlarga ohista qo'ying.",
+      "ru": "Удобно лягте, закройте глаза и бережно положите ломтики на сомкнутые веки, не надавливая.",
+      "en": "Lie down comfortably, close your eyes and rest the slices gently on your closed eyelids, without pressing.",
+      "ar": "استلقي براحة وأغمضي عينيكِ، وضعي الشريحتين برفق على جفنيكِ المغلقين دون ضغط."
+    },
+    {
+      "uz": "10 daqiqa sekin, chuqur nafas olib dam oling.",
+      "ru": "Отдохните 10 минут, дыша медленно и глубоко.",
+      "en": "Rest for 10 minutes, breathing slowly and deeply.",
+      "ar": "استرخي عشر دقائق مع تنفّس بطيء وعميق."
+    },
+    {
+      "uz": "Bo'laklarni oling, ko'z atrofini sochiq bilan yengil bosib quriting va bo'laklarni tashlab yuboring.",
+      "ru": "Снимите ломтики, легко промокните кожу вокруг глаз полотенцем, ломтики выбросьте.",
+      "en": "Lift the slices away, lightly pat the eye area dry and throw the slices away.",
+      "ar": "ارفعي الشريحتين وربّتي على محيط العينين بالمنشفة برفق، ثم تخلّصي من الشريحتين."
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Birinchi marta qo'llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo'lsa, bu retseptdan voz keching.",
+      "ru": "Перед первым применением нанесите немного смеси на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+      "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+      "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+      "uz": "Bo'laklarni faqat yopiq ko'z qovoqlariga qo'ying, ko'z olmasiga bosmang va sharbat ko'zga tushmasin.",
+      "ru": "Кладите ломтики только на сомкнутые веки, не давите на глазное яблоко и не допускайте попадания сока в глаза.",
+      "en": "Place the slices only on closed eyelids, never press on the eyeball, and do not let juice get into your eyes.",
+      "ar": "ضعي الشريحتين على الجفنين المغلقين فقط، ولا تضغطي على مقلة العين، ولا تدعي العصارة تدخل عينيكِ."
+    },
+    {
+      "uz": "Qovoqda toshma, yallig'lanish (masalan, arpa), yara yoki tirnalish bo'lsa, ishlatmang.",
+      "ru": "Не используйте, если на веках есть сыпь, воспаление (например, ячмень), ранки или царапины.",
+      "en": "Do not use if your eyelids have a rash, inflammation (such as a stye), cuts or scratches.",
+      "ar": "لا تستخدميها إذا كان على جفنيكِ طفح أو التهاب (كالشحّاذ) أو جروح أو خدوش."
+    },
+    {
+      "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv bilan yuvib tashlang. Noqulaylik o'tmasa, shifokorga murojaat qiling.",
+      "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой. Если дискомфорт не проходит, обратитесь к врачу.",
+      "en": "If you feel stinging, redness or itching, rinse it off at once with lukewarm water. If the discomfort does not settle, see a doctor.",
+      "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسلي بشرتكِ فورًا بماء فاتر. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+      "uz": "Ko'zda qizarish, og'riq, ko'rishning o'zgarishi yoki ajralma bo'lsa, yoki qovoq shishi tez-tez va uzoq saqlansa, kompress o'rniga shifokorga murojaat qiling.",
+      "ru": "При покраснении глаз, боли, изменении зрения, выделениях, а также если отёки век частые и стойкие, вместо компресса обратитесь к врачу.",
+      "en": "If your eyes are red, painful or discharging, your vision changes, or eyelid puffiness is frequent and lasting, see a doctor instead.",
+      "ar": "إذا كانت عيناكِ محمرّتين أو مؤلمتين أو فيهما إفرازات، أو تغيّرت رؤيتكِ، أو تكرّر انتفاخ الجفنين واستمرّ، فاستشيري الطبيب بدلًا من الكمادة."
+    },
+    {
+      "uz": "Muzlatkich bo'limida muzlagan bo'laklarni ishlatmang: haddan tashqari sovuq nozik terini ta'sirlantirishi mumkin.",
+      "ru": "Не используйте замороженные ломтики: сильный холод может раздражать тонкую кожу.",
+      "en": "Do not use frozen slices: intense cold can irritate delicate skin.",
+      "ar": "لا تستخدمي شرائح مجمّدة، فالبرد الشديد قد يهيّج الجلد الرقيق."
+    },
+    {
+      "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo'shmang: ular terini ta'sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o'xshash reaksiyalarga sabab bo'lgani qayd etilgan.",
+      "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+      "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+      "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, toza idish, qoshiq va sochiqdan foydalaning.",
+      "ru": "Вымойте руки, используйте чистую посуду, ложку и полотенце.",
+      "en": "Wash your hands and use a clean bowl, spoon and towel.",
+      "ar": "اغسلي يديكِ واستخدمي وعاءً وملعقة ومنشفة نظيفة."
+    },
+    {
+      "uz": "Har safar yangi bo'lak kesing; ishlatilgan bo'laklarni qayta qo'llamang.",
+      "ru": "Каждый раз нарезайте свежие ломтики; использованные повторно не применяйте.",
+      "en": "Cut fresh slices every time; never reuse slices.",
+      "ar": "اقطعي شرائح جديدة في كل مرة، ولا تعيدي استخدام الشرائح المستعملة."
+    }
+  ],
+  "evidence": {
+    "uz": "Bodring kartochkasida teri yoki ko'z atrofi bo'yicha odamlarda o'tkazilgan birorta tadqiqot topilmagan — faqat laboratoriya ishlari va asosan bodringli ko'z gelidagi konservantlarga bog'liq reaksiyalar haqidagi eski xabarlar bor. Yoqimli his asosan salqinlik va dam olishdan keladi; bu kompressning o'zi o'rganilmagan.",
+    "ru": "В карточке огурца не найдено ни одного исследования на людях по коже или области вокруг глаз — только лабораторные работы и старые описания реакций, в основном на консерванты в огуречном геле для век. Приятное ощущение дают прежде всего прохлада и отдых; сам компресс не изучался.",
+    "en": "The cucumber card found no human study of cucumber on the skin or eye area — only laboratory work and old case reports of reactions, mostly to preservatives in a cucumber eye gel. The pleasant feeling comes mainly from coolness and rest; this compress itself has not been studied.",
+    "ar": "لم تعثر بطاقة الخيار على أي دراسة بشرية عن الخيار على الجلد أو محيط العينين، بل على أعمال مخبرية وتقارير قديمة عن تفاعلات يعود معظمها إلى مواد حافظة في جل للعينين بالخيار. والإحساس اللطيف يأتي أساسًا من البرودة والراحة، ولم تُدرس هذه الكمادة بحدّ ذاتها."
+  }
+}

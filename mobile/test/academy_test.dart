@@ -32,6 +32,26 @@ void main() {
     }
   });
 
+  test('retsept va ritual: 8 va 3 ta, 4 tilda, xavfsizlik bilan, rasmlari mavjud', () {
+    expect(repo.recipes.length, 8);
+    expect(repo.rituals.length, 3);
+    for (final r in repo.recipes) {
+      expect(r.safety, isNotEmpty);
+      expect(File('assets/photos/${r.photo}.jpg').existsSync(), isTrue, reason: r.id);
+      for (final i in r.ingredients) {
+        expect(repo.bySlug(i), isNotNull, reason: '${r.id}: $i');
+      }
+      for (final lang in ['uz', 'ru', 'en', 'ar']) {
+        expect(r.title[lang], isNotEmpty);
+        expect(r.evidence[lang], isNotEmpty);
+      }
+    }
+    for (final r in repo.rituals) {
+      expect(r.totalSeconds, inInclusiveRange(120, 900));
+      expect(File('assets/photos/${r.photo}.jpg').existsSync(), isTrue);
+    }
+  });
+
   test('Ibn Sino bo\'limi kengaytirilgan (kamida 12 band)', () {
     expect(repo.ibnSina!.items.length, greaterThanOrEqualTo(12));
   });
@@ -59,6 +79,10 @@ void main() {
       for (final l in repo.lessons) {
         await pumpApp(t, state: state(lang: lang), initial: '/academy/lesson/${l.id}', size: const Size(320, 568), textScale: 1.5);
         expect(t.takeException(), isNull, reason: l.id);
+      }
+      for (final r in ['/home', '/home/recipes', '/home/rituals', for (final x in repo.recipes) '/home/recipes/${x.id}', for (final x in repo.rituals) '/home/rituals/${x.id}']) {
+        await pumpApp(t, state: state(lang: lang), initial: r, size: const Size(320, 568), textScale: 1.5);
+        expect(t.takeException(), isNull, reason: r);
       }
     });
   }

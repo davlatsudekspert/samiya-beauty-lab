@@ -156,7 +156,7 @@ class RecipesPage extends StatelessWidget {
       title: l.recipesTitle,
       back: '/home',
       children: [
-        const ArchPhoto('assets/photos/honey.jpg', height: 160),
+        const ArchPhoto('assets/photos/deco_jasmine.jpg', height: 160),
         const SizedBox(height: 14),
         Text(l.recipesTitle, style: t.headlineMedium?.copyWith(fontSize: 30)),
         const SizedBox(height: 6),

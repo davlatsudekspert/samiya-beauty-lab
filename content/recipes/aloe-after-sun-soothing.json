@@ -1,0 +1,147 @@
+{
+  "id": "aloe-after-sun-soothing",
+  "status": "draft",
+  "photo": "aloe-vera",
+  "ingredients": [
+    "aloe-vera"
+  ],
+  "minutes": 10,
+  "title": {
+    "uz": "Quyoshdan keyin aloe bilan salqinlik",
+    "ru": "Прохлада алоэ после солнца",
+    "en": "Cooling aloe after-sun care",
+    "ar": "انتعاش الألوفيرا بعد الشمس"
+  },
+  "intro": {
+    "uz": "Quyoshli kundan keyin teri issiq va tarang tuyulsa — salqin dush, muzlatkichda sovitilgan aloe geli va soya. Butun teri uchun oddiy kosmetik parvarish; kuyishni davolash emas.",
+    "ru": "Когда после солнечного дня кожа кажется горячей и стянутой — прохладный душ, охлаждённый гель алоэ и тень. Простой косметический уход за неповреждённой кожей, а не лечение ожога.",
+    "en": "When your skin feels warm and tight after a sunny day — a cool shower, chilled aloe gel and some shade. Simple cosmetic care for unbroken skin, not a treatment for burns.",
+    "ar": "حين تشعرين بأن بشرتكِ دافئة مشدودة بعد يوم مشمس: دشّ منعش وجل ألوفيرا مبرّد وقليل من الظل. عناية تجميلية بسيطة للبشرة السليمة، وليست علاجًا للحروق."
+  },
+  "items": [
+    {
+      "uz": "Kosmetik aloe vera geli: tarkibda Aloe Barbadensis Leaf Juice birinchi o'rinlarda, spirtsiz va qo'shimcha xushbo'ylashtiruvchisiz",
+      "ru": "Косметический гель алоэ: Aloe Barbadensis Leaf Juice в начале состава, без спирта и отдушек",
+      "en": "Cosmetic aloe vera gel: Aloe Barbadensis Leaf Juice near the top of the ingredient list, with no alcohol or added fragrance",
+      "ar": "جل ألوفيرا تجميلي: يأتي Aloe Barbadensis Leaf Juice في أول قائمة المكوّنات، وخالٍ من الكحول والعطور المضافة"
+    },
+    {
+      "uz": "Har bir soha uchun taxminan 1–2 choy qoshiq gel",
+      "ru": "Примерно 1–2 ч. ложки геля на каждую зону",
+      "en": "About 1–2 teaspoons of gel per area",
+      "ar": "نحو ملعقة إلى ملعقتين صغيرتين من الجل لكل منطقة"
+    },
+    {
+      "uz": "Toza qoshiq yoki shpatel",
+      "ru": "Чистая ложечка или шпатель",
+      "en": "A clean spoon or spatula",
+      "ar": "ملعقة أو مِلوَق نظيف"
+    },
+    {
+      "uz": "Yumshoq sochiq",
+      "ru": "Мягкое полотенце",
+      "en": "A soft towel",
+      "ar": "منشفة ناعمة"
+    }
+  ],
+  "steps": [
+    {
+      "uz": "Quyoshdan chiqing va salqin (muzdek emas) dush qabul qiling.",
+      "ru": "Уйдите с солнца и примите прохладный (не ледяной) душ.",
+      "en": "Get out of the sun and take a cool (not icy) shower.",
+      "ar": "ابتعدي عن الشمس واستحمّي بماء منعش لا مثلّج."
+    },
+    {
+      "uz": "Terini sochiq bilan ishqalamasdan, bosib quriting.",
+      "ru": "Промокните кожу полотенцем, не растирая.",
+      "en": "Pat your skin dry with the towel, without rubbing.",
+      "ar": "جففي بشرتكِ بالتربيت بالمنشفة دون فرك."
+    },
+    {
+      "uz": "Gelni toza qoshiq bilan olib, muzlatkichda 10–15 daqiqa salqinlating.",
+      "ru": "Наберите гель чистой ложечкой и охладите в холодильнике 10–15 минут.",
+      "en": "Scoop the gel out with a clean spoon and chill it in the fridge for 10–15 minutes.",
+      "ar": "اغرفي الجل بملعقة نظيفة وبرّديه في الثلاجة من 10 إلى 15 دقيقة."
+    },
+    {
+      "uz": "Issiq tuyulayotgan, ammo butun terga yupqa qatlam surting va qattiq ishqalamasdan singishiga imkon bering.",
+      "ru": "Нанесите тонкий слой на тёплую, но неповреждённую кожу и дайте впитаться, не втирая с силой.",
+      "en": "Smooth a thin layer onto warm but unbroken skin and let it absorb without rubbing hard.",
+      "ar": "وزّعي طبقة رقيقة على البشرة الدافئة السليمة واتركيها تمتصّها دون فرك قوي."
+    },
+    {
+      "uz": "Yoqimli bo'lsa, kun davomida yana bir-ikki marta takrorlang.",
+      "ru": "Если приятно, повторите ещё раз-другой в течение дня.",
+      "en": "If it feels pleasant, repeat once or twice more during the day.",
+      "ar": "إن شعرتِ بالراحة، فكرّري ذلك مرة أو مرتين خلال اليوم."
+    },
+    {
+      "uz": "Suv iching, keng kiyim kiying va keyingi kunlarda soyada bo'ling.",
+      "ru": "Пейте воду, носите свободную одежду и в ближайшие дни держитесь в тени.",
+      "en": "Drink water, wear loose clothing and stay in the shade over the next few days.",
+      "ar": "اشربي الماء وارتدي ملابس فضفاضة وابقي في الظل خلال الأيام التالية."
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Bu quyoshdan keyin iliq tuyulgan butun teri uchun kosmetik parvarish, kuyishni davolash emas. Pufakchalar, kuchli og'riq, shish, isitma, titroq, bosh og'rig'i yoki bosh aylanishi bo'lsa, katta maydon zararlansa yoki gap bola haqida bo'lsa, tibbiy yordamga murojaat qiling.",
+      "ru": "Это косметический уход за неповреждённой кожей, которая кажется тёплой после солнца, а не лечение ожога. При волдырях, сильной боли, отёке, температуре, ознобе, головной боли или головокружении, при поражении большой площади или если речь о ребёнке, обратитесь за медицинской помощью.",
+      "en": "This is cosmetic care for unbroken skin that feels warm after sun, not a treatment for burns. If there are blisters, severe pain, swelling, fever, chills, headache or dizziness, if a large area is affected, or if it concerns a child, seek medical help.",
+      "ar": "هذه عناية تجميلية لبشرة سليمة تشعر بالدفء بعد الشمس، وليست علاجًا للحروق. إذا ظهرت فقاعات أو ألم شديد أو تورّم أو حمّى أو قشعريرة أو صداع أو دوخة، أو كانت المنطقة المصابة واسعة، أو تعلّق الأمر بطفل، فاطلبي المساعدة الطبية."
+    },
+    {
+      "uz": "Aloe quyoshdan himoya qilmaydi: tizimli sharhda u quyosh kuyishidan himoya bermagani aniqlangan. Quyoshdan himoya vositasi, soya va yopiq kiyimdan foydalaning.",
+      "ru": "Алоэ не защищает от солнца: систематический обзор не нашёл у него защиты от солнечного ожога. Пользуйтесь солнцезащитным средством, тенью и закрытой одеждой.",
+      "en": "Aloe does not protect you from the sun: a systematic review found no protection against sunburn. Use sunscreen, shade and covering clothing.",
+      "ar": "الألوفيرا لا تحمي من الشمس، فقد وجدت مراجعة منهجية أنها لا تقي من حروق الشمس. استخدمي واقي الشمس والظل والملابس الساترة."
+    },
+    {
+      "uz": "Yangi uzilgan barg o'rniga kosmetik gel ishlating: bargning sariq shirasi (lateks) fototoksik antraxinonlarni saqlaydi, uyda tayyorlangan aloe sharbatidan esa allergik dermatit holati qayd etilgan.",
+      "ru": "Используйте косметический гель, а не свежий лист: жёлтый сок листа (латекс) содержит фототоксичные антрахиноны, а на домашний сок алоэ описан случай аллергического дерматита.",
+      "en": "Use a cosmetic gel rather than a fresh leaf: the yellow leaf sap (latex) contains anthraquinones, which are phototoxic, and allergic dermatitis from home-made aloe juice has been reported.",
+      "ar": "استخدمي جلًا تجميليًا لا ورقة طازجة، فالعصارة الصفراء في الورقة (اللاتكس) تحتوي على أنثراكينونات سامّة ضوئيًا، وقد أُبلغ عن التهاب جلد تحسّسي من عصير ألوفيرا محضّر في البيت."
+    },
+    {
+      "uz": "Birinchi marta qo'llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo'lsa, bu retseptdan voz keching.",
+      "ru": "Перед первым применением нанесите немного смеси на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+      "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+      "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+      "uz": "Pufakchali, shilinib qizargan, yorilgan yoki yaralangan teriga surtmang.",
+      "ru": "Не наносите на кожу с волдырями, мокнущую, шелушащуюся до красноты, с трещинами или ранками.",
+      "en": "Do not apply to blistered, raw, peeling, cracked or broken skin.",
+      "ar": "لا تضعيه على جلد فيه فقاعات أو متقرّح أو متقشّر حتى الاحمرار أو متشقق أو مجروح."
+    },
+    {
+      "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv bilan yuvib tashlang. Noqulaylik o'tmasa, shifokorga murojaat qiling.",
+      "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой. Если дискомфорт не проходит, обратитесь к врачу.",
+      "en": "If you feel stinging, redness or itching, rinse it off at once with lukewarm water. If the discomfort does not settle, see a doctor.",
+      "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسلي بشرتكِ فورًا بماء فاتر. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+      "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo'shmang: ular terini ta'sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o'xshash reaksiyalarga sabab bo'lgani qayd etilgan.",
+      "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+      "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+      "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+      "uz": "Gelni toza qoshiq bilan oling, qadoqni mahkam yoping va yaroqlilik muddatiga e'tibor bering.",
+      "ru": "Набирайте гель чистой ложечкой, плотно закрывайте упаковку и следите за сроком годности.",
+      "en": "Take gel out with a clean spoon, close the container tightly and check the expiry date.",
+      "ar": "اغرفي الجل بملعقة نظيفة وأغلقي العبوة بإحكام وانتبهي لتاريخ الصلاحية."
+    },
+    {
+      "uz": "Ko'z atrofi va lablardan uzoqroq tuting; ko'zga tushsa, ko'p miqdordagi toza suv bilan yuving.",
+      "ru": "Не наносите на область вокруг глаз и на губы; при попадании в глаза промойте их большим количеством чистой воды.",
+      "en": "Keep away from the eye area and lips; if any gets into your eyes, rinse with plenty of clean water.",
+      "ar": "أبعديها عن محيط العينين والشفتين، وإذا دخل شيء منها إلى عينيكِ فاغسليهما بكثير من الماء النظيف."
+    }
+  ],
+  "evidence": {
+    "uz": "Aloe vera kartochkasida tajribaviy UV ta'siridan keyingi ikkita kichik tadqiqot bir-biriga zid natija bergan, tizimli sharh esa surtma aloe quyosh kuyishidan himoya qilmasligini aytgan; foydasi isbotlanmagan. Bu parvarish usulining o'zi o'rganilmagan.",
+    "ru": "В карточке алоэ два небольших исследования после экспериментального УФ-облучения пришли к противоположным выводам, а систематический обзор отметил, что алоэ на коже не защищает от солнечного ожога; польза не доказана. Сам этот способ ухода не изучался.",
+    "en": "On the aloe vera card, two small trials after experimental UV exposure reached opposite conclusions, and a systematic review found that topical aloe gives no protection against sunburn; any benefit remains unproven. This routine itself has not been studied.",
+    "ar": "في بطاقة الألوفيرا، توصّلت تجربتان صغيرتان بعد تعرّض تجريبي للأشعة فوق البنفسجية إلى نتيجتين متعارضتين، ووجدت مراجعة منهجية أن الألوفيرا الموضعية لا تحمي من حروق الشمس؛ فالفائدة غير مثبتة. ولم تُدرس هذه العناية بحدّ ذاتها."
+  }
+}

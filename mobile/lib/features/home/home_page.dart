@@ -123,7 +123,7 @@ class HomePage extends StatelessWidget {
             key: const Key('home-collections'),
             height: 190,
             child: ListView(scrollDirection: Axis.horizontal, children: [
-              _Collection(key: const Key('col-natural'), photo: 'assets/photos/honey.jpg', title: l.colNatural, body: l.colNaturalBody, onTap: () => context.safePush('/home/recipes')),
+              _Collection(key: const Key('col-natural'), photo: 'assets/photos/chamomile.jpg', title: l.colNatural, body: l.colNaturalBody, onTap: () => context.safePush('/home/recipes')),
               _Collection(key: const Key('col-heat'), photo: 'assets/photos/deco_rose.jpg', title: l.colHeat, body: l.colHeatBody, onTap: () => context.safePush('/academy/lesson/spf')),
               _Collection(key: const Key('col-winter'), photo: 'assets/photos/oat.jpg', title: l.colWinter, body: l.colWinterBody, onTap: () => context.safePush('/academy/lesson/moist')),
             ]),
@@ -418,8 +418,10 @@ class _DailyTip extends StatelessWidget {
             Row(children: [
               const Icon(Icons.auto_awesome, size: 16, color: Color(0xFFE9D3A8)),
               const SizedBox(width: 8),
-              Text(l.tipTitle.toUpperCase(),
-                  style: t.labelSmall?.copyWith(color: const Color(0xFFE9D3A8), letterSpacing: lang == 'ar' ? 0 : 1.8)),
+              Flexible(
+                child: Text(l.tipTitle.toUpperCase(),
+                    style: t.labelSmall?.copyWith(color: const Color(0xFFE9D3A8), letterSpacing: lang == 'ar' ? 0 : 1.8)),
+              ),
             ]),
             const SizedBox(height: 10),
             Text(pickLoc(tip, lang), style: t.titleMedium?.copyWith(color: Colors.white, fontSize: 16.5, height: 1.45, fontWeight: FontWeight.w500)),

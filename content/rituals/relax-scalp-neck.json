@@ -1,0 +1,180 @@
+{
+  "id": "relax-scalp-neck",
+  "status": "draft",
+  "photo": "deco_peony",
+  "title": {
+    "uz": "Bosh terisi va bo'yin uchun dam",
+    "ru": "Расслабление головы и шеи",
+    "en": "Scalp & neck unwind",
+    "ar": "استرخاء فروة الرأس والرقبة"
+  },
+  "intro": {
+    "uz": "To'rt daqiqa — yelkalardan og'irlikni tushirish uchun yetarli. Barmoq uchlari bilan sekin harakatlar va chuqur nafas: ish stolida ham, uyqudan oldin ham qilsa bo'ladigan kichik tanaffus.",
+    "ru": "Четырёх минут достаточно, чтобы снять тяжесть с плеч. Медленные движения подушечками пальцев и глубокое дыхание — маленькая передышка и за рабочим столом, и перед сном.",
+    "en": "Four minutes is enough to let the weight slip off your shoulders. Slow fingertip movements and deep breaths — a small pause you can take at your desk or before sleep.",
+    "ar": "أربع دقائق تكفي لتُنزلي الثقل عن كتفيكِ. حركات بطيئة بأطراف الأصابع وتنفّس عميق: استراحة صغيرة على مكتبكِ أو قبل النوم."
+  },
+  "steps": [
+    {
+      "seconds": 20,
+      "title": {
+        "uz": "Joylashib oling",
+        "ru": "Устройтесь удобно",
+        "en": "Settle",
+        "ar": "الاستقرار"
+      },
+      "text": {
+        "uz": "Qulay o'tiring, yelkalaringizni quloqlardan pastga tushiring va uch marta sekin nafas oling.",
+        "ru": "Сядьте удобно, опустите плечи подальше от ушей и сделайте три медленных вдоха.",
+        "en": "Sit comfortably, let your shoulders drop away from your ears and take three slow breaths.",
+        "ar": "اجلسي براحة، وأنزلي كتفيكِ بعيدًا عن أذنيكِ، وخذي ثلاثة أنفاس بطيئة."
+      }
+    },
+    {
+      "seconds": 40,
+      "title": {
+        "uz": "Bosh terisi",
+        "ru": "Кожа головы",
+        "en": "Scalp",
+        "ar": "فروة الرأس"
+      },
+      "text": {
+        "uz": "Barmoq uchlari bilan (tirnoq bilan emas) soch chizig'idan tepa tomonga qarab kichik, sekin aylanma harakatlar qiling, terini yengil siljiting.",
+        "ru": "Подушечками пальцев (не ногтями) делайте маленькие медленные круговые движения от линии роста волос к макушке, слегка сдвигая кожу.",
+        "en": "Using the pads of your fingers (not your nails), make small, slow circles from the hairline back towards the crown, gently moving the skin.",
+        "ar": "بأطراف أصابعكِ لا بأظافركِ، ارسمي دوائر صغيرة بطيئة من خط الشعر نحو قمة الرأس، مع تحريك الجلد بلطف."
+      }
+    },
+    {
+      "seconds": 40,
+      "title": {
+        "uz": "Ensa",
+        "ru": "Затылок",
+        "en": "Base of the skull",
+        "ar": "مؤخرة الرأس"
+      },
+      "text": {
+        "uz": "Barmoqlarni ensaning ostidagi suyak chizig'iga qo'yib, markazdan quloqlar tomon yumshoq aylanma harakatlar qiling.",
+        "ru": "Поставьте пальцы под затылочную кость и мягкими круговыми движениями продвигайтесь от центра к ушам.",
+        "en": "Place your fingers along the ridge at the base of your skull and work in soft circles from the centre out towards your ears.",
+        "ar": "ضعي أصابعكِ على الحافة العظمية أسفل مؤخرة الرأس، وتحرّكي بدوائر ناعمة من الوسط نحو الأذنين."
+      }
+    },
+    {
+      "seconds": 40,
+      "title": {
+        "uz": "Bo'yinning yon tomonlari",
+        "ru": "Боковые стороны шеи",
+        "en": "Sides of the neck",
+        "ar": "جانبا الرقبة"
+      },
+      "text": {
+        "uz": "Boshni ozgina bir tomonga egib, qarama-qarshi tomonda quloq ostidan yelka tomon kaft bilan yengil silang; 20 soniyadan so'ng tomonni almashtiring. Qattiq bosmang.",
+        "ru": "Слегка наклоните голову в сторону и ладонью легко поглаживайте противоположную сторону шеи от уха к плечу; через 20 секунд поменяйте сторону. Не давите сильно.",
+        "en": "Tilt your head slightly to one side and stroke lightly with your palm down the opposite side of your neck, from ear to shoulder; switch sides after 20 seconds. Do not press hard.",
+        "ar": "أميلي رأسكِ قليلًا إلى جانب، وامسحي بخفّة بباطن كفّكِ الجانب المقابل من الرقبة من الأذن إلى الكتف، ثم بدّلي الجانب بعد 20 ثانية، دون ضغط قوي."
+      }
+    },
+    {
+      "seconds": 40,
+      "title": {
+        "uz": "Yelkalar",
+        "ru": "Плечи",
+        "en": "Shoulders",
+        "ar": "الكتفان"
+      },
+      "text": {
+        "uz": "Qarama-qarshi qo'l bilan yelka ustini yumshoq g'ijimlang, so'ng ikkala yelkani orqaga sekin aylantiring.",
+        "ru": "Противоположной рукой мягко разминайте верх плеча, затем медленно вращайте оба плеча назад.",
+        "en": "With the opposite hand, gently knead the top of each shoulder, then roll both shoulders slowly backwards.",
+        "ar": "اعجني أعلى كل كتف برفق باليد المقابلة، ثم دوّري الكتفين ببطء إلى الخلف."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Chakkalar",
+        "ru": "Виски",
+        "en": "Temples",
+        "ar": "الصدغان"
+      },
+      "text": {
+        "uz": "Chakkalarda barmoq uchlari bilan sekin aylanma harakatlar qiling va nafasingizni chiqarishni uzaytiring.",
+        "ru": "Делайте медленные круговые движения подушечками пальцев на висках, удлиняя выдох.",
+        "en": "Make slow circles on your temples with your fingertips, letting each out-breath grow longer.",
+        "ar": "ارسمي دوائر بطيئة على صدغيكِ بأطراف أصابعكِ، وأطيلي كل زفير."
+      }
+    },
+    {
+      "seconds": 30,
+      "title": {
+        "uz": "Yakun",
+        "ru": "Завершение",
+        "en": "Close",
+        "ar": "الختام"
+      },
+      "text": {
+        "uz": "Kaftlarni ishqalab isiting va yopiq ko'zlar ustiga bosmasdan qo'ying. Bir necha marta sekin nafas oling.",
+        "ru": "Согрейте ладони, потерев их, и положите на закрытые глаза, не надавливая. Сделайте несколько медленных вдохов.",
+        "en": "Rub your palms together until warm and cup them over your closed eyes without pressing. Take a few slow breaths.",
+        "ar": "افركي راحتيكِ حتى تدفأا، وضعيهما على عينيكِ المغلقتين دون ضغط، وخذي بضعة أنفاس بطيئة."
+      }
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Bo'yinning old va yon tomonlaridagi chuqurliklarni qattiq bosmang va bo'yinni keskin burmang.",
+      "ru": "Не надавливайте сильно на переднюю и боковые поверхности шеи и не делайте резких поворотов головы.",
+      "en": "Do not press hard on the front or sides of your neck, and avoid sudden twisting of the head.",
+      "ar": "لا تضغطي بقوة على مقدّمة الرقبة أو جانبيها، وتجنّبي الالتفاف المفاجئ بالرأس."
+    },
+    {
+      "uz": "Yaqinda bo'yin yoki bosh jarohati olgan bo'lsangiz, kuchli yoki to'satdan boshlangan bosh og'rig'i, bosh aylanishi yoki qo'llarda uvishish bo'lsa, massaj o'rniga shifokorga murojaat qiling.",
+      "ru": "Если недавно была травма шеи или головы, а также при сильной или внезапной головной боли, головокружении или онемении рук обратитесь к врачу вместо массажа.",
+      "en": "If you have recently injured your neck or head, or have a severe or sudden headache, dizziness or numbness in your arms, see a doctor instead of massaging.",
+      "ar": "إذا تعرّضتِ مؤخرًا لإصابة في الرقبة أو الرأس، أو كان لديكِ صداع شديد أو مفاجئ أو دوخة أو خدر في الذراعين، فاستشيري الطبيب بدلًا من التدليك."
+    },
+    {
+      "uz": "Bosh terisida yara, toshma, yallig'lanish yoki infeksiya bo'lsa, o'sha joylarni massaj qilmang.",
+      "ru": "Не массируйте участки кожи головы с ранками, сыпью, воспалением или инфекцией.",
+      "en": "Do not massage areas of the scalp with cuts, rashes, inflammation or infection.",
+      "ar": "لا تدلّكي مناطق فروة الرأس التي فيها جروح أو طفح أو التهاب أو عدوى."
+    },
+    {
+      "uz": "Qon suyultiruvchi dori qabul qilsangiz, qon ivishi buzilgan bo'lsa yoki teringiz oson ko'karsa, avval shifokor bilan maslahatlashing.",
+      "ru": "Если вы принимаете препараты, разжижающие кровь, у вас нарушена свёртываемость или легко появляются синяки, сначала посоветуйтесь с врачом.",
+      "en": "If you take blood thinners, have a bleeding disorder or bruise easily, ask your doctor first.",
+      "ar": "إذا كنتِ تتناولين أدوية مميّعة للدم، أو لديكِ اضطراب في التخثّر، أو تظهر الكدمات على جلدكِ بسهولة، فاستشيري طبيبكِ أولًا."
+    },
+    {
+      "uz": "Filler yoki botulinum toksin in'eksiyasi, piling, lazer yoki boshqa kosmetologik protseduradan keyin massajni qachon boshlash mumkinligini muolaja qilgan mutaxassisdan so'rang.",
+      "ru": "После инъекций филлеров или ботулотоксина, пилинга, лазера и других косметологических процедур уточните у специалиста, который их проводил, когда можно возвращаться к массажу.",
+      "en": "After filler or botulinum toxin injections, peels, laser or other cosmetic procedures, ask the specialist who treated you when it is safe to massage again.",
+      "ar": "بعد حقن الفيلر أو البوتوكس أو التقشير أو الليزر أو غيرها من الإجراءات التجميلية، اسألي المختصّ الذي أجراها عن الوقت المناسب للعودة إلى التدليك."
+    },
+    {
+      "uz": "Bosim yengil va yoqimli bo'lsin: og'riq, ko'karish yoki qizil dog'lar bo'lmasligi kerak. Og'riq, uvishish, bosh aylanishi yoki noqulaylik sezsangiz, to'xtating.",
+      "ru": "Давление должно быть лёгким и приятным: без боли, синяков и красных пятен. Если почувствуете боль, онемение, головокружение или дискомфорт, остановитесь.",
+      "en": "Keep the pressure light and pleasant: there should be no pain, bruising or red marks. Stop if you feel pain, numbness, dizziness or discomfort.",
+      "ar": "ليكن الضغط خفيفًا ومريحًا، بلا ألم ولا كدمات ولا بقع حمراء. وتوقّفي إذا شعرتِ بألم أو خدر أو دوخة أو انزعاج."
+    },
+    {
+      "uz": "Qo'llaringizni yuving va tirnoqlaringiz bilan emas, faqat barmoq uchlari bilan ishlang.",
+      "ru": "Вымойте руки и работайте только подушечками пальцев, а не ногтями.",
+      "en": "Wash your hands and use only the pads of your fingers, never your nails.",
+      "ar": "اغسلي يديكِ واستخدمي أطراف أصابعكِ فقط، لا أظافركِ."
+    },
+    {
+      "uz": "Bu marosim dam olish uchun; u tibbiy muolaja o'rnini bosmaydi. Yuzda doimiy shish, og'riq yoki notanish o'zgarishlar bo'lsa, shifokorga murojaat qiling.",
+      "ru": "Этот ритуал — для отдыха и не заменяет лечения. При стойких отёках, боли или непонятных изменениях на лице обратитесь к врачу.",
+      "en": "This ritual is for relaxation and does not replace medical care. If you have lasting swelling, pain or unfamiliar changes in your face, see a doctor.",
+      "ar": "هذا الطقس للاسترخاء ولا يغني عن الرعاية الطبية. وإذا لاحظتِ تورّمًا مستمرًا أو ألمًا أو تغيّرات غير مألوفة في وجهكِ، فاستشيري الطبيب."
+    }
+  ],
+  "evidence": {
+    "uz": "Bosh terisi va bo'yin massaji bo'yicha alohida ilmiy kartochka hali yo'q. Yuz massaji kartochkasidagi bitta kichik tadqiqotda yumshoq silash va bosish qisqa muddatli xotirjamlik va qulaylik hissi bilan bog'langan, ammo bu natija yuzga tegishli va boshqa sohalarga to'g'ridan-to'g'ri ko'chirib bo'lmaydi. Soch o'sishi, bosh og'rig'ini davolash yoki «limfa drenaji» va'da qilinmaydi — bu dam olish uchun kichik tanaffus.",
+    "ru": "Отдельной научной карточки о массаже головы и шеи пока нет. В одном небольшом исследовании из карточки массажа лица мягкое поглаживание с надавливанием было связано с кратковременным снижением стресса и ощущением комфорта, но этот результат касается лица и не переносится напрямую на другие зоны. Роста волос, лечения головной боли или «лимфодренажа» ритуал не обещает — это маленькая пауза для отдыха.",
+    "en": "There is no separate evidence card on scalp and neck massage yet. One small study on the facial massage card linked a gentle smoothing-and-press gesture with lower stress and greater comfort in the short term, but that finding concerns the face and cannot be carried straight over to other areas. This ritual does not promise hair growth, headache relief or 'lymphatic drainage' — it is a small pause to unwind.",
+    "ar": "لا توجد بعد بطاقة علمية مستقلة عن تدليك فروة الرأس والرقبة. وقد ربطت دراسة صغيرة في بطاقة تدليك الوجه حركة المسح مع الضغط اللطيف بانخفاض التوتر وزيادة الراحة على المدى القصير، لكن هذه النتيجة تخصّ الوجه ولا يمكن نقلها مباشرة إلى مناطق أخرى. لا يَعِد هذا الطقس بنموّ الشعر أو علاج الصداع أو «التصريف اللمفي»؛ إنه استراحة صغيرة للاسترخاء."
+  }
+}

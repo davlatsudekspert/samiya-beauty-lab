@@ -1,0 +1,147 @@
+{
+  "id": "chamomile-cool-compress",
+  "status": "draft",
+  "photo": "chamomile",
+  "ingredients": [
+    "chamomile"
+  ],
+  "minutes": 35,
+  "title": {
+    "uz": "Moychechakli salqin kompress",
+    "ru": "Прохладный ромашковый компресс",
+    "en": "Cool chamomile compress",
+    "ar": "كمادة البابونج الباردة"
+  },
+  "intro": {
+    "uz": "Moychechak (romashka) damlamasining nozik ifori va salqin mato — kechqurun shoshmasdan dam olish uchun sokin marosim. Bir necha daqiqa faqat o'zingiz uchun.",
+    "ru": "Нежный аромат ромашкового настоя и прохладная ткань — тихий вечерний ритуал, чтобы никуда не спешить. Несколько минут только для себя.",
+    "en": "The delicate scent of a chamomile infusion and a cool cloth — a quiet evening ritual for when you want to slow down. A few minutes just for you.",
+    "ar": "رائحة منقوع البابونج الرقيقة وقماش بارد: طقس مسائي هادئ حين ترغبين في التمهّل، ودقائق قليلة لكِ وحدكِ."
+  },
+  "items": [
+    {
+      "uz": "1 paket moychechak choyi yoki 1 osh qoshiq quritilgan moychechak gullari (dorivor moychechak, Matricaria)",
+      "ru": "1 пакетик ромашкового чая или 1 ст. ложка сушёных цветков ромашки аптечной (Matricaria)",
+      "en": "1 chamomile tea bag or 1 tablespoon dried German chamomile flowers (Matricaria)",
+      "ar": "كيس شاي بابونج أو ملعقة كبيرة من أزهار البابونج الألماني المجففة (Matricaria)"
+    },
+    {
+      "uz": "200 ml yangi qaynatilgan suv",
+      "ru": "200 мл свежекипячёной воды",
+      "en": "200 ml freshly boiled water",
+      "ar": "200 مل من الماء المغليّ للتوّ"
+    },
+    {
+      "uz": "Mayda ko'zli suzgich",
+      "ru": "Мелкое ситечко",
+      "en": "A fine strainer",
+      "ar": "مصفاة دقيقة"
+    },
+    {
+      "uz": "Yumshoq toza paxta mato yoki paxta disklar",
+      "ru": "Мягкая чистая хлопковая ткань или ватные диски",
+      "en": "A soft, clean cotton cloth or cotton pads",
+      "ar": "قطعة قماش قطني ناعمة نظيفة أو أقراص قطنية"
+    }
+  ],
+  "steps": [
+    {
+      "uz": "Moychechakni qopqoq ostida 5 daqiqa damlang.",
+      "ru": "Заварите ромашку под крышкой 5 минут.",
+      "en": "Steep the chamomile, covered, for 5 minutes.",
+      "ar": "انقعي البابونج خمس دقائق مع تغطيته."
+    },
+    {
+      "uz": "Damlamani gul bo'lakchalari qolmasligi uchun yaxshilab suzing.",
+      "ru": "Тщательно процедите, чтобы не осталось частичек цветков.",
+      "en": "Strain it well so that no flower pieces remain.",
+      "ar": "صفّي المنقوع جيدًا حتى لا تبقى فيه بقايا الأزهار."
+    },
+    {
+      "uz": "Xona haroratigacha soviting, so'ng muzlatkichda 15–20 daqiqa salqinlating.",
+      "ru": "Остудите до комнатной температуры, затем охладите в холодильнике 15–20 минут.",
+      "en": "Let it cool to room temperature, then chill it in the fridge for 15–20 minutes.",
+      "ar": "اتركيه يبرد حتى حرارة الغرفة، ثم برّديه في الثلاجة من 15 إلى 20 دقيقة."
+    },
+    {
+      "uz": "Yuzingizni yuving, matoni damlamaga botirib, tomchilamaydigan qilib siqing.",
+      "ru": "Умойтесь, смочите ткань в настое и отожмите, чтобы не капало.",
+      "en": "Wash your face, dip the cloth in the infusion and wring it out so it no longer drips.",
+      "ar": "اغسلي وجهكِ، ثم اغمسي القماش في المنقوع واعصريه حتى لا يقطر."
+    },
+    {
+      "uz": "Matoni peshona, yonoq va iyakka qo'yib, 5–10 daqiqa sekin nafas olib dam oling.",
+      "ru": "Положите ткань на лоб, щёки и подбородок и отдохните 5–10 минут, дыша медленно.",
+      "en": "Lay the cloth over your forehead, cheeks and chin and rest for 5–10 minutes, breathing slowly.",
+      "ar": "ضعي القماش على الجبين والخدين والذقن واسترخي من 5 إلى 10 دقائق مع تنفّس بطيء."
+    },
+    {
+      "uz": "Matoni oling, terini bosib quriting va namlovchi krem surting. Qolgan damlamani to'kib tashlang.",
+      "ru": "Снимите ткань, промокните кожу и нанесите увлажняющий крем. Остатки настоя вылейте.",
+      "en": "Remove the cloth, pat your skin dry and apply moisturiser. Pour away the rest of the infusion.",
+      "ar": "أزيلي القماش وجففي بشرتكِ بالتربيت وضعي المرطّب، ثم تخلّصي من بقية المنقوع."
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Murakkabguldoshlar (Asteraceae) oilasiga mansub o'simliklarga — ambroziya, xrizantema, arnika, moychechak va shu kabilarga — allergiyangiz bo'lsa, ishlatmang: moychechak bo'yicha tadqiqotlarning aksariyati aynan kontakt allergiya haqida.",
+      "ru": "Не используйте при аллергии на растения семейства астровых (сложноцветных) — амброзию, хризантему, арнику, ромашку и подобные: большинство исследований ромашки посвящено именно контактной аллергии.",
+      "en": "Do not use if you are allergic to plants of the daisy family (Asteraceae) — such as ragweed, chrysanthemum, arnica or chamomile itself: most of the research on chamomile is about contact allergy.",
+      "ar": "لا تستخدميها إذا كانت لديكِ حساسية من نباتات الفصيلة النجمية (Asteraceae) مثل الرجيد والأقحوان والأرنيكا أو البابونج نفسه، فمعظم الأبحاث عن البابونج تتناول الحساسية التماسية تحديدًا."
+    },
+    {
+      "uz": "Birinchi marta qo'llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo'lsa, bu retseptdan voz keching.",
+      "ru": "Перед первым применением нанесите немного смеси на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+      "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+      "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+      "uz": "Damlamani faqat to'liq sovigandan keyin ishlating: issiq suyuqlik terini kuydirishi mumkin.",
+      "ru": "Используйте настой только полностью остывшим: горячая жидкость может обжечь кожу.",
+      "en": "Use the infusion only once it has fully cooled: hot liquid can scald the skin.",
+      "ar": "لا تستخدمي المنقوع إلا بعد أن يبرد تمامًا، فالسائل الساخن قد يحرق البشرة."
+    },
+    {
+      "uz": "Kompressni peshona, yonoq va iyakka qo'ying, ko'z qovoqlariga emas; suyuqlik ko'zga oqib tushmasligi uchun matoni yaxshilab siqing.",
+      "ru": "Кладите компресс на лоб, щёки и подбородок, но не на веки; хорошо отжимайте ткань, чтобы жидкость не затекала в глаза.",
+      "en": "Place the compress on your forehead, cheeks and chin, not on your eyelids, and wring the cloth well so nothing runs into your eyes.",
+      "ar": "ضعي الكمادة على الجبين والخدين والذقن لا على الجفنين، واعصري القماش جيدًا حتى لا يسيل شيء إلى عينيكِ."
+    },
+    {
+      "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek yallig'langan toshmalar ustiga hech qachon qo'llamang.",
+      "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённые высыпания.",
+      "en": "Never apply to broken, scratched, cracked or burnt skin, or over inflamed breakouts.",
+      "ar": "لا تضعيها أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا فوق البثور الملتهبة."
+    },
+    {
+      "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv bilan yuvib tashlang. Noqulaylik o'tmasa, shifokorga murojaat qiling.",
+      "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой. Если дискомфорт не проходит, обратитесь к врачу.",
+      "en": "If you feel stinging, redness or itching, rinse it off at once with lukewarm water. If the discomfort does not settle, see a doctor.",
+      "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسلي بشرتكِ فورًا بماء فاتر. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+      "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo'shmang: ular terini ta'sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o'xshash reaksiyalarga sabab bo'lgani qayd etilgan.",
+      "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+      "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+      "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, toza idish, qoshiq va sochiqdan foydalaning.",
+      "ru": "Вымойте руки, используйте чистую посуду, ложку и полотенце.",
+      "en": "Wash your hands and use a clean bowl, spoon and towel.",
+      "ar": "اغسلي يديكِ واستخدمي وعاءً وملعقة ومنشفة نظيفة."
+    },
+    {
+      "uz": "Damlamani har safar yangidan tayyorlang va o'sha kunning o'zida ishlating; qolganini to'kib tashlang, ishlatilgan matoni yuving.",
+      "ru": "Каждый раз заваривайте свежий настой и используйте его в тот же день; остатки выливайте, использованную ткань стирайте.",
+      "en": "Brew a fresh infusion each time and use it the same day; pour away what is left and wash the cloth after use.",
+      "ar": "حضّري منقوعًا جديدًا في كل مرة واستخدميه في اليوم نفسه، وتخلّصي من الباقي واغسلي القماش بعد الاستخدام."
+    }
+  ],
+  "evidence": {
+    "uz": "Moychechak kartochkasida faqat moychechak ekstrakti terini tinchlantirishi bo'yicha odamlarda o'tkazilgan nazoratli tadqiqot topilmagan; dalillarning aksariyati murakkabguldoshlarga sezuvchan odamlardagi kontakt allergiya haqida. Bu yerdagi xotirjamlik asosan salqinlik va sokin daqiqalardan keladi; kompressning o'zi o'rganilmagan.",
+    "ru": "В карточке ромашки не найдено контролируемых исследований на людях, где экстракт одной ромашки успокаивал бы кожу; большая часть данных касается контактной аллергии у людей, чувствительных к сложноцветным. Спокойствие здесь дают прежде всего прохлада и тихие минуты; сам компресс не изучался.",
+    "en": "The chamomile card found no controlled human trial of chamomile alone for soothing the skin; most of its evidence concerns contact allergy in people sensitive to the daisy family. The calm here comes mainly from coolness and a few quiet minutes; this compress itself has not been studied.",
+    "ar": "لم تجد بطاقة البابونج أي تجربة بشرية مضبوطة عن البابونج وحده لتهدئة البشرة، ومعظم أدلتها تتناول الحساسية التماسية لدى من يتحسّسون من الفصيلة النجمية. والهدوء هنا يأتي أساسًا من البرودة ومن دقائق السكينة، ولم تُدرس هذه الكمادة بحدّ ذاتها."
+  }
+}
