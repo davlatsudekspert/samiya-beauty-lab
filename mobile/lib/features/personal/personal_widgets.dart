@@ -16,13 +16,20 @@ class SectionTitle extends StatelessWidget {
   const SectionTitle(this.text, {super.key});
   final String text;
   @override
-  Widget build(BuildContext context) =>
-      Text(text, style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontSize: 23));
+  Widget build(BuildContext context) => Text(text, style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontSize: 23));
 }
 
 /// Matn kiritish + qo'shish tugmasi.
 class AddRow extends StatelessWidget {
-  const AddRow({super.key, required this.controller, required this.hint, required this.label, required this.onAdd, required this.inputKey, required this.buttonKey});
+  const AddRow({
+    super.key,
+    required this.controller,
+    required this.hint,
+    required this.label,
+    required this.onAdd,
+    required this.inputKey,
+    required this.buttonKey,
+  });
   final TextEditingController controller;
   final String hint;
   final String label;
@@ -32,27 +39,29 @@ class AddRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(children: [
-      Expanded(
-        child: TextField(
-          key: inputKey,
-          controller: controller,
-          maxLength: 120,
-          decoration: InputDecoration(hintText: hint, counterText: ''),
-          onSubmitted: (_) => onAdd(),
+    return Row(
+      children: [
+        Expanded(
+          child: TextField(
+            key: inputKey,
+            controller: controller,
+            maxLength: 120,
+            decoration: InputDecoration(hintText: hint, counterText: ''),
+            onSubmitted: (_) => onAdd(),
+          ),
         ),
-      ),
-      const SizedBox(width: 10),
-      FilledButton(
-        key: buttonKey,
-        style: FilledButton.styleFrom(
-          backgroundColor: SamiyaColors.heading,
-          minimumSize: const Size(56, 54),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
+        const SizedBox(width: 10),
+        FilledButton(
+          key: buttonKey,
+          style: FilledButton.styleFrom(
+            backgroundColor: SamiyaColors.heading,
+            minimumSize: const Size(56, 54),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
+          ),
+          onPressed: onAdd,
+          child: Text(label),
         ),
-        onPressed: onAdd,
-        child: Text(label),
-      ),
-    ]);
+      ],
+    );
   }
 }

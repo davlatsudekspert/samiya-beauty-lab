@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+
+import '../../app/pro_gate.dart';
+import '../pro/pro_page.dart';
+import 'ingredient_models.dart';
+
 import 'package:go_router/go_router.dart';
 
 import '../../app/app_state.dart';
@@ -21,26 +26,32 @@ class IbnSinaPage extends StatelessWidget {
       key: const Key('ibn-sina-page'),
       body: SamiyaBackground(
         child: SafeArea(
-          child: Column(children: [
-            PageHeader(title: l.ibnSinaMore, onBack: () => context.canPop() ? context.pop() : context.go('/home')),
-            Expanded(
-              child: PageBody(
-                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                  const SizedBox(height: 8),
-                  Text(intro?.titleFor(lang) ?? l.ibnSinaMore, style: t.headlineMedium),
-                  const SizedBox(height: 6),
-                  Container(height: 1, width: 64, color: SamiyaColors.gold),
-                  const SizedBox(height: 16),
-                  const TraditionalCaveat(),
-                  const SizedBox(height: 14),
-                  for (final n in intro?.items ?? const []) ...[
-                    TraditionalNoteCard(note: n, lang: lang, showTradition: false),
-                    const SizedBox(height: 10),
-                  ],
-                ]),
+          child: Column(
+            children: [
+              PageHeader(title: l.ibnSinaMore, onBack: () => context.canPop() ? context.pop() : context.go('/home')),
+              Expanded(
+                child: PageBody(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const SizedBox(height: 8),
+                      Text(intro?.titleFor(lang) ?? l.ibnSinaMore, style: t.headlineMedium),
+                      const SizedBox(height: 6),
+                      Container(height: 1, width: 64, color: SamiyaColors.gold),
+                      const SizedBox(height: 16),
+                      const TraditionalCaveat(),
+                      const SizedBox(height: 14),
+                      for (final n in (intro?.items ?? const <TraditionalNote>[]).take(AppScope.of(context).unlocked ? 1000 : ProGate.freeIbnSina)) ...[
+                        TraditionalNoteCard(note: n, lang: lang, showTradition: false),
+                        const SizedBox(height: 10),
+                      ],
+                      if (!AppScope.of(context).unlocked && (intro?.items.length ?? 0) > ProGate.freeIbnSina) const ProLockedCard(),
+                    ],
+                  ),
+                ),
               ),
-            ),
-          ]),
+            ],
+          ),
         ),
       ),
     );

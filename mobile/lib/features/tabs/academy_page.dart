@@ -6,6 +6,8 @@ import '../../app/app_state.dart';
 import '../../ui/arch_photo.dart';
 import '../../ui/safe_nav.dart';
 import '../academy/lesson_models.dart';
+import '../../app/pro_gate.dart';
+import '../pro/pro_page.dart';
 
 /// Akademiya: dalillarga asoslangan darslar (qoralama, ekspert tekshiruvi kutilmoqda) va testlar.
 class AcademyPage extends StatelessWidget {
@@ -16,7 +18,9 @@ class AcademyPage extends StatelessWidget {
     final l = AppLocalizations.of(context);
     final t = Theme.of(context).textTheme;
     final lang = Localizations.localeOf(context).languageCode;
-    final lessons = AppScope.of(context).ingredients.lessons;
+    final app = AppScope.of(context);
+    final lessons = app.ingredients.lessons;
+    bool open(int i) => ProGate.open(unlocked: app.unlocked, index: i, freeCount: ProGate.freeLessons);
     final fallback = [l.academyT1, l.academyT2, l.academyT3, l.academyT4, l.academyT5, l.academyT6];
     final topics = lessons.isEmpty ? fallback : [for (final x in lessons) pickLoc(x.title, lang)];
     return KeyedSubtree(
@@ -44,7 +48,7 @@ class AcademyPage extends StatelessWidget {
               child: InkWell(
                 key: Key('academy-topic-$i'),
                 borderRadius: BorderRadius.circular(16),
-                onTap: i < lessons.length ? () => context.safePush('/academy/lesson/${lessons[i].id}') : null,
+                onTap: i < lessons.length ? () => context.safePush(open(i) ? '/academy/lesson/${lessons[i].id}' : '/pro') : null,
                 child: Ink(
                   padding: const EdgeInsetsDirectional.fromSTEB(16, 14, 16, 14),
                   decoration: BoxDecoration(
@@ -73,7 +77,10 @@ class AcademyPage extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Icon(i < lessons.length ? Icons.chevron_right_rounded : Icons.lock_outline_rounded, size: 20, color: SamiyaColors.muted),
+                      if (i < lessons.length && !open(i))
+                        const ProLockBadge()
+                      else
+                        Icon(i < lessons.length ? Icons.chevron_right_rounded : Icons.lock_outline_rounded, size: 20, color: SamiyaColors.muted),
                     ],
                   ),
                 ),

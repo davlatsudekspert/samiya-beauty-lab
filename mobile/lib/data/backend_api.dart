@@ -11,6 +11,18 @@ class BackendException implements Exception {
   String toString() => 'BackendException($status, $code)';
 }
 
+/// 90 kunlik kampaniya holati (faqat server soatiga ko'ra).
+/// phase: prelaunch | free_campaign | free_plus_optional_pro
+class CampaignInfo {
+  const CampaignInfo({required this.phase, this.daysRemaining});
+  final String phase;
+  final int? daysRemaining;
+  static const open = CampaignInfo(phase: 'prelaunch');
+
+  /// Hamma narsa bepul ochiqmi (launchdan oldin va 90 kun davomida).
+  bool get allOpen => phase != 'free_plus_optional_pro';
+}
+
 /// SAMIYA AI javobi. [remaining]: bugun qolgan so'rovlar.
 class AiAnswer {
   const AiAnswer({required this.answer, required this.remaining, required this.limit});
@@ -102,6 +114,9 @@ abstract class BackendApi {
   Future<void> grantPro(String idToken, String email, {int? days});
   Future<void> revokePro(String idToken, String email);
 
+  /// GET /api/v1/config/public: kampaniya bosqichi.
+  Future<CampaignInfo> campaign();
+
   /// POST /api/v1/ai/ask: kalit faqat serverda; kunlik kvota serverda.
   Future<AiAnswer> askAi(
     String idToken, {
@@ -141,6 +156,8 @@ class NoBackendApi implements BackendApi {
     String context = '',
     List<AiTurn> history = const [],
   }) => throw const BackendException(503, 'ai_not_configured');
+  @override
+  Future<CampaignInfo> campaign() async => CampaignInfo.open;
 }
 
 class HttpBackendApi implements BackendApi {
@@ -245,5 +262,13 @@ class HttpBackendApi implements BackendApi {
       },
     );
     return AiAnswer(answer: (j['answer'] as String?) ?? '', remaining: (j['remaining'] as num?)?.toInt() ?? 0, limit: (j['limit'] as num?)?.toInt() ?? 0);
+  }
+
+  @override
+  Future<CampaignInfo> campaign() async {
+    final j = await _send('GET', '/api/v1/config/public');
+    final c = j['campaign'];
+    if (c is! Map) return CampaignInfo.open;
+    return CampaignInfo(phase: (c['phase'] as String?) ?? 'prelaunch', daysRemaining: (c['daysRemaining'] as num?)?.toInt());
   }
 }

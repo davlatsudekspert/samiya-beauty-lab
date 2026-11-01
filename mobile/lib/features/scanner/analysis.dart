@@ -13,8 +13,14 @@ class AnalysisResult {
   const AnalysisResult(this.items);
   final List<AnalysisItem> items;
 
-  List<AnalysisItem> get recognized => [for (final i in items) if (i.ingredient != null) i];
-  List<AnalysisItem> get unknown => [for (final i in items) if (i.ingredient == null) i];
+  List<AnalysisItem> get recognized => [
+    for (final i in items)
+      if (i.ingredient != null) i,
+  ];
+  List<AnalysisItem> get unknown => [
+    for (final i in items)
+      if (i.ingredient == null) i,
+  ];
 }
 
 /// Matnni ajratadi va har bir nomni bazadan qidiradi. Xavfsizlik bahosi, foiz yoki "mos keladi"

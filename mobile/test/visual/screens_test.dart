@@ -89,6 +89,7 @@ void main() {
     '33_recipe': ('/home/recipes/honey-oat-mask', const Size(780, 3600)),
     '34_ritual': ('/home/rituals/evening-gua-sha', const Size(780, 1688)),
     '35_shelf': ('/home/shelf', const Size(780, 1688)),
+    '36_pro': ('/pro', const Size(780, 2000)),
     '29_scanner': ('/scanner', const Size(780, 1688)),
     '30_profile': ('/profile', const Size(780, 1688)),
     '23_honey_full': ('/scanner/ingredient/honey', const Size(780, 4200)),

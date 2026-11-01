@@ -46,22 +46,19 @@ class AppLocalizationsRu extends AppLocalizations {
   String get onboarding1Title => 'Красота начинается с науки';
 
   @override
-  String get onboarding1Body =>
-      'Разбирайтесь в составе и осознанно выбирайте средства.';
+  String get onboarding1Body => 'Разбирайтесь в составе и осознанно выбирайте средства.';
 
   @override
   String get onboarding2Title => 'Личный уход';
 
   @override
-  String get onboarding2Body =>
-      'Составляйте удобные утренние и вечерние ритуалы.';
+  String get onboarding2Body => 'Составляйте удобные утренние и вечерние ритуалы.';
 
   @override
   String get onboarding3Title => 'Учитесь и развивайтесь';
 
   @override
-  String get onboarding3Body =>
-      'Академия, тесты и помощник SAMIYA AI в одном приложении.';
+  String get onboarding3Body => 'Академия, тесты и помощник SAMIYA AI в одном приложении.';
 
   @override
   String get loginBanner => 'Красота, наука и забота';
@@ -73,12 +70,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get welcomeTitle => 'Добро пожаловать!';
 
   @override
-  String get loginSubtitle =>
-      'Продолжайте свой путь в уходе и обучении вместе с SAMIYA.';
+  String get loginSubtitle => 'Продолжайте свой путь в уходе и обучении вместе с SAMIYA.';
 
   @override
-  String get legalNotice =>
-      'Продолжая, вы принимаете Условия использования и Политику конфиденциальности.';
+  String get legalNotice => 'Продолжая, вы принимаете Условия использования и Политику конфиденциальности.';
 
   @override
   String get comingSoon => 'Скоро';
@@ -87,8 +82,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get roleTitle => 'Кто вы?';
 
   @override
-  String get roleSubtitle =>
-      'Мы покажем разделы обучения и ухода, соответствующие вашей роли.';
+  String get roleSubtitle => 'Мы покажем разделы обучения и ухода, соответствующие вашей роли.';
 
   @override
   String get roleUser => 'Пользователь';
@@ -172,8 +166,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get scannerHeroTitle => 'Проверка состава';
 
   @override
-  String get scannerHeroBody =>
-      'Введите состав продукта. Мы покажем информацию об ингредиентах с источниками.';
+  String get scannerHeroBody => 'Введите состав продукта. Мы покажем информацию об ингредиентах с источниками.';
 
   @override
   String get scanCamera => 'Сканировать камерой';
@@ -208,12 +201,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get notInDatabase => 'Пока нет в базе';
 
   @override
-  String get resultNoneFound =>
-      'Во введённом списке нет ингредиентов из нашей базы. База постепенно пополняется.';
+  String get resultNoneFound => 'Во введённом списке нет ингредиентов из нашей базы. База постепенно пополняется.';
 
   @override
-  String get resultNote =>
-      'Это не медицинская рекомендация. Информация основана на опубликованных исследованиях и не показывает, подойдёт ли продукт вам.';
+  String get resultNote => 'Это не медицинская рекомендация. Информация основана на опубликованных исследованиях и не показывает, подойдёт ли продукт вам.';
 
   @override
   String get detailClaims => 'Что показали исследования';
@@ -228,8 +219,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get draftNote => 'Черновик: перевод ещё не проверен.';
 
   @override
-  String get euUnverified =>
-      'Данные по законодательству ЕС и CosIng ещё не проверены.';
+  String get euUnverified => 'Данные по законодательству ЕС и CosIng ещё не проверены.';
 
   @override
   String get evidenceLegendTitle => 'Уровни доказательности';
@@ -289,8 +279,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get deleteConfirmTitle => 'Удалить аккаунт?';
 
   @override
-  String get deleteConfirmBody =>
-      'Ваш аккаунт и связанные с ним данные будут удалены безвозвратно. Это действие нельзя отменить.';
+  String get deleteConfirmBody => 'Ваш аккаунт и связанные с ним данные будут удалены безвозвратно. Это действие нельзя отменить.';
 
   @override
   String get cancel => 'Отмена';
@@ -302,12 +291,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get deleteDone => 'Аккаунт удалён.';
 
   @override
-  String get deleteNeedsRelogin =>
-      'В целях безопасности войдите снова и повторите удаление.';
+  String get deleteNeedsRelogin => 'В целях безопасности войдите снова и повторите удаление.';
 
   @override
-  String get actionFailed =>
-      'Не удалось выполнить действие. Попробуйте ещё раз.';
+  String get actionFailed => 'Не удалось выполнить действие. Попробуйте ещё раз.';
 
   @override
   String get roleSection => 'Роль';
@@ -325,8 +312,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get adminInstalls => 'Установки';
 
   @override
-  String get adminInstallsNote =>
-      'Это не число загрузок из магазинов приложений, а количество устройств, на которых приложение открывали хотя бы раз.';
+  String get adminInstallsNote => 'Это не число загрузок из магазинов приложений, а количество устройств, на которых приложение открывали хотя бы раз.';
 
   @override
   String get adminTotal => 'Всего';
@@ -408,8 +394,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get ingredientsSearchHint => 'Название ингредиента…';
 
   @override
-  String get ingredientsNoMatch =>
-      'Ничего не найдено. База постоянно пополняется.';
+  String get ingredientsNoMatch => 'Ничего не найдено. База постоянно пополняется.';
 
   @override
   String get scanSourceCamera => 'Сфотографировать';
@@ -421,20 +406,16 @@ class AppLocalizationsRu extends AppLocalizations {
   String get scanReading => 'Распознаём текст…';
 
   @override
-  String get scanNoText =>
-      'Состав не найден. Сфотографируйте его крупнее и чётче, при хорошем освещении.';
+  String get scanNoText => 'Состав не найден. Сфотографируйте его крупнее и чётче, при хорошем освещении.';
 
   @override
-  String get scanFailed =>
-      'Не удалось прочитать изображение. Повторите попытку или введите состав вручную.';
+  String get scanFailed => 'Не удалось прочитать изображение. Повторите попытку или введите состав вручную.';
 
   @override
-  String get scanUnavailable =>
-      'Распознавание текста с камеры недоступно на этом устройстве. Введите состав вручную.';
+  String get scanUnavailable => 'Распознавание текста с камеры недоступно на этом устройстве. Введите состав вручную.';
 
   @override
-  String get scanReviewHint =>
-      'Текст распознан по фото. Проверьте и при необходимости исправьте ошибки.';
+  String get scanReviewHint => 'Текст распознан по фото. Проверьте и при необходимости исправьте ошибки.';
 
   @override
   String get filterAll => 'Все';
@@ -477,8 +458,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Исторические и традиционные источники не являются научным доказательством и ничего не говорят об эффективности или безопасности.';
 
   @override
-  String get ibnSinaCardBody =>
-      'Что исторические источники говорят об уходе за кожей';
+  String get ibnSinaCardBody => 'Что исторические источники говорят об уходе за кожей';
 
   @override
   String get ibnSinaMore => 'Об Ибн Сине';
@@ -523,8 +503,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get skinSensitive => 'Чувствительная';
 
   @override
-  String get skinNote =>
-      'Приложение не определяет тип кожи и не ставит диагнозов: это заметка для вас.';
+  String get skinNote => 'Приложение не определяет тип кожи и не ставит диагнозов: это заметка для вас.';
 
   @override
   String get avoidTitle => 'Вещества, которых вы избегаете';
@@ -536,8 +515,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get avoidAdd => 'Добавить';
 
   @override
-  String get avoidEmpty =>
-      'Список пуст. Добавьте вещества — и мы предупредим, если найдём их при сканировании.';
+  String get avoidEmpty => 'Список пуст. Добавьте вещества — и мы предупредим, если найдём их при сканировании.';
 
   @override
   String avoidFound(String names) {
@@ -577,8 +555,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get journalAdd => 'Добавить запись';
 
   @override
-  String get journalEmpty =>
-      'Записей пока нет. Оставьте короткую заметку о коже и уходе.';
+  String get journalEmpty => 'Записей пока нет. Оставьте короткую заметку о коже и уходе.';
 
   @override
   String get journalFeeling => 'Как сегодня чувствует себя ваша кожа?';
@@ -608,19 +585,16 @@ class AppLocalizationsRu extends AppLocalizations {
   String get personalDataNote => 'Эти данные хранятся только на этом телефоне.';
 
   @override
-  String get botanicalCredit =>
-      'Ботаническая иллюстрация: Ф. Э. Кёлер, «Köhler\'s Medizinal-Pflanzen», 1887 (общественное достояние)';
+  String get botanicalCredit => 'Ботаническая иллюстрация: Ф. Э. Кёлер, «Köhler\'s Medizinal-Pflanzen», 1887 (общественное достояние)';
 
   @override
-  String get photoCredit =>
-      'Фото: сообщество iNaturalist, CC0 (без сохранения прав)';
+  String get photoCredit => 'Фото: сообщество iNaturalist, CC0 (без сохранения прав)';
 
   @override
   String get honestLead => 'Скажем честно:';
 
   @override
-  String get academySubtitle =>
-      'Основы косметологии: короткие уроки на основе доказательств.';
+  String get academySubtitle => 'Основы косметологии: короткие уроки на основе доказательств.';
 
   @override
   String get academyT1 => 'Анатомия и физиология кожи';
@@ -696,8 +670,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get lessonDone => 'Пройдено';
 
   @override
-  String get aiSubtitle =>
-      'Ваш личный бьюти-помощник: объясняет простым языком, опираясь на научные источники.';
+  String get aiSubtitle => 'Ваш личный бьюти-помощник: объясняет простым языком, опираясь на научные источники.';
 
   @override
   String get aiDisclaimer =>
@@ -717,23 +690,19 @@ class AppLocalizationsRu extends AppLocalizations {
   String get aiThinking => 'SAMIYA думает…';
 
   @override
-  String get aiSignIn =>
-      'Войдите в аккаунт, чтобы пользоваться SAMIYA AI — это бесплатно.';
+  String get aiSignIn => 'Войдите в аккаунт, чтобы пользоваться SAMIYA AI — это бесплатно.';
 
   @override
   String get aiSignInBtn => 'Войти';
 
   @override
-  String get aiNotReady =>
-      'SAMIYA AI скоро заработает. Пока пользуйтесь базой ингредиентов, разделом об Ибн Сине и Академией.';
+  String get aiNotReady => 'SAMIYA AI скоро заработает. Пока пользуйтесь базой ингредиентов, разделом об Ибн Сине и Академией.';
 
   @override
-  String get aiQuota =>
-      'Бесплатные вопросы на сегодня закончились. Завтра вы сможете задать новые.';
+  String get aiQuota => 'Бесплатные вопросы на сегодня закончились. Завтра вы сможете задать новые.';
 
   @override
-  String get aiError =>
-      'Не удалось получить ответ. Проверьте интернет и попробуйте ещё раз.';
+  String get aiError => 'Не удалось получить ответ. Проверьте интернет и попробуйте ещё раз.';
 
   @override
   String get aiRetry => 'Повторить';
@@ -778,8 +747,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get shelfEmptyTitle => 'Ваша полочка пока пуста';
 
   @override
-  String get shelfEmptyBody =>
-      'Добавьте первое средство: название, дату вскрытия и символ PAO.';
+  String get shelfEmptyBody => 'Добавьте первое средство: название, дату вскрытия и символ PAO.';
 
   @override
   String get shelfAdd => 'Добавить средство';
@@ -843,8 +811,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get ritualsTitle => 'Ритуалы';
 
   @override
-  String get ritualsIntro =>
-      'Пошаговые ритуалы массажа лица и гуаша с таймером. Не спешите, надавливайте мягко.';
+  String get ritualsIntro => 'Пошаговые ритуалы массажа лица и гуаша с таймером. Не спешите, надавливайте мягко.';
 
   @override
   String get ritualStart => 'Начать';
@@ -859,8 +826,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get ritualNext => 'Далее';
 
   @override
-  String get ritualDone =>
-      'Ритуал завершён. Спасибо, что нашли время для себя!';
+  String get ritualDone => 'Ритуал завершён. Спасибо, что нашли время для себя!';
 
   @override
   String ritualStep(int n, int i) {
@@ -890,4 +856,66 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get colNaturalBody => 'Изысканные домашние рецепты';
+
+  @override
+  String get proSubtitle => 'Полная коллекция знаний о красоте — глубже и персональнее.';
+
+  @override
+  String get proFreeTitle => 'Всегда бесплатно';
+
+  @override
+  String get proFree1 => 'Сканер и база ингредиентов';
+
+  @override
+  String get proFree2 => 'Первые уроки Академии';
+
+  @override
+  String get proFree3 => 'Избранные рецепты и ритуал';
+
+  @override
+  String get proFree4 => 'SAMIYA AI — несколько вопросов в день';
+
+  @override
+  String get proPlusTitle => 'С Pro';
+
+  @override
+  String get proB1 => 'SAMIYA AI — до 50 вопросов в день';
+
+  @override
+  String get proB2 => 'Все уроки Академии и новые';
+
+  @override
+  String get proB3 => 'Все рецепты и ритуалы, регулярные обновления';
+
+  @override
+  String get proB4 => 'Раздел об Ибн Сине целиком';
+
+  @override
+  String get proB5 => 'Безлимитная полочка «Моя косметика»';
+
+  @override
+  String get proB6 => 'Без рекламы';
+
+  @override
+  String get proCampaign => 'В течение 90 дней запуска всё бесплатно — карта не нужна.';
+
+  @override
+  String get proSoon => 'Подписка Pro скоро появится. Без автосписаний и скрытых платежей.';
+
+  @override
+  String get proEarly => 'Для первых пользователей готовим особое предложение.';
+
+  @override
+  String get proLocked => 'Этот раздел открывается в Pro';
+
+  @override
+  String get proUnlock => 'О Pro';
+
+  @override
+  String proDaysLeft(int n) {
+    return 'До конца бесплатного периода: $n дн.';
+  }
+
+  @override
+  String get proActive => 'Pro активен — открыты все разделы';
 }

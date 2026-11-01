@@ -17,22 +17,36 @@ class HonestNote extends StatelessWidget {
       width: double.infinity,
       decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.75), borderRadius: BorderRadius.circular(12)),
       child: IntrinsicHeight(
-        child: Row(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-          Container(width: 2, decoration: const BoxDecoration(color: SamiyaColors.gold)),
-          Expanded(
-            child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(12, 10, 12, 10),
-              child: Text.rich(TextSpan(style: base, children: [
-                if (lead)
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Container(width: 2, decoration: const BoxDecoration(color: SamiyaColors.gold)),
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsetsDirectional.fromSTEB(12, 10, 12, 10),
+                child: Text.rich(
                   TextSpan(
-                    text: '${AppLocalizations.of(context).honestLead} ',
-                    style: TextStyle(fontFamily: Localizations.localeOf(context).languageCode == 'ar' ? null : 'CormorantGaramond', fontStyle: FontStyle.italic, fontWeight: FontWeight.w600, fontSize: 15.5, color: SamiyaColors.heading),
+                    style: base,
+                    children: [
+                      if (lead)
+                        TextSpan(
+                          text: '${AppLocalizations.of(context).honestLead} ',
+                          style: TextStyle(
+                            fontFamily: Localizations.localeOf(context).languageCode == 'ar' ? null : 'CormorantGaramond',
+                            fontStyle: FontStyle.italic,
+                            fontWeight: FontWeight.w600,
+                            fontSize: 15.5,
+                            color: SamiyaColors.heading,
+                          ),
+                        ),
+                      TextSpan(text: text),
+                    ],
                   ),
-                TextSpan(text: text),
-              ])),
+                ),
+              ),
             ),
-          ),
-        ]),
+          ],
+        ),
       ),
     );
   }

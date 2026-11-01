@@ -49,36 +49,37 @@ class _RolePageState extends State<RolePage> {
       key: const Key('role-page'),
       body: SamiyaBackground(
         child: SafeArea(
-          child: Column(children: [
-            PageHeader(onBack: () => context.canPop() ? context.pop() : context.go('/login')),
-            Expanded(
-              child: PageBody(
-                bottom: GradientButton(
-                  key: const Key('role-continue'),
-                  label: l.goHome,
-                  onPressed: _selected == null ? null : _continue,
+          child: Column(
+            children: [
+              PageHeader(onBack: () => context.canPop() ? context.pop() : context.go('/login')),
+              Expanded(
+                child: PageBody(
+                  bottom: GradientButton(key: const Key('role-continue'), label: l.goHome, onPressed: _selected == null ? null : _continue),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const SizedBox(height: 12),
+                      Text(l.roleTitle, style: t.headlineMedium),
+                      const SizedBox(height: 8),
+                      Text(l.roleSubtitle, style: t.bodyLarge),
+                      const SizedBox(height: 20),
+                      for (final r in roles) ...[
+                        _RoleTile(
+                          key: Key('role-${r.$1.name}'),
+                          title: r.$2,
+                          desc: r.$3,
+                          icon: r.$4,
+                          selected: _selected == r.$1,
+                          onTap: () => setState(() => _selected = r.$1),
+                        ),
+                        const SizedBox(height: 12),
+                      ],
+                    ],
+                  ),
                 ),
-                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                  const SizedBox(height: 12),
-                  Text(l.roleTitle, style: t.headlineMedium),
-                  const SizedBox(height: 8),
-                  Text(l.roleSubtitle, style: t.bodyLarge),
-                  const SizedBox(height: 20),
-                  for (final r in roles) ...[
-                    _RoleTile(
-                      key: Key('role-${r.$1.name}'),
-                      title: r.$2,
-                      desc: r.$3,
-                      icon: r.$4,
-                      selected: _selected == r.$1,
-                      onTap: () => setState(() => _selected = r.$1),
-                    ),
-                    const SizedBox(height: 12),
-                  ],
-                ]),
               ),
-            ),
-          ]),
+            ],
+          ),
         ),
       ),
     );
@@ -86,8 +87,7 @@ class _RolePageState extends State<RolePage> {
 }
 
 class _RoleTile extends StatelessWidget {
-  const _RoleTile(
-      {super.key, required this.title, required this.desc, required this.icon, required this.selected, required this.onTap});
+  const _RoleTile({super.key, required this.title, required this.desc, required this.icon, required this.selected, required this.onTap});
   final String title;
   final String desc;
   final IconData icon;
@@ -103,25 +103,29 @@ class _RoleTile extends StatelessWidget {
       radius: 26,
       child: Padding(
         padding: const EdgeInsets.all(14),
-        child: Row(children: [
-          Container(
-            width: 56,
-            height: 56,
-            decoration: BoxDecoration(color: SamiyaColors.blush, borderRadius: BorderRadius.circular(18)),
-            child: Icon(icon, color: SamiyaColors.rose, size: 26),
-          ),
-          const SizedBox(width: 16),
-          Expanded(
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text(title, style: t.titleMedium?.copyWith(fontWeight: FontWeight.w700)),
-              const SizedBox(height: 2),
-              Text(desc, style: t.bodyMedium),
-            ]),
-          ),
-          const SizedBox(width: 8),
-          Icon(selected ? Icons.check_circle_rounded : Icons.circle_outlined,
-              color: selected ? SamiyaColors.rose : SamiyaColors.roseSoft),
-        ]),
+        child: Row(
+          children: [
+            Container(
+              width: 56,
+              height: 56,
+              decoration: BoxDecoration(color: SamiyaColors.blush, borderRadius: BorderRadius.circular(18)),
+              child: Icon(icon, color: SamiyaColors.rose, size: 26),
+            ),
+            const SizedBox(width: 16),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(title, style: t.titleMedium?.copyWith(fontWeight: FontWeight.w700)),
+                  const SizedBox(height: 2),
+                  Text(desc, style: t.bodyMedium),
+                ],
+              ),
+            ),
+            const SizedBox(width: 8),
+            Icon(selected ? Icons.check_circle_rounded : Icons.circle_outlined, color: selected ? SamiyaColors.rose : SamiyaColors.roseSoft),
+          ],
+        ),
       ),
     );
   }

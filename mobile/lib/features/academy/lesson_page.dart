@@ -9,6 +9,8 @@ import '../../ui/arch_photo.dart';
 import '../../ui/honest_note.dart';
 import '../../ui/widgets.dart';
 import 'lesson_models.dart';
+import '../../app/pro_gate.dart';
+import '../pro/pro_page.dart';
 
 /// Har bir dars uchun nafis sarlavha rasmi (CC0, assets/photos).
 const lessonPhotos = {
@@ -29,9 +31,11 @@ class LessonPage extends StatelessWidget {
     final l = AppLocalizations.of(context);
     final t = Theme.of(context).textTheme;
     final lang = Localizations.localeOf(context).languageCode;
-    final lessons = AppScope.of(context).ingredients.lessons;
+    final app = AppScope.of(context);
+    final lessons = app.ingredients.lessons;
     final idx = lessons.indexWhere((x) => x.id == id);
     final lesson = idx < 0 ? null : lessons[idx];
+    final locked = idx >= 0 && !ProGate.open(unlocked: app.unlocked, index: idx, freeCount: ProGate.freeLessons);
     void back() => context.canPop() ? context.pop() : context.go('/academy');
     return Scaffold(
       key: const Key('lesson-page'),
@@ -61,23 +65,27 @@ class LessonPage extends StatelessWidget {
                           const SizedBox(height: 16),
                           HonestNote(l.lessonDraftNote),
                           const SizedBox(height: 8),
-                          for (var i = 0; i < lesson.sections.length; i++) _Section(n: i + 1, s: lesson.sections[i], lang: lang),
-                          const SizedBox(height: 18),
-                          _KeyPoints(points: lesson.keyPoints, lang: lang),
-                          if (lesson.quiz.isNotEmpty) ...[
-                            const SizedBox(height: 26),
-                            Text(l.lessonQuiz, style: t.headlineSmall),
-                            const SizedBox(height: 12),
-                            QuizBlock(questions: lesson.quiz, lang: lang),
-                          ],
-                          if (lesson.sources.isNotEmpty) ...[
-                            const SizedBox(height: 26),
-                            Text(
-                              l.lessonSources.toUpperCase(),
-                              style: t.labelSmall?.copyWith(color: SamiyaColors.muted, letterSpacing: lang == 'ar' ? 0 : 1.6),
-                            ),
-                            const SizedBox(height: 8),
-                            for (final s in lesson.sources) _SourceRow(s: s),
+                          if (locked)
+                            const ProLockedCard()
+                          else ...[
+                            for (var i = 0; i < lesson.sections.length; i++) _Section(n: i + 1, s: lesson.sections[i], lang: lang),
+                            const SizedBox(height: 18),
+                            _KeyPoints(points: lesson.keyPoints, lang: lang),
+                            if (lesson.quiz.isNotEmpty) ...[
+                              const SizedBox(height: 26),
+                              Text(l.lessonQuiz, style: t.headlineSmall),
+                              const SizedBox(height: 12),
+                              QuizBlock(questions: lesson.quiz, lang: lang),
+                            ],
+                            if (lesson.sources.isNotEmpty) ...[
+                              const SizedBox(height: 26),
+                              Text(
+                                l.lessonSources.toUpperCase(),
+                                style: t.labelSmall?.copyWith(color: SamiyaColors.muted, letterSpacing: lang == 'ar' ? 0 : 1.6),
+                              ),
+                              const SizedBox(height: 8),
+                              for (final s in lesson.sources) _SourceRow(s: s),
+                            ],
                           ],
                           if (idx + 1 < lessons.length) ...[
                             const SizedBox(height: 26),

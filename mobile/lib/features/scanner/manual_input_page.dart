@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 import '../../ui/safe_nav.dart';
+
 import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
@@ -39,59 +41,75 @@ class _ManualInputPageState extends State<ManualInputPage> {
     final count = parseInci(_controller.text).length;
     return KeyedSubtree(
       key: const Key('manual-page'),
-      child: Column(children: [
-        PageHeader(title: l.manualTitle, onBack: () => context.canPop() ? context.pop() : context.go('/scanner')),
-        Expanded(
-          child: PageBody(
-            bottom: GradientButton(
-              key: const Key('manual-analyze'),
-              label: l.analyzeAction,
-              trailing: Icons.arrow_forward_rounded,
-              onPressed: count == 0 ? null : () => context.safePush('/scanner/result', extra: _controller.text),
-            ),
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              const SizedBox(height: 8),
-              Text(l.manualHelp, style: t.bodyLarge),
-              if (widget.args?.fromScan == true) ...[
-                const SizedBox(height: 10),
-                Container(
-                  key: const Key('manual-ocr-hint'),
-                  width: double.infinity,
-                  padding: const EdgeInsets.all(12),
-                  decoration: BoxDecoration(color: SamiyaColors.blush, borderRadius: BorderRadius.circular(16)),
-                  child: Text(l.scanReviewHint, style: t.bodyMedium?.copyWith(fontWeight: FontWeight.w600)),
-                ),
-              ],
-              const SizedBox(height: 16),
-              TextField(
-                key: const Key('manual-input'),
-                controller: _controller,
-                onChanged: (_) => setState(() {}),
-                minLines: 6,
-                maxLines: 12,
-                maxLength: maxInciChars,
-                textDirection: TextDirection.ltr, // INCI lotin yozuvida
-                keyboardType: TextInputType.multiline,
-                style: t.titleMedium?.copyWith(fontWeight: FontWeight.w500),
-                buildCounter: (_, {required currentLength, required isFocused, maxLength}) => null,
-                decoration: InputDecoration(
-                  hintText: l.manualHint,
-                  hintTextDirection: TextDirection.ltr,
-                  hintStyle: t.bodyLarge,
-                  filled: true,
-                  fillColor: Colors.white,
-                  contentPadding: const EdgeInsets.all(18),
-                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(24), borderSide: const BorderSide(color: SamiyaColors.border)),
-                  enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(24), borderSide: const BorderSide(color: SamiyaColors.border)),
-                  focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(24), borderSide: const BorderSide(color: SamiyaColors.rose, width: 1.6)),
-                ),
+      child: Column(
+        children: [
+          PageHeader(title: l.manualTitle, onBack: () => context.canPop() ? context.pop() : context.go('/scanner')),
+          Expanded(
+            child: PageBody(
+              bottom: GradientButton(
+                key: const Key('manual-analyze'),
+                label: l.analyzeAction,
+                trailing: Icons.arrow_forward_rounded,
+                onPressed: count == 0 ? null : () => context.safePush('/scanner/result', extra: _controller.text),
               ),
-              const SizedBox(height: 14),
-              Center(child: KeyedSubtree(key: const Key('manual-count'), child: InfoPill(l.foundCount(count), upper: false))),
-            ]),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const SizedBox(height: 8),
+                  Text(l.manualHelp, style: t.bodyLarge),
+                  if (widget.args?.fromScan == true) ...[
+                    const SizedBox(height: 10),
+                    Container(
+                      key: const Key('manual-ocr-hint'),
+                      width: double.infinity,
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(color: SamiyaColors.blush, borderRadius: BorderRadius.circular(16)),
+                      child: Text(l.scanReviewHint, style: t.bodyMedium?.copyWith(fontWeight: FontWeight.w600)),
+                    ),
+                  ],
+                  const SizedBox(height: 16),
+                  TextField(
+                    key: const Key('manual-input'),
+                    controller: _controller,
+                    onChanged: (_) => setState(() {}),
+                    minLines: 6,
+                    maxLines: 12,
+                    maxLength: maxInciChars,
+                    textDirection: TextDirection.ltr, // INCI lotin yozuvida
+                    keyboardType: TextInputType.multiline,
+                    style: t.titleMedium?.copyWith(fontWeight: FontWeight.w500),
+                    buildCounter: (_, {required currentLength, required isFocused, maxLength}) => null,
+                    decoration: InputDecoration(
+                      hintText: l.manualHint,
+                      hintTextDirection: TextDirection.ltr,
+                      hintStyle: t.bodyLarge,
+                      filled: true,
+                      fillColor: Colors.white,
+                      contentPadding: const EdgeInsets.all(18),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(24),
+                        borderSide: const BorderSide(color: SamiyaColors.border),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(24),
+                        borderSide: const BorderSide(color: SamiyaColors.border),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(24),
+                        borderSide: const BorderSide(color: SamiyaColors.rose, width: 1.6),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 14),
+                  Center(
+                    child: KeyedSubtree(key: const Key('manual-count'), child: InfoPill(l.foundCount(count), upper: false)),
+                  ),
+                ],
+              ),
+            ),
           ),
-        ),
-      ]),
+        ],
+      ),
     );
   }
 }

@@ -64,8 +64,7 @@ import 'app_localizations_uz.dart';
 /// be consistent with the languages listed in the AppLocalizations.supportedLocales
 /// property.
 abstract class AppLocalizations {
-  AppLocalizations(String locale)
-    : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+  AppLocalizations(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
@@ -73,8 +72,7 @@ abstract class AppLocalizations {
     return Localizations.of<AppLocalizations>(context, AppLocalizations)!;
   }
 
-  static const LocalizationsDelegate<AppLocalizations> delegate =
-      _AppLocalizationsDelegate();
+  static const LocalizationsDelegate<AppLocalizations> delegate = _AppLocalizationsDelegate();
 
   /// A list of this localizations delegate along with the default localizations
   /// delegates.
@@ -86,21 +84,15 @@ abstract class AppLocalizations {
   /// Additional delegates can be added by appending to this list in
   /// MaterialApp. This list does not have to be used at all if a custom list
   /// of delegates is preferred or required.
-  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
-      <LocalizationsDelegate<dynamic>>[
-        delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-      ];
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates = <LocalizationsDelegate<dynamic>>[
+    delegate,
+    GlobalMaterialLocalizations.delegate,
+    GlobalCupertinoLocalizations.delegate,
+    GlobalWidgetsLocalizations.delegate,
+  ];
 
   /// A list of this localizations delegate's supported locales.
-  static const List<Locale> supportedLocales = <Locale>[
-    Locale('ar'),
-    Locale('en'),
-    Locale('ru'),
-    Locale('uz'),
-  ];
+  static const List<Locale> supportedLocales = <Locale>[Locale('ar'), Locale('en'), Locale('ru'), Locale('uz')];
 
   /// No description provided for @appName.
   ///
@@ -1727,10 +1719,129 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Elegant recipes to make at home'**
   String get colNaturalBody;
+
+  /// No description provided for @proSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'The complete collection of beauty knowledge — deeper and more personal.'**
+  String get proSubtitle;
+
+  /// No description provided for @proFreeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Always free'**
+  String get proFreeTitle;
+
+  /// No description provided for @proFree1.
+  ///
+  /// In en, this message translates to:
+  /// **'Scanner and ingredient library'**
+  String get proFree1;
+
+  /// No description provided for @proFree2.
+  ///
+  /// In en, this message translates to:
+  /// **'The first Academy lessons'**
+  String get proFree2;
+
+  /// No description provided for @proFree3.
+  ///
+  /// In en, this message translates to:
+  /// **'Selected recipes and a ritual'**
+  String get proFree3;
+
+  /// No description provided for @proFree4.
+  ///
+  /// In en, this message translates to:
+  /// **'SAMIYA AI — a few questions a day'**
+  String get proFree4;
+
+  /// No description provided for @proPlusTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'With Pro'**
+  String get proPlusTitle;
+
+  /// No description provided for @proB1.
+  ///
+  /// In en, this message translates to:
+  /// **'SAMIYA AI — up to 50 questions a day'**
+  String get proB1;
+
+  /// No description provided for @proB2.
+  ///
+  /// In en, this message translates to:
+  /// **'Every Academy lesson, plus new ones'**
+  String get proB2;
+
+  /// No description provided for @proB3.
+  ///
+  /// In en, this message translates to:
+  /// **'All recipes and rituals, updated regularly'**
+  String get proB3;
+
+  /// No description provided for @proB4.
+  ///
+  /// In en, this message translates to:
+  /// **'The full Ibn Sina section'**
+  String get proB4;
+
+  /// No description provided for @proB5.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlimited “My shelf”'**
+  String get proB5;
+
+  /// No description provided for @proB6.
+  ///
+  /// In en, this message translates to:
+  /// **'No ads'**
+  String get proB6;
+
+  /// No description provided for @proCampaign.
+  ///
+  /// In en, this message translates to:
+  /// **'During the 90-day launch everything is free — no card needed.'**
+  String get proCampaign;
+
+  /// No description provided for @proSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Pro is coming soon. No automatic charges and no hidden fees.'**
+  String get proSoon;
+
+  /// No description provided for @proEarly.
+  ///
+  /// In en, this message translates to:
+  /// **'A special offer for early members is on its way.'**
+  String get proEarly;
+
+  /// No description provided for @proLocked.
+  ///
+  /// In en, this message translates to:
+  /// **'This section unlocks with Pro'**
+  String get proLocked;
+
+  /// No description provided for @proUnlock.
+  ///
+  /// In en, this message translates to:
+  /// **'About Pro'**
+  String get proUnlock;
+
+  /// No description provided for @proDaysLeft.
+  ///
+  /// In en, this message translates to:
+  /// **'{n} days left in the free period'**
+  String proDaysLeft(int n);
+
+  /// No description provided for @proActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Pro is active — every section is open'**
+  String get proActive;
 }
 
-class _AppLocalizationsDelegate
-    extends LocalizationsDelegate<AppLocalizations> {
+class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
   const _AppLocalizationsDelegate();
 
   @override
@@ -1739,8 +1850,7 @@ class _AppLocalizationsDelegate
   }
 
   @override
-  bool isSupported(Locale locale) =>
-      <String>['ar', 'en', 'ru', 'uz'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['ar', 'en', 'ru', 'uz'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;

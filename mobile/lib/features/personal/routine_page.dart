@@ -46,72 +46,85 @@ class _RoutinePageState extends State<RoutinePage> {
             builder: (context, _) {
               final slot = _slotFor(p);
               final steps = p.routine[slot]!;
-              return Column(children: [
-                PageHeader(title: l.tileRoutine, onBack: () => context.canPop() ? context.pop() : context.go('/home')),
-                Expanded(
-                  child: PageBody(
-                    child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                      const SizedBox(height: 8),
-                      const ArchPhoto('assets/photos/deco_jasmine.jpg', height: 150, alignment: Alignment(0, -0.3)),
-                      const SizedBox(height: 16),
-                      Wrap(spacing: 8, runSpacing: 8, children: [
-                        for (final (id, label, icon) in [
-                          ('am', l.routineMorning, Icons.wb_sunny_outlined),
-                          ('pm', l.routineEvening, Icons.nightlight_outlined),
-                        ])
-                          ChoiceChip(
-                            key: Key('routine-tab-$id'),
-                            avatar: Icon(icon, size: 18, color: slot == id ? Colors.white : SamiyaColors.heading),
-                            label: Text(label),
-                            selected: slot == id,
-                            onSelected: (_) => setState(() => _slotChoice = id),
+              return Column(
+                children: [
+                  PageHeader(title: l.tileRoutine, onBack: () => context.canPop() ? context.pop() : context.go('/home')),
+                  Expanded(
+                    child: PageBody(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          const SizedBox(height: 8),
+                          const ArchPhoto('assets/photos/deco_jasmine.jpg', height: 150, alignment: Alignment(0, -0.3)),
+                          const SizedBox(height: 16),
+                          Wrap(
+                            spacing: 8,
+                            runSpacing: 8,
+                            children: [
+                              for (final (id, label, icon) in [
+                                ('am', l.routineMorning, Icons.wb_sunny_outlined),
+                                ('pm', l.routineEvening, Icons.nightlight_outlined),
+                              ])
+                                ChoiceChip(
+                                  key: Key('routine-tab-$id'),
+                                  avatar: Icon(icon, size: 18, color: slot == id ? Colors.white : SamiyaColors.heading),
+                                  label: Text(label),
+                                  selected: slot == id,
+                                  onSelected: (_) => setState(() => _slotChoice = id),
+                                ),
+                            ],
                           ),
-                      ]),
-                      const SizedBox(height: 14),
-                      if (steps.isNotEmpty) ...[
-                        Text(l.routineDoneToday(p.doneToday(slot), steps.length),
-                            key: const Key('routine-progress'), style: t.titleMedium?.copyWith(color: SamiyaColors.heading)),
-                        const SizedBox(height: 10),
-                      ],
-                      if (steps.isEmpty)
-                        ElegantEmpty(
-                          key: const Key('routine-empty'),
-                          title: l.routineEmptyTitle,
-                          body: l.routineEmpty,
-                          child: Wrap(spacing: 8, runSpacing: 8, alignment: WrapAlignment.center, children: [
-                            for (final (i, name) in [
-                              l.routineSuggestCleanse,
-                              l.routineSuggestMoisturise,
-                              if (slot == 'am') l.routineSuggestSun,
-                            ].indexed)
-                              ActionChip(
-                                key: Key('routine-suggest-$i'),
-                                avatar: const Icon(Icons.add_rounded, size: 18, color: SamiyaColors.heading),
-                                label: Text(name),
-                                onPressed: () => p.addStep(slot, name),
+                          const SizedBox(height: 14),
+                          if (steps.isNotEmpty) ...[
+                            Text(
+                              l.routineDoneToday(p.doneToday(slot), steps.length),
+                              key: const Key('routine-progress'),
+                              style: t.titleMedium?.copyWith(color: SamiyaColors.heading),
+                            ),
+                            const SizedBox(height: 10),
+                          ],
+                          if (steps.isEmpty)
+                            ElegantEmpty(
+                              key: const Key('routine-empty'),
+                              title: l.routineEmptyTitle,
+                              body: l.routineEmpty,
+                              child: Wrap(
+                                spacing: 8,
+                                runSpacing: 8,
+                                alignment: WrapAlignment.center,
+                                children: [
+                                  for (final (i, name) in [l.routineSuggestCleanse, l.routineSuggestMoisturise, if (slot == 'am') l.routineSuggestSun].indexed)
+                                    ActionChip(
+                                      key: Key('routine-suggest-$i'),
+                                      avatar: const Icon(Icons.add_rounded, size: 18, color: SamiyaColors.heading),
+                                      label: Text(name),
+                                      onPressed: () => p.addStep(slot, name),
+                                    ),
+                                ],
                               ),
-                          ]),
-                        )
-                      else
-                        for (var i = 0; i < steps.length; i++) ...[
-                          _StepTile(index: i, step: steps[i], slot: slot, store: p, total: steps.length),
+                            )
+                          else
+                            for (var i = 0; i < steps.length; i++) ...[
+                              _StepTile(index: i, step: steps[i], slot: slot, store: p, total: steps.length),
+                              const SizedBox(height: 10),
+                            ],
                           const SizedBox(height: 10),
+                          AddRow(
+                            controller: _input,
+                            hint: l.routineStepHint,
+                            label: l.avoidAdd,
+                            onAdd: () => _add(p),
+                            inputKey: const Key('routine-input'),
+                            buttonKey: const Key('routine-add'),
+                          ),
+                          const SizedBox(height: 18),
+                          Text(l.personalDataNote, style: t.bodyMedium?.copyWith(fontSize: 12)),
                         ],
-                      const SizedBox(height: 10),
-                      AddRow(
-                        controller: _input,
-                        hint: l.routineStepHint,
-                        label: l.avoidAdd,
-                        onAdd: () => _add(p),
-                        inputKey: const Key('routine-input'),
-                        buttonKey: const Key('routine-add'),
                       ),
-                      const SizedBox(height: 18),
-                      Text(l.personalDataNote, style: t.bodyMedium?.copyWith(fontSize: 12)),
-                    ]),
+                    ),
                   ),
-                ),
-              ]);
+                ],
+              );
             },
           ),
         ),
@@ -140,34 +153,37 @@ class _StepTile extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
         border: Border.all(color: done ? SamiyaColors.gold : SamiyaColors.border),
       ),
-      child: Row(children: [
-        IconButton(
-          key: Key('step-done-${step.id}'),
-          tooltip: step.name,
-          onPressed: () => store.toggleDone(step.id),
-          icon: Icon(done ? Icons.check_circle_rounded : Icons.radio_button_unchecked_rounded,
-              color: done ? SamiyaColors.gold : SamiyaColors.muted),
-        ),
-        Expanded(
-          child: Text(step.name,
-              style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                  decoration: done ? TextDecoration.lineThrough : null, color: done ? SamiyaColors.muted : SamiyaColors.ink)),
-        ),
-        PopupMenuButton<String>(
-          key: Key('step-menu-${step.id}'),
-          icon: const Icon(Icons.more_horiz_rounded),
-          onSelected: (v) => switch (v) {
-            'up' => store.moveStep(slot, index, -1),
-            'down' => store.moveStep(slot, index, 1),
-            _ => store.removeStep(slot, step.id),
-          },
-          itemBuilder: (_) => [
-            if (index > 0) PopupMenuItem(value: 'up', child: Text(l.moveUp)),
-            if (index < total - 1) PopupMenuItem(value: 'down', child: Text(l.moveDown)),
-            PopupMenuItem(value: 'remove', child: Text(l.removeAction)),
-          ],
-        ),
-      ]),
+      child: Row(
+        children: [
+          IconButton(
+            key: Key('step-done-${step.id}'),
+            tooltip: step.name,
+            onPressed: () => store.toggleDone(step.id),
+            icon: Icon(done ? Icons.check_circle_rounded : Icons.radio_button_unchecked_rounded, color: done ? SamiyaColors.gold : SamiyaColors.muted),
+          ),
+          Expanded(
+            child: Text(
+              step.name,
+              style: Theme.of(context).textTheme.titleMedium
+                  ?.copyWith(decoration: done ? TextDecoration.lineThrough : null, color: done ? SamiyaColors.muted : SamiyaColors.ink),
+            ),
+          ),
+          PopupMenuButton<String>(
+            key: Key('step-menu-${step.id}'),
+            icon: const Icon(Icons.more_horiz_rounded),
+            onSelected: (v) => switch (v) {
+              'up' => store.moveStep(slot, index, -1),
+              'down' => store.moveStep(slot, index, 1),
+              _ => store.removeStep(slot, step.id),
+            },
+            itemBuilder: (_) => [
+              if (index > 0) PopupMenuItem(value: 'up', child: Text(l.moveUp)),
+              if (index < total - 1) PopupMenuItem(value: 'down', child: Text(l.moveDown)),
+              PopupMenuItem(value: 'remove', child: Text(l.removeAction)),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }

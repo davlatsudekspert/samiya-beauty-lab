@@ -10,7 +10,9 @@ import 'ingredient_models.dart';
 Future<void> openSourceUrl(String url) async {
   try {
     await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
-  } catch (_) {/* havola ochilmasa, jim: PMID matni ko'rinib turadi */}
+  } catch (_) {
+    /* havola ochilmasa, jim: PMID matni ko'rinib turadi */
+  }
 }
 
 /// An'ana nomi foydalanuvchi tilida.
@@ -51,35 +53,49 @@ class TraditionalNoteCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(22),
         border: Border.all(color: SamiyaColors.border),
       ),
-      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        if (showTradition) ...[
-          Text(traditionLabel(l, note.tradition), style: t.headlineSmall?.copyWith(fontSize: 19)),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          if (showTradition) ...[Text(traditionLabel(l, note.tradition), style: t.headlineSmall?.copyWith(fontSize: 19)), const SizedBox(height: 6)],
+          Text(note.textFor(lang), style: t.bodyLarge?.copyWith(color: SamiyaColors.ink, fontSize: 15)),
           const SizedBox(height: 6),
-        ],
-        Text(note.textFor(lang), style: t.bodyLarge?.copyWith(color: SamiyaColors.ink, fontSize: 15)),
-        const SizedBox(height: 6),
-        for (final s in note.sources)
-          InkWell(
-            key: Key('trad-source-${note.id}-${s.pmid}'),
-            borderRadius: BorderRadius.circular(14),
-            onTap: () => openSourceUrl(s.url),
-            child: ConstrainedBox(
-              constraints: const BoxConstraints(minHeight: 44),
-              child: Row(children: [
-                const Icon(Icons.open_in_new_rounded, size: 17, color: SamiyaColors.rose),
-                const SizedBox(width: 10),
-                Expanded(
-                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
-                    Text('${l.detailSource}: PubMed · PMID ${s.pmid} · ${s.year}',
-                        textDirection: TextDirection.ltr,
-                        style: t.bodyMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w600, fontSize: 12.5)),
-                    Text(s.title, textDirection: TextDirection.ltr, maxLines: 2, overflow: TextOverflow.ellipsis, style: t.bodyMedium?.copyWith(fontSize: 12)),
-                  ]),
+          for (final s in note.sources)
+            InkWell(
+              key: Key('trad-source-${note.id}-${s.pmid}'),
+              borderRadius: BorderRadius.circular(14),
+              onTap: () => openSourceUrl(s.url),
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(minHeight: 44),
+                child: Row(
+                  children: [
+                    const Icon(Icons.open_in_new_rounded, size: 17, color: SamiyaColors.rose),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(
+                            '${l.detailSource}: PubMed · PMID ${s.pmid} · ${s.year}',
+                            textDirection: TextDirection.ltr,
+                            style: t.bodyMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w600, fontSize: 12.5),
+                          ),
+                          Text(
+                            s.title,
+                            textDirection: TextDirection.ltr,
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                            style: t.bodyMedium?.copyWith(fontSize: 12),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
-              ]),
+              ),
             ),
-          ),
-      ]),
+        ],
+      ),
     );
   }
 }
@@ -94,25 +110,26 @@ class TraditionalSection extends StatelessWidget {
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
     final t = Theme.of(context).textTheme;
-    return Column(key: const Key('traditional-section'), crossAxisAlignment: CrossAxisAlignment.start, children: [
-      Text(l.traditionalTitle, style: t.headlineSmall?.copyWith(fontSize: 24)),
-      const SizedBox(height: 10),
-      const TraditionalCaveat(),
-      const SizedBox(height: 12),
-      for (final n in notes) ...[
-        TraditionalNoteCard(note: n, lang: lang),
+    return Column(
+      key: const Key('traditional-section'),
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(l.traditionalTitle, style: t.headlineSmall?.copyWith(fontSize: 24)),
         const SizedBox(height: 10),
-      ],
-      if (notes.any((n) => n.citesCanon))
-        Align(
-          alignment: AlignmentDirectional.centerStart,
-          child: TextButton.icon(
-            key: const Key('trad-ibn-sina-link'),
-            onPressed: () => context.safePush('/scanner/ibn-sina'),
-            icon: const Icon(Icons.menu_book_outlined, size: 18),
-            label: Text(l.ibnSinaMore),
+        const TraditionalCaveat(),
+        const SizedBox(height: 12),
+        for (final n in notes) ...[TraditionalNoteCard(note: n, lang: lang), const SizedBox(height: 10)],
+        if (notes.any((n) => n.citesCanon))
+          Align(
+            alignment: AlignmentDirectional.centerStart,
+            child: TextButton.icon(
+              key: const Key('trad-ibn-sina-link'),
+              onPressed: () => context.safePush('/scanner/ibn-sina'),
+              icon: const Icon(Icons.menu_book_outlined, size: 18),
+              label: Text(l.ibnSinaMore),
+            ),
           ),
-        ),
-    ]);
+      ],
+    );
   }
 }

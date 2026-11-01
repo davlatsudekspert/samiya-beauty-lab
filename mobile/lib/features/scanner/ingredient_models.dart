@@ -13,13 +13,8 @@ class EvidenceSource {
   final String url;
   final String? doi;
 
-  factory EvidenceSource.fromJson(Map<String, dynamic> j) => EvidenceSource(
-        pmid: j['pmid'] as String,
-        title: j['title'] as String,
-        year: j['year'] as int,
-        url: j['url'] as String,
-        doi: j['doi'] as String?,
-      );
+  factory EvidenceSource.fromJson(Map<String, dynamic> j) =>
+      EvidenceSource(pmid: j['pmid'] as String, title: j['title'] as String, year: j['year'] as int, url: j['url'] as String, doi: j['doi'] as String?);
 }
 
 String _pick(Map<String, String> m, String lang) => m[lang] ?? m['en'] ?? '';
@@ -36,12 +31,12 @@ class Claim {
   String textFor(String lang) => _pick(text, lang);
 
   factory Claim.fromJson(Map<String, dynamic> j) => Claim(
-        id: j['id'] as String,
-        level: j['level'] as String,
-        studyType: j['studyType'] as String,
-        text: Map<String, String>.from(j['text'] as Map),
-        sources: [for (final s in j['sources'] as List) EvidenceSource.fromJson(s as Map<String, dynamic>)],
-      );
+    id: j['id'] as String,
+    level: j['level'] as String,
+    studyType: j['studyType'] as String,
+    text: Map<String, String>.from(j['text'] as Map),
+    sources: [for (final s in j['sources'] as List) EvidenceSource.fromJson(s as Map<String, dynamic>)],
+  );
 }
 
 /// An'anaviy/tarixiy manbadagi qo'llanish (ilmiy dalil EMAS): matn 4 tilda, PubMed'dagi tarixiy sharhlarga tayanadi.
@@ -58,11 +53,11 @@ class TraditionalNote {
   bool get citesCanon => (tradition ?? '').contains('Canon');
 
   factory TraditionalNote.fromJson(Map<String, dynamic> j) => TraditionalNote(
-        id: j['id'] as String,
-        tradition: j['tradition'] as String?,
-        text: Map<String, String>.from(j['text'] as Map),
-        sources: [for (final s in j['sources'] as List) EvidenceSource.fromJson(s as Map<String, dynamic>)],
-      );
+    id: j['id'] as String,
+    tradition: j['tradition'] as String?,
+    text: Map<String, String>.from(j['text'] as Map),
+    sources: [for (final s in j['sources'] as List) EvidenceSource.fromJson(s as Map<String, dynamic>)],
+  );
 }
 
 /// Ibn Sino haqida kirish (tarixiy ma'lumot, manbali).
@@ -73,9 +68,9 @@ class TraditionIntro {
   String titleFor(String lang) => _pick(title, lang);
 
   factory TraditionIntro.fromJson(Map<String, dynamic> j) => TraditionIntro(
-        title: Map<String, String>.from(j['title'] as Map),
-        items: [for (final i in j['items'] as List) TraditionalNote.fromJson(i as Map<String, dynamic>)],
-      );
+    title: Map<String, String>.from(j['title'] as Map),
+    items: [for (final i in j['items'] as List) TraditionalNote.fromJson(i as Map<String, dynamic>)],
+  );
 }
 
 class Ingredient {
@@ -119,31 +114,26 @@ class Ingredient {
   String summaryFor(String lang) => _pick(summary, lang);
 
   factory Ingredient.fromJson(Map<String, dynamic> j) => Ingredient(
-        inci: j['inci'] as String,
-        slug: j['slug'] as String,
-        status: j['status'] as String,
-        category: const {'natural', 'practice', 'caution'}.contains(j['category']) ? j['category'] as String : 'active',
-        names: j['names'] is Map ? Map<String, String>.from(j['names'] as Map) : const {},
-        traditional: [
-          for (final n in (j['traditional'] as List?) ?? const []) TraditionalNote.fromJson(n as Map<String, dynamic>),
-        ],
-        aliases: List<String>.from(j['aliases'] as List),
-        euVerified: (j['eu'] as Map)['verified'] as bool,
-        summary: Map<String, String>.from(j['summary'] as Map),
-        claims: [for (final c in j['claims'] as List) Claim.fromJson(c as Map<String, dynamic>)],
-      );
+    inci: j['inci'] as String,
+    slug: j['slug'] as String,
+    status: j['status'] as String,
+    category: const {'natural', 'practice', 'caution'}.contains(j['category']) ? j['category'] as String : 'active',
+    names: j['names'] is Map ? Map<String, String>.from(j['names'] as Map) : const {},
+    traditional: [for (final n in (j['traditional'] as List?) ?? const []) TraditionalNote.fromJson(n as Map<String, dynamic>)],
+    aliases: List<String>.from(j['aliases'] as List),
+    euVerified: (j['eu'] as Map)['verified'] as bool,
+    summary: Map<String, String>.from(j['summary'] as Map),
+    claims: [for (final c in j['claims'] as List) Claim.fromJson(c as Map<String, dynamic>)],
+  );
 }
 
 /// Ingredient bazasi. Moslashtirish FAQAT aniq INCI nomi yoki tasdiqlangan sinonim bo'yicha:
 /// tuzlar, efirlar va hosilalar (masalan Sodium Hyaluronate, Retinyl Palmitate) taxmin bilan bog'lanmaydi.
 class IngredientRepository {
   IngredientRepository(this.all, {this.ibnSina, this.lessons = const [], this.recipes = const [], this.rituals = const []})
-      : _byKey = {
-          for (final i in all.where((i) => !i.isPractice)) ...{
-            inciKey(i.inci): i,
-            for (final a in i.aliases) inciKey(a): i,
-          }
-        };
+    : _byKey = {
+        for (final i in all.where((i) => !i.isPractice)) ...{inciKey(i.inci): i, for (final a in i.aliases) inciKey(a): i},
+      };
 
   final List<Ingredient> all;
   final TraditionIntro? ibnSina;
@@ -165,6 +155,7 @@ class IngredientRepository {
 
   Ingredient? find(String name) => _byKey[inciKey(name)];
   Ingredient? bySlug(String slug) => all.where((i) => i.slug == slug).firstOrNull;
+
   /// AI uchun kontekst: savolda tilga olingan ingredientlar (INCI, sinonim yoki 4 tildagi nomi) xulosasi va da'volari (inglizcha).
   String aiContextFor(String question, {int maxChars = 5500}) {
     final q = question.toLowerCase();

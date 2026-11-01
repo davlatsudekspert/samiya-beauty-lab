@@ -51,11 +51,7 @@ List<String> parseInci(String raw) {
   final seen = <String>{};
   final out = <String>[];
   for (final part in parts) {
-    final item = part
-        .replaceAll(_parenthetical, ' ')
-        .replaceAll(_percent, ' ')
-        .replaceAll(RegExp(r'\s+'), ' ')
-        .replaceAll(_edgePunct, '');
+    final item = part.replaceAll(_parenthetical, ' ').replaceAll(_percent, ' ').replaceAll(RegExp(r'\s+'), ' ').replaceAll(_edgePunct, '');
     if (item.isEmpty || item.length > _maxItemLength) continue;
     if (!seen.add(inciKey(item))) continue;
     out.add(item);
@@ -65,12 +61,32 @@ List<String> parseInci(String raw) {
 }
 
 const _fold = {
-  'à': 'a', 'á': 'a', 'â': 'a', 'ä': 'a', 'ã': 'a', 'å': 'a',
-  'è': 'e', 'é': 'e', 'ê': 'e', 'ë': 'e',
-  'ì': 'i', 'í': 'i', 'î': 'i', 'ï': 'i',
-  'ò': 'o', 'ó': 'o', 'ô': 'o', 'ö': 'o', 'õ': 'o',
-  'ù': 'u', 'ú': 'u', 'û': 'u', 'ü': 'u',
-  'ç': 'c', 'ñ': 'n', 'ß': 'ss',
+  'à': 'a',
+  'á': 'a',
+  'â': 'a',
+  'ä': 'a',
+  'ã': 'a',
+  'å': 'a',
+  'è': 'e',
+  'é': 'e',
+  'ê': 'e',
+  'ë': 'e',
+  'ì': 'i',
+  'í': 'i',
+  'î': 'i',
+  'ï': 'i',
+  'ò': 'o',
+  'ó': 'o',
+  'ô': 'o',
+  'ö': 'o',
+  'õ': 'o',
+  'ù': 'u',
+  'ú': 'u',
+  'û': 'u',
+  'ü': 'u',
+  'ç': 'c',
+  'ñ': 'n',
+  'ß': 'ss',
 };
 
 /// Ingredient nomini moslashtirish uchun kalit: registr, diakritik, defis va ortiqcha bo'shliqlarsiz.
@@ -80,8 +96,5 @@ String inciKey(String name) {
   for (final ch in lower.runes.map(String.fromCharCode)) {
     folded.write(_fold[ch] ?? ch);
   }
-  return folded
-      .toString()
-      .replaceAll(RegExp(r'[^\p{L}\p{N}]+', unicode: true), ' ')
-      .trim();
+  return folded.toString().replaceAll(RegExp(r'[^\p{L}\p{N}]+', unicode: true), ' ').trim();
 }

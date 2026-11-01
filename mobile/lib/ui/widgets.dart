@@ -11,13 +11,13 @@ class SamiyaBackground extends StatelessWidget {
   Widget build(BuildContext context) {
     return DecoratedBox(
       decoration: const BoxDecoration(gradient: SamiyaGradients.page),
-      child: Stack(children: [
-        PositionedDirectional(
-            top: -110, end: -90, child: _Glow(size: 320, color: SamiyaColors.roseLight.withValues(alpha: 0.38))),
-        PositionedDirectional(
-            bottom: -140, start: -110, child: _Glow(size: 340, color: SamiyaColors.blush.withValues(alpha: 0.9))),
-        Positioned.fill(child: child),
-      ]),
+      child: Stack(
+        children: [
+          PositionedDirectional(top: -110, end: -90, child: _Glow(size: 320, color: SamiyaColors.roseLight.withValues(alpha: 0.38))),
+          PositionedDirectional(bottom: -140, start: -110, child: _Glow(size: 340, color: SamiyaColors.blush.withValues(alpha: 0.9))),
+          Positioned.fill(child: child),
+        ],
+      ),
     );
   }
 }
@@ -29,15 +29,15 @@ class _Glow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => IgnorePointer(
-        child: Container(
-          width: size,
-          height: size,
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            gradient: RadialGradient(colors: [color, color.withValues(alpha: 0)]),
-          ),
-        ),
-      );
+    child: Container(
+      width: size,
+      height: size,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        gradient: RadialGradient(colors: [color, color.withValues(alpha: 0)]),
+      ),
+    ),
+  );
 }
 
 /// Oq yarim shaffof "orqaga" tugmasi (RTL da avtomatik teskari).
@@ -56,11 +56,7 @@ class BackChip extends StatelessWidget {
         child: InkWell(
           borderRadius: BorderRadius.circular(16),
           onTap: onTap,
-          child: const SizedBox(
-            width: 48,
-            height: 48,
-            child: Icon(Icons.arrow_back_ios_new_rounded, size: 18, color: SamiyaColors.rose, textDirection: null),
-          ),
+          child: const SizedBox(width: 48, height: 48, child: Icon(Icons.arrow_back_ios_new_rounded, size: 18, color: SamiyaColors.rose, textDirection: null)),
         ),
       ),
     );
@@ -77,17 +73,15 @@ class PageHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsetsDirectional.fromSTEB(20, 8, 20, 0),
-      child: Row(children: [
-        SizedBox(width: 48, height: 48, child: onBack == null ? null : BackChip(onTap: onBack!)),
-        Expanded(
-          child: Text(title ?? '',
-              textAlign: TextAlign.center,
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: Theme.of(context).textTheme.titleMedium),
-        ),
-        const SizedBox(width: 48),
-      ]),
+      child: Row(
+        children: [
+          SizedBox(width: 48, height: 48, child: onBack == null ? null : BackChip(onTap: onBack!)),
+          Expanded(
+            child: Text(title ?? '', textAlign: TextAlign.center, maxLines: 1, overflow: TextOverflow.ellipsis, style: Theme.of(context).textTheme.titleMedium),
+          ),
+          const SizedBox(width: 48),
+        ],
+      ),
     );
   }
 }
@@ -122,18 +116,20 @@ class GradientButton extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
           shape: const StadiumBorder(),
         ),
-        child: Row(mainAxisAlignment: MainAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
-          Flexible(
-            child: Text(label,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Flexible(
+              child: Text(
+                label,
                 textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                    color: enabled ? Colors.white : SamiyaColors.muted)),
-          ),
-          if (trailing != null) ...[
-            const SizedBox(width: 8),
-            Icon(trailing, size: 20, color: enabled ? Colors.white : SamiyaColors.muted),
+                style: Theme.of(context).textTheme.labelLarge?.copyWith(color: enabled ? Colors.white : SamiyaColors.muted),
+              ),
+            ),
+            if (trailing != null) ...[const SizedBox(width: 8), Icon(trailing, size: 20, color: enabled ? Colors.white : SamiyaColors.muted)],
           ],
-        ]),
+        ),
       ),
     );
   }
@@ -154,10 +150,12 @@ class InfoPill extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       decoration: BoxDecoration(color: SamiyaColors.blush, borderRadius: BorderRadius.circular(20)),
-      child: Text(upper && !ar ? text.toUpperCase() : text,
-          textAlign: TextAlign.center,
-          textDirection: ltr ? TextDirection.ltr : null,
-          style: Theme.of(context).textTheme.labelSmall),
+      child: Text(
+        upper && !ar ? text.toUpperCase() : text,
+        textAlign: TextAlign.center,
+        textDirection: ltr ? TextDirection.ltr : null,
+        style: Theme.of(context).textTheme.labelSmall,
+      ),
     );
   }
 }
@@ -201,10 +199,13 @@ class PageBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(children: [
-      Expanded(child: SingleChildScrollView(padding: padding, child: child)),
-      if (bottom != null)
-        Padding(padding: const EdgeInsetsDirectional.fromSTEB(20, 8, 20, 16), child: bottom),
-    ]);
+    return Column(
+      children: [
+        Expanded(
+          child: SingleChildScrollView(padding: padding, child: child),
+        ),
+        if (bottom != null) Padding(padding: const EdgeInsetsDirectional.fromSTEB(20, 8, 20, 16), child: bottom),
+      ],
+    );
   }
 }

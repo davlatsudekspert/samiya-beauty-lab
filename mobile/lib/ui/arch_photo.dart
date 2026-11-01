@@ -18,7 +18,10 @@ class ArchPhoto extends StatelessWidget {
         child: Container(
           height: height,
           width: double.infinity,
-          foregroundDecoration: BoxDecoration(borderRadius: r, border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.7), width: 1.2)),
+          foregroundDecoration: BoxDecoration(
+            borderRadius: r,
+            border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.7), width: 1.2),
+          ),
           child: Image.asset(asset, fit: BoxFit.cover, alignment: alignment, filterQuality: FilterQuality.medium),
         ),
       ),

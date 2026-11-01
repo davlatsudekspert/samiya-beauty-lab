@@ -62,7 +62,7 @@ function stub(gemini: () => Response = () => new Response(JSON.stringify({ candi
 }
 
 const env = (db: unknown, extra: Record<string, unknown> = {}) =>
-  ({ DB: db, FIREBASE_PROJECT_ID: PROJECT, GEMINI_API_KEY: "test-key", AI_FREE_DAILY_REQUESTS: "2", ...extra }) as never;
+  ({ DB: db, FIREBASE_PROJECT_ID: PROJECT, GEMINI_API_KEY: "test-key", AI_CAMPAIGN_DAILY_REQUESTS: "2", AI_FREE_DAILY_REQUESTS: "1", ...extra }) as never;
 const ask = async (body: unknown, tok?: string | null) =>
   new Request("https://api.test/api/v1/ai/ask", {
     method: "POST",
@@ -103,6 +103,15 @@ describe("SAMIYA AI (POST /api/v1/ai/ask)", () => {
     expect(r.status).toBe(429);
     expect(await r.json()).toMatchObject({ error: "quota_exceeded", limit: 2 });
     expect(db.raw.prepare("SELECT count FROM ai_daily_usage").get()).toEqual({ count: 2 });
+  });
+  it("kampaniya tugagach bepul foydalanuvchi limiti kamayadi", async () => {
+    stub();
+    const db = d1();
+    const after = { PUBLIC_LAUNCH_DATE: "2025-01-01" };
+    expect((await worker.fetch(await ask(q("a")), env(db, after))).status).toBe(200);
+    const r = await worker.fetch(await ask(q("b")), env(db, after));
+    expect(r.status).toBe(429);
+    expect(await r.json()).toMatchObject({ limit: 1 });
   });
   it("Gemini xatosi: 502 va kvota qaytariladi", async () => {
     stub(() => new Response("x", { status: 500 }));

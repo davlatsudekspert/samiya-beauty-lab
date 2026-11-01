@@ -18,9 +18,7 @@ class SamiyaMark extends StatelessWidget {
       height: size,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(r),
-        boxShadow: [
-          BoxShadow(color: const Color(0x408E4A5E), blurRadius: size * 0.32, spreadRadius: -size * 0.08, offset: Offset(0, size * 0.12)),
-        ],
+        boxShadow: [BoxShadow(color: const Color(0x408E4A5E), blurRadius: size * 0.32, spreadRadius: -size * 0.08, offset: Offset(0, size * 0.12))],
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(r),

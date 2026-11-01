@@ -55,13 +55,9 @@ class IngredientMonogram extends StatelessWidget {
       padding: const EdgeInsets.all(2),
       decoration: BoxDecoration(
         shape: BoxShape.circle,
-        gradient: SweepGradient(colors: [
-          SamiyaColors.gold,
-          const Color(0xFFEADBC6),
-          SamiyaColors.gold.withValues(alpha: 0.7),
-          const Color(0xFFF5EBDF),
-          SamiyaColors.gold,
-        ]),
+        gradient: SweepGradient(
+          colors: [SamiyaColors.gold, const Color(0xFFEADBC6), SamiyaColors.gold.withValues(alpha: 0.7), const Color(0xFFF5EBDF), SamiyaColors.gold],
+        ),
       ),
       child: Container(
         alignment: Alignment.center,
@@ -75,8 +71,14 @@ class IngredientMonogram extends StatelessWidget {
         ),
         child: photoSlugs.contains(slug)
             ? ClipOval(
-                child: Image.asset('assets/photos/$slug.jpg',
-                    width: size, height: size, fit: BoxFit.cover, alignment: photoFocus[slug] ?? Alignment.center, filterQuality: FilterQuality.medium),
+                child: Image.asset(
+                  'assets/photos/$slug.jpg',
+                  width: size,
+                  height: size,
+                  fit: BoxFit.cover,
+                  alignment: photoFocus[slug] ?? Alignment.center,
+                  filterQuality: FilterQuality.medium,
+                ),
               )
             : botanicalSlugs.contains(slug)
             ? ClipOval(
@@ -84,21 +86,26 @@ class IngredientMonogram extends StatelessWidget {
                   child: Transform.scale(
                     scale: botanicalFocus[slug]?.$1 ?? 1.4,
                     alignment: botanicalFocus[slug]?.$2 ?? Alignment.center,
-                    child: Image.asset('assets/botanical/$slug.jpg', fit: BoxFit.cover, alignment: botanicalFocus[slug]?.$2 ?? Alignment.center, filterQuality: FilterQuality.medium),
+                    child: Image.asset(
+                      'assets/botanical/$slug.jpg',
+                      fit: BoxFit.cover,
+                      alignment: botanicalFocus[slug]?.$2 ?? Alignment.center,
+                      filterQuality: FilterQuality.medium,
+                    ),
                   ),
                 ),
               )
             : Text(
-          letter,
-          style: TextStyle(
-            fontFamily: arabic ? 'Amiri' : 'CormorantGaramond',
-            fontStyle: arabic ? FontStyle.normal : FontStyle.italic,
-            fontWeight: FontWeight.w600,
-            fontSize: size * 0.5,
-            height: 1.0,
-            color: SamiyaColors.heading,
-          ),
-        ),
+                letter,
+                style: TextStyle(
+                  fontFamily: arabic ? 'Amiri' : 'CormorantGaramond',
+                  fontStyle: arabic ? FontStyle.normal : FontStyle.italic,
+                  fontWeight: FontWeight.w600,
+                  fontSize: size * 0.5,
+                  height: 1.0,
+                  color: SamiyaColors.heading,
+                ),
+              ),
       ),
     );
   }

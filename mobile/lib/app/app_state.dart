@@ -32,11 +32,13 @@ class AppState extends ChangeNotifier {
     BackendApi? backend,
     TextScanner? scanner,
     PersonalStore? personal,
+    CampaignInfo campaign = CampaignInfo.open,
   }) : ingredients = ingredients ?? IngredientRepository(const []),
        auth = auth ?? const UnavailableAuthService(),
        backend = backend ?? const NoBackendApi(),
        scanner = scanner ?? const UnavailableTextScanner(),
        personal = personal ?? PersonalStore(persist: false),
+       _campaign = campaign,
        _locale = locale,
        _onboarded = onboarded,
        _role = role {
@@ -54,6 +56,29 @@ class AppState extends ChangeNotifier {
   /// Admin va Pro holati FAQAT serverdan (kirgan va backend sozlangan bo'lsa); xatoda xavfsiz tomon: false.
   bool get isAdmin => _user != null && _me.isAdmin;
   bool get isPro => _user != null && _me.pro;
+
+  CampaignInfo _campaign;
+  CampaignInfo get campaign => _campaign;
+
+  /// Hamma bo'lim ochiqmi: Pro yoki kampaniya davom etmoqda (launchdan oldin ham ochiq).
+  bool get unlocked => isPro || _campaign.allOpen;
+
+  /// Kampaniya bosqichini serverdan oladi; oxirgi ma'lum holat saqlanadi (oflaynda chetlab o'tilmasin).
+  Future<void> refreshCampaign() async {
+    if (!backend.isConfigured) return;
+    try {
+      final c = await backend.campaign();
+      if (c.phase != _campaign.phase || c.daysRemaining != _campaign.daysRemaining) {
+        _campaign = c;
+        notifyListeners();
+      }
+      final p = await SharedPreferences.getInstance();
+      await p.setString('campaign_phase', c.phase);
+      if (c.daysRemaining != null) await p.setInt('campaign_days', c.daysRemaining!);
+    } catch (_) {
+      // tarmoq xatosi: oxirgi ma'lum holat qoladi
+    }
+  }
 
   /// Serverdan /me ni olib, admin/Pro holatini yangilaydi. Hech qachon xato tashlamaydi.
   Future<void> refreshMe() async {
@@ -149,7 +174,8 @@ class AppState extends ChangeNotifier {
       locale: Locale(languageNativeNames.containsKey(code) ? code! : 'uz'),
       onboarded: p.getBool('onboarded') ?? false,
       role: UserRole.values.where((r) => r.name == roleName).firstOrNull,
-    );
+      campaign: CampaignInfo(phase: p.getString('campaign_phase') ?? 'prelaunch', daysRemaining: p.getInt('campaign_days')),
+    )..refreshCampaign();
   }
 
   Future<void> setLocale(String code) async {

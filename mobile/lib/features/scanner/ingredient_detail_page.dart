@@ -20,7 +20,9 @@ class IngredientDetailPage extends StatelessWidget {
   Future<void> _open(String url) async {
     try {
       await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
-    } catch (_) {/* havola ochilmasa, jim: PMID matni ko'rinib turadi */}
+    } catch (_) {
+      /* havola ochilmasa, jim: PMID matni ko'rinib turadi */
+    }
   }
 
   @override
@@ -31,101 +33,98 @@ class IngredientDetailPage extends StatelessWidget {
     final ing = AppScope.of(context).ingredients.bySlug(slug);
     return KeyedSubtree(
       key: const Key('ingredient-page'),
-      child: Column(children: [
-        PageHeader(title: ing?.nameFor(lang) ?? l.notInDatabase, onBack: () => context.canPop() ? context.pop() : context.go('/scanner')),
-        Expanded(
-          child: ing == null
-              ? Center(child: Text(l.notInDatabase, style: t.bodyLarge))
-              : PageBody(
-                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    const SizedBox(height: 8),
-                    if (photoSlugs.contains(ing.slug)) ...[
-                      ClipRRect(
-                        key: const Key('botanical-hero'),
-                        borderRadius: const BorderRadius.vertical(top: Radius.circular(150), bottom: Radius.circular(26)),
-                        child: Container(
-                          height: 300,
-                          width: double.infinity,
-                          foregroundDecoration: BoxDecoration(
+      child: Column(
+        children: [
+          PageHeader(title: ing?.nameFor(lang) ?? l.notInDatabase, onBack: () => context.canPop() ? context.pop() : context.go('/scanner')),
+          Expanded(
+            child: ing == null
+                ? Center(child: Text(l.notInDatabase, style: t.bodyLarge))
+                : PageBody(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const SizedBox(height: 8),
+                        if (photoSlugs.contains(ing.slug)) ...[
+                          ClipRRect(
+                            key: const Key('botanical-hero'),
                             borderRadius: const BorderRadius.vertical(top: Radius.circular(150), bottom: Radius.circular(26)),
-                            border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.7), width: 1.2),
+                            child: Container(
+                              height: 300,
+                              width: double.infinity,
+                              foregroundDecoration: BoxDecoration(
+                                borderRadius: const BorderRadius.vertical(top: Radius.circular(150), bottom: Radius.circular(26)),
+                                border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.7), width: 1.2),
+                              ),
+                              child: Image.asset('assets/photos/${ing.slug}.jpg', fit: BoxFit.cover, alignment: photoFocus[ing.slug] ?? Alignment.center),
+                            ),
                           ),
-                          child: Image.asset('assets/photos/${ing.slug}.jpg', fit: BoxFit.cover, alignment: photoFocus[ing.slug] ?? Alignment.center),
+                          const SizedBox(height: 6),
+                          Text(l.photoCredit, style: t.bodyMedium?.copyWith(fontSize: 11)),
+                          const SizedBox(height: 14),
+                        ] else if (botanicalSlugs.contains(ing.slug)) ...[
+                          Container(
+                            key: const Key('botanical-hero'),
+                            height: 260,
+                            width: double.infinity,
+                            padding: const EdgeInsets.fromLTRB(18, 22, 18, 12),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: const BorderRadius.vertical(top: Radius.circular(140), bottom: Radius.circular(24)),
+                              border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.6)),
+                              boxShadow: SamiyaShadows.soft,
+                            ),
+                            child: Image.asset('assets/botanical/${ing.slug}.jpg', fit: BoxFit.contain, filterQuality: FilterQuality.medium),
+                          ),
+                          const SizedBox(height: 6),
+                          Text(l.botanicalCredit, style: t.bodyMedium?.copyWith(fontSize: 11)),
+                          const SizedBox(height: 14),
+                        ],
+                        Text(ing.nameFor(lang), textDirection: ing.hasFriendlyName ? null : TextDirection.ltr, style: t.headlineMedium),
+                        if (ing.hasFriendlyName && !ing.isPractice) ...[
+                          const SizedBox(height: 4),
+                          Text(
+                            ing.inci,
+                            textDirection: TextDirection.ltr,
+                            style: t.bodyMedium?.copyWith(fontFamily: 'Jost', fontWeight: FontWeight.w600),
+                          ),
+                        ],
+                        const SizedBox(height: 10),
+                        Text(ing.summaryFor(lang), style: t.bodyLarge),
+                        const SizedBox(height: 14),
+                        if (ing.isNatural) ...[_Note(key: const Key('note-natural'), icon: Icons.spa_outlined, text: l.naturalNote), const SizedBox(height: 8)],
+                        if (ing.isPractice) ...[
+                          _Note(key: const Key('note-practice'), icon: Icons.self_improvement_outlined, text: l.practiceNote),
+                          const SizedBox(height: 8),
+                        ],
+                        if (ing.isCaution) ...[
+                          _Note(key: const Key('note-caution'), icon: Icons.warning_amber_rounded, text: l.cautionNote),
+                          const SizedBox(height: 8),
+                        ],
+                        if (ing.status != 'verified') _Note(key: const Key('note-draft'), icon: Icons.edit_note_rounded, text: l.draftNote),
+                        if (!ing.euVerified) ...[const SizedBox(height: 8), _Note(key: const Key('note-eu'), icon: Icons.gavel_rounded, text: l.euUnverified)],
+                        const SizedBox(height: 18),
+                        Theme(
+                          data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
+                          child: ExpansionTile(
+                            key: const Key('evidence-legend-toggle'),
+                            tilePadding: EdgeInsets.zero,
+                            title: Text(l.evidenceLegendTitle, style: t.titleMedium?.copyWith(color: SamiyaColors.heading)),
+                            children: [_Legend(l: l)],
+                          ),
                         ),
-                      ),
-                      const SizedBox(height: 6),
-                      Text(l.photoCredit, style: t.bodyMedium?.copyWith(fontSize: 11)),
-                      const SizedBox(height: 14),
-                    ] else if (botanicalSlugs.contains(ing.slug)) ...[
-                      Container(
-                        key: const Key('botanical-hero'),
-                        height: 260,
-                        width: double.infinity,
-                        padding: const EdgeInsets.fromLTRB(18, 22, 18, 12),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: const BorderRadius.vertical(top: Radius.circular(140), bottom: Radius.circular(24)),
-                          border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.6)),
-                          boxShadow: SamiyaShadows.soft,
-                        ),
-                        child: Image.asset('assets/botanical/${ing.slug}.jpg', fit: BoxFit.contain, filterQuality: FilterQuality.medium),
-                      ),
-                      const SizedBox(height: 6),
-                      Text(l.botanicalCredit, style: t.bodyMedium?.copyWith(fontSize: 11)),
-                      const SizedBox(height: 14),
-                    ],
-                    Text(ing.nameFor(lang), textDirection: ing.hasFriendlyName ? null : TextDirection.ltr, style: t.headlineMedium),
-                    if (ing.hasFriendlyName && !ing.isPractice) ...[
-                      const SizedBox(height: 4),
-                      Text(ing.inci, textDirection: TextDirection.ltr, style: t.bodyMedium?.copyWith(fontFamily: 'Jost', fontWeight: FontWeight.w600)),
-                    ],
-                    const SizedBox(height: 10),
-                    Text(ing.summaryFor(lang), style: t.bodyLarge),
-                    const SizedBox(height: 14),
-                    if (ing.isNatural) ...[
-                      _Note(key: const Key('note-natural'), icon: Icons.spa_outlined, text: l.naturalNote),
-                      const SizedBox(height: 8),
-                    ],
-                    if (ing.isPractice) ...[
-                      _Note(key: const Key('note-practice'), icon: Icons.self_improvement_outlined, text: l.practiceNote),
-                      const SizedBox(height: 8),
-                    ],
-                    if (ing.isCaution) ...[
-                      _Note(key: const Key('note-caution'), icon: Icons.warning_amber_rounded, text: l.cautionNote),
-                      const SizedBox(height: 8),
-                    ],
-                    if (ing.status != 'verified') _Note(key: const Key('note-draft'), icon: Icons.edit_note_rounded, text: l.draftNote),
-                    if (!ing.euVerified) ...[
-                      const SizedBox(height: 8),
-                      _Note(key: const Key('note-eu'), icon: Icons.gavel_rounded, text: l.euUnverified),
-                    ],
-                    const SizedBox(height: 18),
-                    Theme(
-                      data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
-                      child: ExpansionTile(
-                        key: const Key('evidence-legend-toggle'),
-                        tilePadding: EdgeInsets.zero,
-                        title: Text(l.evidenceLegendTitle, style: t.titleMedium?.copyWith(color: SamiyaColors.heading)),
-                        children: [_Legend(l: l)],
-                      ),
+                        const SizedBox(height: 22),
+                        Text(l.detailClaims, style: t.titleMedium?.copyWith(fontSize: 18, fontWeight: FontWeight.w700)),
+                        const SizedBox(height: 12),
+                        for (final c in ing.claims) ...[_ClaimCard(key: Key('claim-${c.id}'), claim: c, lang: lang, onOpen: _open), const SizedBox(height: 12)],
+                        if (ing.traditional.isNotEmpty) ...[const SizedBox(height: 16), TraditionalSection(notes: ing.traditional, lang: lang)],
+                        const SizedBox(height: 6),
+                        Text(l.resultNote, style: t.bodyMedium?.copyWith(fontSize: 12)),
+                      ],
                     ),
-                    const SizedBox(height: 22),
-                    Text(l.detailClaims, style: t.titleMedium?.copyWith(fontSize: 18, fontWeight: FontWeight.w700)),
-                    const SizedBox(height: 12),
-                    for (final c in ing.claims) ...[
-                      _ClaimCard(key: Key('claim-${c.id}'), claim: c, lang: lang, onOpen: _open),
-                      const SizedBox(height: 12),
-                    ],
-                    if (ing.traditional.isNotEmpty) ...[
-                      const SizedBox(height: 16),
-                      TraditionalSection(notes: ing.traditional, lang: lang),
-                    ],
-                    const SizedBox(height: 6),
-                    Text(l.resultNote, style: t.bodyMedium?.copyWith(fontSize: 12)),
-                  ]),
-                ),
-        ),
-      ]),
+                  ),
+          ),
+        ],
+      ),
     );
   }
 }
@@ -149,24 +148,35 @@ class _Legend extends StatelessWidget {
     return Container(
       key: const Key('evidence-legend'),
       padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.85), borderRadius: BorderRadius.circular(22), border: Border.all(color: SamiyaColors.border)),
-      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Text(l.evidenceLegendTitle, style: t.titleMedium?.copyWith(fontWeight: FontWeight.w700)),
-        const SizedBox(height: 10),
-        for (final level in ['A', 'B', 'C']) ...[
-          Row(children: [
-            EvidenceChip(level: level),
-            const SizedBox(width: 12),
-            Expanded(child: Text(evidenceLabel(l, level), style: t.bodyMedium)),
-          ]),
-          const SizedBox(height: 8),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.85),
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(color: SamiyaColors.border),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(l.evidenceLegendTitle, style: t.titleMedium?.copyWith(fontWeight: FontWeight.w700)),
+          const SizedBox(height: 10),
+          for (final level in ['A', 'B', 'C']) ...[
+            Row(
+              children: [
+                EvidenceChip(level: level),
+                const SizedBox(width: 12),
+                Expanded(child: Text(evidenceLabel(l, level), style: t.bodyMedium)),
+              ],
+            ),
+            const SizedBox(height: 8),
+          ],
+          Row(
+            children: [
+              const EvidenceChip(level: 'insufficient'),
+              const SizedBox(width: 12),
+              Expanded(child: Text(l.evidenceInsufficient, style: t.bodyMedium)),
+            ],
+          ),
         ],
-        Row(children: [
-          const EvidenceChip(level: 'insufficient'),
-          const SizedBox(width: 12),
-          Expanded(child: Text(l.evidenceInsufficient, style: t.bodyMedium)),
-        ]),
-      ]),
+      ),
     );
   }
 }
@@ -183,38 +193,64 @@ class _ClaimCard extends StatelessWidget {
     final t = Theme.of(context).textTheme;
     return Container(
       padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(24), border: Border.all(color: SamiyaColors.border), boxShadow: SamiyaShadows.soft),
-      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Row(children: [
-          EvidenceChip(level: claim.level),
-          const SizedBox(width: 12),
-          Expanded(child: Text(studyTypeLabel(l, claim.studyType), style: t.titleMedium?.copyWith(fontSize: 14, color: SamiyaColors.heading))),
-        ]),
-        const SizedBox(height: 12),
-        Text(claim.textFor(lang), style: t.bodyLarge?.copyWith(color: SamiyaColors.ink, fontSize: 15)),
-        const SizedBox(height: 12),
-        for (final s in claim.sources)
-          InkWell(
-            key: Key('source-${s.pmid}'),
-            borderRadius: BorderRadius.circular(14),
-            onTap: () => onOpen(s.url),
-            child: ConstrainedBox(
-              constraints: const BoxConstraints(minHeight: 48),
-              child: Row(children: [
-                const Icon(Icons.open_in_new_rounded, size: 18, color: SamiyaColors.rose),
-                const SizedBox(width: 10),
-                Expanded(
-                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
-                    Text('${l.detailSource}: PubMed · PMID ${s.pmid} · ${s.year}',
-                        textDirection: TextDirection.ltr,
-                        style: t.bodyMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w600, fontSize: 13)),
-                    Text(s.title, textDirection: TextDirection.ltr, maxLines: 2, overflow: TextOverflow.ellipsis, style: t.bodyMedium?.copyWith(fontSize: 12)),
-                  ]),
-                ),
-              ]),
-            ),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(color: SamiyaColors.border),
+        boxShadow: SamiyaShadows.soft,
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              EvidenceChip(level: claim.level),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Text(studyTypeLabel(l, claim.studyType), style: t.titleMedium?.copyWith(fontSize: 14, color: SamiyaColors.heading)),
+              ),
+            ],
           ),
-      ]),
+          const SizedBox(height: 12),
+          Text(claim.textFor(lang), style: t.bodyLarge?.copyWith(color: SamiyaColors.ink, fontSize: 15)),
+          const SizedBox(height: 12),
+          for (final s in claim.sources)
+            InkWell(
+              key: Key('source-${s.pmid}'),
+              borderRadius: BorderRadius.circular(14),
+              onTap: () => onOpen(s.url),
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(minHeight: 48),
+                child: Row(
+                  children: [
+                    const Icon(Icons.open_in_new_rounded, size: 18, color: SamiyaColors.rose),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(
+                            '${l.detailSource}: PubMed · PMID ${s.pmid} · ${s.year}',
+                            textDirection: TextDirection.ltr,
+                            style: t.bodyMedium?.copyWith(color: SamiyaColors.rose, fontWeight: FontWeight.w600, fontSize: 13),
+                          ),
+                          Text(
+                            s.title,
+                            textDirection: TextDirection.ltr,
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                            style: t.bodyMedium?.copyWith(fontSize: 12),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+        ],
+      ),
     );
   }
 }

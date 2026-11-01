@@ -370,5 +370,32 @@
   "colWinter": "Winter dryness",
   "colWinterBody": "Protecting the skin barrier",
   "colNatural": "Natural beauty",
-  "colNaturalBody": "Elegant recipes to make at home"
+  "colNaturalBody": "Elegant recipes to make at home",
+  "proSubtitle": "The complete collection of beauty knowledge — deeper and more personal.",
+  "proFreeTitle": "Always free",
+  "proFree1": "Scanner and ingredient library",
+  "proFree2": "The first Academy lessons",
+  "proFree3": "Selected recipes and a ritual",
+  "proFree4": "SAMIYA AI — a few questions a day",
+  "proPlusTitle": "With Pro",
+  "proB1": "SAMIYA AI — up to 50 questions a day",
+  "proB2": "Every Academy lesson, plus new ones",
+  "proB3": "All recipes and rituals, updated regularly",
+  "proB4": "The full Ibn Sina section",
+  "proB5": "Unlimited “My shelf”",
+  "proB6": "No ads",
+  "proCampaign": "During the 90-day launch everything is free — no card needed.",
+  "proSoon": "Pro is coming soon. No automatic charges and no hidden fees.",
+  "proEarly": "A special offer for early members is on its way.",
+  "proLocked": "This section unlocks with Pro",
+  "proUnlock": "About Pro",
+  "proDaysLeft": "{n} days left in the free period",
+  "@proDaysLeft": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "proActive": "Pro is active — every section is open"
 }

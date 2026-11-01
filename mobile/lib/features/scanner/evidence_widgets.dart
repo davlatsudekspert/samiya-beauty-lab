@@ -3,27 +3,25 @@ import 'package:flutter/material.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
 
-const knownStudyTypes = {
-  'systematic review', 'meta-analysis', 'RCT', 'observational', 'in vitro', 'regulatory opinion', 'narrative review',
-};
+const knownStudyTypes = {'systematic review', 'meta-analysis', 'RCT', 'observational', 'in vitro', 'regulatory opinion', 'narrative review'};
 
 String studyTypeLabel(AppLocalizations l, String type) => switch (type) {
-      'systematic review' => l.studyTypeSystematicReview,
-      'meta-analysis' => l.studyTypeMetaAnalysis,
-      'RCT' => l.studyTypeRct,
-      'observational' => l.studyTypeObservational,
-      'in vitro' => l.studyTypeInVitro,
-      'regulatory opinion' => l.studyTypeRegulatory,
-      'narrative review' => l.studyTypeNarrative,
-      _ => type,
-    };
+  'systematic review' => l.studyTypeSystematicReview,
+  'meta-analysis' => l.studyTypeMetaAnalysis,
+  'RCT' => l.studyTypeRct,
+  'observational' => l.studyTypeObservational,
+  'in vitro' => l.studyTypeInVitro,
+  'regulatory opinion' => l.studyTypeRegulatory,
+  'narrative review' => l.studyTypeNarrative,
+  _ => type,
+};
 
 String evidenceLabel(AppLocalizations l, String level) => switch (level) {
-      'A' => l.evidenceA,
-      'B' => l.evidenceB,
-      'C' => l.evidenceC,
-      _ => l.evidenceInsufficient,
-    };
+  'A' => l.evidenceA,
+  'B' => l.evidenceB,
+  'C' => l.evidenceC,
+  _ => l.evidenceInsufficient,
+};
 
 /// Dalil darajasi yorlig'i (A, B, C yoki ?). Rang faqat ko'rinish; ma'nosi matnda ham beriladi.
 class EvidenceChip extends StatelessWidget {
@@ -46,8 +44,10 @@ class EvidenceChip extends StatelessWidget {
           height: 34,
           alignment: Alignment.center,
           decoration: BoxDecoration(color: bg, shape: BoxShape.circle),
-          child: Text(level == 'A' || level == 'B' || level == 'C' ? level : '?',
-              style: TextStyle(fontFamily: 'Jost', fontWeight: FontWeight.w700, fontSize: 15, color: fg)),
+          child: Text(
+            level == 'A' || level == 'B' || level == 'C' ? level : '?',
+            style: TextStyle(fontFamily: 'Jost', fontWeight: FontWeight.w700, fontSize: 15, color: fg),
+          ),
         ),
       ),
     );

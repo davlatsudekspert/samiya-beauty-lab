@@ -27,12 +27,18 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   const apiBase = String.fromEnvironment('API_BASE_URL');
   final backend = apiBase.isEmpty ? const NoBackendApi() : HttpBackendApi(apiBase);
-  runApp(SamiyaApp(state: await AppState.load(
-    auth: await _initAuth(),
-    backend: backend,
-    scanner: kIsWeb ? const UnavailableTextScanner() : MlkitTextScanner(),
-  )));
+  runApp(
+    SamiyaApp(
+      state: await AppState.load(auth: await _initAuth(), backend: backend, scanner: kIsWeb ? const UnavailableTextScanner() : MlkitTextScanner()),
+    ),
+  );
   // Anonim o'rnatish hisoblagichi (ilova ochilishini kutdirmaydi, xato bo'lsa jim).
   final platform = kIsWeb ? 'web' : (defaultTargetPlatform == TargetPlatform.iOS ? 'ios' : 'android');
-  unawaited(reportInstall(backend, platform: platform, appVersion: const String.fromEnvironment('APP_VERSION', defaultValue: '1.0.0')));
+  unawaited(
+    reportInstall(
+      backend,
+      platform: platform,
+      appVersion: const String.fromEnvironment('APP_VERSION', defaultValue: '1.0.0'),
+    ),
+  );
 }

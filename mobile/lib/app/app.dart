@@ -21,6 +21,7 @@ import '../features/scanner/scanner_page.dart';
 import '../features/shell/app_shell.dart';
 import '../features/academy/lesson_page.dart';
 import '../features/ai/ai_page.dart';
+import '../features/pro/pro_page.dart';
 import '../features/care/care_pages.dart';
 import '../features/shelf/shelf_page.dart';
 import '../features/tabs/academy_page.dart';
@@ -54,6 +55,7 @@ class _SamiyaAppState extends State<SamiyaApp> {
       GoRoute(path: '/onboarding', builder: (_, _) => const OnboardingPage()),
       GoRoute(path: '/login', builder: (_, _) => const LoginPage()),
       GoRoute(path: '/role', builder: (_, _) => const RolePage()),
+      GoRoute(path: '/pro', builder: (_, _) => const ProPage()),
       StatefulShellRoute.indexedStack(
         builder: (_, _, shell) => AppShell(shell: shell),
         branches: [

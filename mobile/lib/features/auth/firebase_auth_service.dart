@@ -8,9 +8,7 @@ class FirebaseAuthService implements AuthService {
   FirebaseAuthService([fb.FirebaseAuth? auth]) : _auth = auth ?? fb.FirebaseAuth.instance;
   final fb.FirebaseAuth _auth;
 
-  static const _cancelCodes = {
-    'canceled', 'cancelled', 'web-context-canceled', 'web-context-cancelled', 'popup-closed-by-user', 'user-cancelled',
-  };
+  static const _cancelCodes = {'canceled', 'cancelled', 'web-context-canceled', 'web-context-cancelled', 'popup-closed-by-user', 'user-cancelled'};
 
   AuthUser? _map(fb.User? u, [String? provider]) => u == null
       ? null
@@ -42,8 +40,11 @@ class FirebaseAuthService implements AuthService {
   Future<AuthUser> signInWithGoogle() => _signIn(fb.GoogleAuthProvider()..addScope('email'));
 
   @override
-  Future<AuthUser> signInWithApple() =>
-      _signIn(fb.AppleAuthProvider()..addScope('email')..addScope('name'));
+  Future<AuthUser> signInWithApple() => _signIn(
+    fb.AppleAuthProvider()
+      ..addScope('email')
+      ..addScope('name'),
+  );
 
   @override
   Future<void> signOut() => _auth.signOut();

@@ -5,15 +5,28 @@ import 'package:flutter/widgets.dart';
 const botanicalSlugs = <String>{'aloe-vera'};
 
 /// Doira ichida o'simlikning eng chiroyli qismi ko'rinsin: kattalashtirish va markaz.
-const botanicalFocus = <String, (double, Alignment)>{
-  'aloe-vera': (1.9, Alignment(0.0, -0.35)),
-};
+const botanicalFocus = <String, (double, Alignment)>{'aloe-vera': (1.9, Alignment(0.0, -0.35))};
 
 /// Fotosuratlar (iNaturalist, CC0 1.0 — "huquqlar saqlanmagan"); manbalar: assets/photos/CREDITS.json.
 const photoSlugs = <String>{
-  'aloe-vera', 'banana', 'chamomile', 'coconut-oil', 'cucumber', 'green-tea',
-  'honey', 'lemon-juice', 'oat', 'olive-oil', 'rosehip-oil', 'turmeric', 'rose-water',
-  'argan-oil', 'jojoba-oil', 'centella-asiatica', 'licorice-root', 'sunflower-seed-oil',
+  'aloe-vera',
+  'banana',
+  'chamomile',
+  'coconut-oil',
+  'cucumber',
+  'green-tea',
+  'honey',
+  'lemon-juice',
+  'oat',
+  'olive-oil',
+  'rosehip-oil',
+  'turmeric',
+  'rose-water',
+  'argan-oil',
+  'jojoba-oil',
+  'centella-asiatica',
+  'licorice-root',
+  'sunflower-seed-oil',
 };
 
 /// Foto doirada: markaz nuqtasi (asosiy obyekt ko'rinsin).
@@ -34,5 +47,5 @@ const photoFocus = <String, Alignment>{
 String? ingredientImage(String slug) => photoSlugs.contains(slug)
     ? 'assets/photos/$slug.jpg'
     : botanicalSlugs.contains(slug)
-        ? 'assets/botanical/$slug.jpg'
-        : null;
+    ? 'assets/botanical/$slug.jpg'
+    : null;

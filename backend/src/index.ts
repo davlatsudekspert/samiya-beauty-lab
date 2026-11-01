@@ -13,6 +13,7 @@ export interface Env extends CampaignEnv {
   AI_MODEL?: string;
   AI_FREE_DAILY_REQUESTS?: string;
   AI_PRO_DAILY_REQUESTS?: string;
+  AI_CAMPAIGN_DAILY_REQUESTS?: string;
 }
 
 const json = (body: unknown, status = 200): Response =>
@@ -99,7 +100,15 @@ export async function aiAsk(request: Request, env: Env, fetcher?: typeof fetch):
   const req = parseAiRequest(await request.text());
   if (!req) return json({ error: "bad_request" }, 400);
   const pro = await isPro(env, a);
-  const limit = Math.max(0, parseInt((pro ? env.AI_PRO_DAILY_REQUESTS : env.AI_FREE_DAILY_REQUESTS) ?? "", 10) || (pro ? 50 : 5));
+  // 90 kunlik kampaniya (va launchdan oldin) bepul foydalanuvchiga ham saxiyroq limit; keyin oddiy bepul limit.
+  let campaignOpen = true;
+  try {
+    campaignOpen = phase(parseConfig(env), new Date()) !== "free_plus_optional_pro";
+  } catch {
+    campaignOpen = false;
+  }
+  const raw = pro ? env.AI_PRO_DAILY_REQUESTS : campaignOpen ? env.AI_CAMPAIGN_DAILY_REQUESTS : env.AI_FREE_DAILY_REQUESTS;
+  const limit = Math.max(0, parseInt(raw ?? "", 10) || (pro ? 50 : campaignOpen ? 10 : 3));
   const day = tashkentDay(new Date());
   await db.prepare("INSERT OR IGNORE INTO users (id) VALUES (?)").bind(a.uid).run();
   const fresh = await db.prepare("INSERT OR IGNORE INTO ai_request_idempotency (user_id, request_id, day) VALUES (?, ?, ?)")

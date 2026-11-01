@@ -12,6 +12,8 @@ import '../../ui/safe_nav.dart';
 import '../../ui/widgets.dart';
 import '../academy/lesson_models.dart';
 import 'care_models.dart';
+import '../../app/pro_gate.dart';
+import '../pro/pro_page.dart';
 
 String _lang(BuildContext c) => Localizations.localeOf(c).languageCode;
 
@@ -92,8 +94,9 @@ class _Bullets extends StatelessWidget {
 }
 
 class _CareTile extends StatelessWidget {
-  const _CareTile({super.key, required this.photo, required this.title, required this.meta, required this.onTap});
+  const _CareTile({super.key, required this.photo, required this.title, required this.meta, required this.onTap, this.locked = false});
   final String photo, title, meta;
+  final bool locked;
   final VoidCallback onTap;
 
   @override
@@ -130,7 +133,7 @@ class _CareTile extends StatelessWidget {
                     ],
                   ),
                 ),
-                const Icon(Icons.chevron_right_rounded, color: SamiyaColors.muted),
+                if (locked) const ProLockBadge() else const Icon(Icons.chevron_right_rounded, color: SamiyaColors.muted),
               ],
             ),
           ),
@@ -149,7 +152,9 @@ class RecipesPage extends StatelessWidget {
     final l = AppLocalizations.of(context);
     final t = Theme.of(context).textTheme;
     final lang = _lang(context);
-    final list = AppScope.of(context).ingredients.recipes;
+    final app = AppScope.of(context);
+    final list = app.ingredients.recipes;
+    bool open(int i) => ProGate.open(unlocked: app.unlocked, index: i, freeCount: ProGate.freeRecipes);
     return _page(
       context,
       key: const Key('recipes-page'),
@@ -170,7 +175,8 @@ class RecipesPage extends StatelessWidget {
             photo: carePhoto(list[i].photo),
             title: pickLoc(list[i].title, lang),
             meta: l.lessonMinutes(list[i].minutes),
-            onTap: () => context.safePush('/home/recipes/${list[i].id}'),
+            locked: !open(i),
+            onTap: () => context.safePush(open(i) ? '/home/recipes/${list[i].id}' : '/pro'),
           ),
       ],
     );
@@ -188,6 +194,7 @@ class RecipePage extends StatelessWidget {
     final lang = _lang(context);
     final repo = AppScope.of(context).ingredients;
     final r = repo.recipes.where((x) => x.id == id).firstOrNull;
+    final locked = r != null && !ProGate.open(unlocked: AppScope.of(context).unlocked, index: repo.recipes.indexOf(r), freeCount: ProGate.freeRecipes);
     if (r == null) return _page(context, key: const Key('recipe-page'), title: l.recipesTitle, back: '/home/recipes', children: [Text(l.comingSoon)]);
     final ings = [for (final s in r.ingredients) ?repo.bySlug(s)];
     return _page(
@@ -208,26 +215,30 @@ class RecipePage extends StatelessWidget {
         Container(height: 1, width: 64, color: SamiyaColors.gold),
         const SizedBox(height: 12),
         Text(pickLoc(r.intro, lang), style: t.bodyLarge?.copyWith(fontSize: 16, height: 1.55)),
-        _Heading(l.recipeYouNeed),
-        _Bullets([for (final x in r.items) pickLoc(x, lang)]),
-        _Heading(l.recipeSteps),
-        _Bullets([for (final x in r.steps) pickLoc(x, lang)], numbered: true),
-        _Heading(l.recipeSafety),
-        Container(
-          key: const Key('recipe-safety'),
-          padding: const EdgeInsets.fromLTRB(14, 14, 14, 4),
-          decoration: BoxDecoration(color: SamiyaColors.blush, borderRadius: BorderRadius.circular(18)),
-          child: _Bullets([for (final x in r.safety) pickLoc(x, lang)], icon: Icons.shield_outlined, iconColor: SamiyaColors.rose),
-        ),
-        _Heading(l.recipeEvidence),
-        HonestNote(pickLoc(r.evidence, lang)),
-        if (ings.isNotEmpty) ...[
-          _Heading(l.recipeIngredients),
-          Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            children: [for (final i in ings) ActionChip(label: Text(i.nameFor(lang)), onPressed: () => context.safePush('/scanner/ingredient/${i.slug}'))],
+        if (locked)
+          const ProLockedCard()
+        else ...[
+          _Heading(l.recipeYouNeed),
+          _Bullets([for (final x in r.items) pickLoc(x, lang)]),
+          _Heading(l.recipeSteps),
+          _Bullets([for (final x in r.steps) pickLoc(x, lang)], numbered: true),
+          _Heading(l.recipeSafety),
+          Container(
+            key: const Key('recipe-safety'),
+            padding: const EdgeInsets.fromLTRB(14, 14, 14, 4),
+            decoration: BoxDecoration(color: SamiyaColors.blush, borderRadius: BorderRadius.circular(18)),
+            child: _Bullets([for (final x in r.safety) pickLoc(x, lang)], icon: Icons.shield_outlined, iconColor: SamiyaColors.rose),
           ),
+          _Heading(l.recipeEvidence),
+          HonestNote(pickLoc(r.evidence, lang)),
+          if (ings.isNotEmpty) ...[
+            _Heading(l.recipeIngredients),
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: [for (final i in ings) ActionChip(label: Text(i.nameFor(lang)), onPressed: () => context.safePush('/scanner/ingredient/${i.slug}'))],
+            ),
+          ],
         ],
       ],
     );
@@ -243,7 +254,9 @@ class RitualsPage extends StatelessWidget {
     final l = AppLocalizations.of(context);
     final t = Theme.of(context).textTheme;
     final lang = _lang(context);
-    final list = AppScope.of(context).ingredients.rituals;
+    final app = AppScope.of(context);
+    final list = app.ingredients.rituals;
+    bool open(int i) => ProGate.open(unlocked: app.unlocked, index: i, freeCount: ProGate.freeRituals);
     return _page(
       context,
       key: const Key('rituals-page'),
@@ -262,7 +275,8 @@ class RitualsPage extends StatelessWidget {
             photo: carePhoto(list[i].photo),
             title: pickLoc(list[i].title, lang),
             meta: l.lessonMinutes((list[i].totalSeconds / 60).ceil()),
-            onTap: () => context.safePush('/home/rituals/${list[i].id}'),
+            locked: !open(i),
+            onTap: () => context.safePush(open(i) ? '/home/rituals/${list[i].id}' : '/pro'),
           ),
       ],
     );
@@ -313,7 +327,9 @@ class _RitualPageState extends State<RitualPage> {
     final l = AppLocalizations.of(context);
     final t = Theme.of(context).textTheme;
     final lang = _lang(context);
-    final r = AppScope.of(context).ingredients.rituals.where((x) => x.id == widget.id).firstOrNull;
+    final app = AppScope.of(context);
+    final r = app.ingredients.rituals.where((x) => x.id == widget.id).firstOrNull;
+    final locked = r != null && !ProGate.open(unlocked: app.unlocked, index: app.ingredients.rituals.indexOf(r), freeCount: ProGate.freeRituals);
     if (r == null) return _page(context, key: const Key('ritual-page'), title: l.ritualsTitle, back: '/home/rituals', children: [Text(l.comingSoon)]);
     final running = _step >= 0 && _step < r.steps.length;
     final done = _step >= r.steps.length;
@@ -329,6 +345,7 @@ class _RitualPageState extends State<RitualPage> {
         Text(pickLoc(r.title, lang), style: t.headlineMedium?.copyWith(fontSize: 30)),
         const SizedBox(height: 8),
         Text(pickLoc(r.intro, lang), style: t.bodyLarge?.copyWith(fontSize: 15.5, height: 1.55)),
+        if (locked) const ProLockedCard(),
         const SizedBox(height: 16),
         if (running)
           Container(
@@ -426,7 +443,7 @@ class _RitualPageState extends State<RitualPage> {
         _Heading(l.recipeEvidence),
         HonestNote(pickLoc(r.evidence, lang)),
       ],
-      bottom: running
+      bottom: running || locked
           ? null
           : Padding(
               padding: const EdgeInsetsDirectional.fromSTEB(20, 4, 20, 14),

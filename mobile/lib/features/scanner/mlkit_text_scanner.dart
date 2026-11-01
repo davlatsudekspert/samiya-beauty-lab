@@ -15,11 +15,7 @@ class MlkitTextScanner implements TextScanner {
   Future<String?> scan(ScanSource source) async {
     final XFile? file;
     try {
-      file = await _picker.pickImage(
-        source: source == ScanSource.camera ? ImageSource.camera : ImageSource.gallery,
-        maxWidth: 2400,
-        imageQuality: 92,
-      );
+      file = await _picker.pickImage(source: source == ScanSource.camera ? ImageSource.camera : ImageSource.gallery, maxWidth: 2400, imageQuality: 92);
     } catch (_) {
       throw const ScanException(ScanFailure.failed); // ruxsat berilmagan yoki kamera yo'q
     }

@@ -14,14 +14,16 @@ class ElegantEmpty extends StatelessWidget {
     final t = Theme.of(context).textTheme;
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 18),
-      child: Column(children: [
-        const SamiyaMark(size: 46),
-        const SizedBox(height: 16),
-        Text(title, textAlign: TextAlign.center, style: t.headlineSmall?.copyWith(fontSize: 25)),
-        const SizedBox(height: 8),
-        Text(body, textAlign: TextAlign.center, style: t.bodyLarge?.copyWith(fontSize: 15)),
-        if (child != null) ...[const SizedBox(height: 16), child!],
-      ]),
+      child: Column(
+        children: [
+          const SamiyaMark(size: 46),
+          const SizedBox(height: 16),
+          Text(title, textAlign: TextAlign.center, style: t.headlineSmall?.copyWith(fontSize: 25)),
+          const SizedBox(height: 8),
+          Text(body, textAlign: TextAlign.center, style: t.bodyLarge?.copyWith(fontSize: 15)),
+          if (child != null) ...[const SizedBox(height: 16), child!],
+        ],
+      ),
     );
   }
 }

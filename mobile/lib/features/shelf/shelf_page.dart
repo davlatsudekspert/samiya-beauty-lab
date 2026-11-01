@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/app_state.dart';
+import '../../app/pro_gate.dart';
 import '../../app/theme.dart';
 import '../../data/personal_store.dart';
 import '../../l10n/app_localizations.dart';
@@ -45,7 +46,12 @@ class ShelfPage extends StatelessWidget {
                         else
                           for (final i in items) _Row(item: i, now: now, onDelete: () => store.removeShelf(i.id)),
                         const SizedBox(height: 12),
-                        GradientButton(key: const Key('shelf-add'), label: l.shelfAdd, trailing: Icons.add_rounded, onPressed: () => _add(context)),
+                        GradientButton(
+                          key: const Key('shelf-add'),
+                          label: l.shelfAdd,
+                          trailing: Icons.add_rounded,
+                          onPressed: () => !AppScope.of(context).unlocked && store.shelf.length >= ProGate.freeShelf ? context.push('/pro') : _add(context),
+                        ),
                       ],
                     ),
                   ),

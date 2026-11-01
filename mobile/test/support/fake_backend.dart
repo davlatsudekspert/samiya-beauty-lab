@@ -17,6 +17,7 @@ class FakeBackendApi implements BackendApi {
   bool adminFails = false;
   final List<({String question, String lang, String context, int history})> aiAsks = [];
   BackendException? aiError;
+  CampaignInfo campaignInfo = CampaignInfo.open;
 
   @override
   bool get isConfigured => configured;
@@ -72,4 +73,7 @@ class FakeBackendApi implements BackendApi {
     if (aiError != null) throw aiError!;
     return AiAnswer(answer: 'AI javobi: $question', remaining: 4, limit: 5);
   }
+
+  @override
+  Future<CampaignInfo> campaign() async => campaignInfo;
 }

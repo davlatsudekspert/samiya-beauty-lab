@@ -46,22 +46,19 @@ class AppLocalizationsEn extends AppLocalizations {
   String get onboarding1Title => 'Beauty begins with science';
 
   @override
-  String get onboarding1Body =>
-      'Understand ingredients and choose products with confidence.';
+  String get onboarding1Body => 'Understand ingredients and choose products with confidence.';
 
   @override
   String get onboarding2Title => 'Your personal care';
 
   @override
-  String get onboarding2Body =>
-      'Build morning and evening routines that suit you.';
+  String get onboarding2Body => 'Build morning and evening routines that suit you.';
 
   @override
   String get onboarding3Title => 'Learn and grow';
 
   @override
-  String get onboarding3Body =>
-      'The Academy, quizzes and the SAMIYA AI assistant in one app.';
+  String get onboarding3Body => 'The Academy, quizzes and the SAMIYA AI assistant in one app.';
 
   @override
   String get loginBanner => 'Beauty, science and care';
@@ -73,12 +70,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get welcomeTitle => 'Welcome!';
 
   @override
-  String get loginSubtitle =>
-      'Continue your care and learning journey with SAMIYA.';
+  String get loginSubtitle => 'Continue your care and learning journey with SAMIYA.';
 
   @override
-  String get legalNotice =>
-      'By continuing, you agree to the Terms of Use and Privacy Policy.';
+  String get legalNotice => 'By continuing, you agree to the Terms of Use and Privacy Policy.';
 
   @override
   String get comingSoon => 'Coming soon';
@@ -87,8 +82,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get roleTitle => 'Who are you?';
 
   @override
-  String get roleSubtitle =>
-      'We will show the learning and care sections that fit your role.';
+  String get roleSubtitle => 'We will show the learning and care sections that fit your role.';
 
   @override
   String get roleUser => 'User';
@@ -172,8 +166,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get scannerHeroTitle => 'Check the ingredients';
 
   @override
-  String get scannerHeroBody =>
-      'Enter a product\'s ingredient list. We show sourced information about each ingredient.';
+  String get scannerHeroBody => 'Enter a product\'s ingredient list. We show sourced information about each ingredient.';
 
   @override
   String get scanCamera => 'Scan with camera';
@@ -185,8 +178,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get manualTitle => 'Enter ingredients';
 
   @override
-  String get manualHelp =>
-      'Copy the INCI list from the packaging (Latin letters).';
+  String get manualHelp => 'Copy the INCI list from the packaging (Latin letters).';
 
   @override
   String get manualHint => 'E.g. Aqua, Glycerin, Niacinamide...';
@@ -209,12 +201,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get notInDatabase => 'Not in our database yet';
 
   @override
-  String get resultNoneFound =>
-      'None of the entered ingredients are in our database yet. The database keeps growing.';
+  String get resultNoneFound => 'None of the entered ingredients are in our database yet. The database keeps growing.';
 
   @override
-  String get resultNote =>
-      'This is not medical advice. Information is based on published studies and does not indicate whether a product suits you.';
+  String get resultNote => 'This is not medical advice. Information is based on published studies and does not indicate whether a product suits you.';
 
   @override
   String get detailClaims => 'What studies found';
@@ -229,8 +219,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get draftNote => 'Draft: the translation has not been reviewed yet.';
 
   @override
-  String get euUnverified =>
-      'EU regulation and CosIng data have not been verified yet.';
+  String get euUnverified => 'EU regulation and CosIng data have not been verified yet.';
 
   @override
   String get evidenceLegendTitle => 'Evidence levels';
@@ -290,8 +279,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get deleteConfirmTitle => 'Delete your account?';
 
   @override
-  String get deleteConfirmBody =>
-      'Your account and its data will be permanently deleted. This cannot be undone.';
+  String get deleteConfirmBody => 'Your account and its data will be permanently deleted. This cannot be undone.';
 
   @override
   String get cancel => 'Cancel';
@@ -303,8 +291,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get deleteDone => 'Account deleted.';
 
   @override
-  String get deleteNeedsRelogin =>
-      'For security, sign in again and then delete your account.';
+  String get deleteNeedsRelogin => 'For security, sign in again and then delete your account.';
 
   @override
   String get actionFailed => 'The action failed. Please try again.';
@@ -325,8 +312,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get adminInstalls => 'Installs';
 
   @override
-  String get adminInstallsNote =>
-      'This is not the store download count: it counts devices where the app was opened at least once.';
+  String get adminInstallsNote => 'This is not the store download count: it counts devices where the app was opened at least once.';
 
   @override
   String get adminTotal => 'Total';
@@ -420,20 +406,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get scanReading => 'Reading the text...';
 
   @override
-  String get scanNoText =>
-      'No ingredient list found. Take a closer, sharper photo of the ingredients in good light.';
+  String get scanNoText => 'No ingredient list found. Take a closer, sharper photo of the ingredients in good light.';
 
   @override
-  String get scanFailed =>
-      'Could not read the image. Try again or enter the ingredients manually.';
+  String get scanFailed => 'Could not read the image. Try again or enter the ingredients manually.';
 
   @override
-  String get scanUnavailable =>
-      'Camera scanning is not available on this device. Enter the ingredients manually.';
+  String get scanUnavailable => 'Camera scanning is not available on this device. Enter the ingredients manually.';
 
   @override
-  String get scanReviewHint =>
-      'The text was read from the photo. Check it and fix any mistakes.';
+  String get scanReviewHint => 'The text was read from the photo. Check it and fix any mistakes.';
 
   @override
   String get filterAll => 'All';
@@ -472,8 +454,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get traditionalTitle => 'Traditional use';
 
   @override
-  String get traditionalNote =>
-      'Historical and traditional sources: this is not scientific evidence and does not indicate effectiveness or safety.';
+  String get traditionalNote => 'Historical and traditional sources: this is not scientific evidence and does not indicate effectiveness or safety.';
 
   @override
   String get ibnSinaCardBody => 'What historical sources say about skin care';
@@ -521,8 +502,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get skinSensitive => 'Sensitive';
 
   @override
-  String get skinNote =>
-      'The app does not determine your skin type or diagnose anything: this is a note for you.';
+  String get skinNote => 'The app does not determine your skin type or diagnose anything: this is a note for you.';
 
   @override
   String get avoidTitle => 'Ingredients you want to avoid';
@@ -534,8 +514,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get avoidAdd => 'Add';
 
   @override
-  String get avoidEmpty =>
-      'The list is empty. If a scan finds these ingredients, we will flag them.';
+  String get avoidEmpty => 'The list is empty. If a scan finds these ingredients, we will flag them.';
 
   @override
   String avoidFound(String names) {
@@ -575,8 +554,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get journalAdd => 'Add entry';
 
   @override
-  String get journalEmpty =>
-      'No entries yet. Leave a short note about your skin and care.';
+  String get journalEmpty => 'No entries yet. Leave a short note about your skin and care.';
 
   @override
   String get journalFeeling => 'How does your skin feel today?';
@@ -603,23 +581,19 @@ class AppLocalizationsEn extends AppLocalizations {
   String get saveAction => 'Save';
 
   @override
-  String get personalDataNote =>
-      'This information is stored only on this phone.';
+  String get personalDataNote => 'This information is stored only on this phone.';
 
   @override
-  String get botanicalCredit =>
-      'Botanical plate: F. E. Köhler, “Köhler\'s Medizinal-Pflanzen”, 1887 (public domain)';
+  String get botanicalCredit => 'Botanical plate: F. E. Köhler, “Köhler\'s Medizinal-Pflanzen”, 1887 (public domain)';
 
   @override
-  String get photoCredit =>
-      'Photo: iNaturalist community, CC0 (no rights reserved)';
+  String get photoCredit => 'Photo: iNaturalist community, CC0 (no rights reserved)';
 
   @override
   String get honestLead => 'In all honesty:';
 
   @override
-  String get academySubtitle =>
-      'Cosmetology essentials: short, evidence-based lessons.';
+  String get academySubtitle => 'Cosmetology essentials: short, evidence-based lessons.';
 
   @override
   String get academyT1 => 'Skin anatomy and physiology';
@@ -664,8 +638,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get lessonSources => 'Sources';
 
   @override
-  String get lessonDraftNote =>
-      'this lesson is an evidence-based draft awaiting review by an expert cosmetologist. It is not medical advice.';
+  String get lessonDraftNote => 'this lesson is an evidence-based draft awaiting review by an expert cosmetologist. It is not medical advice.';
 
   @override
   String lessonMinutes(int n) {
@@ -695,8 +668,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get lessonDone => 'Read';
 
   @override
-  String get aiSubtitle =>
-      'Your personal beauty assistant: clear explanations grounded in scientific sources.';
+  String get aiSubtitle => 'Your personal beauty assistant: clear explanations grounded in scientific sources.';
 
   @override
   String get aiDisclaimer =>
@@ -722,16 +694,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get aiSignInBtn => 'Sign in';
 
   @override
-  String get aiNotReady =>
-      'SAMIYA AI is launching soon. Meanwhile, explore the ingredient library, the Ibn Sina section and the Academy.';
+  String get aiNotReady => 'SAMIYA AI is launching soon. Meanwhile, explore the ingredient library, the Ibn Sina section and the Academy.';
 
   @override
-  String get aiQuota =>
-      'You’ve used today’s free questions. You can ask again tomorrow.';
+  String get aiQuota => 'You’ve used today’s free questions. You can ask again tomorrow.';
 
   @override
-  String get aiError =>
-      'Couldn’t get an answer. Check your connection and try again.';
+  String get aiError => 'Couldn’t get an answer. Check your connection and try again.';
 
   @override
   String get aiRetry => 'Try again';
@@ -776,8 +745,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get shelfEmptyTitle => 'Your shelf is empty for now';
 
   @override
-  String get shelfEmptyBody =>
-      'Add your first product: its name, the date you opened it and its PAO symbol.';
+  String get shelfEmptyBody => 'Add your first product: its name, the date you opened it and its PAO symbol.';
 
   @override
   String get shelfAdd => 'Add product';
@@ -841,8 +809,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get ritualsTitle => 'Rituals';
 
   @override
-  String get ritualsIntro =>
-      'Step-by-step, timed rituals for facial massage and gua sha. Take your time and press gently.';
+  String get ritualsIntro => 'Step-by-step, timed rituals for facial massage and gua sha. Take your time and press gently.';
 
   @override
   String get ritualStart => 'Start';
@@ -857,8 +824,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get ritualNext => 'Next';
 
   @override
-  String get ritualDone =>
-      'Ritual complete. Thank you for taking time for yourself!';
+  String get ritualDone => 'Ritual complete. Thank you for taking time for yourself!';
 
   @override
   String ritualStep(int n, int i) {
@@ -888,4 +854,66 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get colNaturalBody => 'Elegant recipes to make at home';
+
+  @override
+  String get proSubtitle => 'The complete collection of beauty knowledge — deeper and more personal.';
+
+  @override
+  String get proFreeTitle => 'Always free';
+
+  @override
+  String get proFree1 => 'Scanner and ingredient library';
+
+  @override
+  String get proFree2 => 'The first Academy lessons';
+
+  @override
+  String get proFree3 => 'Selected recipes and a ritual';
+
+  @override
+  String get proFree4 => 'SAMIYA AI — a few questions a day';
+
+  @override
+  String get proPlusTitle => 'With Pro';
+
+  @override
+  String get proB1 => 'SAMIYA AI — up to 50 questions a day';
+
+  @override
+  String get proB2 => 'Every Academy lesson, plus new ones';
+
+  @override
+  String get proB3 => 'All recipes and rituals, updated regularly';
+
+  @override
+  String get proB4 => 'The full Ibn Sina section';
+
+  @override
+  String get proB5 => 'Unlimited “My shelf”';
+
+  @override
+  String get proB6 => 'No ads';
+
+  @override
+  String get proCampaign => 'During the 90-day launch everything is free — no card needed.';
+
+  @override
+  String get proSoon => 'Pro is coming soon. No automatic charges and no hidden fees.';
+
+  @override
+  String get proEarly => 'A special offer for early members is on its way.';
+
+  @override
+  String get proLocked => 'This section unlocks with Pro';
+
+  @override
+  String get proUnlock => 'About Pro';
+
+  @override
+  String proDaysLeft(int n) {
+    return '$n days left in the free period';
+  }
+
+  @override
+  String get proActive => 'Pro is active — every section is open';
 }

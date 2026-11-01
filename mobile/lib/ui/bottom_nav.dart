@@ -31,18 +31,20 @@ class SamiyaBottomNav extends StatelessWidget {
           top: false,
           child: Padding(
             padding: const EdgeInsets.fromLTRB(8, 8, 8, 6),
-            child: Row(children: [
-              for (var i = 0; i < items.length; i++)
-                Expanded(
-                  child: _NavItem(
-                    key: Key('nav-${items[i].$1}'),
-                    label: items[i].$2,
-                    icon: i == index ? items[i].$4 : items[i].$3,
-                    selected: i == index,
-                    onTap: () => onTap(i),
+            child: Row(
+              children: [
+                for (var i = 0; i < items.length; i++)
+                  Expanded(
+                    child: _NavItem(
+                      key: Key('nav-${items[i].$1}'),
+                      label: items[i].$2,
+                      icon: i == index ? items[i].$4 : items[i].$3,
+                      selected: i == index,
+                      onTap: () => onTap(i),
+                    ),
                   ),
-                ),
-            ]),
+              ],
+            ),
           ),
         ),
       ),
@@ -73,37 +75,40 @@ class _NavItem extends StatelessWidget {
         child: ConstrainedBox(
           constraints: const BoxConstraints(minHeight: 56),
           child: ExcludeSemantics(
-            child: Column(mainAxisAlignment: MainAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
-              AnimatedSlide(
-                duration: d,
-                curve: Curves.easeOutBack,
-                offset: selected ? const Offset(0, -0.12) : Offset.zero,
-                child: AnimatedScale(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                AnimatedSlide(
                   duration: d,
                   curve: Curves.easeOutBack,
-                  scale: selected ? 1.12 : 1,
-                  child: AnimatedContainer(
+                  offset: selected ? const Offset(0, -0.12) : Offset.zero,
+                  child: AnimatedScale(
                     duration: d,
-                    curve: Curves.easeOut,
-                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
-                    decoration: BoxDecoration(
-                      color: selected ? SamiyaColors.blush : Colors.transparent,
-                      borderRadius: BorderRadius.circular(16),
+                    curve: Curves.easeOutBack,
+                    scale: selected ? 1.12 : 1,
+                    child: AnimatedContainer(
+                      duration: d,
+                      curve: Curves.easeOut,
+                      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+                      decoration: BoxDecoration(color: selected ? SamiyaColors.blush : Colors.transparent, borderRadius: BorderRadius.circular(16)),
+                      child: Icon(icon, size: 24, color: color),
                     ),
-                    child: Icon(icon, size: 24, color: color),
                   ),
                 ),
-              ),
-              const SizedBox(height: 2),
-              FittedBox(
-                fit: BoxFit.scaleDown,
-                child: Text(label,
+                const SizedBox(height: 2),
+                FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(
+                    label,
                     maxLines: 1,
                     textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                        color: color, fontSize: 11, fontWeight: selected ? FontWeight.w600 : FontWeight.w400, letterSpacing: 0)),
-              ),
-            ]),
+                    style: Theme.of(context).textTheme.labelSmall
+                        ?.copyWith(color: color, fontSize: 11, fontWeight: selected ? FontWeight.w600 : FontWeight.w400, letterSpacing: 0),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),

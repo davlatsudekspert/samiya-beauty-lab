@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 import '../../ui/safe_nav.dart';
+
 import 'package:go_router/go_router.dart';
 
 import '../../app/app_state.dart';
@@ -65,60 +67,77 @@ class _LoginPageState extends State<LoginPage> {
       key: const Key('login-page'),
       body: SamiyaBackground(
         child: SafeArea(
-          child: Column(children: [
-            PageHeader(onBack: () => context.canPop() ? context.pop() : context.go('/onboarding')),
-            if (_busy) const LinearProgressIndicator(key: Key('login-busy'), minHeight: 3, color: SamiyaColors.rose),
-            Expanded(
-              child: PageBody(
-                child: Column(children: [
-                  const SizedBox(height: 4),
-                  const SizedBox(height: 18),
-                  Semantics(label: l.appName, child: const SamiyaMark(size: 96)),
-                  const SizedBox(height: 22),
-                  Text(l.campaignNoCard.toUpperCase(), textAlign: TextAlign.center, style: t.labelSmall?.copyWith(color: const Color(0xFF8C6A3A), letterSpacing: Localizations.localeOf(context).languageCode == 'ar' ? 0 : 2, fontSize: 11.5)),
-                  const SizedBox(height: 14),
-                  Text(l.welcomeTitle, textAlign: TextAlign.center, style: t.headlineMedium),
-                  const SizedBox(height: 8),
-                  Text(l.loginSubtitle, textAlign: TextAlign.center, style: t.bodyLarge),
-                  const SizedBox(height: 22),
-                  if (_error != null) ...[
-                    _InlineError(key: const Key('login-error'), text: _error!),
-                    const SizedBox(height: 12),
-                  ],
-                  _ProviderButton(
-                    key: const Key('btn-google'),
-                    label: l.continueWithGoogle,
-                    dark: false,
-                    leading: const Text('G',
-                        style: TextStyle(fontFamily: 'Inter', fontWeight: FontWeight.w700, fontSize: 20, color: Color(0xFF4285F4))),
-                    onTap: _busy ? null : () => _signIn((a) => a.signInWithGoogle()),
+          child: Column(
+            children: [
+              PageHeader(onBack: () => context.canPop() ? context.pop() : context.go('/onboarding')),
+              if (_busy) const LinearProgressIndicator(key: Key('login-busy'), minHeight: 3, color: SamiyaColors.rose),
+              Expanded(
+                child: PageBody(
+                  child: Column(
+                    children: [
+                      const SizedBox(height: 4),
+                      const SizedBox(height: 18),
+                      Semantics(label: l.appName, child: const SamiyaMark(size: 96)),
+                      const SizedBox(height: 22),
+                      Text(
+                        l.campaignNoCard.toUpperCase(),
+                        textAlign: TextAlign.center,
+                        style: t.labelSmall?.copyWith(
+                          color: const Color(0xFF8C6A3A),
+                          letterSpacing: Localizations.localeOf(context).languageCode == 'ar' ? 0 : 2,
+                          fontSize: 11.5,
+                        ),
+                      ),
+                      const SizedBox(height: 14),
+                      Text(l.welcomeTitle, textAlign: TextAlign.center, style: t.headlineMedium),
+                      const SizedBox(height: 8),
+                      Text(l.loginSubtitle, textAlign: TextAlign.center, style: t.bodyLarge),
+                      const SizedBox(height: 22),
+                      if (_error != null) ...[_InlineError(key: const Key('login-error'), text: _error!), const SizedBox(height: 12)],
+                      _ProviderButton(
+                        key: const Key('btn-google'),
+                        label: l.continueWithGoogle,
+                        dark: false,
+                        leading: const Text(
+                          'G',
+                          style: TextStyle(fontFamily: 'Inter', fontWeight: FontWeight.w700, fontSize: 20, color: Color(0xFF4285F4)),
+                        ),
+                        onTap: _busy ? null : () => _signIn((a) => a.signInWithGoogle()),
+                      ),
+                      const SizedBox(height: 12),
+                      _ProviderButton(
+                        key: const Key('btn-apple'),
+                        label: l.continueWithApple,
+                        dark: true,
+                        leading: const Icon(Icons.apple, size: 24, color: Colors.white),
+                        onTap: _busy ? null : () => _signIn((a) => a.signInWithApple()),
+                      ),
+                      const SizedBox(height: 8),
+                      SizedBox(
+                        width: double.infinity,
+                        height: 52,
+                        child: TextButton(
+                          key: const Key('btn-guest'),
+                          onPressed: _busy ? null : () => context.safePush('/role'),
+                          child: Text(
+                            l.continueAsGuest,
+                            textAlign: TextAlign.center,
+                            style: t.titleMedium?.copyWith(color: SamiyaColors.heading),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 10),
+                      Text(
+                        l.legalNotice,
+                        textAlign: TextAlign.center,
+                        style: t.bodyMedium?.copyWith(fontSize: 12, color: SamiyaColors.muted),
+                      ),
+                    ],
                   ),
-                  const SizedBox(height: 12),
-                  _ProviderButton(
-                    key: const Key('btn-apple'),
-                    label: l.continueWithApple,
-                    dark: true,
-                    leading: const Icon(Icons.apple, size: 24, color: Colors.white),
-                    onTap: _busy ? null : () => _signIn((a) => a.signInWithApple()),
-                  ),
-                  const SizedBox(height: 8),
-                  SizedBox(
-                    width: double.infinity,
-                    height: 52,
-                    child: TextButton(
-                      key: const Key('btn-guest'),
-                      onPressed: _busy ? null : () => context.safePush('/role'),
-                      child: Text(l.continueAsGuest,
-                          textAlign: TextAlign.center, style: t.titleMedium?.copyWith(color: SamiyaColors.heading)),
-                    ),
-                  ),
-                  const SizedBox(height: 10),
-                  Text(l.legalNotice,
-                      textAlign: TextAlign.center, style: t.bodyMedium?.copyWith(fontSize: 12, color: SamiyaColors.muted)),
-                ]),
+                ),
               ),
-            ),
-          ]),
+            ],
+          ),
         ),
       ),
     );
@@ -141,11 +160,16 @@ class _InlineError extends StatelessWidget {
           borderRadius: BorderRadius.circular(18),
           border: Border.all(color: const Color(0xFFF2B8BD)),
         ),
-        child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          const Icon(Icons.info_outline_rounded, size: 20, color: Color(0xFFB3261E)),
-          const SizedBox(width: 10),
-          Expanded(child: Text(text, style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: const Color(0xFF7A1F1A)))),
-        ]),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Icon(Icons.info_outline_rounded, size: 20, color: Color(0xFFB3261E)),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Text(text, style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: const Color(0xFF7A1F1A))),
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -180,26 +204,27 @@ class _ProviderButton extends StatelessWidget {
                 borderRadius: BorderRadius.circular(22),
                 border: Border.all(color: dark ? SamiyaColors.appleBlack : SamiyaColors.border, width: 1.4),
               ),
-              child: Row(children: [
-                Container(
-                  width: 38,
-                  height: 38,
-                  alignment: Alignment.center,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: dark ? Colors.white.withValues(alpha: 0.14) : const Color(0xFFF4F1EF),
+              child: Row(
+                children: [
+                  Container(
+                    width: 38,
+                    height: 38,
+                    alignment: Alignment.center,
+                    decoration: BoxDecoration(shape: BoxShape.circle, color: dark ? Colors.white.withValues(alpha: 0.14) : const Color(0xFFF4F1EF)),
+                    child: leading,
                   ),
-                  child: leading,
-                ),
-                const SizedBox(width: 14),
-                Expanded(
-                  child: ExcludeSemantics(
-                    child: Text(label,
-                        style: Theme.of(context).textTheme.titleMedium?.copyWith(color: fg, fontWeight: FontWeight.w700)),
+                  const SizedBox(width: 14),
+                  Expanded(
+                    child: ExcludeSemantics(
+                      child: Text(
+                        label,
+                        style: Theme.of(context).textTheme.titleMedium?.copyWith(color: fg, fontWeight: FontWeight.w700),
+                      ),
+                    ),
                   ),
-                ),
-                Icon(Icons.chevron_right_rounded, color: fg.withValues(alpha: 0.7)),
-              ]),
+                  Icon(Icons.chevron_right_rounded, color: fg.withValues(alpha: 0.7)),
+                ],
+              ),
             ),
           ),
         ),
