@@ -46,9 +46,9 @@ class _OnboardingPageState extends State<OnboardingPage> {
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
     final slides = [
-      (l.onboarding1Title, l.onboarding1Body, 'assets/images/ob1_ingredients.png'),
-      (l.onboarding2Title, l.onboarding2Body, 'assets/images/ob2_routine.png'),
-      (l.onboarding3Title, l.onboarding3Body, 'assets/images/ob3_learn.png'),
+      (l.onboarding1Title, l.onboarding1Body, 'assets/tiles/ingredients.jpg'),
+      (l.onboarding2Title, l.onboarding2Body, 'assets/tiles/morning.jpg'),
+      (l.onboarding3Title, l.onboarding3Body, 'assets/tiles/academy.jpg'),
     ];
     final last = _index == _pages - 1;
     return Scaffold(

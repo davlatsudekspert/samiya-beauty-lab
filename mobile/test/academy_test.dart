@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:samiya_beauty_lab/app/app_state.dart';
+import 'package:samiya_beauty_lab/features/care/care_models.dart';
 import 'package:samiya_beauty_lab/features/scanner/ingredient_models.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -37,7 +38,7 @@ void main() {
     expect(repo.rituals.length, greaterThanOrEqualTo(12));
     for (final r in repo.recipes) {
       expect(r.safety, isNotEmpty);
-      expect(File('assets/photos/${r.photo}.jpg').existsSync(), isTrue, reason: r.id);
+      expect(File(carePhoto(r.photo)).existsSync(), isTrue, reason: r.id);
       for (final i in r.ingredients) {
         expect(repo.bySlug(i), isNotNull, reason: '${r.id}: $i');
       }
@@ -48,7 +49,7 @@ void main() {
     }
     for (final r in repo.rituals) {
       expect(r.totalSeconds, inInclusiveRange(120, 900));
-      expect(File('assets/photos/${r.photo}.jpg').existsSync(), isTrue);
+      expect(File(carePhoto(r.photo)).existsSync(), isTrue, reason: r.id);
     }
   });
 

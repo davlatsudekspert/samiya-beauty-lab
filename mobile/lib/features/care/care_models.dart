@@ -75,4 +75,8 @@ class Ritual {
 }
 
 /// Rasm: ingredient slug yoki deco_* nomi -> asset yo'li.
-String carePhoto(String? p) => p == null ? 'assets/photos/deco_peony.jpg' : 'assets/photos/$p.jpg';
+String carePhoto(String? p) => p == null
+    ? 'assets/tiles/rituals.jpg'
+    : p.startsWith('tiles/')
+        ? 'assets/$p.jpg'
+        : 'assets/photos/$p.jpg';

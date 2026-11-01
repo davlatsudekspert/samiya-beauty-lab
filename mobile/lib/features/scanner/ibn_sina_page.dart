@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../app/pro_gate.dart';
+import '../../ui/arch_photo.dart';
 import '../pro/pro_page.dart';
 import 'ingredient_models.dart';
 
@@ -35,6 +36,8 @@ class IbnSinaPage extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const SizedBox(height: 8),
+                      const ArchPhoto('assets/tiles/ibnsina.jpg', height: 200),
+                      const SizedBox(height: 16),
                       Text(intro?.titleFor(lang) ?? l.ibnSinaMore, style: t.headlineMedium),
                       const SizedBox(height: 6),
                       Container(height: 1, width: 64, color: SamiyaColors.gold),

@@ -252,14 +252,16 @@ class HomePage extends StatelessWidget {
                         child: Row(
                           children: [
                             Container(
-                              width: 54,
-                              height: 54,
+                              width: 64,
+                              height: 76,
                               decoration: BoxDecoration(
-                                shape: BoxShape.circle,
+                                borderRadius: const BorderRadius.vertical(top: Radius.circular(32), bottom: Radius.circular(12)),
                                 border: Border.all(color: SamiyaColors.gold),
-                                gradient: const LinearGradient(colors: [Color(0xFFFBF6F2), Color(0xFFEBDCD3)]),
                               ),
-                              child: const Icon(Icons.menu_book_rounded, color: SamiyaColors.heading),
+                              child: ClipRRect(
+                                borderRadius: const BorderRadius.vertical(top: Radius.circular(31), bottom: Radius.circular(11)),
+                                child: Image.asset('assets/tiles/ibnsina.jpg', fit: BoxFit.cover),
+                              ),
                             ),
                             const SizedBox(width: 14),
                             Expanded(

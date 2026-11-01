@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
-import '../../ui/brand.dart';
+import '../../ui/arch_photo.dart';
 import '../../ui/safe_nav.dart';
 import '../../ui/widgets.dart';
 
@@ -42,7 +42,7 @@ class ProPage extends StatelessWidget {
                 child: ListView(
                   padding: const EdgeInsetsDirectional.fromSTEB(20, 4, 20, 28),
                   children: [
-                    const Center(child: SamiyaMark(size: 84)),
+                    const ArchPhoto('assets/tiles/pro.jpg', height: 210),
                     const SizedBox(height: 14),
                     Text('SAMIYA Pro', textAlign: TextAlign.center, style: t.headlineMedium?.copyWith(fontSize: 34)),
                     const SizedBox(height: 6),
