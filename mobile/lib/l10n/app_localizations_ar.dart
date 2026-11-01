@@ -777,4 +777,135 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get aiS4 => 'ماذا كتب ابن سينا عن العناية بالبشرة؟';
+
+  @override
+  String get tileShelf => 'مستحضراتي';
+
+  @override
+  String get tileRecipes => 'وصفات منزلية';
+
+  @override
+  String get tileRituals => 'طقوس العناية';
+
+  @override
+  String get shelfTitle => 'رفّ مستحضراتي';
+
+  @override
+  String get shelfIntro =>
+      'سجّلي المنتجات التي فتحتِها — وعندما يقترب انتهاء صلاحية أحدها سترينه هنا. يدلّ الرقم داخل رمز العلبة المفتوحة على العبوة (مثل 12M) على عدد الأشهر التي يمكن فيها استخدام المنتج بعد فتحه.';
+
+  @override
+  String get shelfEmptyTitle => 'رفّكِ فارغ حاليًا';
+
+  @override
+  String get shelfEmptyBody => 'أضيفي أول منتج: اسمه وتاريخ فتحه ورمز PAO.';
+
+  @override
+  String get shelfAdd => 'إضافة منتج';
+
+  @override
+  String get shelfName => 'اسم المنتج';
+
+  @override
+  String get shelfOpened => 'تاريخ الفتح';
+
+  @override
+  String get shelfPao => 'بعد الفتح (PAO)';
+
+  @override
+  String shelfMonths(int n) {
+    return '$n شهرًا';
+  }
+
+  @override
+  String shelfDaysLeft(int n) {
+    return 'الأيام المتبقية: $n';
+  }
+
+  @override
+  String get shelfExpired => 'انتهت صلاحيته';
+
+  @override
+  String get shelfOk => 'صالح';
+
+  @override
+  String get shelfSave => 'حفظ';
+
+  @override
+  String shelfAttention(int n) {
+    return 'منتجات تحتاج إلى انتباه: $n';
+  }
+
+  @override
+  String get recipesTitle => 'وصفات منزلية';
+
+  @override
+  String get recipesIntro =>
+      'عناية بسيطة وأنيقة من مكونات طبيعية في مطبخكِ. مع كل وصفة قواعد للسلامة وتعليق صادق عمّا يقوله العلم.';
+
+  @override
+  String get recipeYouNeed => 'ستحتاجين إلى';
+
+  @override
+  String get recipeSteps => 'طريقة التحضير';
+
+  @override
+  String get recipeSafety => 'السلامة';
+
+  @override
+  String get recipeEvidence => 'ماذا يقول العلم';
+
+  @override
+  String get recipeIngredients => 'بطاقات المكونات';
+
+  @override
+  String get ritualsTitle => 'طقوس العناية';
+
+  @override
+  String get ritualsIntro =>
+      'طقوس مؤقّتة خطوة بخطوة لتدليك الوجه والغواشا. خذي وقتكِ واضغطي برفق.';
+
+  @override
+  String get ritualStart => 'ابدئي';
+
+  @override
+  String get ritualPause => 'إيقاف مؤقت';
+
+  @override
+  String get ritualResume => 'متابعة';
+
+  @override
+  String get ritualNext => 'التالي';
+
+  @override
+  String get ritualDone => 'اكتمل الطقس. شكرًا لأنكِ خصّصتِ وقتًا لنفسكِ!';
+
+  @override
+  String ritualStep(int n, int i) {
+    return 'الخطوة $i من $n';
+  }
+
+  @override
+  String get tipTitle => 'نصيحة اليوم';
+
+  @override
+  String get collectionsTitle => 'مجموعات';
+
+  @override
+  String get colHeat => 'العناية في المناخ الحار';
+
+  @override
+  String get colHeatBody => 'الشمس والرطوبة والقوامات الخفيفة';
+
+  @override
+  String get colWinter => 'جفاف الشتاء';
+
+  @override
+  String get colWinterBody => 'حماية حاجز البشرة';
+
+  @override
+  String get colNatural => 'جمال طبيعي';
+
+  @override
+  String get colNaturalBody => 'وصفات منزلية أنيقة';
 }

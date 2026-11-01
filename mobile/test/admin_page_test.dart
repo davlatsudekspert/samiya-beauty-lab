@@ -136,7 +136,7 @@ void main() {
     await t.tap(k('admin-grant'));
     await t.pumpAndSettle();
     expect(find.text('Pro berildi.'), findsNothing);
-    expect(find.text('Ma‘lumotni yuklab bo‘lmadi.'), findsWidgets);
+    expect(find.text('Ma’lumotni yuklab bo‘lmadi.'), findsWidgets);
   });
 
   for (final lang in ['uz', 'ru', 'en', 'ar']) {

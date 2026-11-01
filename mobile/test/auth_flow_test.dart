@@ -55,7 +55,7 @@ void main() {
 
   testWidgets('kirish xatosi: halol xabar (4 tilda), ekran o\'zgarmaydi', (t) async {
     const msgs = {
-      'uz': 'Kirish bajarilmadi. Qayta urinib ko‘ring.',
+      'uz': 'Kirib bo‘lmadi. Qayta urinib ko‘ring.',
       'ru': 'Не удалось войти. Попробуйте ещё раз.',
       'en': 'Sign-in failed. Please try again.',
       'ar': 'تعذّر تسجيل الدخول. يُرجى المحاولة مرة أخرى.',

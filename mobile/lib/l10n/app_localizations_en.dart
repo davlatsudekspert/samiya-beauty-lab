@@ -755,4 +755,137 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get aiS4 => 'What did Ibn Sina write about skin care?';
+
+  @override
+  String get tileShelf => 'My shelf';
+
+  @override
+  String get tileRecipes => 'Make at home';
+
+  @override
+  String get tileRituals => 'Rituals';
+
+  @override
+  String get shelfTitle => 'My beauty shelf';
+
+  @override
+  String get shelfIntro =>
+      'Log the products you have opened — when one is close to its limit, you’ll see it here. The number in the open-jar symbol on the pack (e.g. 12M) shows how many months a product can be used after opening.';
+
+  @override
+  String get shelfEmptyTitle => 'Your shelf is empty for now';
+
+  @override
+  String get shelfEmptyBody =>
+      'Add your first product: its name, the date you opened it and its PAO symbol.';
+
+  @override
+  String get shelfAdd => 'Add product';
+
+  @override
+  String get shelfName => 'Product name';
+
+  @override
+  String get shelfOpened => 'Opened on';
+
+  @override
+  String get shelfPao => 'After opening (PAO)';
+
+  @override
+  String shelfMonths(int n) {
+    return '$n months';
+  }
+
+  @override
+  String shelfDaysLeft(int n) {
+    return '$n days left';
+  }
+
+  @override
+  String get shelfExpired => 'Past its date';
+
+  @override
+  String get shelfOk => 'Good';
+
+  @override
+  String get shelfSave => 'Save';
+
+  @override
+  String shelfAttention(int n) {
+    return '$n products need attention';
+  }
+
+  @override
+  String get recipesTitle => 'Make at home';
+
+  @override
+  String get recipesIntro =>
+      'Simple, elegant care from natural ingredients in your kitchen. Every recipe comes with safety rules and an honest note on the science.';
+
+  @override
+  String get recipeYouNeed => 'You will need';
+
+  @override
+  String get recipeSteps => 'Method';
+
+  @override
+  String get recipeSafety => 'Safety';
+
+  @override
+  String get recipeEvidence => 'What science says';
+
+  @override
+  String get recipeIngredients => 'Ingredient cards';
+
+  @override
+  String get ritualsTitle => 'Rituals';
+
+  @override
+  String get ritualsIntro =>
+      'Step-by-step, timed rituals for facial massage and gua sha. Take your time and press gently.';
+
+  @override
+  String get ritualStart => 'Start';
+
+  @override
+  String get ritualPause => 'Pause';
+
+  @override
+  String get ritualResume => 'Resume';
+
+  @override
+  String get ritualNext => 'Next';
+
+  @override
+  String get ritualDone =>
+      'Ritual complete. Thank you for taking time for yourself!';
+
+  @override
+  String ritualStep(int n, int i) {
+    return 'Step $i of $n';
+  }
+
+  @override
+  String get tipTitle => 'Tip of the day';
+
+  @override
+  String get collectionsTitle => 'Collections';
+
+  @override
+  String get colHeat => 'Care in a hot climate';
+
+  @override
+  String get colHeatBody => 'Sun, humidity and light textures';
+
+  @override
+  String get colWinter => 'Winter dryness';
+
+  @override
+  String get colWinterBody => 'Protecting the skin barrier';
+
+  @override
+  String get colNatural => 'Natural beauty';
+
+  @override
+  String get colNaturalBody => 'Elegant recipes to make at home';
 }

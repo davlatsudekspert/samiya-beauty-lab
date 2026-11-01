@@ -21,6 +21,8 @@ import '../features/scanner/scanner_page.dart';
 import '../features/shell/app_shell.dart';
 import '../features/academy/lesson_page.dart';
 import '../features/ai/ai_page.dart';
+import '../features/care/care_pages.dart';
+import '../features/shelf/shelf_page.dart';
 import '../features/tabs/academy_page.dart';
 import '../features/splash/splash_page.dart';
 import '../features/welcome/welcome_page.dart';
@@ -64,6 +66,27 @@ class _SamiyaAppState extends State<SamiyaApp> {
                   GoRoute(path: 'skin', builder: (_, _) => const SkinPage()),
                   GoRoute(path: 'routine', builder: (_, _) => const RoutinePage()),
                   GoRoute(path: 'ai', builder: (_, _) => const AiPage()),
+                  GoRoute(path: 'shelf', builder: (_, _) => const ShelfPage()),
+                  GoRoute(
+                    path: 'recipes',
+                    builder: (_, _) => const RecipesPage(),
+                    routes: [
+                      GoRoute(
+                        path: ':id',
+                        builder: (_, st) => RecipePage(id: st.pathParameters['id']!),
+                      ),
+                    ],
+                  ),
+                  GoRoute(
+                    path: 'rituals',
+                    builder: (_, _) => const RitualsPage(),
+                    routes: [
+                      GoRoute(
+                        path: ':id',
+                        builder: (_, st) => RitualPage(id: st.pathParameters['id']!),
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ],

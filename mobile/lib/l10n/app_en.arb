@@ -299,5 +299,76 @@
   "aiS1": "Can I use niacinamide and vitamin C together?",
   "aiS2": "What is a good evening routine for dry skin?",
   "aiS3": "How do I do gua sha correctly?",
-  "aiS4": "What did Ibn Sina write about skin care?"
+  "aiS4": "What did Ibn Sina write about skin care?",
+  "tileShelf": "My shelf",
+  "tileRecipes": "Make at home",
+  "tileRituals": "Rituals",
+  "shelfTitle": "My beauty shelf",
+  "shelfIntro": "Log the products you have opened — when one is close to its limit, you’ll see it here. The number in the open-jar symbol on the pack (e.g. 12M) shows how many months a product can be used after opening.",
+  "shelfEmptyTitle": "Your shelf is empty for now",
+  "shelfEmptyBody": "Add your first product: its name, the date you opened it and its PAO symbol.",
+  "shelfAdd": "Add product",
+  "shelfName": "Product name",
+  "shelfOpened": "Opened on",
+  "shelfPao": "After opening (PAO)",
+  "shelfMonths": "{n} months",
+  "@shelfMonths": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "shelfDaysLeft": "{n} days left",
+  "@shelfDaysLeft": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "shelfExpired": "Past its date",
+  "shelfOk": "Good",
+  "shelfSave": "Save",
+  "shelfAttention": "{n} products need attention",
+  "@shelfAttention": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "recipesTitle": "Make at home",
+  "recipesIntro": "Simple, elegant care from natural ingredients in your kitchen. Every recipe comes with safety rules and an honest note on the science.",
+  "recipeYouNeed": "You will need",
+  "recipeSteps": "Method",
+  "recipeSafety": "Safety",
+  "recipeEvidence": "What science says",
+  "recipeIngredients": "Ingredient cards",
+  "ritualsTitle": "Rituals",
+  "ritualsIntro": "Step-by-step, timed rituals for facial massage and gua sha. Take your time and press gently.",
+  "ritualStart": "Start",
+  "ritualPause": "Pause",
+  "ritualResume": "Resume",
+  "ritualNext": "Next",
+  "ritualDone": "Ritual complete. Thank you for taking time for yourself!",
+  "ritualStep": "Step {i} of {n}",
+  "@ritualStep": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "i": {
+        "type": "int"
+      }
+    }
+  },
+  "tipTitle": "Tip of the day",
+  "collectionsTitle": "Collections",
+  "colHeat": "Care in a hot climate",
+  "colHeatBody": "Sun, humidity and light textures",
+  "colWinter": "Winter dryness",
+  "colWinterBody": "Protecting the skin barrier",
+  "colNatural": "Natural beauty",
+  "colNaturalBody": "Elegant recipes to make at home"
 }

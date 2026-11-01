@@ -36,7 +36,7 @@
    },
    "text": {
     "uz": "Yevropa Ittifoqining 1223/2009-sonli Reglamentiga ko‘ra, ingredientlar mahsulotga qo‘shilgan paytdagi og‘irligi bo‘yicha kamayish tartibida yoziladi. Konsentratsiyasi 1% dan kam ingredientlar 1% dan ko‘p bo‘lganlardan keyin istalgan tartibda berilishi mumkin. AQSh FDA qoidasida ham ingredientlar ulushi bo‘yicha kamayish tartibida ko‘rsatiladi; 1% yoki undan kam ingredientlar va rang beruvchi qo‘shimchalar bu tartibga rioya qilinmasdan yozilishi mumkin.",
-    "ru": "Согласно Регламенту ЕС № 1223/2009, ингредиенты перечисляются в порядке убывания их массы на момент добавления в продукт. Ингредиенты с концентрацией менее 1% можно указывать в любом порядке после ингредиентов с концентрацией более 1%. По правилам FDA (США) ингредиенты также указываются в порядке убывания преобладания; ингредиенты в количестве 1% или меньше и красящие добавки можно указывать без соблюдения этого порядка.",
+    "ru": "Согласно Регламенту ЕС № 1223/2009, ингредиенты перечисляются в порядке убывания их массы на момент добавления в продукт. Ингредиенты с концентрацией менее 1% можно указывать в любом порядке после ингредиентов с концентрацией более 1%. По правилам FDA (США) ингредиенты также указываются в порядке убывания содержания; ингредиенты в количестве 1% или меньше и красящие добавки можно указывать без соблюдения этого порядка.",
     "en": "Under EU Regulation (EC) No 1223/2009, ingredients are listed in descending order of weight at the time they are added to the product. Ingredients at concentrations below 1% may be listed in any order after those above 1%. The US FDA likewise requires a descending order of predominance; ingredients at 1% or less and color additives may be listed without regard to that order.",
     "ar": "وفقًا للائحة الاتحاد الأوروبي رقم 1223/2009، تُدرَج المكوّنات بترتيب تنازلي بحسب وزنها عند إضافتها إلى المنتج. ويجوز إدراج المكوّنات التي يقلّ تركيزها عن 1% بأي ترتيب بعد المكوّنات التي يزيد تركيزها على 1%. كما تشترط إدارة الغذاء والدواء الأمريكية (FDA) الترتيب التنازلي بحسب الغلبة، مع جواز إدراج المكوّنات التي تبلغ 1% أو أقل والمضافات اللونية دون التقيّد بهذا الترتيب."
    }
@@ -64,7 +64,7 @@
    },
    "text": {
     "uz": "Ro‘yxat boshidagi ingredientlar mahsulotda eng ko‘p miqdorda bo‘lganlardir. Biroq ro‘yxatdagi o‘rin aniq foizni ko‘rsatmaydi, 1% dan kam ingredientlar orasidagi tartib esa ixtiyoriy bo‘lishi mumkin. AQShda ham kosmetik, ham dori hisoblangan mahsulotlarda (masalan, quyoshdan himoya vositalarida) avval faol ingredientlar («active ingredient(s)») alohida ko‘rsatiladi.",
-    "ru": "Ингредиенты в начале списка содержатся в продукте в наибольшем количестве. Однако место в списке не указывает точный процент, а порядок среди ингредиентов менее 1% может быть произвольным. В США у продуктов, которые одновременно являются косметикой и лекарством (например, средств для защиты от солнечных ожогов), сначала отдельно указываются действующие вещества — «active ingredient(s)».",
+    "ru": "Ингредиенты в начале списка содержатся в продукте в наибольшем количестве. Однако место в списке ничего не говорит о точном процентном содержании, а порядок среди ингредиентов менее 1% может быть произвольным. В США у продуктов, которые одновременно являются косметикой и лекарством (например, солнцезащитных средств), сначала отдельно указываются действующие вещества — «active ingredient(s)».",
     "en": "The ingredients at the top of the list are those present in the largest amounts. Position in the list does not reveal an exact percentage, however, and the order among ingredients below 1% may be arbitrary. In the US, products that are both cosmetics and drugs (for example, products intended to protect against sunburn) must first list their “active ingredient(s)” separately.",
     "ar": "المكوّنات في أعلى القائمة هي الموجودة في المنتج بأكبر كمية. لكن موقع المكوّن في القائمة لا يكشف نسبته المئوية الدقيقة، وقد يكون الترتيب بين المكوّنات التي تقلّ عن 1% اختياريًا. وفي الولايات المتحدة، يجب أن تُدرَج «المكوّنات الفعّالة» أولًا وبشكل منفصل على المنتجات التي تُعدّ تجميلية ودوائية في آنٍ واحد (مثل منتجات الوقاية من حروق الشمس)."
    }
@@ -99,7 +99,7 @@
   },
   {
    "uz": "Ro‘yxat tarkibni ko‘rsatadi, ammo aniq foizni ham, mahsulot xavfsizligini ham bildirmaydi.",
-   "ru": "Список показывает состав, но не раскрывает ни точных процентов, ни безопасности продукта.",
+   "ru": "Список показывает состав, но ничего не говорит ни о точных процентах, ни о безопасности продукта.",
    "en": "The list shows composition, but reveals neither exact percentages nor product safety.",
    "ar": "تُظهر القائمة التركيبة، لكنها لا تكشف النسب الدقيقة ولا سلامة المنتج."
   }
@@ -166,7 +166,7 @@
   {
    "question": {
     "uz": "CosIng bazasida ingredientning INCI nomi borligi nimani anglatadi?",
-    "ru": "Что означает наличие названия INCI ингредиента в базе CosIng?",
+    "ru": "Что означает наличие INCI-названия ингредиента в базе CosIng?",
     "en": "What does an ingredient’s INCI name appearing in CosIng mean?",
     "ar": "ماذا يعني وجود اسم INCI لمكوّنٍ ما في قاعدة بيانات CosIng؟"
    },

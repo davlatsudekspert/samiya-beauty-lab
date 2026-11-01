@@ -22,7 +22,7 @@
    },
    "text": {
     "uz": "Teri tananing butun tashqi yuzasini qoplaydigan eng katta organdir. U mikroorganizmlar, ultrabinafsha (UV) nurlar, kimyoviy ta’sirlar va mexanik shikastlarga qarshi birinchi to‘siq vazifasini bajaradi. Shuningdek, teri tana haroratini va tashqi muhitga chiqadigan suv miqdorini boshqarishda ishtirok etadi.",
-    "ru": "Кожа — самый крупный орган, покрывающий всю внешнюю поверхность тела. Она служит первым барьером против микроорганизмов, ультрафиолетового (УФ) излучения, химических воздействий и механических повреждений. Кроме того, кожа участвует в регуляции температуры тела и количества воды, которое отдаётся в окружающую среду.",
+    "ru": "Кожа — самый крупный орган, покрывающий всю внешнюю поверхность тела. Она служит первым барьером против микроорганизмов, ультрафиолетового (УФ) излучения, химических воздействий и механических повреждений. Кроме того, кожа участвует в регуляции температуры тела и того, сколько воды она отдаёт в окружающую среду.",
     "en": "The skin is the largest organ, covering the entire outer surface of the body. It acts as the first barrier against microorganisms, ultraviolet (UV) light, chemicals and mechanical injury. The skin also helps regulate body temperature and the amount of water released into the environment.",
     "ar": "الجلد هو أكبر عضو في الجسم، ويغطي سطحه الخارجي بالكامل. ويؤدي دور الحاجز الأول في مواجهة الكائنات الدقيقة والأشعة فوق البنفسجية والمواد الكيميائية والإصابات الميكانيكية. كما يشارك الجلد في تنظيم حرارة الجسم وكمية الماء التي يفقدها إلى البيئة المحيطة."
    }
@@ -36,7 +36,7 @@
    },
    "text": {
     "uz": "Teri tashqaridan ichkariga qarab uch qatlamdan iborat: epidermis, derma va gipoderma. Har bir qatlamning tuzilishi va vazifasi turlicha. Teri qalinligi tana sohasiga qarab farq qiladi: kaft va tovonlardagi tuksiz teri eng qalin bo‘lib, unda epidermisning qo‘shimcha qavati — stratum lucidum bor.",
-    "ru": "Кожа состоит из трёх слоёв, если идти снаружи внутрь: эпидермис, дерма и гиподерма. Строение и функции каждого слоя различаются. Толщина кожи зависит от участка тела: самая толстая — безволосая кожа ладоней и подошв, где есть дополнительный слой эпидермиса — stratum lucidum (блестящий слой).",
+    "ru": "Кожа состоит из трёх слоёв (снаружи внутрь): эпидермиса, дермы и гиподермы. Строение и функции у каждого слоя свои. Толщина кожи зависит от участка тела: самая толстая — безволосая кожа ладоней и подошв, в которой есть дополнительный слой эпидермиса — stratum lucidum (блестящий слой).",
     "en": "From the outside in, the skin has three layers: the epidermis, the dermis and the hypodermis. Each layer has its own structure and function. Skin thickness varies by body region: the hairless skin of the palms and soles is the thickest, thanks to an extra epidermal layer called the stratum lucidum.",
     "ar": "يتكوّن الجلد، من الخارج إلى الداخل، من ثلاث طبقات: البشرة والأدمة وطبقة تحت الجلد. ولكل طبقة بنيتها ووظيفتها الخاصة. ويختلف سُمك الجلد بحسب منطقة الجسم، فالجلد الخالي من الشعر في راحتَي اليدين وباطن القدمين هو الأسمك، لاحتوائه على طبقة إضافية في البشرة تُسمّى الطبقة الصافية (Stratum lucidum)."
    }
@@ -50,7 +50,7 @@
    },
    "text": {
     "uz": "Epidermis terining tashqi qatlami bo‘lib, uning eng ustki qavati shox qavat (stratum corneum) deb ataladi. Shox qavat oqsilga boy hujayralar — korneotsitlar va ular orasidagi lipid matritsadan tashkil topadi. Bu matritsada asosan seramidlar, xolesterin va erkin yog‘ kislotalari tartibli qatlamlar hosil qiladi.",
-    "ru": "Эпидермис — наружный слой кожи, а его самый верхний слой называется роговым (stratum corneum). Роговой слой состоит из богатых белком клеток — корнеоцитов — и липидного матрикса между ними. В этом матриксе преимущественно церамиды, холестерин и свободные жирные кислоты образуют упорядоченные слои.",
+    "ru": "Эпидермис — наружный слой кожи, а самый верхний его слой — роговой (stratum corneum). Роговой слой состоит из богатых белком клеток — корнеоцитов — и липидного матрикса между ними. Этот матрикс состоит преимущественно из церамидов, холестерина и свободных жирных кислот, которые образуют упорядоченные слои.",
     "en": "The epidermis is the outer layer of the skin, and its uppermost layer is called the stratum corneum. The stratum corneum is made of protein-rich cells called corneocytes, surrounded by a lipid matrix. In this matrix, mainly ceramides, cholesterol and free fatty acids form highly ordered layers.",
     "ar": "البشرة هي الطبقة الخارجية للجلد، وتُسمّى أعلى طبقاتها الطبقة القرنية (Stratum corneum). وتتكوّن الطبقة القرنية من خلايا غنية بالبروتين تُعرف بالخلايا القرنية، تحيط بها مادة دهنية بينية (مطرس دهني). وتتألف هذه المادة أساسًا من السيراميدات والكوليسترول والأحماض الدهنية الحرة المرتّبة في طبقات منتظمة."
    }
@@ -78,7 +78,7 @@
    },
    "text": {
     "uz": "Derma epidermis ostida joylashgan bo‘lib, kollagenga boy biriktiruvchi to‘qima, qon tomirlari, nervlar hamda ter bezlari va soch follikulalarini o‘z ichiga oladi. Gipoderma terining eng chuqur qismi bo‘lib, asosan yog‘ va biriktiruvchi to‘qimadan tashkil topadi. Bu qatlamlar teriga tayanch bo‘ladi va uning sezish hamda harorat boshqaruvidagi rolini qo‘llab-quvvatlaydi.",
-    "ru": "Дерма расположена под эпидермисом и содержит богатую коллагеном соединительную ткань, кровеносные сосуды, нервы, а также потовые железы и волосяные фолликулы. Гиподерма — самая глубокая часть кожи, состоящая в основном из жировой и соединительной ткани. Эти слои служат опорой для кожи и поддерживают её роль в восприятии ощущений и терморегуляции.",
+    "ru": "Дерма расположена под эпидермисом и содержит богатую коллагеном соединительную ткань, кровеносные сосуды, нервы, а также потовые железы и волосяные фолликулы. Гиподерма — самая глубокая часть кожи, состоящая в основном из жировой и соединительной ткани. Эти слои служат опорой для кожи и обеспечивают её участие в восприятии ощущений и терморегуляции.",
     "en": "The dermis lies beneath the epidermis and contains collagen-rich connective tissue, blood vessels, nerves, sweat glands and hair follicles. The hypodermis is the deepest part of the skin, made mainly of fat and connective tissue. Together, these layers support the skin and its roles in sensation and temperature regulation.",
     "ar": "تقع الأدمة تحت البشرة، وتحتوي على نسيج ضامّ غني بالكولاجين، وأوعية دموية، وأعصاب، إضافةً إلى الغدد العرقية وبصيلات الشعر. أما طبقة تحت الجلد فهي الجزء الأعمق من الجلد، وتتكوّن أساسًا من نسيج دهني ونسيج ضامّ. وتمنح هذه الطبقات الجلد الدعم، وتساند دوره في الإحساس وتنظيم الحرارة."
    }
@@ -92,7 +92,7 @@
    },
    "text": {
     "uz": "Teri tuzilishini bilish parvarish vositalari va kosmetik muolajalar haqida ongli suhbat qurishga yordam beradi. Biroq kosmetolog teri kasalliklariga tashxis qo‘ymaydi va davo tayinlamaydi. Terida g‘ayrioddiy o‘zgarish, og‘riq yoki uzoq davom etayotgan bezovtalik kuzatilsa, mijozni dermatologga yo‘naltirish to‘g‘ri yo‘ldir.",
-    "ru": "Знание строения кожи помогает вести осознанный разговор об уходовых средствах и косметических процедурах. Однако косметолог не ставит диагнозы кожных заболеваний и не назначает лечение. Если на коже заметны необычные изменения, боль или длительный дискомфорт, правильно направить клиентку к дерматологу.",
+    "ru": "Знание строения кожи помогает вести осознанный разговор об уходовых средствах и косметических процедурах. Однако косметолог не ставит диагнозы кожных заболеваний и не назначает лечение. Если на коже заметны необычные изменения, боль или длительный дискомфорт, правильнее всего направить клиентку к дерматологу.",
     "en": "Understanding skin structure helps you hold informed conversations about skincare products and cosmetic procedures. A cosmetologist, however, does not diagnose skin conditions or prescribe treatment. If you notice unusual changes, pain or long-lasting discomfort in a client’s skin, the right step is to refer her to a dermatologist.",
     "ar": "تساعدكِ معرفة بنية الجلد على الحديث بوعي عن منتجات العناية والجلسات التجميلية. لكن خبيرة التجميل لا تشخّص أمراض الجلد ولا تصف العلاج. وإذا لاحظتِ تغيّرات غير معتادة أو ألمًا أو انزعاجًا مستمرًا في جلد العميلة، فالخطوة الصحيحة هي توجيهها إلى طبيب الأمراض الجلدية."
    }

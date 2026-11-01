@@ -113,6 +113,17 @@ def _lesson(d, lid):
         "sources": [_src(s) for s in d.get("sources", [])],
     }
 
+def _care(d, kind):
+    base = {"id": d["id"], "status": d.get("status", "draft"), "photo": d.get("photo"),
+            "title": _loc(d["title"]), "intro": _loc(d["intro"]),
+            "safety": [_loc(x) for x in d.get("safety", [])], "evidence": _loc(d["evidence"])}
+    if kind == "recipe":
+        base.update({"ingredients": d.get("ingredients", []), "minutes": d.get("minutes", 10),
+                     "items": [_loc(x) for x in d["items"]], "steps": [_loc(x) for x in d["steps"]]})
+    else:
+        base["steps"] = [{"seconds": int(x["seconds"]), "title": _loc(x["title"]), "text": _loc(x["text"])} for x in d["steps"]]
+    return base
+
 def build(src: Path):
     items = []
     trad_dir = src / "traditional"
@@ -146,6 +157,10 @@ def build(src: Path):
     if ibn.exists():
         d = json.loads(ibn.read_text(encoding="utf-8"))
         out["ibnSina"] = {"title": {**d["title"], "uz": uz(d["title"]["uz"])}, "items": _trad_items(d)}
+    for folder, key, kind in (("recipes", "recipes", "recipe"), ("rituals", "rituals", "ritual")):
+        dd = src.parent / folder
+        if dd.exists():
+            out[key] = [_care(json.loads(f.read_text(encoding="utf-8")), kind) for f in sorted(dd.glob("*.json"))]
     return out
 
 if __name__ == "__main__":

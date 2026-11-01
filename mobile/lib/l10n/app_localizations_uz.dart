@@ -55,7 +55,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get onboarding2Body =>
-      'Ertalab va kechqurun o‘zingizga qulay rejalar tuzing.';
+      'Ertalabki va kechki parvarish tartibingizni o‘zingizga qulay qilib tuzing.';
 
   @override
   String get onboarding3Title => 'O‘rganing, rivojlaning';
@@ -79,7 +79,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get legalNotice =>
-      'Davom etish orqali Foydalanish shartlari va Maxfiylik siyosatiga rozilik bildirasiz.';
+      'Davom etish bilan siz Foydalanish shartlari va Maxfiylik siyosatiga rozilik bildirasiz.';
 
   @override
   String get comingSoon => 'Tez orada';
@@ -107,7 +107,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get roleCosmetologist => 'Kosmetolog';
 
   @override
-  String get roleCosmetologistDesc => 'Professional ma‘lumotnoma';
+  String get roleCosmetologistDesc => 'Professional ma’lumotnoma';
 
   @override
   String get roleTeacher => 'Ustoz';
@@ -134,7 +134,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get tileScanner => 'Ingredient skaneri';
 
   @override
-  String get tileSkin => 'Teri afzalliklari';
+  String get tileSkin => 'Teri profili';
 
   @override
   String get tileRoutine => 'Parvarish rejasi';
@@ -174,7 +174,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get scannerHeroBody =>
-      'Mahsulot tarkibini kiriting. Biz ingredientlar haqida manbali ma‘lumot ko‘rsatamiz.';
+      'Mahsulot tarkibini kiriting — biz ingredientlar haqidagi ma’lumotni manbalari bilan ko‘rsatamiz.';
 
   @override
   String get scanCamera => 'Kamera bilan skanerlash';
@@ -187,7 +187,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get manualHelp =>
-      'Mahsulot qutisidagi INCI ro‘yxatini nusxalang (lotin harflarida).';
+      'Qadoqdagi INCI ro‘yxatini lotin harflarida ko‘chirib kiriting.';
 
   @override
   String get manualHint => 'Masalan: Aqua, Glycerin, Niacinamide...';
@@ -204,7 +204,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get resultTitle => 'Tahlil natijasi';
 
   @override
-  String get inDatabase => 'Bazada ma‘lumot bor';
+  String get inDatabase => 'Bazada ma’lumot bor';
 
   @override
   String get notInDatabase => 'Bazada hali yo‘q';
@@ -215,7 +215,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get resultNote =>
-      'Bu tibbiy maslahat emas. Ma‘lumotlar chop etilgan tadqiqotlarga asoslangan va mahsulot sizga mosligini ko‘rsatmaydi.';
+      'Bu tibbiy maslahat emas. Ma’lumotlar chop etilgan tadqiqotlarga asoslangan va mahsulot sizga mosligini ko‘rsatmaydi.';
 
   @override
   String get detailClaims => 'Tadqiqotlarda nima aniqlangan';
@@ -227,11 +227,12 @@ class AppLocalizationsUz extends AppLocalizations {
   String get openSource => 'Manbani ochish';
 
   @override
-  String get draftNote => 'Matn qoralama: tarjima hali tekshirilmagan.';
+  String get draftNote =>
+      'Matn qoralama holatida: tarjima hali tekshirilmagan.';
 
   @override
   String get euUnverified =>
-      'EU qonunchiligi va CosIng ma‘lumoti hali tekshirilmagan.';
+      'Yevropa Ittifoqi qonunchiligi va CosIng ma’lumotlari hali tekshirilmagan.';
 
   @override
   String get evidenceLegendTitle => 'Dalil darajalari';
@@ -270,7 +271,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get studyTypeNarrative => 'Hikoyaviy sharh';
 
   @override
-  String get authFailed => 'Kirish bajarilmadi. Qayta urinib ko‘ring.';
+  String get authFailed => 'Kirib bo‘lmadi. Qayta urinib ko‘ring.';
 
   @override
   String get authUnavailable => 'Kirish hozircha mavjud emas.';
@@ -292,7 +293,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get deleteConfirmBody =>
-      'Hisobingiz va u bilan bog‘liq ma‘lumotlar butunlay o‘chiriladi. Buni qaytarib bo‘lmaydi.';
+      'Hisobingiz va u bilan bog‘liq ma’lumotlar butunlay o‘chiriladi. Buni qaytarib bo‘lmaydi.';
 
   @override
   String get cancel => 'Bekor qilish';
@@ -327,7 +328,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get adminInstallsNote =>
-      'Bu do‘konlardagi yuklab olishlar soni emas: ilova kamida bir marta ochilgan qurilmalar.';
+      'Bu do‘konlardagi yuklab olishlar soni emas, balki ilova kamida bir marta ochilgan qurilmalar soni.';
 
   @override
   String get adminTotal => 'Jami';
@@ -354,7 +355,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get adminProGranted => 'Pro (admin bergan)';
 
   @override
-  String get adminGrantTitle => 'Emailga Pro berish';
+  String get adminGrantTitle => 'Email manzilga Pro berish';
 
   @override
   String get adminEmailHint => 'Email manzil';
@@ -389,14 +390,14 @@ class AppLocalizationsUz extends AppLocalizations {
   String get adminInvalidEmail => 'Email manzil noto‘g‘ri.';
 
   @override
-  String get adminLoadFailed => 'Ma‘lumotni yuklab bo‘lmadi.';
+  String get adminLoadFailed => 'Ma’lumotni yuklab bo‘lmadi.';
 
   @override
   String get adminRetry => 'Qayta urinish';
 
   @override
   String adminUntil(String date) {
-    return '$date gacha';
+    return '${date}gacha';
   }
 
   @override
@@ -451,7 +452,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get naturalNote =>
-      '“Tabiiy” avtomatik “xavfsiz” degani emas: allergiya va ta‘sirlanish bo‘lishi mumkin. Yangi vositani avval terining kichik joyida sinab ko‘ring.';
+      '“Tabiiy” degani o‘z-o‘zidan “xavfsiz” degani emas: allergiya va ta’sirlanish bo‘lishi mumkin. Yangi vositani avval terining kichik qismida sinab ko‘ring.';
 
   @override
   String get filterPractice => 'Parvarish usullari';
@@ -461,21 +462,21 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get practiceNote =>
-      'Bu ingredient emas, parvarish usuli: dalillar ko‘pincha cheklangan. Terining holati yallig‘langan yoki shikastlangan bo‘lsa, avval mutaxassis bilan maslahatlashing.';
+      'Bu ingredient emas, parvarish usuli: dalillar ko‘pincha cheklangan. Teringiz yallig‘langan yoki shikastlangan bo‘lsa, avval mutaxassis bilan maslahatlashing.';
 
   @override
   String get cautionNote =>
-      'Keng tarqalgan uy vositasi haqida ma‘lumot: ba‘zilari uchun teriga zarar holatlari qayd etilgan, ba‘zilari uchun xavfsizlik va foyda dalili yetarli emas. Foydalanishdan oldin o‘qing.';
+      'Keng tarqalgan uy vositasi haqida ma’lumot: ba’zilarida teriga zarar yetgan holatlar qayd etilgan, ba’zilarida esa xavfsizlik va foyda dalillari yetarli emas. Foydalanishdan oldin o‘qib chiqing.';
 
   @override
   String get practiceSectionTitle => 'Parvarish usullari';
 
   @override
-  String get traditionalTitle => 'An‘anaviy qo‘llanish';
+  String get traditionalTitle => 'An’anaviy qo‘llanish';
 
   @override
   String get traditionalNote =>
-      'Tarixiy va an‘anaviy manbalar: bu ilmiy dalil emas, samaradorlik yoki xavfsizlikni bildirmaydi.';
+      'Tarixiy va an’anaviy manbalar: bu ilmiy dalil emas, samaradorlik yoki xavfsizlikni bildirmaydi.';
 
   @override
   String get ibnSinaCardBody =>
@@ -497,10 +498,10 @@ class AppLocalizationsUz extends AppLocalizations {
   String get tradAyurveda => 'Ayurveda';
 
   @override
-  String get tradChinese => 'An‘anaviy xitoy tabobati';
+  String get tradChinese => 'An’anaviy xitoy tabobati';
 
   @override
-  String get tradKorean => 'An‘anaviy koreys tabobati';
+  String get tradKorean => 'An’anaviy koreys tabobati';
 
   @override
   String get tradFolk => 'Xalq tabobati va etnobotanika';
@@ -528,7 +529,7 @@ class AppLocalizationsUz extends AppLocalizations {
       'Ilova teri turini aniqlamaydi va tashxis qo‘ymaydi: bu faqat o‘zingiz uchun eslatma.';
 
   @override
-  String get avoidTitle => 'Chetlab o‘tmoqchi bo‘lgan moddalar';
+  String get avoidTitle => 'Siz chetlab o‘tmoqchi bo‘lgan ingredientlar';
 
   @override
   String get avoidHint => 'INCI nomi, masalan Parfum';
@@ -538,11 +539,11 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get avoidEmpty =>
-      'Ro‘yxat bo‘sh. Skanerlashda shu moddalar topilsa, ogohlantiramiz.';
+      'Ro‘yxat bo‘sh. Skanerlashda shu ingredientlar topilsa, sizni ogohlantiramiz.';
 
   @override
   String avoidFound(String names) {
-    return 'Siz chetlab o‘tishni tanlagan moddalar topildi: $names';
+    return 'Siz chetlab o‘tmoqchi bo‘lgan ingredientlar topildi: $names';
   }
 
   @override
@@ -580,10 +581,10 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get journalEmpty =>
-      'Hali yozuv yo‘q. Terining holati va parvarishingiz haqida qisqa qayd qoldiring.';
+      'Hali yozuv yo‘q. Teringiz holati va parvarishingiz haqida qisqa qayd qoldiring.';
 
   @override
-  String get journalFeeling => 'Bugun teringiz qanday his qilmoqda?';
+  String get journalFeeling => 'Bugun teringiz holati qanday?';
 
   @override
   String get feelGreat => 'Juda yaxshi';
@@ -598,7 +599,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get feelDry => 'Quruq';
 
   @override
-  String get feelIrritated => 'Ta‘sirlangan';
+  String get feelIrritated => 'Ta’sirlangan';
 
   @override
   String get journalNoteHint => 'Qayd (ixtiyoriy)';
@@ -608,7 +609,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get personalDataNote =>
-      'Bu ma‘lumotlar faqat shu telefonda saqlanadi.';
+      'Bu ma’lumotlar faqat shu telefonda saqlanadi.';
 
   @override
   String get botanicalCredit =>
@@ -680,7 +681,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get quizRight => 'To‘g‘ri!';
 
   @override
-  String get quizWrong => 'Unchalik emas — to‘g‘ri javob belgilandi.';
+  String get quizWrong => 'Afsuski, xato — to‘g‘ri javob belgilab qo‘yildi.';
 
   @override
   String quizScore(int score, int total) {
@@ -721,7 +722,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get aiSignIn =>
-      'SAMIYA AI’dan foydalanish uchun hisobingizga kiring — bu bepul.';
+      'SAMIYA AI xizmatidan foydalanish uchun hisobingizga kiring — bu bepul.';
 
   @override
   String get aiSignInBtn => 'Kirish';
@@ -750,15 +751,148 @@ class AppLocalizationsUz extends AppLocalizations {
   String get aiTry => 'Masalan, so‘rang:';
 
   @override
-  String get aiS1 => 'Niatsinamid va C vitaminini birga ishlatsa bo‘ladimi?';
+  String get aiS1 => 'Niatsinamid va C vitaminini birga ishlatish mumkinmi?';
 
   @override
   String get aiS2 =>
-      'Quruq teri uchun kechki parvarish tartibi qanday bo‘ladi?';
+      'Quruq teri uchun kechki parvarish tartibi qanday bo‘lishi kerak?';
 
   @override
-  String get aiS3 => 'Gua sha qanday to‘g‘ri qilinadi?';
+  String get aiS3 => 'Gua shani qanday to‘g‘ri bajarish kerak?';
 
   @override
   String get aiS4 => 'Ibn Sino teri parvarishi haqida nima yozgan?';
+
+  @override
+  String get tileShelf => 'Kosmetikam';
+
+  @override
+  String get tileRecipes => 'Uyda tayyorlash';
+
+  @override
+  String get tileRituals => 'Ritual-darslar';
+
+  @override
+  String get shelfTitle => 'Mening kosmetikam';
+
+  @override
+  String get shelfIntro =>
+      'Ochilgan mahsulotlaringizni yozib qo‘ying — muddati yaqinlashsa, shu yerda ko‘rasiz. Qadoqdagi ochiq quti belgisidagi raqam (masalan, 12M) ochilgandan keyin necha oy ishlatish mumkinligini bildiradi.';
+
+  @override
+  String get shelfEmptyTitle => 'Javoningiz hozircha bo‘sh';
+
+  @override
+  String get shelfEmptyBody =>
+      'Birinchi mahsulotni qo‘shing: nomi, ochilgan sanasi va PAO belgisi.';
+
+  @override
+  String get shelfAdd => 'Mahsulot qo‘shish';
+
+  @override
+  String get shelfName => 'Mahsulot nomi';
+
+  @override
+  String get shelfOpened => 'Ochilgan sana';
+
+  @override
+  String get shelfPao => 'Ochilgandan keyin (PAO)';
+
+  @override
+  String shelfMonths(int n) {
+    return '$n oy';
+  }
+
+  @override
+  String shelfDaysLeft(int n) {
+    return '$n kun qoldi';
+  }
+
+  @override
+  String get shelfExpired => 'Muddati o‘tgan';
+
+  @override
+  String get shelfOk => 'Yaroqli';
+
+  @override
+  String get shelfSave => 'Saqlash';
+
+  @override
+  String shelfAttention(int n) {
+    return '$n ta mahsulot muddatiga e’tibor bering';
+  }
+
+  @override
+  String get recipesTitle => 'Uyda tayyorlash';
+
+  @override
+  String get recipesIntro =>
+      'Oshxonangizdagi tabiiy mahsulotlardan oddiy, nafis parvarish. Har bir retseptda xavfsizlik qoidalari va ilmiy dalillar haqida ochiq izoh bor.';
+
+  @override
+  String get recipeYouNeed => 'Sizga kerak bo‘ladi';
+
+  @override
+  String get recipeSteps => 'Tayyorlash';
+
+  @override
+  String get recipeSafety => 'Xavfsizlik';
+
+  @override
+  String get recipeEvidence => 'Ilm nima deydi';
+
+  @override
+  String get recipeIngredients => 'Ingredient kartochkalari';
+
+  @override
+  String get ritualsTitle => 'Ritual-darslar';
+
+  @override
+  String get ritualsIntro =>
+      'Yuz massaji va gua sha bo‘yicha qadamma-qadam, taymerli ritual-darslar. Shoshilmang, yengil bosing.';
+
+  @override
+  String get ritualStart => 'Boshlash';
+
+  @override
+  String get ritualPause => 'To‘xtatish';
+
+  @override
+  String get ritualResume => 'Davom etish';
+
+  @override
+  String get ritualNext => 'Keyingi';
+
+  @override
+  String get ritualDone =>
+      'Ritual yakunlandi. O‘zingizga vaqt ajratganingiz uchun rahmat!';
+
+  @override
+  String ritualStep(int n, int i) {
+    return '$i-qadam / $n';
+  }
+
+  @override
+  String get tipTitle => 'Kun maslahati';
+
+  @override
+  String get collectionsTitle => 'To‘plamlar';
+
+  @override
+  String get colHeat => 'Issiq iqlimda parvarish';
+
+  @override
+  String get colHeatBody => 'Quyosh, namlik va yengil teksturalar';
+
+  @override
+  String get colWinter => 'Qishki quruqlik';
+
+  @override
+  String get colWinterBody => 'Teri to‘sig‘ini asrash';
+
+  @override
+  String get colNatural => 'Tabiiy go‘zallik';
+
+  @override
+  String get colNaturalBody => 'Uyda tayyorlanadigan nafis retseptlar';
 }

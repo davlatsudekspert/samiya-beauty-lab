@@ -91,7 +91,7 @@ void main() {
     expect(order, ['backend']);
     expect(s.user, isNotNull);
     expect(k('profile-page'), findsOneWidget);
-    expect(find.text('Kirish bajarilmadi. Qayta urinib ko‘ring.'), findsNothing);
+    expect(find.text('Kirib bo‘lmadi. Qayta urinib ko‘ring.'), findsNothing);
     expect(find.text('Amal bajarilmadi. Qayta urinib ko‘ring.'), findsOneWidget);
   });
 

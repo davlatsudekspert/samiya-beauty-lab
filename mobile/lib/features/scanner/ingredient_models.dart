@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import '../academy/lesson_models.dart';
+import '../care/care_models.dart';
 import 'inci_parser.dart';
 
 /// PubMed manbasi (faqat tekshirilgan metadata).
@@ -136,7 +137,7 @@ class Ingredient {
 /// Ingredient bazasi. Moslashtirish FAQAT aniq INCI nomi yoki tasdiqlangan sinonim bo'yicha:
 /// tuzlar, efirlar va hosilalar (masalan Sodium Hyaluronate, Retinyl Palmitate) taxmin bilan bog'lanmaydi.
 class IngredientRepository {
-  IngredientRepository(this.all, {this.ibnSina, this.lessons = const []})
+  IngredientRepository(this.all, {this.ibnSina, this.lessons = const [], this.recipes = const [], this.rituals = const []})
       : _byKey = {
           for (final i in all.where((i) => !i.isPractice)) ...{
             inciKey(i.inci): i,
@@ -147,6 +148,8 @@ class IngredientRepository {
   final List<Ingredient> all;
   final TraditionIntro? ibnSina;
   final List<Lesson> lessons;
+  final List<Recipe> recipes;
+  final List<Ritual> rituals;
   final Map<String, Ingredient> _byKey;
 
   factory IngredientRepository.fromJson(String source) {
@@ -155,6 +158,8 @@ class IngredientRepository {
       [for (final i in data['ingredients'] as List) Ingredient.fromJson(i as Map<String, dynamic>)],
       ibnSina: data['ibnSina'] is Map ? TraditionIntro.fromJson(data['ibnSina'] as Map<String, dynamic>) : null,
       lessons: [for (final l in (data['academy'] as List? ?? const [])) Lesson.fromJson(l as Map<String, dynamic>)],
+      recipes: [for (final r in (data['recipes'] as List? ?? const [])) Recipe.fromJson(r as Map<String, dynamic>)],
+      rituals: [for (final r in (data['rituals'] as List? ?? const [])) Ritual.fromJson(r as Map<String, dynamic>)],
     );
   }
 

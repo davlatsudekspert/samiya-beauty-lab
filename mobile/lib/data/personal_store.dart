@@ -36,11 +36,27 @@ class JournalEntry {
 }
 
 /// Shaxsiy ma'lumotlar (teri afzalliklari, parvarish rejasi, kundalik): FAQAT qurilmada saqlanadi.
+/// "Mening kosmetikam": ochilgan sana va PAO (ochilgandan keyin necha oy) bo'yicha muddat.
+class ShelfItem {
+  const ShelfItem({required this.id, required this.name, required this.openedOn, required this.paoMonths});
+  final String id;
+  final String name;
+  final DateTime openedOn;
+  final int paoMonths;
+
+  DateTime get expiresOn => DateTime(openedOn.year, openedOn.month + paoMonths, openedOn.day);
+  int daysLeft(DateTime now) => expiresOn.difference(DateTime(now.year, now.month, now.day)).inDays;
+
+  Map<String, dynamic> toJson() => {'id': id, 'name': name, 'openedOn': openedOn.toIso8601String(), 'pao': paoMonths};
+  factory ShelfItem.fromJson(Map<String, dynamic> j) =>
+      ShelfItem(id: j['id'] as String, name: j['name'] as String, openedOn: DateTime.parse(j['openedOn'] as String), paoMonths: (j['pao'] as num).toInt());
+}
+
 class PersonalStore extends ChangeNotifier {
   PersonalStore({DateTime Function()? clock, this.persist = true}) : _clock = clock ?? DateTime.now;
 
   static const _key = 'personal_v1';
-  static const maxAvoid = 100, maxSteps = 15, maxJournal = 1000, maxText = 300;
+  static const maxAvoid = 100, maxSteps = 15, maxJournal = 1000, maxText = 300, maxShelf = 100;
 
   final DateTime Function() _clock;
   final bool persist;
@@ -50,6 +66,7 @@ class PersonalStore extends ChangeNotifier {
   final Map<String, List<RoutineStep>> routine = {'am': [], 'pm': []};
   final Map<String, String> _doneOn = {}; // qadam id -> yyyy-mm-dd
   final List<JournalEntry> journal = [];
+  final List<ShelfItem> shelf = [];
 
   DateTime now() => _clock();
 
@@ -76,6 +93,7 @@ class PersonalStore extends ChangeNotifier {
       }
       s._doneOn.addAll(Map<String, String>.from((j['doneOn'] as Map?) ?? const {}));
       s.journal.addAll([for (final e in (j['journal'] as List?) ?? const []) JournalEntry.fromJson(Map<String, dynamic>.from(e as Map))]);
+      s.shelf.addAll([for (final e in (j['shelf'] as List?) ?? const []) ShelfItem.fromJson(Map<String, dynamic>.from(e as Map))]);
     } catch (_) {
       // buzilgan ma'lumot: bo'sh holatdan boshlanadi (ilova yiqilmaydi)
     }
@@ -95,6 +113,7 @@ class PersonalStore extends ChangeNotifier {
         },
         'doneOn': _doneOn,
         'journal': [for (final e in journal) e.toJson()],
+        'shelf': [for (final e in shelf) e.toJson()],
       }),
     );
   }
@@ -183,6 +202,26 @@ class PersonalStore extends ChangeNotifier {
     }
     _doneOn.clear();
     journal.clear();
+    shelf.clear();
+    return _save();
+  }
+
+  /// Javon: muddati eng yaqin birinchi.
+  List<ShelfItem> get shelfSorted => [...shelf]..sort((a, b) => a.expiresOn.compareTo(b.expiresOn));
+
+  /// 30 kundan kam qolgan yoki muddati o'tganlar.
+  int get shelfAttention => shelf.where((i) => i.daysLeft(_clock()) < 30).length;
+
+  Future<bool> addShelf(String name, {required DateTime openedOn, required int paoMonths}) async {
+    final n = _clean(name);
+    if (n.isEmpty || shelf.length >= maxShelf || paoMonths < 1 || paoMonths > 60) return false;
+    shelf.add(ShelfItem(id: _id(), name: n, openedOn: DateTime(openedOn.year, openedOn.month, openedOn.day), paoMonths: paoMonths));
+    await _save();
+    return true;
+  }
+
+  Future<void> removeShelf(String id) {
+    shelf.removeWhere((i) => i.id == id);
     return _save();
   }
 }

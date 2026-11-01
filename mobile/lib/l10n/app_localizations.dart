@@ -1487,6 +1487,246 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'What did Ibn Sina write about skin care?'**
   String get aiS4;
+
+  /// No description provided for @tileShelf.
+  ///
+  /// In en, this message translates to:
+  /// **'My shelf'**
+  String get tileShelf;
+
+  /// No description provided for @tileRecipes.
+  ///
+  /// In en, this message translates to:
+  /// **'Make at home'**
+  String get tileRecipes;
+
+  /// No description provided for @tileRituals.
+  ///
+  /// In en, this message translates to:
+  /// **'Rituals'**
+  String get tileRituals;
+
+  /// No description provided for @shelfTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'My beauty shelf'**
+  String get shelfTitle;
+
+  /// No description provided for @shelfIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Log the products you have opened — when one is close to its limit, you’ll see it here. The number in the open-jar symbol on the pack (e.g. 12M) shows how many months a product can be used after opening.'**
+  String get shelfIntro;
+
+  /// No description provided for @shelfEmptyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your shelf is empty for now'**
+  String get shelfEmptyTitle;
+
+  /// No description provided for @shelfEmptyBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Add your first product: its name, the date you opened it and its PAO symbol.'**
+  String get shelfEmptyBody;
+
+  /// No description provided for @shelfAdd.
+  ///
+  /// In en, this message translates to:
+  /// **'Add product'**
+  String get shelfAdd;
+
+  /// No description provided for @shelfName.
+  ///
+  /// In en, this message translates to:
+  /// **'Product name'**
+  String get shelfName;
+
+  /// No description provided for @shelfOpened.
+  ///
+  /// In en, this message translates to:
+  /// **'Opened on'**
+  String get shelfOpened;
+
+  /// No description provided for @shelfPao.
+  ///
+  /// In en, this message translates to:
+  /// **'After opening (PAO)'**
+  String get shelfPao;
+
+  /// No description provided for @shelfMonths.
+  ///
+  /// In en, this message translates to:
+  /// **'{n} months'**
+  String shelfMonths(int n);
+
+  /// No description provided for @shelfDaysLeft.
+  ///
+  /// In en, this message translates to:
+  /// **'{n} days left'**
+  String shelfDaysLeft(int n);
+
+  /// No description provided for @shelfExpired.
+  ///
+  /// In en, this message translates to:
+  /// **'Past its date'**
+  String get shelfExpired;
+
+  /// No description provided for @shelfOk.
+  ///
+  /// In en, this message translates to:
+  /// **'Good'**
+  String get shelfOk;
+
+  /// No description provided for @shelfSave.
+  ///
+  /// In en, this message translates to:
+  /// **'Save'**
+  String get shelfSave;
+
+  /// No description provided for @shelfAttention.
+  ///
+  /// In en, this message translates to:
+  /// **'{n} products need attention'**
+  String shelfAttention(int n);
+
+  /// No description provided for @recipesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Make at home'**
+  String get recipesTitle;
+
+  /// No description provided for @recipesIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Simple, elegant care from natural ingredients in your kitchen. Every recipe comes with safety rules and an honest note on the science.'**
+  String get recipesIntro;
+
+  /// No description provided for @recipeYouNeed.
+  ///
+  /// In en, this message translates to:
+  /// **'You will need'**
+  String get recipeYouNeed;
+
+  /// No description provided for @recipeSteps.
+  ///
+  /// In en, this message translates to:
+  /// **'Method'**
+  String get recipeSteps;
+
+  /// No description provided for @recipeSafety.
+  ///
+  /// In en, this message translates to:
+  /// **'Safety'**
+  String get recipeSafety;
+
+  /// No description provided for @recipeEvidence.
+  ///
+  /// In en, this message translates to:
+  /// **'What science says'**
+  String get recipeEvidence;
+
+  /// No description provided for @recipeIngredients.
+  ///
+  /// In en, this message translates to:
+  /// **'Ingredient cards'**
+  String get recipeIngredients;
+
+  /// No description provided for @ritualsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Rituals'**
+  String get ritualsTitle;
+
+  /// No description provided for @ritualsIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Step-by-step, timed rituals for facial massage and gua sha. Take your time and press gently.'**
+  String get ritualsIntro;
+
+  /// No description provided for @ritualStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Start'**
+  String get ritualStart;
+
+  /// No description provided for @ritualPause.
+  ///
+  /// In en, this message translates to:
+  /// **'Pause'**
+  String get ritualPause;
+
+  /// No description provided for @ritualResume.
+  ///
+  /// In en, this message translates to:
+  /// **'Resume'**
+  String get ritualResume;
+
+  /// No description provided for @ritualNext.
+  ///
+  /// In en, this message translates to:
+  /// **'Next'**
+  String get ritualNext;
+
+  /// No description provided for @ritualDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Ritual complete. Thank you for taking time for yourself!'**
+  String get ritualDone;
+
+  /// No description provided for @ritualStep.
+  ///
+  /// In en, this message translates to:
+  /// **'Step {i} of {n}'**
+  String ritualStep(int n, int i);
+
+  /// No description provided for @tipTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Tip of the day'**
+  String get tipTitle;
+
+  /// No description provided for @collectionsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Collections'**
+  String get collectionsTitle;
+
+  /// No description provided for @colHeat.
+  ///
+  /// In en, this message translates to:
+  /// **'Care in a hot climate'**
+  String get colHeat;
+
+  /// No description provided for @colHeatBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Sun, humidity and light textures'**
+  String get colHeatBody;
+
+  /// No description provided for @colWinter.
+  ///
+  /// In en, this message translates to:
+  /// **'Winter dryness'**
+  String get colWinter;
+
+  /// No description provided for @colWinterBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Protecting the skin barrier'**
+  String get colWinterBody;
+
+  /// No description provided for @colNatural.
+  ///
+  /// In en, this message translates to:
+  /// **'Natural beauty'**
+  String get colNatural;
+
+  /// No description provided for @colNaturalBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Elegant recipes to make at home'**
+  String get colNaturalBody;
 }
 
 class _AppLocalizationsDelegate

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import '../scanner/ingredient_models.dart';
+import '../academy/lesson_models.dart';
 
 import '../../app/app_state.dart';
 import '../../app/theme.dart';
@@ -32,6 +34,9 @@ class HomePage extends StatelessWidget {
       ('academy', l.tileAcademy, Icons.school_rounded, () => context.go('/academy')),
       ('ai', l.tileAi, Icons.auto_awesome_rounded, () => context.safePush('/home/ai')),
       ('journal', l.tileJournal, Icons.edit_note_rounded, () => context.go('/journal')),
+      ('recipes', l.tileRecipes, Icons.local_florist_outlined, () => context.safePush('/home/recipes')),
+      ('rituals', l.tileRituals, Icons.self_improvement_rounded, () => context.safePush('/home/rituals')),
+      ('shelf', l.tileShelf, Icons.inventory_2_outlined, () => context.safePush('/home/shelf')),
     ];
     final repo = AppScope.of(context).ingredients;
     final actives = repo.all.where((i) => !i.isNatural && !i.isPractice && !i.isCaution).take(8).toList();
@@ -106,6 +111,22 @@ class HomePage extends StatelessWidget {
               icon: tiles[i].$3,
               onTap: tiles[i].$4,
             ),
+          ),
+          if (repo.lessons.isNotEmpty) ...[
+            const SizedBox(height: 22),
+            _DailyTip(repo: repo, lang: lang),
+          ],
+          const SizedBox(height: 24),
+          Text(l.collectionsTitle, style: t.headlineSmall?.copyWith(fontSize: 24)),
+          const SizedBox(height: 10),
+          SizedBox(
+            key: const Key('home-collections'),
+            height: 190,
+            child: ListView(scrollDirection: Axis.horizontal, children: [
+              _Collection(key: const Key('col-natural'), photo: 'assets/photos/honey.jpg', title: l.colNatural, body: l.colNaturalBody, onTap: () => context.safePush('/home/recipes')),
+              _Collection(key: const Key('col-heat'), photo: 'assets/photos/deco_rose.jpg', title: l.colHeat, body: l.colHeatBody, onTap: () => context.safePush('/academy/lesson/spf')),
+              _Collection(key: const Key('col-winter'), photo: 'assets/photos/oat.jpg', title: l.colWinter, body: l.colWinterBody, onTap: () => context.safePush('/academy/lesson/moist')),
+            ]),
           ),
           if (natural.isNotEmpty) ...[
             const SizedBox(height: 26),
@@ -360,6 +381,89 @@ class _IngredientCard extends StatelessWidget {
                         : t.headlineSmall?.copyWith(fontSize: 19, height: 1.15)),
               ]),
             ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Kun maslahati: Akademiya darslarining asosiy fikrlaridan, har kuni boshqasi.
+class _DailyTip extends StatelessWidget {
+  const _DailyTip({required this.repo, required this.lang});
+  final IngredientRepository repo;
+  final String lang;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    final t = Theme.of(context).textTheme;
+    final all = [for (final les in repo.lessons) for (final k in les.keyPoints) (les, k)];
+    final now = AppScope.of(context).personal.now();
+    final day = DateTime.utc(now.year, now.month, now.day).difference(DateTime.utc(2026)).inDays;
+    final (lesson, tip) = all[day.abs() % all.length];
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        key: const Key('home-tip'),
+        borderRadius: BorderRadius.circular(22),
+        onTap: () => context.safePush('/academy/lesson/${lesson.id}'),
+        child: Ink(
+          padding: const EdgeInsets.all(18),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(22),
+            gradient: const LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [Color(0xFF4E2738), SamiyaColors.heading]),
+          ),
+          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Row(children: [
+              const Icon(Icons.auto_awesome, size: 16, color: Color(0xFFE9D3A8)),
+              const SizedBox(width: 8),
+              Text(l.tipTitle.toUpperCase(),
+                  style: t.labelSmall?.copyWith(color: const Color(0xFFE9D3A8), letterSpacing: lang == 'ar' ? 0 : 1.8)),
+            ]),
+            const SizedBox(height: 10),
+            Text(pickLoc(tip, lang), style: t.titleMedium?.copyWith(color: Colors.white, fontSize: 16.5, height: 1.45, fontWeight: FontWeight.w500)),
+            const SizedBox(height: 10),
+            Text(pickLoc(lesson.title, lang), style: t.bodySmall?.copyWith(color: const Color(0xCCEAD7BF))),
+          ]),
+        ),
+      ),
+    );
+  }
+}
+
+class _Collection extends StatelessWidget {
+  const _Collection({super.key, required this.photo, required this.title, required this.body, required this.onTap});
+  final String photo, title, body;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = Theme.of(context).textTheme;
+    return Padding(
+      padding: const EdgeInsetsDirectional.only(end: 12),
+      child: GestureDetector(
+        onTap: onTap,
+        child: ClipRRect(
+          borderRadius: const BorderRadius.vertical(top: Radius.circular(80), bottom: Radius.circular(20)),
+          child: SizedBox(
+            width: 160,
+            child: Stack(fit: StackFit.expand, children: [
+              Image.asset(photo, fit: BoxFit.cover),
+              const DecoratedBox(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x003B1E2B), Color(0xDD3B1E2B)], stops: [0.35, 1]),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(12),
+                child: Column(mainAxisAlignment: MainAxisAlignment.end, crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text(title, maxLines: 2, overflow: TextOverflow.ellipsis, style: t.titleMedium?.copyWith(color: Colors.white, fontSize: 15)),
+                  const SizedBox(height: 2),
+                  Text(body, maxLines: 2, overflow: TextOverflow.ellipsis, style: t.bodySmall?.copyWith(color: const Color(0xDDFFFFFF))),
+                ]),
+              ),
+            ]),
           ),
         ),
       ),
