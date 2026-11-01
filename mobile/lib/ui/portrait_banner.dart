@@ -4,7 +4,8 @@ import '../app/theme.dart';
 
 /// Portretli pushti banner (kirish va bosh sahifada). Matn tomoni o'sadi, portret `end` tomonda.
 class PortraitBanner extends StatelessWidget {
-  const PortraitBanner({super.key, required this.title, this.eyebrow, this.tag, this.minHeight = 168});
+  const PortraitBanner({super.key, required this.title, this.eyebrow, this.tag, this.minHeight = 168, this.image = 'assets/images/ob2_routine.png'});
+  final String image;
   final String title;
   final String? eyebrow;
   final String? tag;
@@ -49,7 +50,7 @@ class PortraitBanner extends StatelessWidget {
                   colors: [Colors.transparent, Colors.white],
                   stops: [0, 0.55],
                 ).createShader(r, textDirection: Directionality.of(context)),
-                child: Image.asset('assets/images/ob2_routine.png',
+                child: Image.asset(image,
                     fit: BoxFit.cover, alignment: Alignment.topCenter, filterQuality: FilterQuality.high),
               ),
             ),

@@ -621,4 +621,41 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get honestLead => 'بصراحة:';
+
+  @override
+  String get academySubtitle =>
+      'أساسيات التجميل: دروس قصيرة مبنية على الأدلة. قريبًا.';
+
+  @override
+  String get academyT1 => 'تشريح البشرة ووظائفها';
+
+  @override
+  String get academyT2 => 'INCI والمكوّنات التجميلية';
+
+  @override
+  String get academyT3 => 'الحماية من الشمس';
+
+  @override
+  String get academyT4 => 'الترطيب وحاجز البشرة';
+
+  @override
+  String get academyT5 => 'النظافة ومكافحة العدوى';
+
+  @override
+  String get academyT6 => 'سلامة مستحضرات التجميل والملصقات';
+
+  @override
+  String get routineEmptyTitle => 'خطوتك الأولى';
+
+  @override
+  String get journalEmptyTitle => 'مذكرات بشرتك';
+
+  @override
+  String get routineSuggestCleanse => 'التنظيف';
+
+  @override
+  String get routineSuggestMoisturise => 'الترطيب';
+
+  @override
+  String get routineSuggestSun => 'الحماية من الشمس';
 }

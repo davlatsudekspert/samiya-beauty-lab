@@ -6,6 +6,8 @@ import '../../app/theme.dart';
 import '../../data/personal_store.dart';
 import '../../l10n/app_localizations.dart';
 import '../../ui/widgets.dart';
+import '../../ui/arch_photo.dart';
+import '../../ui/empty_state.dart';
 import 'personal_widgets.dart';
 
 /// Parvarish rejasi: ertalabki va kechki qadamlar, kunlik belgilash (faqat qurilmada).
@@ -50,6 +52,8 @@ class _RoutinePageState extends State<RoutinePage> {
                   child: PageBody(
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                       const SizedBox(height: 8),
+                      const ArchPhoto('assets/photos/deco_jasmine.jpg', height: 150, alignment: Alignment(0, -0.3)),
+                      const SizedBox(height: 16),
                       Wrap(spacing: 8, runSpacing: 8, children: [
                         for (final (id, label, icon) in [
                           ('am', l.routineMorning, Icons.wb_sunny_outlined),
@@ -70,9 +74,23 @@ class _RoutinePageState extends State<RoutinePage> {
                         const SizedBox(height: 10),
                       ],
                       if (steps.isEmpty)
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 8),
-                          child: Text(l.routineEmpty, key: const Key('routine-empty'), style: t.bodyLarge),
+                        ElegantEmpty(
+                          key: const Key('routine-empty'),
+                          title: l.routineEmptyTitle,
+                          body: l.routineEmpty,
+                          child: Wrap(spacing: 8, runSpacing: 8, alignment: WrapAlignment.center, children: [
+                            for (final (i, name) in [
+                              l.routineSuggestCleanse,
+                              l.routineSuggestMoisturise,
+                              if (slot == 'am') l.routineSuggestSun,
+                            ].indexed)
+                              ActionChip(
+                                key: Key('routine-suggest-$i'),
+                                avatar: const Icon(Icons.add_rounded, size: 18, color: SamiyaColors.heading),
+                                label: Text(name),
+                                onPressed: () => p.addStep(slot, name),
+                              ),
+                          ]),
                         )
                       else
                         for (var i = 0; i < steps.length; i++) ...[

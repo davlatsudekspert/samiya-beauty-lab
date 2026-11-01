@@ -4,6 +4,8 @@ import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../data/personal_store.dart';
 import '../../l10n/app_localizations.dart';
+import '../../ui/arch_photo.dart';
+import '../../ui/empty_state.dart';
 import 'personal_widgets.dart';
 
 String feelingLabel(AppLocalizations l, SkinFeeling f) => switch (f) {
@@ -106,11 +108,10 @@ class JournalPage extends StatelessWidget {
               ),
             ]),
             const SizedBox(height: 14),
+            const ArchPhoto('assets/photos/deco_lavender.jpg', height: 150, alignment: Alignment(0, -0.2)),
+            const SizedBox(height: 16),
             if (p.journal.isEmpty)
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 20),
-                child: Text(l.journalEmpty, key: const Key('journal-empty'), style: t.bodyLarge),
-              )
+              ElegantEmpty(key: const Key('journal-empty'), title: l.journalEmptyTitle, body: l.journalEmpty)
             else
               for (final e in p.journal) ...[
                 Container(

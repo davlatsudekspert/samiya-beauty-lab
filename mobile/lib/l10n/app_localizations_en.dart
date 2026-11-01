@@ -616,4 +616,41 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get honestLead => 'In all honesty:';
+
+  @override
+  String get academySubtitle =>
+      'Cosmetology essentials: short, evidence-based lessons. Coming soon.';
+
+  @override
+  String get academyT1 => 'Skin anatomy and physiology';
+
+  @override
+  String get academyT2 => 'INCI and cosmetic ingredients';
+
+  @override
+  String get academyT3 => 'Sun protection';
+
+  @override
+  String get academyT4 => 'Moisturising and the skin barrier';
+
+  @override
+  String get academyT5 => 'Hygiene and infection control';
+
+  @override
+  String get academyT6 => 'Cosmetic safety and labels';
+
+  @override
+  String get routineEmptyTitle => 'Your first step';
+
+  @override
+  String get journalEmptyTitle => 'Your skin journal';
+
+  @override
+  String get routineSuggestCleanse => 'Cleanse';
+
+  @override
+  String get routineSuggestMoisturise => 'Moisturise';
+
+  @override
+  String get routineSuggestSun => 'Sun protection';
 }

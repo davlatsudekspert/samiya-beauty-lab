@@ -617,4 +617,41 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get honestLead => 'Скажем честно:';
+
+  @override
+  String get academySubtitle =>
+      'Основы косметологии: короткие уроки на основе доказательств. Скоро.';
+
+  @override
+  String get academyT1 => 'Анатомия и физиология кожи';
+
+  @override
+  String get academyT2 => 'INCI и косметические ингредиенты';
+
+  @override
+  String get academyT3 => 'Защита от солнца';
+
+  @override
+  String get academyT4 => 'Увлажнение и барьер кожи';
+
+  @override
+  String get academyT5 => 'Гигиена и инфекционный контроль';
+
+  @override
+  String get academyT6 => 'Безопасность косметики и этикетки';
+
+  @override
+  String get routineEmptyTitle => 'Ваш первый шаг';
+
+  @override
+  String get journalEmptyTitle => 'Дневник вашей кожи';
+
+  @override
+  String get routineSuggestCleanse => 'Очищение';
+
+  @override
+  String get routineSuggestMoisturise => 'Увлажнение';
+
+  @override
+  String get routineSuggestSun => 'Защита от солнца';
 }

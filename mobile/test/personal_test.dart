@@ -144,6 +144,23 @@ void main() {
     expect(k('routine-empty'), findsOneWidget);
   });
 
+  testWidgets('parvarish rejasi: bo\'sh holatdagi tayyor qadam bir bosishda qo\'shiladi', (t) async {
+    final p = PersonalStore(persist: false, clock: () => DateTime(2026, 11, 1, 9));
+    await pumpApp(t, state: app(p: p), initial: '/home/routine');
+    await t.tap(k('routine-suggest-0'));
+    await t.pumpAndSettle();
+    expect(p.routine['am']!.single.name, 'Tozalash');
+    expect(k('routine-empty'), findsNothing);
+  });
+
+  testWidgets('akademiya: 6 ta mavzu va "Tez orada" (soxta dars yo\'q)', (t) async {
+    await pumpApp(t, state: app(), initial: '/academy');
+    for (var i = 0; i < 6; i++) {
+      await t.ensureVisible(k('academy-topic-$i'));
+      expect(k('academy-topic-$i'), findsOneWidget);
+    }
+  });
+
   testWidgets('kundalik: yozuv qo\'shish va o\'chirish', (t) async {
     final p = PersonalStore(persist: false);
     await pumpApp(t, state: app(p: p), initial: '/journal');
@@ -167,7 +184,7 @@ void main() {
       await p.addAvoid('Alcohol Denat.');
       await p.addStep('am', 'Juda uzun nomli yuvish vositasi bilan ertalabki tozalash');
       await p.addJournal(SkinFeeling.irritated, 'Uzun qayd ' * 10);
-      for (final r in ['/home/skin', '/home/routine', '/journal']) {
+      for (final r in ['/home/skin', '/home/routine', '/journal', '/academy']) {
         await pumpApp(t, state: app(p: p, lang: lang), initial: r, size: const Size(320, 568), textScale: 1.5);
         expect(t.takeException(), isNull, reason: '$lang $r');
       }

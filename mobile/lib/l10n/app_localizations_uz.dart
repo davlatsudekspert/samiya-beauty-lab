@@ -620,4 +620,41 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get honestLead => 'Ochiq aytamiz:';
+
+  @override
+  String get academySubtitle =>
+      'Kosmetologiya asoslari: dalillarga asoslangan qisqa darslar. Tez orada.';
+
+  @override
+  String get academyT1 => 'Teri anatomiyasi va fiziologiyasi';
+
+  @override
+  String get academyT2 => 'INCI va kosmetik ingredientlar';
+
+  @override
+  String get academyT3 => 'Quyoshdan himoyalanish';
+
+  @override
+  String get academyT4 => 'Namlantirish va teri to‘sig‘i';
+
+  @override
+  String get academyT5 => 'Gigiyena va infeksiya nazorati';
+
+  @override
+  String get academyT6 => 'Kosmetik xavfsizlik va yorliqlar';
+
+  @override
+  String get routineEmptyTitle => 'Birinchi qadamingiz';
+
+  @override
+  String get journalEmptyTitle => 'Teringiz kundaligi';
+
+  @override
+  String get routineSuggestCleanse => 'Tozalash';
+
+  @override
+  String get routineSuggestMoisturise => 'Namlantirish';
+
+  @override
+  String get routineSuggestSun => 'Quyoshdan himoya';
 }

@@ -227,5 +227,17 @@
   },
   "botanicalCredit": "Botanical plate: F. E. Köhler, “Köhler's Medizinal-Pflanzen”, 1887 (public domain)",
   "photoCredit": "Photo: iNaturalist community, CC0 (no rights reserved)",
-  "honestLead": "In all honesty:"
+  "honestLead": "In all honesty:",
+  "academySubtitle": "Cosmetology essentials: short, evidence-based lessons. Coming soon.",
+  "academyT1": "Skin anatomy and physiology",
+  "academyT2": "INCI and cosmetic ingredients",
+  "academyT3": "Sun protection",
+  "academyT4": "Moisturising and the skin barrier",
+  "academyT5": "Hygiene and infection control",
+  "academyT6": "Cosmetic safety and labels",
+  "routineEmptyTitle": "Your first step",
+  "journalEmptyTitle": "Your skin journal",
+  "routineSuggestCleanse": "Cleanse",
+  "routineSuggestMoisturise": "Moisturise",
+  "routineSuggestSun": "Sun protection"
 }

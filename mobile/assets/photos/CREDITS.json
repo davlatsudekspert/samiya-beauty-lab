@@ -70,5 +70,35 @@
   "license": "CC0 1.0",
   "source": "https://www.inaturalist.org/observations/332228544",
   "photo_id": 602882259
+ },
+ {
+  "slug": "rose-water",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/observations/367029969",
+  "photo_id": 670240097
+ },
+ {
+  "slug": "deco_rose",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/observations/218195512",
+  "photo_id": 386053047
+ },
+ {
+  "slug": "deco_jasmine",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/observations/218051844",
+  "photo_id": 385822470
+ },
+ {
+  "slug": "deco_lavender",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/observations/170692475",
+  "photo_id": 296081702
+ },
+ {
+  "slug": "deco_peony",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/observations/376014961",
+  "photo_id": 687454061
  }
 ]

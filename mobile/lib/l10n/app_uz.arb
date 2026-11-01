@@ -189,5 +189,17 @@
   "personalDataNote": "Bu ma‘lumotlar faqat shu telefonda saqlanadi.",
   "botanicalCredit": "Botanik rasm: F. E. Köhler, “Köhler's Medizinal-Pflanzen”, 1887 (jamoat mulki)",
   "photoCredit": "Foto: iNaturalist hamjamiyati, CC0 (huquqlar saqlanmagan)",
-  "honestLead": "Ochiq aytamiz:"
+  "honestLead": "Ochiq aytamiz:",
+  "academySubtitle": "Kosmetologiya asoslari: dalillarga asoslangan qisqa darslar. Tez orada.",
+  "academyT1": "Teri anatomiyasi va fiziologiyasi",
+  "academyT2": "INCI va kosmetik ingredientlar",
+  "academyT3": "Quyoshdan himoyalanish",
+  "academyT4": "Namlantirish va teri to‘sig‘i",
+  "academyT5": "Gigiyena va infeksiya nazorati",
+  "academyT6": "Kosmetik xavfsizlik va yorliqlar",
+  "routineEmptyTitle": "Birinchi qadamingiz",
+  "journalEmptyTitle": "Teringiz kundaligi",
+  "routineSuggestCleanse": "Tozalash",
+  "routineSuggestMoisturise": "Namlantirish",
+  "routineSuggestSun": "Quyoshdan himoya"
 }

@@ -11,7 +11,6 @@ import 'package:samiya_beauty_lab/app/app.dart';
 import 'package:samiya_beauty_lab/app/app_state.dart';
 import 'package:samiya_beauty_lab/data/personal_store.dart';
 import 'package:samiya_beauty_lab/features/scanner/ingredient_models.dart';
-import 'package:samiya_beauty_lab/ui/botanical_assets.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../support/fonts.dart';
@@ -65,8 +64,8 @@ void main() {
           for (final a in ['hero_welcome', 'ob2_routine', 'logo_icon']) {
             await precacheImage(AssetImage('assets/images/$a.png'), ctx);
           }
-          for (final b in photoSlugs) {
-            await precacheImage(AssetImage('assets/photos/$b.jpg'), ctx);
+          for (final b in Directory('assets/photos').listSync().whereType<File>().where((f) => f.path.endsWith('.jpg'))) {
+            await precacheImage(AssetImage('assets/photos/${b.uri.pathSegments.last}'), ctx);
           }
         });
         await t.pump(const Duration(milliseconds: 1200));

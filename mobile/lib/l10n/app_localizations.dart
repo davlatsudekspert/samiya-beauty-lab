@@ -1241,6 +1241,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'In all honesty:'**
   String get honestLead;
+
+  /// No description provided for @academySubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Cosmetology essentials: short, evidence-based lessons. Coming soon.'**
+  String get academySubtitle;
+
+  /// No description provided for @academyT1.
+  ///
+  /// In en, this message translates to:
+  /// **'Skin anatomy and physiology'**
+  String get academyT1;
+
+  /// No description provided for @academyT2.
+  ///
+  /// In en, this message translates to:
+  /// **'INCI and cosmetic ingredients'**
+  String get academyT2;
+
+  /// No description provided for @academyT3.
+  ///
+  /// In en, this message translates to:
+  /// **'Sun protection'**
+  String get academyT3;
+
+  /// No description provided for @academyT4.
+  ///
+  /// In en, this message translates to:
+  /// **'Moisturising and the skin barrier'**
+  String get academyT4;
+
+  /// No description provided for @academyT5.
+  ///
+  /// In en, this message translates to:
+  /// **'Hygiene and infection control'**
+  String get academyT5;
+
+  /// No description provided for @academyT6.
+  ///
+  /// In en, this message translates to:
+  /// **'Cosmetic safety and labels'**
+  String get academyT6;
+
+  /// No description provided for @routineEmptyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your first step'**
+  String get routineEmptyTitle;
+
+  /// No description provided for @journalEmptyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your skin journal'**
+  String get journalEmptyTitle;
+
+  /// No description provided for @routineSuggestCleanse.
+  ///
+  /// In en, this message translates to:
+  /// **'Cleanse'**
+  String get routineSuggestCleanse;
+
+  /// No description provided for @routineSuggestMoisturise.
+  ///
+  /// In en, this message translates to:
+  /// **'Moisturise'**
+  String get routineSuggestMoisturise;
+
+  /// No description provided for @routineSuggestSun.
+  ///
+  /// In en, this message translates to:
+  /// **'Sun protection'**
+  String get routineSuggestSun;
 }
 
 class _AppLocalizationsDelegate

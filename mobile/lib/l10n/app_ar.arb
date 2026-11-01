@@ -189,5 +189,17 @@
   "personalDataNote": "تُحفظ هذه المعلومات على هذا الهاتف فقط.",
   "botanicalCredit": "رسم نباتي: ف. إ. كولر، «Köhler's Medizinal-Pflanzen»، 1887 (ملكية عامة)",
   "photoCredit": "الصورة: مجتمع iNaturalist، ‏CC0 (بلا حقوق محفوظة)",
-  "honestLead": "بصراحة:"
+  "honestLead": "بصراحة:",
+  "academySubtitle": "أساسيات التجميل: دروس قصيرة مبنية على الأدلة. قريبًا.",
+  "academyT1": "تشريح البشرة ووظائفها",
+  "academyT2": "INCI والمكوّنات التجميلية",
+  "academyT3": "الحماية من الشمس",
+  "academyT4": "الترطيب وحاجز البشرة",
+  "academyT5": "النظافة ومكافحة العدوى",
+  "academyT6": "سلامة مستحضرات التجميل والملصقات",
+  "routineEmptyTitle": "خطوتك الأولى",
+  "journalEmptyTitle": "مذكرات بشرتك",
+  "routineSuggestCleanse": "التنظيف",
+  "routineSuggestMoisturise": "الترطيب",
+  "routineSuggestSun": "الحماية من الشمس"
 }

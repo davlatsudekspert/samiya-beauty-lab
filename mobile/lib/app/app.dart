@@ -19,14 +19,13 @@ import '../features/scanner/manual_input_page.dart';
 import '../features/scanner/result_page.dart';
 import '../features/scanner/scanner_page.dart';
 import '../features/shell/app_shell.dart';
-import '../features/tabs/placeholder_tab.dart';
+import '../features/tabs/academy_page.dart';
 import '../features/splash/splash_page.dart';
 import '../features/welcome/welcome_page.dart';
 import '../l10n/app_localizations.dart';
 import 'app_state.dart';
 import 'theme.dart';
 
-String _academyTitle(AppLocalizations l) => l.navAcademy;
 
 class SamiyaApp extends StatefulWidget {
   const SamiyaApp({
@@ -64,9 +63,7 @@ class _SamiyaAppState extends State<SamiyaApp> {
             ]),
           ]),
           StatefulShellBranch(routes: [
-            GoRoute(
-                path: '/academy',
-                builder: (_, _) => const PlaceholderTab(pageKey: 'tab-academy', title: _academyTitle)),
+            GoRoute(path: '/academy', builder: (_, _) => const AcademyPage()),
           ]),
           StatefulShellBranch(routes: [
             GoRoute(

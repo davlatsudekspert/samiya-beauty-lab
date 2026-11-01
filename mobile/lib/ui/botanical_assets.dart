@@ -12,7 +12,7 @@ const botanicalFocus = <String, (double, Alignment)>{
 /// Fotosuratlar (iNaturalist, CC0 1.0 — "huquqlar saqlanmagan"); manbalar: assets/photos/CREDITS.json.
 const photoSlugs = <String>{
   'aloe-vera', 'banana', 'chamomile', 'coconut-oil', 'cucumber', 'green-tea',
-  'honey', 'lemon-juice', 'oat', 'olive-oil', 'rosehip-oil', 'turmeric',
+  'honey', 'lemon-juice', 'oat', 'olive-oil', 'rosehip-oil', 'turmeric', 'rose-water',
 };
 
 /// Foto doirada: markaz nuqtasi (asosiy obyekt ko'rinsin).
@@ -27,6 +27,7 @@ const photoFocus = <String, Alignment>{
   'olive-oil': Alignment(0.2, 0.0),
   'rosehip-oil': Alignment(0.3, -0.3),
   'turmeric': Alignment(0.1, -0.3),
+  'rose-water': Alignment(0.0, -0.4),
 };
 
 String? ingredientImage(String slug) => photoSlugs.contains(slug)
