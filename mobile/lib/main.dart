@@ -10,6 +10,7 @@ import 'data/backend_api.dart';
 import 'data/install_reporter.dart';
 import 'features/auth/auth_service.dart';
 import 'features/auth/firebase_auth_service.dart';
+import 'data/purchase_service.dart';
 import 'features/scanner/mlkit_text_scanner.dart';
 import 'features/scanner/text_scanner.dart';
 
@@ -29,7 +30,7 @@ Future<void> main() async {
   final backend = apiBase.isEmpty ? const NoBackendApi() : HttpBackendApi(apiBase);
   runApp(
     SamiyaApp(
-      state: await AppState.load(auth: await _initAuth(), backend: backend, scanner: kIsWeb ? const UnavailableTextScanner() : MlkitTextScanner()),
+      state: await AppState.load(auth: await _initAuth(), backend: backend, scanner: kIsWeb ? const UnavailableTextScanner() : MlkitTextScanner(), purchases: await RevenueCatPurchaseService.create()),
     ),
   );
   // Anonim o'rnatish hisoblagichi (ilova ochilishini kutdirmaydi, xato bo'lsa jim).

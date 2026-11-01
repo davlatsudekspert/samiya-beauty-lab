@@ -123,7 +123,7 @@ abstract class AppLocalizations {
   /// No description provided for @campaignPill.
   ///
   /// In en, this message translates to:
-  /// **'90 days free · coming soon'**
+  /// **'First month free · coming soon'**
   String get campaignPill;
 
   /// No description provided for @continueWithGoogle.
@@ -213,7 +213,7 @@ abstract class AppLocalizations {
   /// No description provided for @campaignNoCard.
   ///
   /// In en, this message translates to:
-  /// **'90 days free · no card needed'**
+  /// **'First month free · no card needed'**
   String get campaignNoCard;
 
   /// No description provided for @welcomeTitle.
@@ -1809,13 +1809,13 @@ abstract class AppLocalizations {
   /// No description provided for @proCampaign.
   ///
   /// In en, this message translates to:
-  /// **'During the 90-day launch everything is free — no card needed.'**
+  /// **'During the first month after launch everything is free — no card needed.'**
   String get proCampaign;
 
   /// No description provided for @proSoon.
   ///
   /// In en, this message translates to:
-  /// **'Pro is coming soon. No automatic charges and no hidden fees.'**
+  /// **'Pro is coming soon. No hidden fees, and you can cancel anytime.'**
   String get proSoon;
 
   /// No description provided for @proEarly.
@@ -1847,6 +1847,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Pro is active — every section is open'**
   String get proActive;
+
+  /// No description provided for @proMonthly.
+  ///
+  /// In en, this message translates to:
+  /// **'Monthly'**
+  String get proMonthly;
+
+  /// No description provided for @proYearly.
+  ///
+  /// In en, this message translates to:
+  /// **'Yearly'**
+  String get proYearly;
+
+  /// No description provided for @proPerMonth.
+  ///
+  /// In en, this message translates to:
+  /// **'{price} / month'**
+  String proPerMonth(String price);
+
+  /// No description provided for @proPerYear.
+  ///
+  /// In en, this message translates to:
+  /// **'{price} / year'**
+  String proPerYear(String price);
+
+  /// No description provided for @proBestValue.
+  ///
+  /// In en, this message translates to:
+  /// **'Best value'**
+  String get proBestValue;
+
+  /// No description provided for @proSubscribe.
+  ///
+  /// In en, this message translates to:
+  /// **'Subscribe'**
+  String get proSubscribe;
+
+  /// No description provided for @proRestore.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore purchases'**
+  String get proRestore;
+
+  /// No description provided for @proSignInFirst.
+  ///
+  /// In en, this message translates to:
+  /// **'Please sign in first to subscribe.'**
+  String get proSignInFirst;
+
+  /// No description provided for @proThanks.
+  ///
+  /// In en, this message translates to:
+  /// **'Thank you! SAMIYA Pro is now active.'**
+  String get proThanks;
+
+  /// No description provided for @proBuyFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'The purchase didn’t go through. Please try again.'**
+  String get proBuyFailed;
+
+  /// No description provided for @proRestoreNone.
+  ///
+  /// In en, this message translates to:
+  /// **'No active Pro subscription was found.'**
+  String get proRestoreNone;
+
+  /// No description provided for @proAutoRenew.
+  ///
+  /// In en, this message translates to:
+  /// **'Your subscription renews automatically at the end of the chosen period. You can cancel anytime in your App Store or Google Play settings. Payment is charged when you confirm the purchase.'**
+  String get proAutoRenew;
 }
 
 class _AppLocalizationsDelegate

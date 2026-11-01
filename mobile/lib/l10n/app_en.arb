@@ -3,7 +3,7 @@
   "appName": "SAMIYA BEAUTY LAB",
   "welcomeTagline": "Beauty, science and care — always with you",
   "start": "Get started",
-  "campaignPill": "90 days free · coming soon",
+  "campaignPill": "First month free · coming soon",
   "continueWithGoogle": "Continue with Google",
   "continueWithApple": "Continue with Apple",
   "continueAsGuest": "Continue as guest",
@@ -18,7 +18,7 @@
   "onboarding3Title": "Learn and grow",
   "onboarding3Body": "The Academy, quizzes and the SAMIYA AI assistant in one app.",
   "loginBanner": "Beauty, science and care",
-  "campaignNoCard": "90 days free · no card needed",
+  "campaignNoCard": "First month free · no card needed",
   "welcomeTitle": "Welcome!",
   "loginSubtitle": "Continue your care and learning journey with SAMIYA.",
   "legalNotice": "By continuing, you agree to the Terms of Use and Privacy Policy.",
@@ -384,8 +384,8 @@
   "proB4": "The full Ibn Sina section",
   "proB5": "Unlimited “My shelf”",
   "proB6": "No ads",
-  "proCampaign": "During the 90-day launch everything is free — no card needed.",
-  "proSoon": "Pro is coming soon. No automatic charges and no hidden fees.",
+  "proCampaign": "During the first month after launch everything is free — no card needed.",
+  "proSoon": "Pro is coming soon. No hidden fees, and you can cancel anytime.",
   "proEarly": "A special offer for early members is on its way.",
   "proLocked": "This section unlocks with Pro",
   "proUnlock": "About Pro",
@@ -397,5 +397,31 @@
       }
     }
   },
-  "proActive": "Pro is active — every section is open"
+  "proActive": "Pro is active — every section is open",
+  "proMonthly": "Monthly",
+  "proYearly": "Yearly",
+  "proPerMonth": "{price} / month",
+  "@proPerMonth": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "proPerYear": "{price} / year",
+  "@proPerYear": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "proBestValue": "Best value",
+  "proSubscribe": "Subscribe",
+  "proRestore": "Restore purchases",
+  "proSignInFirst": "Please sign in first to subscribe.",
+  "proThanks": "Thank you! SAMIYA Pro is now active.",
+  "proBuyFailed": "The purchase didn’t go through. Please try again.",
+  "proRestoreNone": "No active Pro subscription was found.",
+  "proAutoRenew": "Your subscription renews automatically at the end of the chosen period. You can cancel anytime in your App Store or Google Play settings. Payment is charged when you confirm the purchase."
 }

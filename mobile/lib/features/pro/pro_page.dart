@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/app_state.dart';
+import '../../app/links.dart';
+import '../../data/purchase_service.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../ui/arch_photo.dart';
@@ -91,17 +93,21 @@ class ProPage extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    Text(
-                      l.proEarly,
-                      textAlign: TextAlign.center,
-                      style: t.titleMedium?.copyWith(color: const Color(0xFF8C6A3A)),
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      l.proSoon,
-                      textAlign: TextAlign.center,
-                      style: t.bodySmall?.copyWith(color: SamiyaColors.muted),
-                    ),
+                    if (app.purchases.isAvailable && !app.isPro)
+                      const _Purchase()
+                    else if (!app.isPro) ...[
+                      Text(
+                        l.proEarly,
+                        textAlign: TextAlign.center,
+                        style: t.titleMedium?.copyWith(color: const Color(0xFF8C6A3A)),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        l.proSoon,
+                        textAlign: TextAlign.center,
+                        style: t.bodySmall?.copyWith(color: SamiyaColors.muted),
+                      ),
+                    ],
                   ],
                 ),
               ),
@@ -178,6 +184,148 @@ class ProLockedCard extends StatelessWidget {
           GradientButton(label: l.proUnlock, onPressed: () => context.safePush('/pro')),
         ],
       ),
+    );
+  }
+}
+
+/// Xarid bloki: do'kon narxlari (mahalliy valyutada), obuna, tiklash, avtomatik yangilanish haqida izoh va huquqiy havolalar.
+class _Purchase extends StatefulWidget {
+  const _Purchase();
+  @override
+  State<_Purchase> createState() => _PurchaseState();
+}
+
+class _PurchaseState extends State<_Purchase> {
+  List<ProOffer>? _offers;
+  ProOffer? _sel;
+  bool _busy = false;
+  String? _msg;
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (_offers == null) {
+      AppScope.of(context).purchases.offers().then((o) {
+        if (!mounted) return;
+        setState(() {
+          _offers = o;
+          _sel = o.where((x) => x.yearly).firstOrNull ?? o.firstOrNull;
+        });
+      });
+    }
+  }
+
+  Future<void> _run(Future<bool> Function() f, String ok, String none) async {
+    setState(() {
+      _busy = true;
+      _msg = null;
+    });
+    try {
+      final r = await f();
+      if (mounted) setState(() => _msg = r ? ok : none);
+    } catch (_) {
+      if (mounted) setState(() => _msg = AppLocalizations.of(context).proBuyFailed);
+    } finally {
+      if (mounted) setState(() => _busy = false);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    final t = Theme.of(context).textTheme;
+    final app = AppScope.of(context);
+    final signedIn = app.user != null;
+    final offers = _offers;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        if (offers == null)
+          const Center(
+            child: Padding(padding: EdgeInsets.all(16), child: CircularProgressIndicator(strokeWidth: 1.6)),
+          )
+        else
+          for (final o in [...offers.where((x) => x.yearly), ...offers.where((x) => !x.yearly)])
+            Padding(
+              padding: const EdgeInsets.only(bottom: 10),
+              child: InkWell(
+                key: Key('pro-offer-${o.yearly ? 'yearly' : 'monthly'}'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () => setState(() => _sel = o),
+                child: Ink(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(18),
+                    border: Border.all(color: _sel == o ? SamiyaColors.gold : const Color(0x1A3B1E2B), width: _sel == o ? 2 : 1),
+                  ),
+                  child: Row(
+                    children: [
+                      Icon(_sel == o ? Icons.radio_button_checked : Icons.radio_button_off, color: _sel == o ? SamiyaColors.gold : SamiyaColors.muted),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(o.yearly ? l.proYearly : l.proMonthly, style: t.titleMedium),
+                            Text(o.yearly ? l.proPerYear(o.price) : l.proPerMonth(o.price), style: t.bodyMedium?.copyWith(color: SamiyaColors.muted)),
+                          ],
+                        ),
+                      ),
+                      if (o.yearly)
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                          decoration: BoxDecoration(color: SamiyaColors.heading, borderRadius: BorderRadius.circular(10)),
+                          child: Text(l.proBestValue, style: t.labelSmall?.copyWith(color: const Color(0xFFE9D3A8))),
+                        ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+        const SizedBox(height: 6),
+        if (!signedIn) ...[
+          Text(l.proSignInFirst, textAlign: TextAlign.center, style: t.bodyMedium),
+          const SizedBox(height: 10),
+          GradientButton(key: const Key('pro-signin'), label: l.aiSignInBtn, onPressed: () => context.safePush('/login')),
+        ] else
+          GradientButton(
+            key: const Key('pro-buy'),
+            label: l.proSubscribe,
+            onPressed: _busy || _sel == null ? null : () => _run(() => app.buyPro(_sel!), l.proThanks, ''),
+          ),
+        if (signedIn)
+          TextButton(
+            key: const Key('pro-restore'),
+            onPressed: _busy ? null : () => _run(app.restorePro, l.proThanks, l.proRestoreNone),
+            child: Text(l.proRestore),
+          ),
+        if (_busy)
+          const Padding(
+            padding: EdgeInsets.all(8),
+            child: Center(child: CircularProgressIndicator(strokeWidth: 1.6)),
+          ),
+        if (_msg != null && _msg!.isNotEmpty)
+          Padding(
+            padding: const EdgeInsets.only(top: 6),
+            child: Text(_msg!, key: const Key('pro-msg'), textAlign: TextAlign.center, style: t.titleSmall),
+          ),
+        const SizedBox(height: 12),
+        Text(
+          l.proAutoRenew,
+          textAlign: TextAlign.center,
+          style: t.bodySmall?.copyWith(color: SamiyaColors.muted, height: 1.45),
+        ),
+        const SizedBox(height: 6),
+        Wrap(
+          alignment: WrapAlignment.center,
+          spacing: 12,
+          children: [
+            TextButton(onPressed: () => openExternalUrl(legalUri('terms', Localizations.localeOf(context).languageCode)), child: Text(l.termsOfUse)),
+            TextButton(onPressed: () => openExternalUrl(legalUri('privacy', Localizations.localeOf(context).languageCode)), child: Text(l.privacyPolicy)),
+          ],
+        ),
+      ],
     );
   }
 }

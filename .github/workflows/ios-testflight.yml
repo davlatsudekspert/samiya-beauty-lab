@@ -91,7 +91,7 @@ jobs:
         run: |
           flutter pub get
           flutter test --exclude-tags visual --timeout 60s
-          flutter build ios --release --no-codesign --build-number ${{ github.run_number }} --dart-define=API_BASE_URL=https://samiya-api.davlatsudekspert.workers.dev
+          flutter build ios --release --no-codesign --build-number ${{ github.run_number }} --dart-define=API_BASE_URL=https://samiya-api.davlatsudekspert.workers.dev --dart-define=RC_APPLE_KEY=${{ vars.RC_APPLE_KEY }}
       - name: Arxiv (vaqtinchalik ad-hoc imzo, huquqlar saqlanadi, haqiqiy imzo eksportda)
         working-directory: mobile/ios
         run: |

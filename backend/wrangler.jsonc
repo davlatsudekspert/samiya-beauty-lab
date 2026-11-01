@@ -5,7 +5,7 @@
   "compatibility_date": "2026-10-01",
   "vars": {
     // PUBLIC_LAUNCH_DATE ni FAQAT rasmiy ommaviy launch kuni egasi qo'yadi (YYYY-MM-DD). Hozir bo'sh = prelaunch.
-    "CAMPAIGN_DURATION_DAYS": "90",
+    "CAMPAIGN_DURATION_DAYS": "30",
     "AI_FREE_DAILY_REQUESTS": "3",
     "AI_CAMPAIGN_DAILY_REQUESTS": "10",
     "AI_PRO_DAILY_REQUESTS": "50",

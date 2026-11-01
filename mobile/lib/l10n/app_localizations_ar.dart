@@ -19,7 +19,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get start => 'ابدئي';
 
   @override
-  String get campaignPill => '90 يومًا مجانًا · قريبًا';
+  String get campaignPill => 'الشهر الأول مجانًا · قريبًا';
 
   @override
   String get continueWithGoogle => 'المتابعة عبر Google';
@@ -65,7 +65,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get loginBanner => 'الجمال والعلم والعناية';
 
   @override
-  String get campaignNoCard => '90 يومًا مجانًا · دون الحاجة إلى بطاقة';
+  String get campaignNoCard => 'الشهر الأول مجانًا · دون الحاجة إلى بطاقة';
 
   @override
   String get welcomeTitle => 'أهلًا بكِ!';
@@ -951,10 +951,11 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get proCampaign =>
-      'خلال 90 يومًا من الإطلاق كل شيء مجاني — لا حاجة إلى بطاقة.';
+      'خلال الشهر الأول من الإطلاق كل شيء مجاني — لا حاجة إلى بطاقة.';
 
   @override
-  String get proSoon => 'اشتراك Pro قريبًا. بلا خصم تلقائي وبلا رسوم خفية.';
+  String get proSoon =>
+      'اشتراك Pro قريبًا. بلا رسوم خفية، ويمكنكِ الإلغاء في أي وقت.';
 
   @override
   String get proEarly => 'نُعِدّ عرضًا خاصًا للمشتركات الأوائل.';
@@ -972,4 +973,45 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get proActive => 'Pro مفعّل — جميع الأقسام مفتوحة';
+
+  @override
+  String get proMonthly => 'شهري';
+
+  @override
+  String get proYearly => 'سنوي';
+
+  @override
+  String proPerMonth(String price) {
+    return '$price / شهر';
+  }
+
+  @override
+  String proPerYear(String price) {
+    return '$price / سنة';
+  }
+
+  @override
+  String get proBestValue => 'الأوفر';
+
+  @override
+  String get proSubscribe => 'اشتركي الآن';
+
+  @override
+  String get proRestore => 'استعادة المشتريات';
+
+  @override
+  String get proSignInFirst => 'يُرجى تسجيل الدخول أولًا للاشتراك.';
+
+  @override
+  String get proThanks => 'شكرًا لكِ! تم تفعيل SAMIYA Pro.';
+
+  @override
+  String get proBuyFailed => 'لم تكتمل عملية الشراء. حاولي مجددًا.';
+
+  @override
+  String get proRestoreNone => 'لم يُعثر على اشتراك Pro فعّال.';
+
+  @override
+  String get proAutoRenew =>
+      'يتجدد الاشتراك تلقائيًا عند انتهاء المدة المختارة، ويمكنكِ إلغاؤه في أي وقت من إعدادات App Store أو Google Play. يُخصم المبلغ عند تأكيد الشراء.';
 }

@@ -19,7 +19,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get start => 'Get started';
 
   @override
-  String get campaignPill => '90 days free · coming soon';
+  String get campaignPill => 'First month free · coming soon';
 
   @override
   String get continueWithGoogle => 'Continue with Google';
@@ -67,7 +67,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get loginBanner => 'Beauty, science and care';
 
   @override
-  String get campaignNoCard => '90 days free · no card needed';
+  String get campaignNoCard => 'First month free · no card needed';
 
   @override
   String get welcomeTitle => 'Welcome!';
@@ -931,11 +931,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get proCampaign =>
-      'During the 90-day launch everything is free — no card needed.';
+      'During the first month after launch everything is free — no card needed.';
 
   @override
   String get proSoon =>
-      'Pro is coming soon. No automatic charges and no hidden fees.';
+      'Pro is coming soon. No hidden fees, and you can cancel anytime.';
 
   @override
   String get proEarly => 'A special offer for early members is on its way.';
@@ -953,4 +953,46 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get proActive => 'Pro is active — every section is open';
+
+  @override
+  String get proMonthly => 'Monthly';
+
+  @override
+  String get proYearly => 'Yearly';
+
+  @override
+  String proPerMonth(String price) {
+    return '$price / month';
+  }
+
+  @override
+  String proPerYear(String price) {
+    return '$price / year';
+  }
+
+  @override
+  String get proBestValue => 'Best value';
+
+  @override
+  String get proSubscribe => 'Subscribe';
+
+  @override
+  String get proRestore => 'Restore purchases';
+
+  @override
+  String get proSignInFirst => 'Please sign in first to subscribe.';
+
+  @override
+  String get proThanks => 'Thank you! SAMIYA Pro is now active.';
+
+  @override
+  String get proBuyFailed =>
+      'The purchase didn’t go through. Please try again.';
+
+  @override
+  String get proRestoreNone => 'No active Pro subscription was found.';
+
+  @override
+  String get proAutoRenew =>
+      'Your subscription renews automatically at the end of the chosen period. You can cancel anytime in your App Store or Google Play settings. Payment is charged when you confirm the purchase.';
 }

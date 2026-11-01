@@ -19,7 +19,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get start => 'Начать';
 
   @override
-  String get campaignPill => '90 дней бесплатно · скоро';
+  String get campaignPill => 'Первый месяц бесплатно · скоро';
 
   @override
   String get continueWithGoogle => 'Продолжить через Google';
@@ -67,7 +67,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get loginBanner => 'Красота, наука и забота';
 
   @override
-  String get campaignNoCard => '90 дней бесплатно · карта не нужна';
+  String get campaignNoCard => 'Первый месяц бесплатно · карта не нужна';
 
   @override
   String get welcomeTitle => 'Добро пожаловать!';
@@ -933,11 +933,11 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get proCampaign =>
-      'В течение 90 дней запуска всё бесплатно — карта не нужна.';
+      'В первый месяц после запуска всё бесплатно — карта не нужна.';
 
   @override
   String get proSoon =>
-      'Подписка Pro скоро появится. Без автосписаний и скрытых платежей.';
+      'Подписка Pro скоро появится. Без скрытых платежей, отменить можно в любой момент.';
 
   @override
   String get proEarly => 'Для первых пользователей готовим особое предложение.';
@@ -955,4 +955,46 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get proActive => 'Pro активен — открыты все разделы';
+
+  @override
+  String get proMonthly => 'Месяц';
+
+  @override
+  String get proYearly => 'Год';
+
+  @override
+  String proPerMonth(String price) {
+    return '$price / мес.';
+  }
+
+  @override
+  String proPerYear(String price) {
+    return '$price / год';
+  }
+
+  @override
+  String get proBestValue => 'Выгоднее всего';
+
+  @override
+  String get proSubscribe => 'Оформить подписку';
+
+  @override
+  String get proRestore => 'Восстановить покупки';
+
+  @override
+  String get proSignInFirst =>
+      'Чтобы оформить подписку, сначала войдите в аккаунт.';
+
+  @override
+  String get proThanks => 'Спасибо! SAMIYA Pro активирован.';
+
+  @override
+  String get proBuyFailed => 'Покупка не удалась. Попробуйте ещё раз.';
+
+  @override
+  String get proRestoreNone => 'Активная подписка Pro не найдена.';
+
+  @override
+  String get proAutoRenew =>
+      'Подписка автоматически продлевается по окончании выбранного периода. Отменить её можно в любой момент в настройках App Store или Google Play. Оплата списывается при подтверждении покупки.';
 }

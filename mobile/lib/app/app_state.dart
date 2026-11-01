@@ -5,6 +5,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../data/backend_api.dart';
+import '../data/purchase_service.dart';
 import '../data/personal_store.dart';
 import '../features/auth/auth_service.dart';
 import '../features/scanner/ingredient_models.dart';
@@ -33,11 +34,13 @@ class AppState extends ChangeNotifier {
     TextScanner? scanner,
     PersonalStore? personal,
     CampaignInfo campaign = CampaignInfo.open,
+    PurchaseService? purchases,
   }) : ingredients = ingredients ?? IngredientRepository(const []),
        auth = auth ?? const UnavailableAuthService(),
        backend = backend ?? const NoBackendApi(),
        scanner = scanner ?? const UnavailableTextScanner(),
        personal = personal ?? PersonalStore(persist: false),
+       purchases = purchases ?? const UnavailablePurchaseService(),
        _campaign = campaign,
        _locale = locale,
        _onboarded = onboarded,
@@ -45,17 +48,61 @@ class AppState extends ChangeNotifier {
     _user = this.auth.currentUser;
     _authSub = this.auth.changes.listen((u) {
       _user = u;
+      _localPro = false;
       notifyListeners();
       refreshMe();
+      _syncPurchases();
     });
-    if (_user != null) refreshMe();
+    if (_user != null) {
+      refreshMe();
+      _syncPurchases();
+    }
   }
 
   MeInfo _me = MeInfo.none;
 
   /// Admin va Pro holati FAQAT serverdan (kirgan va backend sozlangan bo'lsa); xatoda xavfsiz tomon: false.
   bool get isAdmin => _user != null && _me.isAdmin;
-  bool get isPro => _user != null && _me.pro;
+  bool get isPro => _user != null && (_me.pro || _localPro);
+
+  /// Do'kon xaridi: kirgan foydalanuvchi uid'iga bog'lanadi (server webhook orqali tasdiqlaydi).
+  final PurchaseService purchases;
+  bool _localPro = false; // do'kon kvitansiyasi bo'yicha (server tasdig'i kelguncha)
+
+  Future<void> _syncPurchases() async {
+    if (!purchases.isAvailable) return;
+    final u = _user;
+    if (u == null) {
+      await purchases.logOut();
+      return;
+    }
+    await purchases.logIn(u.uid);
+    final has = await purchases.hasPro();
+    if (_user?.uid == u.uid && has != _localPro) {
+      _localPro = has;
+      notifyListeners();
+    }
+  }
+
+  Future<bool> _afterPurchase(bool active) async {
+    if (active) {
+      _localPro = true;
+      notifyListeners();
+      // Webhook bir necha soniyada keladi: server holatini qayta so'raymiz.
+      for (final d in const [2, 5, 10]) {
+        await Future<void>.delayed(Duration(seconds: d));
+        await refreshMe();
+        if (_me.pro) break;
+      }
+    }
+    return active;
+  }
+
+  /// Pro sotib olish (kirish talab qilinadi). true: Pro faol.
+  Future<bool> buyPro(ProOffer offer) async => _afterPurchase(await purchases.buy(offer));
+
+  /// Avvalgi xaridlarni tiklash. true: Pro faol.
+  Future<bool> restorePro() async => _afterPurchase(await purchases.restore());
 
   CampaignInfo _campaign;
   CampaignInfo get campaign => _campaign;
@@ -160,7 +207,7 @@ class AppState extends ChangeNotifier {
   bool get onboarded => _onboarded;
   UserRole? get role => _role;
 
-  static Future<AppState> load({AuthService? auth, BackendApi? backend, TextScanner? scanner}) async {
+  static Future<AppState> load({AuthService? auth, BackendApi? backend, TextScanner? scanner, PurchaseService? purchases}) async {
     final p = await SharedPreferences.getInstance();
     final code = p.getString('locale');
     final roleName = p.getString('role');
@@ -174,6 +221,7 @@ class AppState extends ChangeNotifier {
       locale: Locale(languageNativeNames.containsKey(code) ? code! : 'uz'),
       onboarded: p.getBool('onboarded') ?? false,
       role: UserRole.values.where((r) => r.name == roleName).firstOrNull,
+      purchases: purchases,
       campaign: CampaignInfo(phase: p.getString('campaign_phase') ?? 'prelaunch', daysRemaining: p.getInt('campaign_days')),
     )..refreshCampaign();
   }

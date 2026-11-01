@@ -1,6 +1,7 @@
 import { daysRemaining, parseConfig, phase, type CampaignEnv } from "./campaign";
 import { AuthError, getFirebaseJwks, verifyFirebaseIdToken } from "./firebase_auth";
 import { AiProviderError, callGemini, parseAiRequest, tashkentDay } from "./ai";
+import { planEvent, safeEqual, type RcEvent } from "./revenuecat";
 import { legalPage } from "./legal";
 
 export interface Env extends CampaignEnv {
@@ -14,6 +15,8 @@ export interface Env extends CampaignEnv {
   AI_FREE_DAILY_REQUESTS?: string;
   AI_PRO_DAILY_REQUESTS?: string;
   AI_CAMPAIGN_DAILY_REQUESTS?: string;
+  /** Maxfiy: RevenueCat webhook Authorization sarlavhasi qiymati. */
+  REVENUECAT_WEBHOOK_SECRET?: string;
 }
 
 const json = (body: unknown, status = 200): Response =>
@@ -139,6 +142,36 @@ export async function aiAsk(request: Request, env: Env, fetcher?: typeof fetch):
     }
     throw e;
   }
+}
+
+/** POST /api/v1/webhooks/revenuecat: obuna voqealari (Authorization: <maxfiy qiymat>). */
+export async function revenuecatWebhook(request: Request, env: Env): Promise<Response> {
+  const secret = env.REVENUECAT_WEBHOOK_SECRET;
+  if (!secret) return json({ error: "not_configured" }, 503);
+  const got = (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
+  if (!safeEqual(got, secret)) return json({ error: "unauthorized" }, 401);
+  const db = env.DB;
+  if (!db) return json({ error: "server_misconfigured" }, 500);
+  let body: { event?: RcEvent };
+  try {
+    const raw = await request.text();
+    if (raw.length > 64_000) return json({ error: "bad_request" }, 400);
+    body = JSON.parse(raw);
+  } catch {
+    return json({ error: "bad_request" }, 400);
+  }
+  const plan = planEvent(body?.event ?? {}, Date.now());
+  if (!plan) return json({ ok: true, ignored: true });
+  await db.batch([
+    db.prepare("INSERT OR IGNORE INTO users (id) VALUES (?)").bind(plan.uid),
+    db.prepare(
+      `INSERT INTO entitlements (user_id, product, provider, provider_transaction_id, verified_at, ends_at)
+       VALUES (?, ?, 'revenuecat', ?, datetime('now'), ?)
+       ON CONFLICT(user_id, product, provider) DO UPDATE SET provider_transaction_id = excluded.provider_transaction_id,
+         verified_at = excluded.verified_at, ends_at = excluded.ends_at`,
+    ).bind(plan.uid, plan.product, plan.txn, plan.endsAt),
+  ]);
+  return json({ ok: true });
 }
 
 /** GET /api/v1/me: foydalanuvchini bazaga (bir marta) yozadi; admin va Pro holatini qaytaradi. Pro faqat serverdan. */
@@ -293,6 +326,10 @@ export default {
       if (request.method === "GET") return me(request, env);
       if (request.method === "DELETE") return deleteMe(request, env);
       return json({ error: "method_not_allowed" }, 405);
+    }
+    if (pathname === "/api/v1/webhooks/revenuecat") {
+      if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);
+      return revenuecatWebhook(request, env);
     }
     if (pathname === "/api/v1/ai/ask") {
       if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);

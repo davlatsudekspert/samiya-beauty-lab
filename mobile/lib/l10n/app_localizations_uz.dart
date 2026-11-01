@@ -20,7 +20,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get start => 'Boshlash';
 
   @override
-  String get campaignPill => '90 kun bepul · yaqinda';
+  String get campaignPill => 'Birinchi oy bepul · yaqinda';
 
   @override
   String get continueWithGoogle => 'Google orqali davom etish';
@@ -68,7 +68,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get loginBanner => 'Go‘zallik, ilm va g‘amxo‘rlik';
 
   @override
-  String get campaignNoCard => '90 kun bepul · karta kerak emas';
+  String get campaignNoCard => 'Birinchi oy bepul · karta kerak emas';
 
   @override
   String get welcomeTitle => 'Xush kelibsiz!';
@@ -939,11 +939,11 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get proCampaign =>
-      '90 kunlik ochilish davrida hammasi bepul — karta kerak emas.';
+      'Ochilishning birinchi oyida hammasi bepul — karta kerak emas.';
 
   @override
   String get proSoon =>
-      'Pro obunasi tez orada. Avtomatik yechib olish va yashirin to‘lovlar bo‘lmaydi.';
+      'Pro obunasi tez orada. Yashirin to‘lovlar bo‘lmaydi, obunani istalgan vaqt bekor qilasiz.';
 
   @override
   String get proEarly =>
@@ -962,4 +962,45 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get proActive => 'Pro faol — hamma bo‘limlar ochiq';
+
+  @override
+  String get proMonthly => 'Oylik';
+
+  @override
+  String get proYearly => 'Yillik';
+
+  @override
+  String proPerMonth(String price) {
+    return '$price / oy';
+  }
+
+  @override
+  String proPerYear(String price) {
+    return '$price / yil';
+  }
+
+  @override
+  String get proBestValue => 'Eng foydali';
+
+  @override
+  String get proSubscribe => 'Obuna bo‘lish';
+
+  @override
+  String get proRestore => 'Xaridlarni tiklash';
+
+  @override
+  String get proSignInFirst => 'Obuna bo‘lish uchun avval hisobingizga kiring.';
+
+  @override
+  String get proThanks => 'Rahmat! SAMIYA Pro faollashtirildi.';
+
+  @override
+  String get proBuyFailed => 'Xarid amalga oshmadi. Qayta urinib ko‘ring.';
+
+  @override
+  String get proRestoreNone => 'Faol Pro obunasi topilmadi.';
+
+  @override
+  String get proAutoRenew =>
+      'Obuna tanlangan muddat tugaganda avtomatik yangilanadi. Uni istalgan vaqt App Store yoki Google Play sozlamalarida bekor qilishingiz mumkin. To‘lov xaridni tasdiqlaganingizda hisobingizdan yechiladi.';
 }
