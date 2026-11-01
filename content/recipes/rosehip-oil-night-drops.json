@@ -1,0 +1,135 @@
+{
+  "id": "rosehip-oil-night-drops",
+  "status": "draft",
+  "photo": "rosehip-oil",
+  "ingredients": [
+    "rosehip-oil"
+  ],
+  "minutes": 3,
+  "title": {
+    "uz": "Na'matak moyining kechki tomchilari",
+    "ru": "Вечерние капли масла шиповника",
+    "en": "Rosehip oil night drops",
+    "ar": "قطرات زيت ثمر الورد الليلية"
+  },
+  "intro": {
+    "uz": "Hech narsa aralashtirilmaydi: tayyor kosmetik moyning ikki-uch tomchisi va kechki parvarishga bir daqiqalik iliq to'xtam. Kam — ko'proq.",
+    "ru": "Ничего не нужно смешивать: две-три капли готового косметического масла и минутная тёплая пауза в вечернем уходе. Меньше — значит лучше.",
+    "en": "Nothing to mix: two or three drops of a ready-made cosmetic oil and a warm, one-minute pause in your evening routine. Less is more.",
+    "ar": "لا شيء يُمزج: قطرتان أو ثلاث من زيت تجميلي جاهز، ووقفة دافئة لدقيقة في روتينكِ المسائي. فالقليل هنا أفضل."
+  },
+  "items": [
+    {
+      "uz": "Kosmetik na'matak moyi (INCI: Rosa Canina Fruit Oil), qorong'i shishada, tomizgich bilan",
+      "ru": "Косметическое масло шиповника (INCI: Rosa Canina Fruit Oil) в тёмном флаконе с пипеткой",
+      "en": "Cosmetic rosehip oil (INCI: Rosa Canina Fruit Oil) in a dark bottle with a dropper",
+      "ar": "زيت ثمر الورد التجميلي (INCI: Rosa Canina Fruit Oil) في زجاجة داكنة بقطّارة"
+    },
+    {
+      "uz": "Har safar 2–3 tomchi",
+      "ru": "2–3 капли на одно применение",
+      "en": "2–3 drops per use",
+      "ar": "قطرتان إلى ثلاث في كل استخدام"
+    },
+    {
+      "uz": "Toza qo'llar",
+      "ru": "Чистые руки",
+      "en": "Clean hands",
+      "ar": "يدان نظيفتان"
+    }
+  ],
+  "steps": [
+    {
+      "uz": "Kechqurun yuzingizni yumshoq vosita bilan yuving va bosib quriting.",
+      "ru": "Вечером умойтесь мягким средством и промокните лицо.",
+      "en": "In the evening, wash your face with a gentle cleanser and pat it dry.",
+      "ar": "في المساء، اغسلي وجهكِ بمنظّف لطيف وجففيه بالتربيت."
+    },
+    {
+      "uz": "Moyning hidi va rangini tekshiring: achigan hid kelsa, ishlatmang.",
+      "ru": "Проверьте запах и цвет масла: если оно пахнет прогорклым, не используйте его.",
+      "en": "Check the smell and colour of the oil: if it smells rancid, do not use it.",
+      "ar": "تحقّقي من رائحة الزيت ولونه، فإن كانت رائحته زنخة فلا تستخدميه."
+    },
+    {
+      "uz": "2–3 tomchini barmoq uchlariga tomizing; tomizgich teriga tegmasin.",
+      "ru": "Нанесите 2–3 капли на подушечки пальцев так, чтобы пипетка не касалась кожи.",
+      "en": "Drip 2–3 drops onto your fingertips without letting the dropper touch your skin.",
+      "ar": "قطّري قطرتين أو ثلاثًا على أطراف أصابعكِ دون أن تلمس القطّارة بشرتكِ."
+    },
+    {
+      "uz": "Barmoqlar orasida isitib, yonoqlar, peshona va iyakka yengil bosib surting; ko'z atrofini chetlab o'ting.",
+      "ru": "Согрейте масло между пальцами и мягкими прижатиями нанесите на щёки, лоб и подбородок, обходя область вокруг глаз.",
+      "en": "Warm it between your fingers and press it lightly onto your cheeks, forehead and chin, avoiding the eye area.",
+      "ar": "دفّئيه بين أصابعكِ واضغطيه بخفّة على الخدّين والجبين والذقن، متجنبةً محيط العينين."
+    },
+    {
+      "uz": "Xohlasangiz, moyni alohida emas, bir tomchisini kechki kremingizga aralashtirib surting.",
+      "ru": "При желании вместо отдельного нанесения добавьте одну каплю в вечерний крем.",
+      "en": "If you prefer, mix a single drop into your night cream instead of applying it on its own.",
+      "ar": "وإن شئتِ، امزجي قطرة واحدة مع كريمكِ الليلي بدل وضع الزيت وحده."
+    },
+    {
+      "uz": "Yotishdan oldin bir necha daqiqa so'rilishini kuting. Shishani mahkam yopib, salqin va qorong'i joyda saqlang.",
+      "ru": "Перед сном подождите несколько минут, пока масло впитается. Плотно закройте флакон и храните в прохладном тёмном месте.",
+      "en": "Give it a few minutes to sink in before lying down. Close the bottle tightly and store it somewhere cool and dark.",
+      "ar": "امنحيه بضع دقائق ليتشرّب قبل أن تستلقي، ثم أحكمي إغلاق الزجاجة واحفظيها في مكان بارد مظلم."
+    }
+  ],
+  "safety": [
+    {
+      "uz": "Birinchi marta qo'llashdan oldin bir tomchisini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo'lsa, bu retseptdan voz keching.",
+      "ru": "Перед первым применением нанесите каплю масла на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+      "en": "Before the first use, apply a drop to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+      "ar": "قبل الاستخدام الأول، ضعي قطرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+      "uz": "Na'matak moyidan allergik kontakt dermatit kelib chiqqani haqida xabar bor. Na'matak yoki atirgul oilasi o'simliklariga allergiyangiz bo'lsa, ishlatmang.",
+      "ru": "Описан случай аллергического контактного дерматита на масло шиповника. Не используйте при аллергии на шиповник или растения семейства розовых.",
+      "en": "Allergic contact dermatitis from rosehip oil has been reported. Do not use if you are allergic to rosehip or plants of the rose family.",
+      "ar": "أُبلغ عن حالة التهاب جلد تماسي تحسّسي من زيت ثمر الورد. لا تستخدميه إذا كانت لديكِ حساسية من ثمر الورد أو نباتات الفصيلة الوردية."
+    },
+    {
+      "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek yallig'langan toshmalar ustiga hech qachon qo'llamang. Kartochkadagi sharhga ko'ra, dalillar na'matak moyini yaralar uchun tavsiya qilishga yetarli emas.",
+      "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённые высыпания. По обзору из карточки, данных недостаточно, чтобы рекомендовать масло шиповника для ран.",
+      "en": "Never apply to broken, scratched, cracked or burnt skin, or over inflamed breakouts. A review on the card found the evidence insufficient to recommend rosehip oil for wounds.",
+      "ar": "لا تضعيه أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا فوق البثور الملتهبة. فقد وجدت مراجعة في البطاقة أن الأدلة غير كافية للتوصية بزيت ثمر الورد للجروح."
+    },
+    {
+      "uz": "Moyni ishlatgandan keyin yangi toshmalar paydo bo'lsa yoki teri yog'lanib ketsa, foydalanishni to'xtating.",
+      "ru": "Если после масла появились новые высыпания или кожа стала слишком жирной, прекратите его использовать.",
+      "en": "If new breakouts appear or your skin feels too greasy after using the oil, stop using it.",
+      "ar": "إذا ظهرت حبوب جديدة أو صارت بشرتكِ دهنية أكثر من اللازم بعد استخدام الزيت، فتوقّفي عنه."
+    },
+    {
+      "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv va yumshoq vosita bilan yuvib tashlang. Noqulaylik o'tmasa, shifokorga murojaat qiling.",
+      "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой с мягким средством. Если дискомфорт не проходит, обратитесь к врачу.",
+      "en": "If you feel stinging, redness or itching, wash it off at once with lukewarm water and a gentle cleanser. If the discomfort does not settle, see a doctor.",
+      "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسليه فورًا بماء فاتر ومنظّف لطيف. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+      "uz": "Limon sharbati yoki efir moylarini qo'shmang: ular terini ta'sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o'xshash reaksiyalarga sabab bo'lgani qayd etilgan.",
+      "ru": "Не добавляйте лимонный сок или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+      "en": "Do not add lemon juice or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+      "ar": "لا تضيفي عصير الليمون أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+      "uz": "Qo'llaringizni yuving, tomizgichni teri va barmoqlarga tekkizmang, shishani mahkam yoping. Laboratoriyada na'matak moyi UV nuri ta'sirida oksidlangan, shuning uchun uni quyoshdan uzoqda saqlang va yaroqlilik muddatiga e'tibor bering.",
+      "ru": "Мойте руки, не касайтесь пипеткой кожи и пальцев, плотно закрывайте флакон. В лаборатории масло шиповника окислялось под действием УФ, поэтому храните его вдали от солнца и следите за сроком годности.",
+      "en": "Wash your hands, keep the dropper from touching skin or fingers and close the bottle tightly. In the laboratory, rosehip oil oxidised under UV light, so store it away from sunlight and watch the expiry date.",
+      "ar": "اغسلي يديكِ، ولا تدعي القطّارة تلمس البشرة أو الأصابع، وأحكمي إغلاق الزجاجة. وقد تأكسد زيت ثمر الورد في المختبر تحت الأشعة فوق البنفسجية، فاحفظيه بعيدًا عن الشمس وانتبهي لتاريخ الصلاحية."
+    },
+    {
+      "uz": "Ko'z atrofidan uzoqroq tuting; ko'zga tushsa, ko'p miqdordagi toza suv bilan yuving.",
+      "ru": "Не наносите на область вокруг глаз; при попадании в глаза промойте их большим количеством чистой воды.",
+      "en": "Keep away from the eye area; if any gets into your eyes, rinse with plenty of clean water.",
+      "ar": "أبعديه عن محيط العينين، وإذا دخل شيء منه إلى عينيكِ فاغسليهما بكثير من الماء النظيف."
+    }
+  ],
+  "evidence": {
+    "uz": "Na'matak moyi kartochkasidagi dalillar cheklangan: chandiqlar bo'yicha sharh dalillarni yetarli emas deb topgan, ko'p komponentli kremning tasodifiy tadqiqotida cho'zilish izlari umumiy chastotasi o'zgarmagan, sakkiz ko'ngilli ishtirok etgan kichik o'lchovda esa moy faqat taqqoslash vositasi bo'lgan. Fotoqarish bo'yicha mos tadqiqot topilmagan. Bu usulning o'zi o'rganilmagan va u ajinlar, dog'lar yoki chandiqlarni yo'qotishni va'da qilmaydi.",
+    "ru": "Данные в карточке масла шиповника ограничены: обзор по рубцам счёл доказательства недостаточными, в рандомизированном исследовании многокомпонентного крема общая частота растяжек не изменилась, а в небольшом измерении на восьми добровольцах масло было лишь веществом для сравнения. Подходящих исследований по фотостарению не найдено. Сам этот способ не изучался и не обещает избавить от морщин, пятен или рубцов.",
+    "en": "The evidence on the rosehip oil card is limited: a review of scar studies judged it insufficient, a randomised trial of a multi-ingredient cream found no change in the overall rate of stretch marks, and in a small measurement study of eight volunteers the oil was only a comparator. No suitable studies on photoaging were found. This method itself has not been studied, and it does not promise to remove wrinkles, dark spots or scars.",
+    "ar": "الأدلة في بطاقة زيت ثمر الورد محدودة: فقد عدّت مراجعة لدراسات الندبات الأدلةَ غير كافية، ولم تجد تجربة عشوائية لكريم متعدد المكوّنات تغيّرًا في المعدّل العام لعلامات التمدّد، وفي دراسة قياس صغيرة على ثماني متطوّعات ومتطوّعين كان الزيت مادة مقارنة فقط. ولم يُعثر على دراسات مناسبة عن الشيخوخة الضوئية. ولم تُدرس هذه الطريقة بحدّ ذاتها، ولا تَعِد بإزالة التجاعيد أو البقع الداكنة أو الندبات."
+  }
+}
