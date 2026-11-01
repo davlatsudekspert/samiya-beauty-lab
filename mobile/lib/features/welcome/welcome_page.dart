@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
+import '../../ui/brand.dart';
 import '../../ui/widgets.dart';
 
 class WelcomePage extends StatelessWidget {
@@ -14,103 +15,81 @@ class WelcomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
     final state = AppScope.of(context);
+    final t = Theme.of(context).textTheme;
+    final heroH = (MediaQuery.sizeOf(context).height * 0.56).clamp(300.0, 520.0);
     return Scaffold(
       key: const Key('welcome-page'),
       body: SamiyaBackground(
-        child: SafeArea(
-          child: Column(children: [
-            PageHeader(onBack: () => context.canPop() ? context.pop() : context.go('/language')),
-            Expanded(
-              child: PageBody(
-                bottom: Column(mainAxisSize: MainAxisSize.min, children: [
-                  GradientButton(
-                    key: const Key('welcome-start'),
-                    label: l.start,
-                    trailing: Icons.arrow_forward_rounded,
-                    onPressed: () => context.safePush('/onboarding'),
-                  ),
-                  const SizedBox(height: 14),
-                  Wrap(spacing: 8, runSpacing: 8, alignment: WrapAlignment.center, children: [
-                    for (final code in languageNativeNames.keys)
-                      _LangChip(
-                        code: code,
-                        selected: state.locale.languageCode == code,
-                        onTap: () => state.setLocale(code),
+        child: Column(children: [
+          Expanded(
+            child: SingleChildScrollView(
+              child: Column(children: [
+                // Jurnal muqovasi uslubi: rasm yuqorini to'liq egallaydi va chinni fonga yumshoq o'tadi.
+                SizedBox(
+                  height: heroH,
+                  width: double.infinity,
+                  child: Stack(fit: StackFit.expand, children: [
+                    Image.asset('assets/images/hero_welcome.png', fit: BoxFit.cover, alignment: const Alignment(0, -0.35), filterQuality: FilterQuality.high),
+                    const DecoratedBox(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [Color(0x00F7F3F1), Color(0x00F7F3F1), SamiyaColors.ivory],
+                          stops: [0, 0.62, 1],
+                        ),
                       ),
+                    ),
+                    SafeArea(
+                      bottom: false,
+                      child: Align(
+                        alignment: AlignmentDirectional.topStart,
+                        child: Padding(
+                          padding: const EdgeInsetsDirectional.fromSTEB(20, 8, 0, 0),
+                          child: BackChip(onTap: () => context.canPop() ? context.pop() : context.go('/language')),
+                        ),
+                      ),
+                    ),
                   ]),
-                ]),
-                child: Column(children: [
-                  const _Wordmark(),
-                  const SizedBox(height: 14),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 12),
-                    child: Text(l.welcomeTagline,
-                        textAlign: TextAlign.center,
-                        style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                            color: SamiyaColors.heading, fontWeight: FontWeight.w500)),
+                ),
+                Transform.translate(
+                  offset: const Offset(0, -18),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 28),
+                    child: Column(children: [
+                      const ExcludeSemantics(child: SamiyaWordmark(scale: 1.05)),
+                      const SizedBox(height: 16),
+                      Container(height: 1, width: 56, color: SamiyaColors.gold),
+                      const SizedBox(height: 16),
+                      Text(l.welcomeTagline, textAlign: TextAlign.center, style: t.headlineSmall?.copyWith(fontSize: 22, fontStyle: FontStyle.italic, fontWeight: FontWeight.w500)),
+                      const SizedBox(height: 14),
+                      InfoPill(l.campaignPill),
+                    ]),
                   ),
-                  const SizedBox(height: 12),
-                  InfoPill(l.campaignPill),
-                  const SizedBox(height: 16),
-                  const _Hero(),
-                ]),
-              ),
+                ),
+              ]),
             ),
-          ]),
-        ),
-      ),
-    );
-  }
-}
-
-/// Brend nomi har tilda lotin yozuvida qoladi (tasdiqlangan brend).
-class _Wordmark extends StatelessWidget {
-  const _Wordmark();
-
-  @override
-  Widget build(BuildContext context) {
-    return ExcludeSemantics(
-      child: Column(children: [
-        const Text('SAMIYA',
-            style: TextStyle(
-                fontFamily: 'PlayfairDisplay',
-                fontWeight: FontWeight.w500,
-                fontSize: 52,
-                letterSpacing: 2,
-                height: 1.1,
-                color: Color(0xFF8E4A5E))),
-        const SizedBox(height: 4),
-        Text('BEAUTY LAB',
-            style: TextStyle(
-                fontFamily: 'Jost',
-                fontWeight: FontWeight.w500,
-                fontSize: 14,
-                letterSpacing: 8,
-                color: SamiyaColors.rose.withValues(alpha: 0.9))),
-      ]),
-    );
-  }
-}
-
-class _Hero extends StatelessWidget {
-  const _Hero();
-
-  @override
-  Widget build(BuildContext context) {
-    // Katta ekranda bo'sh joy qolmasin, kichikda sig'sin (260..440 px).
-    final height = (MediaQuery.sizeOf(context).height * 0.42).clamp(260.0, 440.0);
-    return ShaderMask(
-      blendMode: BlendMode.dstIn,
-      shaderCallback: (rect) => const LinearGradient(
-        begin: Alignment.topCenter,
-        end: Alignment.bottomCenter,
-        colors: [Colors.white, Colors.white, Colors.transparent],
-        stops: [0, 0.78, 1],
-      ).createShader(rect),
-      child: ClipRRect(
-        borderRadius: const BorderRadius.vertical(top: Radius.circular(120)),
-        child: Image.asset('assets/images/hero_welcome.png',
-            height: height, width: double.infinity, fit: BoxFit.cover, filterQuality: FilterQuality.high),
+          ),
+          SafeArea(
+            top: false,
+            child: Padding(
+              padding: const EdgeInsetsDirectional.fromSTEB(20, 6, 20, 14),
+              child: Column(mainAxisSize: MainAxisSize.min, children: [
+                GradientButton(
+                  key: const Key('welcome-start'),
+                  label: l.start,
+                  trailing: Icons.arrow_forward_rounded,
+                  onPressed: () => context.safePush('/onboarding'),
+                ),
+                const SizedBox(height: 12),
+                Wrap(spacing: 8, runSpacing: 8, alignment: WrapAlignment.center, children: [
+                  for (final code in languageNativeNames.keys)
+                    _LangChip(code: code, selected: state.locale.languageCode == code, onTap: () => state.setLocale(code)),
+                ]),
+              ]),
+            ),
+          ),
+        ]),
       ),
     );
   }

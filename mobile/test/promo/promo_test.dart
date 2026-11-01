@@ -16,7 +16,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../support/fonts.dart';
 
-/// Reklama roligi uchun haqiqiy ekranlar (namuna ma'lumotlar bilan): ../qa/promo/<til>_<n>.png
+/// Reklama roligi uchun haqiqiy ekranlar (namuna ma'lumotlar bilan): ../qa/promo/`<til>_<n>`.png
 void main() {
   setUpAll(loadAppFonts);
   setUp(() => SharedPreferences.setMockInitialValues({}));

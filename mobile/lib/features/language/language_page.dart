@@ -4,6 +4,7 @@ import '../../ui/safe_nav.dart';
 import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
+import '../../ui/brand.dart';
 import '../../ui/widgets.dart';
 
 class LanguagePage extends StatelessWidget {
@@ -30,16 +31,9 @@ class LanguagePage extends StatelessWidget {
                 ),
                 child: Column(children: [
                   const SizedBox(height: 12),
-                  Container(
-                    width: 132,
-                    height: 132,
-                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(36), boxShadow: SamiyaShadows.soft),
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(36),
-                      child: Image.asset('assets/images/logo_icon.png',
-                          fit: BoxFit.cover, filterQuality: FilterQuality.high, semanticLabel: l.appName),
-                    ),
-                  ),
+                  Semantics(label: l.appName, child: const SamiyaMark(size: 64)),
+                  const SizedBox(height: 18),
+                  const SamiyaWordmark(scale: 0.72),
                   const SizedBox(height: 24),
                   Text(l.languageTitle,
                       textAlign: TextAlign.center, style: Theme.of(context).textTheme.headlineSmall),

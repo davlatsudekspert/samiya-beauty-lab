@@ -6,7 +6,7 @@ import 'package:go_router/go_router.dart';
 import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
-import '../../ui/widgets.dart';
+import '../../ui/brand.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key, required this.duration});
@@ -37,40 +37,40 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
+    final t = Theme.of(context).textTheme;
     return Scaffold(
       key: const Key('splash-page'),
-      body: SamiyaBackground(
+      backgroundColor: SamiyaColors.heading,
+      body: Container(
+        decoration: const BoxDecoration(
+          gradient: RadialGradient(
+            center: Alignment(0, -0.25),
+            radius: 1.1,
+            colors: [Color(0xFF4E2738), SamiyaColors.heading, Color(0xFF24121A)],
+            stops: [0, 0.55, 1],
+          ),
+        ),
         child: Center(
           child: TweenAnimationBuilder<double>(
             tween: Tween(begin: 0, end: 1),
-            duration: const Duration(milliseconds: 800),
+            duration: const Duration(milliseconds: 1100),
             curve: Curves.easeOutCubic,
-            builder: (context, t, child) => Opacity(
-              opacity: t,
-              child: Transform.scale(scale: 0.92 + 0.08 * t, child: child),
+            builder: (context, v, child) => Opacity(opacity: v, child: Transform.translate(offset: Offset(0, 10 * (1 - v)), child: child)),
+            child: Semantics(
+              label: l.appName,
+              child: Column(mainAxisSize: MainAxisSize.min, children: [
+                const SamiyaMark(size: 92),
+                const SizedBox(height: 34),
+                const SamiyaWordmark(color: Color(0xFFEAD7BF)),
+                const SizedBox(height: 26),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 48),
+                  child: Text(l.welcomeTagline,
+                      textAlign: TextAlign.center,
+                      style: t.bodyLarge?.copyWith(color: const Color(0xFFEAD7BF).withValues(alpha: 0.85), fontSize: 15)),
+                ),
+              ]),
             ),
-            child: Column(mainAxisSize: MainAxisSize.min, children: [
-              Container(
-                width: 168,
-                height: 168,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(44),
-                  boxShadow: SamiyaShadows.soft,
-                ),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(44),
-                  child: Image.asset('assets/images/logo_icon.png',
-                      fit: BoxFit.cover, filterQuality: FilterQuality.high, semanticLabel: l.appName),
-                ),
-              ),
-              const SizedBox(height: 28),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 40),
-                child: Text(l.welcomeTagline,
-                    textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.bodyLarge?.copyWith(color: SamiyaColors.heading)),
-              ),
-            ]),
           ),
         ),
       ),
