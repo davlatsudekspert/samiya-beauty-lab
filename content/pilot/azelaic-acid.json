@@ -1,0 +1,136 @@
+{
+ "inci": "Azelaic Acid",
+ "slug": "azelaic-acid",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Azelaic acid is a dicarboxylic acid used in topical products and studied mainly for rosacea, acne and melasma. Most clinical trials used prescription-strength 15% or 20% preparations, so the results may not apply to cosmetic products with lower or unstated concentrations. Local skin irritation is the side effect most often reported in the studies summarised here. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "azelaic-acid-1",
+   "text_en": "A systematic review of 43 randomised controlled trials found topical azelaic acid more effective than vehicle for rosacea, acne and melasma, with very few significant differences from comparator treatments in commonly reported adverse events; no eligible trials of azelaic acid for skin ageing were found.",
+   "evidence_level": "A",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "37550898",
+     "doi": "10.1111/jocd.15923",
+     "title": "A systematic review to evaluate the efficacy of azelaic acid in the management of acne, rosacea, melasma and skin aging.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37550898/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "azelaic-acid-2",
+   "text_en": "A network meta-analysis of 19 randomised trials (8,208 participants) in moderate-to-severe papulopustular rosacea ranked azelaic acid 20% highest for improvement in the investigator global assessment, while azelaic acid 15% was the only agent with a statistically significant increase in adverse events; sample sizes were limited for some agents.",
+   "evidence_level": "A",
+   "study_type": "meta-analysis",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40213532",
+     "doi": "10.1016/j.jdin.2023.12.010",
+     "title": "The efficacy and safety of minocycline, metronidazole, ivermectin, and azelaic acid in moderate-to-severe papulopustular rosacea: A systematic review and network meta-analysis.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40213532/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "azelaic-acid-3",
+   "text_en": "A meta-analysis of six randomised trials (673 patients with melasma) found a somewhat greater reduction in the melasma severity score (MASI) with azelaic acid than with hydroquinone, with no difference in other response measures or in reported adverse events; the authors called for larger studies with longer follow-up.",
+   "evidence_level": "A",
+   "study_type": "meta-analysis",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "37457606",
+     "doi": "10.7759/cureus.41796",
+     "title": "Azelaic Acid Versus Hydroquinone for Managing Patients With Melasma: Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37457606/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "azelaic-acid-4",
+   "text_en": "In a meta-analysis of topical melasma treatments, azelaic acid improved melasma severity to a degree comparable with hydroquinone, and skin irritation was reported in about 18.7% of participants using azelaic acid, compared with 50.9% for hydroquinone-containing combinations.",
+   "evidence_level": "A",
+   "study_type": "meta-analysis",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "36566490",
+     "doi": "10.1111/jocd.15566",
+     "title": "Efficacy and safety of topical agents in the treatment of melasma: What's evidence? A systematic review and meta-analysis.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36566490/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "azelaic-acid-5",
+   "text_en": "A narrative review of acne treatment during pregnancy and breastfeeding listed topical azelaic acid among the topical options described for mild-to-moderate acne in these periods; this is a summary of existing literature rather than a safety trial, and use during pregnancy is a decision made with a clinician.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "36447117",
+     "doi": "10.1007/s13555-022-00854-3",
+     "title": "Treatment of Acne Vulgaris During Pregnancy and Lactation: A Narrative Review.",
+     "year": 2022,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36447117/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Azelain kislota (azelaic acid) dikarbon kislota bo'lib, surtiladigan vositalarda asosan rozatsea, akne va melazma bo'yicha o'rganilgan. Klinik tadqiqotlarning aksariyatida retsept bo'yicha beriladigan 15% yoki 20% li preparatlar ishlatilgan, shu sababli natijalar konsentratsiyasi pastroq yoki ko'rsatilmagan kosmetik mahsulotlarga to'g'ri kelmasligi mumkin. Bu yerda umumlashtirilgan tadqiqotlarda eng ko'p qayd etilgan nojo'ya ta'sir terining mahalliy ta'sirlanishi bo'lgan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "azelaic-acid-1": "43 ta randomizatsiyalangan nazoratli tadqiqotni o'z ichiga olgan tizimli sharhda surtiladigan azelain kislota rozatsea, akne va melazmada faol moddasiz asosga (vehicle) nisbatan samaraliroq bo'lgan, keng tarqalgan nojo'ya ta'sirlar bo'yicha esa taqqoslangan vositalardan juda kam hollarda ahamiyatli farq qilgan; terining qarishi bo'yicha mos tadqiqot topilmagan.",
+    "azelaic-acid-2": "O'rtacha va og'ir papulopustulyoz rozatsea bo'yicha 19 ta randomizatsiyalangan tadqiqot (8208 ishtirokchi) asosidagi tarmoq meta-tahlilida 20% li azelain kislota tadqiqotchining umumiy bahosini yaxshilash bo'yicha birinchi o'rinni egallagan, 15% li azelain kislota esa nojo'ya ta'sirlarni statistik ahamiyatli oshirgan yagona vosita bo'lgan; ba'zi vositalar bo'yicha ishtirokchilar soni cheklangan.",
+    "azelaic-acid-3": "Melazmali 673 bemor ishtirok etgan oltita randomizatsiyalangan tadqiqot meta-tahlilida azelain kislota gidroxinonga nisbatan melazma og'irlik indeksini (MASI) biroz ko'proq pasaytirgan, boshqa javob ko'rsatkichlari va qayd etilgan nojo'ya ta'sirlar bo'yicha farq bo'lmagan; mualliflar kattaroq va uzoqroq kuzatuvli tadqiqotlar zarurligini ta'kidlagan.",
+    "azelaic-acid-4": "Melazma uchun surtiladigan vositalar bo'yicha meta-tahlilda azelain kislota melazma og'irligini gidroxinonga yaqin darajada kamaytirgan; teri ta'sirlanishi azelain kislota qo'llaganlarning taxminan 18,7 foizida, gidroxinonli kombinatsiyalarda esa 50,9 foizida qayd etilgan.",
+    "azelaic-acid-5": "Homiladorlik va emizish davrida akneni davolashga oid hikoyaviy sharhda surtiladigan azelain kislota bu davrlarda yengil va o'rtacha akne uchun tilga olingan surtma vositalar qatorida keltirilgan; bu xavfsizlik bo'yicha sinov emas, balki mavjud adabiyotlarning umumlashmasi, homiladorlik davrida qo'llash esa shifokor bilan birga hal qilinadigan masala."
+   }
+  },
+  "ru": {
+   "summary": "Азелаиновая кислота (azelaic acid) — дикарбоновая кислота, которая в средствах для местного применения изучалась главным образом при розацеа, акне и мелазме. В большинстве клинических исследований использовались рецептурные препараты с концентрацией 15% или 20%, поэтому результаты могут не относиться к косметическим средствам с более низкой или неуказанной концентрацией. Местное раздражение кожи — побочный эффект, о котором чаще всего сообщалось в обобщённых здесь исследованиях. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "azelaic-acid-1": "В систематическом обзоре 43 рандомизированных контролируемых исследований местная азелаиновая кислота была эффективнее основы без активного вещества при розацеа, акне и мелазме, а по частым побочным эффектам лишь в редких случаях значимо отличалась от препаратов сравнения; подходящих исследований по старению кожи найдено не было.",
+    "azelaic-acid-2": "В сетевом метаанализе 19 рандомизированных исследований (8208 участников) при папулопустулёзной розацеа средней и тяжёлой степени азелаиновая кислота 20% заняла первое место по улучшению общей оценки исследователя, а азелаиновая кислота 15% оказалась единственным средством со статистически значимым ростом побочных эффектов; для некоторых средств размер выборки был ограничен.",
+    "azelaic-acid-3": "В метаанализе шести рандомизированных исследований (673 пациента с мелазмой) азелаиновая кислота несколько сильнее снижала индекс тяжести мелазмы (MASI), чем гидрохинон, без различий по другим показателям ответа и по зарегистрированным побочным эффектам; авторы указали на необходимость более крупных исследований с длительным наблюдением.",
+    "azelaic-acid-4": "В метаанализе местных средств при мелазме азелаиновая кислота уменьшала тяжесть мелазмы сопоставимо с гидрохиноном; раздражение кожи отмечалось примерно у 18,7% участников, применявших азелаиновую кислоту, и у 50,9% — при комбинациях с гидрохиноном.",
+    "azelaic-acid-5": "В описательном обзоре, посвящённом лечению акне во время беременности и грудного вскармливания, местная азелаиновая кислота названа среди средств для местного применения, описанных при акне лёгкой и средней степени в эти периоды; это обобщение литературы, а не исследование безопасности, и решение о применении во время беременности принимается вместе с врачом."
+   }
+  },
+  "ar": {
+   "summary": "حمض الأزيليك (azelaic acid) حمض ثنائي الكربوكسيل يُستخدم في المنتجات الموضعية، وقد دُرس أساسًا في الوردية وحب الشباب والكلف. استخدمت معظم التجارب السريرية مستحضرات بتركيز 15% أو 20% تُصرف بوصفة طبية، لذا قد لا تنطبق النتائج على المنتجات التجميلية ذات التركيز الأقل أو غير المعلن. وكان تهيّج الجلد الموضعي أكثر الآثار الجانبية ذكرًا في الدراسات الملخّصة هنا. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "azelaic-acid-1": "وجدت مراجعة منهجية شملت 43 تجربة عشوائية مضبوطة أن حمض الأزيليك الموضعي كان أكثر فعالية من القاعدة الخالية من المادة الفعّالة في الوردية وحب الشباب والكلف، ونادرًا ما اختلف اختلافًا ذا دلالة عن علاجات المقارنة في الآثار الجانبية الشائعة؛ ولم تُعثر على تجارب مؤهّلة بشأن شيخوخة الجلد.",
+    "azelaic-acid-2": "في تحليل تلوي شبكي شمل 19 تجربة عشوائية (8208 مشاركين) في الوردية الحطاطية البثرية المتوسطة إلى الشديدة، احتل حمض الأزيليك بتركيز 20% المرتبة الأولى في تحسين التقييم العام للباحث، بينما كان حمض الأزيليك بتركيز 15% المادة الوحيدة المرتبطة بزيادة ذات دلالة إحصائية في الآثار الجانبية؛ وكانت أحجام العيّنات محدودة لبعض المواد.",
+    "azelaic-acid-3": "وجد تحليل تلوي لست تجارب عشوائية (673 مريضًا بالكلف) انخفاضًا أكبر قليلًا في مؤشر شدة الكلف (MASI) مع حمض الأزيليك مقارنةً بالهيدروكينون، دون فرق في مقاييس الاستجابة الأخرى أو في الآثار الجانبية المبلّغ عنها؛ ودعا المؤلفون إلى دراسات أكبر بمتابعة أطول.",
+    "azelaic-acid-4": "في تحليل تلوي للعلاجات الموضعية للكلف، حسّن حمض الأزيليك شدة الكلف بدرجة مماثلة للهيدروكينون، وأُبلغ عن تهيّج الجلد لدى نحو 18.7% من مستخدمي حمض الأزيليك مقابل 50.9% مع التركيبات المحتوية على الهيدروكينون.",
+    "azelaic-acid-5": "أدرجت مراجعة سردية حول علاج حب الشباب أثناء الحمل والرضاعة حمضَ الأزيليك الموضعي ضمن الخيارات الموضعية الموصوفة لحب الشباب الخفيف إلى المتوسط في هاتين الفترتين؛ وهي خلاصة للأدبيات المتاحة وليست تجربة سلامة، ويُتّخذ قرار الاستخدام أثناء الحمل بالتشاور مع الطبيب."
+   }
+  }
+ }
+}

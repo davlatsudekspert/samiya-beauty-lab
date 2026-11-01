@@ -1,0 +1,116 @@
+{
+ "inci": "Tranexamic Acid",
+ "slug": "tranexamic-acid",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Tranexamic acid is a synthetic antifibrinolytic agent that, in topical form, has been studied for melasma and other hyperpigmentation. This card covers topical use only. Topical trials are often small, short and heterogeneous, and many test tranexamic acid together with other ingredients. In pooled analyses, topical tranexamic acid was associated with low rates of skin irritation. Data on topical use during pregnancy were not found in the studies summarised here. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "tranexamic-acid-1",
+   "text_en": "A meta-analysis of topical melasma treatments (45 studies for efficacy, 55 for adverse effects) found that topical tranexamic acid reduced melasma severity scores to a degree comparable with hydroquinone, with skin irritation reported in about 0.8% of participants, the lowest rate among the agents compared.",
+   "evidence_level": "A",
+   "study_type": "meta-analysis",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "36566490",
+     "doi": "10.1111/jocd.15566",
+     "title": "Efficacy and safety of topical agents in the treatment of melasma: What's evidence? A systematic review and meta-analysis.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36566490/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "tranexamic-acid-2",
+   "text_en": "A network meta-analysis comparing routes of tranexamic acid for melasma found that topical tranexamic acid differed significantly from placebo from week 8 onward, while oral use acted sooner; over longer follow-up, the effect of tranexamic acid alone did not depend on the route.",
+   "evidence_level": "A",
+   "study_type": "meta-analysis",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38059683",
+     "doi": "10.1111/jocd.16104",
+     "title": "Comparative efficacy and safety of tranexamic acid for melasma by different administration methods: A systematic review and network meta-analysis.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38059683/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "tranexamic-acid-3",
+   "text_en": "In a single-centre randomised trial of 50 women with melasma, a 5% tranexamic acid cream applied twice daily for 12 weeks reduced MASI scores by about 51%, not significantly different from oral tranexamic acid (about 59%); one participant in the topical group stopped because of skin sensitivity. The trial was small and short.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40923777",
+     "doi": "10.1111/jocd.70428",
+     "title": "Randomized Clinical Trial on the Efficacy of Oral Tranexamic Acid Versus Topical Tranexamic Acid in Treatment of Melasma.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40923777/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "tranexamic-acid-4",
+   "text_en": "In a double-blind randomised trial of 99 patients with melasma, creams combining tranexamic acid with niacinamide (niosomal 2%/2% or conventional 5%/4%) reduced the melanin index and mMASI comparably to 4% hydroquinone over three months, while adverse reactions and relapse were reported in the hydroquinone group; effects cannot be attributed to tranexamic acid alone.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "41315336",
+     "doi": "10.1038/s41598-025-26693-8",
+     "title": "Safety and efficacy of niosomal and conventional tranexamic acid/niacinamide vs. hydroquinone creams in melasma: A randomized, double-blind, case-controlled clinical trial.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41315336/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Traneksam kislota (tranexamic acid) sintetik antifibrinolitik modda bo'lib, surtiladigan shaklda melazma va boshqa giperpigmentatsiyalar bo'yicha o'rganilgan. Bu kartochka faqat surtib qo'llashni qamrab oladi. Surtiladigan shakl bo'yicha tadqiqotlar ko'pincha kichik, qisqa muddatli va bir-biridan farqli bo'lib, ularning ko'pida traneksam kislota boshqa ingredientlar bilan birga sinalgan. Umumlashtirilgan tahlillarda surtiladigan traneksam kislota terining kam ta'sirlanishi bilan bog'langan. Bu yerda umumlashtirilgan tadqiqotlarda homiladorlik davrida surtib qo'llash bo'yicha ma'lumot topilmadi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "tranexamic-acid-1": "Melazma uchun surtiladigan vositalar bo'yicha meta-tahlilda (samaradorlik bo'yicha 45, nojo'ya ta'sirlar bo'yicha 55 tadqiqot) surtiladigan traneksam kislota melazma og'irlik ballarini gidroxinonga yaqin darajada pasaytirgan; teri ta'sirlanishi ishtirokchilarning taxminan 0,8 foizida qayd etilgan, bu taqqoslangan vositalar orasida eng past ko'rsatkich bo'lgan.",
+    "tranexamic-acid-2": "Melazmada traneksam kislotani qo'llash usullarini taqqoslagan tarmoq meta-tahlilida surtiladigan traneksam kislota 8-haftadan boshlab plasebodan ahamiyatli farq qilgan, ichish orqali qabul qilinganda esa ta'sir ertaroq boshlangan; uzoqroq kuzatuvda traneksam kislotaning o'zining ta'siri qo'llash usuliga bog'liq bo'lmagan.",
+    "tranexamic-acid-3": "Melazmali 50 nafar ayol ishtirok etgan bir markazli randomizatsiyalangan tadqiqotda 12 hafta davomida kuniga ikki marta surtilgan 5% li traneksam kislota kremi MASI ballarini taxminan 51 foizga kamaytirgan, bu ichiladigan traneksam kislotadan (taxminan 59 foiz) ahamiyatli farq qilmagan; surtma guruhidagi bir ishtirokchi teri sezgirligi tufayli qo'llashni to'xtatgan. Tadqiqot kichik va qisqa muddatli bo'lgan.",
+    "tranexamic-acid-4": "Melazmali 99 bemor ishtirok etgan ikki tomonlama ko'r randomizatsiyalangan tadqiqotda traneksam kislota va niacinamide birikmasidan iborat kremlar (niosomal 2%/2% yoki oddiy 5%/4%) uch oy davomida melanin indeksi va mMASI ni 4% li gidroxinonga yaqin darajada kamaytirgan, gidroxinon guruhida esa nojo'ya reaksiyalar va qaytalanish qayd etilgan; natijalarni faqat traneksam kislotaga bog'lab bo'lmaydi."
+   }
+  },
+  "ru": {
+   "summary": "Транексамовая кислота (tranexamic acid) — синтетическое антифибринолитическое средство, которое в форме для местного применения изучалось при мелазме и другой гиперпигментации. Эта карточка касается только местного применения. Исследования местных форм часто небольшие, короткие и неоднородные, и во многих из них транексамовая кислота проверялась вместе с другими ингредиентами. В обобщённых анализах местная транексамовая кислота была связана с низкой частотой раздражения кожи. Данных о местном применении во время беременности в обобщённых здесь исследованиях не найдено. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "tranexamic-acid-1": "В метаанализе местных средств при мелазме (45 исследований по эффективности, 55 — по побочным эффектам) местная транексамовая кислота снижала показатели тяжести мелазмы сопоставимо с гидрохиноном, а раздражение кожи отмечалось примерно у 0,8% участников — самая низкая частота среди сравниваемых средств.",
+    "tranexamic-acid-2": "В сетевом метаанализе, сравнивавшем способы применения транексамовой кислоты при мелазме, местная форма значимо отличалась от плацебо начиная с 8-й недели, тогда как при приёме внутрь эффект наступал раньше; при более длительном наблюдении эффект самой транексамовой кислоты не зависел от способа применения.",
+    "tranexamic-acid-3": "В одноцентровом рандомизированном исследовании с участием 50 женщин с мелазмой крем с 5% транексамовой кислоты дважды в день в течение 12 недель снижал индекс MASI примерно на 51%, что значимо не отличалось от приёма транексамовой кислоты внутрь (около 59%); одна участница из группы местного применения прекратила лечение из-за чувствительности кожи. Исследование было небольшим и коротким.",
+    "tranexamic-acid-4": "В двойном слепом рандомизированном исследовании с участием 99 пациентов с мелазмой кремы, сочетающие транексамовую кислоту с niacinamide (ниосомальный 2%/2% или обычный 5%/4%), за три месяца снижали меланиновый индекс и mMASI сопоставимо с 4% гидрохиноном, при этом в группе гидрохинона отмечались нежелательные реакции и рецидивы; эффекты нельзя приписать только транексамовой кислоте."
+   }
+  },
+  "ar": {
+   "summary": "حمض الترانيكساميك (tranexamic acid) مادة اصطناعية مضادة لانحلال الفيبرين، دُرست في شكلها الموضعي لعلاج الكلف وأنواع أخرى من فرط التصبّغ. تتناول هذه البطاقة الاستخدام الموضعي فقط. غالبًا ما تكون التجارب على الشكل الموضعي صغيرة وقصيرة ومتباينة، واختبر كثير منها حمض الترانيكساميك مع مكوّنات أخرى. وفي التحليلات المجمّعة ارتبط حمض الترانيكساميك الموضعي بمعدلات منخفضة من تهيّج الجلد. ولم يُعثر في الدراسات الملخّصة هنا على بيانات عن الاستخدام الموضعي أثناء الحمل. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "tranexamic-acid-1": "وجد تحليل تلوي للعلاجات الموضعية للكلف (45 دراسة للفعالية و55 دراسة للآثار الجانبية) أن حمض الترانيكساميك الموضعي خفّض درجات شدة الكلف بدرجة مماثلة للهيدروكينون، مع الإبلاغ عن تهيّج الجلد لدى نحو 0.8% من المشاركين، وهو أدنى معدل بين المواد المقارنة.",
+    "tranexamic-acid-2": "وجد تحليل تلوي شبكي قارن طرق إعطاء حمض الترانيكساميك للكلف أن الشكل الموضعي اختلف اختلافًا ذا دلالة عن الدواء الوهمي بدءًا من الأسبوع الثامن، بينما ظهر التأثير أبكر مع الإعطاء الفموي؛ وعلى مدى متابعة أطول لم يعتمد تأثير حمض الترانيكساميك وحده على طريقة الإعطاء.",
+    "tranexamic-acid-3": "في تجربة عشوائية أُجريت في مركز واحد وشملت 50 امرأة مصابة بالكلف، خفّض كريم حمض الترانيكساميك 5% المطبّق مرتين يوميًا لمدة 12 أسبوعًا درجات MASI بنحو 51%، دون فرق ذي دلالة عن حمض الترانيكساميك الفموي (نحو 59%)؛ وتوقّفت مشاركة واحدة في مجموعة الاستخدام الموضعي بسبب حساسية الجلد. وكانت التجربة صغيرة وقصيرة.",
+    "tranexamic-acid-4": "في تجربة عشوائية مزدوجة التعمية شملت 99 مريضًا بالكلف، خفّضت كريمات تجمع حمض الترانيكساميك مع niacinamide (نيوسومية 2%/2% أو تقليدية 5%/4%) مؤشر الميلانين وmMASI بدرجة مماثلة للهيدروكينون 4% على مدى ثلاثة أشهر، بينما أُبلغ عن تفاعلات ضارة وانتكاس في مجموعة الهيدروكينون؛ ولا يمكن عزو النتائج إلى حمض الترانيكساميك وحده."
+   }
+  }
+ }
+}

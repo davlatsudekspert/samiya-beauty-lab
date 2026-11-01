@@ -623,7 +623,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get academySubtitle =>
-      'Kosmetologiya asoslari: dalillarga asoslangan qisqa darslar. Tez orada.';
+      'Kosmetologiya asoslari: dalillarga asoslangan qisqa darslar.';
 
   @override
   String get academyT1 => 'Teri anatomiyasi va fiziologiyasi';
@@ -657,4 +657,44 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get routineSuggestSun => 'Quyoshdan himoya';
+
+  @override
+  String get lessonKeyPoints => 'Asosiy fikrlar';
+
+  @override
+  String get lessonQuiz => 'O‘zingizni sinang';
+
+  @override
+  String get lessonSources => 'Manbalar';
+
+  @override
+  String get lessonDraftNote =>
+      'bu dars dalillarga asoslangan qoralama; kosmetolog-ekspert tekshiruvi kutilmoqda. Tibbiy maslahat emas.';
+
+  @override
+  String lessonMinutes(int n) {
+    return '$n daqiqa';
+  }
+
+  @override
+  String get quizRight => 'To‘g‘ri!';
+
+  @override
+  String get quizWrong => 'Unchalik emas — to‘g‘ri javob belgilandi.';
+
+  @override
+  String quizScore(int score, int total) {
+    return 'Natija: $score / $total';
+  }
+
+  @override
+  String get quizRetry => 'Qayta urinish';
+
+  @override
+  String lessonCount(int n) {
+    return '$n ta dars · test bilan';
+  }
+
+  @override
+  String get lessonDone => 'O‘qildi';
 }

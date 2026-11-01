@@ -37,7 +37,7 @@
   },
   {
    "id": "ibn-sina-2",
-   "text_en": "Persian-medicine and medical-history reviews describe the Canon of Medicine (al-Qanun fi at-Tibb) as a work in five books that summarised the medical knowledge available up to its time. They report that it was taught in Europe for several years and remained a reference work until at least the sixteenth century. This describes the book's historical standing only; it does not show that its contents are accurate or safe.",
+   "text_en": "Persian-medicine and medical-history reviews describe the Canon of Medicine (al-Qanun fi at-Tibb) as a work in five books that summarised the medical knowledge available up to its time. They report that it was taught in Europe for several years (other sources say 'for centuries'; see item 12) and remained a reference work until at least the sixteenth century. This describes the book's historical standing only; it does not show that its contents are accurate or safe.",
    "sources": [
     {
      "type": "pubmed",
@@ -63,7 +63,7 @@
      "url": "https://pubmed.ncbi.nlm.nih.gov/30554261/"
     }
    ],
-   "checked_on": "2026-10-31"
+   "checked_on": "2026-11-01"
   },
   {
    "id": "ibn-sina-3",
@@ -115,29 +115,330 @@
     }
    ],
    "checked_on": "2026-10-31"
+  },
+  {
+   "id": "ibn-sina-6",
+   "text_en": "Several medical-history reviews describe the Canon as made up of five books (volumes). One review reports that Avicenna opens it by defining the purpose of medicine as preserving health when it is present and restoring it when it is lost, and that the Canon describes the qualities of healthy water and air. A review in orthopaedic history states that most of the first volume deals with anatomy, and a review on saffron reports that Book II contains a monograph on saffron. The sources summarised here do not give a full table of contents for the five books. This is historical information, not evidence of efficacy or safety.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "23199255",
+     "title": "Avicenna's Canon of Medicine: a look at health, public health, and environmental sanitation.",
+     "year": 2012,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23199255/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "33398485",
+     "doi": "10.1007/s00264-020-04548-3",
+     "title": "Joint classification from the viewpoint of Avicenna and modern medicine.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33398485/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "22815242",
+     "doi": "10.1002/ptr.4784",
+     "title": "Avicenna's (Ibn Sina) the Canon of Medicine and saffron (Crocus sativus): a review.",
+     "year": 2012,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22815242/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "ibn-sina-7",
+   "text_en": "PubMed indexes at least two older articles devoted specifically to Avicenna and cosmetics: 'Cosmetics according to Avicenna' (1981) and a Russian-language article whose title PubMed translates as 'Contribution of Avicenna to cosmetology' (1984). Neither has an abstract in PubMed, so this item is based on the titles only: their contents were not checked here, and no specific cosmetic recipes are taken from them. Their existence shows only that historians have studied the topic; it is not evidence that any practice they describe works or is safe.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "11616385",
+     "title": "Cosmetics according to Avicenna.",
+     "year": 1981,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11616385/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "6390718",
+     "title": "[Contribution of Avicenna to cosmetology].",
+     "year": 1984,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/6390718/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "ibn-sina-8",
+   "text_en": "A 2021 review chapter on alopecia reports that the Canon mentions 25 plants from 16 plant families for hair loss; many have a history of folk use and some appear in hair products today. A 2016 study of seven Iranian traditional medicine references, including the Canon, reports that alopecia areata (patchy hair loss, called 'Da oth-thalab' in the article) was attributed to 'morbid matter' in the scalp blocking nourishment to the hair roots, that topical preparations were used, and that the herbs named most often were onion, Artemisia abrotonon, garlic and Asphodelus ramosus. Both papers present these plants as subjects for future research, and the chapter makes their use conditional on efficacy and safety first being confirmed. Onion and garlic also appear in item 4, as dietary triggers of a different skin condition. This is historical information, not evidence of efficacy or safety.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "33861452",
+     "doi": "10.1007/978-3-030-64872-5_21",
+     "title": "The Use of Medicinal Plants for the Treatment of Alopecia in the Canon of Avicenna: An Evidence-Based Review.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33861452/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "27840535",
+     "title": "The Most Frequent Herbs Proposed by Iranian Traditional Medicine for Alopecia Areata.",
+     "year": 2016,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27840535/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "ibn-sina-9",
+   "text_en": "A 2016 review of six traditional Persian medicine books, including the Canon, reports that these texts explained itching by vapours or sharp humours collecting under the skin, or by weakness of the body's expelling faculty. The approaches it lists include proper nutrition, bathing and removing the 'pathogenic humours', and the plants it names as anti-itch include Cassia fistula, purslane, violets, fumitory (Fumaria), barley, coriander, rose and Terminalia chebula. The review's conclusion is more confident than its descriptive method allows: it did not test any remedy. This is historical information, not evidence of efficacy or safety.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "27840519",
+     "title": "Pruritus Treatment in Viewpoints of Traditional Persian Medicine.",
+     "year": 2016,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27840519/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "ibn-sina-10",
+   "text_en": "An article on Avicenna's educational views reports that he saw health as more than recovery from disease, stressed maintaining it, paid special attention to physical cleanliness, and gave hygiene advice for three stages: childhood, the teenage years and youth. A history-of-neonatology article reports that the Canon has a chapter on newborn care covering hygiene, breastfeeding and upbringing. Several older articles in Italian, French and Russian are titled as studies of Avicenna's views on hygiene and prevention, but they have no PubMed abstract, so they are cited by title only. This is historical information, not evidence of efficacy or safety.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "24596865",
+     "doi": "10.15171/ijhpm.2013.37",
+     "title": "Avicenna's Educational Views with Emphasis on the Education of Hygiene and Wellness.",
+     "year": 2013,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24596865/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "17805338",
+     "doi": "10.1038/sj.jp.7211832",
+     "title": "Avicenna (AD 980 to 1037) and the care of the newborn infant and breastfeeding.",
+     "year": 2007,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17805338/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "8611206",
+     "title": "[Avicenna, a forerunner of hygiene and preventive medicine].",
+     "year": 1994,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8611206/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "7022980",
+     "title": "[Hygiene and prevention in Avicenna].",
+     "year": 1980,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/7022980/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "6370730",
+     "title": "[Hygiene views of Avicenna].",
+     "year": 1984,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/6370730/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "ibn-sina-11",
+   "text_en": "A historical article reports that Avicenna recommended a special regimen for older people, as part of the 'preservation of health' (hifz al-sehah), covering nutrition, mental state, sleep, bathing, physical activity and even suitable hobbies. A 2020 review of traditional Persian sources groups their advice for the elderly under exercise, nutrition, massage, bathing, aromatherapy and sleep, and states that how well it works still has to be tested in randomised controlled trials; this review does not single out the Canon. Neither source gives details such as bath temperatures or skin-care steps. This is historical information, not evidence of efficacy or safety.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "26959636",
+     "title": "MANAGEMENT OF ANOREXIA IN ELDERLY AS REMARKED BY MEDIEVAL PERSIAN PHYSICIANS.",
+     "year": 2015,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26959636/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "32554835",
+     "doi": "10.1515/jcim-2019-0273",
+     "title": "Strategies in traditional Persian medicine to maintain a healthy life in the elderly.",
+     "year": 2020,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32554835/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "ibn-sina-12",
+   "text_en": "Articles on the Latin reception report that Gerard of Cremona translated the Canon in Toledo, where the so-called Toledo School of Translators worked in the 12th-13th centuries, and that anatomical terms coined in his translation, such as 'diaphragm', 'orbit', 'pupil' and 'sagittal', are still in use. Another review reports that Avicenna's medical poem (al-Urjuza fi al-Tibb) was also translated by Gerard of Cremona (1114-1187) and was often published in medieval Europe, alone or with the Latin Canon or the 'Articella' collection used at the universities of Salerno, Montpellier, Bologna and Paris until the 17th century. A 2024 paper describes how the Canon was both praised and condemned in the 16th century and gives an English translation of Lorenz Fries's 'Defense of Avicenna' (1530). Sources describe the length of its European use differently: one says 'for several years', another 'for centuries', and a third that it remained a reference 'until at least the sixteenth century'. This is historical information, not evidence of efficacy or safety.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "25667112",
+     "doi": "10.1016/j.aanat.2014.12.003",
+     "title": "Toledo School of Translators and their influence on anatomical terminology.",
+     "year": 2015,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25667112/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "24669114",
+     "doi": "10.4103/0974-7796.127010",
+     "title": "The role of Ibn Sina (Avicenna)'s medical poem in the transmission of medical knowledge to medieval Europe.",
+     "year": 2014,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24669114/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "38630874",
+     "doi": "10.1002/ca.24169",
+     "title": "Lorenz Fries on the defense of Avicenna, the prince of physicians: Addressed to the medics of Germany (1530).",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38630874/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "17805338",
+     "doi": "10.1038/sj.jp.7211832",
+     "title": "Avicenna (AD 980 to 1037) and the care of the newborn infant and breastfeeding.",
+     "year": 2007,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17805338/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "31392638",
+     "doi": "10.1007/s10072-019-04019-7",
+     "title": "Uterine epilepsy: a historical report from Avicenna's point of view.",
+     "year": 2019,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31392638/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "30554261",
+     "doi": "10.1007/s00264-018-4278-z",
+     "title": "Spine deformities and trauma in Avicenna's Canon of Medicine.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30554261/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "ibn-sina-13",
+   "text_en": "A 1994 article reports that Avicenna wrote more than one hundred books on subjects including philosophy, religion, mathematics, literature, poetry and medicine, and that the Canon is the best known of his medical works. A 2014 review describes his medical poem, al-Urjuza fi al-Tibb, as 1326 verses forming a poetic summary of the Canon that was used in teaching. A review from psychiatry notes that he also wrote separate psychological works on the soul, consciousness and intellect. These sources do not give a full list of his works. This is historical information, not evidence of efficacy or safety.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "11609026",
+     "title": "Avicenna's contribution to the development and progress of medical sciences.",
+     "year": 1994,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11609026/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "24669114",
+     "doi": "10.4103/0974-7796.127010",
+     "title": "The role of Ibn Sina (Avicenna)'s medical poem in the transmission of medical knowledge to medieval Europe.",
+     "year": 2014,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24669114/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "34010255",
+     "title": "MEDICINE AND PSYCHOLOGY OF IBN SINA (AVICENNA) - A UNIQUE SCIENTIFIC AND RELIGIOUS APPROACH.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34010255/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "ibn-sina-14",
+   "text_en": "A 2021 article (in Croatian, with an English abstract) describes the Avicenna Museum in Afshona, near Bukhara in present-day Uzbekistan, which it gives as his birthplace, and places it within current debates over how the ethnic and religious identity of medieval scholars is claimed. A 2015 review from Tashkent discusses Avicenna's heritage as a resource for developing integrative medicine in Uzbekistan, and a 2009 article describes Ibn Sina as the centre of Uzbekistan's national medical identity. A 2021 article on pharmacy in Uzbekistan links the beginnings of medical science on its territory to his work. These are statements about cultural heritage and memory, not evidence that any traditional remedy works or is safe.",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "35212203",
+     "title": "[AVICENNA’S MUSEUM IN HIS NATIVE AFSHONA].",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35212203/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "28664128",
+     "doi": "10.1016/j.imr.2015.06.002",
+     "title": "The value of Avicenna's heritage in development of modern integrative medicine in Uzbekistan.",
+     "year": 2015,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28664128/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "19545980",
+     "doi": "10.1016/j.eurpsy.2009.02.001",
+     "title": "Uzbekistan: psychiatry in transition.",
+     "year": 2009,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19545980/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "34623963",
+     "title": "Realities of Pharmaceutical Compounding in the Republic of Uzbekistan.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34623963/"
+    }
+   ],
+   "checked_on": "2026-11-01"
   }
  ],
  "translations": {
   "uz": {
    "ibn-sina-1": "Tarixiy sharhlarda yozilishicha, Ibn Sino (lotincha Avitsenna) taxminan 980-yilda tug'ilgan va 1037-yilda Hamadonda vafot etgan. Tug'ilgan joyi bo'yicha manbalar bir-biriga mos kelmaydi: biri Buxoro yaqinidagi Afshonani, biri Buxoroni (Xuroson), eskiroq manba esa Buxoro yaqinidagi qishloqni ko'rsatadi, shuning uchun bu yerda joy faqat taxminan «Buxoro atrofi» deb berilgan. Bu tarixiy ma'lumot, teri parvarishiga oid biror ta'sir haqidagi bayonot emas.",
-   "ibn-sina-2": "Fors tibbiyoti va tibbiyot tarixi sharhlarida «Tib qonunlari» (al-Qonun fi at-Tibb) besh kitobdan iborat, o'z davrigacha ma'lum bo'lgan tibbiy bilimlarni jamlagan asar sifatida tasvirlanadi. Sharhlarda yozilishicha, u Yevropada bir necha asr o'qitilgan va kamida XVI asrgacha ma'lumotnoma bo'lib qolgan. Bu faqat kitobning tarixiy o'rnini bildiradi; uning mazmuni to'g'ri yoki xavfsiz ekanini isbotlamaydi.",
+   "ibn-sina-2": "Fors tibbiyoti va tibbiyot tarixi sharhlarida «Tib qonunlari» (al-Qonun fi at-Tibb) besh kitobdan iborat, o'z davrigacha ma'lum bo'lgan tibbiy bilimlarni jamlagan asar sifatida tasvirlanadi. Sharhlarda yozilishicha, u Yevropada bir necha yil o'qitilgan (boshqa manbalarda «asrlar davomida» deyiladi, 12-bandga qarang) va kamida XVI asrgacha ma'lumotnoma bo'lib qolgan. Bu faqat kitobning tarixiy o'rnini bildiradi; uning mazmuni to'g'ri yoki xavfsiz ekanini isbotlamaydi.",
    "ibn-sina-3": "Tarixiy sharhda yozilishicha, «Tib qonunlari»da massajning «ishqalash» deb ataluvchi bir necha turi tasvirlangan: masalan, tanani mustahkamlaydi deyilgan qattiq ishqalash, tanani bo'shashtiradi deyilgan yumshoq ishqalash, tana yog'ini kamaytiradi deyilgan takroriy ishqalash hamda mashqdan oldingi va keyingi tayyorlov va tiklovchi ishqalash. Bu an'anaviy amaliyotning tarixiy tavsifi; bu yerda uning ishlashi yoki xavfsizligi ko'rsatilmaydi, sharh esa yuz yoki kosmetik massajni ko'rib chiqmaydi.",
    "ibn-sina-4": "Tarixiy maqolada yozilishicha, Ibn Sino «Tib qonunlari»ning bir bobida teri kasalliklarini bayon qilgan. «Issiq shishlar» deb atagan pufakchali holatlar uchun u piyoz, sarimsoq, porey piyozi, qalampir va sharob kabi ovqatlanish omillarini keltirgan. Mualliflar buni fors an'anaviy tibbiyoti tamoyillari doirasida izohlaydi; bu tarixiy bayon, zamonaviy tibbiy yoki kosmetik tavsiya emas.",
-   "ibn-sina-5": "An'anaviy fors matnlari sharhlarida kosmetik teri muammolari uchun o'simlik vositalari keltirilgani aytiladi. «Tib qonunlari»ni ham o'z ichiga olgan yetti ta eron an'anaviy tibbiyot matnining 2016-yilgi sharhida sepkil («namash») uchun eng ko'p tilga olingan o'simliklar sanalgan, jumladan muskat yong'og'i, no'xat, ruqola, oq lola (Lilium candidum) va bodom. Yana bir sharhda Avitsenna va Roziy no'xatning teri muammolariga oid fikr bildirgani aytiladi. Bu faqat an'anaviy qo'llanish; sharhlar bu o'simliklarni kelgusi tadqiqotlar uchun nomzod deb ataydi va ularning teriga ta'sir qilishi yoki xavfsizligini isbotlamaydi."
+   "ibn-sina-5": "An'anaviy fors matnlari sharhlarida kosmetik teri muammolari uchun o'simlik vositalari keltirilgani aytiladi. «Tib qonunlari»ni ham o'z ichiga olgan yetti ta eron an'anaviy tibbiyot matnining 2016-yilgi sharhida sepkil («namash») uchun eng ko'p tilga olingan o'simliklar sanalgan, jumladan muskat yong'og'i, no'xat, ruqola, oq lola (Lilium candidum) va bodom. Yana bir sharhda Avitsenna va Roziy no'xatning teri muammolariga oid fikr bildirgani aytiladi. Bu faqat an'anaviy qo'llanish; sharhlar bu o'simliklarni kelgusi tadqiqotlar uchun nomzod deb ataydi va ularning teriga ta'sir qilishi yoki xavfsizligini isbotlamaydi.",
+   "ibn-sina-6": "Bir nechta tibbiyot tarixi sharhlarida «Tib qonunlari» besh kitobdan (jilddan) iborat deb tasvirlanadi. Bir sharhda yozilishicha, Ibn Sino asarni tibbiyot maqsadini ta'riflash bilan boshlaydi: sog'liq bor bo'lsa uni saqlash, yo'qolgan bo'lsa tiklash; shuningdek, asarda sog'lom suv va havoning sifatlari tasvirlangan. Ortopediya tarixiga oid sharhda birinchi jildning katta qismi anatomiyaga bag'ishlangani aytiladi, za'faron haqidagi sharhda esa ikkinchi kitobda za'faronga oid maqola borligi qayd etiladi. Bu yerda keltirilgan manbalar besh kitobning to'liq mundarijasini bermaydi. Bu tarixiy ma'lumot, samaradorlik yoki xavfsizlik dalili emas.",
+   "ibn-sina-7": "PubMed'da aynan Ibn Sino va kosmetikaga bag'ishlangan kamida ikkita eski maqola bor: «Cosmetics according to Avicenna» (1981) va PubMed sarlavhasini «Contribution of Avicenna to cosmetology» deb tarjima qilgan rus tilidagi maqola (1984). Ikkalasining ham PubMed'da annotatsiyasi yo'q, shuning uchun bu band faqat sarlavhalarga asoslangan: ularning mazmuni bu yerda tekshirilmagan va ulardan biror aniq kosmetik retsept olinmagan. Bu maqolalar faqat tarixchilar bu mavzuni o'rganganini ko'rsatadi; ularda tasvirlangan amaliyotlarning ishlashi yoki xavfsizligiga dalil emas.",
+   "ibn-sina-8": "Alopesiyaga oid 2021-yilgi sharh bobida yozilishicha, «Tib qonunlari»da soch to'kilishi uchun 16 o'simlik oilasiga mansub 25 ta o'simlik tilga olingan; ularning ko'pchiligi xalq tabobatida qo'llangan, ba'zilari esa hozirgi soch mahsulotlarida uchraydi. «Tib qonunlari»ni ham o'z ichiga olgan yetti ta eron an'anaviy tibbiyot manbasini o'rgangan 2016-yilgi tadqiqotda yozilishicha, o'choqli alopesiya (maqolada «Da oth-thalab») bosh terisidagi «buzuq modda» soch ildizlariga oziq yetishini to'sishi bilan izohlangan, sirtdan surtiladigan vositalar qo'llangan, eng ko'p tilga olingan o'simliklar esa piyoz, Artemisia abrotonon, sarimsoq va Asphodelus ramosus bo'lgan. Ikkala maqola ham bu o'simliklarni kelgusi tadqiqotlar mavzusi sifatida ko'rsatadi, bob mualliflari esa ularni qo'llashni avval samaradorlik va xavfsizlik tasdiqlanishiga bog'laydi. Piyoz va sarimsoq 4-bandda boshqa teri holatining ovqatga oid omili sifatida ham uchraydi. Bu tarixiy ma'lumot, samaradorlik yoki xavfsizlik dalili emas.",
+   "ibn-sina-9": "«Tib qonunlari»ni ham o'z ichiga olgan oltita an'anaviy fors tibbiyoti kitobini ko'rib chiqqan 2016-yilgi sharhda yozilishicha, bu matnlar qichishishni teri ostida bug'lar yoki o'tkir xiltlar to'planishi yoki tananing chiqaruvchi quvvati zaifligi bilan izohlagan. Sharhda sanalgan yondashuvlar orasida to'g'ri ovqatlanish, cho'milish va «kasallik keltiruvchi xiltlarni» chiqarish bor; qichishishga qarshi deb atalgan o'simliklar orasida Cassia fistula, semizo't, binafsha, shohtara (Fumaria), arpa, kashnich, atirgul va Terminalia chebula bor. Sharhning xulosasi uning tavsifiy usuli ko'tara oladiganidan ishonchliroq yangraydi: unda biror vosita sinab ko'rilmagan. Bu tarixiy ma'lumot, samaradorlik yoki xavfsizlik dalili emas.",
+   "ibn-sina-10": "Ibn Sinoning tarbiyaviy qarashlariga bag'ishlangan maqolada yozilishicha, u sog'liqni faqat kasallikdan tuzalish deb emas, balki uni saqlash deb ham tushungan, tana pokligiga alohida e'tibor bergan va gigiena bo'yicha maslahatlarni uch bosqich — bolalik, o'smirlik va yoshlik uchun bergan. Neonatologiya tarixiga oid maqolada «Tib qonunlari»da yangi tug'ilgan chaqaloq parvarishiga bag'ishlangan bob borligi, unda gigiena, emizish va tarbiya ko'rib chiqilgani aytiladi. Italyan, fransuz va rus tillaridagi bir necha eski maqola sarlavhasiga ko'ra Ibn Sinoning gigiena va profilaktika haqidagi qarashlariga bag'ishlangan, ammo ularning PubMed'da annotatsiyasi yo'q, shuning uchun ular faqat sarlavha bo'yicha keltirilgan. Bu tarixiy ma'lumot, samaradorlik yoki xavfsizlik dalili emas.",
+   "ibn-sina-11": "Tarixiy maqolada yozilishicha, Ibn Sino keksalar uchun «sog'liqni saqlash» (hifz al-sehah) doirasida maxsus tartib tavsiya qilgan: ovqatlanish, ruhiy holat, uyqu, cho'milish, jismoniy faollik va hatto mos mashg'ulot tanlash. An'anaviy fors manbalarining 2020-yilgi sharhi keksalarga berilgan maslahatlarni jismoniy mashq, ovqatlanish, massaj, cho'milish, xushbo'y moddalardan foydalanish (aromaterapiya) va uyqu bo'yicha guruhlaydi hamda ularning qanchalik foyda berishi randomizatsiyalangan nazoratli tadqiqotlarda hali tekshirilishi kerakligini yozadi; bu sharh «Tib qonunlari»ni alohida ajratmaydi. Ikkala manbada ham hammom harorati yoki teri parvarishi bosqichlari kabi tafsilotlar berilmagan. Bu tarixiy ma'lumot, samaradorlik yoki xavfsizlik dalili emas.",
+   "ibn-sina-12": "Lotin tilidagi qabulga oid maqolalarda yozilishicha, «Tib qonunlari»ni Kremonalik Gerard Toledoda tarjima qilgan; XII–XIII asrlarda u yerda «Toledo tarjimonlar maktabi» deb ataluvchi markaz faoliyat yuritgan. Uning tarjimasida yaratilgan «diaphragm», «orbit», «pupil», «sagittal» kabi anatomik atamalar hozir ham qo'llanadi. Yana bir sharhda yozilishicha, Ibn Sinoning tibbiy dostoni («al-Urjuza fi at-Tibb») ham Kremonalik Gerard (1114–1187) tomonidan tarjima qilingan va O'rta asrlar Yevropasida alohida yoki lotincha «Qonun» bilan, yoxud Salerno, Monpelye, Bolonya va Parij universitetlarida XVII asrgacha ishlatilgan «Articella» to'plami bilan birga ko'p marta nashr etilgan. 2024-yilgi maqola XVI asrda «Qonun» ham maqtalgani, ham qoralanganini tasvirlaydi va Lorens Frisning «Ibn Sino himoyasi» (1530) asarining inglizcha tarjimasini beradi. Manbalar asarning Yevropada qancha vaqt qo'llanganini turlicha aytadi: biri «bir necha yil», boshqasi «asrlar davomida» deydi, yana biri esa u «kamida XVI asrgacha» ma'lumotnoma bo'lib qolganini yozadi. Bu tarixiy ma'lumot, samaradorlik yoki xavfsizlik dalili emas.",
+   "ibn-sina-13": "1994-yilgi maqolada yozilishicha, Ibn Sino falsafa, din, matematika, adabiyot, she'riyat va tibbiyot kabi sohalarda yuzdan ortiq kitob yozgan, tibbiy asarlari ichida eng mashhuri esa «Tib qonunlari»dir. 2014-yilgi sharhda uning «al-Urjuza fi at-Tibb» tibbiy dostoni 1326 misradan iborat, «Qonun»ning she'riy qisqacha bayoni sifatida tasvirlanadi va ta'limda qo'llangani aytiladi. Psixiatriyaga oid sharhda u ruh, ong va aql haqida alohida psixologik asarlar ham yozgani qayd etiladi. Bu manbalar uning asarlarining to'liq ro'yxatini bermaydi. Bu tarixiy ma'lumot, samaradorlik yoki xavfsizlik dalili emas.",
+   "ibn-sina-14": "2021-yilgi maqolada (xorvat tilida, inglizcha annotatsiya bilan) hozirgi O'zbekistondagi Buxoro yaqinidagi Afshonada joylashgan Ibn Sino muzeyi tasvirlanadi — maqola Afshonani uning tug'ilgan joyi deb ko'rsatadi — va u O'rta asr olimlarining etnik va diniy mansubligi haqidagi bugungi bahslar doirasida ko'rib chiqiladi. Toshkentdan chiqqan 2015-yilgi sharh Ibn Sino merosini O'zbekistonda integrativ tibbiyotni rivojlantirish manbai sifatida muhokama qiladi, 2009-yilgi maqola esa Ibn Sinoni O'zbekiston milliy tibbiy o'zligining markazi deb ta'riflaydi. O'zbekistondagi dorixona ishiga oid 2021-yilgi maqola bu hududda tibbiyot fanining paydo bo'lishini uning faoliyati bilan bog'laydi. Bular madaniy meros va xotiraga oid fikrlar; biror an'anaviy vositaning ishlashi yoki xavfsizligiga dalil emas."
   },
   "ru": {
    "ibn-sina-1": "В исторических обзорах сообщается, что Ибн Сина (в латинской форме Авиценна) родился около 980 года и умер в 1037 году в Хамадане. Сведения о месте рождения расходятся: в одном источнике указана Афшона близ Бухары, в другом Бухара (Хорасан), а в более старом источнике названо селение близ Бухары, поэтому здесь место указано лишь приблизительно, как «окрестности Бухары». Это историческая справка, а не утверждение о каком-либо действии на кожу.",
-   "ibn-sina-2": "В обзорах по персидской медицине и истории медицины «Канон врачебной науки» (аль-Канун фи ат-тибб) описывается как труд в пяти книгах, обобщивший медицинские знания, известные к его времени. Сообщается, что его преподавали в Европе в течение нескольких веков и что он оставался справочным трудом как минимум до XVI века. Это говорит лишь об историческом положении книги и не доказывает, что её содержание верно или безопасно.",
+   "ibn-sina-2": "В обзорах по персидской медицине и истории медицины «Канон врачебной науки» (аль-Канун фи ат-тибб) описывается как труд в пяти книгах, обобщивший медицинские знания, известные к его времени. Сообщается, что его преподавали в Европе в течение нескольких лет (в других источниках — «на протяжении веков», см. пункт 12) и что он оставался справочным трудом как минимум до XVI века. Это говорит лишь об историческом положении книги и не доказывает, что её содержание верно или безопасно.",
    "ibn-sina-3": "В историческом обзоре сообщается, что в «Каноне» описано несколько видов массажа, называемых «растиранием»: например, жёсткое растирание, которое, как сказано, укрепляет тело, мягкое, расслабляющее его, повторное, уменьшающее жировую массу, а также подготовительное и восстановительное растирание до и после упражнений. Это историческое описание традиционной практики; здесь не показано, что она действует или безопасна, а обзор не рассматривает массаж лица и косметическое применение.",
    "ibn-sina-4": "В исторической статье сообщается, что Авиценна рассматривал кожные болезни в одной из глав «Канона». Для пузырных состояний, которые он называл «горячими опухолями», он указывал пищевые провоцирующие факторы, такие как лук, чеснок, лук-порей, перец и вино. Авторы толкуют это в рамках принципов традиционной персидской медицины; это исторический рассказ, а не современная медицинская или косметическая рекомендация.",
-   "ibn-sina-5": "В обзорах традиционных персидских текстов сообщается о растительных средствах при косметических проблемах кожи. В обзоре 2016 года семи текстов иранской традиционной медицины, включая «Канон», перечислены растения, чаще всего упоминаемые при веснушках («намаш»), среди них мускатный орех, нут, рукола, лилия белая и миндаль. В другом обзоре сообщается, что Авиценна и Рази писали о нуте при кожных проблемах. Это лишь традиционное применение; авторы называют эти растения кандидатами для будущих исследований и не доказывают, что они действуют или безопасны для кожи."
+   "ibn-sina-5": "В обзорах традиционных персидских текстов сообщается о растительных средствах при косметических проблемах кожи. В обзоре 2016 года семи текстов иранской традиционной медицины, включая «Канон», перечислены растения, чаще всего упоминаемые при веснушках («намаш»), среди них мускатный орех, нут, рукола, лилия белая и миндаль. В другом обзоре сообщается, что Авиценна и Рази писали о нуте при кожных проблемах. Это лишь традиционное применение; авторы называют эти растения кандидатами для будущих исследований и не доказывают, что они действуют или безопасны для кожи.",
+   "ibn-sina-6": "В ряде обзоров по истории медицины «Канон» описывается как труд из пяти книг (томов). В одном обзоре сообщается, что Ибн Сина начинает его с определения цели медицины — сохранять здоровье, когда оно есть, и восстанавливать его, когда оно утрачено, — и что в «Каноне» описаны качества здоровой воды и воздуха. В обзоре по истории ортопедии говорится, что большая часть первого тома посвящена анатомии, а в обзоре о шафране отмечается, что во второй книге есть статья о шафране. Приведённые здесь источники не дают полного оглавления пяти книг. Это историческая справка, а не доказательство эффективности или безопасности.",
+   "ibn-sina-7": "В PubMed есть как минимум две старые статьи, посвящённые именно Ибн Сине и косметике: «Cosmetics according to Avicenna» (1981) и статья на русском языке, название которой PubMed переводит как «Contribution of Avicenna to cosmetology» (1984). Ни у одной из них нет аннотации в PubMed, поэтому этот пункт основан только на заголовках: их содержание здесь не проверялось, и никаких конкретных косметических рецептов из них не взято. Наличие этих статей показывает лишь, что историки изучали эту тему; это не доказательство того, что описанные в них практики действуют или безопасны.",
+   "ibn-sina-8": "В главе-обзоре 2021 года об алопеции сообщается, что в «Каноне» при выпадении волос упомянуты 25 растений из 16 семейств; многие из них применялись в народной медицине, а некоторые входят в современные средства для волос. В исследовании 2016 года, охватившем семь источников иранской традиционной медицины, включая «Канон», сообщается, что очаговую алопецию (в статье «Da oth-thalab») объясняли «болезнетворной материей» в коже головы, которая перекрывает питание корней волос, что применялись наружные средства и что чаще всего назывались лук, Artemisia abrotonon, чеснок и Asphodelus ramosus. Обе работы рассматривают эти растения как предмет будущих исследований, а авторы главы ставят их применение в зависимость от предварительного подтверждения эффективности и безопасности. Лук и чеснок упоминаются и в пункте 4 — как пищевые факторы другого кожного состояния. Это историческая справка, а не доказательство эффективности или безопасности.",
+   "ibn-sina-9": "В обзоре 2016 года шести книг традиционной персидской медицины, включая «Канон», сообщается, что эти тексты объясняли зуд скоплением паров или острых соков (гуморов) под кожей либо слабостью изгоняющей силы организма. Среди перечисленных подходов — правильное питание, купание и удаление «болезнетворных соков»; к растениям против зуда отнесены кассия трубчатая (Cassia fistula), портулак, фиалка, дымянка (Fumaria), ячмень, кориандр, роза и терминалия хебула (Terminalia chebula). Вывод обзора звучит увереннее, чем позволяет его описательный метод: никакие средства в нём не испытывались. Это историческая справка, а не доказательство эффективности или безопасности.",
+   "ibn-sina-10": "В статье об образовательных взглядах Ибн Сины сообщается, что он понимал здоровье не только как выздоровление, но и как его сохранение, уделял особое внимание телесной чистоте и давал советы по гигиене для трёх периодов: детства, отрочества и юности. В статье по истории неонатологии говорится, что в «Каноне» есть глава об уходе за новорождённым, где рассматриваются гигиена, грудное вскармливание и воспитание. Несколько старых статей на итальянском, французском и русском языках, судя по заголовкам, посвящены взглядам Ибн Сины на гигиену и профилактику, но аннотаций в PubMed у них нет, поэтому они приводятся только по заголовкам. Это историческая справка, а не доказательство эффективности или безопасности.",
+   "ibn-sina-11": "В исторической статье сообщается, что Ибн Сина рекомендовал пожилым особый режим в рамках «сохранения здоровья» (hifz al-sehah): питание, душевное состояние, сон, купание, физическая активность и даже подходящие увлечения. Обзор традиционных персидских источников 2020 года группирует советы для пожилых по разделам «упражнения», «питание», «массаж», «купание», «ароматерапия» и «сон» и отмечает, что их действенность ещё предстоит проверить в рандомизированных контролируемых исследованиях; «Канон» в этом обзоре отдельно не выделяется. Ни один из источников не приводит таких подробностей, как температура бани или этапы ухода за кожей. Это историческая справка, а не доказательство эффективности или безопасности.",
+   "ibn-sina-12": "В статьях о латинской рецепции сообщается, что «Канон» перевёл Герард Кремонский в Толедо, где в XII–XIII веках работала так называемая Толедская школа переводчиков, и что введённые в его переводе анатомические термины, например «диафрагма», «орбита», «зрачок» (pupil) и «сагиттальный», употребляются до сих пор. В другом обзоре говорится, что медицинскую поэму Ибн Сины («аль-Урджуза фи ат-тибб») тоже перевёл Герард Кремонский (1114–1187) и что в средневековой Европе её часто издавали отдельно или вместе с латинским «Каноном» либо со сборником «Articella», которым пользовались в университетах Салерно, Монпелье, Болоньи и Парижа до XVII века. Статья 2024 года описывает, как в XVI веке «Канон» одновременно хвалили и осуждали, и приводит английский перевод «Защиты Авиценны» Лоренца Фриза (1530). Источники по-разному описывают срок использования книги в Европе: в одном сказано «несколько лет», в другом — «на протяжении веков», в третьем — что она оставалась справочником «как минимум до XVI века». Это историческая справка, а не доказательство эффективности или безопасности.",
+   "ibn-sina-13": "В статье 1994 года сообщается, что Ибн Сина написал более ста книг, в том числе по философии, религии, математике, литературе, поэзии и медицине, а самым известным из его медицинских трудов стал «Канон». В обзоре 2014 года его медицинская поэма «аль-Урджуза фи ат-тибб» описывается как 1326 стихов, составляющих стихотворное изложение «Канона», которое использовалось в обучении. В обзоре по психиатрии отмечается, что он писал и отдельные психологические труды о душе, сознании и разуме. Эти источники не дают полного списка его сочинений. Это историческая справка, а не доказательство эффективности или безопасности.",
+   "ibn-sina-14": "В статье 2021 года (на хорватском языке с английской аннотацией) описан музей Авиценны в Афшоне близ Бухары, на территории современного Узбекистана, — статья называет Афшону местом его рождения — и он рассматривается в контексте нынешних споров об этнической и религиозной принадлежности средневековых учёных. Обзор 2015 года из Ташкента рассматривает наследие Ибн Сины как ресурс для развития интегративной медицины в Узбекистане, а статья 2009 года называет Ибн Сину центром национальной медицинской идентичности Узбекистана. Статья 2021 года о фармации в Узбекистане связывает зарождение медицинской науки на его территории с деятельностью Ибн Сины. Это утверждения о культурном наследии и памяти, а не доказательство того, что какое-либо традиционное средство действует или безопасно."
   },
   "ar": {
    "ibn-sina-1": "تذكر المراجعات التاريخية أن ابن سينا (ويُعرف باللاتينية باسم أفيسينا) وُلد نحو عام 980 وتوفي عام 1037 في همذان. وتختلف المصادر في تحديد مكان ولادته: فأحدها يذكر أفشنة قرب بخارى، وآخر يذكر بخارى (خراسان)، ويسمّي مصدر أقدم قرية قرب بخارى، ولذلك يُذكر المكان هنا على وجه التقريب فقط بوصفه «منطقة بخارى». هذه معلومة تاريخية وليست قولًا عن أي تأثير في العناية بالبشرة.",
-   "ibn-sina-2": "تصف مراجعات الطب الفارسي وتاريخ الطب كتاب «القانون في الطب» بأنه عمل من خمسة كتب لخّص المعارف الطبية المعروفة حتى زمنه. وتذكر أنه دُرّس في أوروبا عدة سنوات وظل مرجعًا حتى القرن السادس عشر على الأقل. وهذا يصف مكانة الكتاب التاريخية فقط، ولا يثبت أن محتواه صحيح أو آمن.",
+   "ibn-sina-2": "تصف مراجعات الطب الفارسي وتاريخ الطب كتاب «القانون في الطب» بأنه عمل من خمسة كتب لخّص المعارف الطبية المعروفة حتى زمنه. وتذكر أنه دُرّس في أوروبا عدة سنوات (وتقول مصادر أخرى «لقرون»؛ انظر البند 12) وظل مرجعًا حتى القرن السادس عشر على الأقل. وهذا يصف مكانة الكتاب التاريخية فقط، ولا يثبت أن محتواه صحيح أو آمن.",
    "ibn-sina-3": "تذكر مراجعة تاريخية أن «القانون» يصف عدة أنواع من التدليك تُسمّى «الدلك»، منها الدلك الصلب الذي قيل إنه يشدّ البدن، والدلك اللين الذي قيل إنه يُرخيه، والدلك المتكرر الذي قيل إنه يقلل شحم البدن، إضافةً إلى الدلك التحضيري والدلك الاستعادي قبل الرياضة وبعدها. هذا وصف تاريخي لممارسة تقليدية؛ ولا يُبيَّن هنا أنها فعّالة أو آمنة، كما أن المراجعة لا تتناول تدليك الوجه ولا الاستخدام التجميلي.",
    "ibn-sina-4": "تذكر مقالة تاريخية أن ابن سينا تناول الأمراض الجلدية في أحد فصول «القانون». وفي الحالات المصحوبة بالفقاعات التي سمّاها «الأورام الحارة» ذكر عوامل غذائية مثل البصل والثوم والكرّاث والفلفل والنبيذ. ويفسّر المؤلفون ذلك ضمن مبادئ الطب الفارسي التقليدي؛ وهو عرض تاريخي وليس توصية طبية أو تجميلية حديثة.",
-   "ibn-sina-5": "تذكر مراجعات للنصوص الفارسية التقليدية وصفات نباتية لمشكلات جلدية تجميلية. فقد أحصت مراجعة عام 2016 لسبعة نصوص من الطب الإيراني التقليدي، منها «القانون»، النباتات الأكثر ذكرًا للنمش (ويسمّى «نمش»)، ومنها جوزة الطيب والحمّص والجرجير وزنبق المادونا واللوز. وتذكر مراجعة أخرى أن ابن سينا والرازي كتبا عن الحمّص لمشكلات الجلد. هذه استخدامات تقليدية فقط؛ وتصف المراجعات هذه النباتات بأنها مرشحة لدراسات مستقبلية، ولا تثبت أنها فعّالة أو آمنة على البشرة."
+   "ibn-sina-5": "تذكر مراجعات للنصوص الفارسية التقليدية وصفات نباتية لمشكلات جلدية تجميلية. فقد أحصت مراجعة عام 2016 لسبعة نصوص من الطب الإيراني التقليدي، منها «القانون»، النباتات الأكثر ذكرًا للنمش (ويسمّى «نمش»)، ومنها جوزة الطيب والحمّص والجرجير وزنبق المادونا واللوز. وتذكر مراجعة أخرى أن ابن سينا والرازي كتبا عن الحمّص لمشكلات الجلد. هذه استخدامات تقليدية فقط؛ وتصف المراجعات هذه النباتات بأنها مرشحة لدراسات مستقبلية، ولا تثبت أنها فعّالة أو آمنة على البشرة.",
+   "ibn-sina-6": "تصف عدة مراجعات في تاريخ الطب «القانون» بأنه يتألف من خمسة كتب (مجلدات). وتذكر إحدى المراجعات أن ابن سينا يفتتحه بتعريف غاية الطب، وهي حفظ الصحة إذا كانت حاصلة واستردادها إذا زالت، وأن «القانون» يصف صفات الماء والهواء الصحيين. وتذكر مراجعة في تاريخ جراحة العظام أن معظم المجلد الأول يتناول التشريح، فيما تشير مراجعة عن الزعفران إلى أن الكتاب الثاني يتضمن مقالة عن الزعفران. ولا تقدّم المصادر المذكورة هنا فهرسًا كاملًا للكتب الخمسة. هذه معلومة تاريخية، وليست دليلًا على الفعالية أو الأمان.",
+   "ibn-sina-7": "يفهرس PubMed مقالتين قديمتين على الأقل مخصصتين لابن سينا ومستحضرات التجميل: «Cosmetics according to Avicenna» (1981)، ومقالة باللغة الروسية يترجم PubMed عنوانها إلى «Contribution of Avicenna to cosmetology» (1984). ولا يتوفر لأيٍّ منهما ملخص في PubMed، لذا يستند هذا البند إلى العنوانين فقط؛ فلم يُتحقق هنا من محتواهما، ولم تُنقل عنهما أي وصفات تجميلية محددة. ووجودهما يدل فقط على أن المؤرخين درسوا هذا الموضوع، وليس دليلًا على أن الممارسات التي تصفانها فعّالة أو آمنة.",
+   "ibn-sina-8": "يذكر فصل مراجعة صدر عام 2021 عن الثعلبة أن «القانون» يذكر 25 نباتًا من 16 فصيلة نباتية لتساقط الشعر، وأن لكثير منها تاريخًا في الطب الشعبي، ويدخل بعضها اليوم في منتجات الشعر. وتذكر دراسة صدرت عام 2016 شملت سبعة مراجع من الطب الإيراني التقليدي، منها «القانون»، أن الثعلبة البقعية (وتكتبها المقالة «Da oth-thalab») كانت تُعزى إلى «مادة فاسدة» في فروة الرأس تحجب الغذاء عن جذور الشعر، وأن المستحضرات الموضعية كانت تُستعمل لها، وأن أكثر النباتات ذكرًا كانت البصل وArtemisia abrotonon والثوم وAsphodelus ramosus. وتعرض الورقتان هذه النباتات موضوعًا لأبحاث مستقبلية، ويشترط مؤلفو الفصل لاستعمالها أن تتأكد فعاليتها وأمانها أولًا. ويَرِد البصل والثوم أيضًا في البند 4 بوصفهما عاملين غذائيين لحالة جلدية أخرى. هذه معلومة تاريخية، وليست دليلًا على الفعالية أو الأمان.",
+   "ibn-sina-9": "تذكر مراجعة صدرت عام 2016 لستة كتب من الطب الفارسي التقليدي، منها «القانون»، أن هذه النصوص فسّرت الحكة بتجمّع الأبخرة أو الأخلاط الحادة تحت الجلد، أو بضعف القوة الدافعة في البدن. ومن المقاربات التي تعدّدها: التغذية السليمة والاستحمام وإخراج «الأخلاط الممرضة»، ومن النباتات التي تصفها بأنها مضادة للحكة: الخيار شنبر (Cassia fistula) والرجلة والبنفسج والشاهترج (Fumaria) والشعير والكزبرة والورد والإهليلج الكابلي (Terminalia chebula). وتأتي خلاصة المراجعة أكثر جزمًا مما يسمح به منهجها الوصفي، إذ لم تختبر أي علاج. هذه معلومة تاريخية، وليست دليلًا على الفعالية أو الأمان.",
+   "ibn-sina-10": "تذكر مقالة عن آراء ابن سينا التربوية أنه لم يعدّ الصحة مجرد الشفاء من المرض، بل شدّد على حفظها، وأولى طهارة البدن عناية خاصة، وقدّم نصائح في النظافة الصحية لثلاث مراحل: الطفولة والمراهقة والشباب. وتذكر مقالة في تاريخ طب حديثي الولادة أن في «القانون» فصلًا عن رعاية المولود يتناول النظافة والرضاعة الطبيعية والتربية. وتدل عناوين عدة مقالات قديمة بالإيطالية والفرنسية والروسية على أنها تتناول آراء ابن سينا في النظافة والوقاية، لكن لا ملخص لها في PubMed، ولذا تُذكر بعناوينها فقط. هذه معلومة تاريخية، وليست دليلًا على الفعالية أو الأمان.",
+   "ibn-sina-11": "تذكر مقالة تاريخية أن ابن سينا أوصى كبار السن بنظام خاص ضمن «حفظ الصحة» (hifz al-sehah) يشمل التغذية والحالة النفسية والنوم والاستحمام والنشاط البدني، بل واختيار هوايات مناسبة. وتصنّف مراجعة صدرت عام 2020 لمصادر الطب الفارسي التقليدي نصائحها لكبار السن تحت عناوين الرياضة والتغذية والتدليك والاستحمام والعلاج بالروائح والنوم، وتذكر أن مدى فائدتها لا يزال بحاجة إلى اختبار في تجارب عشوائية محكمة؛ ولا تخصّ هذه المراجعة «القانون» بالذكر. ولا يقدّم أيٌّ من المصدرين تفاصيل مثل درجة حرارة الحمّام أو خطوات العناية بالبشرة. هذه معلومة تاريخية، وليست دليلًا على الفعالية أو الأمان.",
+   "ibn-sina-12": "تذكر مقالات عن انتقال «القانون» إلى اللاتينية أن جيرار الكريموني ترجمه في طليطلة، حيث عملت في القرنين الثاني عشر والثالث عشر ما يُعرف بمدرسة طليطلة للمترجمين، وأن مصطلحات تشريحية صاغها في ترجمته، مثل «diaphragm» و«orbit» و«pupil» و«sagittal»، لا تزال مستعملة. وتذكر مراجعة أخرى أن «الأرجوزة في الطب» لابن سينا ترجمها أيضًا جيرار الكريموني (1114–1187)، وأنها نُشرت مرارًا في أوروبا في العصور الوسطى منفردةً أو مع «القانون» اللاتيني أو مع مجموعة «Articella» التي استُعملت في جامعات سالرنو ومونبلييه وبولونيا وباريس حتى القرن السابع عشر. وتصف مقالة صدرت عام 2024 كيف لقي «القانون» في القرن السادس عشر المديح والذم معًا، وتقدّم ترجمة إنجليزية لكتاب لورنتس فريس «الدفاع عن ابن سينا» (1530). وتختلف المصادر في وصف مدة استعماله في أوروبا: فأحدها يقول «عدة سنوات»، وآخر «لقرون»، وثالث يذكر أنه بقي مرجعًا «حتى القرن السادس عشر على الأقل». هذه معلومة تاريخية، وليست دليلًا على الفعالية أو الأمان.",
+   "ibn-sina-13": "تذكر مقالة صدرت عام 1994 أن ابن سينا ألّف أكثر من مئة كتاب في موضوعات منها الفلسفة والدين والرياضيات والأدب والشعر والطب، وأن «القانون» أشهر مؤلفاته الطبية. وتصف مراجعة صدرت عام 2014 «الأرجوزة في الطب» بأنها 1326 بيتًا تشكّل خلاصة منظومة لـ«القانون» استُعملت في التعليم. وتذكر مراجعة في الطب النفسي أنه كتب أيضًا مؤلفات نفسية مستقلة عن النفس والوعي والعقل. ولا تقدّم هذه المصادر قائمة كاملة بمؤلفاته. هذه معلومة تاريخية، وليست دليلًا على الفعالية أو الأمان.",
+   "ibn-sina-14": "تصف مقالة صدرت عام 2021 (بالكرواتية مع ملخص إنجليزي) متحف ابن سينا في أفشنة قرب بخارى في أوزبكستان الحالية، وتذكر أفشنة مكانًا لولادته، وتضع المتحف في سياق الجدل الراهن حول الانتماء العرقي والديني لعلماء العصور الوسطى. وتناقش مراجعة صدرت عام 2015 من طشقند تراث ابن سينا موردًا لتطوير الطب التكاملي في أوزبكستان، فيما تصف مقالة صدرت عام 2009 ابن سينا بأنه محور الهوية الطبية الوطنية في أوزبكستان. وتربط مقالة صدرت عام 2021 عن الصيدلة في أوزبكستان نشأة العلوم الطبية على أرضها بنشاطه. هذه أقوال عن التراث الثقافي والذاكرة، وليست دليلًا على أن أي علاج تقليدي فعّال أو آمن."
   }
  }
 }

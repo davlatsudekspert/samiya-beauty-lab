@@ -619,7 +619,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get academySubtitle =>
-      'Cosmetology essentials: short, evidence-based lessons. Coming soon.';
+      'Cosmetology essentials: short, evidence-based lessons.';
 
   @override
   String get academyT1 => 'Skin anatomy and physiology';
@@ -653,4 +653,44 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get routineSuggestSun => 'Sun protection';
+
+  @override
+  String get lessonKeyPoints => 'Key points';
+
+  @override
+  String get lessonQuiz => 'Test yourself';
+
+  @override
+  String get lessonSources => 'Sources';
+
+  @override
+  String get lessonDraftNote =>
+      'this lesson is an evidence-based draft awaiting review by an expert cosmetologist. It is not medical advice.';
+
+  @override
+  String lessonMinutes(int n) {
+    return '$n min';
+  }
+
+  @override
+  String get quizRight => 'Correct!';
+
+  @override
+  String get quizWrong => 'Not quite — the right answer is marked.';
+
+  @override
+  String quizScore(int score, int total) {
+    return 'Score: $score / $total';
+  }
+
+  @override
+  String get quizRetry => 'Try again';
+
+  @override
+  String lessonCount(int n) {
+    return '$n lessons · with quizzes';
+  }
+
+  @override
+  String get lessonDone => 'Read';
 }

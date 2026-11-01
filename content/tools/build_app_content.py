@@ -22,6 +22,13 @@ NATURAL = {"honey", "aloe-vera", "coconut-oil", "nigella-sativa-oil", "rosehip-o
 PRACTICE = {"facial-massage", "gua-sha"}          # parvarish usullari (ingredient emas)
 CAUTION = {"lemon-juice", "baking-soda"}          # uy vositalari: zarar hodisalari haqida ogohlantirish
 
+# Yangi kartochkalar uchun metama'lumot: content/tools/meta_*.json (slug -> category, names, aliases).
+META = {}
+for _m in sorted(Path(__file__).resolve().parent.glob("meta_*.json")):
+    META.update(json.loads(_m.read_text(encoding="utf-8")))
+for _s, _v in META.items():
+    {"natural": NATURAL, "practice": PRACTICE, "caution": CAUTION}.get(_v.get("category"), set()).add(_s)
+
 def category(slug):
     return "natural" if slug in NATURAL else "practice" if slug in PRACTICE else "caution" if slug in CAUTION else "active"
 
@@ -84,6 +91,28 @@ def _trad_items(d):
         })
     return out
 
+ACADEMY_ORDER = ["skin", "inci", "spf", "moist", "hygiene", "safety"]
+
+def _loc(d):
+    """{en,uz,ru,ar} matn; o'zbekcha tutuq belgisi normallashtiriladi."""
+    return {l: (uz(d[l]) if l == "uz" else d[l]) for l in LANGS}
+
+def _src(s):
+    pmid = s.get("pmid")
+    url = s.get("url") or (f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/" if pmid else None)
+    return {k: v for k, v in {"pmid": pmid, "title": s.get("title"), "publisher": s.get("publisher"), "year": s.get("year"), "url": url}.items() if v}
+
+def _lesson(d, lid):
+    return {
+        "id": lid, "status": d.get("status", "draft"),
+        "title": _loc(d["title"]), "summary": _loc(d["summary"]),
+        "sections": [{"heading": _loc(x["heading"]), "text": _loc(x["text"])} for x in d["sections"]],
+        "keyPoints": [_loc(x) for x in d["key_points"]],
+        "quiz": [{"question": _loc(q["question"]), "options": [_loc(o) for o in q["options"]], "correct": q["correct"]}
+                 for q in d.get("quiz", [])],
+        "sources": [_src(s) for s in d.get("sources", [])],
+    }
+
 def build(src: Path):
     items = []
     trad_dir = src / "traditional"
@@ -100,7 +129,7 @@ def build(src: Path):
             claims.append({"id": cl["id"], "level": cl["evidence_level"], "studyType": cl["study_type"],
                            "text": text, "sources": sources})
         items.append({
-            "inci": c["inci"], "slug": slug, "status": c["status"], "category": category(slug), **({"names": dict(zip(("uz", "ru", "en", "ar"), NAMES[slug]))} if slug in NAMES else {}), "aliases": ALIASES.get(slug, []),
+            "inci": c["inci"], "slug": slug, "status": c["status"], "category": category(slug), **({"names": dict(zip(("uz", "ru", "en", "ar"), NAMES[slug]))} if slug in NAMES else {"names": dict(zip(("uz", "ru", "en", "ar"), META[slug]["names"]))} if META.get(slug, {}).get("names") else {}), "aliases": ALIASES.get(slug, META.get(slug, {}).get("aliases", [])),
             "eu": {"annex": c["eu_regulation"]["annex"], "verified": c["eu_regulation"]["verified"]},
             "summary": {"en": c["summary_en"], "uz": uz(tr["uz"]["summary"]),
                         **{l: tr[l]["summary"] for l in ("ru", "ar")}},
@@ -109,6 +138,10 @@ def build(src: Path):
                if (trad_dir / f"{slug}.json").exists() else {}),
         })
     out = {"version": 1, "ingredients": items}
+    acad = src.parent / "academy"
+    if acad.exists():
+        out["academy"] = [_lesson(json.loads((acad / f"{i}.json").read_text(encoding="utf-8")), i)
+                          for i in ACADEMY_ORDER if (acad / f"{i}.json").exists()]
     ibn = trad_dir / "ibn-sina.json"
     if ibn.exists():
         d = json.loads(ibn.read_text(encoding="utf-8"))

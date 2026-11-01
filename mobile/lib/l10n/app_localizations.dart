@@ -1245,7 +1245,7 @@ abstract class AppLocalizations {
   /// No description provided for @academySubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Cosmetology essentials: short, evidence-based lessons. Coming soon.'**
+  /// **'Cosmetology essentials: short, evidence-based lessons.'**
   String get academySubtitle;
 
   /// No description provided for @academyT1.
@@ -1313,6 +1313,72 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Sun protection'**
   String get routineSuggestSun;
+
+  /// No description provided for @lessonKeyPoints.
+  ///
+  /// In en, this message translates to:
+  /// **'Key points'**
+  String get lessonKeyPoints;
+
+  /// No description provided for @lessonQuiz.
+  ///
+  /// In en, this message translates to:
+  /// **'Test yourself'**
+  String get lessonQuiz;
+
+  /// No description provided for @lessonSources.
+  ///
+  /// In en, this message translates to:
+  /// **'Sources'**
+  String get lessonSources;
+
+  /// No description provided for @lessonDraftNote.
+  ///
+  /// In en, this message translates to:
+  /// **'this lesson is an evidence-based draft awaiting review by an expert cosmetologist. It is not medical advice.'**
+  String get lessonDraftNote;
+
+  /// No description provided for @lessonMinutes.
+  ///
+  /// In en, this message translates to:
+  /// **'{n} min'**
+  String lessonMinutes(int n);
+
+  /// No description provided for @quizRight.
+  ///
+  /// In en, this message translates to:
+  /// **'Correct!'**
+  String get quizRight;
+
+  /// No description provided for @quizWrong.
+  ///
+  /// In en, this message translates to:
+  /// **'Not quite — the right answer is marked.'**
+  String get quizWrong;
+
+  /// No description provided for @quizScore.
+  ///
+  /// In en, this message translates to:
+  /// **'Score: {score} / {total}'**
+  String quizScore(int score, int total);
+
+  /// No description provided for @quizRetry.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again'**
+  String get quizRetry;
+
+  /// No description provided for @lessonCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{n} lessons · with quizzes'**
+  String lessonCount(int n);
+
+  /// No description provided for @lessonDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Read'**
+  String get lessonDone;
 }
 
 class _AppLocalizationsDelegate

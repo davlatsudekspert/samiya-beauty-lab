@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import '../academy/lesson_models.dart';
 import 'inci_parser.dart';
 
 /// PubMed manbasi (faqat tekshirilgan metadata).
@@ -135,7 +136,7 @@ class Ingredient {
 /// Ingredient bazasi. Moslashtirish FAQAT aniq INCI nomi yoki tasdiqlangan sinonim bo'yicha:
 /// tuzlar, efirlar va hosilalar (masalan Sodium Hyaluronate, Retinyl Palmitate) taxmin bilan bog'lanmaydi.
 class IngredientRepository {
-  IngredientRepository(this.all, {this.ibnSina})
+  IngredientRepository(this.all, {this.ibnSina, this.lessons = const []})
       : _byKey = {
           for (final i in all.where((i) => !i.isPractice)) ...{
             inciKey(i.inci): i,
@@ -145,6 +146,7 @@ class IngredientRepository {
 
   final List<Ingredient> all;
   final TraditionIntro? ibnSina;
+  final List<Lesson> lessons;
   final Map<String, Ingredient> _byKey;
 
   factory IngredientRepository.fromJson(String source) {
@@ -152,9 +154,11 @@ class IngredientRepository {
     return IngredientRepository(
       [for (final i in data['ingredients'] as List) Ingredient.fromJson(i as Map<String, dynamic>)],
       ibnSina: data['ibnSina'] is Map ? TraditionIntro.fromJson(data['ibnSina'] as Map<String, dynamic>) : null,
+      lessons: [for (final l in (data['academy'] as List? ?? const [])) Lesson.fromJson(l as Map<String, dynamic>)],
     );
   }
 
   Ingredient? find(String name) => _byKey[inciKey(name)];
   Ingredient? bySlug(String slug) => all.where((i) => i.slug == slug).firstOrNull;
+  Lesson? lesson(String id) => lessons.where((l) => l.id == id).firstOrNull;
 }

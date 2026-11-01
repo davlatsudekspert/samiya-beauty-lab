@@ -1,0 +1,82 @@
+{
+ "azelaic-acid": {
+  "category": "active",
+  "names": [
+   "Azelain kislota",
+   "Азелаиновая кислота",
+   "Azelaic acid",
+   "حمض الأزيليك"
+  ],
+  "aliases": [
+   "azelaic acid",
+   "nonanedioic acid"
+  ]
+ },
+ "lactic-acid": {
+  "category": "active",
+  "names": [
+   "Sut kislotasi",
+   "Молочная кислота",
+   "Lactic acid",
+   "حمض اللاكتيك"
+  ],
+  "aliases": [
+   "lactic acid",
+   "l-lactic acid",
+   "2-hydroxypropanoic acid"
+  ]
+ },
+ "bakuchiol": {
+  "category": "active",
+  "names": [
+   "Bakuchiol",
+   "Бакучиол",
+   "Bakuchiol",
+   "باكوتشيول"
+  ],
+  "aliases": [
+   "bakuchiol"
+  ]
+ },
+ "squalane": {
+  "category": "active",
+  "names": [
+   "Skvalan",
+   "Сквалан",
+   "Squalane",
+   "السكوالان"
+  ],
+  "aliases": [
+   "squalane",
+   "perhydrosqualene"
+  ]
+ },
+ "tocopherol": {
+  "category": "active",
+  "names": [
+   "Tokoferol (E vitamini)",
+   "Токоферол (витамин E)",
+   "Tocopherol (vitamin E)",
+   "التوكوفيرول (فيتامين E)"
+  ],
+  "aliases": [
+   "tocopherol",
+   "vitamin e",
+   "alpha-tocopherol",
+   "dl-alpha-tocopherol"
+  ]
+ },
+ "tranexamic-acid": {
+  "category": "active",
+  "names": [
+   "Traneksam kislota",
+   "Транексамовая кислота",
+   "Tranexamic acid",
+   "حمض الترانيكساميك"
+  ],
+  "aliases": [
+   "tranexamic acid",
+   "trans-4-(aminomethyl)cyclohexanecarboxylic acid"
+  ]
+ }
+}

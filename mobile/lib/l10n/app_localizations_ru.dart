@@ -620,7 +620,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get academySubtitle =>
-      'Основы косметологии: короткие уроки на основе доказательств. Скоро.';
+      'Основы косметологии: короткие уроки на основе доказательств.';
 
   @override
   String get academyT1 => 'Анатомия и физиология кожи';
@@ -654,4 +654,44 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get routineSuggestSun => 'Защита от солнца';
+
+  @override
+  String get lessonKeyPoints => 'Главное';
+
+  @override
+  String get lessonQuiz => 'Проверьте себя';
+
+  @override
+  String get lessonSources => 'Источники';
+
+  @override
+  String get lessonDraftNote =>
+      'это черновик урока на основе доказательных источников; ожидает проверки экспертом-косметологом. Не является медицинской консультацией.';
+
+  @override
+  String lessonMinutes(int n) {
+    return '$n мин';
+  }
+
+  @override
+  String get quizRight => 'Верно!';
+
+  @override
+  String get quizWrong => 'Не совсем — правильный ответ отмечен.';
+
+  @override
+  String quizScore(int score, int total) {
+    return 'Результат: $score / $total';
+  }
+
+  @override
+  String get quizRetry => 'Ещё раз';
+
+  @override
+  String lessonCount(int n) {
+    return '$n уроков · с тестом';
+  }
+
+  @override
+  String get lessonDone => 'Пройдено';
 }

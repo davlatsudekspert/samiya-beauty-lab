@@ -190,7 +190,7 @@
   "botanicalCredit": "رسم نباتي: ف. إ. كولر، «Köhler's Medizinal-Pflanzen»، 1887 (ملكية عامة)",
   "photoCredit": "الصورة: مجتمع iNaturalist، ‏CC0 (بلا حقوق محفوظة)",
   "honestLead": "بصراحة:",
-  "academySubtitle": "أساسيات التجميل: دروس قصيرة مبنية على الأدلة. قريبًا.",
+  "academySubtitle": "أساسيات التجميل: دروس قصيرة مبنية على الأدلة.",
   "academyT1": "تشريح البشرة ووظائفها",
   "academyT2": "INCI والمكوّنات التجميلية",
   "academyT3": "الحماية من الشمس",
@@ -201,5 +201,16 @@
   "journalEmptyTitle": "مذكرات بشرتك",
   "routineSuggestCleanse": "التنظيف",
   "routineSuggestMoisturise": "الترطيب",
-  "routineSuggestSun": "الحماية من الشمس"
+  "routineSuggestSun": "الحماية من الشمس",
+  "lessonKeyPoints": "أهم النقاط",
+  "lessonQuiz": "اختبري نفسك",
+  "lessonSources": "المصادر",
+  "lessonDraftNote": "هذا الدرس مسودة مبنية على الأدلة بانتظار مراجعة خبيرة تجميل. وهو ليس استشارة طبية.",
+  "lessonMinutes": "{n} دقيقة",
+  "quizRight": "صحيح!",
+  "quizWrong": "ليس تمامًا — تم تمييز الإجابة الصحيحة.",
+  "quizScore": "النتيجة: {score} / {total}",
+  "quizRetry": "حاولي مجددًا",
+  "lessonCount": "{n} دروس · مع اختبارات",
+  "lessonDone": "تمت القراءة"
 }

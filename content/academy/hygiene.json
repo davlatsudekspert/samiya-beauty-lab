@@ -1,0 +1,233 @@
+{
+ "id": "hygiene",
+ "status": "draft",
+ "reviewed": false,
+ "title": {
+  "uz": "Gigiyena va infeksiya nazorati",
+  "ru": "Гигиена и инфекционный контроль",
+  "en": "Hygiene and Infection Control",
+  "ar": "النظافة الصحية ومكافحة العدوى"
+ },
+ "summary": {
+  "uz": "Har bir muolajaning nafosati pokizalikdan boshlanadi. Bu darsda qo‘l gigiyenasi, asboblarni tozalash va dezinfeksiya qilish, bir martalik materiallar va kosmetikani ifloslantirmaslik asoslarini ko‘rib chiqamiz.",
+  "ru": "Изысканность любой процедуры начинается с чистоты. В этом уроке — гигиена рук, очистка и дезинфекция инструментов, одноразовые материалы и защита косметики от загрязнения.",
+  "en": "The elegance of every treatment begins with cleanliness. This lesson covers hand hygiene, cleaning and disinfecting tools, single-use materials and keeping cosmetics free from contamination.",
+  "ar": "تبدأ أناقة كل جلسة تجميلية بالنظافة. في هذا الدرس نتناول نظافة اليدين، وتنظيف الأدوات وتطهيرها، والمواد ذات الاستخدام الواحد، وحماية مستحضرات التجميل من التلوث."
+ },
+ "sections": [
+  {
+   "heading": {
+    "uz": "Standart ehtiyot choralari",
+    "ru": "Стандартные меры предосторожности",
+    "en": "Standard precautions",
+    "ar": "الاحتياطات القياسية"
+   },
+   "text": {
+    "uz": "Standart ehtiyot choralari — har bir mijozga, uning holatidan qat’i nazar, qo‘llanadigan asosiy himoya qoidalari. CDC ularga qo‘l gigiyenasi, kutilayotgan kontaktga qarab shaxsiy himoya vositalarini tanlash, o‘tkir asboblar bilan xavfsiz ishlash, toza asbob-uskuna va dezinfeksiyalangan yuzalarni kiritadi. Maqsad — mijozni ham, mutaxassisni ham infeksiya yuqishidan himoya qilish.",
+    "ru": "Стандартные меры предосторожности — базовые правила защиты, которые применяются к каждому клиенту независимо от его состояния. CDC относит к ним гигиену рук, выбор средств индивидуальной защиты с учётом ожидаемого контакта, безопасную работу с острыми инструментами, чистое оборудование и продезинфицированные поверхности. Цель — защитить от передачи инфекции и клиента, и специалиста.",
+    "en": "Standard precautions are the basic protective rules applied to every client, regardless of their status. The CDC includes hand hygiene, choosing personal protective equipment according to the expected exposure, safe handling of sharps, clean equipment and disinfected surfaces. The aim is to protect both the client and the practitioner from the spread of infection.",
+    "ar": "الاحتياطات القياسية هي قواعد الحماية الأساسية التي تُطبَّق على كل عميلة بغضّ النظر عن حالتها. وتشمل وفق مراكز CDC نظافة اليدين، واختيار معدات الوقاية الشخصية بحسب التعرّض المتوقَّع، والتعامل الآمن مع الأدوات الحادة، ونظافة المعدات وتطهير الأسطح. والهدف حماية العميلة والأخصائية معًا من انتقال العدوى."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Qo‘l gigiyenasi",
+    "ru": "Гигиена рук",
+    "en": "Hand hygiene",
+    "ar": "نظافة اليدين"
+   },
+   "text": {
+    "uz": "JSST qo‘llanmasiga ko‘ra, qo‘l ko‘rinarli darajada iflos bo‘lmasa, spirtli antiseptik bilan ishlov berish afzal; ko‘rinarli ifloslanishda esa qo‘l sovun va suv bilan yuviladi. Qo‘l gigiyenasi mijoz bilan kontaktdan oldin va keyin, shuningdek qo‘lqopni yechgandan so‘ng bajariladi. Qo‘lqop qo‘l gigiyenasining o‘rnini bosmaydi — ular birgalikda qo‘llanadi.",
+    "ru": "Согласно руководству ВОЗ, если руки не загрязнены видимо, предпочтительна обработка спиртовым антисептиком; при видимом загрязнении руки моют водой с мылом. Гигиену рук выполняют до и после контакта с клиентом, а также после снятия перчаток. Перчатки не заменяют гигиену рук — они применяются вместе.",
+    "en": "According to WHO guidance, when hands are not visibly soiled, an alcohol-based handrub is preferred; when they are visibly soiled, hands are washed with soap and water. Hand hygiene is performed before and after contact with a client and after removing gloves. Gloves do not replace hand hygiene; the two are used together.",
+    "ar": "وفق إرشادات منظمة الصحة العالمية، يُفضَّل فرك اليدين بمطهّر كحولي إذا لم تكونا متّسختين بشكل ظاهر، أمّا عند الاتّساخ الظاهر فتُغسلان بالماء والصابون. وتُجرى نظافة اليدين قبل ملامسة العميلة وبعدها، وكذلك بعد خلع القفازين. القفازات لا تُغني عن نظافة اليدين، بل تُستعمل معها."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Asboblarni tozalash va dezinfeksiya",
+    "ru": "Очистка и дезинфекция инструментов",
+    "en": "Cleaning and disinfecting tools",
+    "ar": "تنظيف الأدوات وتطهيرها"
+   },
+   "text": {
+    "uz": "Qayta ishlatiladigan asboblar avval ko‘rinadigan ifloslikdan tozalanadi, so‘ngra vazifasiga mos usulda dezinfeksiya yoki sterilizatsiya qilinadi. Braziliyadagi tadqiqotda go‘zallik ustalarining atigi 40 foizi to‘g‘ri dezinfeksiya/sterilizatsiya jarayonini ko‘rsatgan — bu bilimdagi bo‘shliqni anglatadi. Tirnoq salonidagi bir epidemiyada infeksiya oyoq vannalari bilan bog‘langan; demak, vanna va uskunalar ham muntazam tozalanishi kerak. Aniq usul va vositalar mahalliy sanitariya qoidalari hamda ishlab chiqaruvchi ko‘rsatmasiga tayanadi.",
+    "ru": "Многоразовые инструменты сначала очищают от видимых загрязнений, затем дезинфицируют или стерилизуют способом, соответствующим их назначению. В бразильском исследовании лишь 40% мастеров красоты описали правильный процесс дезинфекции/стерилизации — это указывает на пробел в знаниях. В одной вспышке в маникюрном салоне инфекция была связана с ванночками для ног, поэтому ванночки и оборудование тоже требуют регулярной очистки. Конкретные методы и средства определяются местными санитарными нормами и инструкцией производителя.",
+    "en": "Reusable tools are first cleaned of visible soil, then disinfected or sterilised by a method suited to their use. In a Brazilian study, only 40% of beauticians reported adequate disinfection/sterilisation processes, pointing to a knowledge gap. In one nail salon outbreak, infection was linked to whirlpool footbaths, so basins and equipment also need regular cleaning. The exact methods and products follow local sanitary rules and the manufacturer’s instructions.",
+    "ar": "تُنظَّف الأدوات القابلة لإعادة الاستخدام أولًا من الأوساخ الظاهرة، ثم تُطهَّر أو تُعقَّم بطريقة تناسب استخدامها. وفي دراسة برازيلية، أفادت 40% فقط من العاملات في التجميل باتّباع إجراءات تطهير أو تعقيم ملائمة، ما يشير إلى فجوة معرفية. وفي إحدى حالات التفشّي في صالون أظافر ارتبطت العدوى بأحواض تدليك القدمين، لذا تحتاج الأحواض والمعدات أيضًا إلى تنظيف منتظم. وتتحدّد الطرق والمواد بدقة وفق اللوائح الصحية المحلية وتعليمات الشركة المصنِّعة."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Bir martalik materiallar",
+    "ru": "Одноразовые материалы",
+    "en": "Single-use materials",
+    "ar": "المواد ذات الاستخدام الواحد"
+   },
+   "text": {
+    "uz": "Bir martalik deb belgilangan materiallar — masalan, tirnoq egovi, apelsin tayoqchasi, salfetka va aplikatorlar — faqat bitta mijoz uchun ishlatiladi va keyin tashlanadi. Ularni “yuvib qayta ishlatish” bir martalik mahsulotning maqsadiga zid. O‘tkir asboblar CDC tavsiyasiga ko‘ra maxsus, teshilmaydigan idishga tashlanadi.",
+    "ru": "Материалы, отмеченные как одноразовые, — например, пилки, апельсиновые палочки, салфетки и аппликаторы, — используются только для одного клиента и затем выбрасываются. «Промыть и использовать снова» противоречит самому назначению одноразового изделия. Острые инструменты, согласно рекомендациям CDC, утилизируют в специальный непрокалываемый контейнер.",
+    "en": "Materials labelled as single-use, such as nail files, orange sticks, wipes and applicators, are used for one client only and then discarded. “Washing and reusing” them contradicts the purpose of a single-use item. Following CDC guidance, sharps go into a dedicated puncture-resistant container.",
+    "ar": "المواد المخصّصة للاستخدام الواحد، مثل مبارد الأظافر وأعواد البرتقال والمناديل وأدوات التطبيق، تُستعمل لعميلة واحدة فقط ثم يُتخلَّص منها. أمّا «غسلها وإعادة استعمالها» فيتعارض مع الغرض منها. ووفق توصيات CDC، تُرمى الأدوات الحادة في حاوية مخصّصة مقاومة للثقب."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Kosmetikani ifloslantirmaslik",
+    "ru": "Как не загрязнять косметику",
+    "en": "Keeping cosmetics uncontaminated",
+    "ar": "حماية مستحضرات التجميل من التلوث"
+   },
+   "text": {
+    "uz": "Buyuk Britaniyada ishlatilgan kosmetikani o‘rgangan tadqiqotda namunalarning taxminan 79–90 foizida bakteriyalar topilgan. Go‘zallik shimgichlarining 93 foizi hech qachon tozalanmagan, 64 foizi esa polga tushgandan keyin ham ishlatilishda davom etgan. Amaliyotda mahsulotni toza spatula bilan olish, bitta aplikatorni idishga qayta botirmaslik va shimgich-cho‘tkalarni muntazam tozalash ifloslanish ehtimolini kamaytiradi. Yaroqlilik muddati o‘tgan yoki hidi, rangi o‘zgargan mahsulotdan foydalanmaslik lozim.",
+    "ru": "В британском исследовании использованной косметики бактерии обнаружили примерно в 79–90% образцов. 93% спонжей для макияжа никогда не очищались, а 64% продолжали использовать после падения на пол. На практике риск загрязнения снижают чистый шпатель, отказ от повторного погружения одного аппликатора в баночку и регулярная очистка спонжей и кистей. Продуктом с истёкшим сроком или изменившимися запахом и цветом пользоваться не следует.",
+    "en": "In a UK study of used cosmetics, bacteria were found in roughly 79–90% of samples. Ninety-three per cent of beauty blenders had never been cleaned, and 64% were still used after being dropped on the floor. In practice, taking product out with a clean spatula, not double-dipping an applicator and cleaning sponges and brushes regularly lower the chance of contamination. Products past their date, or with a changed smell or colour, should not be used.",
+    "ar": "في دراسة بريطانية على مستحضرات تجميل مستعملة، وُجدت البكتيريا في نحو 79–90% من العيّنات. ولم تُنظَّف 93% من إسفنجات المكياج قط، واستمرّ استعمال 64% منها بعد سقوطها على الأرض. وعمليًا، يقلّل أخذ المنتج بملعقة نظيفة، وعدم إعادة غمس الأداة نفسها في العبوة، وتنظيف الإسفنج والفُرَش بانتظام من احتمال التلوث. ولا ينبغي استعمال منتج انتهت صلاحيته أو تغيّرت رائحته أو لونه."
+   }
+  }
+ ],
+ "key_points": [
+  {
+   "uz": "Standart ehtiyot choralari har bir mijozga bir xil darajada qo‘llanadi.",
+   "ru": "Стандартные меры предосторожности применяются к каждому клиенту одинаково.",
+   "en": "Standard precautions apply equally to every client.",
+   "ar": "تُطبَّق الاحتياطات القياسية على كل عميلة بالقدر نفسه."
+  },
+  {
+   "uz": "Qo‘lqop qo‘l gigiyenasining o‘rnini bosmaydi: qo‘lqopni yechgach ham qo‘lga ishlov beriladi.",
+   "ru": "Перчатки не заменяют гигиену рук: после снятия перчаток руки тоже обрабатывают.",
+   "en": "Gloves do not replace hand hygiene: hands are cleaned after removing gloves too.",
+   "ar": "القفازات لا تُغني عن نظافة اليدين؛ فتُنظَّف اليدان بعد خلعهما أيضًا."
+  },
+  {
+   "uz": "Asbob avval tozalanadi, keyin dezinfeksiya yoki sterilizatsiya qilinadi; bir martalik material qayta ishlatilmaydi.",
+   "ru": "Инструмент сначала очищают, затем дезинфицируют или стерилизуют; одноразовый материал повторно не используют.",
+   "en": "A tool is cleaned first, then disinfected or sterilised; single-use material is never reused.",
+   "ar": "تُنظَّف الأداة أولًا ثم تُطهَّر أو تُعقَّم، ولا يُعاد استعمال المواد ذات الاستخدام الواحد."
+  }
+ ],
+ "quiz": [
+  {
+   "question": {
+    "uz": "Qo‘l ko‘rinarli darajada iflos bo‘lsa, JSST nimani tavsiya qiladi?",
+    "ru": "Что рекомендует ВОЗ, если руки видимо загрязнены?",
+    "en": "What does WHO recommend when hands are visibly soiled?",
+    "ar": "بماذا توصي منظمة الصحة العالمية إذا كانت اليدان متّسختين بشكل ظاهر؟"
+   },
+   "options": [
+    {
+     "uz": "Faqat qo‘lqop kiyish",
+     "ru": "Только надеть перчатки",
+     "en": "Just putting on gloves",
+     "ar": "ارتداء القفازين فقط"
+    },
+    {
+     "uz": "Sovun va suv bilan yuvish",
+     "ru": "Вымыть водой с мылом",
+     "en": "Washing with soap and water",
+     "ar": "الغسل بالماء والصابون"
+    },
+    {
+     "uz": "Hech narsa qilmaslik",
+     "ru": "Ничего не делать",
+     "en": "Doing nothing",
+     "ar": "عدم فعل شيء"
+    }
+   ],
+   "correct": 1
+  },
+  {
+   "question": {
+    "uz": "Qayta ishlatiladigan asbob bilan ishlashda birinchi qadam qaysi?",
+    "ru": "Какой первый шаг при обработке многоразового инструмента?",
+    "en": "What is the first step in reprocessing a reusable tool?",
+    "ar": "ما الخطوة الأولى في معالجة أداة قابلة لإعادة الاستخدام؟"
+   },
+   "options": [
+    {
+     "uz": "Ko‘rinadigan ifloslikdan tozalash",
+     "ru": "Очистка от видимых загрязнений",
+     "en": "Cleaning off visible soil",
+     "ar": "تنظيفها من الأوساخ الظاهرة"
+    },
+    {
+     "uz": "Darhol keyingi mijozda ishlatish",
+     "ru": "Сразу использовать на следующем клиенте",
+     "en": "Using it right away on the next client",
+     "ar": "استعمالها فورًا مع العميلة التالية"
+    },
+    {
+     "uz": "Faqat salfetka bilan artish",
+     "ru": "Только протереть салфеткой",
+     "en": "Only wiping it with a tissue",
+     "ar": "مسحها بمنديل فقط"
+    }
+   ],
+   "correct": 0
+  },
+  {
+   "question": {
+    "uz": "Polga tushgan go‘zallik shimgichi bilan nima qilish to‘g‘ri?",
+    "ru": "Как правильно поступить со спонжем, упавшим на пол?",
+    "en": "What is the right thing to do with a beauty sponge that fell on the floor?",
+    "ar": "ما التصرّف الصحيح مع إسفنجة مكياج سقطت على الأرض؟"
+   },
+   "options": [
+    {
+     "uz": "Ishlatishda davom etish",
+     "ru": "Продолжать использовать",
+     "en": "Keep using it",
+     "ar": "الاستمرار في استعمالها"
+    },
+    {
+     "uz": "Puflab, qayta ishlatish",
+     "ru": "Сдуть пыль и использовать снова",
+     "en": "Blow on it and reuse it",
+     "ar": "النفخ عليها ثم إعادة استعمالها"
+    },
+    {
+     "uz": "Mijozga ishlatmaslik: tozalash yoki almashtirish",
+     "ru": "Не использовать на клиенте: очистить или заменить",
+     "en": "Not using it on a client: clean or replace it",
+     "ar": "عدم استعمالها مع العميلة: تنظيفها أو استبدالها"
+    }
+   ],
+   "correct": 2
+  }
+ ],
+ "sources": [
+  {
+   "type": "official",
+   "title": "Standard Precautions for All Patient Care",
+   "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+   "url": "https://www.cdc.gov/infection-control/hcp/basics/standard-precautions.html"
+  },
+  {
+   "type": "official",
+   "title": "WHO guidelines on hand hygiene in health care",
+   "publisher": "World Health Organization (WHO)",
+   "url": "https://www.who.int/publications/i/item/9789241597906"
+  },
+  {
+   "type": "pubmed",
+   "pmid": "31597215",
+   "title": "Microbiological study of used cosmetic products: highlighting possible impact on consumer health.",
+   "year": 2019,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31597215/"
+  },
+  {
+   "type": "pubmed",
+   "pmid": "24916521",
+   "title": "Knowledge and prevalence of viral hepatitis among beauticians.",
+   "year": 2014,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24916521/"
+  },
+  {
+   "type": "pubmed",
+   "pmid": "14679446",
+   "title": "The clinical management and outcome of nail salon-acquired Mycobacterium fortuitum skin infection.",
+   "year": 2003,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14679446/"
+  }
+ ]
+}

@@ -1,0 +1,242 @@
+{
+ "id": "skin",
+ "title": {
+  "uz": "Teri anatomiyasi va fiziologiyasi",
+  "ru": "Анатомия и физиология кожи",
+  "en": "Skin Anatomy and Physiology",
+  "ar": "تشريح الجلد ووظائفه"
+ },
+ "summary": {
+  "uz": "Teri — tanamizning eng katta organi va tashqi muhit oldidagi birinchi to‘siq. Ushbu darsda uning uch qatlami, shox qavat va namlikni saqlashdagi roli bilan tanishasiz.",
+  "ru": "Кожа — самый крупный орган тела и первый барьер между нами и внешней средой. В этом уроке вы познакомитесь с её тремя слоями, роговым слоем и его ролью в сохранении влаги.",
+  "en": "Skin is the body’s largest organ and its first barrier against the outside world. In this lesson you will explore its three layers, the stratum corneum and its role in holding on to moisture.",
+  "ar": "الجلد هو أكبر عضو في الجسم وأول حاجز بينه وبين البيئة الخارجية. ستتعرّفين في هذا الدرس على طبقاته الثلاث، وعلى الطبقة القرنية ودورها في الحفاظ على الرطوبة."
+ },
+ "sections": [
+  {
+   "heading": {
+    "uz": "Teri — eng katta himoya organi",
+    "ru": "Кожа — самый крупный защитный орган",
+    "en": "Skin: the largest protective organ",
+    "ar": "الجلد: أكبر عضو واقٍ في الجسم"
+   },
+   "text": {
+    "uz": "Teri tananing butun tashqi yuzasini qoplaydigan eng katta organdir. U mikroorganizmlar, ultrabinafsha (UV) nurlar, kimyoviy ta’sirlar va mexanik shikastlarga qarshi birinchi to‘siq vazifasini bajaradi. Shuningdek, teri tana haroratini va tashqi muhitga chiqadigan suv miqdorini boshqarishda ishtirok etadi.",
+    "ru": "Кожа — самый крупный орган, покрывающий всю внешнюю поверхность тела. Она служит первым барьером против микроорганизмов, ультрафиолетового (УФ) излучения, химических воздействий и механических повреждений. Кроме того, кожа участвует в регуляции температуры тела и количества воды, которое отдаётся в окружающую среду.",
+    "en": "The skin is the largest organ, covering the entire outer surface of the body. It acts as the first barrier against microorganisms, ultraviolet (UV) light, chemicals and mechanical injury. The skin also helps regulate body temperature and the amount of water released into the environment.",
+    "ar": "الجلد هو أكبر عضو في الجسم، ويغطي سطحه الخارجي بالكامل. ويؤدي دور الحاجز الأول في مواجهة الكائنات الدقيقة والأشعة فوق البنفسجية والمواد الكيميائية والإصابات الميكانيكية. كما يشارك الجلد في تنظيم حرارة الجسم وكمية الماء التي تخرج إلى البيئة المحيطة."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Uch qatlam: epidermis, derma, gipoderma",
+    "ru": "Три слоя: эпидермис, дерма, гиподерма",
+    "en": "Three layers: epidermis, dermis, hypodermis",
+    "ar": "ثلاث طبقات: البشرة والأدمة وتحت الجلد"
+   },
+   "text": {
+    "uz": "Teri tashqaridan ichkariga qarab uch qatlamdan iborat: epidermis, derma va gipoderma. Har bir qatlamning tuzilishi va vazifasi turlicha. Teri qalinligi tana sohasiga qarab farq qiladi: kaft va tovonlardagi tuksiz teri eng qalin bo‘lib, unda epidermisning qo‘shimcha qavati — stratum lucidum bor.",
+    "ru": "Кожа состоит из трёх слоёв, если идти снаружи внутрь: эпидермис, дерма и гиподерма. Строение и функции каждого слоя различаются. Толщина кожи зависит от участка тела: самая толстая — безволосая кожа ладоней и подошв, где есть дополнительный слой эпидермиса — stratum lucidum (блестящий слой).",
+    "en": "From the outside in, the skin has three layers: the epidermis, the dermis and the hypodermis. Each layer has its own structure and function. Skin thickness varies by body region: the hairless skin of the palms and soles is the thickest, thanks to an extra epidermal layer called the stratum lucidum.",
+    "ar": "يتكوّن الجلد، من الخارج إلى الداخل، من ثلاث طبقات: البشرة والأدمة وطبقة تحت الجلد. ولكل طبقة بنيتها ووظيفتها الخاصة. ويختلف سُمك الجلد بحسب منطقة الجسم، فالجلد الخالي من الشعر في راحتَي اليدين وباطن القدمين هو الأسمك، لاحتوائه على طبقة إضافية في البشرة تُسمّى الطبقة الصافية (Stratum lucidum)."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Epidermis va shox qavat",
+    "ru": "Эпидермис и роговой слой",
+    "en": "The epidermis and the stratum corneum",
+    "ar": "البشرة والطبقة القرنية"
+   },
+   "text": {
+    "uz": "Epidermis terining tashqi qatlami bo‘lib, uning eng ustki qavati shox qavat (stratum corneum) deb ataladi. Shox qavat oqsilga boy hujayralar — korneotsitlar va ular orasidagi lipid matritsadan tashkil topadi. Bu matritsada asosan seramidlar, xolesterin va erkin yog‘ kislotalari tartibli qatlamlar hosil qiladi.",
+    "ru": "Эпидермис — наружный слой кожи, а его самый верхний слой называется роговым (stratum corneum). Роговой слой состоит из богатых белком клеток — корнеоцитов — и липидного матрикса между ними. В этом матриксе преимущественно церамиды, холестерин и свободные жирные кислоты образуют упорядоченные слои.",
+    "en": "The epidermis is the outer layer of the skin, and its uppermost layer is called the stratum corneum. The stratum corneum is made of protein-rich cells called corneocytes, surrounded by a lipid matrix. In this matrix, mainly ceramides, cholesterol and free fatty acids form highly ordered layers.",
+    "ar": "البشرة هي الطبقة الخارجية للجلد، وتُسمّى أعلى طبقاتها الطبقة القرنية (Stratum corneum). وتتكوّن الطبقة القرنية من خلايا غنية بالبروتين تُعرف بالخلايا القرنية، تحيط بها مادة دهنية بينية. وفي هذه المادة تشكّل السيراميدات والكوليسترول والأحماض الدهنية الحرة بشكل رئيسي طبقاتٍ منتظمة."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Teri to‘sig‘i va namlik",
+    "ru": "Кожный барьер и влага",
+    "en": "The skin barrier and moisture",
+    "ar": "حاجز الجلد والرطوبة"
+   },
+   "text": {
+    "uz": "Shox qavatning ikki muhim vazifasi bor: epidermis orqali ortiqcha suv yo‘qotilishining oldini olish va tashqi moddalarning chuqurroq qatlamlarga o‘tishini cheklash. Korneotsitlar ichida filaggrin oqsilining parchalanishidan tabiiy namlantiruvchi omil (NMF) hosil bo‘ladi — bu suvda eriydigan kichik molekulalar aralashmasi. Tashqi muhit ta’sirida bu jarayonlar buzilsa, teri quruq va po‘st tashlaydigan bo‘lib qolishi mumkin.",
+    "ru": "У рогового слоя две важные функции: предотвращать избыточную потерю воды через эпидермис и ограничивать проникновение внешних веществ в более глубокие слои. Внутри корнеоцитов при распаде белка филаггрина образуется натуральный увлажняющий фактор (NMF) — смесь небольших водорастворимых молекул. Если под влиянием внешней среды эти процессы нарушаются, кожа может стать сухой и шелушащейся.",
+    "en": "The stratum corneum has two key jobs: preventing excessive water loss through the epidermis and limiting the entry of outside substances into deeper layers. Inside the corneocytes, the breakdown of a protein called filaggrin produces natural moisturizing factor (NMF), a mix of small water-soluble molecules. When environmental challenges disturb these processes, the skin can become dry and flaky.",
+    "ar": "للطبقة القرنية وظيفتان مهمتان: منع الفقد المفرط للماء عبر البشرة، والحدّ من نفاذ المواد الخارجية إلى الطبقات الأعمق. وداخل الخلايا القرنية يتكوّن عامل الترطيب الطبيعي (NMF) من تحلّل بروتين يُسمّى الفيلاغرين، وهو مزيج من جزيئات صغيرة قابلة للذوبان في الماء. وعندما تضطرب هذه العمليات بفعل العوامل البيئية، قد يصبح الجلد جافًا ومتقشّرًا."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Derma va gipoderma",
+    "ru": "Дерма и гиподерма",
+    "en": "The dermis and the hypodermis",
+    "ar": "الأدمة وطبقة تحت الجلد"
+   },
+   "text": {
+    "uz": "Derma epidermis ostida joylashgan bo‘lib, kollagenga boy biriktiruvchi to‘qima, qon tomirlari, nervlar hamda ter bezlari va soch follikulalarini o‘z ichiga oladi. Gipoderma terining eng chuqur qismi bo‘lib, asosan yog‘ va biriktiruvchi to‘qimadan tashkil topadi. Bu qatlamlar teriga tayanch bo‘ladi va uning sezish hamda harorat boshqaruvidagi rolini qo‘llab-quvvatlaydi.",
+    "ru": "Дерма расположена под эпидермисом и содержит богатую коллагеном соединительную ткань, кровеносные сосуды, нервы, а также потовые железы и волосяные фолликулы. Гиподерма — самая глубокая часть кожи, состоящая в основном из жировой и соединительной ткани. Эти слои служат опорой для кожи и поддерживают её роль в восприятии ощущений и терморегуляции.",
+    "en": "The dermis lies beneath the epidermis and contains collagen-rich connective tissue, blood vessels, nerves, sweat glands and hair follicles. The hypodermis is the deepest part of the skin, made mainly of fat and connective tissue. Together, these layers support the skin and its roles in sensation and temperature regulation.",
+    "ar": "تقع الأدمة تحت البشرة، وتحتوي على نسيج ضامّ غني بالكولاجين، وأوعية دموية، وأعصاب، إضافةً إلى الغدد العرقية وبصيلات الشعر. أما طبقة تحت الجلد فهي الجزء الأعمق من الجلد، وتتكوّن أساسًا من نسيج دهني ونسيج ضامّ. وتمنح هذه الطبقات الجلد الدعم، وتساند دوره في الإحساس وتنظيم الحرارة."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Kosmetolog uchun eslatma",
+    "ru": "Памятка для косметолога",
+    "en": "A note for cosmetologists",
+    "ar": "تذكير لخبيرة التجميل"
+   },
+   "text": {
+    "uz": "Teri tuzilishini bilish parvarish vositalari va kosmetik muolajalar haqida ongli suhbat qurishga yordam beradi. Biroq kosmetolog teri kasalliklariga tashxis qo‘ymaydi va davo tayinlamaydi. Terida g‘ayrioddiy o‘zgarish, og‘riq yoki uzoq davom etayotgan bezovtalik kuzatilsa, mijozni dermatologga yo‘naltirish to‘g‘ri yo‘ldir.",
+    "ru": "Знание строения кожи помогает вести осознанный разговор об уходовых средствах и косметических процедурах. Однако косметолог не ставит диагнозы кожных заболеваний и не назначает лечение. Если на коже заметны необычные изменения, боль или длительный дискомфорт, правильно направить клиентку к дерматологу.",
+    "en": "Understanding skin structure helps you hold informed conversations about skincare products and cosmetic procedures. A cosmetologist, however, does not diagnose skin conditions or prescribe treatment. If you notice unusual changes, pain or long-lasting discomfort in a client’s skin, the right step is to refer her to a dermatologist.",
+    "ar": "تساعدكِ معرفة بنية الجلد على إجراء حوار واعٍ حول منتجات العناية والجلسات التجميلية. لكن خبيرة التجميل لا تشخّص أمراض الجلد ولا تصف العلاج. وإذا لاحظتِ تغيّرات غير معتادة أو ألمًا أو انزعاجًا مستمرًا في جلد العميلة، فالخطوة الصحيحة هي توجيهها إلى طبيب الأمراض الجلدية."
+   }
+  }
+ ],
+ "key_points": [
+  {
+   "uz": "Teri uch qatlamdan iborat: epidermis, derma va gipoderma.",
+   "ru": "Кожа состоит из трёх слоёв: эпидермиса, дермы и гиподермы.",
+   "en": "The skin has three layers: the epidermis, the dermis and the hypodermis.",
+   "ar": "يتكوّن الجلد من ثلاث طبقات: البشرة والأدمة وطبقة تحت الجلد."
+  },
+  {
+   "uz": "Shox qavat — korneotsitlar va lipidlardan (seramidlar, xolesterin, erkin yog‘ kislotalari) iborat asosiy to‘siq.",
+   "ru": "Роговой слой — главный барьер из корнеоцитов и липидов (церамиды, холестерин, свободные жирные кислоты).",
+   "en": "The stratum corneum is the main barrier, built from corneocytes and lipids (ceramides, cholesterol, free fatty acids).",
+   "ar": "الطبقة القرنية هي الحاجز الرئيسي، وتتكوّن من الخلايا القرنية والدهون (السيراميدات والكوليسترول والأحماض الدهنية الحرة)."
+  },
+  {
+   "uz": "Teri suv yo‘qotilishini cheklaydi va haroratni boshqarishda ishtirok etadi; tashxis va davo — dermatolog vakolati.",
+   "ru": "Кожа ограничивает потерю воды и участвует в терморегуляции; диагноз и лечение — компетенция дерматолога.",
+   "en": "The skin limits water loss and helps regulate temperature; diagnosis and treatment belong to a dermatologist.",
+   "ar": "يحدّ الجلد من فقد الماء ويشارك في تنظيم الحرارة، أما التشخيص والعلاج فمن اختصاص طبيب الأمراض الجلدية."
+  }
+ ],
+ "quiz": [
+  {
+   "question": {
+    "uz": "Terining eng tashqi qatlami qaysi?",
+    "ru": "Какой слой кожи самый наружный?",
+    "en": "Which is the outermost layer of the skin?",
+    "ar": "ما الطبقة الخارجية للجلد؟"
+   },
+   "options": [
+    {
+     "uz": "Derma",
+     "ru": "Дерма",
+     "en": "Dermis",
+     "ar": "الأدمة"
+    },
+    {
+     "uz": "Epidermis",
+     "ru": "Эпидермис",
+     "en": "Epidermis",
+     "ar": "البشرة"
+    },
+    {
+     "uz": "Gipoderma",
+     "ru": "Гиподерма",
+     "en": "Hypodermis",
+     "ar": "طبقة تحت الجلد"
+    }
+   ],
+   "correct": 1
+  },
+  {
+   "question": {
+    "uz": "Shox qavatdagi lipid matritsaning asosiy tarkibiy qismlari qaysilar?",
+    "ru": "Каковы основные компоненты липидного матрикса рогового слоя?",
+    "en": "What are the main components of the stratum corneum lipid matrix?",
+    "ar": "ما المكوّنات الرئيسية للمادة الدهنية في الطبقة القرنية؟"
+   },
+   "options": [
+    {
+     "uz": "Seramidlar, xolesterin va erkin yog‘ kislotalari",
+     "ru": "Церамиды, холестерин и свободные жирные кислоты",
+     "en": "Ceramides, cholesterol and free fatty acids",
+     "ar": "السيراميدات والكوليسترول والأحماض الدهنية الحرة"
+    },
+    {
+     "uz": "Kollagen va qon tomirlari",
+     "ru": "Коллаген и кровеносные сосуды",
+     "en": "Collagen and blood vessels",
+     "ar": "الكولاجين والأوعية الدموية"
+    },
+    {
+     "uz": "Ter bezlari va soch follikulalari",
+     "ru": "Потовые железы и волосяные фолликулы",
+     "en": "Sweat glands and hair follicles",
+     "ar": "الغدد العرقية وبصيلات الشعر"
+    }
+   ],
+   "correct": 0
+  },
+  {
+   "question": {
+    "uz": "Nima uchun kaft va tovon terisi eng qalin hisoblanadi?",
+    "ru": "Почему кожа ладоней и подошв считается самой толстой?",
+    "en": "Why is the skin of the palms and soles the thickest?",
+    "ar": "لماذا يُعدّ جلد راحتَي اليدين وباطن القدمين الأسمك؟"
+   },
+   "options": [
+    {
+     "uz": "Unda epidermisning qo‘shimcha qavati — stratum lucidum bor",
+     "ru": "В ней есть дополнительный слой эпидермиса — stratum lucidum",
+     "en": "It has an extra epidermal layer, the stratum lucidum",
+     "ar": "لاحتوائه على طبقة إضافية في البشرة هي الطبقة الصافية"
+    },
+    {
+     "uz": "Unda gipoderma bo‘lmaydi",
+     "ru": "В ней отсутствует гиподерма",
+     "en": "It has no hypodermis",
+     "ar": "لعدم وجود طبقة تحت الجلد فيه"
+    },
+    {
+     "uz": "Unda derma bo‘lmaydi",
+     "ru": "В ней отсутствует дерма",
+     "en": "It has no dermis",
+     "ar": "لعدم وجود الأدمة فيه"
+    }
+   ],
+   "correct": 0
+  }
+ ],
+ "sources": [
+  {
+   "type": "pubmed",
+   "pmid": "29262154",
+   "title": "Anatomy, Skin (Integument), Epidermis. StatPearls [Internet]",
+   "year": 2024,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29262154/"
+  },
+  {
+   "type": "pubmed",
+   "pmid": "28723009",
+   "title": "Anatomy, Skin (Integument). StatPearls [Internet]",
+   "year": 2022,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28723009/"
+  },
+  {
+   "type": "pubmed",
+   "pmid": "26844894",
+   "title": "Stratum Corneum Lipids: Their Role for the Skin Barrier Function in Healthy Subjects and Atopic Dermatitis Patients.",
+   "year": 2016,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26844894/"
+  },
+  {
+   "type": "pubmed",
+   "pmid": "14728698",
+   "title": "Moisturization and skin barrier function.",
+   "year": 2004,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14728698/"
+  }
+ ],
+ "status": "draft",
+ "reviewed": false
+}

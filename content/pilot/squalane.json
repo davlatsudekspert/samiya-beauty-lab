@@ -1,0 +1,116 @@
+{
+ "inci": "Squalane",
+ "slug": "squalane",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Squalane is a saturated, chemically stable derivative of squalene, a lipid that is a major component of human sebum; in cosmetics it is used as an emollient and as a carrier oil. Published evidence on squalane alone in people is scarce: most available studies are cell-culture or ex vivo skin experiments, which cannot show effects in real use. An expert panel has reviewed its safety as a cosmetic ingredient. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "squalane-1",
+   "text_en": "The Cosmetic Ingredient Review Expert Panel, re-examining data published since its original 1982 assessment, concluded that squalane and squalene are safe as cosmetic ingredients in the practices of use and concentrations described in its report; this is an expert-panel assessment, not a clinical trial.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "37752766",
+     "doi": "10.1177/10915818231204276",
+     "title": "Squalane and Squalene.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37752766/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "squalane-2",
+   "text_en": "In cultured human dermal fibroblasts, squalane at 0.005% to 0.015% counteracted UVA-induced oxidative stress and the UVA-induced drop in collagen synthesis, and supported cell migration in a wound model; these are cell-culture results and have not been shown in human skin.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40363772",
+     "doi": "10.3390/molecules30091964",
+     "title": "Squalane as a Promising Agent Protecting UV-Induced Inhibition of Collagen Biosynthesis and Wound Healing in Human Dermal Fibroblast.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40363772/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "squalane-3",
+   "text_en": "In an ex vivo study using pig ear skin, oil-in-water nanoemulsions with squalane as the oil phase released and delivered more vitamin E through the skin than coconut-oil-rich versions; this concerns squalane as a carrier, not its own effects on skin, and the authors called for in vivo studies.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "41427219",
+     "doi": "10.1021/acsomega.5c08561",
+     "title": "Effect of Squalane as a Carrier in O/W Nanoemulsions for Dermal Delivery of Vitamin E.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41427219/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "squalane-4",
+   "text_en": "In an ex vivo pig skin study, adding squalane to a water-in-oil emulsion lowered the permeation of plant polyphenols through the skin, which the authors interpreted as greater retention of these compounds in the skin.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "35994992",
+     "doi": "10.1016/j.colsurfb.2022.112779",
+     "title": "Effect of squalane-based emulsion on polyphenols skin penetration: Ex vivo skin study.",
+     "year": 2022,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35994992/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Skvalan (squalane) — inson teri yog'ining (sebum) asosiy tarkibiy qismlaridan biri bo'lgan skvalen lipidining to'yingan, kimyoviy jihatdan barqaror hosilasi; kosmetikada u yumshatuvchi (emolent) va tashuvchi moy sifatida ishlatiladi. Odamlarda faqat skvalanning o'zi bo'yicha chop etilgan dalillar juda kam: mavjud tadqiqotlarning aksariyati hujayra kulturasi yoki tanadan tashqaridagi (ex vivo) teri tajribalari bo'lib, ular real qo'llashdagi ta'sirni ko'rsata olmaydi. Uning kosmetik ingredient sifatidagi xavfsizligi ekspertlar paneli tomonidan ko'rib chiqilgan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "squalane-1": "Cosmetic Ingredient Review ekspertlar paneli 1982 yilgi dastlabki baholashdan keyin chop etilgan ma'lumotlarni qayta ko'rib chiqib, skvalan va skvalen hisobotda tavsiflangan qo'llash usullari va konsentratsiyalarda kosmetik ingredient sifatida xavfsiz degan xulosaga kelgan; bu klinik tadqiqot emas, balki ekspertlar panelining bahosi.",
+    "squalane-2": "Inson dermal fibroblastlari kulturasida 0,005–0,015% li skvalan UVA nurlari keltirib chiqargan oksidlovchi stressga va kollagen sintezining pasayishiga qarshi ta'sir ko'rsatgan hamda yara modelida hujayralar migratsiyasini qo'llab-quvvatlagan; bu hujayra kulturasi natijalari bo'lib, inson terisida isbotlanmagan.",
+    "squalane-3": "Cho'chqa qulog'i terisida o'tkazilgan ex vivo tadqiqotda moy fazasi skvalandan iborat bo'lgan suvda-moy (O/W) nanoemulsiyalari kokos moyi ko'p bo'lgan variantlarga qaraganda E vitaminini ko'proq ajratgan va teri orqali ko'proq o'tkazgan; bu skvalanning teriga o'z ta'siri emas, balki tashuvchi sifatidagi roli haqida, mualliflar tirik organizmda tadqiqotlar o'tkazish zarurligini ta'kidlagan.",
+    "squalane-4": "Cho'chqa terisida o'tkazilgan ex vivo tadqiqotda moyda-suv emulsiyasiga skvalan qo'shilishi o'simlik polifenollarining teri orqali o'tishini kamaytirgan; mualliflar buni ushbu birikmalarning terida ko'proq ushlanib qolishi deb izohlagan."
+   }
+  },
+  "ru": {
+   "summary": "Сквалан (squalane) — насыщенное, химически стабильное производное сквалена, липида, который является одним из основных компонентов кожного сала человека; в косметике он используется как смягчающее средство (эмолент) и масло-носитель. Опубликованных данных о самом сквалане у людей мало: большинство доступных исследований — эксперименты на клеточных культурах или на коже ex vivo, которые не могут показать эффект при реальном применении. Безопасность сквалана как косметического ингредиента рассматривалась экспертной группой. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "squalane-1": "Экспертная группа Cosmetic Ingredient Review, повторно рассмотрев данные, опубликованные после первоначальной оценки 1982 года, заключила, что сквалан и сквален безопасны как косметические ингредиенты при способах применения и концентрациях, описанных в её отчёте; это оценка экспертной группы, а не клиническое исследование.",
+    "squalane-2": "В культуре дермальных фибробластов человека сквалан в концентрации 0,005–0,015% противодействовал вызванному УФА окислительному стрессу и снижению синтеза коллагена, а также поддерживал миграцию клеток в модели раны; это результаты на клеточной культуре, которые не подтверждены на коже человека.",
+    "squalane-3": "В исследовании ex vivo на коже свиного уха наноэмульсии типа «масло в воде» со скваланом в качестве масляной фазы высвобождали и доставляли через кожу больше витамина E, чем варианты с преобладанием кокосового масла; речь идёт о роли сквалана как носителя, а не о его собственном действии на кожу, и авторы указали на необходимость исследований in vivo.",
+    "squalane-4": "В исследовании ex vivo на свиной коже добавление сквалана в эмульсию «вода в масле» снижало проникновение растительных полифенолов через кожу, что авторы интерпретировали как более длительное удержание этих веществ в коже."
+   }
+  },
+  "ar": {
+   "summary": "السكوالان (squalane) مشتق مشبع ومستقر كيميائيًا من السكوالين، وهو دهن يُعدّ من المكوّنات الرئيسية لزهم جلد الإنسان؛ ويُستخدم في مستحضرات التجميل مادةً مطرّية وزيتًا ناقلًا. الأدلة المنشورة عن السكوالان وحده لدى البشر قليلة: فمعظم الدراسات المتاحة تجارب على مزارع خلوية أو على جلد خارج الجسم (ex vivo)، ولا يمكنها إثبات التأثير في الاستخدام الفعلي. وقد راجعت لجنة خبراء سلامته بوصفه مكوّنًا تجميليًا. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "squalane-1": "خلصت لجنة خبراء Cosmetic Ingredient Review، بعد إعادة فحص البيانات المنشورة منذ تقييمها الأول عام 1982، إلى أن السكوالان والسكوالين آمنان بوصفهما مكوّنين تجميليين وفق طرق الاستخدام والتراكيز الموصوفة في تقريرها؛ وهذا تقييم لجنة خبراء وليس تجربة سريرية.",
+    "squalane-2": "في مزارع الخلايا الليفية الجلدية البشرية، عاكس السكوالان بتركيز 0.005% إلى 0.015% الإجهاد التأكسدي وانخفاض تخليق الكولاجين الناتجين عن الأشعة فوق البنفسجية أ، ودعم هجرة الخلايا في نموذج للجرح؛ وهذه نتائج مزارع خلوية لم تُثبت على جلد الإنسان.",
+    "squalane-3": "في دراسة خارج الجسم على جلد أذن الخنزير، أطلقت المستحلبات النانوية من نوع زيت في ماء ذات الطور الزيتي من السكوالان كمية أكبر من فيتامين E وأوصلتها عبر الجلد أكثر من التركيبات الغنية بزيت جوز الهند؛ ويتعلق ذلك بدور السكوالان ناقلًا لا بتأثيره الذاتي على الجلد، ودعا المؤلفون إلى دراسات داخل الجسم الحي.",
+    "squalane-4": "في دراسة خارج الجسم على جلد الخنزير، أدّت إضافة السكوالان إلى مستحلب ماء في زيت إلى خفض نفاذ البوليفينولات النباتية عبر الجلد، وفسّر المؤلفون ذلك بزيادة احتباس هذه المركّبات في الجلد."
+   }
+  }
+ }
+}

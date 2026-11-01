@@ -1,0 +1,232 @@
+{
+ "id": "safety",
+ "status": "draft",
+ "reviewed": false,
+ "title": {
+  "uz": "Kosmetik xavfsizlik va yorliqlar",
+  "ru": "Безопасность косметики и маркировка",
+  "en": "Cosmetic Safety and Labels",
+  "ar": "سلامة مستحضرات التجميل وملصقاتها"
+ },
+ "summary": {
+  "uz": "Yorliq — mahsulotning pasporti. Bu darsda yorliqda nimalar ko‘rsatilishi, partiya raqami va ochilgandan keyingi muddat belgisi, allergenlar, patch-test g‘oyasi va nojo‘ya reaksiya haqida qanday xabar berishni o‘rganamiz.",
+  "ru": "Этикетка — паспорт продукта. В этом уроке разберём, что указывается на этикетке, номер партии и символ срока после вскрытия, аллергены, идею патч-теста и то, как сообщать о нежелательной реакции.",
+  "en": "A label is a product’s passport. This lesson covers what a label shows, the batch number and the period-after-opening symbol, allergens, the idea behind patch testing and how to report an adverse reaction.",
+  "ar": "الملصق هو جواز سفر المنتج. في هذا الدرس نتعرّف إلى ما يتضمّنه الملصق، ورقم التشغيلة ورمز مدة الاستعمال بعد الفتح، ومسبّبات الحساسية، وفكرة اختبار الرقعة، وكيفية الإبلاغ عن تفاعل غير مرغوب فيه."
+ },
+ "sections": [
+  {
+   "heading": {
+    "uz": "Yorliqda nimalar bo‘ladi",
+    "ru": "Что указано на этикетке",
+    "en": "What a label shows",
+    "ar": "ما الذي يتضمّنه الملصق"
+   },
+   "text": {
+    "uz": "Yevropa Ittifoqining 1223/2009-sonli Reglamentiga ko‘ra, yorliqda mas’ul shaxsning nomi va manzili, nominal miqdor, yaroqlilik belgisi, maxsus ehtiyot choralari, partiya raqami, mahsulot vazifasi va ingredientlar ro‘yxati bo‘lishi kerak. AQShda FDA mahsulot nomi, sof miqdor, kompaniya nomi va manzili hamda ingredientlarning kamayib boruvchi tartibdagi ro‘yxatini talab qiladi. Noto‘g‘ri foydalanilganda xavf tug‘dirishi mumkin bo‘lgan mahsulotlarda ogohlantirish va xavfsiz qo‘llash ko‘rsatmasi bo‘ladi.",
+    "ru": "Согласно Регламенту ЕС № 1223/2009, на этикетке должны быть название и адрес ответственного лица, номинальное количество, отметка о сроке годности, особые меры предосторожности, номер партии, назначение продукта и список ингредиентов. В США FDA требует указывать название продукта, количество нетто, наименование и адрес компании и список ингредиентов в порядке убывания содержания. Продукты, которые могут быть опасны при неправильном применении, должны иметь предупреждения и указания по безопасному использованию.",
+    "en": "Under EU Regulation (EC) No 1223/2009, a label must show the name and address of the responsible person, the nominal content, a durability marking, particular precautions, the batch number, the product’s function and the ingredient list. In the US, the FDA requires the product identity, net quantity, the firm’s name and place of business, and ingredients listed in descending order of predominance. Products that may be hazardous when misused must carry warnings and directions for safe use.",
+    "ar": "وفق اللائحة الأوروبية رقم 1223/2009، يجب أن يتضمّن الملصق اسم الشخص المسؤول وعنوانه، والكمية الاسمية، وعلامة الصلاحية، والاحتياطات الخاصة، ورقم التشغيلة، ووظيفة المنتج، وقائمة المكوّنات. وفي الولايات المتحدة تشترط إدارة FDA ذكر اسم المنتج، والكمية الصافية، واسم الشركة ومقرّها، وقائمة المكوّنات بترتيب تنازلي بحسب النسبة. أمّا المنتجات التي قد تشكّل خطرًا عند سوء الاستعمال فيجب أن تحمل تحذيرات وإرشادات للاستعمال الآمن."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Partiya raqami va PAO belgisi",
+    "ru": "Номер партии и символ PAO",
+    "en": "Batch number and the PAO symbol",
+    "ar": "رقم التشغيلة ورمز PAO"
+   },
+   "text": {
+    "uz": "Partiya raqami mahsulotni ishlab chiqarilgan aniq turkumigacha kuzatish imkonini beradi — muammo yuzaga kelsa, aynan shu raqam kerak bo‘ladi. YI qoidasiga ko‘ra, yaroqlilik muddati 30 oy yoki undan kam bo‘lgan mahsulotlarda “... oxirigacha ishlatilgani ma’qul” sanasi yoki qum soati belgisi beriladi. Muddati 30 oydan uzun bo‘lsa, ochiq idish belgisi (PAO) ko‘rsatiladi, masalan “12M” — ochilgandan keyin 12 oy. Tadqiqotchilar iste’molchilar bu belgilarni taniy olishi muhimligini ta’kidlaydi.",
+    "ru": "Номер партии позволяет проследить продукт до конкретной производственной серии — именно он понадобится, если возникнет проблема. По правилам ЕС, для продуктов со сроком годности 30 месяцев и менее указывается дата «использовать до конца…» или символ песочных часов. Если срок больше 30 месяцев, указывается символ открытой баночки (PAO), например «12M» — 12 месяцев после вскрытия. Исследователи подчёркивают, как важно, чтобы потребители умели распознавать эти символы.",
+    "en": "The batch number lets a product be traced back to its specific production lot, and it is exactly what you need if a problem arises. Under EU rules, products with a minimum durability of 30 months or less show a “best used before the end of” date or an hourglass symbol. If durability exceeds 30 months, the open-jar symbol (PAO) is shown, for example “12M”, meaning 12 months after opening. Researchers stress that consumers should be able to recognise these symbols.",
+    "ar": "يتيح رقم التشغيلة تتبّع المنتج حتى دفعة الإنتاج المحدّدة، وهو ما ستحتاجين إليه تحديدًا عند حدوث مشكلة. ووفق القواعد الأوروبية، تحمل المنتجات التي لا تتجاوز صلاحيتها الدنيا 30 شهرًا تاريخ «يُفضَّل استعماله قبل نهاية...» أو رمز الساعة الرملية. وإذا زادت الصلاحية على 30 شهرًا يُذكر رمز العلبة المفتوحة (PAO)، مثل «12M» أي 12 شهرًا بعد الفتح. ويؤكّد الباحثون أهمية أن يتعرّف المستهلكون إلى هذه الرموز."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Allergenlar",
+    "ru": "Аллергены",
+    "en": "Allergens",
+    "ar": "مسبّبات الحساسية"
+   },
+   "text": {
+    "uz": "Kosmetikaga kontakt allergiyasida eng ko‘p uchraydigan sabab — xushbo‘y moddalar; konservantlar (masalan, izotiazolinonlar) va soch bo‘yoqlaridagi PPD ham muhim allergenlardir. Tabiiy ingredientlar, masalan propolis, ham allergen bo‘lishi mumkin — “tabiiy” yozuvi hamma uchun xavfsizlikni bildirmaydi. YIda ayrim xushbo‘y allergenlar ma’lum konsentratsiyadan oshsa, ingredientlar ro‘yxatida alohida nomi bilan ko‘rsatiladi.",
+    "ru": "Самая частая причина контактной аллергии на косметику — отдушки; важными аллергенами также являются консерванты (например, изотиазолиноны) и PPD в красках для волос. Натуральные ингредиенты, например прополис, тоже могут быть аллергенами — надпись «натуральный» не означает безопасность для всех. В ЕС отдельные ароматические аллергены при превышении определённой концентрации указываются в списке ингредиентов под собственным названием.",
+    "en": "Fragrances are the most common cause of contact allergy to cosmetics; preservatives (such as isothiazolinones) and PPD in hair dyes are also important allergens. Natural ingredients, such as propolis, can be allergens too, so a “natural” label does not mean safe for everyone. In the EU, certain fragrance allergens must be named individually in the ingredient list when they exceed a set concentration.",
+    "ar": "تُعدّ العطور السبب الأكثر شيوعًا لحساسية التلامس من مستحضرات التجميل، كما تُعدّ المواد الحافظة (مثل الأيزوثيازولينونات) ومادة PPD في صبغات الشعر من مسبّبات الحساسية المهمّة. وقد تسبّب المكوّنات الطبيعية، كالعكبر، الحساسية أيضًا، فعبارة «طبيعي» لا تعني الأمان للجميع. وفي الاتحاد الأوروبي يجب ذكر بعض مسبّبات الحساسية العطرية بأسمائها في قائمة المكوّنات إذا تجاوزت تركيزًا محدّدًا."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Patch-test g‘oyasi",
+    "ru": "Идея патч-теста",
+    "en": "The idea of patch testing",
+    "ar": "فكرة اختبار الرقعة"
+   },
+   "text": {
+    "uz": "Patch-test — allergiyaga sabab bo‘lgan moddani aniqlash uchun dermatolog qo‘llaydigan diagnostik usul; unda allergenlar terining kichik qismiga belgilangan vaqtga qo‘yiladi. Shifokor ba’zan mahsulotni bir xil joyga takroran surtish sinovidan (ROAT) ham foydalanadi. FDA ma’lumotiga ko‘ra, ko‘mir smolasi asosidagi soch bo‘yoqlari yorlig‘ida patch-test ko‘rsatmasi beriladi — bunday ko‘rsatmaga albatta amal qilinadi. Salonda mahsulotni kichik joyda sinab ko‘rish tashxis emas va reaksiya bo‘lmasligini ta’minlamaydi.",
+    "ru": "Патч-тест — диагностический метод, который применяет дерматолог, чтобы выявить вещество, вызывающее аллергию: аллергены наносят на небольшой участок кожи на определённое время. Врач иногда использует и тест повторного открытого нанесения (ROAT). По данным FDA, на этикетках красок для волос на основе каменноугольной смолы приводится инструкция по патч-тесту — ей обязательно следуют. Проба продукта на небольшом участке в салоне не является диагнозом и не исключает реакцию.",
+    "en": "A patch test is a diagnostic method used by a dermatologist to identify the substance behind an allergy: allergens are applied to a small area of skin for a set time. Doctors sometimes also use a repeated open application test (ROAT). According to the FDA, coal-tar hair dyes carry patch-test instructions on their labels, and these instructions should always be followed. Trying a product on a small area in the salon is not a diagnosis and does not rule out a reaction.",
+    "ar": "اختبار الرقعة طريقة تشخيصية يستخدمها طبيب الجلدية لتحديد المادة المسبّبة للحساسية، إذ توضع مسبّبات الحساسية على مساحة صغيرة من الجلد لمدة محدّدة. وقد يلجأ الطبيب أيضًا إلى اختبار التطبيق المفتوح المتكرّر (ROAT). ووفق إدارة FDA، تحمل ملصقات صبغات الشعر المعتمدة على قطران الفحم تعليمات لاختبار الرقعة، ويجب الالتزام بها دائمًا. أمّا تجربة المنتج على مساحة صغيرة في الصالون فليست تشخيصًا ولا تستبعد حدوث تفاعل."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Nojo‘ya reaksiya haqida xabar berish",
+    "ru": "Как сообщить о нежелательной реакции",
+    "en": "Reporting an adverse reaction",
+    "ar": "الإبلاغ عن تفاعل غير مرغوب فيه"
+   },
+   "text": {
+    "uz": "FDA tavsiyasiga ko‘ra, mahsulotga reaksiya bo‘lsa, birinchi qadam — undan foydalanishni to‘xtatish va shifokorga murojaat qilish; keyin muammo haqida tegishli organga xabar beriladi. YIda mas’ul shaxs va distribyutorlar jiddiy nojo‘ya ta’sirlar haqida vakolatli organga xabar berishi shart. Mahsulot idishi va partiya raqamini saqlab qo‘yish xabarni aniq qiladi. Salonda reaksiya, ishlatilgan mahsulot va partiya raqamini qayd etib borish yaxshi amaliyotdir.",
+    "ru": "По рекомендации FDA, при реакции на продукт первый шаг — прекратить его использование и обратиться к врачу; затем о проблеме сообщают в соответствующий орган. В ЕС ответственное лицо и дистрибьюторы обязаны сообщать компетентному органу о серьёзных нежелательных эффектах. Сохранённая упаковка и номер партии делают сообщение точным. В салоне хорошей практикой является запись реакции, использованного продукта и номера партии.",
+    "en": "According to the FDA, if a reaction to a product occurs, the first step is to stop using it and contact a healthcare provider; the problem is then reported to the relevant authority. In the EU, the responsible person and distributors must notify the competent authority of serious undesirable effects. Keeping the packaging and batch number makes a report precise. In the salon, recording the reaction, the product used and its batch number is good practice.",
+    "ar": "وفق توصيات إدارة FDA، إذا حدث تفاعل مع منتج فالخطوة الأولى هي التوقّف عن استعماله والتواصل مع مقدّم الرعاية الصحية، ثم يُبلَّغ عن المشكلة إلى الجهة المختصّة. وفي الاتحاد الأوروبي يلتزم الشخص المسؤول والموزّعون بإخطار السلطة المختصّة بالآثار غير المرغوب فيها الخطيرة. ويجعل الاحتفاظُ بالعبوة ورقم التشغيلة البلاغَ أكثر دقة. ومن الممارسات الجيدة في الصالون تدوين التفاعل والمنتج المستعمل ورقم تشغيلته."
+   }
+  }
+ ],
+ "key_points": [
+  {
+   "uz": "Yorliqdagi partiya raqami va yaroqlilik belgisi mahsulotni kuzatish va to‘g‘ri muddatda ishlatish uchun kerak.",
+   "ru": "Номер партии и отметка о сроке годности на этикетке нужны для прослеживания продукта и использования в правильный срок.",
+   "en": "The batch number and durability marking let a product be traced and used within the right time.",
+   "ar": "يتيح رقم التشغيلة وعلامة الصلاحية على الملصق تتبّع المنتج واستعماله ضمن المدة الصحيحة."
+  },
+  {
+   "uz": "Xushbo‘y moddalar kosmetik kontakt allergiyasining eng ko‘p uchraydigan sababidir; “tabiiy” yozuvi hamma uchun xavfsizlikni bildirmaydi.",
+   "ru": "Отдушки — самая частая причина контактной аллергии на косметику; надпись «натуральный» не означает безопасность для всех.",
+   "en": "Fragrances are the most common cause of cosmetic contact allergy; “natural” does not mean safe for everyone.",
+   "ar": "العطور هي السبب الأكثر شيوعًا لحساسية التلامس من مستحضرات التجميل، وعبارة «طبيعي» لا تعني الأمان للجميع."
+  },
+  {
+   "uz": "Reaksiya bo‘lsa: mahsulotni to‘xtatish, shifokorga murojaat qilish, idish va partiya raqamini saqlab, xabar berish.",
+   "ru": "При реакции: прекратить использование, обратиться к врачу, сохранить упаковку и номер партии и сообщить о случае.",
+   "en": "If a reaction occurs: stop the product, see a healthcare provider, keep the packaging and batch number, and report it.",
+   "ar": "عند حدوث تفاعل: أوقفي استعمال المنتج، وتواصلي مع مقدّم الرعاية الصحية، واحتفظي بالعبوة ورقم التشغيلة، ثم أبلغي عن الحالة."
+  }
+ ],
+ "quiz": [
+  {
+   "question": {
+    "uz": "Yorliqdagi “12M” ochiq idish belgisi nimani bildiradi?",
+    "ru": "Что означает символ открытой баночки «12M»?",
+    "en": "What does the open-jar symbol “12M” mean?",
+    "ar": "ماذا يعني رمز العلبة المفتوحة «12M»؟"
+   },
+   "options": [
+    {
+     "uz": "Mahsulot 12 mg faol modda saqlaydi",
+     "ru": "Продукт содержит 12 мг активного вещества",
+     "en": "The product contains 12 mg of active ingredient",
+     "ar": "يحتوي المنتج على 12 ملغ من المادة الفعّالة"
+    },
+    {
+     "uz": "Ochilgandan keyin 12 oy ichida ishlatish",
+     "ru": "Использовать в течение 12 месяцев после вскрытия",
+     "en": "Use within 12 months after opening",
+     "ar": "يُستعمل خلال 12 شهرًا بعد الفتح"
+    },
+    {
+     "uz": "12 yoshdan oshganlar uchun",
+     "ru": "Для лиц старше 12 лет",
+     "en": "For people over 12 years old",
+     "ar": "لمن تجاوزوا 12 عامًا"
+    }
+   ],
+   "correct": 1
+  },
+  {
+   "question": {
+    "uz": "Kosmetikaga kontakt allergiyasining eng ko‘p uchraydigan sababi qaysi?",
+    "ru": "Какая самая частая причина контактной аллергии на косметику?",
+    "en": "What is the most common cause of contact allergy to cosmetics?",
+    "ar": "ما السبب الأكثر شيوعًا لحساسية التلامس من مستحضرات التجميل؟"
+   },
+   "options": [
+    {
+     "uz": "Xushbo‘y moddalar",
+     "ru": "Отдушки",
+     "en": "Fragrances",
+     "ar": "العطور"
+    },
+    {
+     "uz": "Suv",
+     "ru": "Вода",
+     "en": "Water",
+     "ar": "الماء"
+    },
+    {
+     "uz": "Idish rangi",
+     "ru": "Цвет упаковки",
+     "en": "Packaging colour",
+     "ar": "لون العبوة"
+    }
+   ],
+   "correct": 0
+  },
+  {
+   "question": {
+    "uz": "Mahsulotga reaksiya bo‘lsa, birinchi qadam qaysi?",
+    "ru": "Каков первый шаг при реакции на продукт?",
+    "en": "What is the first step if a reaction to a product occurs?",
+    "ar": "ما الخطوة الأولى عند حدوث تفاعل مع منتج؟"
+   },
+   "options": [
+    {
+     "uz": "Ko‘proq surtish",
+     "ru": "Нанести ещё больше",
+     "en": "Applying more of it",
+     "ar": "وضع كمية أكبر منه"
+    },
+    {
+     "uz": "Idishni darhol tashlab yuborish",
+     "ru": "Сразу выбросить упаковку",
+     "en": "Throwing the packaging away immediately",
+     "ar": "رمي العبوة فورًا"
+    },
+    {
+     "uz": "Foydalanishni to‘xtatish va shifokorga murojaat qilish",
+     "ru": "Прекратить использование и обратиться к врачу",
+     "en": "Stopping use and contacting a healthcare provider",
+     "ar": "التوقّف عن الاستعمال والتواصل مع مقدّم الرعاية الصحية"
+    }
+   ],
+   "correct": 2
+  }
+ ],
+ "sources": [
+  {
+   "type": "official",
+   "title": "Regulation (EC) No 1223/2009 of the European Parliament and of the Council on cosmetic products",
+   "publisher": "EUR-Lex, Publications Office of the European Union",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj"
+  },
+  {
+   "type": "official",
+   "title": "Summary of Cosmetics Labeling Requirements",
+   "publisher": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/cosmetics/cosmetics-labeling-regulations/summary-cosmetics-labeling-requirements"
+  },
+  {
+   "type": "official",
+   "title": "How to Report a Cosmetic Product Related Complaint",
+   "publisher": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/cosmetics/cosmetics-compliance-enforcement/how-report-cosmetic-related-complaint"
+  },
+  {
+   "type": "pubmed",
+   "pmid": "41134517",
+   "title": "What is New in Contact Allergy To Cosmetics for Physicians, Cosmetologists, and Cosmetic Users?",
+   "year": 2025,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41134517/"
+  },
+  {
+   "type": "pubmed",
+   "pmid": "24267417",
+   "title": "Allergic contact dermatitis to cosmetics.",
+   "year": 2014,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24267417/"
+  }
+ ]
+}

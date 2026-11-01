@@ -73,9 +73,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Column(children: [
                   const SizedBox(height: 4),
                   const SizedBox(height: 18),
-                  Semantics(label: l.appName, child: const SamiyaMark(size: 56)),
-                  const SizedBox(height: 16),
-                  const ExcludeSemantics(child: SamiyaWordmark(scale: 0.7)),
+                  Semantics(label: l.appName, child: const SamiyaMark(size: 96)),
                   const SizedBox(height: 22),
                   Text(l.campaignNoCard.toUpperCase(), textAlign: TextAlign.center, style: t.labelSmall?.copyWith(color: const Color(0xFF8C6A3A), letterSpacing: Localizations.localeOf(context).languageCode == 'ar' ? 0 : 2, fontSize: 11.5)),
                   const SizedBox(height: 14),

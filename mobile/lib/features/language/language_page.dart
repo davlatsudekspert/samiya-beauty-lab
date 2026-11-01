@@ -31,9 +31,7 @@ class LanguagePage extends StatelessWidget {
                 ),
                 child: Column(children: [
                   const SizedBox(height: 12),
-                  Semantics(label: l.appName, child: const SamiyaMark(size: 64)),
-                  const SizedBox(height: 18),
-                  const SamiyaWordmark(scale: 0.72),
+                  Semantics(label: l.appName, child: const SamiyaMark(size: 112)),
                   const SizedBox(height: 24),
                   Text(l.languageTitle,
                       textAlign: TextAlign.center, style: Theme.of(context).textTheme.headlineSmall),

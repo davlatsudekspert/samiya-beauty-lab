@@ -1,0 +1,225 @@
+{
+ "id": "inci",
+ "title": {
+  "uz": "INCI va kosmetik ingredientlar",
+  "ru": "INCI и косметические ингредиенты",
+  "en": "INCI and Cosmetic Ingredients",
+  "ar": "تسمية INCI ومكوّنات مستحضرات التجميل"
+ },
+ "summary": {
+  "uz": "INCI — kosmetik ingredientlarning xalqaro standart nomlari tizimi. Bu darsda ingredientlar ro‘yxati qanday tartibda yozilishini va yorliqni qanday o‘qishni o‘rganasiz.",
+  "ru": "INCI — международная система стандартных названий косметических ингредиентов. В этом уроке вы узнаете, в каком порядке составляется список ингредиентов и как читать этикетку.",
+  "en": "INCI is the international system of standard names for cosmetic ingredients. In this lesson you will learn how an ingredient list is ordered and how to read a label.",
+  "ar": "تسمية INCI هي النظام الدولي للأسماء الموحّدة لمكوّنات مستحضرات التجميل. ستتعلّمين في هذا الدرس كيف تُرتَّب قائمة المكوّنات وكيف تقرئين ملصق المنتج."
+ },
+ "sections": [
+  {
+   "heading": {
+    "uz": "INCI nima?",
+    "ru": "Что такое INCI?",
+    "en": "What is INCI?",
+    "ar": "ما هي تسمية INCI؟"
+   },
+   "text": {
+    "uz": "INCI (International Nomenclature of Cosmetic Ingredients) — kosmetik ingredientlarni bir xil, standart nomlar bilan ko‘rsatish tizimi. Yevropa Ittifoqida yorliqda ingredientlarning umumiy nomlari ishlatiladi; ularning lug‘atini (glossariy) Yevropa Komissiyasi tuzadi va yangilab boradi. Standart nomlar turli mamlakatlardagi mahsulotlarda bir xil ingredientni tanib olishni osonlashtiradi.",
+    "ru": "INCI (International Nomenclature of Cosmetic Ingredients) — система единых стандартных названий косметических ингредиентов. В Европейском союзе на этикетке используются общие названия ингредиентов; их глоссарий составляет и обновляет Европейская комиссия. Стандартные названия помогают узнавать один и тот же ингредиент в продуктах из разных стран.",
+    "en": "INCI (International Nomenclature of Cosmetic Ingredients) is a system of uniform, standard names for cosmetic ingredients. In the European Union, labels use common ingredient names, compiled and updated in a glossary by the European Commission. Standard names make it easier to recognise the same ingredient in products from different countries.",
+    "ar": "تسمية INCI (التسمية الدولية لمكوّنات مستحضرات التجميل) هي نظام لأسماء موحّدة وقياسية لمكوّنات التجميل. وفي الاتحاد الأوروبي تُستخدم على الملصقات الأسماء الشائعة للمكوّنات، وتتولّى المفوضية الأوروبية إعداد مسردها وتحديثه. وتسهّل الأسماء الموحّدة التعرّف على المكوّن نفسه في منتجات من بلدان مختلفة."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Ro‘yxat tartibi: ko‘pdan kamga",
+    "ru": "Порядок списка: от большего к меньшему",
+    "en": "List order: from most to least",
+    "ar": "ترتيب القائمة: من الأكثر إلى الأقل"
+   },
+   "text": {
+    "uz": "Yevropa Ittifoqining 1223/2009-sonli Reglamentiga ko‘ra, ingredientlar mahsulotga qo‘shilgan paytdagi og‘irligi bo‘yicha kamayish tartibida yoziladi. Konsentratsiyasi 1% dan kam ingredientlar 1% dan ko‘p bo‘lganlardan keyin istalgan tartibda berilishi mumkin. AQSH FDA qoidasida ham ingredientlar ustunlik bo‘yicha kamayish tartibida ko‘rsatiladi; 1% yoki undan kam ingredientlar va rang beruvchi qo‘shimchalar bu tartibsiz yozilishi mumkin.",
+    "ru": "Согласно Регламенту ЕС № 1223/2009, ингредиенты перечисляются в порядке убывания их массы на момент добавления в продукт. Ингредиенты с концентрацией менее 1% можно указывать в любом порядке после ингредиентов с концентрацией более 1%. По правилам FDA (США) ингредиенты также указываются в порядке убывания преобладания; ингредиенты в количестве 1% или меньше и красящие добавки можно указывать без соблюдения этого порядка.",
+    "en": "Under EU Regulation (EC) No 1223/2009, ingredients are listed in descending order of weight at the time they are added to the product. Ingredients at concentrations below 1% may be listed in any order after those above 1%. The US FDA likewise requires a descending order of predominance; ingredients at 1% or less and color additives may be listed without regard to that order.",
+    "ar": "وفقًا للائحة الاتحاد الأوروبي رقم 1223/2009، تُدرَج المكوّنات بترتيب تنازلي بحسب وزنها عند إضافتها إلى المنتج. ويجوز إدراج المكوّنات التي يقلّ تركيزها عن 1% بأي ترتيب بعد المكوّنات التي يزيد تركيزها على 1%. كما تشترط إدارة الغذاء والدواء الأمريكية (FDA) الترتيب التنازلي بحسب الغلبة، مع جواز إدراج المكوّنات التي تبلغ 1% أو أقل والمضافات اللونية دون التقيّد بهذا الترتيب."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Bo‘yovchilar, nano va parfyum",
+    "ru": "Красители, нано и парфюм",
+    "en": "Colorants, nano and fragrance",
+    "ar": "الملوّنات والمواد النانوية والعطور"
+   },
+   "text": {
+    "uz": "Yevropa Ittifoqida bo‘yovchi moddalar boshqa ingredientlardan keyin istalgan tartibda, Colour Index (CI) raqami yoki belgilangan nomi bilan ko‘rsatiladi. Nanomaterial ko‘rinishidagi ingredient nomidan keyin qavs ichida «nano» so‘zi yoziladi. Xushbo‘ylantiruvchi kompozitsiyalar «parfum» yoki «aroma» deb belgilanadi, ammo ayrim allergen xushbo‘y moddalar belgilangan chegaradan oshganda alohida nomi bilan ko‘rsatilishi kerak.",
+    "ru": "В ЕС красители указываются после остальных ингредиентов в любом порядке — по номеру Colour Index (CI) или установленному наименованию. После названия ингредиента в форме наноматериала в скобках пишется слово «nano». Ароматические композиции обозначаются как «parfum» или «aroma», однако некоторые аллергенные душистые вещества при превышении установленного порога должны указываться отдельно под своим названием.",
+    "en": "In the EU, colorants are listed after the other ingredients in any order, using their Colour Index (CI) number or the denomination set out in the Regulation. An ingredient present as a nanomaterial is followed by the word “nano” in brackets. Fragrance compositions are labelled as “parfum” or “aroma”, but certain fragrance allergens must be named individually when they exceed set thresholds.",
+    "ar": "في الاتحاد الأوروبي تُدرَج الملوّنات بعد بقية المكوّنات بأي ترتيب، باستخدام رقم دليل الألوان (CI) أو التسمية المعتمدة في اللائحة. ويُكتب بعد اسم المكوّن الموجود في صورة مادة نانوية كلمة «nano» بين قوسين. ويُشار إلى التركيبات العطرية بكلمة «parfum» أو «aroma»، غير أن بعض المواد العطرية المسبّبة للحساسية يجب ذكرها باسمها منفردةً إذا تجاوزت الحدود المقرّرة."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Yorliqni qanday o‘qish kerak",
+    "ru": "Как читать этикетку",
+    "en": "How to read a label",
+    "ar": "كيف تقرئين الملصق"
+   },
+   "text": {
+    "uz": "Ro‘yxat boshidagi ingredientlar mahsulotda eng ko‘p miqdorda bo‘lganlardir. Biroq ro‘yxatdagi o‘rin aniq foizni ko‘rsatmaydi, 1% dan kam ingredientlar orasidagi tartib esa ixtiyoriy bo‘lishi mumkin. AQShda ham kosmetik, ham dori hisoblangan mahsulotlarda (masalan, quyosh kuyishidan himoya qiluvchi vositalarda) avval faol ingredientlar — «active ingredient(s)» alohida ko‘rsatiladi.",
+    "ru": "Ингредиенты в начале списка содержатся в продукте в наибольшем количестве. Однако место в списке не указывает точный процент, а порядок среди ингредиентов менее 1% может быть произвольным. В США у продуктов, которые одновременно являются косметикой и лекарством (например, средств для защиты от солнечных ожогов), сначала отдельно указываются действующие вещества — «active ingredient(s)».",
+    "en": "The ingredients at the top of the list are those present in the largest amounts. Position in the list does not reveal an exact percentage, however, and the order among ingredients below 1% may be arbitrary. In the US, products that are both cosmetics and drugs (for example, products intended to protect against sunburn) must first list their “active ingredient(s)” separately.",
+    "ar": "المكوّنات في أعلى القائمة هي الموجودة في المنتج بأكبر كمية. لكن موقع المكوّن في القائمة لا يكشف نسبته المئوية الدقيقة، وقد يكون الترتيب بين المكوّنات التي تقلّ عن 1% اختياريًا. وفي الولايات المتحدة، يجب أن تُدرج المنتجات التي تُعدّ تجميلية ودوائية في آنٍ واحد (مثل منتجات الوقاية من حروق الشمس) «المكوّنات الفعّالة» أولًا وبشكل منفصل."
+   }
+  },
+  {
+   "heading": {
+    "uz": "Ro‘yxat nimani aytmaydi",
+    "ru": "Чего не скажет список",
+    "en": "What the list does not tell you",
+    "ar": "ما لا تخبركِ به القائمة"
+   },
+   "text": {
+    "uz": "Ingredientlar ro‘yxati tarkibni ko‘rsatadi, lekin tayyor mahsulotning xavfsizligini yoki samaradorligini o‘z-o‘zidan isbotlamaydi. Yevropa Komissiyasining CosIng bazasi ma’lumot beruvchi manba bo‘lib, huquqiy kuchga ega emas: unda INCI nomi borligi ingredient kosmetikada ishlatishga ruxsat etilganini anglatmaydi. Ingredientlarning ishlatilish shartlarini 1223/2009-sonli Reglament va uning ilovalari belgilaydi, har bir ingredientning ishlatilishi esa mahsulotning xavfsizlik bahosi bilan asoslanishi kerak.",
+    "ru": "Список ингредиентов показывает состав, но сам по себе не доказывает безопасность или эффективность готового продукта. База данных CosIng Европейской комиссии носит информационный характер и не имеет юридической силы: наличие в ней названия INCI не означает, что ингредиент разрешён к применению в косметике. Условия применения ингредиентов устанавливают Регламент № 1223/2009 и его приложения, а использование каждого ингредиента должно подкрепляться оценкой безопасности продукта.",
+    "en": "An ingredient list shows composition, but it does not in itself prove that the finished product is safe or effective. The European Commission’s CosIng database is for information only and has no legal value: an INCI name appearing there does not mean the ingredient is approved for use in cosmetics. The conditions of use are set by Regulation (EC) No 1223/2009 and its Annexes, and the use of any ingredient must be supported by a safety assessment of the product.",
+    "ar": "تُظهر قائمة المكوّنات تركيبة المنتج، لكنها لا تُثبت بحدّ ذاتها سلامة المنتج النهائي أو فعاليته. وقاعدة بيانات CosIng التابعة للمفوضية الأوروبية ذات طابع إعلامي وليست لها قيمة قانونية، فوجود اسم INCI فيها لا يعني أن المكوّن مُجاز للاستخدام في مستحضرات التجميل. وتحدّد اللائحة رقم 1223/2009 وملاحقها شروط استخدام المكوّنات، ويجب أن يستند استخدام أي مكوّن إلى تقييم سلامة المنتج."
+   }
+  }
+ ],
+ "key_points": [
+  {
+   "uz": "INCI — ingredientlarning standart nomlari; Yevropa Ittifoqida yorliq uchun umumiy nomlar lug‘ati amal qiladi.",
+   "ru": "INCI — стандартные названия ингредиентов; в ЕС для этикеток действует глоссарий общих названий.",
+   "en": "INCI provides standard ingredient names; in the EU, labels follow a glossary of common ingredient names.",
+   "ar": "تسمية INCI توفّر أسماء موحّدة للمكوّنات، وفي الاتحاد الأوروبي تعتمد الملصقات على مسرد للأسماء الشائعة."
+  },
+  {
+   "uz": "Ingredientlar ko‘pdan kamga tartiblanadi; 1% dan kam ingredientlar va bo‘yovchilar uchun istisnolar bor.",
+   "ru": "Ингредиенты перечисляются от большего к меньшему; для ингредиентов менее 1% и красителей есть исключения.",
+   "en": "Ingredients are listed from most to least, with exceptions for those below 1% and for colorants.",
+   "ar": "تُرتَّب المكوّنات من الأكثر إلى الأقل، مع استثناءات للمكوّنات التي تقلّ عن 1% وللملوّنات."
+  },
+  {
+   "uz": "Ro‘yxat tarkibni ko‘rsatadi, ammo aniq foizni ham, mahsulot xavfsizligini ham bildirmaydi.",
+   "ru": "Список показывает состав, но не раскрывает ни точных процентов, ни безопасности продукта.",
+   "en": "The list shows composition, but reveals neither exact percentages nor product safety.",
+   "ar": "تُظهر القائمة التركيبة، لكنها لا تكشف النسب الدقيقة ولا سلامة المنتج."
+  }
+ ],
+ "quiz": [
+  {
+   "question": {
+    "uz": "Yevropa Ittifoqida ingredientlar ro‘yxati asosan qanday tartibda yoziladi?",
+    "ru": "В каком порядке в основном составляется список ингредиентов в ЕС?",
+    "en": "In what order is an ingredient list mainly written in the EU?",
+    "ar": "بأي ترتيب تُكتب قائمة المكوّنات أساسًا في الاتحاد الأوروبي؟"
+   },
+   "options": [
+    {
+     "uz": "Alifbo tartibida",
+     "ru": "В алфавитном порядке",
+     "en": "In alphabetical order",
+     "ar": "بالترتيب الأبجدي"
+    },
+    {
+     "uz": "Qo‘shilgan paytdagi og‘irligi bo‘yicha kamayish tartibida",
+     "ru": "В порядке убывания массы на момент добавления",
+     "en": "In descending order of weight at the time of addition",
+     "ar": "بترتيب تنازلي بحسب الوزن عند الإضافة"
+    },
+    {
+     "uz": "Ingredient narxi bo‘yicha",
+     "ru": "По стоимости ингредиента",
+     "en": "By ingredient cost",
+     "ar": "بحسب سعر المكوّن"
+    }
+   ],
+   "correct": 1
+  },
+  {
+   "question": {
+    "uz": "Konsentratsiyasi 1% dan kam ingredientlar qanday yozilishi mumkin?",
+    "ru": "Как можно указывать ингредиенты с концентрацией менее 1%?",
+    "en": "How may ingredients below 1% concentration be listed?",
+    "ar": "كيف يجوز إدراج المكوّنات التي يقلّ تركيزها عن 1%؟"
+   },
+   "options": [
+    {
+     "uz": "Doim ro‘yxat boshida",
+     "ru": "Всегда в начале списка",
+     "en": "Always at the top of the list",
+     "ar": "دائمًا في أعلى القائمة"
+    },
+    {
+     "uz": "1% dan ko‘p ingredientlardan keyin istalgan tartibda",
+     "ru": "В любом порядке после ингредиентов более 1%",
+     "en": "In any order after those above 1%",
+     "ar": "بأي ترتيب بعد المكوّنات التي تزيد على 1%"
+    },
+    {
+     "uz": "Ular yorliqda ko‘rsatilmaydi",
+     "ru": "Они не указываются на этикетке",
+     "en": "They are not shown on the label",
+     "ar": "لا تُذكر على الملصق"
+    }
+   ],
+   "correct": 1
+  },
+  {
+   "question": {
+    "uz": "CosIng bazasida ingredientning INCI nomi borligi nimani anglatadi?",
+    "ru": "Что означает наличие названия INCI ингредиента в базе CosIng?",
+    "en": "What does an ingredient’s INCI name appearing in CosIng mean?",
+    "ar": "ماذا يعني وجود اسم INCI لمكوّنٍ ما في قاعدة بيانات CosIng؟"
+   },
+   "options": [
+    {
+     "uz": "Ingredient haqida ma’lumot mavjudligini",
+     "ru": "Что об ингредиенте есть информация",
+     "en": "That information about the ingredient is available",
+     "ar": "أن هناك معلومات متاحة عن المكوّن"
+    },
+    {
+     "uz": "Ingredient har qanday mahsulotda ishlatishga ruxsat etilganini",
+     "ru": "Что ингредиент разрешён в любом продукте",
+     "en": "That the ingredient is approved for any product",
+     "ar": "أن المكوّن مُجاز في أي منتج"
+    },
+    {
+     "uz": "Tayyor mahsulot xavfsiz ekanini",
+     "ru": "Что готовый продукт безопасен",
+     "en": "That the finished product is safe",
+     "ar": "أن المنتج النهائي آمن"
+    }
+   ],
+   "correct": 0
+  }
+ ],
+ "sources": [
+  {
+   "type": "official",
+   "title": "Regulation (EC) No 1223/2009 of the European Parliament and of the Council of 30 November 2009 on cosmetic products",
+   "publisher": "EUR-Lex, Publications Office of the European Union",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj"
+  },
+  {
+   "type": "official",
+   "title": "Summary of Cosmetics Labeling Requirements",
+   "publisher": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/cosmetics/cosmetics-labeling-regulations/summary-cosmetics-labeling-requirements"
+  },
+  {
+   "type": "official",
+   "title": "Cosmetic ingredient database (CosIng)",
+   "publisher": "European Commission",
+   "url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en"
+  },
+  {
+   "type": "pubmed",
+   "pmid": "28796916",
+   "title": "Fragrance contact allergens in 5588 cosmetic products identified through a novel smartphone application.",
+   "year": 2018,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28796916/"
+  }
+ ],
+ "status": "draft",
+ "reviewed": false
+}

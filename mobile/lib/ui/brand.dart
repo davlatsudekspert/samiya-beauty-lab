@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../app/theme.dart';
 
-/// SAMIYA monogrammasi: ingichka oltin ravoq (arka) ichida tik serif "S".
+/// SAMIYA belgisi: egasining asl logotipi, oltin hoshiya bilan.
 class SamiyaMark extends StatelessWidget {
   const SamiyaMark({super.key, this.size = 96, this.color = SamiyaColors.gold, this.letterColor});
   final double size;
@@ -11,54 +11,23 @@ class SamiyaMark extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    // Egasining asl logotipi (hijobli ayol profili), oltin hoshiyali ilova belgisi bilan bir xil.
+    final r = size * 0.23;
+    return Container(
       width: size,
-      height: size * 1.25,
-      child: CustomPaint(
-        painter: _ArchPainter(color),
-        child: Align(
-          alignment: const Alignment(0, 0.18),
-          child: Text('S',
-              style: TextStyle(
-                fontFamily: 'CormorantGaramond',
-                fontWeight: FontWeight.w600,
-                fontSize: size * 0.72,
-                height: 1,
-                color: letterColor ?? color,
-              )),
-        ),
+      height: size,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(r),
+        boxShadow: [
+          BoxShadow(color: const Color(0x408E4A5E), blurRadius: size * 0.32, spreadRadius: -size * 0.08, offset: Offset(0, size * 0.12)),
+        ],
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(r),
+        child: Image.asset('assets/images/logo_square.jpg', fit: BoxFit.cover, filterQuality: FilterQuality.high),
       ),
     );
   }
-}
-
-class _ArchPainter extends CustomPainter {
-  _ArchPainter(this.color);
-  final Color color;
-
-  @override
-  void paint(Canvas canvas, Size s) {
-    final p = Paint()
-      ..color = color
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = s.width * 0.018
-      ..isAntiAlias = true;
-    Path arch(double inset) {
-      final w = s.width - inset * 2, r = w / 2;
-      return Path()
-        ..moveTo(inset, s.height - inset)
-        ..lineTo(inset, r + inset)
-        ..arcToPoint(Offset(s.width - inset, r + inset), radius: Radius.circular(r))
-        ..lineTo(s.width - inset, s.height - inset);
-    }
-    canvas.drawPath(arch(s.width * 0.02), p);
-    canvas.drawPath(arch(s.width * 0.085), p..strokeWidth = s.width * 0.008);
-    // pastki chiziq (poydevor)
-    canvas.drawLine(Offset(-s.width * 0.06, s.height - s.width * 0.02), Offset(s.width * 1.06, s.height - s.width * 0.02), p..strokeWidth = s.width * 0.012);
-  }
-
-  @override
-  bool shouldRepaint(_ArchPainter old) => old.color != color;
 }
 
 /// SAMIYA yozuvi (keng harf oralig'i) va BEAUTY LAB.
@@ -69,14 +38,34 @@ class SamiyaWordmark extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(mainAxisSize: MainAxisSize.min, children: [
-      Text('SAMIYA',
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Text(
+          'SAMIYA',
           textDirection: TextDirection.ltr,
-          style: TextStyle(fontFamily: 'CormorantGaramond', fontWeight: FontWeight.w500, fontSize: 44 * scale, letterSpacing: 14 * scale, height: 1, color: color)),
-      SizedBox(height: 10 * scale),
-      Text('BEAUTY  LAB',
+          style: TextStyle(
+            fontFamily: 'CormorantGaramond',
+            fontWeight: FontWeight.w500,
+            fontSize: 44 * scale,
+            letterSpacing: 14 * scale,
+            height: 1,
+            color: color,
+          ),
+        ),
+        SizedBox(height: 10 * scale),
+        Text(
+          'BEAUTY  LAB',
           textDirection: TextDirection.ltr,
-          style: TextStyle(fontFamily: 'Jost', fontWeight: FontWeight.w400, fontSize: 11.5 * scale, letterSpacing: 7 * scale, color: color.withValues(alpha: 0.8))),
-    ]);
+          style: TextStyle(
+            fontFamily: 'Jost',
+            fontWeight: FontWeight.w400,
+            fontSize: 11.5 * scale,
+            letterSpacing: 7 * scale,
+            color: color.withValues(alpha: 0.8),
+          ),
+        ),
+      ],
+    );
   }
 }

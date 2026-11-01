@@ -623,8 +623,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get honestLead => 'بصراحة:';
 
   @override
-  String get academySubtitle =>
-      'أساسيات التجميل: دروس قصيرة مبنية على الأدلة. قريبًا.';
+  String get academySubtitle => 'أساسيات التجميل: دروس قصيرة مبنية على الأدلة.';
 
   @override
   String get academyT1 => 'تشريح البشرة ووظائفها';
@@ -658,4 +657,44 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get routineSuggestSun => 'الحماية من الشمس';
+
+  @override
+  String get lessonKeyPoints => 'أهم النقاط';
+
+  @override
+  String get lessonQuiz => 'اختبري نفسك';
+
+  @override
+  String get lessonSources => 'المصادر';
+
+  @override
+  String get lessonDraftNote =>
+      'هذا الدرس مسودة مبنية على الأدلة بانتظار مراجعة خبيرة تجميل. وهو ليس استشارة طبية.';
+
+  @override
+  String lessonMinutes(int n) {
+    return '$n دقيقة';
+  }
+
+  @override
+  String get quizRight => 'صحيح!';
+
+  @override
+  String get quizWrong => 'ليس تمامًا — تم تمييز الإجابة الصحيحة.';
+
+  @override
+  String quizScore(int score, int total) {
+    return 'النتيجة: $score / $total';
+  }
+
+  @override
+  String get quizRetry => 'حاولي مجددًا';
+
+  @override
+  String lessonCount(int n) {
+    return '$n دروس · مع اختبارات';
+  }
+
+  @override
+  String get lessonDone => 'تمت القراءة';
 }

@@ -1,0 +1,124 @@
+{
+ "inci": "Bakuchiol",
+ "slug": "bakuchiol",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Bakuchiol is a plant-derived compound from Psoralea corylifolia that is marketed as an alternative to retinol for signs of skin ageing. Human evidence comes mainly from small trials, many of them open-label and testing combination products, so the effect of bakuchiol alone remains uncertain. Allergic contact dermatitis has been reported. Data on use during pregnancy were not found in the studies summarised here. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "bakuchiol-1",
+   "text_en": "In a 12-week randomised double-blind study of 44 patients, bakuchiol 0.5% cream applied twice daily and retinol 0.5% cream applied once daily both reduced wrinkle surface area and hyperpigmentation, with no statistically significant difference between them; retinol users reported more facial scaling and stinging. The study was small and short.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "29947134",
+     "doi": "10.1111/bjd.16918",
+     "title": "Prospective, randomized, double-blind assessment of topical bakuchiol and retinol for facial photoageing.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29947134/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "bakuchiol-2",
+   "text_en": "A systematic review of 15 human trials of topical bakuchiol found that 12 were unblinded open-label trials without a control group, 10 used combination products and 4 did not state the bakuchiol concentration; the authors judged the risk of bias to be high and comparison with retinoids to be limited.",
+   "evidence_level": "B",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38564402",
+     "doi": "10.36849/JDD.7763",
+     "title": "Human Clinical Trials Using Topical Bakuchiol Formulations for the Treatment of Skin Disorders: A Systematic Review.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38564402/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "bakuchiol-3",
+   "text_en": "A systematic review of cosmeceuticals for skin ageing (32 studies, 1,236 participants) gave bakuchiol a grade C recommendation, compared with grade A for retinol and vitamin C, and noted the limited number of randomised trials and the lack of long-term data.",
+   "evidence_level": "C",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38758222",
+     "doi": "10.1007/s00403-024-02908-2",
+     "title": "Cosmeceuticals for antiaging: a systematic review of safety and efficacy.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38758222/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "bakuchiol-4",
+   "text_en": "Allergic contact dermatitis to bakuchiol has been described in case reports, including a 2026 report in a person using it to prevent photodamage; a 2022 systematic review found one such adverse-event report in the literature at that time.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "42014129",
+     "doi": "10.1111/cod.70169",
+     "title": "Allergic Contact Dermatitis to Bakuchiol Used for Photodamage Prevention: A Case Report.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42014129/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "36176207",
+     "doi": "10.1111/jocd.15420",
+     "title": "Applications of bakuchiol in dermatology: Systematic review of the literature.",
+     "year": 2022,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36176207/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Bakuchiol (bakuchiol) Psoralea corylifolia o'simligidan olinadigan birikma bo'lib, terining qarish belgilari uchun retinolga muqobil sifatida sotiladi. Odamlardagi dalillar asosan kichik tadqiqotlardan olingan, ularning ko'pchiligi ochiq (ko'r bo'lmagan) va kombinatsiyalangan mahsulotlarni sinagan, shu sababli bakuchiolning o'zining ta'siri noaniqligicha qolmoqda. Allergik kontakt dermatit holatlari qayd etilgan. Bu yerda umumlashtirilgan tadqiqotlarda homiladorlik davrida qo'llash bo'yicha ma'lumot topilmadi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "bakuchiol-1": "44 bemor ishtirok etgan 12 haftalik randomizatsiyalangan ikki tomonlama ko'r tadqiqotda kuniga ikki marta surtilgan 0,5% li bakuchiol kremi ham, kuniga bir marta surtilgan 0,5% li retinol kremi ham ajinlar yuzasini va giperpigmentatsiyani kamaytirgan, ular o'rtasida statistik ahamiyatli farq bo'lmagan; retinol qo'llaganlar yuz terisining ko'proq po'st tashlashi va achishishini qayd etgan. Tadqiqot kichik va qisqa muddatli bo'lgan.",
+    "bakuchiol-2": "Surtiladigan bakuchiol bo'yicha 15 ta klinik tadqiqotni ko'rib chiqqan tizimli sharhda ulardan 12 tasi nazorat guruhisiz ochiq tadqiqot bo'lgani, 10 tasida kombinatsiyalangan mahsulot ishlatilgani va 4 tasida bakuchiol konsentratsiyasi ko'rsatilmagani aniqlangan; mualliflar xatolik xavfini yuqori, retinoidlar bilan taqqoslash imkonini esa cheklangan deb baholagan.",
+    "bakuchiol-3": "Terining qarishiga qarshi kosmetsevtiklar bo'yicha tizimli sharhda (32 tadqiqot, 1236 ishtirokchi) bakuchiolga C darajali tavsiya berilgan, retinol va C vitamini esa A darajani olgan; randomizatsiyalangan tadqiqotlar soni kamligi va uzoq muddatli ma'lumotlar yo'qligi qayd etilgan.",
+    "bakuchiol-4": "Bakuchiolga allergik kontakt dermatit klinik holat tavsiflarida qayd etilgan, jumladan 2026 yilda uni quyoshdan zararlanishning oldini olish uchun ishlatgan odamdagi holat; 2022 yilgi tizimli sharh o'sha paytdagi adabiyotda shunday nojo'ya ta'sir haqida bitta xabar topgan."
+   }
+  },
+  "ru": {
+   "summary": "Бакучиол (bakuchiol) — соединение растительного происхождения из Psoralea corylifolia, которое продвигается как альтернатива ретинолу при признаках старения кожи. Данные у людей получены в основном в небольших исследованиях, многие из которых были открытыми и проверяли комбинированные продукты, поэтому эффект самого бакучиола остаётся неопределённым. Описаны случаи аллергического контактного дерматита. Данных о применении во время беременности в обобщённых здесь исследованиях не найдено. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "bakuchiol-1": "В 12-недельном рандомизированном двойном слепом исследовании с участием 44 пациентов и крем с 0,5% бакучиола дважды в день, и крем с 0,5% ретинола один раз в день уменьшали площадь морщин и гиперпигментацию без статистически значимой разницы между ними; применявшие ретинол чаще сообщали о шелушении и пощипывании кожи лица. Исследование было небольшим и коротким.",
+    "bakuchiol-2": "В систематическом обзоре 15 клинических исследований местного бакучиола выяснилось, что 12 из них были открытыми без контрольной группы, в 10 использовались комбинированные продукты, а в 4 не указана концентрация бакучиола; авторы оценили риск систематической ошибки как высокий, а возможность сравнения с ретиноидами — как ограниченную.",
+    "bakuchiol-3": "В систематическом обзоре космецевтиков против старения кожи (32 исследования, 1236 участников) бакучиол получил рекомендацию уровня C, тогда как ретинол и витамин C — уровня A; отмечены малое число рандомизированных исследований и отсутствие долгосрочных данных.",
+    "bakuchiol-4": "Аллергический контактный дерматит на бакучиол описан в клинических случаях, в том числе в сообщении 2026 года о человеке, применявшем его для профилактики фотоповреждения; систематический обзор 2022 года нашёл в литературе того времени одно такое сообщение о нежелательной реакции."
+   }
+  },
+  "ar": {
+   "summary": "الباكوتشيول (bakuchiol) مركّب نباتي المصدر يُستخلص من نبات Psoralea corylifolia، ويُسوَّق بديلًا للريتينول لعلامات شيخوخة الجلد. تأتي الأدلة البشرية أساسًا من تجارب صغيرة، كثير منها مفتوح التسمية واختبر منتجات مركّبة، لذا يبقى تأثير الباكوتشيول وحده غير مؤكد. وقد أُبلغ عن حالات التهاب جلد تماسي تحسّسي. ولم يُعثر في الدراسات الملخّصة هنا على بيانات عن الاستخدام أثناء الحمل. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "bakuchiol-1": "في دراسة عشوائية مزدوجة التعمية استمرت 12 أسبوعًا وشملت 44 مريضًا، قلّل كلٌّ من كريم الباكوتشيول 0.5% مرتين يوميًا وكريم الريتينول 0.5% مرة يوميًا مساحة سطح التجاعيد وفرط التصبّغ، دون فرق ذي دلالة إحصائية بينهما؛ وأفاد مستخدمو الريتينول بتقشّر ووخز أكثر في جلد الوجه. وكانت الدراسة صغيرة وقصيرة.",
+    "bakuchiol-2": "وجدت مراجعة منهجية لـ15 تجربة بشرية على الباكوتشيول الموضعي أن 12 منها كانت تجارب مفتوحة دون مجموعة ضابطة، واستخدمت 10 منها منتجات مركّبة، ولم تذكر 4 منها تركيز الباكوتشيول؛ وقدّر المؤلفون خطر التحيّز بأنه مرتفع وأن المقارنة مع الرتينويدات محدودة.",
+    "bakuchiol-3": "منحت مراجعة منهجية لمستحضرات التجميل العلاجية المضادة للشيخوخة (32 دراسة، 1236 مشاركًا) الباكوتشيول توصية من الدرجة C، مقابل الدرجة A للريتينول وفيتامين C، وأشارت إلى قلّة التجارب العشوائية وغياب البيانات طويلة الأمد.",
+    "bakuchiol-4": "وُصف التهاب الجلد التماسي التحسّسي تجاه الباكوتشيول في تقارير حالات، منها تقرير عام 2026 عن شخص استخدمه للوقاية من ضرر الشمس؛ ووجدت مراجعة منهجية عام 2022 تقريرًا واحدًا عن مثل هذا الأثر الضار في الأدبيات حتى ذلك الحين."
+   }
+  }
+ }
+}

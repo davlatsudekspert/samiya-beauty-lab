@@ -228,7 +228,7 @@
   "botanicalCredit": "Botanical plate: F. E. Köhler, “Köhler's Medizinal-Pflanzen”, 1887 (public domain)",
   "photoCredit": "Photo: iNaturalist community, CC0 (no rights reserved)",
   "honestLead": "In all honesty:",
-  "academySubtitle": "Cosmetology essentials: short, evidence-based lessons. Coming soon.",
+  "academySubtitle": "Cosmetology essentials: short, evidence-based lessons.",
   "academyT1": "Skin anatomy and physiology",
   "academyT2": "INCI and cosmetic ingredients",
   "academyT3": "Sun protection",
@@ -239,5 +239,40 @@
   "journalEmptyTitle": "Your skin journal",
   "routineSuggestCleanse": "Cleanse",
   "routineSuggestMoisturise": "Moisturise",
-  "routineSuggestSun": "Sun protection"
+  "routineSuggestSun": "Sun protection",
+  "lessonKeyPoints": "Key points",
+  "lessonQuiz": "Test yourself",
+  "lessonSources": "Sources",
+  "lessonDraftNote": "this lesson is an evidence-based draft awaiting review by an expert cosmetologist. It is not medical advice.",
+  "lessonMinutes": "{n} min",
+  "@lessonMinutes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "quizRight": "Correct!",
+  "quizWrong": "Not quite — the right answer is marked.",
+  "quizScore": "Score: {score} / {total}",
+  "@quizScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "quizRetry": "Try again",
+  "lessonCount": "{n} lessons · with quizzes",
+  "@lessonCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonDone": "Read"
 }

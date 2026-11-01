@@ -190,7 +190,7 @@
   "botanicalCredit": "Botanik rasm: F. E. Köhler, “Köhler's Medizinal-Pflanzen”, 1887 (jamoat mulki)",
   "photoCredit": "Foto: iNaturalist hamjamiyati, CC0 (huquqlar saqlanmagan)",
   "honestLead": "Ochiq aytamiz:",
-  "academySubtitle": "Kosmetologiya asoslari: dalillarga asoslangan qisqa darslar. Tez orada.",
+  "academySubtitle": "Kosmetologiya asoslari: dalillarga asoslangan qisqa darslar.",
   "academyT1": "Teri anatomiyasi va fiziologiyasi",
   "academyT2": "INCI va kosmetik ingredientlar",
   "academyT3": "Quyoshdan himoyalanish",
@@ -201,5 +201,16 @@
   "journalEmptyTitle": "Teringiz kundaligi",
   "routineSuggestCleanse": "Tozalash",
   "routineSuggestMoisturise": "Namlantirish",
-  "routineSuggestSun": "Quyoshdan himoya"
+  "routineSuggestSun": "Quyoshdan himoya",
+  "lessonKeyPoints": "Asosiy fikrlar",
+  "lessonQuiz": "O‘zingizni sinang",
+  "lessonSources": "Manbalar",
+  "lessonDraftNote": "bu dars dalillarga asoslangan qoralama; kosmetolog-ekspert tekshiruvi kutilmoqda. Tibbiy maslahat emas.",
+  "lessonMinutes": "{n} daqiqa",
+  "quizRight": "To‘g‘ri!",
+  "quizWrong": "Unchalik emas — to‘g‘ri javob belgilandi.",
+  "quizScore": "Natija: {score} / {total}",
+  "quizRetry": "Qayta urinish",
+  "lessonCount": "{n} ta dars · test bilan",
+  "lessonDone": "O‘qildi"
 }

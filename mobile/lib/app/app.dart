@@ -19,6 +19,7 @@ import '../features/scanner/manual_input_page.dart';
 import '../features/scanner/result_page.dart';
 import '../features/scanner/scanner_page.dart';
 import '../features/shell/app_shell.dart';
+import '../features/academy/lesson_page.dart';
 import '../features/tabs/academy_page.dart';
 import '../features/splash/splash_page.dart';
 import '../features/welcome/welcome_page.dart';
@@ -32,7 +33,7 @@ class SamiyaApp extends StatefulWidget {
     super.key,
     required this.state,
     this.initialLocation = '/splash',
-    this.splashDuration = const Duration(milliseconds: 1800),
+    this.splashDuration = const Duration(milliseconds: 1900),
   });
 
   final AppState state;
@@ -63,7 +64,9 @@ class _SamiyaAppState extends State<SamiyaApp> {
             ]),
           ]),
           StatefulShellBranch(routes: [
-            GoRoute(path: '/academy', builder: (_, _) => const AcademyPage()),
+            GoRoute(path: '/academy', builder: (_, _) => const AcademyPage(), routes: [
+        GoRoute(path: 'lesson/:id', builder: (_, st) => LessonPage(id: st.pathParameters['id']!)),
+      ]),
           ]),
           StatefulShellBranch(routes: [
             GoRoute(

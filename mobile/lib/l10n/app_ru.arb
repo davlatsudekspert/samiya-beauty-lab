@@ -190,7 +190,7 @@
   "botanicalCredit": "Ботаническая иллюстрация: Ф. Э. Кёлер, «Köhler's Medizinal-Pflanzen», 1887 (общественное достояние)",
   "photoCredit": "Фото: сообщество iNaturalist, CC0 (без сохранения прав)",
   "honestLead": "Скажем честно:",
-  "academySubtitle": "Основы косметологии: короткие уроки на основе доказательств. Скоро.",
+  "academySubtitle": "Основы косметологии: короткие уроки на основе доказательств.",
   "academyT1": "Анатомия и физиология кожи",
   "academyT2": "INCI и косметические ингредиенты",
   "academyT3": "Защита от солнца",
@@ -201,5 +201,16 @@
   "journalEmptyTitle": "Дневник вашей кожи",
   "routineSuggestCleanse": "Очищение",
   "routineSuggestMoisturise": "Увлажнение",
-  "routineSuggestSun": "Защита от солнца"
+  "routineSuggestSun": "Защита от солнца",
+  "lessonKeyPoints": "Главное",
+  "lessonQuiz": "Проверьте себя",
+  "lessonSources": "Источники",
+  "lessonDraftNote": "это черновик урока на основе доказательных источников; ожидает проверки экспертом-косметологом. Не является медицинской консультацией.",
+  "lessonMinutes": "{n} мин",
+  "quizRight": "Верно!",
+  "quizWrong": "Не совсем — правильный ответ отмечен.",
+  "quizScore": "Результат: {score} / {total}",
+  "quizRetry": "Ещё раз",
+  "lessonCount": "{n} уроков · с тестом",
+  "lessonDone": "Пройдено"
 }

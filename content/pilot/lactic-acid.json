@@ -1,0 +1,114 @@
+{
+ "inci": "Lactic Acid",
+ "slug": "lactic-acid",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Lactic acid is an alpha-hydroxy acid (AHA) used in topical products for dry, rough skin and for photodamaged skin; in some products it appears as its salt, ammonium lactate. The clinical studies available are mostly small and older, and several compare lactic acid formulations with each other rather than with an inactive cream. Lactic acid can cause stinging, and it is used in research as a deliberate stinging trigger to identify sensitive skin. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "lactic-acid-1",
+   "text_en": "In a 22-week double-blind, vehicle-controlled randomised trial in 74 women aged 40 to 70 with photodamaged facial skin, 71% of those using an 8% L-lactic acid cream on the face improved by at least one grade in overall photodamage severity, compared with 40% using the vehicle cream; the authors described the benefit as modest, and one participant withdrew because of skin irritation.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "8651713",
+     "title": "Topical 8% glycolic acid and 8% L-lactic acid creams for the treatment of photodamaged skin. A double-blind vehicle-controlled clinical trial.",
+     "year": 1996,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8651713/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "lactic-acid-2",
+   "text_en": "In a double-blind randomised trial in mild-to-moderate foot xerosis, both a 10% lactic acid lotion and a 12% ammonium lactate lotion improved xerosis scores after 2 and 4 weeks, with no statistically significant difference between them; 18 of the 53 enrolled patients were excluded from the analysis.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "11904326",
+     "doi": "10.7547/87507315-92-3-143",
+     "title": "A comparative study of lactic acid 10% and ammonium lactate 12% lotion in the treatment of foot xerosis.",
+     "year": 2002,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11904326/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "lactic-acid-3",
+   "text_en": "A comparative study of burning and stinging after application found lower mean burning/stinging ratings with a 10% lactic acid cream containing strontium than with a 12% ammonium lactate lotion; the abstract does not report the number of participants, and the strontium-containing formula limits conclusions about lactic acid itself.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "23772434",
+     "title": "Reduced burning and stinging associated with topical application of lactic acid 10% with strontium versus ammonium lactate 12%.",
+     "year": 2013,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23772434/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "lactic-acid-4",
+   "text_en": "In a study of 197 people, the lactic acid sting test, in which lactic acid is applied to the face to provoke stinging, was used together with a capsaicin test to classify sensitive skin; redness after lactic acid did not differ significantly between groups, whereas capsaicin-positive participants showed more redness after capsaicin.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38059312",
+     "doi": "10.1111/jocd.16047",
+     "title": "Lactic acid sting test and capsaicin test differentially induce facial erythematous reaction in subjects with sensitive skin.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38059312/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Sut kislotasi (lactic acid) alfa-gidroksi kislota (AHA) bo'lib, surtiladigan vositalarda quruq va g'adir-budur teri hamda quyoshdan zararlangan teri uchun ishlatiladi; ba'zi mahsulotlarda u tuzi — ammoniy laktat ko'rinishida bo'ladi. Mavjud klinik tadqiqotlar asosan kichik va eskiroq, ularning bir nechtasida sut kislotali formulalar faol moddasiz krem bilan emas, bir-biri bilan taqqoslangan. Sut kislotasi achishtirishi mumkin va tadqiqotlarda sezgir terini aniqlash uchun ataylab achishtiruvchi omil sifatida qo'llaniladi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "lactic-acid-1": "Yuz terisi quyoshdan zararlangan 40–70 yoshli 74 nafar ayol ishtirok etgan, 22 haftalik, ikki tomonlama ko'r, faol moddasiz asos bilan nazorat qilingan randomizatsiyalangan tadqiqotda yuzga 8% li L-sut kislotasi kremini surtganlarning 71 foizida quyoshdan zararlanishning umumiy og'irligi kamida bir darajaga yaxshilangan, faol moddasiz kremda esa bu ko'rsatkich 40 foiz bo'lgan; mualliflar foydani o'rtacha deb baholagan, bir ishtirokchi teri ta'sirlanishi sababli tadqiqotdan chiqqan.",
+    "lactic-acid-2": "Oyoq terisining yengil va o'rtacha quruqligi (kseroz) bo'yicha ikki tomonlama ko'r randomizatsiyalangan tadqiqotda 10% li sut kislotasi losoni ham, 12% li ammoniy laktat losoni ham 2 va 4 haftadan keyin kseroz ballarini yaxshilagan, ular o'rtasida statistik ahamiyatli farq bo'lmagan; ro'yxatga olingan 53 bemordan 18 nafari tahlilga kiritilmagan.",
+    "lactic-acid-3": "Surtilgandan keyingi achishish va sanchishni taqqoslagan tadqiqotda stronsiyli 10% li sut kislotasi kremi 12% li ammoniy laktat losoniga qaraganda o'rtacha pastroq achishish ballari bilan bog'langan; annotatsiyada ishtirokchilar soni ko'rsatilmagan, formulada stronsiy borligi esa sut kislotasining o'zi haqida xulosa chiqarishni cheklaydi.",
+    "lactic-acid-4": "197 kishi ishtirok etgan tadqiqotda sezgir terini tasniflash uchun sut kislotasi bilan achishtirish testi (yuzga sut kislotasi surtilib, achishish qo'zg'atiladi) kapsaitsin testi bilan birga qo'llangan; sut kislotasidan keyingi qizarish guruhlar o'rtasida ahamiyatli farq qilmagan, kapsaitsin testi musbat bo'lganlarda esa kapsaitsindan keyin qizarish ko'proq bo'lgan."
+   }
+  },
+  "ru": {
+   "summary": "Молочная кислота (lactic acid) — альфа-гидроксикислота (AHA), которая используется в средствах для местного применения при сухой, шероховатой коже и при фотоповреждённой коже; в некоторых продуктах она присутствует в виде соли — лактата аммония. Доступные клинические исследования в основном небольшие и давние, и в ряде из них составы с молочной кислотой сравнивались друг с другом, а не с неактивным кремом. Молочная кислота может вызывать пощипывание и используется в исследованиях как намеренный раздражитель для выявления чувствительной кожи. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "lactic-acid-1": "В 22-недельном двойном слепом рандомизированном исследовании с контролем основой у 74 женщин 40–70 лет с фотоповреждённой кожей лица у 71% применявших на лицо крем с 8% L-молочной кислоты общая тяжесть фотоповреждения уменьшилась как минимум на одну ступень, по сравнению с 40% при использовании основы; авторы оценили эффект как умеренный, одна участница выбыла из-за раздражения кожи.",
+    "lactic-acid-2": "В двойном слепом рандомизированном исследовании при ксерозе стоп лёгкой и средней степени и лосьон с 10% молочной кислоты, и лосьон с 12% лактата аммония улучшали показатели ксероза через 2 и 4 недели без статистически значимой разницы между ними; из 53 включённых пациентов 18 были исключены из анализа.",
+    "lactic-acid-3": "В сравнительном исследовании жжения и пощипывания после нанесения крем с 10% молочной кислоты и стронцием сопровождался более низкими средними оценками жжения, чем лосьон с 12% лактата аммония; число участников в аннотации не указано, а наличие стронция в составе ограничивает выводы о самой молочной кислоте.",
+    "lactic-acid-4": "В исследовании с участием 197 человек для классификации чувствительной кожи применяли тест пощипывания с молочной кислотой (её наносят на лицо, чтобы вызвать пощипывание) вместе с капсаициновым тестом; покраснение после молочной кислоты значимо не различалось между группами, тогда как у участников с положительным капсаициновым тестом после капсаицина покраснение было сильнее."
+   }
+  },
+  "ar": {
+   "summary": "حمض اللاكتيك (lactic acid) من أحماض ألفا هيدروكسي (AHA)، ويُستخدم في المنتجات الموضعية للبشرة الجافة والخشنة وللبشرة المتضرّرة من الشمس، ويظهر في بعض المنتجات على شكل ملحه لاكتات الأمونيوم. الدراسات السريرية المتاحة صغيرة وقديمة في معظمها، وقارن بعضها تركيبات حمض اللاكتيك ببعضها بدلًا من مقارنتها بكريم غير فعّال. وقد يسبّب حمض اللاكتيك وخزًا، ويُستخدم في الأبحاث محفّزًا متعمّدًا للوخز للتعرّف على البشرة الحساسة. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "lactic-acid-1": "في تجربة عشوائية مزدوجة التعمية مضبوطة بالقاعدة استمرت 22 أسبوعًا وشملت 74 امرأة تتراوح أعمارهن بين 40 و70 عامًا ولديهن بشرة وجه متضرّرة من الشمس، تحسّنت الشدة الإجمالية لضرر الشمس بدرجة واحدة على الأقل لدى 71% من مستخدمات كريم حمض L-اللاكتيك بتركيز 8% على الوجه، مقابل 40% مع كريم القاعدة؛ ووصف المؤلفون الفائدة بأنها متواضعة، وانسحبت مشاركة واحدة بسبب تهيّج الجلد.",
+    "lactic-acid-2": "في تجربة عشوائية مزدوجة التعمية على جفاف جلد القدمين الخفيف إلى المتوسط، حسّن كلٌّ من غسول حمض اللاكتيك 10% وغسول لاكتات الأمونيوم 12% درجات الجفاف بعد أسبوعين وأربعة أسابيع، دون فرق ذي دلالة إحصائية بينهما؛ واستُبعد 18 من أصل 53 مريضًا مسجّلًا من التحليل.",
+    "lactic-acid-3": "وجدت دراسة مقارنة للحرقة والوخز بعد التطبيق تقييمات متوسطة أقل للحرقة والوخز مع كريم حمض اللاكتيك 10% المحتوي على السترونشيوم مقارنةً بغسول لاكتات الأمونيوم 12%؛ ولا يذكر الملخّص عدد المشاركين، كما أن وجود السترونشيوم في التركيبة يحدّ من الاستنتاجات بشأن حمض اللاكتيك نفسه.",
+    "lactic-acid-4": "في دراسة شملت 197 شخصًا، استُخدم اختبار الوخز بحمض اللاكتيك (يوضع حمض اللاكتيك على الوجه لإثارة الوخز) مع اختبار الكابسيسين لتصنيف البشرة الحساسة؛ ولم يختلف الاحمرار بعد حمض اللاكتيك اختلافًا ذا دلالة بين المجموعات، بينما ظهر احمرار أكبر بعد الكابسيسين لدى المشاركين ذوي اختبار الكابسيسين الإيجابي."
+   }
+  }
+ }
+}

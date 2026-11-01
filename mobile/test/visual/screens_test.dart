@@ -25,6 +25,7 @@ void main() {
 
   final shots = <String, String>{
     '01_splash': '/splash',
+    '01b_greeting': '/splash',
     '02_language': '/language',
     '03_welcome': '/welcome',
     '04_onboarding1': '/onboarding',
@@ -44,7 +45,7 @@ void main() {
           key: key,
           child: SamiyaApp(
             key: UniqueKey(),
-            state: AppState(locale: Locale(lang)),
+            state: AppState(locale: Locale(lang), onboarded: e.key == '01b_greeting'),
             initialLocation: e.value,
             splashDuration: const Duration(minutes: 5),
           ),
@@ -54,6 +55,7 @@ void main() {
           for (final a in ['logo_icon', 'hero_welcome', 'ob1_ingredients', 'ob2_routine', 'ob3_learn']) {
             await precacheImage(AssetImage('assets/images/$a.png'), ctx);
           }
+          await precacheImage(const AssetImage('assets/images/logo_square.jpg'), ctx);
         });
         await t.pump(const Duration(milliseconds: 1200));
         await t.pump(const Duration(milliseconds: 400));
@@ -81,6 +83,7 @@ void main() {
     '26_routine': ('/home/routine', const Size(780, 1688)),
     '27_journal': ('/journal', const Size(780, 1688)),
     '28_academy': ('/academy', const Size(780, 1688)),
+    '28b_lesson': ('/academy/lesson/spf', const Size(780, 4200)),
     '29_scanner': ('/scanner', const Size(780, 1688)),
     '30_profile': ('/profile', const Size(780, 1688)),
     '23_honey_full': ('/scanner/ingredient/honey', const Size(780, 4200)),
