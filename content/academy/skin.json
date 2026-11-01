@@ -24,7 +24,7 @@
     "uz": "Teri tananing butun tashqi yuzasini qoplaydigan eng katta organdir. U mikroorganizmlar, ultrabinafsha (UV) nurlar, kimyoviy ta’sirlar va mexanik shikastlarga qarshi birinchi to‘siq vazifasini bajaradi. Shuningdek, teri tana haroratini va tashqi muhitga chiqadigan suv miqdorini boshqarishda ishtirok etadi.",
     "ru": "Кожа — самый крупный орган, покрывающий всю внешнюю поверхность тела. Она служит первым барьером против микроорганизмов, ультрафиолетового (УФ) излучения, химических воздействий и механических повреждений. Кроме того, кожа участвует в регуляции температуры тела и количества воды, которое отдаётся в окружающую среду.",
     "en": "The skin is the largest organ, covering the entire outer surface of the body. It acts as the first barrier against microorganisms, ultraviolet (UV) light, chemicals and mechanical injury. The skin also helps regulate body temperature and the amount of water released into the environment.",
-    "ar": "الجلد هو أكبر عضو في الجسم، ويغطي سطحه الخارجي بالكامل. ويؤدي دور الحاجز الأول في مواجهة الكائنات الدقيقة والأشعة فوق البنفسجية والمواد الكيميائية والإصابات الميكانيكية. كما يشارك الجلد في تنظيم حرارة الجسم وكمية الماء التي تخرج إلى البيئة المحيطة."
+    "ar": "الجلد هو أكبر عضو في الجسم، ويغطي سطحه الخارجي بالكامل. ويؤدي دور الحاجز الأول في مواجهة الكائنات الدقيقة والأشعة فوق البنفسجية والمواد الكيميائية والإصابات الميكانيكية. كما يشارك الجلد في تنظيم حرارة الجسم وكمية الماء التي يفقدها إلى البيئة المحيطة."
    }
   },
   {
@@ -52,7 +52,7 @@
     "uz": "Epidermis terining tashqi qatlami bo‘lib, uning eng ustki qavati shox qavat (stratum corneum) deb ataladi. Shox qavat oqsilga boy hujayralar — korneotsitlar va ular orasidagi lipid matritsadan tashkil topadi. Bu matritsada asosan seramidlar, xolesterin va erkin yog‘ kislotalari tartibli qatlamlar hosil qiladi.",
     "ru": "Эпидермис — наружный слой кожи, а его самый верхний слой называется роговым (stratum corneum). Роговой слой состоит из богатых белком клеток — корнеоцитов — и липидного матрикса между ними. В этом матриксе преимущественно церамиды, холестерин и свободные жирные кислоты образуют упорядоченные слои.",
     "en": "The epidermis is the outer layer of the skin, and its uppermost layer is called the stratum corneum. The stratum corneum is made of protein-rich cells called corneocytes, surrounded by a lipid matrix. In this matrix, mainly ceramides, cholesterol and free fatty acids form highly ordered layers.",
-    "ar": "البشرة هي الطبقة الخارجية للجلد، وتُسمّى أعلى طبقاتها الطبقة القرنية (Stratum corneum). وتتكوّن الطبقة القرنية من خلايا غنية بالبروتين تُعرف بالخلايا القرنية، تحيط بها مادة دهنية بينية. وفي هذه المادة تشكّل السيراميدات والكوليسترول والأحماض الدهنية الحرة بشكل رئيسي طبقاتٍ منتظمة."
+    "ar": "البشرة هي الطبقة الخارجية للجلد، وتُسمّى أعلى طبقاتها الطبقة القرنية (Stratum corneum). وتتكوّن الطبقة القرنية من خلايا غنية بالبروتين تُعرف بالخلايا القرنية، تحيط بها مادة دهنية بينية (مطرس دهني). وتتألف هذه المادة أساسًا من السيراميدات والكوليسترول والأحماض الدهنية الحرة المرتّبة في طبقات منتظمة."
    }
   },
   {
@@ -94,7 +94,7 @@
     "uz": "Teri tuzilishini bilish parvarish vositalari va kosmetik muolajalar haqida ongli suhbat qurishga yordam beradi. Biroq kosmetolog teri kasalliklariga tashxis qo‘ymaydi va davo tayinlamaydi. Terida g‘ayrioddiy o‘zgarish, og‘riq yoki uzoq davom etayotgan bezovtalik kuzatilsa, mijozni dermatologga yo‘naltirish to‘g‘ri yo‘ldir.",
     "ru": "Знание строения кожи помогает вести осознанный разговор об уходовых средствах и косметических процедурах. Однако косметолог не ставит диагнозы кожных заболеваний и не назначает лечение. Если на коже заметны необычные изменения, боль или длительный дискомфорт, правильно направить клиентку к дерматологу.",
     "en": "Understanding skin structure helps you hold informed conversations about skincare products and cosmetic procedures. A cosmetologist, however, does not diagnose skin conditions or prescribe treatment. If you notice unusual changes, pain or long-lasting discomfort in a client’s skin, the right step is to refer her to a dermatologist.",
-    "ar": "تساعدكِ معرفة بنية الجلد على إجراء حوار واعٍ حول منتجات العناية والجلسات التجميلية. لكن خبيرة التجميل لا تشخّص أمراض الجلد ولا تصف العلاج. وإذا لاحظتِ تغيّرات غير معتادة أو ألمًا أو انزعاجًا مستمرًا في جلد العميلة، فالخطوة الصحيحة هي توجيهها إلى طبيب الأمراض الجلدية."
+    "ar": "تساعدكِ معرفة بنية الجلد على الحديث بوعي عن منتجات العناية والجلسات التجميلية. لكن خبيرة التجميل لا تشخّص أمراض الجلد ولا تصف العلاج. وإذا لاحظتِ تغيّرات غير معتادة أو ألمًا أو انزعاجًا مستمرًا في جلد العميلة، فالخطوة الصحيحة هي توجيهها إلى طبيب الأمراض الجلدية."
    }
   }
  ],

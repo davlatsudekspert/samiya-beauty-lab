@@ -85,11 +85,11 @@
  ],
  "translations": {
   "uz": {
-   "summary": "Niacinamide (B3 vitaminining amid shakli) keng qo'llaniladigan kosmetik ingredient bo'lib, teri to'siq funksiyasi, sebum va pigmentatsiyaga oid natijalar bo'yicha surtiladigan vositalarda o'rganilgan. Klinik dalillarning katta qismi bir nechta faol moddani birlashtirgan formulalardan olingan, shu sababli faqat niacinamide haqida xulosa qilish cheklangan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "summary": "Niacinamide (B3 vitaminining amid shakli) keng qo'llaniladigan kosmetik ingredient bo'lib, teri to'siq funksiyasi, sebum va pigmentatsiyaga oid natijalar bo'yicha surtiladigan vositalarda o'rganilgan. Klinik dalillarning katta qismi bir nechta faol moddani birlashtirgan formulalardan olingan, shu sababli faqat niacinamide haqida xulosa qilish cheklangan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat hisoblanmaydi.",
    "claims": {
     "niacinamide-1": "Postinflammator giperpigmentatsiya uchun surtiladigan vositalar bo'yicha tizimli sharhda niacinamide yuqori sifatli tadqiqotlar qo'llab-quvvatlagan vositalar qatorida sanalgan; retinoidlar, gidroksi kislotalar va keng spektrli quyoshdan himoya vositalari eng ko'p shunday tadqiqotlar bilan qo'llab-quvvatlangan.",
     "niacinamide-2": "Melazma uchun surtiladigan vositalar bo'yicha PRISMA asosidagi tizimli sharhda niacinamide yordamchi terapiya sifatida samarali va yon ta'sirlari minimal vositalar qatorida keltirilgan, uch komponentli kombinatsiyalangan terapiya esa asosiy standart bo'lib qolgan; ba'zi tadqiqotlarda ishtirokchilar soni kam bo'lgan.",
-    "niacinamide-3": "30 yoshdan 60 yoshgacha bo'lgan 67 nafar ayol ishtirok etgan ikki tomonlama ko'r, plasebo nazoratli randomizatsiyalangan tadqiqotda niacinamide tarkibli kosmetik formula sakkiz haftadan keyin shox qavatdagi suv miqdorining yuqoriroq bo'lishi, transepidermal suv yo'qotilishining pastroq bo'lishi va sebum miqdorining kamroq bo'lishi bilan bog'langan; natijalarni faqat niacinamide'ga bog'lab bo'lmaydi.",
+    "niacinamide-3": "30 yoshdan 60 yoshgacha bo'lgan 67 nafar ayol ishtirok etgan ikki tomonlama ko'r, plasebo nazoratli randomizatsiyalangan tadqiqotda niacinamide tarkibli kosmetik formula sakkiz haftadan keyin shox qavatdagi suv miqdorining yuqoriroq bo'lishi, transepidermal suv yo'qotilishining pastroq bo'lishi va sebum miqdorining kamroq bo'lishi bilan bog'langan; natijalarni faqat niacinamide komponentiga bog'lab bo'lmaydi.",
     "niacinamide-4": "Yengil va o'rtacha akne uchun surtiladigan vositalar bo'yicha tizimli sharhda 41 ishtirokchili bitta randomizatsiyalangan nazoratli tadqiqotda niacinamide sebum ishlab chiqarilishini kamaytirgani qayd etilgan."
    }
   },
@@ -103,9 +103,9 @@
    }
   },
   "ar": {
-   "summary": "النياسيناميد (niacinamide) هو الشكل الأميدي من فيتامين ب3، وهو مكوّن تجميلي شائع جرت دراسته في المنتجات الموضعية فيما يخص الحاجز الجلدي والزهم والتصبّغ. يأتي جزء كبير من الأدلة السريرية من تركيبات تجمع عدة مواد فعّالة، مما يحدّ من إمكانية استخلاص نتائج عن niacinamide وحده. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "summary": "النياسيناميد (niacinamide) هو الشكل الأميدي من فيتامين B3، وهو مكوّن تجميلي شائع جرت دراسته في المنتجات الموضعية فيما يخص الحاجز الجلدي والزهم والتصبّغ. يأتي جزء كبير من الأدلة السريرية من تركيبات تجمع عدة مواد فعّالة، مما يحدّ من إمكانية استخلاص نتائج عن niacinamide وحده. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
    "claims": {
-    "niacinamide-1": "في مراجعة منهجية للعلاجات الموضعية لفرط التصبّغ التالي للالتهاب، ورد niacinamide ضمن المواد التي دعمتها دراسات عالية الجودة؛ وكانت الرتينويدات والأحماض الهيدروكسيلية وواقيات الشمس واسعة الطيف الأكثر دعمًا بعدد هذه الدراسات.",
+    "niacinamide-1": "في مراجعة منهجية للعلاجات الموضعية لفرط التصبّغ التالي للالتهاب، ورد niacinamide ضمن المواد التي دعمتها دراسات عالية الجودة؛ وكانت الريتينويدات والأحماض الهيدروكسيلية وواقيات الشمس واسعة الطيف الأكثر دعمًا بعدد هذه الدراسات.",
     "niacinamide-2": "في مراجعة منهجية وفق منهجية PRISMA للعلاجات الموضعية للكلف، ورد niacinamide ضمن المواد الفعّالة كعلاج مساعد بآثار جانبية قليلة، بينما ظل العلاج المركّب الثلاثي هو المعيار الذهبي للرعاية؛ وكانت عيّنات بعض الدراسات المشمولة صغيرة.",
     "niacinamide-3": "في دراسة عشوائية مزدوجة التعمية ومضبوطة بالدواء الوهمي شملت 67 امرأة تتراوح أعمارهن بين 30 و60 عامًا، ارتبطت تركيبة تجميلية تحتوي على niacinamide بارتفاع محتوى الماء في الطبقة القرنية وانخفاض فقدان الماء عبر البشرة وانخفاض محتوى الزهم بعد ثمانية أسابيع؛ ولا يمكن عزو النتائج إلى niacinamide وحده.",
     "niacinamide-4": "أفادت مراجعة منهجية للعلاجات الموضعية لحب الشباب الخفيف إلى المتوسط بأن niacinamide، الذي جرى فحصه في دراسة عشوائية مضبوطة واحدة شملت 41 مشاركًا، قلّل إنتاج الزهم."

@@ -35,7 +35,7 @@
     "ar": "ترتيب القائمة: من الأكثر إلى الأقل"
    },
    "text": {
-    "uz": "Yevropa Ittifoqining 1223/2009-sonli Reglamentiga ko‘ra, ingredientlar mahsulotga qo‘shilgan paytdagi og‘irligi bo‘yicha kamayish tartibida yoziladi. Konsentratsiyasi 1% dan kam ingredientlar 1% dan ko‘p bo‘lganlardan keyin istalgan tartibda berilishi mumkin. AQSH FDA qoidasida ham ingredientlar ustunlik bo‘yicha kamayish tartibida ko‘rsatiladi; 1% yoki undan kam ingredientlar va rang beruvchi qo‘shimchalar bu tartibsiz yozilishi mumkin.",
+    "uz": "Yevropa Ittifoqining 1223/2009-sonli Reglamentiga ko‘ra, ingredientlar mahsulotga qo‘shilgan paytdagi og‘irligi bo‘yicha kamayish tartibida yoziladi. Konsentratsiyasi 1% dan kam ingredientlar 1% dan ko‘p bo‘lganlardan keyin istalgan tartibda berilishi mumkin. AQSh FDA qoidasida ham ingredientlar ulushi bo‘yicha kamayish tartibida ko‘rsatiladi; 1% yoki undan kam ingredientlar va rang beruvchi qo‘shimchalar bu tartibga rioya qilinmasdan yozilishi mumkin.",
     "ru": "Согласно Регламенту ЕС № 1223/2009, ингредиенты перечисляются в порядке убывания их массы на момент добавления в продукт. Ингредиенты с концентрацией менее 1% можно указывать в любом порядке после ингредиентов с концентрацией более 1%. По правилам FDA (США) ингредиенты также указываются в порядке убывания преобладания; ингредиенты в количестве 1% или меньше и красящие добавки можно указывать без соблюдения этого порядка.",
     "en": "Under EU Regulation (EC) No 1223/2009, ingredients are listed in descending order of weight at the time they are added to the product. Ingredients at concentrations below 1% may be listed in any order after those above 1%. The US FDA likewise requires a descending order of predominance; ingredients at 1% or less and color additives may be listed without regard to that order.",
     "ar": "وفقًا للائحة الاتحاد الأوروبي رقم 1223/2009، تُدرَج المكوّنات بترتيب تنازلي بحسب وزنها عند إضافتها إلى المنتج. ويجوز إدراج المكوّنات التي يقلّ تركيزها عن 1% بأي ترتيب بعد المكوّنات التي يزيد تركيزها على 1%. كما تشترط إدارة الغذاء والدواء الأمريكية (FDA) الترتيب التنازلي بحسب الغلبة، مع جواز إدراج المكوّنات التي تبلغ 1% أو أقل والمضافات اللونية دون التقيّد بهذا الترتيب."
@@ -52,7 +52,7 @@
     "uz": "Yevropa Ittifoqida bo‘yovchi moddalar boshqa ingredientlardan keyin istalgan tartibda, Colour Index (CI) raqami yoki belgilangan nomi bilan ko‘rsatiladi. Nanomaterial ko‘rinishidagi ingredient nomidan keyin qavs ichida «nano» so‘zi yoziladi. Xushbo‘ylantiruvchi kompozitsiyalar «parfum» yoki «aroma» deb belgilanadi, ammo ayrim allergen xushbo‘y moddalar belgilangan chegaradan oshganda alohida nomi bilan ko‘rsatilishi kerak.",
     "ru": "В ЕС красители указываются после остальных ингредиентов в любом порядке — по номеру Colour Index (CI) или установленному наименованию. После названия ингредиента в форме наноматериала в скобках пишется слово «nano». Ароматические композиции обозначаются как «parfum» или «aroma», однако некоторые аллергенные душистые вещества при превышении установленного порога должны указываться отдельно под своим названием.",
     "en": "In the EU, colorants are listed after the other ingredients in any order, using their Colour Index (CI) number or the denomination set out in the Regulation. An ingredient present as a nanomaterial is followed by the word “nano” in brackets. Fragrance compositions are labelled as “parfum” or “aroma”, but certain fragrance allergens must be named individually when they exceed set thresholds.",
-    "ar": "في الاتحاد الأوروبي تُدرَج الملوّنات بعد بقية المكوّنات بأي ترتيب، باستخدام رقم دليل الألوان (CI) أو التسمية المعتمدة في اللائحة. ويُكتب بعد اسم المكوّن الموجود في صورة مادة نانوية كلمة «nano» بين قوسين. ويُشار إلى التركيبات العطرية بكلمة «parfum» أو «aroma»، غير أن بعض المواد العطرية المسبّبة للحساسية يجب ذكرها باسمها منفردةً إذا تجاوزت الحدود المقرّرة."
+    "ar": "في الاتحاد الأوروبي تُدرَج الملوّنات بعد بقية المكوّنات بأي ترتيب، باستخدام رقم دليل الألوان (CI) أو التسمية المعتمدة في اللائحة. وإذا كان المكوّن في صورة مادة نانوية، تُضاف بعد اسمه كلمة «nano» بين قوسين. ويُشار إلى التركيبات العطرية بكلمة «parfum» أو «aroma»، غير أن بعض المواد العطرية المسبّبة للحساسية يجب ذكرها باسمها منفردةً إذا تجاوزت الحدود المقرّرة."
    }
   },
   {
@@ -63,10 +63,10 @@
     "ar": "كيف تقرئين الملصق"
    },
    "text": {
-    "uz": "Ro‘yxat boshidagi ingredientlar mahsulotda eng ko‘p miqdorda bo‘lganlardir. Biroq ro‘yxatdagi o‘rin aniq foizni ko‘rsatmaydi, 1% dan kam ingredientlar orasidagi tartib esa ixtiyoriy bo‘lishi mumkin. AQShda ham kosmetik, ham dori hisoblangan mahsulotlarda (masalan, quyosh kuyishidan himoya qiluvchi vositalarda) avval faol ingredientlar — «active ingredient(s)» alohida ko‘rsatiladi.",
+    "uz": "Ro‘yxat boshidagi ingredientlar mahsulotda eng ko‘p miqdorda bo‘lganlardir. Biroq ro‘yxatdagi o‘rin aniq foizni ko‘rsatmaydi, 1% dan kam ingredientlar orasidagi tartib esa ixtiyoriy bo‘lishi mumkin. AQShda ham kosmetik, ham dori hisoblangan mahsulotlarda (masalan, quyoshdan himoya vositalarida) avval faol ingredientlar («active ingredient(s)») alohida ko‘rsatiladi.",
     "ru": "Ингредиенты в начале списка содержатся в продукте в наибольшем количестве. Однако место в списке не указывает точный процент, а порядок среди ингредиентов менее 1% может быть произвольным. В США у продуктов, которые одновременно являются косметикой и лекарством (например, средств для защиты от солнечных ожогов), сначала отдельно указываются действующие вещества — «active ingredient(s)».",
     "en": "The ingredients at the top of the list are those present in the largest amounts. Position in the list does not reveal an exact percentage, however, and the order among ingredients below 1% may be arbitrary. In the US, products that are both cosmetics and drugs (for example, products intended to protect against sunburn) must first list their “active ingredient(s)” separately.",
-    "ar": "المكوّنات في أعلى القائمة هي الموجودة في المنتج بأكبر كمية. لكن موقع المكوّن في القائمة لا يكشف نسبته المئوية الدقيقة، وقد يكون الترتيب بين المكوّنات التي تقلّ عن 1% اختياريًا. وفي الولايات المتحدة، يجب أن تُدرج المنتجات التي تُعدّ تجميلية ودوائية في آنٍ واحد (مثل منتجات الوقاية من حروق الشمس) «المكوّنات الفعّالة» أولًا وبشكل منفصل."
+    "ar": "المكوّنات في أعلى القائمة هي الموجودة في المنتج بأكبر كمية. لكن موقع المكوّن في القائمة لا يكشف نسبته المئوية الدقيقة، وقد يكون الترتيب بين المكوّنات التي تقلّ عن 1% اختياريًا. وفي الولايات المتحدة، يجب أن تُدرَج «المكوّنات الفعّالة» أولًا وبشكل منفصل على المنتجات التي تُعدّ تجميلية ودوائية في آنٍ واحد (مثل منتجات الوقاية من حروق الشمس)."
    }
   },
   {
@@ -80,7 +80,7 @@
     "uz": "Ingredientlar ro‘yxati tarkibni ko‘rsatadi, lekin tayyor mahsulotning xavfsizligini yoki samaradorligini o‘z-o‘zidan isbotlamaydi. Yevropa Komissiyasining CosIng bazasi ma’lumot beruvchi manba bo‘lib, huquqiy kuchga ega emas: unda INCI nomi borligi ingredient kosmetikada ishlatishga ruxsat etilganini anglatmaydi. Ingredientlarning ishlatilish shartlarini 1223/2009-sonli Reglament va uning ilovalari belgilaydi, har bir ingredientning ishlatilishi esa mahsulotning xavfsizlik bahosi bilan asoslanishi kerak.",
     "ru": "Список ингредиентов показывает состав, но сам по себе не доказывает безопасность или эффективность готового продукта. База данных CosIng Европейской комиссии носит информационный характер и не имеет юридической силы: наличие в ней названия INCI не означает, что ингредиент разрешён к применению в косметике. Условия применения ингредиентов устанавливают Регламент № 1223/2009 и его приложения, а использование каждого ингредиента должно подкрепляться оценкой безопасности продукта.",
     "en": "An ingredient list shows composition, but it does not in itself prove that the finished product is safe or effective. The European Commission’s CosIng database is for information only and has no legal value: an INCI name appearing there does not mean the ingredient is approved for use in cosmetics. The conditions of use are set by Regulation (EC) No 1223/2009 and its Annexes, and the use of any ingredient must be supported by a safety assessment of the product.",
-    "ar": "تُظهر قائمة المكوّنات تركيبة المنتج، لكنها لا تُثبت بحدّ ذاتها سلامة المنتج النهائي أو فعاليته. وقاعدة بيانات CosIng التابعة للمفوضية الأوروبية ذات طابع إعلامي وليست لها قيمة قانونية، فوجود اسم INCI فيها لا يعني أن المكوّن مُجاز للاستخدام في مستحضرات التجميل. وتحدّد اللائحة رقم 1223/2009 وملاحقها شروط استخدام المكوّنات، ويجب أن يستند استخدام أي مكوّن إلى تقييم سلامة المنتج."
+    "ar": "تُظهر قائمة المكوّنات تركيبة المنتج، لكنها لا تُثبت بحدّ ذاتها سلامة المنتج النهائي أو فعاليته. وقاعدة بيانات CosIng التابعة للمفوضية الأوروبية ذات طابع معلوماتي وليست لها قيمة قانونية، فوجود اسم INCI فيها لا يعني أن المكوّن مُجاز للاستخدام في مستحضرات التجميل. وتحدّد اللائحة رقم 1223/2009 وملاحقها شروط استخدام المكوّنات، ويجب أن يستند استخدام أي مكوّن إلى تقييم سلامة المنتج."
    }
   }
  ],
@@ -89,7 +89,7 @@
    "uz": "INCI — ingredientlarning standart nomlari; Yevropa Ittifoqida yorliq uchun umumiy nomlar lug‘ati amal qiladi.",
    "ru": "INCI — стандартные названия ингредиентов; в ЕС для этикеток действует глоссарий общих названий.",
    "en": "INCI provides standard ingredient names; in the EU, labels follow a glossary of common ingredient names.",
-   "ar": "تسمية INCI توفّر أسماء موحّدة للمكوّنات، وفي الاتحاد الأوروبي تعتمد الملصقات على مسرد للأسماء الشائعة."
+   "ar": "توفّر تسمية INCI أسماءً موحّدة للمكوّنات، وفي الاتحاد الأوروبي تعتمد الملصقات على مسرد للأسماء الشائعة."
   },
   {
    "uz": "Ingredientlar ko‘pdan kamga tartiblanadi; 1% dan kam ingredientlar va bo‘yovchilar uchun istisnolar bor.",

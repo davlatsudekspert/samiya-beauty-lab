@@ -13,7 +13,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get appName => 'SAMIYA BEAUTY LAB';
 
   @override
-  String get welcomeTagline => 'الجمال والعلم والعناية، دائمًا معك';
+  String get welcomeTagline => 'الجمال والعلم والعناية، معكِ دائمًا';
 
   @override
   String get start => 'ابدئي';
@@ -59,7 +59,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get onboarding3Body =>
-      'الأكاديمية والاختبارات ومساعد SAMIYA AI في تطبيق واحد.';
+      'الأكاديمية والاختبارات ومساعدة SAMIYA AI في تطبيق واحد.';
 
   @override
   String get loginBanner => 'الجمال والعلم والعناية';
@@ -170,7 +170,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get scannerHeroBody =>
-      'أدخلي قائمة مكوّنات المنتج. نعرض لكِ معلومات موثّقة بالمصادر عن كل مكوّن.';
+      'أدخلي قائمة مكوّنات المنتج، وسنعرض لكِ عن كل مكوّن معلومات موثّقة بالمصادر.';
 
   @override
   String get scanCamera => 'المسح بالكاميرا';
@@ -189,7 +189,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String foundCount(int n) {
-    return 'المكوّنات التي عُثر عليها: $n';
+    return 'عدد المكوّنات التي عُثر عليها: $n';
   }
 
   @override
@@ -202,18 +202,18 @@ class AppLocalizationsAr extends AppLocalizations {
   String get inDatabase => 'في قاعدة بياناتنا';
 
   @override
-  String get notInDatabase => 'ليس في قاعدة بياناتنا بعد';
+  String get notInDatabase => 'غير موجود في قاعدة بياناتنا بعد';
 
   @override
   String get resultNoneFound =>
-      'لا يوجد أيٌّ من المكوّنات المُدخلة في قاعدة بياناتنا بعد. قاعدة البيانات تتوسّع باستمرار.';
+      'لم نعثر بعد على أيٍّ من المكوّنات المُدخلة في قاعدة بياناتنا، فهي تتوسّع باستمرار.';
 
   @override
   String get resultNote =>
       'هذه ليست نصيحة طبية. المعلومات مبنية على دراسات منشورة، ولا تُبيّن ما إذا كان المنتج مناسبًا لكِ.';
 
   @override
-  String get detailClaims => 'ماذا وجدت الدراسات';
+  String get detailClaims => 'ما الذي توصّلت إليه الدراسات';
 
   @override
   String get detailSource => 'المصدر';
@@ -226,7 +226,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get euUnverified =>
-      'لم يتم التحقق بعد من بيانات اللوائح الأوروبية وبيانات CosIng.';
+      'لم يُتحقَّق بعد من بيانات اللوائح الأوروبية وقاعدة CosIng.';
 
   @override
   String get evidenceLegendTitle => 'مستويات الأدلة';
@@ -287,7 +287,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get deleteConfirmBody =>
-      'سيتم حذف حسابكِ وبياناته نهائيًا. لا يمكن التراجع عن هذا الإجراء.';
+      'سيُحذف حسابكِ وبياناته نهائيًا، ولا يمكن التراجع عن هذا الإجراء.';
 
   @override
   String get cancel => 'إلغاء';
@@ -378,10 +378,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get adminRevoke => 'سحب';
 
   @override
-  String get adminGrantsList => 'مَن مُنحوا Pro';
+  String get adminGrantsList => 'قائمة من مُنحوا Pro';
 
   @override
-  String get adminGrantsEmpty => 'لا أحد بعد.';
+  String get adminGrantsEmpty => 'لم يُمنح أحد بعد.';
 
   @override
   String get adminGranted => 'تم منح Pro.';
@@ -414,7 +414,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get ingredientsNoMatch =>
-      'لم يتم العثور على شيء. قاعدة البيانات تتوسّع باستمرار.';
+      'لا توجد نتائج. قاعدة البيانات تتوسّع باستمرار.';
 
   @override
   String get scanSourceCamera => 'التقاط صورة';
@@ -427,7 +427,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get scanNoText =>
-      'لم يتم العثور على قائمة مكوّنات. التقطي صورة أقرب وأوضح للمكوّنات في إضاءة جيدة.';
+      'لم نعثر على قائمة مكوّنات. التقطي صورة أقرب وأوضح لقائمة المكوّنات في إضاءة جيدة.';
 
   @override
   String get scanFailed =>
@@ -455,7 +455,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get naturalNote =>
-      '«طبيعي» لا يعني تلقائيًا «آمن»: قد تحدث حساسية أو تهيّج. جرّبي أي منتج جديد على مساحة صغيرة من البشرة أولًا.';
+      '«طبيعي» لا يعني تلقائيًا «آمن»: فقد تحدث حساسية أو تهيّج. أجري اختبار الرقعة لأي منتج جديد على مساحة صغيرة من البشرة أولًا.';
 
   @override
   String get filterPractice => 'أساليب العناية';
@@ -469,7 +469,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get cautionNote =>
-      'معلومات عن وصفة منزلية شائعة: سُجّلت لبعض هذه الوصفات حالات ضرر للبشرة، وبعضها الآخر لا تكفي الأدلة على سلامتها وفائدتها. اقرئي المعلومات قبل الاستخدام.';
+      'معلومات عن وصفة منزلية شائعة: وُثّقت لبعض هذه الوصفات أضرار بالبشرة، أما بعضها الآخر فالأدلة على سلامته وفائدته غير كافية. اقرئي المعلومات قبل الاستخدام.';
 
   @override
   String get practiceSectionTitle => 'أساليب العناية';
@@ -479,7 +479,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get traditionalNote =>
-      'مصادر تاريخية وتقليدية: هذا ليس دليلًا علميًا، ولا يدل على الفعالية أو السلامة.';
+      'مصادر تاريخية وتقليدية: هذا ليس دليلًا علميًا، ولا يدلّ على الفعالية أو الأمان.';
 
   @override
   String get ibnSinaCardBody =>
@@ -529,10 +529,10 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get skinNote =>
-      'لا يحدّد التطبيق نوع بشرتكِ ولا يشخّص أي شيء: هذه ملاحظة لكِ.';
+      'لا يحدّد التطبيق نوع بشرتكِ ولا يشخّص أي حالة، فهذه ملاحظة شخصية لكِ.';
 
   @override
-  String get avoidTitle => 'مكوّنات تريدين تجنّبها';
+  String get avoidTitle => 'مكوّنات ترغبين في تجنّبها';
 
   @override
   String get avoidHint => 'اسم INCI، مثلًا Parfum';
@@ -542,7 +542,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get avoidEmpty =>
-      'القائمة فارغة. إذا وجد المسح هذه المكوّنات، فسنشير إليها.';
+      'القائمة فارغة. إذا رصد المسح أيًّا من هذه المكوّنات، فسننبّهكِ إليه.';
 
   @override
   String avoidFound(String names) {
@@ -573,10 +573,10 @@ class AppLocalizationsAr extends AppLocalizations {
   }
 
   @override
-  String get moveUp => 'نقل للأعلى';
+  String get moveUp => 'نقل إلى الأعلى';
 
   @override
-  String get moveDown => 'نقل للأسفل';
+  String get moveDown => 'نقل إلى الأسفل';
 
   @override
   String get journalAdd => 'إضافة تدوينة';
@@ -601,7 +601,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get feelDry => 'جافة';
 
   @override
-  String get feelIrritated => 'متهيجة';
+  String get feelIrritated => 'متهيّجة';
 
   @override
   String get journalNoteHint => 'ملاحظة (اختيارية)';
@@ -626,10 +626,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get academySubtitle => 'أساسيات التجميل: دروس قصيرة مبنية على الأدلة.';
 
   @override
-  String get academyT1 => 'تشريح البشرة ووظائفها';
+  String get academyT1 => 'تشريح الجلد ووظائفه';
 
   @override
-  String get academyT2 => 'INCI والمكوّنات التجميلية';
+  String get academyT2 => 'تسمية INCI ومكوّنات مستحضرات التجميل';
 
   @override
   String get academyT3 => 'الحماية من الشمس';
@@ -638,16 +638,16 @@ class AppLocalizationsAr extends AppLocalizations {
   String get academyT4 => 'الترطيب وحاجز البشرة';
 
   @override
-  String get academyT5 => 'النظافة ومكافحة العدوى';
+  String get academyT5 => 'النظافة الصحية ومكافحة العدوى';
 
   @override
-  String get academyT6 => 'سلامة مستحضرات التجميل والملصقات';
+  String get academyT6 => 'سلامة مستحضرات التجميل وملصقاتها';
 
   @override
-  String get routineEmptyTitle => 'خطوتك الأولى';
+  String get routineEmptyTitle => 'خطوتكِ الأولى';
 
   @override
-  String get journalEmptyTitle => 'مذكرات بشرتك';
+  String get journalEmptyTitle => 'يوميات بشرتكِ';
 
   @override
   String get routineSuggestCleanse => 'التنظيف';
@@ -662,25 +662,34 @@ class AppLocalizationsAr extends AppLocalizations {
   String get lessonKeyPoints => 'أهم النقاط';
 
   @override
-  String get lessonQuiz => 'اختبري نفسك';
+  String get lessonQuiz => 'اختبري نفسكِ';
 
   @override
   String get lessonSources => 'المصادر';
 
   @override
   String get lessonDraftNote =>
-      'هذا الدرس مسودة مبنية على الأدلة بانتظار مراجعة خبيرة تجميل. وهو ليس استشارة طبية.';
+      'هذا الدرس مسودة مبنية على الأدلة، بانتظار مراجعة خبيرة تجميل. وهو ليس استشارة طبية.';
 
   @override
   String lessonMinutes(int n) {
-    return '$n دقيقة';
+    String _temp0 = intl.Intl.pluralLogic(
+      n,
+      locale: localeName,
+      other: '$n دقيقة',
+      many: '$n دقيقة',
+      few: '$n دقائق',
+      two: 'دقيقتان',
+      one: 'دقيقة واحدة',
+    );
+    return '$_temp0';
   }
 
   @override
   String get quizRight => 'صحيح!';
 
   @override
-  String get quizWrong => 'ليس تمامًا — تم تمييز الإجابة الصحيحة.';
+  String get quizWrong => 'ليس تمامًا. ميّزنا لكِ الإجابة الصحيحة.';
 
   @override
   String quizScore(int score, int total) {
@@ -692,7 +701,16 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String lessonCount(int n) {
-    return '$n دروس · مع اختبارات';
+    String _temp0 = intl.Intl.pluralLogic(
+      n,
+      locale: localeName,
+      other: '$n درس',
+      many: '$n درسًا',
+      few: '$n دروس',
+      two: 'درسان',
+      one: 'درس واحد',
+    );
+    return '$_temp0 · مع اختبارات';
   }
 
   @override
@@ -704,14 +722,14 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get aiDisclaimer =>
-      'تقدّم SAMIYA AI معلومات تثقيفية، ولا تشخّص ولا توصي بأدوية. قد تخطئ — في الأسئلة المهمة راجعي طبيبة جلدية.';
+      'تقدّم SAMIYA AI معلومات تثقيفية، ولا تشخّص ولا توصي بأدوية. وقد تخطئ، لذا راجعي طبيبة جلدية في المسائل المهمة.';
 
   @override
   String get aiConsent =>
-      'لإعداد الإجابة يُرسل سؤالكِ إلى خدمة Google Gemini. لا تكتبي اسمكِ أو رقم هاتفكِ أو مستنداتكِ الطبية.';
+      'لإعداد الإجابة، يُرسَل سؤالكِ إلى خدمة Google Gemini، لذا لا تكتبي اسمكِ أو رقم هاتفكِ أو بيانات مستنداتكِ الطبية.';
 
   @override
-  String get aiAccept => 'فهمت، لنبدأ';
+  String get aiAccept => 'فهمتُ، لنبدأ';
 
   @override
   String get aiHint => 'اكتبي سؤالكِ…';
@@ -727,7 +745,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get aiNotReady =>
-      'ستنطلق SAMIYA AI قريبًا. إلى ذلك الحين، استكشفي مكتبة المكونات وقسم ابن سينا والأكاديمية.';
+      'ستنطلق SAMIYA AI قريبًا. وإلى ذلك الحين، استكشفي مكتبة المكوّنات وقسم ابن سينا والأكاديمية.';
 
   @override
   String get aiQuota =>
@@ -755,7 +773,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get aiS2 => 'ما الروتين المسائي المناسب للبشرة الجافة؟';
 
   @override
-  String get aiS3 => 'كيف أستخدم الغوا شا بطريقة صحيحة؟';
+  String get aiS3 => 'كيف أستخدم الغواشا بطريقة صحيحة؟';
 
   @override
   String get aiS4 => 'ماذا كتب ابن سينا عن العناية بالبشرة؟';

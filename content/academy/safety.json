@@ -12,7 +12,7 @@
   "uz": "Yorliq — mahsulotning pasporti. Bu darsda yorliqda nimalar ko‘rsatilishi, partiya raqami va ochilgandan keyingi muddat belgisi, allergenlar, patch-test g‘oyasi va nojo‘ya reaksiya haqida qanday xabar berishni o‘rganamiz.",
   "ru": "Этикетка — паспорт продукта. В этом уроке разберём, что указывается на этикетке, номер партии и символ срока после вскрытия, аллергены, идею патч-теста и то, как сообщать о нежелательной реакции.",
   "en": "A label is a product’s passport. This lesson covers what a label shows, the batch number and the period-after-opening symbol, allergens, the idea behind patch testing and how to report an adverse reaction.",
-  "ar": "الملصق هو جواز سفر المنتج. في هذا الدرس نتعرّف إلى ما يتضمّنه الملصق، ورقم التشغيلة ورمز مدة الاستعمال بعد الفتح، ومسبّبات الحساسية، وفكرة اختبار الرقعة، وكيفية الإبلاغ عن تفاعل غير مرغوب فيه."
+  "ar": "الملصق بمثابة بطاقة تعريف المنتج. في هذا الدرس نتعرّف إلى ما يتضمّنه الملصق، ورقم التشغيلة ورمز مدة الاستعمال بعد الفتح، ومسبّبات الحساسية، وفكرة اختبار الرقعة، وكيفية الإبلاغ عن تفاعل غير مرغوب فيه."
  },
  "sections": [
   {
@@ -37,7 +37,7 @@
     "ar": "رقم التشغيلة ورمز PAO"
    },
    "text": {
-    "uz": "Partiya raqami mahsulotni ishlab chiqarilgan aniq turkumigacha kuzatish imkonini beradi — muammo yuzaga kelsa, aynan shu raqam kerak bo‘ladi. YI qoidasiga ko‘ra, yaroqlilik muddati 30 oy yoki undan kam bo‘lgan mahsulotlarda “... oxirigacha ishlatilgani ma’qul” sanasi yoki qum soati belgisi beriladi. Muddati 30 oydan uzun bo‘lsa, ochiq idish belgisi (PAO) ko‘rsatiladi, masalan “12M” — ochilgandan keyin 12 oy. Tadqiqotchilar iste’molchilar bu belgilarni taniy olishi muhimligini ta’kidlaydi.",
+    "uz": "Partiya raqami mahsulot aynan qaysi ishlab chiqarish turkumiga tegishli ekanini aniqlash imkonini beradi — muammo yuzaga kelsa, aynan shu raqam kerak bo‘ladi. YI qoidasiga ko‘ra, yaroqlilik muddati 30 oy yoki undan kam bo‘lgan mahsulotlarda “... oxirigacha ishlatilgani ma’qul” sanasi yoki qum soati belgisi beriladi. Muddati 30 oydan uzun bo‘lsa, ochiq idish belgisi (PAO) ko‘rsatiladi, masalan “12M” — ochilgandan keyin 12 oy. Tadqiqotchilar iste’molchilar bu belgilarni tanib olishi muhimligini ta’kidlaydi.",
     "ru": "Номер партии позволяет проследить продукт до конкретной производственной серии — именно он понадобится, если возникнет проблема. По правилам ЕС, для продуктов со сроком годности 30 месяцев и менее указывается дата «использовать до конца…» или символ песочных часов. Если срок больше 30 месяцев, указывается символ открытой баночки (PAO), например «12M» — 12 месяцев после вскрытия. Исследователи подчёркивают, как важно, чтобы потребители умели распознавать эти символы.",
     "en": "The batch number lets a product be traced back to its specific production lot, and it is exactly what you need if a problem arises. Under EU rules, products with a minimum durability of 30 months or less show a “best used before the end of” date or an hourglass symbol. If durability exceeds 30 months, the open-jar symbol (PAO) is shown, for example “12M”, meaning 12 months after opening. Researchers stress that consumers should be able to recognise these symbols.",
     "ar": "يتيح رقم التشغيلة تتبّع المنتج حتى دفعة الإنتاج المحدّدة، وهو ما ستحتاجين إليه تحديدًا عند حدوث مشكلة. ووفق القواعد الأوروبية، تحمل المنتجات التي لا تتجاوز صلاحيتها الدنيا 30 شهرًا تاريخ «يُفضَّل استعماله قبل نهاية...» أو رمز الساعة الرملية. وإذا زادت الصلاحية على 30 شهرًا يُذكر رمز العلبة المفتوحة (PAO)، مثل «12M» أي 12 شهرًا بعد الفتح. ويؤكّد الباحثون أهمية أن يتعرّف المستهلكون إلى هذه الرموز."
@@ -54,7 +54,7 @@
     "uz": "Kosmetikaga kontakt allergiyasida eng ko‘p uchraydigan sabab — xushbo‘y moddalar; konservantlar (masalan, izotiazolinonlar) va soch bo‘yoqlaridagi PPD ham muhim allergenlardir. Tabiiy ingredientlar, masalan propolis, ham allergen bo‘lishi mumkin — “tabiiy” yozuvi hamma uchun xavfsizlikni bildirmaydi. YIda ayrim xushbo‘y allergenlar ma’lum konsentratsiyadan oshsa, ingredientlar ro‘yxatida alohida nomi bilan ko‘rsatiladi.",
     "ru": "Самая частая причина контактной аллергии на косметику — отдушки; важными аллергенами также являются консерванты (например, изотиазолиноны) и PPD в красках для волос. Натуральные ингредиенты, например прополис, тоже могут быть аллергенами — надпись «натуральный» не означает безопасность для всех. В ЕС отдельные ароматические аллергены при превышении определённой концентрации указываются в списке ингредиентов под собственным названием.",
     "en": "Fragrances are the most common cause of contact allergy to cosmetics; preservatives (such as isothiazolinones) and PPD in hair dyes are also important allergens. Natural ingredients, such as propolis, can be allergens too, so a “natural” label does not mean safe for everyone. In the EU, certain fragrance allergens must be named individually in the ingredient list when they exceed a set concentration.",
-    "ar": "تُعدّ العطور السبب الأكثر شيوعًا لحساسية التلامس من مستحضرات التجميل، كما تُعدّ المواد الحافظة (مثل الأيزوثيازولينونات) ومادة PPD في صبغات الشعر من مسبّبات الحساسية المهمّة. وقد تسبّب المكوّنات الطبيعية، كالعكبر، الحساسية أيضًا، فعبارة «طبيعي» لا تعني الأمان للجميع. وفي الاتحاد الأوروبي يجب ذكر بعض مسبّبات الحساسية العطرية بأسمائها في قائمة المكوّنات إذا تجاوزت تركيزًا محدّدًا."
+    "ar": "تُعدّ العطور السبب الأكثر شيوعًا لحساسية التلامس من مستحضرات التجميل، كما تُعدّ المواد الحافظة (مثل الأيزوثيازولينونات) ومادة PPD في صبغات الشعر من مسبّبات الحساسية المهمّة. وقد تسبّب المكوّنات الطبيعية، كالعكبر، الحساسية أيضًا، فعبارة «طبيعي» لا تعني أن المنتج آمن للجميع. وفي الاتحاد الأوروبي يجب ذكر بعض مسبّبات الحساسية العطرية بأسمائها في قائمة المكوّنات إذا تجاوزت تركيزًا محدّدًا."
    }
   },
   {
@@ -65,10 +65,10 @@
     "ar": "فكرة اختبار الرقعة"
    },
    "text": {
-    "uz": "Patch-test — allergiyaga sabab bo‘lgan moddani aniqlash uchun dermatolog qo‘llaydigan diagnostik usul; unda allergenlar terining kichik qismiga belgilangan vaqtga qo‘yiladi. Shifokor ba’zan mahsulotni bir xil joyga takroran surtish sinovidan (ROAT) ham foydalanadi. FDA ma’lumotiga ko‘ra, ko‘mir smolasi asosidagi soch bo‘yoqlari yorlig‘ida patch-test ko‘rsatmasi beriladi — bunday ko‘rsatmaga albatta amal qilinadi. Salonda mahsulotni kichik joyda sinab ko‘rish tashxis emas va reaksiya bo‘lmasligini ta’minlamaydi.",
+    "uz": "Patch-test — allergiyaga sabab bo‘lgan moddani aniqlash uchun dermatolog qo‘llaydigan diagnostik usul; unda allergenlar terining kichik qismiga belgilangan muddatga qo‘yiladi. Shifokor ba’zan mahsulotni bir xil joyga takroran surtish sinovidan (ROAT) ham foydalanadi. FDA ma’lumotiga ko‘ra, ko‘mir smolasi asosidagi soch bo‘yoqlari yorlig‘ida patch-test ko‘rsatmasi beriladi — bunday ko‘rsatmaga albatta amal qilish kerak. Salonda mahsulotni kichik joyda sinab ko‘rish tashxis emas va reaksiya bo‘lmasligini ta’minlamaydi.",
     "ru": "Патч-тест — диагностический метод, который применяет дерматолог, чтобы выявить вещество, вызывающее аллергию: аллергены наносят на небольшой участок кожи на определённое время. Врач иногда использует и тест повторного открытого нанесения (ROAT). По данным FDA, на этикетках красок для волос на основе каменноугольной смолы приводится инструкция по патч-тесту — ей обязательно следуют. Проба продукта на небольшом участке в салоне не является диагнозом и не исключает реакцию.",
     "en": "A patch test is a diagnostic method used by a dermatologist to identify the substance behind an allergy: allergens are applied to a small area of skin for a set time. Doctors sometimes also use a repeated open application test (ROAT). According to the FDA, coal-tar hair dyes carry patch-test instructions on their labels, and these instructions should always be followed. Trying a product on a small area in the salon is not a diagnosis and does not rule out a reaction.",
-    "ar": "اختبار الرقعة طريقة تشخيصية يستخدمها طبيب الجلدية لتحديد المادة المسبّبة للحساسية، إذ توضع مسبّبات الحساسية على مساحة صغيرة من الجلد لمدة محدّدة. وقد يلجأ الطبيب أيضًا إلى اختبار التطبيق المفتوح المتكرّر (ROAT). ووفق إدارة FDA، تحمل ملصقات صبغات الشعر المعتمدة على قطران الفحم تعليمات لاختبار الرقعة، ويجب الالتزام بها دائمًا. أمّا تجربة المنتج على مساحة صغيرة في الصالون فليست تشخيصًا ولا تستبعد حدوث تفاعل."
+    "ar": "اختبار الرقعة طريقة تشخيصية يستخدمها طبيب الأمراض الجلدية لتحديد المادة المسبّبة للحساسية، إذ توضع مسبّبات الحساسية على مساحة صغيرة من الجلد لمدة محدّدة. وقد يلجأ الطبيب أيضًا إلى اختبار التطبيق المفتوح المتكرّر (ROAT). ووفق إدارة FDA، تحمل ملصقات صبغات الشعر المعتمدة على قطران الفحم تعليمات لاختبار الرقعة، ويجب الالتزام بها دائمًا. أمّا تجربة المنتج على مساحة صغيرة في الصالون فليست تشخيصًا ولا تستبعد حدوث تفاعل."
    }
   },
   {
@@ -97,10 +97,10 @@
    "uz": "Xushbo‘y moddalar kosmetik kontakt allergiyasining eng ko‘p uchraydigan sababidir; “tabiiy” yozuvi hamma uchun xavfsizlikni bildirmaydi.",
    "ru": "Отдушки — самая частая причина контактной аллергии на косметику; надпись «натуральный» не означает безопасность для всех.",
    "en": "Fragrances are the most common cause of cosmetic contact allergy; “natural” does not mean safe for everyone.",
-   "ar": "العطور هي السبب الأكثر شيوعًا لحساسية التلامس من مستحضرات التجميل، وعبارة «طبيعي» لا تعني الأمان للجميع."
+   "ar": "العطور هي السبب الأكثر شيوعًا لحساسية التلامس من مستحضرات التجميل، وعبارة «طبيعي» لا تعني أن المنتج آمن للجميع."
   },
   {
-   "uz": "Reaksiya bo‘lsa: mahsulotni to‘xtatish, shifokorga murojaat qilish, idish va partiya raqamini saqlab, xabar berish.",
+   "uz": "Reaksiya bo‘lsa: mahsulotdan foydalanishni to‘xtatish, shifokorga murojaat qilish, idish va partiya raqamini saqlab, xabar berish.",
    "ru": "При реакции: прекратить использование, обратиться к врачу, сохранить упаковку и номер партии и сообщить о случае.",
    "en": "If a reaction occurs: stop the product, see a healthcare provider, keep the packaging and batch number, and report it.",
    "ar": "عند حدوث تفاعل: أوقفي استعمال المنتج، وتواصلي مع مقدّم الرعاية الصحية، واحتفظي بالعبوة ورقم التشغيلة، ثم أبلغي عن الحالة."
@@ -116,7 +116,7 @@
    },
    "options": [
     {
-     "uz": "Mahsulot 12 mg faol modda saqlaydi",
+     "uz": "Mahsulot tarkibida 12 mg faol modda bor",
      "ru": "Продукт содержит 12 мг активного вещества",
      "en": "The product contains 12 mg of active ingredient",
      "ar": "يحتوي المنتج على 12 ملغ من المادة الفعّالة"
@@ -131,7 +131,7 @@
      "uz": "12 yoshdan oshganlar uchun",
      "ru": "Для лиц старше 12 лет",
      "en": "For people over 12 years old",
-     "ar": "لمن تجاوزوا 12 عامًا"
+     "ar": "مناسب لمن تجاوزوا 12 عامًا"
     }
    ],
    "correct": 1

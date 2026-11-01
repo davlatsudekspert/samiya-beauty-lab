@@ -84,7 +84,7 @@
  ],
  "translations": {
   "uz": {
-   "summary": "Askorbin kislotasi (Ascorbic Acid) kosmetik zardoblarda ishlatiladigan C vitaminining asosiy shakli bo'lib, fotoqarish va pigmentatsiya natijalari bo'yicha o'rganilgan. U kimyoviy jihatdan beqaror, shuning uchun chop etilgan natijalar hosila, pH, tashuvchi baza va stabilizatsiyaga kuchli bog'liq; ko'plab tadqiqotlar C vitamini bilan E vitamini va ferul kislotasi kabi kombinatsiyalarni sinaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "summary": "Askorbin kislotasi (Ascorbic Acid) kosmetik zardoblarda ishlatiladigan C vitaminining asosiy shakli bo'lib, fotoqarish va pigmentatsiya natijalari bo'yicha o'rganilgan. U kimyoviy jihatdan beqaror, shuning uchun chop etilgan natijalar hosila, pH, tashuvchi baza va stabilizatsiyaga kuchli bog'liq; ko'plab tadqiqotlar C vitamini bilan E vitamini va ferul kislotasi kabi kombinatsiyalarni sinaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat hisoblanmaydi.",
    "claims": {
     "ascorbic-acid-1": "Dermatologiyada C vitamini bo'yicha 44 ta tadqiqotning tizimli sharhida askorbin kislotasi klinik jihatdan eng yaxshi tasdiqlangan shakl sifatida ta'riflangan; barqarorlashtirilgan past pH tizimlari hamda L-askorbin kislotasi, E vitamini va ferul kislotasi kombinatsiyalari fotoqarish va pigmentatsiya ko'rsatkichlarini yaxshilashi qayd etilgan.",
     "ascorbic-acid-2": "Melazmada antioksidantlar bo'yicha 30 ta tadqiqotning tizimli sharhida C vitaminini pilinglar va lazerlar kabi jismoniy usullar bilan birga qo'llash yaxshiroq natija bergani, C, E vitaminlari va ferul kislotasi kombinatsiyalari esa yordamchi vosita sifatida imkoniyat ko'rsatgani aniqlangan.",
@@ -102,12 +102,12 @@
    }
   },
   "ar": {
-   "summary": "حمض الأسكوربيك (Ascorbic Acid) هو الشكل الرئيسي لفيتامين ج المستخدم في المصالل التجميلية، وتجري دراسته فيما يخص الشيخوخة الضوئية والتصبّغ. وهو غير مستقر كيميائيًا، لذلك تعتمد النتائج المنشورة بقوة على المشتق ودرجة الحموضة والحامل والتثبيت، وتختبر كثير من التجارب توليفات مثل فيتامين ج مع فيتامين هـ وحمض الفيروليك. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "summary": "حمض الأسكوربيك (Ascorbic Acid) هو الشكل الرئيسي لفيتامين C المستخدم في الأمصال التجميلية، وتجري دراسته فيما يخص الشيخوخة الضوئية والتصبّغ. وهو غير مستقر كيميائيًا، لذلك تعتمد النتائج المنشورة بقوة على المشتق ودرجة الحموضة والحامل والتثبيت، وتختبر كثير من التجارب توليفات مثل فيتامين C مع فيتامين E وحمض الفيروليك. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
    "claims": {
-    "ascorbic-acid-1": "وصفت مراجعة منهجية شملت 44 دراسة عن فيتامين ج في الأمراض الجلدية حمض الأسكوربيك بأنه الشكل الأكثر تأكيدًا سريريًا؛ وأُفيد بأن الأنظمة المثبّتة منخفضة الحموضة وتوليفات حمض الأسكوربيك (L-ascorbic acid) وفيتامين هـ وحمض الفيروليك تحسّن مؤشرات الشيخوخة الضوئية والتصبّغ.",
-    "ascorbic-acid-2": "وجدت مراجعة منهجية شملت 30 دراسة عن مضادات الأكسدة في الكلف أن الجمع بين فيتامين ج والعلاجات الفيزيائية مثل التقشير والليزر أعطى نتائج أفضل، وأن توليفات فيتامينات ج وهـ وحمض الفيروليك أظهرت إمكانات كعلاج مساعد.",
-    "ascorbic-acid-3": "في دراسة عشوائية مزدوجة التعمية شملت 66 امرأة سليمة، ارتبط استخدام مصل فيتامين ج موضعيًا لمدة 12 أسبوعًا بانخفاض مؤشرات تسكّر الجلد (الغلكزة) وكربنة البروتينات والإنترلوكين-1 ألفا، وبتغيّر في معايير لون الجلد مقارنةً بمجموعة غير معالجة؛ وكان المؤلفون مرتبطين بالجهة المصنّعة.",
-    "ascorbic-acid-5": "خلصت المراجعة المنهجية نفسها حول فيتامين ج في الأمراض الجلدية إلى أن الفعالية السريرية تعتمد على كيمياء المشتق والحامل ودرجة الحموضة والتثبيت وطريقة الإيصال، وأن تباين الدراسات ومحدودية البيانات الموحّدة، خاصةً عبر أنماط البشرة الضوئية، يحدّان من المقارنة المباشرة."
+    "ascorbic-acid-1": "وصفت مراجعة منهجية شملت 44 دراسة عن فيتامين C في الأمراض الجلدية حمض الأسكوربيك بأنه الشكل الأكثر تأكيدًا سريريًا؛ وأُفيد بأن الأنظمة المثبّتة منخفضة الحموضة وتوليفات حمض الأسكوربيك (L-ascorbic acid) وفيتامين E وحمض الفيروليك تحسّن مؤشرات الشيخوخة الضوئية والتصبّغ.",
+    "ascorbic-acid-2": "وجدت مراجعة منهجية شملت 30 دراسة عن مضادات الأكسدة في الكلف أن الجمع بين فيتامين C والعلاجات الفيزيائية مثل التقشير والليزر أعطى نتائج أفضل، وأن توليفات فيتامينَي C وE وحمض الفيروليك أظهرت إمكانات كعلاج مساعد.",
+    "ascorbic-acid-3": "في دراسة عشوائية مزدوجة التعمية شملت 66 امرأة سليمة، ارتبط استخدام مصل فيتامين C موضعيًا لمدة 12 أسبوعًا بانخفاض مؤشرات تسكّر الجلد (الغلكزة) وكربنة البروتينات والإنترلوكين-1 ألفا، وبتغيّر في معايير لون الجلد مقارنةً بمجموعة غير معالجة؛ وكان المؤلفون مرتبطين بالجهة المصنّعة.",
+    "ascorbic-acid-5": "خلصت المراجعة المنهجية نفسها حول فيتامين C في الأمراض الجلدية إلى أن الفعالية السريرية تعتمد على كيمياء المشتق والحامل ودرجة الحموضة والتثبيت وطريقة الإيصال، وأن تباين الدراسات ومحدودية البيانات الموحّدة، خاصةً عبر أنماط البشرة الضوئية، يحدّان من المقارنة المباشرة."
    }
   }
  }
