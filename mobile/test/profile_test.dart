@@ -58,6 +58,9 @@ void main() {
 
   testWidgets('hisobni o\'chirish: tasdiq oynasi, "Bekor qilish" hech narsa qilmaydi', (t) async {
     await pumpApp(t, state: signedIn(), initial: '/profile');
+    await t.ensureVisible(k('profile-delete'));
+    await t.drag(find.byType(Scrollable).first, const Offset(0, -200));
+    await t.pumpAndSettle();
     await t.tap(k('profile-delete'));
     await t.pumpAndSettle();
     expect(k('delete-confirm'), findsOneWidget);
@@ -69,6 +72,9 @@ void main() {
 
   testWidgets('tasdiqlansa: AVVAL backend (token bilan), KEYIN auth hisobi; so\'ng kirish ekrani va xabar', (t) async {
     final s = await pumpApp(t, state: signedIn(), initial: '/profile');
+    await t.ensureVisible(k('profile-delete'));
+    await t.drag(find.byType(Scrollable).first, const Offset(0, -200));
+    await t.pumpAndSettle();
     await t.tap(k('profile-delete'));
     await t.pumpAndSettle();
     await t.tap(k('delete-confirm'));
@@ -84,6 +90,9 @@ void main() {
   testWidgets('backend o\'chira olmasa auth hisobi O\'CHIRILMAYDI va xato ko\'rsatiladi', (t) async {
     final s = await pumpApp(t, state: signedIn(), initial: '/profile');
     backend.fail = true;
+    await t.ensureVisible(k('profile-delete'));
+    await t.drag(find.byType(Scrollable).first, const Offset(0, -200));
+    await t.pumpAndSettle();
     await t.tap(k('profile-delete'));
     await t.pumpAndSettle();
     await t.tap(k('delete-confirm'));
@@ -98,6 +107,9 @@ void main() {
   testWidgets('"yaqinda kirish talab qilinadi": maxsus xabar, ekranda qolinadi', (t) async {
     final s = await pumpApp(t, state: signedIn(), initial: '/profile');
     auth.deleteError = const AuthException(AuthFailure.requiresRecentLogin);
+    await t.ensureVisible(k('profile-delete'));
+    await t.drag(find.byType(Scrollable).first, const Offset(0, -200));
+    await t.pumpAndSettle();
     await t.tap(k('profile-delete'));
     await t.pumpAndSettle();
     await t.tap(k('delete-confirm'));
@@ -111,6 +123,9 @@ void main() {
     final s = signedIn();
     backend.configured = false;
     await pumpApp(t, state: s, initial: '/profile');
+    await t.ensureVisible(k('profile-delete'));
+    await t.drag(find.byType(Scrollable).first, const Offset(0, -200));
+    await t.pumpAndSettle();
     await t.tap(k('profile-delete'));
     await t.pumpAndSettle();
     await t.tap(k('delete-confirm'));

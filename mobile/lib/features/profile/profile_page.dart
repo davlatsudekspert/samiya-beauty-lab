@@ -104,6 +104,8 @@ class _ProfilePageState extends State<ProfilePage> {
                 trailing: Icons.arrow_forward_rounded,
                 onPressed: _busy ? null : () => context.safePush('/login'),
               ),
+            const SizedBox(height: 16),
+            _ProCard(key: const Key('profile-pro-row'), active: state.isPro, onTap: () => context.safePush('/pro')),
             const SizedBox(height: 20),
             _Section(
               title: l.chooseLanguage,
@@ -121,14 +123,6 @@ class _ProfilePageState extends State<ProfilePage> {
               title: null,
               child: Column(
                 children: [
-                  _Row(
-                    key: const Key('profile-pro-row'),
-                    icon: Icons.workspace_premium_outlined,
-                    label: 'SAMIYA Pro',
-                    value: state.isPro ? l.proBadge : '',
-                    onTap: () => context.safePush('/pro'),
-                  ),
-                  const Divider(height: 1, color: SamiyaColors.border),
                   _Row(
                     key: const Key('profile-role'),
                     icon: Icons.badge_outlined,
@@ -198,64 +192,96 @@ class _AccountCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final t = Theme.of(context).textTheme;
     final initial = name.trim().isEmpty ? '?' : name.trim().characters.first.toUpperCase();
+    // Lyuks sarlavha: mavzuli rasm, ud-olxo'ri pardasi, oltin halqali avatar va oq serif ism.
     return Container(
-      padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(
-        color: Colors.white,
         borderRadius: BorderRadius.circular(28),
-        border: Border.all(color: SamiyaColors.border),
-        boxShadow: SamiyaShadows.soft,
+        border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.6)),
+        boxShadow: const [BoxShadow(color: Color(0x2A3B1E2B), blurRadius: 22, spreadRadius: -6, offset: Offset(0, 10))],
       ),
-      child: Row(
-        children: [
-          Container(
-            width: 60,
-            height: 60,
-            alignment: Alignment.center,
-            decoration: const BoxDecoration(shape: BoxShape.circle, gradient: SamiyaGradients.cta),
-            child: isGuest
-                ? const Icon(Icons.person_rounded, color: Colors.white, size: 30)
-                : Text(
-                    initial,
-                    style: const TextStyle(fontFamily: 'Jost', fontWeight: FontWeight.w700, fontSize: 24, color: Colors.white),
-                  ),
-          ),
-          const SizedBox(width: 16),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                // Lotin ism arab interfeysida ham to'g'ri o'qilsin (tinish belgisi teskari tomonga o'tmasin).
-                Text(
-                  name,
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  textDirection: isGuest || RegExp(r'[\u0600-\u06FF]').hasMatch(name) ? null : TextDirection.ltr,
-                  style: t.titleMedium?.copyWith(fontSize: 18, fontWeight: FontWeight.w700),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(27),
+        child: Stack(
+          children: [
+            Positioned.fill(child: Image.asset('assets/tiles/welcome.jpg', fit: BoxFit.cover)),
+            const Positioned.fill(
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x993B1E2B), Color(0xE63B1E2B)]),
                 ),
-                if (email != null) Text(email!, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.ltr, style: t.bodyMedium),
-                if (provider != null) ...[
-                  const SizedBox(height: 6),
-                  Wrap(
-                    spacing: 6,
-                    runSpacing: 6,
-                    children: [
-                      InfoPill(
-                        provider == 'apple.com'
-                            ? 'Apple'
-                            : provider == 'google.com'
-                            ? 'Google'
-                            : provider!,
-                        upper: false,
-                      ),
-                      if (pro) InfoPill(AppLocalizations.of(context).proBadge, key: const Key('profile-pro'), upper: false),
-                    ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(18, 26, 18, 22),
+              child: Row(
+                children: [
+                  Container(
+                    width: 66,
+                    height: 66,
+                    alignment: Alignment.center,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      gradient: SamiyaGradients.cta,
+                      border: Border.all(color: const Color(0xFFE9D3A8), width: 2),
+                    ),
+                    child: isGuest
+                        ? const Icon(Icons.person_rounded, color: Colors.white, size: 30)
+                        : Text(
+                            initial,
+                            style: const TextStyle(fontFamily: 'Jost', fontWeight: FontWeight.w700, fontSize: 24, color: Colors.white),
+                          ),
+                  ),
+                  const SizedBox(width: 16),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        // Lotin ism arab interfeysida ham to'g'ri o'qilsin (tinish belgisi teskari tomonga o'tmasin).
+                        Text(
+                          name,
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                          textDirection: isGuest || RegExp(r'[\u0600-\u06FF]').hasMatch(name) ? null : TextDirection.ltr,
+                          style: t.headlineSmall?.copyWith(fontSize: 24, color: Colors.white),
+                        ),
+                        const SizedBox(height: 4),
+                        Container(height: 1, width: 40, color: const Color(0xFFE9D3A8)),
+                        if (email != null) ...[
+                          const SizedBox(height: 6),
+                          Text(
+                            email!,
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            textDirection: TextDirection.ltr,
+                            style: t.bodyMedium?.copyWith(color: const Color(0xDDFFFFFF)),
+                          ),
+                        ],
+                        if (provider != null) ...[
+                          const SizedBox(height: 6),
+                          Wrap(
+                            spacing: 6,
+                            runSpacing: 6,
+                            children: [
+                              InfoPill(
+                                provider == 'apple.com'
+                                    ? 'Apple'
+                                    : provider == 'google.com'
+                                    ? 'Google'
+                                    : provider!,
+                                upper: false,
+                              ),
+                              if (pro) InfoPill(AppLocalizations.of(context).proBadge, key: const Key('profile-pro'), upper: false),
+                            ],
+                          ),
+                        ],
+                      ],
+                    ),
                   ),
                 ],
-              ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
@@ -311,7 +337,16 @@ class _Row extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
             child: Row(
               children: [
-                Icon(icon, color: SamiyaColors.rose),
+                Container(
+                  width: 38,
+                  height: 38,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: SamiyaColors.blush,
+                    border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.6)),
+                  ),
+                  child: Icon(icon, size: 19, color: SamiyaColors.heading),
+                ),
                 const SizedBox(width: 14),
                 Expanded(
                   child: Text(label, style: t.titleMedium?.copyWith(fontWeight: FontWeight.w600)),
@@ -368,6 +403,54 @@ class _LangChoice extends StatelessWidget {
                 ),
               ),
             ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Pro taklifi: ud-olxo'ri gradiyent, oltin hoshiya va mavzuli rasm.
+class _ProCard extends StatelessWidget {
+  const _ProCard({super.key, required this.active, required this.onTap});
+  final bool active;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    final t = Theme.of(context).textTheme;
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(24),
+        onTap: onTap,
+        child: Ink(
+          padding: const EdgeInsets.all(12),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(24),
+            gradient: const LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [Color(0xFF5A2D40), SamiyaColors.heading]),
+            border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.7)),
+          ),
+          child: Row(
+            children: [
+              ClipRRect(
+                borderRadius: const BorderRadius.vertical(top: Radius.circular(30), bottom: Radius.circular(12)),
+                child: Image.asset('assets/tiles/pro.jpg', width: 62, height: 74, fit: BoxFit.cover),
+              ),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('SAMIYA Pro', style: t.titleLarge?.copyWith(color: const Color(0xFFE9D3A8), fontSize: 20)),
+                    const SizedBox(height: 4),
+                    Text(active ? l.proActive : l.proSubtitle, maxLines: 3, style: t.bodySmall?.copyWith(color: const Color(0xDDFFFFFF), height: 1.4)),
+                  ],
+                ),
+              ),
+              const Icon(Icons.chevron_right_rounded, color: Color(0xFFE9D3A8)),
+            ],
           ),
         ),
       ),
