@@ -24,7 +24,7 @@ void main() {
     await t.tap(k('lang-ar'));
     await t.pumpAndSettle();
     expect(dirOf(t, 'language-page'), TextDirection.rtl);
-    expect(find.text('اختر لغتك'), findsOneWidget);
+    expect(find.text('اختاري لغتك'), findsOneWidget);
     expect(s.locale.languageCode, 'ar');
     await t.tap(k('language-continue'));
     await t.pumpAndSettle();

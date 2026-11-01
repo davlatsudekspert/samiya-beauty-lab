@@ -1,5 +1,6 @@
 import { daysRemaining, parseConfig, phase, type CampaignEnv } from "./campaign";
 import { AuthError, getFirebaseJwks, verifyFirebaseIdToken } from "./firebase_auth";
+import { legalPage } from "./legal";
 
 export interface Env extends CampaignEnv {
   DB?: D1Database;
@@ -215,8 +216,13 @@ async function adminGrants(request: Request, env: Env): Promise<Response> {
 
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
-    const { pathname } = new URL(request.url);
+    const url = new URL(request.url);
+    const { pathname } = url;
     if (pathname === "/health") return json({ ok: true });
+    if (pathname === "/privacy" || pathname === "/terms" || pathname === "/delete-account") {
+      if (request.method !== "GET") return json({ error: "method_not_allowed" }, 405);
+      return legalPage(pathname.slice(1) as "privacy" | "terms" | "delete-account", url.searchParams.get("lang"));
+    }
     if (pathname === "/api/v1/config/public") {
       if (request.method !== "GET") return json({ error: "method_not_allowed" }, 405);
       return publicConfig(env, new Date()); // soat faqat serverdan

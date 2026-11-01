@@ -16,7 +16,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get welcomeTagline => 'الجمال والعلم والعناية، دائمًا معك';
 
   @override
-  String get start => 'ابدأ';
+  String get start => 'ابدئي';
 
   @override
   String get campaignPill => '90 يومًا مجانًا · قريبًا';
@@ -28,13 +28,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get continueWithApple => 'المتابعة عبر Apple';
 
   @override
-  String get continueAsGuest => 'المتابعة كضيف';
+  String get continueAsGuest => 'المتابعة كضيفة';
 
   @override
   String get chooseLanguage => 'اللغة';
 
   @override
-  String get languageTitle => 'اختر لغتك';
+  String get languageTitle => 'اختاري لغتك';
 
   @override
   String get continueLabel => 'متابعة';
@@ -46,16 +46,16 @@ class AppLocalizationsAr extends AppLocalizations {
   String get onboarding1Title => 'الجمال يبدأ بالعلم';
 
   @override
-  String get onboarding1Body => 'افهم المكوّنات واختر منتجاتك بوعي.';
+  String get onboarding1Body => 'افهمي المكوّنات واختاري منتجاتك بثقة.';
 
   @override
   String get onboarding2Title => 'عنايتك الشخصية';
 
   @override
-  String get onboarding2Body => 'ضع روتينًا صباحيًا ومسائيًا يناسبك.';
+  String get onboarding2Body => 'أنشئي روتين عناية صباحيًا ومسائيًا يناسبكِ.';
 
   @override
-  String get onboarding3Title => 'تعلّم وتطوّر';
+  String get onboarding3Title => 'تعلّمي وتطوّري';
 
   @override
   String get onboarding3Body =>
@@ -65,47 +65,48 @@ class AppLocalizationsAr extends AppLocalizations {
   String get loginBanner => 'الجمال والعلم والعناية';
 
   @override
-  String get campaignNoCard => '90 يومًا مجانًا · دون بطاقة';
+  String get campaignNoCard => '90 يومًا مجانًا · دون الحاجة إلى بطاقة';
 
   @override
-  String get welcomeTitle => 'أهلًا بك!';
+  String get welcomeTitle => 'أهلًا بكِ!';
 
   @override
-  String get loginSubtitle => 'تابع رحلتك في العناية والمعرفة مع SAMIYA.';
+  String get loginSubtitle => 'تابعي رحلتكِ في العناية والتعلّم مع SAMIYA.';
 
   @override
   String get legalNotice =>
-      'بالمتابعة، فإنك توافق على شروط الاستخدام وسياسة الخصوصية.';
+      'بالمتابعة، فإنكِ توافقين على شروط الاستخدام وسياسة الخصوصية.';
 
   @override
   String get comingSoon => 'قريبًا';
 
   @override
-  String get roleTitle => 'من أنت؟';
+  String get roleTitle => 'من أنتِ؟';
 
   @override
-  String get roleSubtitle => 'سنعرض لك أقسام التعلّم والعناية المناسبة لدورك.';
+  String get roleSubtitle =>
+      'سنعرض لكِ أقسام التعلّم والعناية المناسبة لدوركِ.';
 
   @override
-  String get roleUser => 'مستخدم';
+  String get roleUser => 'مستخدمة';
 
   @override
   String get roleUserDesc => 'العناية الشخصية والمكوّنات';
 
   @override
-  String get roleStudent => 'طالب';
+  String get roleStudent => 'طالبة';
 
   @override
   String get roleStudentDesc => 'الأكاديمية والاختبارات';
 
   @override
-  String get roleCosmetologist => 'أخصائي تجميل';
+  String get roleCosmetologist => 'أخصائية تجميل';
 
   @override
   String get roleCosmetologistDesc => 'مرجع مهني';
 
   @override
-  String get roleTeacher => 'معلّم';
+  String get roleTeacher => 'معلّمة';
 
   @override
   String get roleTeacherDesc => 'المواد التعليمية والمجموعات';
@@ -138,7 +139,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tileAcademy => 'أكاديمية التجميل';
 
   @override
-  String get tileAi => 'مساعد SAMIYA AI';
+  String get tileAi => 'SAMIYA AI';
 
   @override
   String get tileJournal => 'اليوميات';
@@ -162,14 +163,14 @@ class AppLocalizationsAr extends AppLocalizations {
   String get navJournal => 'اليوميات';
 
   @override
-  String get navProfile => 'الملف';
+  String get navProfile => 'الملف الشخصي';
 
   @override
-  String get scannerHeroTitle => 'افحص المكوّنات';
+  String get scannerHeroTitle => 'افحصي المكوّنات';
 
   @override
   String get scannerHeroBody =>
-      'أدخل مكوّنات المنتج. سنعرض معلومات موثّقة بالمصادر عن كل مكوّن.';
+      'أدخلي قائمة مكوّنات المنتج. نعرض لكِ معلومات موثّقة بالمصادر عن كل مكوّن.';
 
   @override
   String get scanCamera => 'المسح بالكاميرا';
@@ -178,17 +179,17 @@ class AppLocalizationsAr extends AppLocalizations {
   String get scanManual => 'إدخال يدوي';
 
   @override
-  String get manualTitle => 'أدخل المكوّنات';
+  String get manualTitle => 'أدخلي المكوّنات';
 
   @override
-  String get manualHelp => 'انسخ قائمة INCI من العبوة (بالأحرف اللاتينية).';
+  String get manualHelp => 'انسخي قائمة INCI من العبوة (بالأحرف اللاتينية).';
 
   @override
   String get manualHint => 'مثال: Aqua, Glycerin, Niacinamide...';
 
   @override
   String foundCount(int n) {
-    return 'عدد المكوّنات: $n';
+    return 'المكوّنات التي عُثر عليها: $n';
   }
 
   @override
@@ -198,18 +199,18 @@ class AppLocalizationsAr extends AppLocalizations {
   String get resultTitle => 'نتيجة التحليل';
 
   @override
-  String get inDatabase => 'موجود في قاعدتنا';
+  String get inDatabase => 'في قاعدة بياناتنا';
 
   @override
-  String get notInDatabase => 'غير موجود في قاعدتنا بعد';
+  String get notInDatabase => 'ليس في قاعدة بياناتنا بعد';
 
   @override
   String get resultNoneFound =>
-      'لم نجد في القائمة المُدخلة مكوّنات من قاعدتنا. القاعدة تتوسّع باستمرار.';
+      'لا يوجد أيٌّ من المكوّنات المُدخلة في قاعدة بياناتنا بعد. قاعدة البيانات تتوسّع باستمرار.';
 
   @override
   String get resultNote =>
-      'هذه ليست نصيحة طبية. المعلومات مبنية على دراسات منشورة ولا تعني أن المنتج مناسب لك.';
+      'هذه ليست نصيحة طبية. المعلومات مبنية على دراسات منشورة، ولا تُبيّن ما إذا كان المنتج مناسبًا لكِ.';
 
   @override
   String get detailClaims => 'ماذا وجدت الدراسات';
@@ -221,11 +222,11 @@ class AppLocalizationsAr extends AppLocalizations {
   String get openSource => 'فتح المصدر';
 
   @override
-  String get draftNote => 'مسودة: لم تتم مراجعة الترجمة بعد.';
+  String get draftNote => 'مسودة: لم تُراجَع الترجمة بعد.';
 
   @override
   String get euUnverified =>
-      'لم يتم التحقق بعد من بيانات التشريع الأوروبي وCosIng.';
+      'لم يتم التحقق بعد من بيانات اللوائح الأوروبية وبيانات CosIng.';
 
   @override
   String get evidenceLegendTitle => 'مستويات الأدلة';
@@ -234,7 +235,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get evidenceA => 'A: مراجعة منهجية أو رأي تنظيمي';
 
   @override
-  String get evidenceB => 'B: دراسة عشوائية محكومة على البشر';
+  String get evidenceB => 'B: تجربة عشوائية على البشر';
 
   @override
   String get evidenceC => 'C: أدلة محدودة';
@@ -249,7 +250,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get studyTypeMetaAnalysis => 'تحليل تلوي';
 
   @override
-  String get studyTypeRct => 'دراسة عشوائية محكومة';
+  String get studyTypeRct => 'تجربة عشوائية';
 
   @override
   String get studyTypeObservational => 'دراسة رصدية';
@@ -264,13 +265,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get studyTypeNarrative => 'مراجعة سردية';
 
   @override
-  String get authFailed => 'تعذّر تسجيل الدخول. حاول مرة أخرى.';
+  String get authFailed => 'تعذّر تسجيل الدخول. يُرجى المحاولة مرة أخرى.';
 
   @override
   String get authUnavailable => 'تسجيل الدخول غير متاح حاليًا.';
 
   @override
-  String get guestName => 'ضيف';
+  String get guestName => 'ضيفة';
 
   @override
   String get actionSignIn => 'تسجيل الدخول';
@@ -282,11 +283,11 @@ class AppLocalizationsAr extends AppLocalizations {
   String get deleteAccount => 'حذف الحساب';
 
   @override
-  String get deleteConfirmTitle => 'حذف الحساب؟';
+  String get deleteConfirmTitle => 'حذف حسابكِ؟';
 
   @override
   String get deleteConfirmBody =>
-      'سيتم حذف حسابك وبياناتك نهائيًا. لا يمكن التراجع عن هذا الإجراء.';
+      'سيتم حذف حسابكِ وبياناته نهائيًا. لا يمكن التراجع عن هذا الإجراء.';
 
   @override
   String get cancel => 'إلغاء';
@@ -299,10 +300,10 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get deleteNeedsRelogin =>
-      'لأسباب أمنية، سجّل الدخول مرة أخرى ثم احذف الحساب.';
+      'لأسباب أمنية، سجّلي الدخول مرة أخرى ثم احذفي حسابكِ.';
 
   @override
-  String get actionFailed => 'تعذّر تنفيذ الإجراء. حاول مرة أخرى.';
+  String get actionFailed => 'تعذّر تنفيذ الإجراء. يُرجى المحاولة مرة أخرى.';
 
   @override
   String get roleSection => 'الدور';
@@ -321,7 +322,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get adminInstallsNote =>
-      'هذا ليس عدد التنزيلات من المتاجر، بل الأجهزة التي فُتح عليها التطبيق مرة واحدة على الأقل.';
+      'هذا ليس عدد التنزيلات من المتجر، بل عدد الأجهزة التي فُتح عليها التطبيق مرة واحدة على الأقل.';
 
   @override
   String get adminTotal => 'الإجمالي';
@@ -345,7 +346,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get adminProPaid => 'Pro (مدفوع)';
 
   @override
-  String get adminProGranted => 'Pro (منحه المشرف)';
+  String get adminProGranted => 'Pro (ممنوح من المشرف)';
 
   @override
   String get adminGrantTitle => 'منح Pro لبريد إلكتروني';
@@ -354,11 +355,20 @@ class AppLocalizationsAr extends AppLocalizations {
   String get adminEmailHint => 'البريد الإلكتروني';
 
   @override
-  String get adminForever => 'دائم';
+  String get adminForever => 'دائمًا';
 
   @override
   String adminDays(int n) {
-    return '$n يومًا';
+    String _temp0 = intl.Intl.pluralLogic(
+      n,
+      locale: localeName,
+      other: '$n يوم',
+      many: '$n يومًا',
+      few: '$n أيام',
+      two: 'يومان',
+      one: 'يوم واحد',
+    );
+    return '$_temp0';
   }
 
   @override
@@ -368,10 +378,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get adminRevoke => 'سحب';
 
   @override
-  String get adminGrantsList => 'من مُنحوا Pro';
+  String get adminGrantsList => 'مَن مُنحوا Pro';
 
   @override
-  String get adminGrantsEmpty => 'لم يُمنح أحد بعد.';
+  String get adminGrantsEmpty => 'لا أحد بعد.';
 
   @override
   String get adminGranted => 'تم منح Pro.';
@@ -397,14 +407,14 @@ class AppLocalizationsAr extends AppLocalizations {
   String get proBadge => 'Pro';
 
   @override
-  String get ingredientsTitle => 'قاعدة المكوّنات';
+  String get ingredientsTitle => 'قاعدة بيانات المكوّنات';
 
   @override
   String get ingredientsSearchHint => 'اسم المكوّن...';
 
   @override
   String get ingredientsNoMatch =>
-      'لم يتم العثور على شيء. القاعدة تتوسّع باستمرار.';
+      'لم يتم العثور على شيء. قاعدة البيانات تتوسّع باستمرار.';
 
   @override
   String get scanSourceCamera => 'التقاط صورة';
@@ -417,19 +427,19 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get scanNoText =>
-      'لم يتم العثور على قائمة المكوّنات. صوّر قائمة المكوّنات عن قرب وبوضوح وبإضاءة جيدة.';
+      'لم يتم العثور على قائمة مكوّنات. التقطي صورة أقرب وأوضح للمكوّنات في إضاءة جيدة.';
 
   @override
   String get scanFailed =>
-      'تعذّرت قراءة الصورة. حاول مرة أخرى أو أدخل المكوّنات يدويًا.';
+      'تعذّرت قراءة الصورة. حاولي مرة أخرى أو أدخلي المكوّنات يدويًا.';
 
   @override
   String get scanUnavailable =>
-      'المسح بالكاميرا غير متاح على هذا الجهاز. أدخل المكوّنات يدويًا.';
+      'المسح بالكاميرا غير متاح على هذا الجهاز. أدخلي المكوّنات يدويًا.';
 
   @override
   String get scanReviewHint =>
-      'تمت قراءة النص من الصورة. راجعه وصحّح الأخطاء إن وُجدت.';
+      'تمت قراءة النص من الصورة. راجعيه وصحّحي أي أخطاء.';
 
   @override
   String get filterAll => 'الكل';
@@ -445,21 +455,21 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get naturalNote =>
-      '«الطبيعي» لا يعني «الآمن» تلقائيًا: قد تحدث حساسية وتهيّج. جرّب أي منتج جديد على منطقة صغيرة من الجلد أولًا.';
+      '«طبيعي» لا يعني تلقائيًا «آمن»: قد تحدث حساسية أو تهيّج. جرّبي أي منتج جديد على مساحة صغيرة من البشرة أولًا.';
 
   @override
   String get filterPractice => 'أساليب العناية';
 
   @override
-  String get filterCaution => 'وصفات منزلية: تحذير';
+  String get filterCaution => 'وصفات منزلية: بحذر';
 
   @override
   String get practiceNote =>
-      'هذه طريقة عناية وليست مكوّنًا: الأدلة غالبًا محدودة. إذا كانت بشرتك ملتهبة أو متضررة فاستشر مختصًا أولًا.';
+      'هذا أسلوب عناية وليس مكوّنًا: الأدلة غالبًا محدودة. إذا كانت بشرتكِ ملتهبة أو متضررة، فاستشيري مختصًا أولًا.';
 
   @override
   String get cautionNote =>
-      'معلومات عن وصفة منزلية شائعة: سُجّلت لبعضها حالات ضرر للبشرة، وبعضها الآخر لا تكفي الأدلة على سلامته وفائدته. اقرأ المعلومات قبل الاستخدام.';
+      'معلومات عن وصفة منزلية شائعة: سُجّلت لبعض هذه الوصفات حالات ضرر للبشرة، وبعضها الآخر لا تكفي الأدلة على سلامتها وفائدتها. اقرئي المعلومات قبل الاستخدام.';
 
   @override
   String get practiceSectionTitle => 'أساليب العناية';
@@ -469,7 +479,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get traditionalNote =>
-      'مصادر تاريخية وتقليدية: هذا ليس دليلًا علميًا ولا يدل على الفعالية أو السلامة.';
+      'مصادر تاريخية وتقليدية: هذا ليس دليلًا علميًا، ولا يدل على الفعالية أو السلامة.';
 
   @override
   String get ibnSinaCardBody =>
@@ -500,7 +510,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tradFolk => 'الطب الشعبي وعلم النبات العرقي';
 
   @override
-  String get skinTypeTitle => 'نوع بشرتك (تحدده بنفسك)';
+  String get skinTypeTitle => 'نوع بشرتكِ (تحدّدينه بنفسكِ)';
 
   @override
   String get skinDry => 'جافة';
@@ -519,24 +529,24 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get skinNote =>
-      'لا يحدد التطبيق نوع بشرتك ولا يشخّص أي حالة: هذه ملاحظة لك فقط.';
+      'لا يحدّد التطبيق نوع بشرتكِ ولا يشخّص أي شيء: هذه ملاحظة لكِ.';
 
   @override
-  String get avoidTitle => 'مكوّنات تريد تجنّبها';
+  String get avoidTitle => 'مكوّنات تريدين تجنّبها';
 
   @override
-  String get avoidHint => 'اسم INCI، مثل Parfum';
+  String get avoidHint => 'اسم INCI، مثلًا Parfum';
 
   @override
   String get avoidAdd => 'إضافة';
 
   @override
   String get avoidEmpty =>
-      'القائمة فارغة. إذا وجد المسح هذه المكوّنات فسننبهك.';
+      'القائمة فارغة. إذا وجد المسح هذه المكوّنات، فسنشير إليها.';
 
   @override
   String avoidFound(String names) {
-    return 'وُجدت مكوّنات من قائمة التجنّب لديك: $names';
+    return 'وُجدت مكوّنات من قائمة التجنّب لديكِ: $names';
   }
 
   @override
@@ -555,28 +565,28 @@ class AppLocalizationsAr extends AppLocalizations {
   String get routineStepHint => 'مثلًا: غسول';
 
   @override
-  String get routineEmpty => 'لا توجد خطوات بعد. أضف روتين عنايتك.';
+  String get routineEmpty => 'لا توجد خطوات بعد. أضيفي روتين عنايتكِ الخاص.';
 
   @override
   String routineDoneToday(int done, int total) {
-    return 'أُنجز اليوم: $done/$total';
+    return 'المُنجز اليوم: $done/$total';
   }
 
   @override
-  String get moveUp => 'إلى الأعلى';
+  String get moveUp => 'نقل للأعلى';
 
   @override
-  String get moveDown => 'إلى الأسفل';
+  String get moveDown => 'نقل للأسفل';
 
   @override
   String get journalAdd => 'إضافة تدوينة';
 
   @override
   String get journalEmpty =>
-      'لا توجد تدوينات بعد. اترك ملاحظة قصيرة عن بشرتك وعنايتك.';
+      'لا توجد تدوينات بعد. اتركي ملاحظة قصيرة عن بشرتكِ وعنايتكِ.';
 
   @override
-  String get journalFeeling => 'كيف تشعر بشرتك اليوم؟';
+  String get journalFeeling => 'كيف تشعر بشرتكِ اليوم؟';
 
   @override
   String get feelGreat => 'ممتازة';

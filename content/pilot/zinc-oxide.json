@@ -1,152 +1,152 @@
 {
-  "inci": "Zinc Oxide",
-  "slug": "zinc-oxide",
-  "status": "draft",
-  "cosing": {
-    "functions": [],
-    "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
-    "verified": false
-  },
-  "eu_regulation": {
-    "annex": "unverified",
-    "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Zinc oxide may fall under the EU Annex VI list of UV filters, but this is unconfirmed; check the annexes and CosIng entry manually before publishing.",
-    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
-    "verified": false
-  },
-  "summary_en": "Zinc oxide is a mineral (physical) UV filter used in sunscreens, and it has been studied for UVA-UVB coverage, for the behaviour of its nanoparticle form and for skin penetration. The evidence summarised here comes from narrative reviews and small studies in human volunteers; no systematic review was identified, and results depend on particle size, coating and formulation. The reviews also noted a potential inhalation concern for spray products containing nanoparticles. Sun protection (SPF) depends on the whole formulation rather than on zinc oxide alone. This card summarises published evidence only and is not medical advice.",
-  "claims": [
+ "inci": "Zinc Oxide",
+ "slug": "zinc-oxide",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Zinc oxide may fall under the EU Annex VI list of UV filters, but this is unconfirmed; check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Zinc oxide is a mineral (physical) UV filter used in sunscreens, and it has been studied for UVA-UVB coverage, for the behaviour of its nanoparticle form and for skin penetration. The evidence summarised here comes from narrative reviews and small studies in human volunteers; no systematic review was identified, and results depend on particle size, coating and formulation. The reviews also noted a potential inhalation concern for spray products containing nanoparticles. Sun protection (SPF) depends on the whole formulation rather than on zinc oxide alone. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "zinc-oxide-1",
+   "text_en": "A narrative review of the inorganic UV filters zinc oxide and titanium dioxide reported that zinc oxide has a broad UVA-UVB absorption curve while titanium dioxide provides better UVB protection. It described the human health risk of inorganic filters as low because of a lack of percutaneous absorption, but noted a potential risk from inhalation and recommended against spray sunscreen products containing nanoparticles. This is a narrative review, not a systematic one.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
     {
-      "id": "zinc-oxide-1",
-      "text_en": "A narrative review of the inorganic UV filters zinc oxide and titanium dioxide reported that zinc oxide has a broad UVA-UVB absorption curve while titanium dioxide provides better UVB protection. It described the human health risk of inorganic filters as low because of a lack of percutaneous absorption, but noted a potential risk from inhalation and recommended against spray sunscreen products containing nanoparticles. This is a narrative review, not a systematic one.",
-      "evidence_level": "C",
-      "study_type": "narrative review",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "30444533",
-          "doi": "10.1111/phpp.12439",
-          "title": "A review of inorganic UV filters zinc oxide and titanium dioxide.",
-          "year": 2018,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30444533/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "zinc-oxide-2",
-      "text_en": "A narrative review of titanium dioxide and zinc oxide nanoparticles in sunscreens reported that replacing micro-sized with nano-sized particles removes the opaque appearance but can alter the balance between UVA and UVB protection, and suggested that mixtures of micro- and nano-sized zinc oxide may improve this. It also reported that the nanoparticles are incorporated into the stratum corneum, that (photo)cytotoxicity and genotoxicity were induced, that particles were sporadically observed in viable skin layers (especially with long-term exposure and zinc oxide), and advised continued caution. The review dates from 2011, and sun protection depends on the whole formulation, not on zinc oxide alone.",
-      "evidence_level": "C",
-      "study_type": "narrative review",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "24198489",
-          "doi": "10.2147/NSA.S19419",
-          "title": "Titanium dioxide and zinc oxide nanoparticles in sunscreens: focus on their safety and effectiveness.",
-          "year": 2011,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/24198489/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "zinc-oxide-3",
-      "text_en": "In a study in which agglomerated zinc oxide nanoparticles were applied repeatedly to human volunteers over 5 days, multiphoton imaging showed that the particles accumulated on the skin surface and in skin furrows without entering the viable epidermis or causing detectable cellular toxicity there. In excised human skin, zinc ion concentrations in the viable epidermis were slightly elevated, which the authors did not link to local toxicity. The abstract does not state the number of volunteers; the study tested intact skin and may not apply to other formulations or to damaged skin.",
-      "evidence_level": "C",
-      "study_type": "observational",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "30448212",
-          "doi": "10.1016/j.jid.2018.08.024",
-          "title": "Support for the Safe Use of Zinc Oxide Nanoparticle Sunscreens: Lack of Skin Penetration or Cellular Toxicity after Repeated Application in Volunteers.",
-          "year": 2018,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30448212/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "zinc-oxide-4",
-      "text_en": "Imaging studies in human volunteers reported that coated and uncoated zinc oxide nanoparticles mostly remained in the superficial stratum corneum and skin furrows. One study observed limited penetration of a coated nanoparticle in a water-in-oil emulsion into the viable epidermis next to furrows without a change in cellular metabolic (redox) state, indicating that formulation and coating matter. A later study found no penetration into the viable epidermis and no apparent toxicity after 6 hours of application, including under occlusion and on barrier-impaired skin. The abstracts do not state sample sizes, and the findings come from imaging techniques in a small number of products.",
-      "evidence_level": "C",
-      "study_type": "observational",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "23454052",
-          "doi": "10.1016/j.ejpb.2013.01.020",
-          "title": "The effect of formulation on the penetration of coated and uncoated zinc oxide nanoparticles into the viable epidermis of human skin in vivo.",
-          "year": 2013,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23454052/"
-        },
-        {
-          "type": "pubmed",
-          "pmid": "27131753",
-          "doi": "10.1016/j.ejpb.2016.04.022",
-          "title": "Human skin penetration and local effects of topical nano zinc oxide after occlusion and barrier impairment.",
-          "year": 2016,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/27131753/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "zinc-oxide-5",
-      "text_en": "In a stable-isotope tracing study of 20 volunteers using sunscreens containing zinc oxide particles applied outdoors for five consecutive days, most of the applied zinc was not absorbed, but small increases in tracer zinc were detected in blood and urine (blood tracer about one-thousandth of total blood zinc); it is not known whether the zinc was absorbed as particles or as soluble zinc. A 3-person pilot with about 30 nm particles reported very low absorption (minimal estimate below 0.01% of the applied dose). Both studies are small and cover short application periods.",
-      "evidence_level": "C",
-      "study_type": "observational",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "20705894",
-          "doi": "10.1093/toxsci/kfq243",
-          "title": "Small amounts of zinc from zinc oxide particles in sunscreens applied outdoors are absorbed through human skin.",
-          "year": 2010,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/20705894/"
-        },
-        {
-          "type": "pubmed",
-          "pmid": "22316633",
-          "doi": "10.1016/j.scitotenv.2011.12.046",
-          "title": "Comparison of dermal absorption of zinc from different sunscreen formulations and differing UV exposure based on stable isotope tracing.",
-          "year": 2012,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/22316633/"
-        }
-      ],
-      "checked_on": "2026-10-31"
+     "type": "pubmed",
+     "pmid": "30444533",
+     "doi": "10.1111/phpp.12439",
+     "title": "A review of inorganic UV filters zinc oxide and titanium dioxide.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30444533/"
     }
-  ],
-  "translations": {
-    "uz": {
-      "summary": "Sink oksidi quyoshdan himoya vositalarida qo'llaniladigan mineral (fizik) UV filtr bo'lib, u UVA-UVB qamrovi, nano-zarracha shaklining xususiyatlari va teri orqali o'tishi bo'yicha o'rganilgan. Bu yerda keltirilgan dalillar hikoyaviy sharhlar va ko'ngillilarda o'tkazilgan kichik tadqiqotlardan olingan; tizimli sharh aniqlanmadi, natijalar zarracha o'lchami, qoplama va formulaga bog'liq. Sharhlarda nano-zarrachali sprey mahsulotlar uchun nafas yo'llari orqali olish xavfi ham qayd etilgan. Quyoshdan himoya (SPF) faqat sink oksidiga emas, butun formulaga bog'liq. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
-      "claims": {
-        "zinc-oxide-1": "Noorganik UV filtrlar — sink oksidi va titan dioksidi — haqidagi hikoyaviy sharhda sink oksidining UVA-UVB bo'yicha keng yutilish egri chizig'iga ega ekani, titan dioksidi esa UVB'dan yaxshiroq himoya berishi qayd etilgan. Sharhda noorganik filtrlarning inson salomatligi uchun xavfi teri orqali so'rilishning yo'qligi sababli past deb ta'riflangan, ammo nafas yo'llari orqali olish mumkin bo'lgan xavf ta'kidlangan va nano-zarrachali sprey quyoshdan himoya vositalariga qarshi tavsiya berilgan. Bu tizimli emas, hikoyaviy sharh.",
-        "zinc-oxide-2": "Quyoshdan himoya vositalaridagi titan dioksidi va sink oksidi nano-zarrachalari haqidagi hikoyaviy sharhda mikro o'lchamli zarrachalarni nano o'lchamlisi bilan almashtirish xira ko'rinishni yo'qotishi, lekin UVA va UVB himoyasi muvozanatini o'zgartirishi mumkinligi qayd etilgan; mikro va nano o'lchamli sink oksidi aralashmalari buni yaxshilashi mumkinligi taklif qilingan. Shuningdek, nano-zarrachalar shox qavatga kirib borishi, (foto)sitotoksiklik va genotoksiklik chaqirilgani, zarrachalar jonli teri qatlamlarida (ayniqsa uzoq muddatli ta'sir va sink oksidi bilan) vaqti-vaqti bilan kuzatilgani aytilgan va ehtiyotkorlikni davom ettirish tavsiya etilgan. Sharh 2011-yilga oid; quyoshdan himoya faqat sink oksidiga emas, butun formulaga bog'liq.",
-        "zinc-oxide-3": "Agglomeratlangan sink oksidi nano-zarrachalari ko'ngillilarga 5 kun davomida takroran surtilgan tadqiqotda ko'p fotonli tasvirlash zarrachalar teri yuzasida va teri egatlarida to'planib, jonli epidermisga kirmagani va u yerda aniqlanadigan hujayra toksikligini keltirib chiqarmaganini ko'rsatgan. Ajratib olingan inson terisida jonli epidermisdagi sink ionlari konsentratsiyasi biroz oshgan, mualliflar buni mahalliy toksiklik bilan bog'lamagan. Annotatsiyada ko'ngillilar soni ko'rsatilmagan; tadqiqotda butun teri sinalgan va natijalar boshqa formulalar yoki shikastlangan teriga mos kelmasligi mumkin.",
-        "zinc-oxide-4": "Ko'ngillilarda o'tkazilgan tasvirlash tadqiqotlarida qoplamali va qoplamasiz sink oksidi nano-zarrachalari asosan sirtqi shox qavatda va teri egatlarida qolgani qayd etilgan. Bir tadqiqotda suv-moy emulsiyasidagi qoplamali nano-zarracha egatlarga yaqin jonli epidermisga cheklangan darajada kirgani, ammo hujayra metabolik (redoks) holati o'zgarmagani kuzatilgan; bu formula va qoplama muhimligini ko'rsatadi. Keyingi tadqiqotda 6 soatlik surtishdan keyin, jumladan okklyuziya sharoitida va to'siq funksiyasi buzilgan terida ham, jonli epidermisga kirish va sezilarli toksiklik topilmagan. Annotatsiyalarda tanlama hajmi ko'rsatilmagan; natijalar oz sonli mahsulotlarda tasvirlash usullari bilan olingan.",
-        "zinc-oxide-5": "Sink oksidi zarrachalari bo'lgan quyoshdan himoya vositalari 20 nafar ko'ngillilarga ketma-ket besh kun davomida ochiq havoda surtilgan barqaror izotop bilan kuzatuv tadqiqotida surtilgan sinkning katta qismi so'rilmagan, lekin qon va siydikda izotop belgili sinkning kichik o'sishi aniqlangan (qondagi belgili sink umumiy qon sinkining taxminan mingdan biri); sink zarracha shaklida yoki erigan sink sifatida so'rilgani noma'lum. Taxminan 30 nm zarrachalar bilan 3 kishilik pilot tadqiqotda juda past so'rilish qayd etilgan (minimal baho surtilgan dozaning 0,01% idan kam). Ikkala tadqiqot ham kichik va surtish davri qisqa."
-      }
-    },
-    "ru": {
-      "summary": "Оксид цинка является минеральным (физическим) УФ-фильтром, используемым в солнцезащитных средствах; его изучали в отношении охвата UVA-UVB, поведения наночастичной формы и проникновения через кожу. Представленные здесь данные получены из повествовательных обзоров и небольших исследований с участием добровольцев; систематический обзор не найден, а результаты зависят от размера частиц, покрытия и состава. В обзорах также отмечена возможная опасность вдыхания для спреев с наночастицами. Солнцезащита (SPF) зависит от всего состава, а не только от оксида цинка. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
-      "claims": {
-        "zinc-oxide-1": "В повествовательном обзоре неорганических УФ-фильтров, оксида цинка и диоксида титана, сообщалось, что оксид цинка имеет широкую кривую поглощения в диапазоне UVA-UVB, а диоксид титана обеспечивает лучшую защиту от UVB. Риск неорганических фильтров для здоровья человека описан как низкий из-за отсутствия чрескожного всасывания, однако отмечен возможный риск при вдыхании, и даны рекомендации против спреев-солнцезащитных средств с наночастицами. Это повествовательный, а не систематический обзор.",
-        "zinc-oxide-2": "В повествовательном обзоре наночастиц диоксида титана и оксида цинка в солнцезащитных средствах сообщалось, что замена микроразмерных частиц наноразмерными устраняет непрозрачный вид, но может изменить баланс защиты от UVA и UVB; предложено, что смеси микро- и наноразмерного оксида цинка могут улучшить ситуацию. Также сообщалось, что наночастицы встраиваются в роговой слой, что вызывались (фото)цитотоксичность и генотоксичность, что частицы эпизодически обнаруживались в жизнеспособных слоях кожи (особенно при длительном воздействии и для оксида цинка), и рекомендовано сохранять осторожность. Обзор датирован 2011 годом; солнцезащита зависит от всего состава, а не только от оксида цинка.",
-        "zinc-oxide-3": "В исследовании, где агломерированные наночастицы оксида цинка многократно наносили на кожу добровольцев в течение 5 дней, многофотонная визуализация показала, что частицы накапливались на поверхности кожи и в кожных бороздках, не проникая в жизнеспособный эпидермис и не вызывая там выявляемой клеточной токсичности. В иссечённой коже человека концентрации ионов цинка в жизнеспособном эпидермисе были слегка повышены, что авторы не связали с местной токсичностью. В аннотации число добровольцев не указано; изучалась неповреждённая кожа, и результаты могут не относиться к другим составам или повреждённой коже.",
-        "zinc-oxide-4": "В визуализационных исследованиях с участием добровольцев сообщалось, что наночастицы оксида цинка с покрытием и без покрытия в основном оставались в поверхностном роговом слое и кожных бороздках. В одном исследовании наблюдалось ограниченное проникновение частиц с покрытием в эмульсии «вода в масле» в жизнеспособный эпидермис рядом с бороздками без изменения клеточного метаболического (редокс) состояния, что указывает на значение состава и покрытия. В более позднем исследовании после 6 часов нанесения, в том числе при окклюзии и на коже с нарушенным барьером, проникновения в жизнеспособный эпидермис и явной токсичности не обнаружено. В аннотациях размеры выборок не указаны; результаты получены методами визуализации на небольшом числе продуктов.",
-        "zinc-oxide-5": "В исследовании с изотопной меткой на 20 добровольцах, использовавших солнцезащитные средства с частицами оксида цинка на открытом воздухе пять дней подряд, большая часть нанесённого цинка не всасывалась, но в крови и моче обнаружено небольшое повышение меченого цинка (метка в крови около одной тысячной от общего цинка крови); неизвестно, всосался ли цинк в виде частиц или растворимого цинка. В пилотном исследовании на 3 людях с частицами около 30 нм сообщалось об очень низком всасывании (минимальная оценка менее 0,01% нанесённой дозы). Оба исследования небольшие и охватывают короткие периоды нанесения."
-      }
-    },
-    "ar": {
-      "summary": "أكسيد الزنك (zinc oxide) مرشّح معدني (فيزيائي) للأشعة فوق البنفسجية يُستخدم في واقيات الشمس، وقد جرت دراسته من حيث تغطية UVA-UVB وسلوك شكله النانوي وانتقاله عبر الجلد. تأتي الأدلة الملخّصة هنا من مراجعات سردية ودراسات صغيرة على متطوعين؛ ولم تُحدَّد مراجعة منهجية، وتعتمد النتائج على حجم الجسيمات والغلاف والتركيبة. كما أشارت المراجعات إلى قلق محتمل من الاستنشاق في المنتجات البخاخة التي تحتوي على جسيمات نانوية. وتعتمد الحماية من الشمس (SPF) على التركيبة كاملة وليس على أكسيد الزنك وحده. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
-      "claims": {
-        "zinc-oxide-1": "ذكرت مراجعة سردية للمرشحات غير العضوية للأشعة فوق البنفسجية، أكسيد الزنك وثاني أكسيد التيتانيوم، أن أكسيد الزنك له منحنى امتصاص واسع في نطاق UVA-UVB بينما يوفّر ثاني أكسيد التيتانيوم حماية أفضل من UVB. ووصفت المراجعة الخطر على صحة الإنسان من المرشحات غير العضوية بأنه منخفض لعدم وجود امتصاص عبر الجلد، لكنها أشارت إلى خطر محتمل عند الاستنشاق وأوصت بعدم استخدام منتجات واقي الشمس بخاخة الحاوية على جسيمات نانوية. وهي مراجعة سردية وليست مراجعة منهجية.",
-        "zinc-oxide-2": "ذكرت مراجعة سردية لجسيمات ثاني أكسيد التيتانيوم وأكسيد الزنك النانوية في واقيات الشمس أن استبدال الجسيمات الدقيقة بجسيمات نانوية يزيل المظهر المعتم لكنه قد يغيّر التوازن بين الحماية من UVA وUVB، واقترحت أن خلائط أكسيد الزنك بحجم دقيق ونانوي قد تحسّن ذلك. كما أفادت بأن الجسيمات النانوية تندمج في الطبقة المتقرنة، وأنها تُحدث سمية خلوية (ضوئية) وسمية جينية، وأنه لوحظ وجودها بشكل متقطع في طبقات الجلد الحيّة (خاصة مع التعرض طويل الأمد ومع أكسيد الزنك)، ونصحت بمواصلة الحذر. تعود المراجعة إلى عام 2011، والحماية من الشمس تعتمد على التركيبة كاملة وليس على أكسيد الزنك وحده.",
-        "zinc-oxide-3": "في دراسة طُبّقت فيها جسيمات أكسيد الزنك النانوية المتكتلة بشكل متكرر على متطوعين لمدة 5 أيام، أظهر التصوير متعدد الفوتونات أن الجسيمات تراكمت على سطح الجلد وفي أخاديد الجلد دون أن تدخل البشرة الحيّة أو تسبب سمية خلوية يمكن كشفها هناك. وفي جلد بشري مستأصل ارتفعت تراكيز أيونات الزنك في البشرة الحيّة قليلًا، ولم يربط المؤلفون ذلك بسمية موضعية. لا يذكر الملخص عدد المتطوعين؛ وقد اختُبر جلد سليم، وقد لا تنطبق النتائج على تركيبات أخرى أو على جلد متضرر.",
-        "zinc-oxide-4": "أفادت دراسات تصوير على متطوعين بأن جسيمات أكسيد الزنك النانوية المغلّفة وغير المغلّفة بقيت في معظمها في الطبقة المتقرنة السطحية وفي أخاديد الجلد. ولاحظت إحدى الدراسات اختراقًا محدودًا لجسيم نانوي مغلّف في مستحلب ماء في زيت إلى البشرة الحيّة بجوار الأخاديد دون تغيّر في الحالة الأيضية (الأكسدة والاختزال) للخلايا، مما يشير إلى أهمية التركيبة والغلاف. ولم تجد دراسة لاحقة اختراقًا للبشرة الحيّة ولا سمية ظاهرة بعد 6 ساعات من التطبيق، بما في ذلك تحت الانسداد وعلى جلد ذي حاجز متضرر. لا تذكر الملخصات أحجام العيّنات، وتأتي النتائج من تقنيات تصوير على عدد محدود من المنتجات.",
-        "zinc-oxide-5": "في دراسة تتبّع بالنظائر المستقرة شملت 20 متطوعًا استخدموا واقيات شمس تحتوي على جسيمات أكسيد الزنك في الهواء الطلق لمدة خمسة أيام متتالية، لم يُمتصّ معظم الزنك المطبّق، لكن رُصدت زيادات صغيرة في الزنك المتتبَّع في الدم والبول (نحو جزء من ألف من إجمالي زنك الدم)، ولا يُعرف هل امتُصّ الزنك على شكل جسيمات أم زنك ذائب. وأفادت دراسة تجريبية على 3 أشخاص بجسيمات نحو 30 نانومتر بامتصاص منخفض جدًا (تقدير أدنى أقل من 0.01% من الجرعة المطبّقة). كلتا الدراستين صغيرة وتغطي فترات تطبيق قصيرة."
-      }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "zinc-oxide-2",
+   "text_en": "A narrative review of titanium dioxide and zinc oxide nanoparticles in sunscreens reported that replacing micro-sized with nano-sized particles removes the opaque appearance but can alter the balance between UVA and UVB protection, and suggested that mixtures of micro- and nano-sized zinc oxide may improve this. It also reported that the nanoparticles are incorporated into the stratum corneum, that (photo)cytotoxicity and genotoxicity were induced, that particles were sporadically observed in viable skin layers (especially with long-term exposure and zinc oxide), and advised continued caution. The review dates from 2011, and sun protection depends on the whole formulation, not on zinc oxide alone.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "24198489",
+     "doi": "10.2147/NSA.S19419",
+     "title": "Titanium dioxide and zinc oxide nanoparticles in sunscreens: focus on their safety and effectiveness.",
+     "year": 2011,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24198489/"
     }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "zinc-oxide-3",
+   "text_en": "In a study in which agglomerated zinc oxide nanoparticles were applied repeatedly to human volunteers over 5 days, multiphoton imaging showed that the particles accumulated on the skin surface and in skin furrows without entering the viable epidermis or causing detectable cellular toxicity there. In excised human skin, zinc ion concentrations in the viable epidermis were slightly elevated, which the authors did not link to local toxicity. The abstract does not state the number of volunteers; the study tested intact skin and may not apply to other formulations or to damaged skin.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "30448212",
+     "doi": "10.1016/j.jid.2018.08.024",
+     "title": "Support for the Safe Use of Zinc Oxide Nanoparticle Sunscreens: Lack of Skin Penetration or Cellular Toxicity after Repeated Application in Volunteers.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30448212/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "zinc-oxide-4",
+   "text_en": "Imaging studies in human volunteers reported that coated and uncoated zinc oxide nanoparticles mostly remained in the superficial stratum corneum and skin furrows. One study observed limited penetration of a coated nanoparticle in a water-in-oil emulsion into the viable epidermis next to furrows without a change in cellular metabolic (redox) state, indicating that formulation and coating matter. A later study found no penetration into the viable epidermis and no apparent toxicity after 6 hours of application, including under occlusion and on barrier-impaired skin. The abstracts do not state sample sizes, and the findings come from imaging techniques in a small number of products.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "23454052",
+     "doi": "10.1016/j.ejpb.2013.01.020",
+     "title": "The effect of formulation on the penetration of coated and uncoated zinc oxide nanoparticles into the viable epidermis of human skin in vivo.",
+     "year": 2013,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23454052/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "27131753",
+     "doi": "10.1016/j.ejpb.2016.04.022",
+     "title": "Human skin penetration and local effects of topical nano zinc oxide after occlusion and barrier impairment.",
+     "year": 2016,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27131753/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "zinc-oxide-5",
+   "text_en": "In a stable-isotope tracing study of 20 volunteers using sunscreens containing zinc oxide particles applied outdoors for five consecutive days, most of the applied zinc was not absorbed, but small increases in tracer zinc were detected in blood and urine (blood tracer about one-thousandth of total blood zinc); it is not known whether the zinc was absorbed as particles or as soluble zinc. A 3-person pilot with about 30 nm particles reported very low absorption (minimal estimate below 0.01% of the applied dose). Both studies are small and cover short application periods.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "20705894",
+     "doi": "10.1093/toxsci/kfq243",
+     "title": "Small amounts of zinc from zinc oxide particles in sunscreens applied outdoors are absorbed through human skin.",
+     "year": 2010,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/20705894/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "22316633",
+     "doi": "10.1016/j.scitotenv.2011.12.046",
+     "title": "Comparison of dermal absorption of zinc from different sunscreen formulations and differing UV exposure based on stable isotope tracing.",
+     "year": 2012,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22316633/"
+    }
+   ],
+   "checked_on": "2026-10-31"
   }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Sink oksidi quyoshdan himoya vositalarida qo'llaniladigan mineral (fizik) UV filtr bo'lib, u UVA-UVB qamrovi, nano-zarracha shaklining xususiyatlari va teri orqali o'tishi bo'yicha o'rganilgan. Bu yerda keltirilgan dalillar hikoyaviy sharhlar va ko'ngillilarda o'tkazilgan kichik tadqiqotlardan olingan; tizimli sharh aniqlanmadi, natijalar zarracha o'lchami, qoplama va formulaga bog'liq. Sharhlarda nano-zarrachali sprey mahsulotlar uchun nafas yo'llari orqali olish xavfi ham qayd etilgan. Quyoshdan himoya (SPF) faqat sink oksidiga emas, butun formulaga bog'liq. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "zinc-oxide-1": "Noorganik UV filtrlar — sink oksidi va titan dioksidi — haqidagi hikoyaviy sharhda sink oksidining UVA-UVB bo'yicha keng yutilish egri chizig'iga ega ekani, titan dioksidi esa UVB'dan yaxshiroq himoya berishi qayd etilgan. Sharhda noorganik filtrlarning inson salomatligi uchun xavfi teri orqali so'rilishning yo'qligi sababli past deb ta'riflangan, ammo nafas yo'llari orqali olish mumkin bo'lgan xavf ta'kidlangan va nano-zarrachali sprey quyoshdan himoya vositalariga qarshi tavsiya berilgan. Bu tizimli emas, hikoyaviy sharh.",
+    "zinc-oxide-2": "Quyoshdan himoya vositalaridagi titan dioksidi va sink oksidi nano-zarrachalari haqidagi hikoyaviy sharhda mikro o'lchamli zarrachalarni nano o'lchamlisi bilan almashtirish xira ko'rinishni yo'qotishi, lekin UVA va UVB himoyasi muvozanatini o'zgartirishi mumkinligi qayd etilgan; mikro va nano o'lchamli sink oksidi aralashmalari buni yaxshilashi mumkinligi taklif qilingan. Shuningdek, nano-zarrachalar shox qavatga kirib borishi, (foto)sitotoksiklik va genotoksiklik chaqirilgani, zarrachalar jonli teri qatlamlarida (ayniqsa uzoq muddatli ta'sir va sink oksidi bilan) vaqti-vaqti bilan kuzatilgani aytilgan va ehtiyotkorlikni davom ettirish tavsiya etilgan. Sharh 2011-yilga oid; quyoshdan himoya faqat sink oksidiga emas, butun formulaga bog'liq.",
+    "zinc-oxide-3": "Agglomeratlangan sink oksidi nano-zarrachalari ko'ngillilarga 5 kun davomida takroran surtilgan tadqiqotda ko'p fotonli tasvirlash zarrachalar teri yuzasida va teri egatlarida to'planib, jonli epidermisga kirmagani va u yerda aniqlanadigan hujayra toksikligini keltirib chiqarmaganini ko'rsatgan. Ajratib olingan inson terisida jonli epidermisdagi sink ionlari konsentratsiyasi biroz oshgan, mualliflar buni mahalliy toksiklik bilan bog'lamagan. Annotatsiyada ko'ngillilar soni ko'rsatilmagan; tadqiqotda butun teri sinalgan va natijalar boshqa formulalar yoki shikastlangan teriga mos kelmasligi mumkin.",
+    "zinc-oxide-4": "Ko'ngillilarda o'tkazilgan tasvirlash tadqiqotlarida qoplamali va qoplamasiz sink oksidi nano-zarrachalari asosan sirtqi shox qavatda va teri egatlarida qolgani qayd etilgan. Bir tadqiqotda suv-moy emulsiyasidagi qoplamali nano-zarracha egatlarga yaqin jonli epidermisga cheklangan darajada kirgani, ammo hujayra metabolik (redoks) holati o'zgarmagani kuzatilgan; bu formula va qoplama muhimligini ko'rsatadi. Keyingi tadqiqotda 6 soatlik surtishdan keyin, jumladan okklyuziya sharoitida va to'siq funksiyasi buzilgan terida ham, jonli epidermisga kirish va sezilarli toksiklik topilmagan. Annotatsiyalarda tanlama hajmi ko'rsatilmagan; natijalar oz sonli mahsulotlarda tasvirlash usullari bilan olingan.",
+    "zinc-oxide-5": "Sink oksidi zarrachalari bo'lgan quyoshdan himoya vositalari 20 nafar ko'ngillilarga ketma-ket besh kun davomida ochiq havoda surtilgan barqaror izotop bilan kuzatuv tadqiqotida surtilgan sinkning katta qismi so'rilmagan, lekin qon va siydikda izotop belgili sinkning kichik o'sishi aniqlangan (qondagi belgili sink umumiy qon sinkining taxminan mingdan biri); sink zarracha shaklida yoki erigan sink sifatida so'rilgani noma'lum. Taxminan 30 nm zarrachalar bilan 3 kishilik pilot tadqiqotda juda past so'rilish qayd etilgan (minimal baho surtilgan dozaning 0,01% idan kam). Ikkala tadqiqot ham kichik va surtish davri qisqa."
+   }
+  },
+  "ru": {
+   "summary": "Оксид цинка является минеральным (физическим) УФ-фильтром, используемым в солнцезащитных средствах; его изучали в отношении охвата UVA-UVB, поведения наночастичной формы и проникновения через кожу. Представленные здесь данные получены из повествовательных обзоров и небольших исследований с участием добровольцев; систематический обзор не найден, а результаты зависят от размера частиц, покрытия и состава. В обзорах также отмечена возможная опасность вдыхания для спреев с наночастицами. Солнцезащита (SPF) зависит от всего состава, а не только от оксида цинка. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "zinc-oxide-1": "В повествовательном обзоре неорганических УФ-фильтров, оксида цинка и диоксида титана, сообщалось, что оксид цинка имеет широкую кривую поглощения в диапазоне UVA-UVB, а диоксид титана обеспечивает лучшую защиту от UVB. Риск неорганических фильтров для здоровья человека описан как низкий из-за отсутствия чрескожного всасывания, однако отмечен возможный риск при вдыхании, и даны рекомендации против спреев-солнцезащитных средств с наночастицами. Это повествовательный, а не систематический обзор.",
+    "zinc-oxide-2": "В повествовательном обзоре наночастиц диоксида титана и оксида цинка в солнцезащитных средствах сообщалось, что замена микроразмерных частиц наноразмерными устраняет непрозрачный вид, но может изменить баланс защиты от UVA и UVB; предложено, что смеси микро- и наноразмерного оксида цинка могут улучшить ситуацию. Также сообщалось, что наночастицы встраиваются в роговой слой, что вызывались (фото)цитотоксичность и генотоксичность, что частицы эпизодически обнаруживались в жизнеспособных слоях кожи (особенно при длительном воздействии и для оксида цинка), и рекомендовано сохранять осторожность. Обзор датирован 2011 годом; солнцезащита зависит от всего состава, а не только от оксида цинка.",
+    "zinc-oxide-3": "В исследовании, где агломерированные наночастицы оксида цинка многократно наносили на кожу добровольцев в течение 5 дней, многофотонная визуализация показала, что частицы накапливались на поверхности кожи и в кожных бороздках, не проникая в жизнеспособный эпидермис и не вызывая там выявляемой клеточной токсичности. В иссечённой коже человека концентрации ионов цинка в жизнеспособном эпидермисе были слегка повышены, что авторы не связали с местной токсичностью. В аннотации число добровольцев не указано; изучалась неповреждённая кожа, и результаты могут не относиться к другим составам или повреждённой коже.",
+    "zinc-oxide-4": "В визуализационных исследованиях с участием добровольцев сообщалось, что наночастицы оксида цинка с покрытием и без покрытия в основном оставались в поверхностном роговом слое и кожных бороздках. В одном исследовании наблюдалось ограниченное проникновение частиц с покрытием в эмульсии «вода в масле» в жизнеспособный эпидермис рядом с бороздками без изменения клеточного метаболического (редокс) состояния, что указывает на значение состава и покрытия. В более позднем исследовании после 6 часов нанесения, в том числе при окклюзии и на коже с нарушенным барьером, проникновения в жизнеспособный эпидермис и явной токсичности не обнаружено. В аннотациях размеры выборок не указаны; результаты получены методами визуализации на небольшом числе продуктов.",
+    "zinc-oxide-5": "В исследовании с изотопной меткой на 20 добровольцах, использовавших солнцезащитные средства с частицами оксида цинка на открытом воздухе пять дней подряд, большая часть нанесённого цинка не всасывалась, но в крови и моче обнаружено небольшое повышение меченого цинка (метка в крови около одной тысячной от общего цинка крови); неизвестно, всосался ли цинк в виде частиц или растворимого цинка. В пилотном исследовании на 3 людях с частицами около 30 нм сообщалось об очень низком всасывании (минимальная оценка менее 0,01% нанесённой дозы). Оба исследования небольшие и охватывают короткие периоды нанесения."
+   }
+  },
+  "ar": {
+   "summary": "أكسيد الزنك (zinc oxide) مرشّح معدني (فيزيائي) للأشعة فوق البنفسجية يُستخدم في واقيات الشمس، وقد جرت دراسته من حيث تغطية UVA-UVB وسلوك شكله النانوي وانتقاله عبر الجلد. تأتي الأدلة الملخّصة هنا من مراجعات سردية ودراسات صغيرة على متطوعين؛ ولم تُحدَّد مراجعة منهجية، وتعتمد النتائج على حجم الجسيمات والغلاف والتركيبة. كما أشارت المراجعات إلى قلق محتمل من الاستنشاق في المنتجات البخاخة التي تحتوي على جسيمات نانوية. وتعتمد الحماية من الشمس (SPF) على التركيبة كاملة وليس على أكسيد الزنك وحده. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "zinc-oxide-1": "ذكرت مراجعة سردية للمرشحات غير العضوية للأشعة فوق البنفسجية، أكسيد الزنك وثاني أكسيد التيتانيوم، أن أكسيد الزنك له منحنى امتصاص واسع في نطاق UVA-UVB بينما يوفّر ثاني أكسيد التيتانيوم حماية أفضل من UVB. ووصفت المراجعة الخطر على صحة الإنسان من المرشحات غير العضوية بأنه منخفض لعدم وجود امتصاص عبر الجلد، لكنها أشارت إلى خطر محتمل عند الاستنشاق وأوصت بعدم استخدام منتجات واقي الشمس بخاخة الحاوية على جسيمات نانوية. وهي مراجعة سردية وليست مراجعة منهجية.",
+    "zinc-oxide-2": "ذكرت مراجعة سردية لجسيمات ثاني أكسيد التيتانيوم وأكسيد الزنك النانوية في واقيات الشمس أن استبدال الجسيمات الدقيقة بجسيمات نانوية يزيل المظهر المعتم لكنه قد يغيّر التوازن بين الحماية من UVA وUVB، واقترحت أن خلائط أكسيد الزنك بحجم دقيق ونانوي قد تحسّن ذلك. كما أفادت بأن الجسيمات النانوية تندمج في الطبقة القرنية، وأنه رُصد حدوث سمية خلوية (ضوئية) وسمية جينية، وأنه لوحظ وجودها بشكل متقطع في طبقات الجلد الحيّة (خاصة مع التعرض طويل الأمد ومع أكسيد الزنك)، ونصحت بمواصلة الحذر. تعود المراجعة إلى عام 2011، والحماية من الشمس تعتمد على التركيبة كاملة وليس على أكسيد الزنك وحده.",
+    "zinc-oxide-3": "في دراسة طُبّقت فيها جسيمات أكسيد الزنك النانوية المتكتلة بشكل متكرر على متطوعين لمدة 5 أيام، أظهر التصوير متعدد الفوتونات أن الجسيمات تراكمت على سطح الجلد وفي أخاديد الجلد دون أن تدخل البشرة الحيّة أو تسبب سمية خلوية يمكن كشفها هناك. وفي جلد بشري مستأصل ارتفعت تراكيز أيونات الزنك في البشرة الحيّة قليلًا، ولم يربط المؤلفون ذلك بسمية موضعية. لا يذكر الملخص عدد المتطوعين؛ وقد اختُبر جلد سليم، وقد لا تنطبق النتائج على تركيبات أخرى أو على جلد متضرر.",
+    "zinc-oxide-4": "أفادت دراسات تصوير على متطوعين بأن جسيمات أكسيد الزنك النانوية المغلّفة وغير المغلّفة بقيت في معظمها في الطبقة القرنية السطحية وفي أخاديد الجلد. ولاحظت إحدى الدراسات اختراقًا محدودًا لجسيم نانوي مغلّف في مستحلب ماء في زيت إلى البشرة الحيّة بجوار الأخاديد دون تغيّر في الحالة الأيضية (الأكسدة والاختزال) للخلايا، مما يشير إلى أهمية التركيبة والغلاف. ولم تجد دراسة لاحقة اختراقًا للبشرة الحيّة ولا سمية ظاهرة بعد 6 ساعات من التطبيق، بما في ذلك تحت الانسداد وعلى جلد ذي حاجز متضرر. لا تذكر الملخصات أحجام العيّنات، وتأتي النتائج من تقنيات تصوير على عدد محدود من المنتجات.",
+    "zinc-oxide-5": "في دراسة تتبّع بالنظائر المستقرة شملت 20 متطوعًا استخدموا واقيات شمس تحتوي على جسيمات أكسيد الزنك في الهواء الطلق لمدة خمسة أيام متتالية، لم يُمتصّ معظم الزنك المطبّق، لكن رُصدت زيادات صغيرة في الزنك المتتبَّع في الدم والبول (نحو جزء من ألف من إجمالي زنك الدم)، ولا يُعرف هل امتُصّ الزنك على شكل جسيمات أم زنك ذائب. وأفادت دراسة تجريبية على 3 أشخاص بجسيمات نحو 30 نانومتر بامتصاص منخفض جدًا (تقدير أدنى أقل من 0.01% من الجرعة المطبّقة). كلتا الدراستين صغيرة وتغطي فترات تطبيق قصيرة."
+   }
+  }
+ }
 }

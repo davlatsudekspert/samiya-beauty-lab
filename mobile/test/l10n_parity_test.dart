@@ -35,7 +35,7 @@ void main() {
     final arabic = RegExp(r'[؀-ۿ]');
     final ar = _arb('ar');
     for (final k in _keys(ar)) {
-      if (k == 'appName' || k == 'proBadge') continue; // brend va tarif nomi lotin yozuvida qoladi
+      if (const {'appName', 'proBadge', 'tileAi'}.contains(k)) continue; // brend va tarif nomlari lotin yozuvida qoladi
       expect(arabic.hasMatch(ar[k] as String), isTrue, reason: 'ar/$k arabcha emas');
     }
   });

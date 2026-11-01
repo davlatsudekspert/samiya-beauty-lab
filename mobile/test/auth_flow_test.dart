@@ -58,7 +58,7 @@ void main() {
       'uz': 'Kirish bajarilmadi. Qayta urinib ko‘ring.',
       'ru': 'Не удалось войти. Попробуйте ещё раз.',
       'en': 'Sign-in failed. Please try again.',
-      'ar': 'تعذّر تسجيل الدخول. حاول مرة أخرى.',
+      'ar': 'تعذّر تسجيل الدخول. يُرجى المحاولة مرة أخرى.',
     };
     for (final e in msgs.entries) {
       final auth = FakeAuthService(error: const AuthException(AuthFailure.failed));

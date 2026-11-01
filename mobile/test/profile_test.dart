@@ -7,6 +7,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'home_shell_test.dart' show allText;
 import 'support/fake_auth.dart';
 import 'support/fake_backend.dart';
+import 'package:samiya_beauty_lab/app/links.dart';
+
 import 'support/pump.dart';
 
 void main() {
@@ -132,11 +134,23 @@ void main() {
     expect(k('role-page'), findsOneWidget);
   });
 
-  testWidgets('huquqiy qatorlar URL tayyor emasligini halol aytadi (soxta havola yo\'q)', (t) async {
-    await pumpApp(t, state: guest(), initial: '/profile');
+  testWidgets('huquqiy qatorlar foydalanuvchi tilidagi sahifani ochadi', (t) async {
+    final opened = <Uri>[];
+    final old = openExternalUrl;
+    openExternalUrl = (u) async {
+      opened.add(u);
+      return true;
+    };
+    addTearDown(() => openExternalUrl = old);
+    await pumpApp(t, state: guest(lang: 'ar'), initial: '/profile');
     await t.tap(k('profile-privacy'));
     await t.pump();
-    expect(find.text('Tez orada'), findsOneWidget);
+    await t.tap(k('profile-terms'));
+    await t.pump();
+    expect(opened.map((u) => u.toString()), [
+      'https://samiya-api.davlatsudekspert.workers.dev/privacy?lang=ar',
+      'https://samiya-api.davlatsudekspert.workers.dev/terms?lang=ar',
+    ]);
   });
 
   testWidgets('siyosat: profilda dalilsiz da\'vo yo\'q (4 tilda)', (t) async {

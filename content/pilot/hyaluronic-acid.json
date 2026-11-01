@@ -1,116 +1,116 @@
 {
-  "inci": "Hyaluronic Acid",
-  "slug": "hyaluronic-acid",
-  "status": "draft",
-  "cosing": {
-    "functions": [],
-    "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
-    "verified": false
-  },
-  "eu_regulation": {
-    "annex": "unverified",
-    "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
-    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
-    "verified": false
-  },
-  "summary_en": "Hyaluronic acid is a water-binding polysaccharide widely used in moisturisers and serums, often in the form of sodium hyaluronate. Published studies on topical products mostly measure skin hydration over a few weeks, and many are small, open-label or sponsored by manufacturers. Whether molecular weight changes the benefit is still not well established. This card summarises published evidence only and is not medical advice.",
-  "claims": [
+ "inci": "Hyaluronic Acid",
+ "slug": "hyaluronic-acid",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Hyaluronic acid is a water-binding polysaccharide widely used in moisturisers and serums, often in the form of sodium hyaluronate. Published studies on topical products mostly measure skin hydration over a few weeks, and many are small, open-label or sponsored by manufacturers. Whether molecular weight changes the benefit is still not well established. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "hyaluronic-acid-1",
+   "text_en": "A narrative literature review of topical hyaluronic acid (by authors affiliated with a cosmetics company) concluded that several clinical studies indicate hyaluronic acid cosmeceuticals are well tolerated and can improve skin hydration; it is not a systematic review.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
     {
-      "id": "hyaluronic-acid-1",
-      "text_en": "A narrative literature review of topical hyaluronic acid (by authors affiliated with a cosmetics company) concluded that several clinical studies indicate hyaluronic acid cosmeceuticals are well tolerated and can improve skin hydration; it is not a systematic review.",
-      "evidence_level": "C",
-      "study_type": "narrative review",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "36200921",
-          "doi": "10.1111/dth.15903",
-          "title": "Benefits of topical hyaluronic acid for skin quality and signs of skin aging: From literature review to clinical evidence.",
-          "year": 2022,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36200921/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "hyaluronic-acid-2",
-      "text_en": "In a double-blind randomised trial of 36 nursing-home residents aged 60 to 80 with dry skin, a lotion with low-molecular-weight hyaluronic acid gave higher skin capacitance (a hydration measure) after four weeks than a high-molecular-weight lotion or vehicle; transepidermal water loss did not differ significantly between groups.",
-      "evidence_level": "B",
-      "study_type": "RCT",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "38829483",
-          "doi": "10.1007/s00403-024-03003-2",
-          "title": "Effectiveness of topical hyaluronic acid of different molecular weights in xerosis cutis treatment in elderly: a double-blind, randomized controlled trial.",
-          "year": 2024,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38829483/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "hyaluronic-acid-3",
-      "text_en": "In an open-label multicentre study without a control group, a high-molecular-weight hyaluronic acid serum was followed by increases in skin hydration measurements from baseline over eight weeks; the serum also contained peptides and the study was linked to the manufacturer.",
-      "evidence_level": "C",
-      "study_type": "observational",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "35833366",
-          "doi": "10.1111/jocd.15241",
-          "title": "Multicenter evaluation of a topical hyaluronic acid serum.",
-          "year": 2022,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35833366/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "hyaluronic-acid-4",
-      "text_en": "Clinical research on whether the molecular weight of topical hyaluronic acid changes its benefit is limited; the authors of one randomised trial noted a lack of clinical research supporting the belief that low-molecular-weight hyaluronic acid is more effective.",
-      "evidence_level": "insufficient",
-      "study_type": "RCT",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "38829483",
-          "doi": "10.1007/s00403-024-03003-2",
-          "title": "Effectiveness of topical hyaluronic acid of different molecular weights in xerosis cutis treatment in elderly: a double-blind, randomized controlled trial.",
-          "year": 2024,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38829483/"
-        }
-      ],
-      "checked_on": "2026-10-31"
+     "type": "pubmed",
+     "pmid": "36200921",
+     "doi": "10.1111/dth.15903",
+     "title": "Benefits of topical hyaluronic acid for skin quality and signs of skin aging: From literature review to clinical evidence.",
+     "year": 2022,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36200921/"
     }
-  ],
-  "translations": {
-    "uz": {
-      "summary": "Gialuron kislotasi (Hyaluronic Acid) suvni bog'laydigan polisaxarid bo'lib, namlantiruvchi vositalar va zardoblarda, ko'pincha natriy gialuronat shaklida keng qo'llaniladi. Surtiladigan mahsulotlar bo'yicha chop etilgan tadqiqotlar asosan bir necha hafta davomida teri namligini o'lchaydi, ularning ko'pi kichik, ochiq (open-label) yoki ishlab chiqaruvchi homiyligida o'tkazilgan. Molekulyar og'irlik foydani o'zgartiradimi, bu hali yaxshi aniqlanmagan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
-      "claims": {
-        "hyaluronic-acid-1": "Surtiladigan gialuron kislotasi bo'yicha hikoyaviy adabiyot sharhi (kosmetika kompaniyasi bilan bog'liq mualliflar tomonidan) bir nechta klinik tadqiqotlar gialuron kislotali kosmetseftiklar yaxshi o'zlashtirilishini va teri namligini yaxshilashi mumkinligini ko'rsatadi, degan xulosaga kelgan; bu tizimli sharh emas.",
-        "hyaluronic-acid-2": "Terisi quruq, 60 yoshdan 80 yoshgacha bo'lgan 36 nafar qariyalar uyi yashovchisi ishtirok etgan ikki tomonlama ko'r randomizatsiyalangan tadqiqotda past molekulyar og'irlikdagi gialuron kislotali losyon to'rt haftadan keyin yuqori molekulyar og'irlikdagi losyon yoki vehikulga (asos) qaraganda teri sig'imi (namlik ko'rsatkichi) yuqoriroq bo'lishini ko'rsatgan; transepidermal suv yo'qotilishi guruhlar o'rtasida sezilarli farq qilmagan.",
-        "hyaluronic-acid-3": "Nazorat guruhisiz o'tkazilgan ochiq ko'p markazli tadqiqotda yuqori molekulyar og'irlikdagi gialuron kislotali zardobdan keyin sakkiz hafta davomida teri namligi o'lchovlari boshlang'ich holatga nisbatan oshgan; zardob tarkibida peptidlar ham bo'lgan va tadqiqot ishlab chiqaruvchi bilan bog'liq edi.",
-        "hyaluronic-acid-4": "Surtiladigan gialuron kislotasining molekulyar og'irligi uning foydasini o'zgartiradimi, degan savol bo'yicha klinik tadqiqotlar cheklangan; bitta randomizatsiyalangan tadqiqot mualliflari past molekulyar og'irlikdagi gialuron kislotasi samaraliroq, degan fikrni qo'llab-quvvatlovchi klinik tadqiqotlar yetishmasligini qayd etgan."
-      }
-    },
-    "ru": {
-      "summary": "Гиалуроновая кислота (Hyaluronic Acid) является водосвязывающим полисахаридом, который широко используется в увлажняющих средствах и сыворотках, часто в виде гиалуроната натрия. Опубликованные исследования местных средств в основном измеряют увлажнённость кожи в течение нескольких недель, многие из них небольшие, открытые или спонсированы производителями. Влияет ли молекулярная масса на результат, пока не установлено достоверно. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
-      "claims": {
-        "hyaluronic-acid-1": "Нарративный обзор литературы по местному применению гиалуроновой кислоты (авторы связаны с косметической компанией) пришёл к выводу, что ряд клинических исследований указывает на хорошую переносимость косметических средств с гиалуроновой кислотой и возможное улучшение увлажнённости кожи; это не систематический обзор.",
-        "hyaluronic-acid-2": "В двойном слепом рандомизированном исследовании с участием 36 жителей дома престарелых в возрасте от 60 до 80 лет с сухой кожей лосьон с низкомолекулярной гиалуроновой кислотой через четыре недели дал более высокую ёмкость кожи (показатель увлажнённости), чем лосьон с высокомолекулярной кислотой или основа без активного вещества; трансэпидермальная потеря воды между группами значимо не различалась.",
-        "hyaluronic-acid-3": "В открытом многоцентровом исследовании без контрольной группы после применения сыворотки с высокомолекулярной гиалуроновой кислотой показатели увлажнённости кожи в течение восьми недель росли по сравнению с исходными; сыворотка содержала также пептиды, а исследование было связано с производителем.",
-        "hyaluronic-acid-4": "Клинических исследований о том, меняет ли молекулярная масса местной гиалуроновой кислоты её пользу, мало; авторы одного рандомизированного исследования отметили нехватку клинических данных в поддержку мнения, что низкомолекулярная гиалуроновая кислота эффективнее."
-      }
-    },
-    "ar": {
-      "summary": "حمض الهيالورونيك (Hyaluronic Acid) سكر متعدد يرتبط بالماء، ويُستخدم على نطاق واسع في المرطبات والمصالل، وغالبًا على شكل هيالورونات الصوديوم. تقيس الدراسات المنشورة عن المنتجات الموضعية في الغالب ترطيب الجلد على مدى بضعة أسابيع، وكثير منها صغير أو مفتوح التسمية أو برعاية جهات مصنّعة. وما زال غير مثبت جيدًا ما إذا كان الوزن الجزيئي يغيّر الفائدة. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
-      "claims": {
-        "hyaluronic-acid-1": "خلصت مراجعة سردية للأدبيات حول حمض الهيالورونيك الموضعي (أجراها مؤلفون مرتبطون بشركة مستحضرات تجميل) إلى أن عدة دراسات سريرية تشير إلى أن المستحضرات التجميلية الحاوية على حمض الهيالورونيك جيدة التحمل وقد تحسّن ترطيب الجلد؛ وهي ليست مراجعة منهجية.",
-        "hyaluronic-acid-2": "في دراسة عشوائية مزدوجة التعمية شملت 36 من نزلاء دار رعاية تتراوح أعمارهم بين 60 و80 عامًا ويعانون من جفاف الجلد، أعطى غسول يحتوي على حمض الهيالورونيك منخفض الوزن الجزيئي سعة جلدية (مقياسًا للترطيب) أعلى بعد أربعة أسابيع مقارنةً بغسول عالي الوزن الجزيئي أو الحامل الخالي من المادة الفعّالة؛ ولم يختلف فقدان الماء عبر البشرة اختلافًا ملحوظًا بين المجموعات.",
-        "hyaluronic-acid-3": "في دراسة مفتوحة متعددة المراكز دون مجموعة ضابطة، ارتفعت قياسات ترطيب الجلد مقارنةً بالقياس الأساسي على مدى ثمانية أسابيع بعد استخدام مصل يحتوي على حمض الهيالورونيك عالي الوزن الجزيئي؛ وكان المصل يحتوي أيضًا على ببتيدات، وكانت الدراسة مرتبطة بالجهة المصنّعة.",
-        "hyaluronic-acid-4": "الأبحاث السريرية حول ما إذا كان الوزن الجزيئي لحمض الهيالورونيك الموضعي يغيّر فائدته محدودة؛ وقد أشار مؤلفو إحدى التجارب العشوائية إلى نقص الأبحاث السريرية التي تدعم الاعتقاد بأن حمض الهيالورونيك منخفض الوزن الجزيئي أكثر فعالية."
-      }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "hyaluronic-acid-2",
+   "text_en": "In a double-blind randomised trial of 36 nursing-home residents aged 60 to 80 with dry skin, a lotion with low-molecular-weight hyaluronic acid gave higher skin capacitance (a hydration measure) after four weeks than a high-molecular-weight lotion or vehicle; transepidermal water loss did not differ significantly between groups.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38829483",
+     "doi": "10.1007/s00403-024-03003-2",
+     "title": "Effectiveness of topical hyaluronic acid of different molecular weights in xerosis cutis treatment in elderly: a double-blind, randomized controlled trial.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38829483/"
     }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "hyaluronic-acid-3",
+   "text_en": "In an open-label multicentre study without a control group, a high-molecular-weight hyaluronic acid serum was followed by increases in skin hydration measurements from baseline over eight weeks; the serum also contained peptides and the study was linked to the manufacturer.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "35833366",
+     "doi": "10.1111/jocd.15241",
+     "title": "Multicenter evaluation of a topical hyaluronic acid serum.",
+     "year": 2022,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35833366/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "hyaluronic-acid-4",
+   "text_en": "Clinical research on whether the molecular weight of topical hyaluronic acid changes its benefit is limited; the authors of one randomised trial noted a lack of clinical research supporting the belief that low-molecular-weight hyaluronic acid is more effective.",
+   "evidence_level": "insufficient",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38829483",
+     "doi": "10.1007/s00403-024-03003-2",
+     "title": "Effectiveness of topical hyaluronic acid of different molecular weights in xerosis cutis treatment in elderly: a double-blind, randomized controlled trial.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38829483/"
+    }
+   ],
+   "checked_on": "2026-10-31"
   }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Gialuron kislotasi (Hyaluronic Acid) suvni bog'laydigan polisaxarid bo'lib, namlantiruvchi vositalar va zardoblarda, ko'pincha natriy gialuronat shaklida keng qo'llaniladi. Surtiladigan mahsulotlar bo'yicha chop etilgan tadqiqotlar asosan bir necha hafta davomida teri namligini o'lchaydi, ularning ko'pi kichik, ochiq (open-label) yoki ishlab chiqaruvchi homiyligida o'tkazilgan. Molekulyar og'irlik foydani o'zgartiradimi, bu hali yaxshi aniqlanmagan. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "hyaluronic-acid-1": "Surtiladigan gialuron kislotasi bo'yicha hikoyaviy adabiyot sharhi (kosmetika kompaniyasi bilan bog'liq mualliflar tomonidan) bir nechta klinik tadqiqotlar gialuron kislotali kosmetseftiklar yaxshi o'zlashtirilishini va teri namligini yaxshilashi mumkinligini ko'rsatadi, degan xulosaga kelgan; bu tizimli sharh emas.",
+    "hyaluronic-acid-2": "Terisi quruq, 60 yoshdan 80 yoshgacha bo'lgan 36 nafar qariyalar uyi yashovchisi ishtirok etgan ikki tomonlama ko'r randomizatsiyalangan tadqiqotda past molekulyar og'irlikdagi gialuron kislotali losyon to'rt haftadan keyin yuqori molekulyar og'irlikdagi losyon yoki vehikulga (asos) qaraganda teri sig'imi (namlik ko'rsatkichi) yuqoriroq bo'lishini ko'rsatgan; transepidermal suv yo'qotilishi guruhlar o'rtasida sezilarli farq qilmagan.",
+    "hyaluronic-acid-3": "Nazorat guruhisiz o'tkazilgan ochiq ko'p markazli tadqiqotda yuqori molekulyar og'irlikdagi gialuron kislotali zardobdan keyin sakkiz hafta davomida teri namligi o'lchovlari boshlang'ich holatga nisbatan oshgan; zardob tarkibida peptidlar ham bo'lgan va tadqiqot ishlab chiqaruvchi bilan bog'liq edi.",
+    "hyaluronic-acid-4": "Surtiladigan gialuron kislotasining molekulyar og'irligi uning foydasini o'zgartiradimi, degan savol bo'yicha klinik tadqiqotlar cheklangan; bitta randomizatsiyalangan tadqiqot mualliflari past molekulyar og'irlikdagi gialuron kislotasi samaraliroq, degan fikrni qo'llab-quvvatlovchi klinik tadqiqotlar yetishmasligini qayd etgan."
+   }
+  },
+  "ru": {
+   "summary": "Гиалуроновая кислота (Hyaluronic Acid) является водосвязывающим полисахаридом, который широко используется в увлажняющих средствах и сыворотках, часто в виде гиалуроната натрия. Опубликованные исследования местных средств в основном измеряют увлажнённость кожи в течение нескольких недель, многие из них небольшие, открытые или спонсированы производителями. Влияет ли молекулярная масса на результат, пока не установлено достоверно. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "hyaluronic-acid-1": "Нарративный обзор литературы по местному применению гиалуроновой кислоты (авторы связаны с косметической компанией) пришёл к выводу, что ряд клинических исследований указывает на хорошую переносимость косметических средств с гиалуроновой кислотой и возможное улучшение увлажнённости кожи; это не систематический обзор.",
+    "hyaluronic-acid-2": "В двойном слепом рандомизированном исследовании с участием 36 жителей дома престарелых в возрасте от 60 до 80 лет с сухой кожей лосьон с низкомолекулярной гиалуроновой кислотой через четыре недели дал более высокую ёмкость кожи (показатель увлажнённости), чем лосьон с высокомолекулярной кислотой или основа без активного вещества; трансэпидермальная потеря воды между группами значимо не различалась.",
+    "hyaluronic-acid-3": "В открытом многоцентровом исследовании без контрольной группы после применения сыворотки с высокомолекулярной гиалуроновой кислотой показатели увлажнённости кожи в течение восьми недель росли по сравнению с исходными; сыворотка содержала также пептиды, а исследование было связано с производителем.",
+    "hyaluronic-acid-4": "Клинических исследований о том, меняет ли молекулярная масса местной гиалуроновой кислоты её пользу, мало; авторы одного рандомизированного исследования отметили нехватку клинических данных в поддержку мнения, что низкомолекулярная гиалуроновая кислота эффективнее."
+   }
+  },
+  "ar": {
+   "summary": "حمض الهيالورونيك (Hyaluronic Acid) سكر متعدد يرتبط بالماء، ويُستخدم على نطاق واسع في المرطبات والمصالل، وغالبًا على شكل هيالورونات الصوديوم. تقيس الدراسات المنشورة عن المنتجات الموضعية في الغالب ترطيب الجلد على مدى بضعة أسابيع، وكثير منها صغير أو مفتوح التسمية أو برعاية جهات مصنّعة. وما زال غير مثبت جيدًا ما إذا كان الوزن الجزيئي يغيّر الفائدة. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "hyaluronic-acid-1": "خلصت مراجعة سردية للأدبيات حول حمض الهيالورونيك الموضعي (أجراها مؤلفون مرتبطون بشركة مستحضرات تجميل) إلى أن عدة دراسات سريرية تشير إلى أن المستحضرات التجميلية الحاوية على حمض الهيالورونيك جيدة التحمل وقد تحسّن ترطيب الجلد؛ وهي ليست مراجعة منهجية.",
+    "hyaluronic-acid-2": "في دراسة عشوائية مزدوجة التعمية شملت 36 من نزلاء دار رعاية تتراوح أعمارهم بين 60 و80 عامًا ويعانون من جفاف الجلد، أعطى لوشن يحتوي على حمض الهيالورونيك منخفض الوزن الجزيئي سعة جلدية (مقياسًا للترطيب) أعلى بعد أربعة أسابيع مقارنةً بلوشن عالي الوزن الجزيئي أو الحامل الخالي من المادة الفعّالة؛ ولم يختلف فقدان الماء عبر البشرة اختلافًا ملحوظًا بين المجموعات.",
+    "hyaluronic-acid-3": "في دراسة مفتوحة متعددة المراكز دون مجموعة ضابطة، ارتفعت قياسات ترطيب الجلد مقارنةً بالقياس الأساسي على مدى ثمانية أسابيع بعد استخدام مصل يحتوي على حمض الهيالورونيك عالي الوزن الجزيئي؛ وكان المصل يحتوي أيضًا على ببتيدات، وكانت الدراسة مرتبطة بالجهة المصنّعة.",
+    "hyaluronic-acid-4": "الأبحاث السريرية حول ما إذا كان الوزن الجزيئي لحمض الهيالورونيك الموضعي يغيّر فائدته محدودة؛ وقد أشار مؤلفو إحدى التجارب العشوائية إلى نقص الأبحاث السريرية التي تدعم الاعتقاد بأن حمض الهيالورونيك منخفض الوزن الجزيئي أكثر فعالية."
+   }
+  }
+ }
 }

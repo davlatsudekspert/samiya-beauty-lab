@@ -1,116 +1,116 @@
 {
-  "inci": "Retinol",
-  "slug": "retinol",
-  "status": "draft",
-  "cosing": {
-    "functions": [],
-    "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
-    "verified": false
-  },
-  "eu_regulation": {
-    "annex": "unverified",
-    "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Retinol is subject to restrictions in EU cosmetics law, so the annex entry and conditions must be checked manually (including any SCCS opinion) before publishing.",
-    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
-    "verified": false
-  },
-  "summary_en": "Retinol is a form of vitamin A used in cosmetic products and is mainly studied for photoaging, wrinkles and uneven pigmentation. It must be converted in the skin to the active retinoid form, is chemically unstable, and can cause irritation. Published comparisons with the prescription retinoid tretinoin are limited and often of low quality. Its use in cosmetics is regulated in the EU. This card summarises published evidence only and is not medical advice.",
-  "claims": [
+ "inci": "Retinol",
+ "slug": "retinol",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Retinol is subject to restrictions in EU cosmetics law, so the annex entry and conditions must be checked manually (including any SCCS opinion) before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Retinol is a form of vitamin A used in cosmetic products and is mainly studied for photoaging, wrinkles and uneven pigmentation. It must be converted in the skin to the active retinoid form, is chemically unstable, and can cause irritation. Published comparisons with the prescription retinoid tretinoin are limited and often of low quality. Its use in cosmetics is regulated in the EU. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "retinol-1",
+   "text_en": "A systematic review and network meta-analysis of 23 randomised trials (3,905 participants) on topical agents for facial photoaging found that retinol, tretinoin and isotretinoin significantly improved fine wrinkles, and that tretinoin and retinol were superior for hyperpigmentation; the authors noted limited racial diversity and possible commercial bias.",
+   "evidence_level": "A",
+   "study_type": "meta-analysis",
+   "sources": [
     {
-      "id": "retinol-1",
-      "text_en": "A systematic review and network meta-analysis of 23 randomised trials (3,905 participants) on topical agents for facial photoaging found that retinol, tretinoin and isotretinoin significantly improved fine wrinkles, and that tretinoin and retinol were superior for hyperpigmentation; the authors noted limited racial diversity and possible commercial bias.",
-      "evidence_level": "A",
-      "study_type": "meta-analysis",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "40707570",
-          "doi": "10.1038/s41598-025-12597-0",
-          "title": "Comparative efficacy of topical interventions for facial photoaging: a network meta-analysis.",
-          "year": 2025,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40707570/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "retinol-2",
-      "text_en": "A PRISMA systematic review of 25 studies comparing topical tretinoin with other anti-aging agents, most often other forms of vitamin A, found that most comparators were less irritating and better tolerated, but most comparison studies were of poor quality or biased, so evidence for any alternative first-line option is limited.",
-      "evidence_level": "A",
-      "study_type": "systematic review",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "39348007",
-          "doi": "10.1007/s40257-024-00893-w",
-          "title": "Comparing Tretinoin to Other Topical Therapies in the Treatment of Skin Photoaging: A Systematic Review.",
-          "year": 2024,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39348007/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "retinol-3",
-      "text_en": "In a double-blind randomised trial of 24 patients with facial photodamage (20 analysed), a formulation of retinol and retinyl esters showed no significant difference in photoaging score from tretinoin after 24 weeks, and erythema was reported less often with the retinol-based formulation.",
-      "evidence_level": "B",
-      "study_type": "RCT",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "35675051",
-          "doi": "10.1001/jamadermatol.2022.1891",
-          "title": "Biomarkers of Tretinoin Precursors and Tretinoin Efficacy in Patients With Moderate to Severe Facial Photodamage: A Randomized Clinical Trial.",
-          "year": 2022,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35675051/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "retinol-4",
-      "text_en": "A systematic review described retinoids, including retinol, as chemically unstable (sensitive to light, oxygen and temperature) and as often causing skin irritation, and summarised ongoing work on derivatives, lipid-based carriers and combinations intended to reduce these problems.",
-      "evidence_level": "A",
-      "study_type": "systematic review",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "38952060",
-          "doi": "10.1111/jocd.16415",
-          "title": "Topical retinoids: Novel derivatives, nano lipid-based carriers, and combinations to improve chemical instability and skin irritation.",
-          "year": 2024,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38952060/"
-        }
-      ],
-      "checked_on": "2026-10-31"
+     "type": "pubmed",
+     "pmid": "40707570",
+     "doi": "10.1038/s41598-025-12597-0",
+     "title": "Comparative efficacy of topical interventions for facial photoaging: a network meta-analysis.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40707570/"
     }
-  ],
-  "translations": {
-    "uz": {
-      "summary": "Retinol (Retinol) A vitaminining bir shakli bo'lib, kosmetik vositalarda qo'llaniladi va asosan fotoqarish, ajinlar hamda notekis pigmentatsiya bo'yicha o'rganilgan. U teri ichida faol retinoid shaklga aylanishi kerak, kimyoviy jihatdan beqaror va tirnash keltirib chiqarishi mumkin. Retsept bilan beriladigan tretinoin bilan chop etilgan taqqoslashlar cheklangan va ko'pincha sifati past. Uning kosmetikada qo'llanilishi Yevropa Ittifoqida tartibga solinadi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
-      "claims": {
-        "retinol-1": "Yuz fotoqarishi uchun surtiladigan vositalar bo'yicha 23 ta randomizatsiyalangan tadqiqotni (3905 ishtirokchi) o'z ichiga olgan tizimli sharh va tarmoqli meta-tahlil retinol, tretinoin va izotretinoin mayda ajinlarni sezilarli yaxshilashini, tretinoin va retinol esa giperpigmentatsiya bo'yicha ustun ekanini aniqlagan; mualliflar irqiy xilma-xillik cheklanganini va tijoriy tarafkashlik ehtimolini qayd etgan.",
-        "retinol-2": "Surtiladigan tretinoinni boshqa qarishga qarshi vositalar, ko'pincha A vitaminining boshqa shakllari bilan taqqoslagan 25 ta tadqiqotning PRISMA asosidagi tizimli sharhida taqqoslangan vositalarning ko'pchiligi kamroq tirnash keltirgani va yaxshiroq o'zlashtirilgani aniqlangan, biroq taqqoslash tadqiqotlarining ko'pi sifati past yoki tarafkash bo'lgan, shu sababli birinchi qator muqobil variant uchun dalillar cheklangan.",
-        "retinol-3": "Yuz fotozararlanishi bo'lgan 24 bemor (20 nafari tahlil qilingan) ishtirok etgan ikki tomonlama ko'r randomizatsiyalangan tadqiqotda retinol va retinil efirlari formulasi 24 haftadan keyin fotoqarish balli bo'yicha tretinoindan sezilarli farq qilmagan, retinolli formulada esa eritema kamroq qayd etilgan.",
-        "retinol-4": "Tizimli sharhda retinol kabi retinoidlar kimyoviy jihatdan beqaror (yorug'lik, kislorod va haroratga sezgir) va ko'pincha teri tirnashini keltirib chiqaradi, deb ta'riflangan hamda bu muammolarni kamaytirishga qaratilgan hosilalar, lipid asosidagi tashuvchilar va kombinatsiyalar bo'yicha davom etayotgan ishlar umumlashtirilgan."
-      }
-    },
-    "ru": {
-      "summary": "Ретинол (Retinol) является формой витамина A, используется в косметических средствах и изучается в основном в отношении фотостарения, морщин и неравномерной пигментации. В коже он должен превращаться в активную форму ретиноида, химически нестабилен и может вызывать раздражение. Опубликованные сравнения с рецептурным ретиноидом третиноином ограничены и часто низкого качества. Его применение в косметике регулируется в ЕС. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
-      "claims": {
-        "retinol-1": "В систематическом обзоре и сетевом метаанализе 23 рандомизированных исследований (3905 участников) местных средств при фотостарении лица обнаружено, что ретинол, третиноин и изотретиноин значимо уменьшали мелкие морщины, а третиноин и ретинол были лучше при гиперпигментации; авторы отметили ограниченное расовое разнообразие и возможную коммерческую предвзятость.",
-        "retinol-2": "В систематическом обзоре по методике PRISMA, охватившем 25 исследований, в которых местный третиноин сравнивали с другими средствами против старения, чаще всего с другими формами витамина A, обнаружено, что большинство сравниваемых средств вызывали меньше раздражения и лучше переносились, но большинство сравнительных исследований было низкого качества или предвзятым, поэтому данных в пользу альтернативы первой линии мало.",
-        "retinol-3": "В двойном слепом рандомизированном исследовании с участием 24 пациентов с фотоповреждением лица (проанализированы 20) состав с ретинолом и эфирами ретинола через 24 недели значимо не отличался от третиноина по баллу фотостарения, а эритема при использовании состава на основе ретинола отмечалась реже.",
-        "retinol-4": "В систематическом обзоре ретиноиды, включая ретинол, описаны как химически нестабильные (чувствительные к свету, кислороду и температуре) и часто вызывающие раздражение кожи, а также обобщены текущие работы по производным, липидным носителям и комбинациям, призванным уменьшить эти проблемы."
-      }
-    },
-    "ar": {
-      "summary": "الريتينول (Retinol) هو شكل من فيتامين أ يُستخدم في مستحضرات التجميل، وقد جرت دراسته في الغالب فيما يخص الشيخوخة الضوئية والتجاعيد وعدم تجانس التصبغ. يجب أن يتحول في الجلد إلى الشكل الفعّال من الرتينويد، وهو غير مستقر كيميائيًا وقد يسبب التهيج. والمقارنات المنشورة مع التريتينوين الرتينويد الموصوف طبيًا محدودة وغالبًا منخفضة الجودة. ويخضع استخدامه في مستحضرات التجميل للتنظيم في الاتحاد الأوروبي. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
-      "claims": {
-        "retinol-1": "وجدت مراجعة منهجية وتحليل تلوي شبكي شمل 23 تجربة عشوائية (3905 مشاركين) للعوامل الموضعية في الشيخوخة الضوئية للوجه أن الريتينول والتريتينوين والإيزوتريتينوين حسّنت التجاعيد الدقيقة تحسنًا ملحوظًا، وأن التريتينوين والريتينول كانا أفضل في فرط التصبغ؛ وأشار المؤلفون إلى محدودية التنوع العرقي واحتمال التحيز التجاري.",
-        "retinol-2": "وجدت مراجعة منهجية وفق PRISMA شملت 25 دراسة قارنت التريتينوين الموضعي بعوامل أخرى مضادة للشيخوخة، وغالبًا أشكال أخرى من فيتامين أ، أن معظم البدائل كانت أقل تهيجًا وأفضل تحملًا، لكن معظم دراسات المقارنة كانت منخفضة الجودة أو متحيزة، لذلك فإن الأدلة على أي بديل كخيار أول محدودة.",
-        "retinol-3": "في تجربة عشوائية مزدوجة التعمية شملت 24 مريضًا بتضرر الوجه بالتعرض للضوء (جرى تحليل 20 منهم)، لم تختلف تركيبة تحتوي على الريتينول وإسترات الريتينيل اختلافًا ملحوظًا في درجة الشيخوخة الضوئية عن التريتينوين بعد 24 أسبوعًا، وسُجّلت الحمامى بوتيرة أقل مع التركيبة المعتمدة على الريتينول.",
-        "retinol-4": "وصفت مراجعة منهجية الرتينويدات، ومنها الريتينول، بأنها غير مستقرة كيميائيًا (حساسة للضوء والأكسجين والحرارة) وكثيرًا ما تسبب تهيج الجلد، ولخّصت الأعمال الجارية على المشتقات والحوامل الدهنية والتوليفات الرامية إلى تقليل هذه المشكلات."
-      }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "retinol-2",
+   "text_en": "A PRISMA systematic review of 25 studies comparing topical tretinoin with other anti-aging agents, most often other forms of vitamin A, found that most comparators were less irritating and better tolerated, but most comparison studies were of poor quality or biased, so evidence for any alternative first-line option is limited.",
+   "evidence_level": "A",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "39348007",
+     "doi": "10.1007/s40257-024-00893-w",
+     "title": "Comparing Tretinoin to Other Topical Therapies in the Treatment of Skin Photoaging: A Systematic Review.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39348007/"
     }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "retinol-3",
+   "text_en": "In a double-blind randomised trial of 24 patients with facial photodamage (20 analysed), a formulation of retinol and retinyl esters showed no significant difference in photoaging score from tretinoin after 24 weeks, and erythema was reported less often with the retinol-based formulation.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "35675051",
+     "doi": "10.1001/jamadermatol.2022.1891",
+     "title": "Biomarkers of Tretinoin Precursors and Tretinoin Efficacy in Patients With Moderate to Severe Facial Photodamage: A Randomized Clinical Trial.",
+     "year": 2022,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35675051/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "retinol-4",
+   "text_en": "A systematic review described retinoids, including retinol, as chemically unstable (sensitive to light, oxygen and temperature) and as often causing skin irritation, and summarised ongoing work on derivatives, lipid-based carriers and combinations intended to reduce these problems.",
+   "evidence_level": "A",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38952060",
+     "doi": "10.1111/jocd.16415",
+     "title": "Topical retinoids: Novel derivatives, nano lipid-based carriers, and combinations to improve chemical instability and skin irritation.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38952060/"
+    }
+   ],
+   "checked_on": "2026-10-31"
   }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Retinol (Retinol) A vitaminining bir shakli bo'lib, kosmetik vositalarda qo'llaniladi va asosan fotoqarish, ajinlar hamda notekis pigmentatsiya bo'yicha o'rganilgan. U teri ichida faol retinoid shaklga aylanishi kerak, kimyoviy jihatdan beqaror va tirnash keltirib chiqarishi mumkin. Retsept bilan beriladigan tretinoin bilan chop etilgan taqqoslashlar cheklangan va ko'pincha sifati past. Uning kosmetikada qo'llanilishi Yevropa Ittifoqida tartibga solinadi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "retinol-1": "Yuz fotoqarishi uchun surtiladigan vositalar bo'yicha 23 ta randomizatsiyalangan tadqiqotni (3905 ishtirokchi) o'z ichiga olgan tizimli sharh va tarmoqli meta-tahlil retinol, tretinoin va izotretinoin mayda ajinlarni sezilarli yaxshilashini, tretinoin va retinol esa giperpigmentatsiya bo'yicha ustun ekanini aniqlagan; mualliflar irqiy xilma-xillik cheklanganini va tijoriy tarafkashlik ehtimolini qayd etgan.",
+    "retinol-2": "Surtiladigan tretinoinni boshqa qarishga qarshi vositalar, ko'pincha A vitaminining boshqa shakllari bilan taqqoslagan 25 ta tadqiqotning PRISMA asosidagi tizimli sharhida taqqoslangan vositalarning ko'pchiligi kamroq tirnash keltirgani va yaxshiroq o'zlashtirilgani aniqlangan, biroq taqqoslash tadqiqotlarining ko'pi sifati past yoki tarafkash bo'lgan, shu sababli birinchi qator muqobil variant uchun dalillar cheklangan.",
+    "retinol-3": "Yuz fotozararlanishi bo'lgan 24 bemor (20 nafari tahlil qilingan) ishtirok etgan ikki tomonlama ko'r randomizatsiyalangan tadqiqotda retinol va retinil efirlari formulasi 24 haftadan keyin fotoqarish balli bo'yicha tretinoindan sezilarli farq qilmagan, retinolli formulada esa eritema kamroq qayd etilgan.",
+    "retinol-4": "Tizimli sharhda retinol kabi retinoidlar kimyoviy jihatdan beqaror (yorug'lik, kislorod va haroratga sezgir) va ko'pincha teri tirnashini keltirib chiqaradi, deb ta'riflangan hamda bu muammolarni kamaytirishga qaratilgan hosilalar, lipid asosidagi tashuvchilar va kombinatsiyalar bo'yicha davom etayotgan ishlar umumlashtirilgan."
+   }
+  },
+  "ru": {
+   "summary": "Ретинол (Retinol) является формой витамина A, используется в косметических средствах и изучается в основном в отношении фотостарения, морщин и неравномерной пигментации. В коже он должен превращаться в активную форму ретиноида, химически нестабилен и может вызывать раздражение. Опубликованные сравнения с рецептурным ретиноидом третиноином ограничены и часто низкого качества. Его применение в косметике регулируется в ЕС. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "retinol-1": "В систематическом обзоре и сетевом метаанализе 23 рандомизированных исследований (3905 участников) местных средств при фотостарении лица обнаружено, что ретинол, третиноин и изотретиноин значимо уменьшали мелкие морщины, а третиноин и ретинол были лучше при гиперпигментации; авторы отметили ограниченное расовое разнообразие и возможную коммерческую предвзятость.",
+    "retinol-2": "В систематическом обзоре по методике PRISMA, охватившем 25 исследований, в которых местный третиноин сравнивали с другими средствами против старения, чаще всего с другими формами витамина A, обнаружено, что большинство сравниваемых средств вызывали меньше раздражения и лучше переносились, но большинство сравнительных исследований было низкого качества или предвзятым, поэтому данных в пользу альтернативы первой линии мало.",
+    "retinol-3": "В двойном слепом рандомизированном исследовании с участием 24 пациентов с фотоповреждением лица (проанализированы 20) состав с ретинолом и эфирами ретинола через 24 недели значимо не отличался от третиноина по баллу фотостарения, а эритема при использовании состава на основе ретинола отмечалась реже.",
+    "retinol-4": "В систематическом обзоре ретиноиды, включая ретинол, описаны как химически нестабильные (чувствительные к свету, кислороду и температуре) и часто вызывающие раздражение кожи, а также обобщены текущие работы по производным, липидным носителям и комбинациям, призванным уменьшить эти проблемы."
+   }
+  },
+  "ar": {
+   "summary": "الريتينول (Retinol) هو شكل من فيتامين أ يُستخدم في مستحضرات التجميل، وقد جرت دراسته في الغالب فيما يخص الشيخوخة الضوئية والتجاعيد وعدم تجانس التصبّغ. يجب أن يتحول في الجلد إلى الشكل الفعّال من الرتينويد، وهو غير مستقر كيميائيًا وقد يسبب التهيج. والمقارنات المنشورة مع التريتينوين الرتينويد الموصوف طبيًا محدودة وغالبًا منخفضة الجودة. ويخضع استخدامه في مستحضرات التجميل للتنظيم في الاتحاد الأوروبي. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "retinol-1": "وجدت مراجعة منهجية وتحليل تلوي شبكي شمل 23 تجربة عشوائية (3905 مشاركين) للعوامل الموضعية في الشيخوخة الضوئية للوجه أن الريتينول والتريتينوين والإيزوتريتينوين حسّنت التجاعيد الدقيقة تحسنًا ملحوظًا، وأن التريتينوين والريتينول كانا أفضل في فرط التصبّغ؛ وأشار المؤلفون إلى محدودية التنوع العرقي واحتمال التحيز التجاري.",
+    "retinol-2": "وجدت مراجعة منهجية وفق PRISMA شملت 25 دراسة قارنت التريتينوين الموضعي بعوامل أخرى مضادة للشيخوخة، وغالبًا أشكال أخرى من فيتامين أ، أن معظم البدائل كانت أقل تهيجًا وأفضل تحملًا، لكن معظم دراسات المقارنة كانت منخفضة الجودة أو متحيزة، لذلك فإن الأدلة على أي بديل كخيار أول محدودة.",
+    "retinol-3": "في تجربة عشوائية مزدوجة التعمية شملت 24 مريضًا بتضرر الوجه بالتعرض للضوء (جرى تحليل 20 منهم)، لم تختلف تركيبة تحتوي على الريتينول وإسترات الريتينيل اختلافًا ملحوظًا في درجة الشيخوخة الضوئية عن التريتينوين بعد 24 أسبوعًا، وسُجّلت الحمامى بوتيرة أقل مع التركيبة المعتمدة على الريتينول.",
+    "retinol-4": "وصفت مراجعة منهجية الرتينويدات، ومنها الريتينول، بأنها غير مستقرة كيميائيًا (حساسة للضوء والأكسجين والحرارة) وكثيرًا ما تسبب تهيج الجلد، ولخّصت الأعمال الجارية على المشتقات والحوامل الدهنية والتوليفات الرامية إلى تقليل هذه المشكلات."
+   }
+  }
+ }
 }

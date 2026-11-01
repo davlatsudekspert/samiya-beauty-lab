@@ -3,6 +3,7 @@ import '../../ui/safe_nav.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/app_state.dart';
+import '../../app/links.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../ui/widgets.dart';
@@ -72,7 +73,10 @@ class _ProfilePageState extends State<ProfilePage> {
     }
   }
 
-  void _soon() => _message(AppLocalizations.of(context).comingSoon);
+  Future<void> _openLegal(String page) async {
+    final ok = await openExternalUrl(legalUri(page, Localizations.localeOf(context).languageCode));
+    if (!ok && mounted) _message(AppLocalizations.of(context).actionFailed);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -122,9 +126,9 @@ class _ProfilePageState extends State<ProfilePage> {
                 _Row(key: const Key('profile-admin'), icon: Icons.admin_panel_settings_outlined, label: l.adminPanel, onTap: () => context.safePush('/profile/admin')),
                 const Divider(height: 1, color: SamiyaColors.border),
               ],
-              _Row(key: const Key('profile-privacy'), icon: Icons.privacy_tip_outlined, label: l.privacyPolicy, onTap: _soon),
+              _Row(key: const Key('profile-privacy'), icon: Icons.privacy_tip_outlined, label: l.privacyPolicy, onTap: () => _openLegal('privacy')),
               const Divider(height: 1, color: SamiyaColors.border),
-              _Row(key: const Key('profile-terms'), icon: Icons.description_outlined, label: l.termsOfUse, onTap: _soon),
+              _Row(key: const Key('profile-terms'), icon: Icons.description_outlined, label: l.termsOfUse, onTap: () => _openLegal('terms')),
             ]),
           ),
           if (user != null) ...[

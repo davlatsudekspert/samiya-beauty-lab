@@ -1,114 +1,114 @@
 {
-  "inci": "Ascorbic Acid",
-  "slug": "ascorbic-acid",
-  "status": "draft",
-  "cosing": {
-    "functions": [],
-    "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
-    "verified": false
-  },
-  "eu_regulation": {
-    "annex": "unverified",
-    "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
-    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
-    "verified": false
-  },
-  "summary_en": "Ascorbic acid is the main form of vitamin C used in cosmetic serums and is studied for photoaging and pigmentation outcomes. It is chemically unstable, so published results depend strongly on the derivative, pH, vehicle and stabilisation, and many trials test combinations such as vitamin C with vitamin E and ferulic acid. This card summarises published evidence only and is not medical advice.",
-  "claims": [
+ "inci": "Ascorbic Acid",
+ "slug": "ascorbic-acid",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Ascorbic acid is the main form of vitamin C used in cosmetic serums and is studied for photoaging and pigmentation outcomes. It is chemically unstable, so published results depend strongly on the derivative, pH, vehicle and stabilisation, and many trials test combinations such as vitamin C with vitamin E and ferulic acid. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "ascorbic-acid-1",
+   "text_en": "A systematic review of 44 studies of vitamin C in dermatology described ascorbic acid as the most clinically validated form, with stabilised low-pH systems and L-ascorbic acid, vitamin E and ferulic acid combinations reported to improve photoaging and pigmentary outcomes.",
+   "evidence_level": "A",
+   "study_type": "systematic review",
+   "sources": [
     {
-      "id": "ascorbic-acid-1",
-      "text_en": "A systematic review of 44 studies of vitamin C in dermatology described ascorbic acid as the most clinically validated form, with stabilised low-pH systems and L-ascorbic acid, vitamin E and ferulic acid combinations reported to improve photoaging and pigmentary outcomes.",
-      "evidence_level": "A",
-      "study_type": "systematic review",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "42761976",
-          "title": "Clinical Applications of Vitamin C in Dermatology: A Systematic Review.",
-          "year": 2026,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42761976/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "ascorbic-acid-2",
-      "text_en": "A systematic review of 30 studies on antioxidants in melasma found that combining vitamin C with physical therapies such as peels and lasers gave better results, and that combinations of vitamins C, E and ferulic acid showed potential as adjuncts.",
-      "evidence_level": "A",
-      "study_type": "systematic review",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "40487500",
-          "doi": "10.4103/ijd.ijd_473_24",
-          "title": "Role of Antioxidants in Melasma: A Systematic Review.",
-          "year": 2025,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40487500/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "ascorbic-acid-3",
-      "text_en": "In a randomised double-blind trial of 66 healthy women, a topical vitamin C serum used for 12 weeks was associated with lower markers of skin glycation, protein carbonylation and interleukin-1 alpha, and with changes in skin colour parameters, compared with an untreated group; the authors were linked to the manufacturer.",
-      "evidence_level": "B",
-      "study_type": "RCT",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "42087444",
-          "doi": "10.1111/jocd.70888",
-          "title": "Study on the Multiple Efficacies of Vitamin C Serum in Anti-Glycation, Anti-Carbonylation, Antioxidation, and Anti-Inflammation of Human Skin Based on In Vivo Tests.",
-          "year": 2026,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42087444/"
-        }
-      ],
-      "checked_on": "2026-10-31"
-    },
-    {
-      "id": "ascorbic-acid-5",
-      "text_en": "The same systematic review of vitamin C in dermatology concluded that clinical effectiveness depends on derivative chemistry, vehicle, pH, stabilisation and delivery method, and that study heterogeneity and limited standardised data, especially across skin phototypes, restrict direct comparison.",
-      "evidence_level": "A",
-      "study_type": "systematic review",
-      "sources": [
-        {
-          "type": "pubmed",
-          "pmid": "42761976",
-          "title": "Clinical Applications of Vitamin C in Dermatology: A Systematic Review.",
-          "year": 2026,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42761976/"
-        }
-      ],
-      "checked_on": "2026-10-31"
+     "type": "pubmed",
+     "pmid": "42761976",
+     "title": "Clinical Applications of Vitamin C in Dermatology: A Systematic Review.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42761976/"
     }
-  ],
-  "translations": {
-    "uz": {
-      "summary": "Askorbin kislotasi (Ascorbic Acid) kosmetik zardoblarda ishlatiladigan C vitaminining asosiy shakli bo'lib, fotoqarish va pigmentatsiya natijalari bo'yicha o'rganilgan. U kimyoviy jihatdan beqaror, shuning uchun chop etilgan natijalar hosila, pH, tashuvchi baza va stabilizatsiyaga kuchli bog'liq; ko'plab tadqiqotlar C vitamini bilan E vitamini va ferul kislotasi kabi kombinatsiyalarni sinaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
-      "claims": {
-        "ascorbic-acid-1": "Dermatologiyada C vitamini bo'yicha 44 ta tadqiqotning tizimli sharhida askorbin kislotasi klinik jihatdan eng yaxshi tasdiqlangan shakl sifatida ta'riflangan; barqarorlashtirilgan past pH tizimlari hamda L-askorbin kislotasi, E vitamini va ferul kislotasi kombinatsiyalari fotoqarish va pigmentatsiya ko'rsatkichlarini yaxshilashi qayd etilgan.",
-        "ascorbic-acid-2": "Melazmada antioksidantlar bo'yicha 30 ta tadqiqotning tizimli sharhida C vitaminini pilinglar va lazerlar kabi jismoniy usullar bilan birga qo'llash yaxshiroq natija bergani, C, E vitaminlari va ferul kislotasi kombinatsiyalari esa yordamchi vosita sifatida imkoniyat ko'rsatgani aniqlangan.",
-        "ascorbic-acid-3": "66 nafar sog'lom ayol ishtirok etgan randomizatsiyalangan ikki tomonlama ko'r tadqiqotda 12 hafta davomida surtilgan C vitamini zardobi davolanmagan guruhga nisbatan teri glikatsiyasi, oqsil karbonillanishi va interleykin-1 alfa ko'rsatkichlarining pastroq bo'lishi hamda teri rangi parametrlaridagi o'zgarishlar bilan bog'langan; mualliflar ishlab chiqaruvchi bilan bog'liq edi.",
-        "ascorbic-acid-5": "Dermatologiyada C vitamini bo'yicha o'sha tizimli sharh klinik samara hosila kimyosi, tashuvchi baza, pH, stabilizatsiya va yetkazish usuliga bog'liq, tadqiqotlar xilma-xilligi va standartlashtirilgan ma'lumotlar cheklanganligi, ayniqsa turli teri fototiplari bo'yicha, to'g'ridan-to'g'ri taqqoslashni cheklaydi, degan xulosaga kelgan."
-      }
-    },
-    "ru": {
-      "summary": "Аскорбиновая кислота (Ascorbic Acid) является основной формой витамина C в косметических сыворотках и изучается в отношении фотостарения и пигментации. Она химически нестабильна, поэтому опубликованные результаты сильно зависят от производного, pH, основы и стабилизации, а многие исследования проверяют сочетания, например витамин C с витамином E и феруловой кислотой. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
-      "claims": {
-        "ascorbic-acid-1": "В систематическом обзоре 44 исследований витамина C в дерматологии аскорбиновая кислота описана как наиболее клинически подтверждённая форма; сообщается, что стабилизированные системы с низким pH и сочетания L-аскорбиновой кислоты, витамина E и феруловой кислоты улучшают показатели фотостарения и пигментации.",
-        "ascorbic-acid-2": "В систематическом обзоре 30 исследований антиоксидантов при меласме обнаружено, что сочетание витамина C с физическими методами, такими как пилинги и лазеры, давало лучшие результаты, а сочетания витаминов C, E и феруловой кислоты показали потенциал в качестве вспомогательных средств.",
-        "ascorbic-acid-3": "В рандомизированном двойном слепом исследовании с участием 66 здоровых женщин сыворотка с витамином C, применявшаяся 12 недель, была связана с более низкими показателями гликации кожи, карбонилирования белков и интерлейкина-1 альфа, а также с изменением параметров цвета кожи по сравнению с группой без лечения; авторы были связаны с производителем.",
-        "ascorbic-acid-5": "Тот же систематический обзор по витамину C в дерматологии пришёл к выводу, что клиническая эффективность зависит от химии производного, основы, pH, стабилизации и способа доставки, а разнородность исследований и ограниченность стандартизированных данных, особенно по фототипам кожи, затрудняют прямое сравнение."
-      }
-    },
-    "ar": {
-      "summary": "حمض الأسكوربيك (Ascorbic Acid) هو الشكل الرئيسي لفيتامين ج المستخدم في المصالل التجميلية، وتجري دراسته فيما يخص الشيخوخة الضوئية والتصبغ. وهو غير مستقر كيميائيًا، لذلك تعتمد النتائج المنشورة بقوة على المشتق ودرجة الحموضة والحامل والتثبيت، وتختبر كثير من التجارب توليفات مثل فيتامين ج مع فيتامين هـ وحمض الفيروليك. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
-      "claims": {
-        "ascorbic-acid-1": "وصفت مراجعة منهجية شملت 44 دراسة عن فيتامين ج في الأمراض الجلدية حمض الأسكوربيك بأنه الشكل الأكثر تأكيدًا سريريًا؛ وأُفيد بأن الأنظمة المثبّتة منخفضة الحموضة وتوليفات حمض الأسكوربيك (L-ascorbic acid) وفيتامين هـ وحمض الفيروليك تحسّن مؤشرات الشيخوخة الضوئية والتصبغ.",
-        "ascorbic-acid-2": "وجدت مراجعة منهجية شملت 30 دراسة عن مضادات الأكسدة في الكلف أن الجمع بين فيتامين ج والعلاجات الفيزيائية مثل التقشير والليزر أعطى نتائج أفضل، وأن توليفات فيتامينات ج وهـ وحمض الفيروليك أظهرت إمكانات كعلاج مساعد.",
-        "ascorbic-acid-3": "في دراسة عشوائية مزدوجة التعمية شملت 66 امرأة سليمة، ارتبط استخدام مصل فيتامين ج موضعيًا لمدة 12 أسبوعًا بانخفاض مؤشرات تسكّر الجلد (الغلكزة) وكربنة البروتينات والإنترلوكين-1 ألفا، وبتغيّر في معايير لون الجلد مقارنةً بمجموعة غير معالجة؛ وكان المؤلفون مرتبطين بالجهة المصنّعة.",
-        "ascorbic-acid-5": "خلصت المراجعة المنهجية نفسها حول فيتامين ج في الأمراض الجلدية إلى أن الفعالية السريرية تعتمد على كيمياء المشتق والحامل ودرجة الحموضة والتثبيت وطريقة الإيصال، وأن تباين الدراسات ومحدودية البيانات الموحّدة، خاصةً عبر أنماط البشرة الضوئية، يحدّان من المقارنة المباشرة."
-      }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "ascorbic-acid-2",
+   "text_en": "A systematic review of 30 studies on antioxidants in melasma found that combining vitamin C with physical therapies such as peels and lasers gave better results, and that combinations of vitamins C, E and ferulic acid showed potential as adjuncts.",
+   "evidence_level": "A",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40487500",
+     "doi": "10.4103/ijd.ijd_473_24",
+     "title": "Role of Antioxidants in Melasma: A Systematic Review.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40487500/"
     }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "ascorbic-acid-3",
+   "text_en": "In a randomised double-blind trial of 66 healthy women, a topical vitamin C serum used for 12 weeks was associated with lower markers of skin glycation, protein carbonylation and interleukin-1 alpha, and with changes in skin colour parameters, compared with an untreated group; the authors were linked to the manufacturer.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "42087444",
+     "doi": "10.1111/jocd.70888",
+     "title": "Study on the Multiple Efficacies of Vitamin C Serum in Anti-Glycation, Anti-Carbonylation, Antioxidation, and Anti-Inflammation of Human Skin Based on In Vivo Tests.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42087444/"
+    }
+   ],
+   "checked_on": "2026-10-31"
+  },
+  {
+   "id": "ascorbic-acid-5",
+   "text_en": "The same systematic review of vitamin C in dermatology concluded that clinical effectiveness depends on derivative chemistry, vehicle, pH, stabilisation and delivery method, and that study heterogeneity and limited standardised data, especially across skin phototypes, restrict direct comparison.",
+   "evidence_level": "A",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "42761976",
+     "title": "Clinical Applications of Vitamin C in Dermatology: A Systematic Review.",
+     "year": 2026,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42761976/"
+    }
+   ],
+   "checked_on": "2026-10-31"
   }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Askorbin kislotasi (Ascorbic Acid) kosmetik zardoblarda ishlatiladigan C vitaminining asosiy shakli bo'lib, fotoqarish va pigmentatsiya natijalari bo'yicha o'rganilgan. U kimyoviy jihatdan beqaror, shuning uchun chop etilgan natijalar hosila, pH, tashuvchi baza va stabilizatsiyaga kuchli bog'liq; ko'plab tadqiqotlar C vitamini bilan E vitamini va ferul kislotasi kabi kombinatsiyalarni sinaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "ascorbic-acid-1": "Dermatologiyada C vitamini bo'yicha 44 ta tadqiqotning tizimli sharhida askorbin kislotasi klinik jihatdan eng yaxshi tasdiqlangan shakl sifatida ta'riflangan; barqarorlashtirilgan past pH tizimlari hamda L-askorbin kislotasi, E vitamini va ferul kislotasi kombinatsiyalari fotoqarish va pigmentatsiya ko'rsatkichlarini yaxshilashi qayd etilgan.",
+    "ascorbic-acid-2": "Melazmada antioksidantlar bo'yicha 30 ta tadqiqotning tizimli sharhida C vitaminini pilinglar va lazerlar kabi jismoniy usullar bilan birga qo'llash yaxshiroq natija bergani, C, E vitaminlari va ferul kislotasi kombinatsiyalari esa yordamchi vosita sifatida imkoniyat ko'rsatgani aniqlangan.",
+    "ascorbic-acid-3": "66 nafar sog'lom ayol ishtirok etgan randomizatsiyalangan ikki tomonlama ko'r tadqiqotda 12 hafta davomida surtilgan C vitamini zardobi davolanmagan guruhga nisbatan teri glikatsiyasi, oqsil karbonillanishi va interleykin-1 alfa ko'rsatkichlarining pastroq bo'lishi hamda teri rangi parametrlaridagi o'zgarishlar bilan bog'langan; mualliflar ishlab chiqaruvchi bilan bog'liq edi.",
+    "ascorbic-acid-5": "Dermatologiyada C vitamini bo'yicha o'sha tizimli sharh klinik samara hosila kimyosi, tashuvchi baza, pH, stabilizatsiya va yetkazish usuliga bog'liq, tadqiqotlar xilma-xilligi va standartlashtirilgan ma'lumotlar cheklanganligi, ayniqsa turli teri fototiplari bo'yicha, to'g'ridan-to'g'ri taqqoslashni cheklaydi, degan xulosaga kelgan."
+   }
+  },
+  "ru": {
+   "summary": "Аскорбиновая кислота (Ascorbic Acid) является основной формой витамина C в косметических сыворотках и изучается в отношении фотостарения и пигментации. Она химически нестабильна, поэтому опубликованные результаты сильно зависят от производного, pH, основы и стабилизации, а многие исследования проверяют сочетания, например витамин C с витамином E и феруловой кислотой. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "ascorbic-acid-1": "В систематическом обзоре 44 исследований витамина C в дерматологии аскорбиновая кислота описана как наиболее клинически подтверждённая форма; сообщается, что стабилизированные системы с низким pH и сочетания L-аскорбиновой кислоты, витамина E и феруловой кислоты улучшают показатели фотостарения и пигментации.",
+    "ascorbic-acid-2": "В систематическом обзоре 30 исследований антиоксидантов при меласме обнаружено, что сочетание витамина C с физическими методами, такими как пилинги и лазеры, давало лучшие результаты, а сочетания витаминов C, E и феруловой кислоты показали потенциал в качестве вспомогательных средств.",
+    "ascorbic-acid-3": "В рандомизированном двойном слепом исследовании с участием 66 здоровых женщин сыворотка с витамином C, применявшаяся 12 недель, была связана с более низкими показателями гликации кожи, карбонилирования белков и интерлейкина-1 альфа, а также с изменением параметров цвета кожи по сравнению с группой без лечения; авторы были связаны с производителем.",
+    "ascorbic-acid-5": "Тот же систематический обзор по витамину C в дерматологии пришёл к выводу, что клиническая эффективность зависит от химии производного, основы, pH, стабилизации и способа доставки, а разнородность исследований и ограниченность стандартизированных данных, особенно по фототипам кожи, затрудняют прямое сравнение."
+   }
+  },
+  "ar": {
+   "summary": "حمض الأسكوربيك (Ascorbic Acid) هو الشكل الرئيسي لفيتامين ج المستخدم في المصالل التجميلية، وتجري دراسته فيما يخص الشيخوخة الضوئية والتصبّغ. وهو غير مستقر كيميائيًا، لذلك تعتمد النتائج المنشورة بقوة على المشتق ودرجة الحموضة والحامل والتثبيت، وتختبر كثير من التجارب توليفات مثل فيتامين ج مع فيتامين هـ وحمض الفيروليك. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "ascorbic-acid-1": "وصفت مراجعة منهجية شملت 44 دراسة عن فيتامين ج في الأمراض الجلدية حمض الأسكوربيك بأنه الشكل الأكثر تأكيدًا سريريًا؛ وأُفيد بأن الأنظمة المثبّتة منخفضة الحموضة وتوليفات حمض الأسكوربيك (L-ascorbic acid) وفيتامين هـ وحمض الفيروليك تحسّن مؤشرات الشيخوخة الضوئية والتصبّغ.",
+    "ascorbic-acid-2": "وجدت مراجعة منهجية شملت 30 دراسة عن مضادات الأكسدة في الكلف أن الجمع بين فيتامين ج والعلاجات الفيزيائية مثل التقشير والليزر أعطى نتائج أفضل، وأن توليفات فيتامينات ج وهـ وحمض الفيروليك أظهرت إمكانات كعلاج مساعد.",
+    "ascorbic-acid-3": "في دراسة عشوائية مزدوجة التعمية شملت 66 امرأة سليمة، ارتبط استخدام مصل فيتامين ج موضعيًا لمدة 12 أسبوعًا بانخفاض مؤشرات تسكّر الجلد (الغلكزة) وكربنة البروتينات والإنترلوكين-1 ألفا، وبتغيّر في معايير لون الجلد مقارنةً بمجموعة غير معالجة؛ وكان المؤلفون مرتبطين بالجهة المصنّعة.",
+    "ascorbic-acid-5": "خلصت المراجعة المنهجية نفسها حول فيتامين ج في الأمراض الجلدية إلى أن الفعالية السريرية تعتمد على كيمياء المشتق والحامل ودرجة الحموضة والتثبيت وطريقة الإيصال، وأن تباين الدراسات ومحدودية البيانات الموحّدة، خاصةً عبر أنماط البشرة الضوئية، يحدّان من المقارنة المباشرة."
+   }
+  }
+ }
 }
