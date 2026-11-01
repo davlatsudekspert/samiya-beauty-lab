@@ -58,6 +58,15 @@ jobs:
           cp build/app/outputs/bundle/release/app-release.aab build/app/outputs/flutter-apk/app-release.apk "$RUNNER_TEMP/out/"
           cd "$RUNNER_TEMP/out"
           7z a -tzip -mem=AES256 -p"$ARTIFACT_PASSPHRASE" "$GITHUB_WORKSPACE/samiya-android-${{ github.run_number }}.zip" app-release.aab app-release.apk
+          # Play Console uchun faqat AAB (kichikroq, sekin internetda tezroq yuklanadi)
+          7z a -tzip -mx=9 -mem=AES256 -p"$ARTIFACT_PASSPHRASE" "$GITHUB_WORKSPACE/samiya-aab-${{ github.run_number }}.zip" app-release.aab
+          ls -la "$GITHUB_WORKSPACE"/samiya-*.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: samiya-aab-only-${{ github.run_number }}
+          path: samiya-aab-${{ github.run_number }}.zip
+          compression-level: 0
+          retention-days: 7
       - uses: actions/upload-artifact@v4
         with:
           name: samiya-android-encrypted-${{ github.run_number }}
