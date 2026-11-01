@@ -9,7 +9,6 @@ import '../../app/theme.dart';
 import '../../ui/ingredient_palette.dart';
 import '../../ui/safe_nav.dart';
 import '../../l10n/app_localizations.dart';
-import '../../ui/portrait_banner.dart';
 
 /// 11 Bosh sahifa. Tavsiya bloki hozircha faqat ingredient NOMLARI (da'vosiz);
 /// tavsif va dalillar kontent bazasi tayyor bo'lgach ulanadi.
@@ -102,7 +101,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 16),
-            PortraitBanner(key: const Key('home-banner'), title: l.homeBannerTitle, tag: l.homeBannerTag, minHeight: 150, image: 'assets/photos/deco_rose.jpg'),
+            _HeroPortrait(key: const Key('home-banner'), title: l.homeBannerTitle, tag: l.homeBannerTag, onTap: () => context.go('/academy')),
             const SizedBox(height: 18),
             GridView.builder(
               shrinkWrap: true,
@@ -112,9 +111,9 @@ class HomePage extends StatelessWidget {
                 crossAxisCount: 3,
                 mainAxisSpacing: 12,
                 crossAxisSpacing: 12,
-                mainAxisExtent: 74 + 44 * scale,
+                mainAxisExtent: 128 + 34 * scale,
               ),
-              itemBuilder: (context, i) => _Tile(key: Key('tile-${tiles[i].$1}'), label: tiles[i].$2, icon: tiles[i].$3, onTap: tiles[i].$4),
+              itemBuilder: (context, i) => _PhotoTile(key: Key('tile-${tiles[i].$1}'), label: tiles[i].$2, icon: tiles[i].$3, photo: _tilePhotos[tiles[i].$1]!, onTap: tiles[i].$4),
             ),
             if (!app.isPro && app.campaign.phase == 'free_campaign' && (app.campaign.daysRemaining ?? 99) <= 15) ...[
               const SizedBox(height: 16),
@@ -322,82 +321,6 @@ class HomePage extends StatelessWidget {
   }
 }
 
-class _Tile extends StatelessWidget {
-  const _Tile({super.key, required this.label, required this.icon, required this.onTap});
-  final String label;
-  final IconData icon;
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return Semantics(
-      button: true,
-      label: label,
-      child: InkWell(
-        borderRadius: BorderRadius.circular(18),
-        onTap: onTap,
-        child: ExcludeSemantics(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              // Ikki rangli belgi: marvarid-atirgul gradient, ingichka oltin halqa va yengil yorug'lik.
-              Container(
-                width: 60,
-                height: 60,
-                padding: const EdgeInsets.all(3),
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  gradient: SweepGradient(
-                    colors: [
-                      SamiyaColors.gold.withValues(alpha: 0.9),
-                      const Color(0xFFE9D9C4),
-                      SamiyaColors.gold.withValues(alpha: 0.6),
-                      const Color(0xFFF4E9DC),
-                      SamiyaColors.gold.withValues(alpha: 0.9),
-                    ],
-                  ),
-                  boxShadow: SamiyaShadows.soft,
-                ),
-                child: Container(
-                  alignment: Alignment.center,
-                  decoration: const BoxDecoration(
-                    shape: BoxShape.circle,
-                    gradient: LinearGradient(
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                      colors: [Color(0xFFFFFBF8), Color(0xFFF0DFD9), Color(0xFFE2C6C4)],
-                    ),
-                  ),
-                  child: ShaderMask(
-                    blendMode: BlendMode.srcIn,
-                    shaderCallback: (r) => const LinearGradient(
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                      colors: [Color(0xFF6B3D50), SamiyaColors.heading],
-                    ).createShader(r),
-                    child: Icon(icon, size: 27),
-                  ),
-                ),
-              ),
-              const SizedBox(height: 8),
-              Flexible(
-                child: Text(
-                  label,
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(fontSize: 12.5, fontWeight: FontWeight.w500, height: 1.25),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-/// Ravoq (arka) shaklidagi kartochka: Sharq me'morchiligi va lyuks atelye uslubi; ingichka oltin chiziq.
 class _IngredientCard extends StatelessWidget {
   const _IngredientCard({required this.name, required this.slug, required this.onTap, this.latin = true, this.icon = Icons.science_outlined});
   final String name;
@@ -572,6 +495,136 @@ class _Collection extends StatelessWidget {
                   ),
                 ),
               ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Bo'lim rasmlari (CC0, assets/photos).
+const _tilePhotos = {
+  'scanner': 'assets/photos/rose-water.jpg',
+  'skin': 'assets/photos/chamomile.jpg',
+  'routine': 'assets/photos/deco_jasmine.jpg',
+  'academy': 'assets/photos/deco_peony.jpg',
+  'ai': 'assets/photos/deco_lavender.jpg',
+  'journal': 'assets/photos/deco_rose.jpg',
+  'recipes': 'assets/photos/oat.jpg',
+  'rituals': 'assets/photos/rosehip-oil.jpg',
+  'shelf': 'assets/photos/olive-oil.jpg',
+};
+
+/// Jurnal muqovasi uslubidagi bosh kartochka: portret, ud-olxo'ri gradiyenti va serif sarlavha.
+class _HeroPortrait extends StatelessWidget {
+  const _HeroPortrait({super.key, required this.title, required this.tag, required this.onTap});
+  final String title, tag;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = Theme.of(context).textTheme;
+    final rtl = Directionality.of(context) == TextDirection.rtl;
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        constraints: const BoxConstraints(minHeight: 230),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(28),
+          border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.55)),
+          boxShadow: const [BoxShadow(color: Color(0x223B1E2B), blurRadius: 20, spreadRadius: -6, offset: Offset(0, 10))],
+        ),
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(27),
+          child: Stack(children: [
+            Positioned.fill(
+              child: Transform.flip(
+                flipX: rtl,
+                child: Image.asset('assets/images/hero_card.jpg', fit: BoxFit.cover, alignment: const Alignment(0.7, -0.5), filterQuality: FilterQuality.high),
+              ),
+            ),
+            Positioned.fill(
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: AlignmentDirectional.centerStart.resolve(Directionality.of(context)),
+                    end: AlignmentDirectional.centerEnd.resolve(Directionality.of(context)),
+                    colors: const [Color(0xF23B1E2B), Color(0xB33B1E2B), Color(0x003B1E2B)],
+                    stops: const [0, 0.45, 0.85],
+                  ),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsetsDirectional.fromSTEB(22, 26, 110, 24),
+              child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
+                Text('SAMIYA', style: t.labelSmall?.copyWith(color: const Color(0xFFE9D3A8), letterSpacing: 4, fontSize: 11)),
+                const SizedBox(height: 12),
+                Text(title, style: t.headlineMedium?.copyWith(color: Colors.white, fontSize: 30, height: 1.1)),
+                const SizedBox(height: 12),
+                Container(height: 1, width: 48, color: const Color(0xFFE9D3A8)),
+                const SizedBox(height: 10),
+                Text(tag.toUpperCase(), style: t.labelSmall?.copyWith(color: const Color(0xDDFFFFFF), letterSpacing: 1.6)),
+              ]),
+            ),
+          ]),
+        ),
+      ),
+    );
+  }
+}
+
+/// Rasmli bo'lim kartochkasi: ravoq shakli, pastda ud-olxo'ri pardasi, oltin belgi va oq nom.
+class _PhotoTile extends StatelessWidget {
+  const _PhotoTile({super.key, required this.label, required this.icon, required this.photo, required this.onTap});
+  final String label, photo;
+  final IconData icon;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = Theme.of(context).textTheme;
+    const r = BorderRadius.vertical(top: Radius.circular(60), bottom: Radius.circular(18));
+    return Semantics(
+      button: true,
+      label: label,
+      child: GestureDetector(
+        onTap: onTap,
+        child: ExcludeSemantics(
+          child: Container(
+            decoration: BoxDecoration(
+              borderRadius: r,
+              border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.6)),
+              boxShadow: SamiyaShadows.soft,
+            ),
+            child: ClipRRect(
+              borderRadius: r,
+              child: Stack(fit: StackFit.expand, children: [
+                Image.asset(photo, fit: BoxFit.cover),
+                const DecoratedBox(
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                      colors: [Color(0x003B1E2B), Color(0x553B1E2B), Color(0xEE3B1E2B)],
+                      stops: [0.25, 0.55, 1],
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(6, 8, 6, 10),
+                  child: Column(mainAxisAlignment: MainAxisAlignment.end, children: [
+                    Icon(icon, size: 18, color: const Color(0xFFE9D3A8)),
+                    const SizedBox(height: 4),
+                    Text(label,
+                        textAlign: TextAlign.center,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                        style: t.labelLarge?.copyWith(color: Colors.white, fontSize: 12.5, height: 1.2, fontWeight: FontWeight.w600)),
+                  ]),
+                ),
+              ]),
             ),
           ),
         ),

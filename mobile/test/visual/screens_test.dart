@@ -56,6 +56,10 @@ void main() {
             await precacheImage(AssetImage('assets/images/$a.png'), ctx);
           }
           await precacheImage(const AssetImage('assets/images/logo_square.jpg'), ctx);
+          await precacheImage(const AssetImage('assets/images/hero_card.jpg'), ctx);
+          for (final b in Directory('assets/photos').listSync().whereType<File>().where((f) => f.path.endsWith('.jpg'))) {
+            await precacheImage(AssetImage('assets/photos/${b.uri.pathSegments.last}'), ctx);
+          }
         });
         await t.pump(const Duration(milliseconds: 1200));
         await t.pump(const Duration(milliseconds: 400));
