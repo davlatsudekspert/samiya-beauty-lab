@@ -613,4 +613,7 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get photoCredit =>
       'Photo: iNaturalist community, CC0 (no rights reserved)';
+
+  @override
+  String get honestLead => 'In all honesty:';
 }

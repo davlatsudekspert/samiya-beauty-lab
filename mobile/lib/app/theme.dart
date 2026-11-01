@@ -10,7 +10,7 @@ abstract final class SamiyaColors {
   static const roseSoft = Color(0xFFE8D8D3);
   static const ivory = Color(0xFFF7F3F1); // fon (chinni)
   static const ink = Color(0xFF2A1B22);
-  static const muted = Color(0xFF74646A);
+  static const muted = Color(0xFF6B4E5C); // ikkinchi darajali matn (brend rangida, kulrang emas)
   static const heading = Color(0xFF3B1E2B); // ud-olxo'ri
   static const border = Color(0xFFE4D6D1);
   static const gold = Color(0xFFB08D57); // faqat ingichka chiziq va kichik belgilar
@@ -32,8 +32,8 @@ abstract final class SamiyaGradients {
 }
 
 abstract final class SamiyaShadows {
-  static const soft = [BoxShadow(color: Color(0x123B1E2B), blurRadius: 28, offset: Offset(0, 10))];
-  static const cta = [BoxShadow(color: Color(0x293B1E2B), blurRadius: 20, offset: Offset(0, 8))];
+  static const soft = [BoxShadow(color: Color(0x0F3B1E2B), blurRadius: 3, offset: Offset(0, 1))]; // ingichka, "shablon" soyasi yo'q
+  static const cta = [BoxShadow(color: Color(0x1F3B1E2B), blurRadius: 10, offset: Offset(0, 4))];
 }
 
 /// Tilga qarab shrift: arabcha uchun IBM Plex Sans Arabic + Amiri, qolganlari uchun Jost (matn) + Cormorant Garamond (sarlavha).

@@ -8,6 +8,7 @@ import '../../l10n/app_localizations.dart';
 import '../../ui/widgets.dart';
 import 'evidence_widgets.dart';
 import '../../ui/botanical_assets.dart';
+import '../../ui/honest_note.dart';
 import 'ingredient_models.dart';
 import 'traditional_widgets.dart';
 
@@ -99,7 +100,15 @@ class IngredientDetailPage extends StatelessWidget {
                       _Note(key: const Key('note-eu'), icon: Icons.gavel_rounded, text: l.euUnverified),
                     ],
                     const SizedBox(height: 18),
-                    _Legend(l: l),
+                    Theme(
+                      data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
+                      child: ExpansionTile(
+                        key: const Key('evidence-legend-toggle'),
+                        tilePadding: EdgeInsets.zero,
+                        title: Text(l.evidenceLegendTitle, style: t.titleMedium?.copyWith(color: SamiyaColors.heading)),
+                        children: [_Legend(l: l)],
+                      ),
+                    ),
                     const SizedBox(height: 22),
                     Text(l.detailClaims, style: t.titleMedium?.copyWith(fontSize: 18, fontWeight: FontWeight.w700)),
                     const SizedBox(height: 12),
@@ -127,17 +136,7 @@ class _Note extends StatelessWidget {
   final String text;
 
   @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.all(12),
-      decoration: BoxDecoration(color: SamiyaColors.blush, borderRadius: BorderRadius.circular(16)),
-      child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Icon(icon, size: 20, color: SamiyaColors.rose),
-        const SizedBox(width: 10),
-        Expanded(child: Text(text, style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: SamiyaColors.heading))),
-      ]),
-    );
-  }
+  Widget build(BuildContext context) => HonestNote(text);
 }
 
 class _Legend extends StatelessWidget {

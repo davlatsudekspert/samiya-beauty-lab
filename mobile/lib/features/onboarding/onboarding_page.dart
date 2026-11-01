@@ -117,17 +117,17 @@ class _Slide extends StatelessWidget {
           Container(
             height: imageHeight,
             width: double.infinity,
-            decoration: BoxDecoration(borderRadius: BorderRadius.circular(32), boxShadow: SamiyaShadows.soft),
+            decoration: BoxDecoration(borderRadius: const BorderRadius.vertical(top: Radius.circular(160), bottom: Radius.circular(24)), boxShadow: SamiyaShadows.soft),
             child: ClipRRect(
-              borderRadius: BorderRadius.circular(32),
+              borderRadius: const BorderRadius.vertical(top: Radius.circular(160), bottom: Radius.circular(24)),
               child: ExcludeSemantics(
                 child: Image.asset(asset, fit: BoxFit.cover, filterQuality: FilterQuality.high),
               ),
             ),
           ),
           const SizedBox(height: 22),
-          InfoPill(number, upper: false, ltr: true),
-          const SizedBox(height: 16),
+          Semantics(label: number, child: Container(height: 1, width: 48, color: SamiyaColors.gold)),
+          const SizedBox(height: 18),
           Text(title, textAlign: TextAlign.center, style: Theme.of(context).textTheme.headlineMedium),
           const SizedBox(height: 10),
           Text(body, textAlign: TextAlign.center, style: Theme.of(context).textTheme.bodyLarge),

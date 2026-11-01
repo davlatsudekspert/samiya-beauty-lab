@@ -617,4 +617,7 @@ class AppLocalizationsUz extends AppLocalizations {
   @override
   String get photoCredit =>
       'Foto: iNaturalist hamjamiyati, CC0 (huquqlar saqlanmagan)';
+
+  @override
+  String get honestLead => 'Ochiq aytamiz:';
 }

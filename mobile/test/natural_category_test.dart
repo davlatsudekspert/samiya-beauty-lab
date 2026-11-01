@@ -48,12 +48,14 @@ void main() {
 
   testWidgets('"Tabiiy" filtri faqat tabiiylarni, "Faol" faqat faollarni ko\'rsatadi', (t) async {
     await pumpApp(t, state: state(), initial: '/scanner/ingredients');
+    await t.ensureVisible(k('filter-natural'));
     await t.tap(k('filter-natural'));
     await t.pumpAndSettle();
     expect(k('ingredient-item-honey'), findsOneWidget);
     expect(k('ingredient-item-aloe-vera'), findsOneWidget);
     expect(k('ingredient-item-niacinamide'), findsNothing);
     expect(k('natural-note'), findsOneWidget, reason: 'tabiiy ro\'yxatda "tabiiy = xavfsiz emas" izohi');
+    await t.ensureVisible(k('filter-active'));
     await t.tap(k('filter-active'));
     await t.pumpAndSettle();
     expect(k('ingredient-item-niacinamide'), findsOneWidget);
@@ -63,6 +65,7 @@ void main() {
 
   testWidgets('filtr va qidiruv birga ishlaydi', (t) async {
     await pumpApp(t, state: state(), initial: '/scanner/ingredients');
+    await t.ensureVisible(k('filter-natural'));
     await t.tap(k('filter-natural'));
     await t.pumpAndSettle();
     await t.enterText(k('ingredient-search'), 'aloe');

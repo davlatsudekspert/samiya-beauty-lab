@@ -61,6 +61,9 @@ void main() {
     expect(k('ingredient-page'), findsOneWidget);
     expect(k('note-draft'), findsOneWidget);
     expect(k('note-eu'), findsOneWidget);
+    await t.ensureVisible(k('evidence-legend-toggle'));
+    await t.tap(k('evidence-legend-toggle'));
+    await t.pumpAndSettle();
     expect(k('evidence-legend'), findsOneWidget);
     // Barcha da'volar ro'yxatda, har birida kamida bitta PubMed manbasi
     for (final id in ['niacinamide-1', 'niacinamide-2', 'niacinamide-3', 'niacinamide-4']) {

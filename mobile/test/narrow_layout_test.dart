@@ -35,13 +35,6 @@ void main() {
       expectNoMidWordBreak(t, title, reason: 'home banner $lang');
     });
 
-    testWidgets('320x568: kirish banner sarlavhasi so\'zni bo\'lmaydi ($lang)', (t) async {
-      await pumpApp(t,
-          state: AppState(ingredients: testRepo(), locale: Locale(lang)),
-          initial: '/login', size: const Size(320, 568));
-      final title = find.descendant(of: k('login-banner'), matching: find.byType(Text)).last;
-      expectNoMidWordBreak(t, title, reason: 'login banner $lang');
-    });
   }
 
   testWidgets('320x568: pastki navigatsiya yorlig\'i qisqartirilmaydi (uz)', (t) async {

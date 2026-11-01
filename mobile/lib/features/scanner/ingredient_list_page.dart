@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
+import '../../ui/honest_note.dart';
 import '../../ui/ingredient_palette.dart';
 import '../../ui/safe_nav.dart';
 import '../../ui/widgets.dart';
@@ -64,7 +65,10 @@ class _IngredientListPageState extends State<IngredientListPage> {
                     ),
                   ),
                   const SizedBox(height: 10),
-                  Wrap(spacing: 8, runSpacing: 8, children: [
+                  // Filtrlar bitta gorizontal qatorda (ikki qatorli chiplar o'rniga)
+                  SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(children: [
                     for (final (id, label) in [
                       ('all', l.filterAll),
                       ('active', l.filterActive),
@@ -72,24 +76,19 @@ class _IngredientListPageState extends State<IngredientListPage> {
                       ('practice', l.filterPractice),
                       ('caution', l.filterCaution),
                     ])
-                      ChoiceChip(
+                      Padding(padding: const EdgeInsetsDirectional.only(end: 8), child: ChoiceChip(
                         key: Key('filter-$id'),
                         label: Text(label),
                         selected: _filter == id,
                         onSelected: (_) => setState(() => _filter = id),
-                      ),
-                  ]),
+                      )),
+                    ]),
+                  ),
                   if (const {'natural', 'practice', 'caution'}.contains(_filter)) ...[
                     const SizedBox(height: 10),
-                    Container(
+                    HonestNote(
+                      _filter == 'natural' ? l.naturalNote : _filter == 'practice' ? l.practiceNote : l.cautionNote,
                       key: Key('$_filter-note'),
-                      width: double.infinity,
-                      padding: const EdgeInsets.all(12),
-                      decoration: BoxDecoration(color: SamiyaColors.blush, borderRadius: BorderRadius.circular(16)),
-                      child: Text(
-                        _filter == 'natural' ? l.naturalNote : _filter == 'practice' ? l.practiceNote : l.cautionNote,
-                        style: t.bodyMedium?.copyWith(fontSize: 13, fontWeight: FontWeight.w600),
-                      ),
                     ),
                   ],
                   const SizedBox(height: 14),

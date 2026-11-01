@@ -37,12 +37,12 @@ void main() {
     await t.tap(k('welcome-start'));
     await t.pumpAndSettle();
     expect(k('onboarding-page'), findsOneWidget);
-    expect(find.text('01 / 03'), findsOneWidget);
+    expect(find.text('Go‘zallik ilm bilan boshlanadi'), findsOneWidget);
     await t.tap(k('onboarding-next'));
     await t.pumpAndSettle();
     await t.tap(k('onboarding-next'));
     await t.pumpAndSettle();
-    expect(find.text('03 / 03'), findsOneWidget);
+    expect(find.text('O‘rganing, rivojlaning'), findsOneWidget);
     await t.tap(k('onboarding-next'));
     await t.pumpAndSettle();
     expect(k('login-page'), findsOneWidget);

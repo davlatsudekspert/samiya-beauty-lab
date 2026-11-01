@@ -66,16 +66,19 @@ void main() {
 
   testWidgets('filtrlar: usullar va ehtiyot; har birida o\'z izohi', (t) async {
     await pumpApp(t, state: _state(), initial: '/scanner/ingredients');
+    await t.ensureVisible(k('filter-practice'));
     await t.tap(k('filter-practice'));
     await t.pumpAndSettle();
     expect(k('ingredient-item-facial-massage'), findsOneWidget);
     expect(k('ingredient-item-cucumber'), findsNothing);
     expect(k('practice-note'), findsOneWidget);
+    await t.ensureVisible(k('filter-caution'));
     await t.tap(k('filter-caution'));
     await t.pumpAndSettle();
     expect(k('ingredient-item-lemon-juice'), findsOneWidget);
     expect(k('ingredient-item-facial-massage'), findsNothing);
     expect(k('caution-note'), findsOneWidget);
+    await t.ensureVisible(k('filter-active'));
     await t.tap(k('filter-active'));
     await t.pumpAndSettle();
     expect(k('ingredient-item-niacinamide'), findsOneWidget);

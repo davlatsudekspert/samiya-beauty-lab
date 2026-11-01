@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import '../../ui/safe_nav.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../ui/brand.dart';
@@ -14,7 +13,6 @@ class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
-    final state = AppScope.of(context);
     final t = Theme.of(context).textTheme;
     final heroH = (MediaQuery.sizeOf(context).height * 0.56).clamp(300.0, 520.0);
     return Scaffold(
@@ -63,7 +61,7 @@ class WelcomePage extends StatelessWidget {
                       const SizedBox(height: 16),
                       Text(l.welcomeTagline, textAlign: TextAlign.center, style: t.headlineSmall?.copyWith(fontSize: 22, fontStyle: FontStyle.italic, fontWeight: FontWeight.w500)),
                       const SizedBox(height: 14),
-                      InfoPill(l.campaignPill),
+                      Text(l.campaignPill.toUpperCase(), textAlign: TextAlign.center, style: t.labelSmall?.copyWith(color: const Color(0xFF8C6A3A), letterSpacing: Localizations.localeOf(context).languageCode == 'ar' ? 0 : 2, fontSize: 11.5)),
                     ]),
                   ),
                 ),
@@ -81,58 +79,10 @@ class WelcomePage extends StatelessWidget {
                   trailing: Icons.arrow_forward_rounded,
                   onPressed: () => context.safePush('/onboarding'),
                 ),
-                const SizedBox(height: 12),
-                Wrap(spacing: 8, runSpacing: 8, alignment: WrapAlignment.center, children: [
-                  for (final code in languageNativeNames.keys)
-                    _LangChip(code: code, selected: state.locale.languageCode == code, onTap: () => state.setLocale(code)),
-                ]),
               ]),
             ),
           ),
         ]),
-      ),
-    );
-  }
-}
-
-class _LangChip extends StatelessWidget {
-  const _LangChip({required this.code, required this.selected, required this.onTap});
-  final String code;
-  final bool selected;
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return Semantics(
-      button: true,
-      selected: selected,
-      label: languageNativeNames[code],
-      child: Material(
-        color: selected ? Colors.white : SamiyaColors.blush,
-        borderRadius: BorderRadius.circular(22),
-        child: InkWell(
-          key: Key('welcome-lang-$code'),
-          borderRadius: BorderRadius.circular(22),
-          onTap: onTap,
-          child: Container(
-            constraints: const BoxConstraints(minWidth: 56, minHeight: 44),
-            padding: const EdgeInsets.symmetric(horizontal: 14),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(22),
-              border: Border.all(color: selected ? SamiyaColors.rose : Colors.transparent, width: 1.4),
-            ),
-            child: Center(
-              widthFactor: 1,
-              heightFactor: 1,
-              child: Text(code.toUpperCase(),
-                  style: TextStyle(
-                      fontFamily: 'Jost',
-                      fontWeight: FontWeight.w700,
-                      fontSize: 14,
-                      color: selected ? SamiyaColors.rose : SamiyaColors.heading)),
-            ),
-          ),
-        ),
       ),
     );
   }

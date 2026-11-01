@@ -614,4 +614,7 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get photoCredit =>
       'Фото: сообщество iNaturalist, CC0 (без сохранения прав)';
+
+  @override
+  String get honestLead => 'Скажем честно:';
 }

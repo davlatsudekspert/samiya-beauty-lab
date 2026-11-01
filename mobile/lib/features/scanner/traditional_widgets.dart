@@ -3,6 +3,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
+import '../../ui/honest_note.dart';
 import '../../ui/safe_nav.dart';
 import 'ingredient_models.dart';
 
@@ -29,25 +30,7 @@ class TraditionalCaveat extends StatelessWidget {
   const TraditionalCaveat({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return Container(
-      key: const Key('note-traditional'),
-      padding: const EdgeInsets.all(12),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: SamiyaColors.gold.withValues(alpha: 0.55)),
-        color: Colors.white,
-      ),
-      child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        const Icon(Icons.history_edu_outlined, size: 20, color: SamiyaColors.gold),
-        const SizedBox(width: 10),
-        Expanded(
-          child: Text(AppLocalizations.of(context).traditionalNote,
-              style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: SamiyaColors.heading)),
-        ),
-      ]),
-    );
-  }
+  Widget build(BuildContext context) => HonestNote(AppLocalizations.of(context).traditionalNote, key: const Key('note-traditional'));
 }
 
 class TraditionalNoteCard extends StatelessWidget {

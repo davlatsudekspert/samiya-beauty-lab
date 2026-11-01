@@ -618,4 +618,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get photoCredit => 'الصورة: مجتمع iNaturalist، ‏CC0 (بلا حقوق محفوظة)';
+
+  @override
+  String get honestLead => 'بصراحة:';
 }

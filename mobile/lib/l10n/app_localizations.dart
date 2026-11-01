@@ -1235,6 +1235,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Photo: iNaturalist community, CC0 (no rights reserved)'**
   String get photoCredit;
+
+  /// No description provided for @honestLead.
+  ///
+  /// In en, this message translates to:
+  /// **'In all honesty:'**
+  String get honestLead;
 }
 
 class _AppLocalizationsDelegate

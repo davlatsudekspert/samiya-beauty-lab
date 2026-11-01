@@ -32,9 +32,9 @@ void main() {
     // Ro'yxat sekin yaratiladi (lazy): yuqoridagi elementlar darhol ko'rinadi, qolganlari qidiruv/filtr bilan topiladi.
     expect(k('ingredient-item-niacinamide'), findsOneWidget);
     expect(k('ingredient-item-hyaluronic-acid'), findsOneWidget);
-    await t.tap(k('filter-active'));
-    await t.pumpAndSettle();
     await t.enterText(k('ingredient-search'), 'reti');
+    await t.pumpAndSettle();
+    await t.tap(k('filter-active'));
     await t.pumpAndSettle();
     expect(k('ingredient-item-retinol'), findsOneWidget);
   });

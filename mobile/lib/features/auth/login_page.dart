@@ -5,7 +5,7 @@ import 'package:go_router/go_router.dart';
 import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../l10n/app_localizations.dart';
-import '../../ui/portrait_banner.dart';
+import '../../ui/brand.dart';
 import '../../ui/widgets.dart';
 import 'auth_service.dart';
 
@@ -72,9 +72,12 @@ class _LoginPageState extends State<LoginPage> {
               child: PageBody(
                 child: Column(children: [
                   const SizedBox(height: 4),
-                  PortraitBanner(key: const Key('login-banner'), title: l.loginBanner, eyebrow: l.appName),
                   const SizedBox(height: 18),
-                  InfoPill(l.campaignNoCard),
+                  Semantics(label: l.appName, child: const SamiyaMark(size: 56)),
+                  const SizedBox(height: 16),
+                  const ExcludeSemantics(child: SamiyaWordmark(scale: 0.7)),
+                  const SizedBox(height: 22),
+                  Text(l.campaignNoCard.toUpperCase(), textAlign: TextAlign.center, style: t.labelSmall?.copyWith(color: const Color(0xFF8C6A3A), letterSpacing: Localizations.localeOf(context).languageCode == 'ar' ? 0 : 2, fontSize: 11.5)),
                   const SizedBox(height: 14),
                   Text(l.welcomeTitle, textAlign: TextAlign.center, style: t.headlineMedium),
                   const SizedBox(height: 8),
