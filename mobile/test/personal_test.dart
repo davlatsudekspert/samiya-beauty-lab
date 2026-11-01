@@ -130,15 +130,19 @@ void main() {
     final p = PersonalStore(persist: false, clock: () => DateTime(2026, 11, 1, 9)); // ertalab: "Ertalab" tanlanadi
     await pumpApp(t, state: app(p: p), initial: '/home/routine');
     expect(k('routine-empty'), findsOneWidget);
+    await t.ensureVisible(k('routine-input'));
     await t.enterText(k('routine-input'), 'Yuvish vositasi');
+    await t.ensureVisible(k('routine-add'));
     await t.tap(k('routine-add'));
     await t.pumpAndSettle();
     final id = p.routine['am']!.single.id;
     expect(k('step-$id'), findsOneWidget);
     expect(find.text('Bugun bajarildi: 0/1'), findsOneWidget);
+    await t.ensureVisible(k('step-done-$id'));
     await t.tap(k('step-done-$id'));
     await t.pumpAndSettle();
     expect(find.text('Bugun bajarildi: 1/1'), findsOneWidget);
+    await t.ensureVisible(k('routine-tab-pm'));
     await t.tap(k('routine-tab-pm'));
     await t.pumpAndSettle();
     expect(k('routine-empty'), findsOneWidget);
@@ -156,7 +160,7 @@ void main() {
   testWidgets('akademiya: 6 ta mavzu va "Tez orada" (soxta dars yo\'q)', (t) async {
     await pumpApp(t, state: app(), initial: '/academy');
     for (var i = 0; i < 6; i++) {
-      await t.ensureVisible(k('academy-topic-$i'));
+      await t.scrollUntilVisible(k('academy-topic-$i'), 200, scrollable: find.descendant(of: k('tab-academy'), matching: find.byType(Scrollable)).first);
       expect(k('academy-topic-$i'), findsOneWidget);
     }
   });
