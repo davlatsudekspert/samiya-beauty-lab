@@ -697,4 +697,66 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get lessonDone => 'تمت القراءة';
+
+  @override
+  String get aiSubtitle =>
+      'مساعدتكِ الشخصية للجمال: شرح واضح مبني على مصادر علمية.';
+
+  @override
+  String get aiDisclaimer =>
+      'تقدّم SAMIYA AI معلومات تثقيفية، ولا تشخّص ولا توصي بأدوية. قد تخطئ — في الأسئلة المهمة راجعي طبيبة جلدية.';
+
+  @override
+  String get aiConsent =>
+      'لإعداد الإجابة يُرسل سؤالكِ إلى خدمة Google Gemini. لا تكتبي اسمكِ أو رقم هاتفكِ أو مستنداتكِ الطبية.';
+
+  @override
+  String get aiAccept => 'فهمت، لنبدأ';
+
+  @override
+  String get aiHint => 'اكتبي سؤالكِ…';
+
+  @override
+  String get aiThinking => 'SAMIYA تفكّر…';
+
+  @override
+  String get aiSignIn => 'سجّلي الدخول لاستخدام SAMIYA AI — مجانًا.';
+
+  @override
+  String get aiSignInBtn => 'تسجيل الدخول';
+
+  @override
+  String get aiNotReady =>
+      'ستنطلق SAMIYA AI قريبًا. إلى ذلك الحين، استكشفي مكتبة المكونات وقسم ابن سينا والأكاديمية.';
+
+  @override
+  String get aiQuota =>
+      'انتهت أسئلتكِ المجانية لهذا اليوم. يمكنكِ السؤال مجددًا غدًا.';
+
+  @override
+  String get aiError =>
+      'تعذّر الحصول على إجابة. تحققي من الاتصال وحاولي مجددًا.';
+
+  @override
+  String get aiRetry => 'إعادة المحاولة';
+
+  @override
+  String aiRemaining(int n) {
+    return 'الأسئلة المتبقية اليوم: $n';
+  }
+
+  @override
+  String get aiTry => 'جرّبي أن تسألي:';
+
+  @override
+  String get aiS1 => 'هل يمكن استخدام النياسيناميد وفيتامين C معًا؟';
+
+  @override
+  String get aiS2 => 'ما الروتين المسائي المناسب للبشرة الجافة؟';
+
+  @override
+  String get aiS3 => 'كيف أستخدم الغوا شا بطريقة صحيحة؟';
+
+  @override
+  String get aiS4 => 'ماذا كتب ابن سينا عن العناية بالبشرة؟';
 }

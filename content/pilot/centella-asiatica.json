@@ -1,0 +1,130 @@
+{
+ "inci": "Centella Asiatica Extract",
+ "slug": "centella-asiatica",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Centella asiatica extract (INCI: Centella Asiatica Extract; the plant is also called gotu kola, and products are often marketed as \"cica\") is a plant extract used in moisturisers and soothing skin-care products. Small studies suggest that formulations containing it may increase measured skin hydration, and a systematic review of five small trials on wrinkles reported some benefit but noted weak reporting and unstandardised extracts. Allergic contact dermatitis has been described in case reports. A natural origin does not by itself indicate how any individual will tolerate a product. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "centella-asiatica-1",
+   "text_en": "In a 4-week study of 25 volunteers who applied creams and gels containing 2.5% or 5% Centella asiatica extract to their forearms twice daily, the 5% formulations gave the largest increase in skin surface hydration and decrease in transepidermal water loss, and reduced redness in a laboratory model of mild skin inflammation (methyl nicotinate). The study was small, tested only forearm skin and the abstract does not describe randomisation or blinding, so the results are preliminary.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "27168678",
+     "doi": "10.4103/0250-474x.180247",
+     "title": "Moisturizing and Antiinflammatory Properties of Cosmetic Formulations Containing Centella asiatica Extract.",
+     "year": 2016,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27168678/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "centella-asiatica-2",
+   "text_en": "In a double-blind trial in 30 Indonesian batik workers with dry skin but no contact dermatitis, creams containing either Centella asiatica or ceramide, randomly labelled by the manufacturer, were applied to the hands and arms twice daily for 4 weeks. Both creams improved measured stratum corneum hydration and skin pH at some sites, and there was no significant difference between the Centella and ceramide creams. There was no placebo or untreated group, so part of the improvement may reflect regular moisturiser use in general, and the study was small.",
+   "evidence_level": "C",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "34214362",
+     "doi": "10.1515/jbcpp-2020-0510",
+     "title": "Role of Centella asiatica and ceramide in skin barrier improvement: a double blind clinical trial of Indonesian batik workers.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34214362/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "centella-asiatica-3",
+   "text_en": "A systematic review with network meta-analysis included five double-blind randomised trials with a total of 172 Asian women. Gels or creams with Centella asiatica or asiaticoside were applied to the skin around the eyes for 12 weeks, and an asiaticoside lipstick for 8 weeks reduced lip wrinkling; in the network analysis Centella appeared more effective than Pueraria mirifica but possibly less effective than tretinoin, and it raised skin hydration. The authors rated risk of bias as generally low but reporting as weak, noted that the extracts were not standardised, and said long-term safety still needs to be established.",
+   "evidence_level": "C",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "33413787",
+     "title": "Efficacy and Safety of Centella Asiatica (L.) Urb. on Wrinkles: A Systematic Review of Published Data and Network Meta-Analysis.",
+     "year": 2020,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33413787/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "centella-asiatica-4",
+   "text_en": "Several case reports describe allergic contact dermatitis from Centella asiatica extract, including two patients in Turkey who were also sensitised to fragrance allergens; one report describes the extract as a weak sensitiser and proposes patch-test concentrations. Most of these reports have no abstract in PubMed, so this statement relies largely on titles, keywords and indexing terms. Case reports cannot show how common such reactions are, but they show that Centella extract can cause allergic reactions in some people.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38567908",
+     "doi": "10.1111/cod.14557",
+     "title": "Allergic contact dermatitis from Centella asiatica extract and fragrance allergens: Report of two patients from Turkey.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38567908/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "8766746",
+     "title": "Allergic contact dermatitis due to Centella asiatica: a new case.",
+     "year": 1996,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8766746/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "20136880",
+     "doi": "10.1111/j.1600-0536.2009.01651.x",
+     "title": "Contact dermatitis due to Centella asiatica.",
+     "year": 2010,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/20136880/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Sentella aziatika ekstrakti (INCI: Centella Asiatica Extract; o'simlik gotu kola deb ham ataladi, vositalar ko'pincha \"cica\" nomi bilan sotiladi) namlantiruvchi va tinchlantiruvchi teri parvarishi vositalarida ishlatiladigan o'simlik ekstraktidir. Kichik tadqiqotlar uni o'z ichiga olgan formulalar o'lchangan teri namligini oshirishi mumkinligini ko'rsatadi; ajinlar bo'yicha beshta kichik sinovni ko'rib chiqqan tizimli sharh ma'lum foyda qayd etgan, lekin ma'lumotlar yetarlicha to'liq berilmagani va ekstraktlar standartlashtirilmaganini ta'kidlagan. Klinik holat bayonlarida allergik kontakt dermatit tasvirlangan. Tabiiy kelib chiqish o'z-o'zidan har bir kishi vositani qanday ko'tarishini ko'rsatmaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "centella-asiatica-1": "25 nafar ko'ngilli 4 hafta davomida kuniga ikki marta bilaklariga 2,5% yoki 5% Centella asiatica ekstrakti bo'lgan krem va gellarni surtgan tadqiqotda 5% li formulalar teri yuzasi namligini eng ko'p oshirgan va transepidermal suv yo'qotilishini kamaytirgan, shuningdek yengil teri yallig'lanishining laboratoriya modelida (metil nikotinat) qizarishni kamaytirgan. Tadqiqot kichik bo'lgan, faqat bilak terisi tekshirilgan va annotatsiyada randomizatsiya yoki ko'r usul tasvirlanmagan, shuning uchun natijalar dastlabki hisoblanadi.",
+    "centella-asiatica-2": "Terisi quruq, lekin kontakt dermatiti bo'lmagan 30 nafar indoneziyalik batik ustasida o'tkazilgan ikki tomonlama ko'r sinovda ishlab chiqaruvchi tomonidan tasodifiy belgilangan, Centella asiatica yoki seramid saqlovchi kremlar 4 hafta davomida kuniga ikki marta qo'l va bilaklarga surtilgan. Ikkala krem ham ayrim sohalarda o'lchangan shox qavat namligi va teri pH darajasini yaxshilagan, Centella va seramid kremlari o'rtasida sezilarli farq bo'lmagan. Plasebo yoki ishlov berilmagan guruh bo'lmagan, shuning uchun yaxshilanishning bir qismi umuman muntazam namlantiruvchi qo'llash bilan bog'liq bo'lishi mumkin; tadqiqot ham kichik bo'lgan.",
+    "centella-asiatica-3": "Tarmoq meta-tahlili bilan o'tkazilgan tizimli sharhga jami 172 nafar osiyolik ayol ishtirok etgan beshta ikki tomonlama ko'r randomizatsiyalangan sinov kiritilgan. Centella asiatica yoki asiatikozid saqlovchi gel yoki kremlar 12 hafta davomida ko'z atrofi terisiga surtilgan, asiatikozidli lab bo'yog'i esa 8 hafta davomida lab ajinlarini kamaytirgan; tarmoq tahlilida Centella Pueraria mirifica'dan samaraliroq, ammo tretinoindan kamroq samarali bo'lishi mumkinligi ko'ringan va u teri namligini oshirgan. Mualliflar sistematik xatolik xavfini umuman past, lekin ma'lumotlar bayonini sust deb baholagan, ekstraktlar standartlashtirilmaganini qayd etgan va uzoq muddatli xavfsizlik hali aniqlanishi kerakligini aytgan.",
+    "centella-asiatica-4": "Bir nechta klinik holat bayonlarida Centella asiatica ekstraktidan kelib chiqqan allergik kontakt dermatit tasvirlangan, jumladan Turkiyadagi xushbo'y modda allergenlariga ham sezuvchanligi bo'lgan ikki bemor; bir maqolada ekstrakt kuchsiz sensibilizator deb ta'riflanadi va patch-test uchun konsentratsiyalar taklif qilinadi. Bu maqolalarning aksariyatida PubMed'da annotatsiya yo'q, shu sababli bu da'vo asosan sarlavhalar, kalit so'zlar va indeks atamalariga asoslanadi. Klinik holat bayonlari bunday reaksiyalar qanchalik tez-tez uchrashini ko'rsata olmaydi, lekin Centella ekstrakti ba'zi odamlarda allergik reaksiya chaqirishi mumkinligini ko'rsatadi."
+   }
+  },
+  "ru": {
+   "summary": "Экстракт центеллы азиатской (INCI: Centella Asiatica Extract; растение называют также готу кола, а средства часто продаются под названием «cica») — растительный экстракт, используемый в увлажняющих и успокаивающих средствах по уходу за кожей. Небольшие исследования указывают, что содержащие его средства могут повышать измеряемую увлажнённость кожи; систематический обзор пяти небольших исследований морщин сообщил о некоторой пользе, но отметил слабое изложение данных и нестандартизированные экстракты. В описаниях клинических случаев сообщается об аллергическом контактном дерматите. Естественное происхождение само по себе не показывает, как конкретный человек перенесёт средство. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "centella-asiatica-1": "В 4-недельном исследовании 25 добровольцев дважды в день наносили на предплечья кремы и гели с 2,5% или 5% экстракта Centella asiatica; средства с 5% экстракта сильнее всего повышали увлажнённость поверхности кожи и снижали трансэпидермальную потерю воды, а также уменьшали покраснение в лабораторной модели лёгкого воспаления кожи (метилникотинат). Исследование было небольшим, проверялась только кожа предплечья, а в аннотации не описаны рандомизация или ослепление, поэтому результаты предварительные.",
+    "centella-asiatica-2": "В двойном слепом исследовании у 30 индонезийских мастеров батика с сухой кожей, но без контактного дерматита, кремы с Centella asiatica или с церамидом, случайным образом промаркированные производителем, наносили на кисти и предплечья дважды в день в течение 4 недель. Оба крема улучшили измеренную увлажнённость рогового слоя и pH кожи на некоторых участках, а значимой разницы между кремами с центеллой и церамидом не было. Группы плацебо или без ухода не было, поэтому часть улучшения может отражать регулярное использование увлажняющего средства в целом; исследование также было небольшим.",
+    "centella-asiatica-3": "В систематический обзор с сетевым метаанализом вошли пять двойных слепых рандомизированных исследований с общим числом 172 азиатские женщины. Гели или кремы с Centella asiatica или азиатикозидом наносили на кожу вокруг глаз в течение 12 недель, а помада с азиатикозидом за 8 недель уменьшала морщины губ; в сетевом анализе центелла оказалась эффективнее Pueraria mirifica, но, возможно, менее эффективна, чем третиноин, и повышала увлажнённость кожи. Авторы оценили риск систематической ошибки как в целом низкий, а изложение данных — как слабое, отметили, что экстракты не были стандартизированы, и указали, что долгосрочную безопасность ещё предстоит установить.",
+    "centella-asiatica-4": "В нескольких описаниях клинических случаев сообщается об аллергическом контактном дерматите от экстракта Centella asiatica, в том числе у двух пациентов в Турции, которые также были сенсибилизированы к аллергенам отдушек; в одной публикации экстракт описан как слабый сенсибилизатор и предложены концентрации для патч-тестов. У большинства этих публикаций нет аннотации в PubMed, поэтому это утверждение опирается в основном на названия, ключевые слова и индексные термины. Описания случаев не показывают, насколько часто бывают такие реакции, но показывают, что экстракт центеллы может вызывать аллергические реакции у некоторых людей."
+   }
+  },
+  "ar": {
+   "summary": "مستخلص السنتيلا الآسيوية (INCI: Centella Asiatica Extract؛ ويُسمّى النبات أيضًا غوتو كولا، وكثيرًا ما تُسوَّق منتجاته باسم «cica») مستخلص نباتي يُستخدم في المرطبات ومنتجات العناية المهدّئة للبشرة. وتشير دراسات صغيرة إلى أن المستحضرات التي تحتويه قد ترفع ترطيب الجلد المقاس، وأفادت مراجعة منهجية لخمس تجارب صغيرة عن التجاعيد بوجود بعض الفائدة، لكنها لاحظت ضعف عرض البيانات وعدم توحيد المستخلصات. ووُصف التهاب الجلد التماسي التحسسي في تقارير حالات. لا يدل الأصل الطبيعي بحد ذاته على كيفية تحمّل أي شخص للمنتج. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "centella-asiatica-1": "في دراسة مدتها 4 أسابيع وضع فيها 25 متطوعًا على سواعدهم مرتين يوميًا كريمات وجلًا تحتوي على 2.5% أو 5% من مستخلص Centella asiatica، أحدثت مستحضرات الـ5% أكبر زيادة في ترطيب سطح الجلد وأكبر انخفاض في فقدان الماء عبر البشرة، كما خفّضت الاحمرار في نموذج مخبري لالتهاب جلدي خفيف (نيكوتينات الميثيل). وكانت الدراسة صغيرة واقتصرت على جلد الساعد، ولا يصف الملخص التوزيع العشوائي أو التعمية، لذا تُعدّ النتائج أولية.",
+    "centella-asiatica-2": "في تجربة مزدوجة التعمية على 30 عاملًا إندونيسيًا في صناعة الباتيك لديهم جفاف في الجلد دون التهاب جلد تماسي، وُضعت على اليدين والساعدين مرتين يوميًا لمدة 4 أسابيع كريمات تحتوي إما على Centella asiatica وإما على السيراميد، ووسمتها الشركة المصنّعة عشوائيًا. وحسّن الكريمان ترطيب الطبقة القرنية المقاس والرقم الهيدروجيني للجلد في بعض المواضع، ولم يكن هناك فرق ملحوظ بين كريم السنتيلا وكريم السيراميد. ولم تكن هناك مجموعة دواء وهمي أو مجموعة بلا علاج، لذا قد يعود جزء من التحسن إلى الاستخدام المنتظم للمرطّب عمومًا، كما كانت الدراسة صغيرة.",
+    "centella-asiatica-3": "شملت مراجعة منهجية مع تحليل تلوي شبكي خمس تجارب عشوائية مزدوجة التعمية ضمّت ما مجموعه 172 امرأة آسيوية. وُضعت مستحضرات جل أو كريم تحتوي على Centella asiatica أو الأسياتيكوسيد على الجلد حول العينين لمدة 12 أسبوعًا، وخفّف أحمر شفاه يحتوي على الأسياتيكوسيد تجاعيد الشفاه خلال 8 أسابيع؛ وفي التحليل الشبكي بدت السنتيلا أكثر فعالية من Pueraria mirifica وربما أقل فعالية من التريتينوين، ورفعت ترطيب الجلد. وقيّم الباحثون خطر التحيّز بأنه منخفض عمومًا، لكنهم وصفوا عرض البيانات بالضعيف، ولاحظوا أن المستخلصات لم تكن موحّدة، وذكروا أن السلامة على المدى الطويل لم تُثبت بعد.",
+    "centella-asiatica-4": "تصف عدة تقارير حالات التهاب الجلد التماسي التحسسي الناتج عن مستخلص Centella asiatica، ومنها مريضان في تركيا كانا متحسّسين أيضًا لمسببات الحساسية في العطور؛ ويصف أحد التقارير المستخلص بأنه محسِّس ضعيف ويقترح تراكيز لاختبار اللصقة. ولا يتوفر ملخص في PubMed لمعظم هذه التقارير، لذا يستند هذا الطرح في الغالب إلى العناوين والكلمات المفتاحية ومصطلحات الفهرسة. لا تستطيع تقارير الحالات أن تبيّن مدى شيوع هذه التفاعلات، لكنها تُظهر أن مستخلص السنتيلا قد يسبب تفاعلات تحسسية لدى بعض الأشخاص."
+   }
+  }
+ }
+}

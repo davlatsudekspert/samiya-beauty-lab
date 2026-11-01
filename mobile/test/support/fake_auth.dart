@@ -16,6 +16,9 @@ class FakeAuthService implements AuthService {
   static AuthUser user(String provider) =>
       AuthUser(uid: 'uid-1', email: 'a@b.co', displayName: 'Test', provider: provider);
 
+  /// Allaqachon kirgan foydalanuvchi bilan.
+  static FakeAuthService signedIn() => FakeAuthService().._user = user('google.com');
+
   void emit(AuthUser? u) {
     _user = u;
     _changes.add(u);

@@ -18,11 +18,7 @@ abstract final class SamiyaColors {
 }
 
 abstract final class SamiyaGradients {
-  static const cta = LinearGradient(
-    begin: Alignment.topLeft,
-    end: Alignment.bottomRight,
-    colors: [Color(0xFF4E2738), Color(0xFF3B1E2B)],
-  );
+  static const cta = LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [Color(0xFF4E2738), Color(0xFF3B1E2B)]);
   static const page = LinearGradient(
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
@@ -43,15 +39,15 @@ ThemeData buildTheme(Locale locale) {
   final serif = ar ? 'Amiri' : 'CormorantGaramond';
   final k = ar ? 1.12 : 1.08; // Amiri va Cormorant vizual jihatdan kichikroq
   TextStyle s(String f, double size, FontWeight w, Color c, {double? h, double? ls}) => TextStyle(
-        fontFamily: f,
-        fontSize: size,
-        fontWeight: w,
-        color: c,
-        height: h,
-        // Arab yozuvida harf oralig'i ulanishni buzadi.
-        letterSpacing: ar ? 0 : ls,
-        fontFamilyFallback: const ['Inter'], // Jost'da yo'q belgilar (o'zbekcha ‘) uchun
-      );
+    fontFamily: f,
+    fontSize: size,
+    fontWeight: w,
+    color: c,
+    height: h,
+    // Arab yozuvida harf oralig'i ulanishni buzadi.
+    letterSpacing: ar ? 0 : ls,
+    fontFamilyFallback: const ['Inter'], // Jost'da yo'q belgilar (o'zbekcha ‘) uchun
+  );
   final scheme = ColorScheme.fromSeed(
     seedColor: SamiyaColors.heading,
     primary: SamiyaColors.heading,
@@ -59,7 +55,10 @@ ThemeData buildTheme(Locale locale) {
     onSecondaryContainer: Colors.white,
     surface: SamiyaColors.ivory,
   );
-  final field = OutlineInputBorder(borderRadius: BorderRadius.circular(22), borderSide: const BorderSide(color: SamiyaColors.border));
+  final field = OutlineInputBorder(
+    borderRadius: BorderRadius.circular(22),
+    borderSide: const BorderSide(color: SamiyaColors.border),
+  );
   return ThemeData(
     useMaterial3: true,
     colorScheme: scheme,
@@ -85,7 +84,10 @@ ThemeData buildTheme(Locale locale) {
       hintStyle: TextStyle(fontFamily: body, color: SamiyaColors.muted.withValues(alpha: 0.8), fontFamilyFallback: const ['Inter']),
     ),
     textButtonTheme: TextButtonThemeData(style: TextButton.styleFrom(foregroundColor: SamiyaColors.rose)),
-    dialogTheme: DialogThemeData(backgroundColor: SamiyaColors.ivory, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(28))),
+    dialogTheme: DialogThemeData(
+      backgroundColor: SamiyaColors.ivory,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(28)),
+    ),
     snackBarTheme: const SnackBarThemeData(backgroundColor: SamiyaColors.heading, behavior: SnackBarBehavior.floating),
     progressIndicatorTheme: const ProgressIndicatorThemeData(color: SamiyaColors.rose),
     textTheme: TextTheme(

@@ -14,12 +14,7 @@ import '../features/scanner/text_scanner.dart';
 const supportedLocales = <Locale>[Locale('uz'), Locale('ru'), Locale('en'), Locale('ar')];
 
 /// Til o'z nomida ko'rsatiladi (hamma tilda bir xil), tarjima kalitlari kerak emas.
-const languageNativeNames = <String, String>{
-  'uz': 'O‘zbekcha',
-  'ru': 'Русский',
-  'en': 'English',
-  'ar': 'العربية',
-};
+const languageNativeNames = <String, String>{'uz': 'O‘zbekcha', 'ru': 'Русский', 'en': 'English', 'ar': 'العربية'};
 
 enum UserRole { user, student, cosmetologist, teacher }
 
@@ -37,14 +32,14 @@ class AppState extends ChangeNotifier {
     BackendApi? backend,
     TextScanner? scanner,
     PersonalStore? personal,
-  })  : ingredients = ingredients ?? IngredientRepository(const []),
-        auth = auth ?? const UnavailableAuthService(),
-        backend = backend ?? const NoBackendApi(),
-        scanner = scanner ?? const UnavailableTextScanner(),
-        personal = personal ?? PersonalStore(persist: false),
-        _locale = locale,
-        _onboarded = onboarded,
-        _role = role {
+  }) : ingredients = ingredients ?? IngredientRepository(const []),
+       auth = auth ?? const UnavailableAuthService(),
+       backend = backend ?? const NoBackendApi(),
+       scanner = scanner ?? const UnavailableTextScanner(),
+       personal = personal ?? PersonalStore(persist: false),
+       _locale = locale,
+       _onboarded = onboarded,
+       _role = role {
     _user = this.auth.currentUser;
     _authSub = this.auth.changes.listen((u) {
       _user = u;
@@ -84,6 +79,21 @@ class AppState extends ChangeNotifier {
     final token = await auth.idToken();
     if (token == null) throw StateError('token yo\'q');
     return token;
+  }
+
+  /// SAMIYA AI savoli: faqat kirgan foydalanuvchi; ilovadagi dalil kartochkalaridan qisqa kontekst qo'shiladi.
+  Future<AiAnswer> askAi(String question, {required String requestId, List<AiTurn> history = const []}) async {
+    final token = _user == null ? null : await auth.idToken();
+    if (token == null) throw const BackendException(401, 'sign_in_required');
+    if (!backend.isConfigured) throw const BackendException(503, 'ai_not_configured');
+    return backend.askAi(
+      token,
+      requestId: requestId,
+      question: question,
+      lang: locale.languageCode,
+      context: ingredients.aiContextFor(question),
+      history: history,
+    );
   }
 
   Future<AdminStats> adminStats() async => backend.adminStats(await _adminToken());
@@ -187,6 +197,5 @@ class AppState extends ChangeNotifier {
 class AppScope extends InheritedNotifier<AppState> {
   const AppScope({super.key, required AppState state, required super.child}) : super(notifier: state);
 
-  static AppState of(BuildContext context) =>
-      context.dependOnInheritedWidgetOfExactType<AppScope>()!.notifier!;
+  static AppState of(BuildContext context) => context.dependOnInheritedWidgetOfExactType<AppScope>()!.notifier!;
 }

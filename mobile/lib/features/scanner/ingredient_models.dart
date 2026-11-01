@@ -160,5 +160,22 @@ class IngredientRepository {
 
   Ingredient? find(String name) => _byKey[inciKey(name)];
   Ingredient? bySlug(String slug) => all.where((i) => i.slug == slug).firstOrNull;
+  /// AI uchun kontekst: savolda tilga olingan ingredientlar (INCI, sinonim yoki 4 tildagi nomi) xulosasi va da'volari (inglizcha).
+  String aiContextFor(String question, {int maxChars = 5500}) {
+    final q = question.toLowerCase();
+    final buf = StringBuffer();
+    for (final i in all) {
+      final keys = {i.inci, ...i.aliases, ...i.names.values, i.slug.replaceAll('-', ' ')}.map((k) => k.toLowerCase().trim()).where((k) => k.length >= 3);
+      if (!keys.any(q.contains)) continue;
+      final part = StringBuffer('## ${i.inci}${i.names['en'] != null ? ' (${i.names['en']})' : ''}\n${i.summary['en'] ?? ''}\n');
+      for (final c in i.claims) {
+        part.write('- [${c.level}] ${c.text['en'] ?? ''}${c.sources.isEmpty ? '' : ' (PMID ${c.sources.map((s) => s.pmid).join(', ')})'}\n');
+      }
+      if (buf.length + part.length > maxChars) break;
+      buf.write(part);
+    }
+    return buf.toString();
+  }
+
   Lesson? lesson(String id) => lessons.where((l) => l.id == id).firstOrNull;
 }

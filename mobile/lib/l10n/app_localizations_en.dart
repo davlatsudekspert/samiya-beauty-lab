@@ -693,4 +693,66 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get lessonDone => 'Read';
+
+  @override
+  String get aiSubtitle =>
+      'Your personal beauty assistant: clear explanations grounded in scientific sources.';
+
+  @override
+  String get aiDisclaimer =>
+      'SAMIYA AI provides educational information, does not diagnose and does not recommend medicines. It can make mistakes — for important questions, see a dermatologist.';
+
+  @override
+  String get aiConsent =>
+      'To prepare an answer, your question is sent to the Google Gemini service. Please don’t include your name, phone number or medical documents.';
+
+  @override
+  String get aiAccept => 'Got it, start';
+
+  @override
+  String get aiHint => 'Type your question…';
+
+  @override
+  String get aiThinking => 'SAMIYA is thinking…';
+
+  @override
+  String get aiSignIn => 'Sign in to use SAMIYA AI — it’s free.';
+
+  @override
+  String get aiSignInBtn => 'Sign in';
+
+  @override
+  String get aiNotReady =>
+      'SAMIYA AI is launching soon. Meanwhile, explore the ingredient library, the Ibn Sina section and the Academy.';
+
+  @override
+  String get aiQuota =>
+      'You’ve used today’s free questions. You can ask again tomorrow.';
+
+  @override
+  String get aiError =>
+      'Couldn’t get an answer. Check your connection and try again.';
+
+  @override
+  String get aiRetry => 'Try again';
+
+  @override
+  String aiRemaining(int n) {
+    return '$n questions left today';
+  }
+
+  @override
+  String get aiTry => 'Try asking:';
+
+  @override
+  String get aiS1 => 'Can I use niacinamide and vitamin C together?';
+
+  @override
+  String get aiS2 => 'What is a good evening routine for dry skin?';
+
+  @override
+  String get aiS3 => 'How do I do gua sha correctly?';
+
+  @override
+  String get aiS4 => 'What did Ibn Sina write about skin care?';
 }

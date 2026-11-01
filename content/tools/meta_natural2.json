@@ -1,0 +1,94 @@
+{
+ "argan-oil": {
+  "category": "natural",
+  "names": [
+   "Argan moyi",
+   "Аргановое масло",
+   "Argan oil",
+   "زيت الأرغان"
+  ],
+  "aliases": [
+   "argania spinosa kernel oil",
+   "argania spinosa oil",
+   "argan oil",
+   "argan kernel oil"
+  ]
+ },
+ "shea-butter": {
+  "category": "natural",
+  "names": [
+   "Shi moyi (karite)",
+   "Масло ши",
+   "Shea butter",
+   "زبدة الشيا"
+  ],
+  "aliases": [
+   "butyrospermum parkii butter",
+   "butyrospermum parkii (shea) butter",
+   "vitellaria paradoxa butter",
+   "shea butter",
+   "karite butter"
+  ]
+ },
+ "jojoba-oil": {
+  "category": "natural",
+  "names": [
+   "Jojoba moyi",
+   "Масло жожоба",
+   "Jojoba oil",
+   "زيت الجوجوبا"
+  ],
+  "aliases": [
+   "simmondsia chinensis seed oil",
+   "simmondsia chinensis (jojoba) seed oil",
+   "jojoba oil",
+   "jojoba seed oil"
+  ]
+ },
+ "centella-asiatica": {
+  "category": "natural",
+  "names": [
+   "Sentella (gotu kola)",
+   "Центелла азиатская",
+   "Centella asiatica",
+   "السنتيلا الآسيوية"
+  ],
+  "aliases": [
+   "centella asiatica extract",
+   "centella asiatica leaf extract",
+   "gotu kola extract",
+   "cica"
+  ]
+ },
+ "licorice-root": {
+  "category": "natural",
+  "names": [
+   "Qizilmiya ildizi",
+   "Корень солодки",
+   "Licorice root",
+   "جذر عرق السوس"
+  ],
+  "aliases": [
+   "glycyrrhiza glabra root extract",
+   "glycyrrhiza glabra (licorice) root extract",
+   "licorice root extract",
+   "liquorice root extract",
+   "licorice extract"
+  ]
+ },
+ "sunflower-seed-oil": {
+  "category": "natural",
+  "names": [
+   "Kungaboqar moyi",
+   "Подсолнечное масло",
+   "Sunflower seed oil",
+   "زيت بذور دوار الشمس"
+  ],
+  "aliases": [
+   "helianthus annuus seed oil",
+   "helianthus annuus (sunflower) seed oil",
+   "sunflower seed oil",
+   "sunflower oil"
+  ]
+ }
+}

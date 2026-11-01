@@ -697,4 +697,68 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get lessonDone => 'O‘qildi';
+
+  @override
+  String get aiSubtitle =>
+      'Go‘zallik bo‘yicha shaxsiy yordamchingiz: ilmiy manbalarga tayanib, sodda tilda tushuntiradi.';
+
+  @override
+  String get aiDisclaimer =>
+      'SAMIYA AI ta’limiy ma’lumot beradi, tashxis qo‘ymaydi va dori tavsiya qilmaydi. Xato qilishi mumkin — muhim savollarda dermatologga murojaat qiling.';
+
+  @override
+  String get aiConsent =>
+      'Javob tayyorlash uchun savolingiz Google Gemini xizmatiga yuboriladi. Ism, telefon raqami yoki tibbiy hujjatlaringizni yozmang.';
+
+  @override
+  String get aiAccept => 'Tushundim, boshlash';
+
+  @override
+  String get aiHint => 'Savolingizni yozing…';
+
+  @override
+  String get aiThinking => 'SAMIYA o‘ylayapti…';
+
+  @override
+  String get aiSignIn =>
+      'SAMIYA AI’dan foydalanish uchun hisobingizga kiring — bu bepul.';
+
+  @override
+  String get aiSignInBtn => 'Kirish';
+
+  @override
+  String get aiNotReady =>
+      'SAMIYA AI tez orada ishga tushadi. Hozircha ingredientlar bazasi, Ibn Sino bo‘limi va Akademiyadan foydalaning.';
+
+  @override
+  String get aiQuota =>
+      'Bugungi bepul savollar tugadi. Ertaga yana so‘rashingiz mumkin.';
+
+  @override
+  String get aiError =>
+      'Javob olinmadi. Internetni tekshirib, qayta urinib ko‘ring.';
+
+  @override
+  String get aiRetry => 'Qayta urinish';
+
+  @override
+  String aiRemaining(int n) {
+    return 'Bugun yana $n ta savol';
+  }
+
+  @override
+  String get aiTry => 'Masalan, so‘rang:';
+
+  @override
+  String get aiS1 => 'Niatsinamid va C vitaminini birga ishlatsa bo‘ladimi?';
+
+  @override
+  String get aiS2 =>
+      'Quruq teri uchun kechki parvarish tartibi qanday bo‘ladi?';
+
+  @override
+  String get aiS3 => 'Gua sha qanday to‘g‘ri qilinadi?';
+
+  @override
+  String get aiS4 => 'Ibn Sino teri parvarishi haqida nima yozgan?';
 }

@@ -1,0 +1,123 @@
+{
+ "inci": "Glycyrrhiza Glabra Root Extract",
+ "slug": "licorice-root",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Licorice root extract (INCI: Glycyrrhiza Glabra Root Extract) is an extract of the root of the licorice plant used in products aimed at uneven skin tone. Most published evidence concerns hyperpigmentation and melasma: reviews describe licorice as one of the most studied plant ingredients for these concerns, but the trials are few, short and often test several ingredients together. Isolated licorice compounds such as glabridin are not the same as the whole extract. Redness, skin allergy and allergic contact dermatitis have been reported. Studies on pigmentation conditions are described here only as research findings. A natural origin does not by itself indicate how any individual will tolerate a product. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "licorice-root-1",
+   "text_en": "A systematic review of natural ingredients for hyperpigmentation selected 30 clinical studies and found few clinical trials overall; despite this limited evidence, it listed licorice extracts among the natural ingredients that showed depigmenting efficacy. The authors noted that many studies were short, that questions remain about long-term efficacy and safety, and that standardised objective scoring is needed in future studies.",
+   "evidence_level": "C",
+   "study_type": "systematic review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "29552273",
+     "title": "Are Natural Ingredients Effective in the Management of Hyperpigmentation? A Systematic Review.",
+     "year": 2018,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29552273/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "licorice-root-2",
+   "text_en": "A scoping review found 21 clinical trials of herbal remedies for melasma and reported that licorice was the most extensively studied of them, with positive effects reported; it also noted that some patients who used licorice (as well as rhubarb and parsley) experienced redness and skin allergies. The authors concluded that few studies have evaluated these remedies and that further trials and systematic reviews are needed to assess both efficacy and adverse effects; a scoping review maps the literature but does not grade the strength of the evidence.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "39710951",
+     "doi": "10.1111/jocd.16741",
+     "title": "Clinical Trials Conducted on Herbal Remedies for the Treatment of Melasma: A Scoping Review.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39710951/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "licorice-root-3",
+   "text_en": "In a 6-month uncontrolled, open-label pilot study, 40 women with epidermal melasma applied a non-prescription gel containing glabridin (a compound isolated from licorice) together with andrographolide and apolactoferrin twice daily, and all measured endpoints, including clinical photographs, the MASI score and colour measurements, improved from baseline; the only adverse event reported was mild, transient dryness in 3 women. There was no control group, the gel combined several actives and glabridin is not the whole licorice extract; the authors themselves state that the results need to be confirmed in placebo-controlled studies.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "31541594",
+     "doi": "10.1111/jocd.13161",
+     "title": "A new proprietary gel containing glabridin, andrographolide, and apolactoferrin improves the appearance of epidermal melasma in adult women: A 6-month pilot, uncontrolled open-label study.",
+     "year": 2019,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31541594/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "licorice-root-4",
+   "text_en": "A published report describes allergic contact dermatitis to licorice root extract, and a case report describes allergic contact dermatitis to an extract of a related species, Glycyrrhiza inflata root, in an anti-acne cosmetic, with patch testing listed in its keywords. PubMed provides no abstracts for these reports, so this statement relies only on titles, keywords and indexing terms. Case reports cannot show how common such reactions are, but they show that licorice extracts can cause allergic skin reactions in some people.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "31045935",
+     "doi": "10.1097/DER.0000000000000475",
+     "title": "Allergic Contact Dermatitis to Licorice Root Extract.",
+     "year": 2019,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31045935/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "33913165",
+     "doi": "10.1111/cod.13872",
+     "title": "Allergic contact dermatitis to Glycyrrhiza inflata root extract in an anti-acne cosmetic product.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33913165/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Qizilmiya (shirinmiya) ildizi ekstrakti (INCI: Glycyrrhiza Glabra Root Extract) qizilmiya o'simligi ildizidan olinadigan ekstrakt bo'lib, notekis teri rangiga qaratilgan vositalarda ishlatiladi. Chop etilgan dalillarning aksariyati giperpigmentatsiya va melazmaga oid: sharhlarda qizilmiya bu muammolar bo'yicha eng ko'p o'rganilgan o'simlik ingredientlaridan biri sifatida tasvirlanadi, lekin sinovlar kam, qisqa va ko'pincha bir nechta ingredientni birga sinaydi. Glabridin kabi qizilmiyadan ajratib olingan birikmalar butun ekstrakt bilan bir xil emas. Qizarish, teri allergiyasi va allergik kontakt dermatit qayd etilgan. Pigmentatsiya holatlari bo'yicha tadqiqotlar bu yerda faqat ilmiy natija sifatida keltirilgan. Tabiiy kelib chiqish o'z-o'zidan har bir kishi vositani qanday ko'tarishini ko'rsatmaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "licorice-root-1": "Giperpigmentatsiya uchun tabiiy ingredientlar bo'yicha tizimli sharhda 30 ta klinik tadqiqot tanlangan va umuman klinik sinovlar kam ekani aniqlangan; dalillar cheklangan bo'lsa-da, sharh qizilmiya ekstraktlarini depigmentatsiya samarasini ko'rsatgan tabiiy ingredientlar qatorida sanab o'tgan. Mualliflar ko'plab tadqiqotlar qisqa bo'lganini, uzoq muddatli samaradorlik va xavfsizlik masalalari ochiq qolayotganini hamda kelgusi tadqiqotlarda standartlashtirilgan obyektiv baholash tizimi zarurligini qayd etgan.",
+    "licorice-root-2": "Skoping sharhda melazma uchun o'simlik vositalari bo'yicha 21 ta klinik sinov topilgan va ular orasida qizilmiya eng ko'p o'rganilgani hamda ijobiy ta'sirlar qayd etilgani bildirilgan; sharhda qizilmiya (shuningdek, rovoch va petrushka) qo'llagan ayrim bemorlarda qizarish va teri allergiyasi kuzatilgani ham ko'rsatilgan. Mualliflar bu vositalarni baholagan tadqiqotlar kam ekanini va samaradorlik hamda nojo'ya ta'sirlarni baholash uchun qo'shimcha sinovlar va tizimli sharhlar zarurligini xulosa qilgan; skoping sharh adabiyotni xaritalaydi, lekin dalillar kuchini baholamaydi.",
+    "licorice-root-3": "6 oylik nazorat guruhisiz, ochiq pilot tadqiqotda epidermal melazmasi bo'lgan 40 nafar ayol kuniga ikki marta tarkibida glabridin (qizilmiyadan ajratib olingan birikma) bilan birga andrografolid va apolaktoferrin bo'lgan retseptsiz gelni qo'llagan va barcha o'lchangan ko'rsatkichlar, jumladan klinik fotosuratlar, MASI balli va rang o'lchovlari boshlang'ich holatga nisbatan yaxshilangan; qayd etilgan yagona nojo'ya hodisa 3 nafar ayoldagi yengil, o'tib ketuvchi quruqlik bo'lgan. Nazorat guruhi bo'lmagan, gel bir nechta faol moddani birlashtirgan va glabridin butun qizilmiya ekstrakti emas; mualliflarning o'zlari natijalar plasebo nazoratli tadqiqotlarda tasdiqlanishi kerakligini aytadi.",
+    "licorice-root-4": "Chop etilgan bir maqolada qizilmiya ildizi ekstraktiga allergik kontakt dermatit tasvirlangan, boshqa klinik holat bayonida esa akne (husnbuzar)ga qarshi kosmetik vositadagi qarindosh tur — Glycyrrhiza inflata ildizi ekstraktiga allergik kontakt dermatit tasvirlangan va uning kalit so'zlarida patch-test ko'rsatilgan. Bu maqolalarning PubMed'da annotatsiyasi yo'q, shu sababli bu da'vo faqat sarlavhalar, kalit so'zlar va indeks atamalariga asoslanadi. Klinik holat bayonlari bunday reaksiyalar qanchalik tez-tez uchrashini ko'rsata olmaydi, lekin qizilmiya ekstraktlari ba'zi odamlarda allergik teri reaksiyasini chaqirishi mumkinligini ko'rsatadi."
+   }
+  },
+  "ru": {
+   "summary": "Экстракт корня солодки (INCI: Glycyrrhiza Glabra Root Extract) — экстракт из корня солодки голой, используемый в средствах, направленных на неровный тон кожи. Большая часть опубликованных данных касается гиперпигментации и мелазмы: в обзорах солодка описана как один из наиболее изученных растительных ингредиентов в этой области, но исследований мало, они короткие и часто проверяют сразу несколько ингредиентов. Выделенные из солодки соединения, например глабридин, не равнозначны цельному экстракту. Сообщалось о покраснении, кожной аллергии и аллергическом контактном дерматите. Исследования состояний пигментации приведены здесь только как научные данные. Естественное происхождение само по себе не показывает, как конкретный человек перенесёт средство. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "licorice-root-1": "В систематическом обзоре природных ингредиентов при гиперпигментации было отобрано 30 клинических исследований и отмечено, что клинических испытаний в целом мало; несмотря на ограниченность данных, экстракты солодки были отнесены к природным ингредиентам, показавшим депигментирующую эффективность. Авторы отметили, что многие исследования были короткими, вопросы долгосрочной эффективности и безопасности остаются открытыми, а в будущих исследованиях нужна стандартизированная объективная система оценки.",
+    "licorice-root-2": "В обзорном (scoping) исследовании найдено 21 клиническое испытание растительных средств при мелазме; сообщается, что солодка изучена среди них больше всего и для неё описаны положительные эффекты, а также что у части пациентов, применявших солодку (как и ревень и петрушку), возникали покраснение и кожная аллергия. Авторы заключили, что исследований этих средств мало и нужны дальнейшие испытания и систематические обзоры для оценки как эффективности, так и нежелательных эффектов; обзор такого типа картирует литературу, но не оценивает силу доказательств.",
+    "licorice-root-3": "В 6-месячном открытом пилотном исследовании без контрольной группы 40 женщин с эпидермальной мелазмой дважды в день наносили безрецептурный гель с глабридином (соединением, выделенным из солодки), андрографолидом и аполактоферрином; все измеряемые показатели, включая клинические фотографии, индекс MASI и измерения цвета, улучшились по сравнению с исходными, а единственным нежелательным явлением была лёгкая преходящая сухость у 3 женщин. Контрольной группы не было, гель сочетал несколько активных веществ, а глабридин — не цельный экстракт солодки; авторы сами указывают, что результаты нужно подтвердить в плацебо-контролируемых исследованиях.",
+    "licorice-root-4": "В одной опубликованной работе описан аллергический контактный дерматит на экстракт корня солодки, а в описании клинического случая — аллергический контактный дерматит на экстракт корня родственного вида Glycyrrhiza inflata в косметическом средстве против акне; среди ключевых слов указаны патч-тесты. Аннотаций к этим публикациям в PubMed нет, поэтому это утверждение опирается только на названия, ключевые слова и индексные термины. Описания случаев не показывают, насколько часто бывают такие реакции, но показывают, что экстракты солодки могут вызывать аллергические реакции кожи у некоторых людей."
+   }
+  },
+  "ar": {
+   "summary": "مستخلص جذر عرق السوس (INCI: Glycyrrhiza Glabra Root Extract) مستخلص من جذور نبات عرق السوس يُستخدم في المنتجات الموجّهة إلى تفاوت لون البشرة. وتتعلق معظم الأدلة المنشورة بفرط التصبّغ والكلف: إذ تصف المراجعات عرق السوس بأنه من أكثر المكوّنات النباتية دراسةً في هذا المجال، لكن التجارب قليلة وقصيرة وكثيرًا ما تختبر عدة مكوّنات معًا. والمركّبات المعزولة من عرق السوس مثل الغلابريدين ليست مماثلة للمستخلص الكامل. وأُبلغ عن احمرار وحساسية جلدية والتهاب جلد تماسي تحسسي. وتُعرض الدراسات المتعلقة بحالات التصبّغ هنا بوصفها نتائج بحثية فقط. لا يدل الأصل الطبيعي بحد ذاته على كيفية تحمّل أي شخص للمنتج. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "licorice-root-1": "اختارت مراجعة منهجية للمكوّنات الطبيعية في فرط التصبّغ 30 دراسة سريرية، ووجدت أن التجارب السريرية قليلة عمومًا؛ ورغم محدودية الأدلة أدرجت مستخلصات عرق السوس ضمن المكوّنات الطبيعية التي أظهرت فعالية في تفتيح التصبّغ. وأشار الباحثون إلى أن كثيرًا من الدراسات كانت قصيرة، وأن تساؤلات لا تزال قائمة حول الفعالية والسلامة على المدى الطويل، وإلى الحاجة إلى نظام تقييم موضوعي موحّد في الدراسات المستقبلية.",
+    "licorice-root-2": "وجدت مراجعة استكشافية (scoping review) 21 تجربة سريرية للعلاجات العشبية في الكلف، وأفادت بأن عرق السوس كان أكثرها دراسةً مع الإبلاغ عن آثار إيجابية، كما ذكرت أن بعض المرضى الذين استخدموا عرق السوس (وكذلك الراوند والبقدونس) عانوا من احمرار وحساسية جلدية. وخلص الباحثون إلى أن الدراسات التي قيّمت هذه العلاجات قليلة، وأن هناك حاجة إلى مزيد من التجارب والمراجعات المنهجية لتقييم الفعالية والآثار الجانبية معًا؛ والمراجعة الاستكشافية ترسم خريطة للأدبيات لكنها لا تقيّم قوة الأدلة.",
+    "licorice-root-3": "في دراسة تجريبية مفتوحة بلا مجموعة ضابطة مدتها 6 أشهر، استخدمت 40 امرأة مصابة بالكلف البشروي مرتين يوميًا جلًا لا يُصرف بوصفة طبية يحتوي على الغلابريدين (مركّب معزول من عرق السوس) مع الأندروغرافوليد والأبولاكتوفيرين، وتحسّنت جميع المؤشرات المقاسة، ومنها الصور السريرية ودرجة MASI وقياسات اللون، مقارنة بالبداية؛ وكان الأثر الجانبي الوحيد المُبلَّغ عنه جفافًا خفيفًا عابرًا لدى 3 نساء. ولم تكن هناك مجموعة ضابطة، وجمع الجل عدة مواد فعالة، والغلابريدين ليس المستخلص الكامل لعرق السوس؛ ويذكر الباحثون أنفسهم أن النتائج تحتاج إلى تأكيد في دراسات مضبوطة بدواء وهمي.",
+    "licorice-root-4": "يصف تقرير منشور التهاب الجلد التماسي التحسسي تجاه مستخلص جذر عرق السوس، ويصف تقرير حالة آخر التهاب الجلد التماسي التحسسي تجاه مستخلص جذر نوع قريب هو Glycyrrhiza inflata في مستحضر تجميلي مضاد لحب الشباب، وتتضمن كلماته المفتاحية اختبارات اللصقة. ولا يتوفر في PubMed ملخص لهذين التقريرين، لذا يستند هذا الطرح إلى العناوين والكلمات المفتاحية ومصطلحات الفهرسة فقط. لا تستطيع تقارير الحالات أن تبيّن مدى شيوع هذه التفاعلات، لكنها تُظهر أن مستخلصات عرق السوس قد تسبب تفاعلات جلدية تحسسية لدى بعض الأشخاص."
+   }
+  }
+ }
+}

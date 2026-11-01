@@ -15,6 +15,8 @@ class FakeBackendApi implements BackendApi {
   final List<ProGrant> grants = [];
   final List<String> actions = [];
   bool adminFails = false;
+  final List<({String question, String lang, String context, int history})> aiAsks = [];
+  BackendException? aiError;
 
   @override
   bool get isConfigured => configured;
@@ -62,5 +64,12 @@ class FakeBackendApi implements BackendApi {
     if (adminFails) throw const BackendException(500);
     actions.add('revoke:$email');
     grants.removeWhere((g) => g.email == email);
+  }
+
+  @override
+  Future<AiAnswer> askAi(String idToken, {required String requestId, required String question, required String lang, String context = '', List<AiTurn> history = const []}) async {
+    aiAsks.add((question: question, lang: lang, context: context, history: history.length));
+    if (aiError != null) throw aiError!;
+    return AiAnswer(answer: 'AI javobi: $question', remaining: 4, limit: 5);
   }
 }

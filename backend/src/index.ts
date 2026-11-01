@@ -1,5 +1,6 @@
 import { daysRemaining, parseConfig, phase, type CampaignEnv } from "./campaign";
 import { AuthError, getFirebaseJwks, verifyFirebaseIdToken } from "./firebase_auth";
+import { AiProviderError, callGemini, parseAiRequest, tashkentDay } from "./ai";
 import { legalPage } from "./legal";
 
 export interface Env extends CampaignEnv {
@@ -7,6 +8,11 @@ export interface Env extends CampaignEnv {
   FIREBASE_PROJECT_ID?: string;
   /** Vergul bilan ajratilgan admin emaillari (maxfiy emas). Faqat TASDIQLANGAN email admin hisoblanadi. */
   ADMIN_EMAILS?: string;
+  /** Maxfiy: faqat `wrangler secret put GEMINI_API_KEY`. */
+  GEMINI_API_KEY?: string;
+  AI_MODEL?: string;
+  AI_FREE_DAILY_REQUESTS?: string;
+  AI_PRO_DAILY_REQUESTS?: string;
 }
 
 const json = (body: unknown, status = 200): Response =>
@@ -66,26 +72,73 @@ export function isAdmin(env: Env, u: { email?: string; emailVerified: boolean })
   return env.ADMIN_EMAILS.split(",").some((e) => e.trim().toLowerCase() === email && email.length > 0);
 }
 
+/** Pro: admin, faol entitlement yoki TASDIQLANGAN email bo'yicha admin bergan Pro. */
+async function isPro(env: Env, a: AuthedUser): Promise<boolean> {
+  if (isAdmin(env, a)) return true;
+  if (!env.DB) return false;
+  const row = await env.DB.prepare(
+    "SELECT COUNT(*) AS n FROM entitlements WHERE user_id = ? AND (ends_at IS NULL OR ends_at > datetime('now'))",
+  ).bind(a.uid).first<{ n: number }>();
+  if ((row?.n ?? 0) > 0) return true;
+  if (a.emailVerified && a.email) {
+    const g = await env.DB.prepare(
+      "SELECT COUNT(*) AS n FROM promo_grants WHERE email = ? AND (ends_at IS NULL OR ends_at > datetime('now'))",
+    ).bind(a.email.trim().toLowerCase()).first<{ n: number }>();
+    return (g?.n ?? 0) > 0;
+  }
+  return false;
+}
+
+/** POST /api/v1/ai/ask: kirgan foydalanuvchi, kunlik kvota (Toshkent kuni), idempotent requestId. */
+export async function aiAsk(request: Request, env: Env, fetcher?: typeof fetch): Promise<Response> {
+  const a = await authenticate(request, env);
+  if (a instanceof Response) return a;
+  if (!env.GEMINI_API_KEY) return json({ error: "ai_not_configured" }, 503);
+  const db = env.DB;
+  if (!db) return json({ error: "server_misconfigured" }, 500);
+  const req = parseAiRequest(await request.text());
+  if (!req) return json({ error: "bad_request" }, 400);
+  const pro = await isPro(env, a);
+  const limit = Math.max(0, parseInt((pro ? env.AI_PRO_DAILY_REQUESTS : env.AI_FREE_DAILY_REQUESTS) ?? "", 10) || (pro ? 50 : 5));
+  const day = tashkentDay(new Date());
+  await db.prepare("INSERT OR IGNORE INTO users (id) VALUES (?)").bind(a.uid).run();
+  const fresh = await db.prepare("INSERT OR IGNORE INTO ai_request_idempotency (user_id, request_id, day) VALUES (?, ?, ?)")
+    .bind(a.uid, req.requestId, day).run();
+  if ((fresh.meta?.changes ?? 0) > 0) {
+    // Atomar: faqat limitdan oshmasa oshiriladi.
+    const r = await db.prepare(
+      `INSERT INTO ai_daily_usage (user_id, day, count) VALUES (?, ?, 1)
+       ON CONFLICT(user_id, day) DO UPDATE SET count = count + 1 WHERE count < ?`,
+    ).bind(a.uid, day, limit).run();
+    if ((r.meta?.changes ?? 0) === 0 || limit === 0) {
+      await db.prepare("DELETE FROM ai_request_idempotency WHERE user_id = ? AND request_id = ?").bind(a.uid, req.requestId).run();
+      return json({ error: "quota_exceeded", limit, pro }, 429);
+    }
+  }
+  const used = (await db.prepare("SELECT count FROM ai_daily_usage WHERE user_id = ? AND day = ?").bind(a.uid, day).first<{ count: number }>())?.count ?? 0;
+  try {
+    const answer = await callGemini(req, { apiKey: env.GEMINI_API_KEY, model: env.AI_MODEL || "gemini-2.5-flash-lite", fetcher });
+    return json({ answer, remaining: Math.max(0, limit - used), limit, pro });
+  } catch (e) {
+    if (e instanceof AiProviderError) {
+      // Muvaffaqiyatsiz javob kvotani sarflamaydi.
+      await db.batch([
+        db.prepare("UPDATE ai_daily_usage SET count = MAX(count - 1, 0) WHERE user_id = ? AND day = ?").bind(a.uid, day),
+        db.prepare("DELETE FROM ai_request_idempotency WHERE user_id = ? AND request_id = ?").bind(a.uid, req.requestId),
+      ]);
+      return json({ error: "ai_unavailable" }, 502);
+    }
+    throw e;
+  }
+}
+
 /** GET /api/v1/me: foydalanuvchini bazaga (bir marta) yozadi; admin va Pro holatini qaytaradi. Pro faqat serverdan. */
 async function me(request: Request, env: Env): Promise<Response> {
   const a = await authenticate(request, env);
   if (a instanceof Response) return a;
   await env.DB?.prepare("INSERT OR IGNORE INTO users (id) VALUES (?)").bind(a.uid).run();
   const admin = isAdmin(env, a);
-  let pro = admin;
-  if (!pro && env.DB) {
-    const row = await env.DB.prepare(
-      "SELECT COUNT(*) AS n FROM entitlements WHERE user_id = ? AND (ends_at IS NULL OR ends_at > datetime('now'))",
-    ).bind(a.uid).first<{ n: number }>();
-    pro = (row?.n ?? 0) > 0;
-    // Admin bergan Pro: faqat Firebase TASDIQLAGAN email bo'yicha (tasdiqlanmagan emailni da'vo qilib bo'lmaydi).
-    if (!pro && a.emailVerified && a.email) {
-      const g = await env.DB.prepare(
-        "SELECT COUNT(*) AS n FROM promo_grants WHERE email = ? AND (ends_at IS NULL OR ends_at > datetime('now'))",
-      ).bind(a.email.trim().toLowerCase()).first<{ n: number }>();
-      pro = (g?.n ?? 0) > 0;
-    }
-  }
+  const pro = await isPro(env, a);
   return json({ uid: a.uid, provider: a.provider, isAdmin: admin, pro });
 }
 
@@ -231,6 +284,10 @@ export default {
       if (request.method === "GET") return me(request, env);
       if (request.method === "DELETE") return deleteMe(request, env);
       return json({ error: "method_not_allowed" }, 405);
+    }
+    if (pathname === "/api/v1/ai/ask") {
+      if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);
+      return aiAsk(request, env);
     }
     if (pathname === "/api/v1/installs") {
       if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);

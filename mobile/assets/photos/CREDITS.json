@@ -100,5 +100,35 @@
   "license": "CC0 1.0",
   "source": "https://www.inaturalist.org/observations/376014961",
   "photo_id": 687454061
+ },
+ {
+  "slug": "argan-oil",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/observations/161755869",
+  "photo_id": 279622847
+ },
+ {
+  "slug": "jojoba-oil",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/observations/199846461",
+  "photo_id": 352489037
+ },
+ {
+  "slug": "centella-asiatica",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/observations/396318821",
+  "photo_id": 726803046
+ },
+ {
+  "slug": "licorice-root",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/observations/131538369",
+  "photo_id": 223867014
+ },
+ {
+  "slug": "sunflower-seed-oil",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/observations/305671467",
+  "photo_id": 551162205
  }
 ]

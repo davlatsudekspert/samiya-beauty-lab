@@ -1,0 +1,144 @@
+{
+ "inci": "Simmondsia Chinensis Seed Oil",
+ "slug": "jojoba-oil",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Jojoba oil (INCI: Simmondsia Chinensis Seed Oil) is pressed from the seeds of the jojoba shrub; chemically it consists mostly of liquid wax esters rather than the triglycerides that make up most plant oils. It is used in creams, facial oils and hair products. Published evidence is mainly reviews and laboratory work; human studies are few, uncontrolled or on combination products such as a clay mask. Rare case reports of contact dermatitis are included as cautions. A natural origin does not by itself indicate how any individual will tolerate a product. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "jojoba-oil-1",
+   "text_en": "A narrative review describes jojoba oil as about 98% wax, mainly wax esters with small amounts of free fatty acids, alcohols and hydrocarbons, plus sterols and vitamins, and notes its wide use in cosmetic and topical pharmaceutical preparations. The review lists many reported activities (for example antioxidant, anti-inflammatory and antimicrobial), but it does not systematically grade the quality of the underlying studies, which are largely laboratory and animal work, so these activities should not be read as demonstrated effects on human skin.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "34073772",
+     "doi": "10.3390/polym13111711",
+     "title": "Jojoba Oil: An Updated Comprehensive Review on Chemistry, Pharmaceutical Uses, and Toxicity.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34073772/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "jojoba-oil-2",
+   "text_en": "A review of sweet almond, evening primrose and jojoba oils in skin care concluded that these oils have skin-care benefits, while also pointing to discrepancies in the clinical data and questionable study designs. The authors stressed that the quality and stability of the oil and the type of formulation affect whether reported effects are reproduced, and stated that further experimental data on the effects on the stratum corneum are needed.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "34957578",
+     "doi": "10.1111/ics.12758",
+     "title": "An updated review on efficacy and benefits of sweet almond, evening primrose and jojoba oils in skin care applications.",
+     "year": 2022,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34957578/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "jojoba-oil-3",
+   "text_en": "In a laboratory study on donated human skin kept alive in culture (ex vivo), topically applied jojoba wax reduced the release of the inflammatory signals IL-6, IL-8 and TNF-alpha triggered by a bacterial toxin by about 30% compared with untreated skin, and increased markers of collagen III and hyaluronic acid production. Skin samples in a dish do not reproduce everyday use on living people, and no visible or clinical outcomes were measured.",
+   "evidence_level": "C",
+   "study_type": "in vitro",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38344180",
+     "doi": "10.3389/fphar.2024.1333085",
+     "title": "Topical application of jojoba (Simmondsia chinensis L.) wax enhances the synthesis of pro-collagen III and hyaluronic acid and reduces inflammation in the ex-vivo human skin organ culture model.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38344180/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "jojoba-oil-4",
+   "text_en": "In an open, uncontrolled pilot study, 194 participants (192 women) with acne-prone skin applied a clay mask containing jojoba oil 2 to 3 times a week for 6 weeks, without direct contact with the study physician; among the 133 who returned complete lesion counts, the self-counted total number of spots fell by 54% on average. There was no control group, lesions were counted by the participants themselves, and the mask combined clay with jojoba oil, so the result cannot be attributed to jojoba oil and acne may also change on its own over time.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "22585103",
+     "doi": "10.1159/000338076",
+     "title": "Clay jojoba oil facial mask for lesioned skin and mild acne--results of a prospective, observational pilot study.",
+     "year": 2012,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22585103/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "jojoba-oil-5",
+   "text_en": "Two published case reports describe contact dermatitis from jojoba, one of them together with reactions to other cosmetic ingredients (myristyl lactate and maleated soybean oil), with patch testing listed in its indexing terms. PubMed provides no abstracts, so this statement relies only on titles and indexing terms. Case reports cannot show how common such reactions are, but they show that jojoba can cause skin reactions in some people.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "16842559",
+     "doi": "10.1111/j.0105-1873.2006.0847e.x",
+     "title": "A case of contact dermatitis from jojoba.",
+     "year": 2006,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16842559/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "8789240",
+     "doi": "10.1111/j.1600-0536.1996.tb02126.x",
+     "title": "Contact dermatitis from jojoba oil and myristyl lactate/maleated soybean oil.",
+     "year": 1996,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8789240/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Jojoba moyi (INCI: Simmondsia Chinensis Seed Oil) jojoba butasining urug'idan siqib olinadi; kimyoviy jihatdan u ko'pchilik o'simlik moylarini tashkil etuvchi triglitseridlardan emas, asosan suyuq mum efirlaridan iborat. U kremlar, yuz moylari va soch vositalarida ishlatiladi. Chop etilgan dalillar asosan sharhlar va laboratoriya ishlaridan iborat; odamlardagi tadqiqotlar kam, nazorat guruhisiz yoki loy niqobi kabi aralash vositalar bilan o'tkazilgan. Kontakt dermatit bo'yicha kamdan-kam klinik holat bayonlari ehtiyot choralari sifatida keltirilgan. Tabiiy kelib chiqish o'z-o'zidan har bir kishi vositani qanday ko'tarishini ko'rsatmaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "jojoba-oil-1": "Hikoyaviy sharhda jojoba moyi taxminan 98% mumdan iborat ekani — asosan mum efirlari, oz miqdorda erkin yog' kislotalari, spirtlar va uglevodorodlar, shuningdek sterollar va vitaminlar — hamda kosmetik va teriga surtiladigan farmatsevtik vositalarda keng qo'llanilishi tasvirlangan. Sharhda ko'plab qayd etilgan faolliklar (masalan, antioksidant, yallig'lanishga qarshi va antimikrob) sanab o'tilgan, lekin asosan laboratoriya va hayvonlarda o'tkazilgan tadqiqotlarning sifati tizimli baholanmagan, shuning uchun bu faolliklarni odam terisida isbotlangan ta'sir deb tushunmaslik kerak.",
+    "jojoba-oil-2": "Shirin bodom, enotera (oslinnik) va jojoba moylarining teri parvarishidagi o'rni haqidagi sharhda bu moylar teri parvarishida foydali degan xulosaga kelingan, ammo klinik ma'lumotlardagi nomuvofiqliklar va tadqiqot dizaynlarining shubhali ekani ham ko'rsatilgan. Mualliflar qayd etilgan ta'sirlar takrorlanishi uchun moyning sifati, barqarorligi va formulatsiya turi muhimligini ta'kidlagan hamda shox qavatga ta'siri bo'yicha qo'shimcha eksperimental ma'lumotlar zarurligini bildirgan.",
+    "jojoba-oil-3": "Kulturada tirik saqlangan donor odam terisida (ex vivo) o'tkazilgan laboratoriya tadqiqotida teriga surtilgan jojoba mumi bakterial toksin chaqirgan yallig'lanish signallari IL-6, IL-8 va TNF-alfa ajralishini ishlov berilmagan teriga nisbatan taxminan 30% kamaytirgan hamda kollagen III va gialuron kislotasi hosil bo'lishi ko'rsatkichlarini oshirgan. Idishdagi teri namunalari tirik odamlarda kundalik qo'llashni aks ettirmaydi va ko'zga ko'rinadigan yoki klinik natijalar o'lchanmagan.",
+    "jojoba-oil-4": "Ochiq, nazorat guruhisiz pilot tadqiqotda akne (husnbuzar)ga moyil terisi bo'lgan 194 nafar ishtirokchi (192 nafari ayol) tadqiqot shifokori bilan bevosita uchrashmasdan 6 hafta davomida haftasiga 2–3 marta jojoba moyi qo'shilgan loy niqobini qo'llagan; toshmalar sonini to'liq qayd etgan 133 kishida o'zlari sanagan toshmalarning umumiy soni o'rtacha 54% kamaygan. Nazorat guruhi bo'lmagan, toshmalarni ishtirokchilarning o'zlari sanagan va niqob loy bilan jojoba moyini birlashtirgan, shuning uchun natijani jojoba moyiga bog'lab bo'lmaydi; akne vaqt o'tishi bilan o'z-o'zidan ham o'zgarishi mumkin.",
+    "jojoba-oil-5": "Chop etilgan ikki klinik holat bayonida jojobadan kelib chiqqan kontakt dermatit tasvirlangan, ulardan birida boshqa kosmetik ingredientlarga (miristil laktat va maleinlangan soya moyi) reaksiya ham bo'lgan va indeks atamalarida patch-test ko'rsatilgan. PubMed'da annotatsiyalar yo'q, shu sababli bu da'vo faqat sarlavhalar va indeks atamalariga asoslanadi. Klinik holat bayonlari bunday reaksiyalar qanchalik tez-tez uchrashini ko'rsata olmaydi, lekin jojoba ba'zi odamlarda teri reaksiyasini chaqirishi mumkinligini ko'rsatadi."
+   }
+  },
+  "ru": {
+   "summary": "Масло жожоба (INCI: Simmondsia Chinensis Seed Oil) получают отжимом из семян кустарника жожоба; химически оно состоит в основном из жидких восковых эфиров, а не из триглицеридов, из которых состоит большинство растительных масел. Его используют в кремах, маслах для лица и средствах для волос. Опубликованные данные — это в основном обзоры и лабораторные работы; исследований на людях мало, они без контрольной группы или проводились с комбинированными средствами, например глиняной маской. Редкие описания случаев контактного дерматита приведены как предостережение. Естественное происхождение само по себе не показывает, как конкретный человек перенесёт средство. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "jojoba-oil-1": "В нарративном обзоре масло жожоба описано как примерно на 98% состоящее из воска — в основном восковых эфиров с небольшим количеством свободных жирных кислот, спиртов и углеводородов, а также стеринов и витаминов, — и отмечено его широкое применение в косметических и наружных фармацевтических средствах. В обзоре перечислено множество описанных видов активности (например, антиоксидантная, противовоспалительная и антимикробная), но качество исходных исследований, в основном лабораторных и на животных, систематически не оценивалось, поэтому эти виды активности не следует понимать как доказанное действие на кожу человека.",
+    "jojoba-oil-2": "В обзоре о масле сладкого миндаля, примулы вечерней и жожоба в уходе за кожей сделан вывод, что эти масла полезны для ухода за кожей, но при этом указано на противоречия в клинических данных и сомнительный дизайн исследований. Авторы подчеркнули, что от качества и стабильности масла и типа рецептуры зависит, воспроизводятся ли описанные эффекты, и отметили, что нужны дополнительные экспериментальные данные о влиянии на роговой слой.",
+    "jojoba-oil-3": "В лабораторном исследовании на донорской коже человека, поддерживаемой живой в культуре (ex vivo), нанесённый воск жожоба снижал выделение воспалительных сигналов IL-6, IL-8 и TNF-альфа, вызванное бактериальным токсином, примерно на 30% по сравнению с необработанной кожей и повышал показатели синтеза коллагена III и гиалуроновой кислоты. Образцы кожи в чашке не воспроизводят повседневное применение у живых людей, а видимые или клинические результаты не измерялись.",
+    "jojoba-oil-4": "В открытом пилотном исследовании без контрольной группы 194 участника (192 женщины) с кожей, склонной к акне, без прямого контакта с врачом исследования наносили глиняную маску с маслом жожоба 2–3 раза в неделю в течение 6 недель; у 133 человек, предоставивших полные подсчёты высыпаний, общее число самостоятельно подсчитанных элементов уменьшилось в среднем на 54%. Контрольной группы не было, высыпания считали сами участники, а маска сочетала глину и масло жожоба, поэтому результат нельзя приписать маслу жожоба; кроме того, акне может меняться со временем само по себе.",
+    "jojoba-oil-5": "В двух опубликованных описаниях клинических случаев сообщается о контактном дерматите от жожоба, в одном из них — вместе с реакциями на другие косметические ингредиенты (миристиллактат и малеинизированное соевое масло), а в индексных терминах указаны патч-тесты. Аннотаций в PubMed нет, поэтому это утверждение опирается только на названия и индексные термины. Описания случаев не показывают, насколько часто бывают такие реакции, но показывают, что жожоба может вызывать кожные реакции у некоторых людей."
+   }
+  },
+  "ar": {
+   "summary": "يُعصر زيت الجوجوبا (INCI: Simmondsia Chinensis Seed Oil) من بذور شجيرة الجوجوبا، ويتكوّن كيميائيًا في معظمه من إسترات شمعية سائلة لا من الدهون الثلاثية التي تشكّل معظم الزيوت النباتية. ويُستخدم في الكريمات وزيوت الوجه ومنتجات الشعر. تتكوّن الأدلة المنشورة في الغالب من مراجعات وأعمال مخبرية، أما الدراسات البشرية فقليلة، وهي بلا مجموعة ضابطة أو أُجريت على منتجات مركّبة مثل قناع الطين. وأُدرجت تقارير حالات نادرة عن التهاب الجلد التماسي بوصفها تنبيهات احترازية. لا يدل الأصل الطبيعي بحد ذاته على كيفية تحمّل أي شخص للمنتج. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "jojoba-oil-1": "تصف مراجعة سردية زيت الجوجوبا بأنه يتكوّن من الشمع بنسبة 98% تقريبًا، وهو في الغالب إسترات شمعية مع كميات صغيرة من الأحماض الدهنية الحرة والكحولات والهيدروكربونات، إضافة إلى الستيرولات والفيتامينات، وتشير إلى استخدامه الواسع في المستحضرات التجميلية والصيدلانية الموضعية. وتسرد المراجعة أنشطة كثيرة مُبلَّغًا عنها (مثل النشاط المضاد للأكسدة والمضاد للالتهاب والمضاد للميكروبات)، لكنها لا تقيّم بصورة منهجية جودة الدراسات الأصلية، ومعظمها مخبري أو على الحيوانات، لذا لا ينبغي فهم هذه الأنشطة على أنها تأثيرات مثبتة على جلد الإنسان.",
+    "jojoba-oil-2": "خلصت مراجعة عن زيوت اللوز الحلو وزهرة الربيع المسائية والجوجوبا في العناية بالبشرة إلى أن لهذه الزيوت فوائد في العناية بالبشرة، مع الإشارة في الوقت نفسه إلى تناقضات في البيانات السريرية وتصاميم دراسات مشكوك فيها. وشدّد الباحثون على أن جودة الزيت وثباته ونوع المستحضر تؤثر في إمكانية تكرار التأثيرات المُبلَّغ عنها، وذكروا الحاجة إلى مزيد من البيانات التجريبية عن تأثيرها في الطبقة القرنية.",
+    "jojoba-oil-3": "في دراسة مخبرية على جلد بشري متبرَّع به حُفظ حيًا في المزرعة (خارج الجسم)، خفّض شمع الجوجوبا المطبّق موضعيًا إفراز إشارات الالتهاب IL-6 وIL-8 وTNF-ألفا التي أثارها سمّ بكتيري بنحو 30% مقارنة بالجلد غير المعالَج، ورفع مؤشرات إنتاج الكولاجين من النوع الثالث وحمض الهيالورونيك. ولا تحاكي عينات الجلد في الطبق الاستخدام اليومي لدى الأشخاص الأحياء، ولم تُقَس أي نتائج مرئية أو سريرية.",
+    "jojoba-oil-4": "في دراسة تجريبية مفتوحة بلا مجموعة ضابطة، استخدم 194 مشاركًا (192 منهم نساء) لديهم بشرة معرّضة لحب الشباب قناعًا من الطين يحتوي على زيت الجوجوبا مرتين إلى ثلاث مرات أسبوعيًا لمدة 6 أسابيع دون تواصل مباشر مع طبيب الدراسة؛ ولدى 133 شخصًا قدّموا أعدادًا كاملة للآفات، انخفض العدد الإجمالي للحبوب التي عدّوها بأنفسهم بنسبة 54% في المتوسط. ولم تكن هناك مجموعة ضابطة، وعدّ المشاركون الآفات بأنفسهم، وجمع القناع بين الطين وزيت الجوجوبا، لذلك لا يمكن نسبة النتيجة إلى زيت الجوجوبا، كما أن حب الشباب قد يتغيّر من تلقاء نفسه مع الوقت.",
+    "jojoba-oil-5": "يصف تقريرا حالة منشوران التهاب الجلد التماسي الناتج عن الجوجوبا، وفي أحدهما ترافق ذلك مع تفاعلات تجاه مكوّنات تجميلية أخرى (لاكتات الميريستيل وزيت الصويا المعالَج بالماليك)، وتتضمن مصطلحات فهرسته اختبارات اللصقة. ولا تتوفر ملخصات في PubMed، لذا يستند هذا الطرح إلى العناوين ومصطلحات الفهرسة فقط. لا تستطيع تقارير الحالات أن تبيّن مدى شيوع هذه التفاعلات، لكنها تُظهر أن الجوجوبا قد يسبب تفاعلات جلدية لدى بعض الأشخاص."
+   }
+  }
+ }
+}

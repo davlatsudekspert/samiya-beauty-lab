@@ -13,6 +13,7 @@ const botanicalFocus = <String, (double, Alignment)>{
 const photoSlugs = <String>{
   'aloe-vera', 'banana', 'chamomile', 'coconut-oil', 'cucumber', 'green-tea',
   'honey', 'lemon-juice', 'oat', 'olive-oil', 'rosehip-oil', 'turmeric', 'rose-water',
+  'argan-oil', 'jojoba-oil', 'centella-asiatica', 'licorice-root', 'sunflower-seed-oil',
 };
 
 /// Foto doirada: markaz nuqtasi (asosiy obyekt ko'rinsin).

@@ -694,4 +694,67 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get lessonDone => 'Пройдено';
+
+  @override
+  String get aiSubtitle =>
+      'Ваш личный бьюти-помощник: объясняет простым языком, опираясь на научные источники.';
+
+  @override
+  String get aiDisclaimer =>
+      'SAMIYA AI даёт образовательную информацию, не ставит диагнозов и не назначает лекарства. Может ошибаться — по важным вопросам обращайтесь к дерматологу.';
+
+  @override
+  String get aiConsent =>
+      'Чтобы подготовить ответ, ваш вопрос отправляется в сервис Google Gemini. Не указывайте имя, номер телефона или медицинские документы.';
+
+  @override
+  String get aiAccept => 'Понятно, начать';
+
+  @override
+  String get aiHint => 'Напишите ваш вопрос…';
+
+  @override
+  String get aiThinking => 'SAMIYA думает…';
+
+  @override
+  String get aiSignIn =>
+      'Войдите в аккаунт, чтобы пользоваться SAMIYA AI — это бесплатно.';
+
+  @override
+  String get aiSignInBtn => 'Войти';
+
+  @override
+  String get aiNotReady =>
+      'SAMIYA AI скоро заработает. Пока пользуйтесь базой ингредиентов, разделом об Ибн Сине и Академией.';
+
+  @override
+  String get aiQuota =>
+      'Бесплатные вопросы на сегодня закончились. Завтра можно спросить снова.';
+
+  @override
+  String get aiError =>
+      'Не удалось получить ответ. Проверьте интернет и попробуйте ещё раз.';
+
+  @override
+  String get aiRetry => 'Повторить';
+
+  @override
+  String aiRemaining(int n) {
+    return 'Сегодня осталось вопросов: $n';
+  }
+
+  @override
+  String get aiTry => 'Например, спросите:';
+
+  @override
+  String get aiS1 => 'Можно ли сочетать ниацинамид и витамин C?';
+
+  @override
+  String get aiS2 => 'Какой вечерний уход подходит для сухой кожи?';
+
+  @override
+  String get aiS3 => 'Как правильно делать гуаша?';
+
+  @override
+  String get aiS4 => 'Что Ибн Сина писал об уходе за кожей?';
 }

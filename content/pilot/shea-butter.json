@@ -1,0 +1,124 @@
+{
+ "inci": "Butyrospermum Parkii Butter",
+ "slug": "shea-butter",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Shea butter (INCI: Butyrospermum Parkii Butter; the tree is also named Vitellaria paradoxa) is a plant fat obtained from the nuts of the shea tree and used in creams, lip balms and other leave-on products. An industry-associated safety panel reported that shea-derived ingredients mostly function as skin and hair conditioning agents. The human studies found test shea butter only as part of formulated products, so effects specific to shea butter are not established. Case reports of contact allergy, mainly involving lip products, are included as cautions. A natural origin does not by itself indicate how any individual will tolerate a product. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "shea-butter-1",
+   "text_en": "The Expert Panel for Cosmetic Ingredient Safety (CIR, an industry-associated body, not a regulator) assessed 13 shea-derived ingredients, which are most frequently reported to function in cosmetics as skin and hair conditioning agents. Because finished products may contain several botanicals with similar constituents of concern, the panel advised formulators to keep those constituents below hazardous levels and to use good manufacturing practices to limit impurities, and concluded that the ingredients are safe in the present practices of use and concentration when formulated to be non-sensitising. This is the conclusion of an industry-sponsored panel, not a regulatory approval, and it applies to the conditions described, not to every product or every person.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38166445",
+     "doi": "10.1177/10915818231224230",
+     "title": "Safety Assessment of Butyrospermum parkii (Shea)-Derived Ingredients as Used in Cosmetics.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38166445/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "shea-butter-2",
+   "text_en": "In a 6-week randomised crossover study in babies, diapers containing an anhydrous shea butter-based emollient were compared with diapers containing a petrolatum-based emollient and diapers without emollient. Babies who switched from the petrolatum diaper to the diaper without emollient showed more skin redness, whereas those who switched to the shea butter diaper did not, and babies in the shea butter diaper were 2.6 times more likely to have no redness at the perianal site than with the diaper without emollient. The emollient is a formulation rather than pure shea butter, the abstract does not report the number of babies, and several authors are employees of the diaper manufacturer, so the result applies to this specific product.",
+   "evidence_level": "C",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40189822",
+     "doi": "10.1111/pde.15944",
+     "title": "Clinical Evaluation of a Diaper Containing a Shea Butter-Based Emollient and Impact on Diapered Skin Erythema.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40189822/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "shea-butter-3",
+   "text_en": "A review of 27 clinical studies on 17 vegetable oils and butters, including shea butter, concluded that on inflamed skin, oils high in oleic acid and low in linoleic acid may further damage the stratum corneum, while oils high in linoleic acid and saturated fatty acids may have positive effects; on unaffected skin, oils high in oleic acid may not cause negative effects. These are general conclusions about fatty-acid profiles across many oils, not results of a study on shea butter itself, and the authors note that how often and how long an oil is used also matters.",
+   "evidence_level": "C",
+   "study_type": "narrative review",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "35548366",
+     "doi": "10.3389/fphar.2022.868461",
+     "title": "Vegetable Butters and Oils as Therapeutically and Cosmetically Active Ingredients for Dermal Use: A Review of Clinical Studies.",
+     "year": 2022,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35548366/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "shea-butter-4",
+   "text_en": "Two published case reports describe contact allergy involving shea butter: one in a patient with inflammation of the lips (cheilitis), and one on severe contact cheilitis from beeswax and other cosmetic oils, fats and waxes in lip balms, whose keywords include shea butter. PubMed provides no abstracts for these reports, so this statement relies only on their titles, keywords and indexing terms. Case reports cannot show how common such reactions are, but they show that shea butter in lip products can be involved in allergic reactions in some people.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "38123238",
+     "doi": "10.1111/cod.14478",
+     "title": "Contact allergy to Butyrospermum parkii butter in a patient with cheilitis.",
+     "year": 2024,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38123238/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "36582047",
+     "doi": "10.1111/cod.14272",
+     "title": "Severe contact cheilitis from cera alba and other cosmetic oils, fats and waxes in lip balms.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36582047/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Shi moyi (karite yog'i; INCI: Butyrospermum Parkii Butter; daraxt Vitellaria paradoxa deb ham ataladi) shi daraxti yong'og'idan olinadigan o'simlik yog'i bo'lib, kremlar, lab balzamlari va teridan yuvilmaydigan boshqa vositalarda ishlatiladi. Sanoat bilan bog'liq xavfsizlik ekspertlar kengashi shi'dan olingan ingredientlar asosan teri va sochni parvarishlovchi (konditsionerlovchi) moddalar vazifasini bajarishini qayd etgan. Topilgan odamlardagi tadqiqotlarda shi moyi faqat tayyor vositalar tarkibida sinalgan, shuning uchun aynan shi moyiga xos ta'sirlar aniqlanmagan. Asosan lab vositalari bilan bog'liq kontakt allergiya holatlari ehtiyot choralari sifatida keltirilgan. Tabiiy kelib chiqish o'z-o'zidan har bir kishi vositani qanday ko'tarishini ko'rsatmaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "shea-butter-1": "Kosmetik ingredientlar xavfsizligi bo'yicha ekspertlar kengashi (CIR, regulyator emas, sanoat bilan bog'liq tashkilot) shi'dan olingan 13 ta ingredientni baholagan; ular kosmetikada ko'pincha teri va sochni parvarishlovchi moddalar sifatida ishlatilishi qayd etilgan. Tayyor vositada o'xshash xavfli tarkibiy qismlarga ega bir nechta o'simlik ingredienti bo'lishi mumkinligi sababli, kengash ishlab chiqaruvchilarga bu moddalarni xavfli darajaga yetkazmaslikni va aralashmalarni cheklash uchun yaxshi ishlab chiqarish amaliyotini qo'llashni tavsiya qilgan hamda ingredientlar sensibilizatsiya qilmaydigan (allergiya uyg'otmaydigan) tarzda formulalanganda hozirgi qo'llanish amaliyoti va konsentratsiyalarda xavfsiz degan xulosaga kelgan. Bu sanoat homiyligidagi kengashning xulosasi, regulyator ruxsati emas, va u har bir vosita yoki har bir kishiga emas, balki tasvirlangan sharoitlarga tegishli.",
+    "shea-butter-2": "Go'daklarda o'tkazilgan 6 haftalik randomizatsiyalangan krossover tadqiqotda tarkibida suvsiz, shi moyi asosidagi emolliyent bo'lgan tagliklar vazelin asosidagi emolliyentli tagliklar va emolliyentsiz tagliklar bilan solishtirilgan. Vazelinli tagliklardan emolliyentsiz tagliklarga o'tgan go'daklarda teri qizarishi kuchaygan, shi moyili tagliklarga o'tganlarda esa kuchaymagan; shi moyili taglik kiygan go'daklarda anus atrofida qizarish bo'lmasligi ehtimoli emolliyentsiz taglikka nisbatan 2,6 baravar yuqori bo'lgan. Emolliyent sof shi moyi emas, balki tayyor formula; annotatsiyada go'daklar soni ko'rsatilmagan, mualliflarning bir nechtasi taglik ishlab chiqaruvchi kompaniya xodimlari, shuning uchun natija aynan shu mahsulotga tegishli.",
+    "shea-butter-3": "17 xil o'simlik moyi va yog'i, jumladan shi moyi bo'yicha 27 ta klinik tadqiqotni ko'rib chiqqan sharhda yallig'langan terida olein kislotasi ko'p va linol kislotasi kam bo'lgan moylar shox qavatga qo'shimcha zarar yetkazishi mumkin, linol kislotasi va to'yingan yog' kislotalariga boy moylar esa ijobiy ta'sir ko'rsatishi mumkin, degan xulosaga kelingan; zararlanmagan terida olein kislotasiga boy moylar salbiy ta'sir ko'rsatmasligi mumkin. Bular ko'plab moylarning yog' kislotalari tarkibi haqidagi umumiy xulosalar bo'lib, shi moyining o'zi bo'yicha o'tkazilgan tadqiqot natijasi emas; mualliflar moy qanchalik tez-tez va qancha muddat qo'llanishi ham ahamiyatli ekanini ta'kidlaydi.",
+    "shea-butter-4": "Chop etilgan ikki klinik holat bayonida shi moyi bilan bog'liq kontakt allergiya tasvirlangan: biri lab yallig'lanishi (xeylit) bo'lgan bemorda, ikkinchisi lab balzamlaridagi asal mumi hamda boshqa kosmetik moylar, yog'lar va mumlardan kelib chiqqan og'ir kontakt xeylit haqida bo'lib, uning kalit so'zlari orasida shi moyi bor. Bu maqolalarning PubMed'da annotatsiyasi yo'q, shu sababli bu da'vo faqat ularning sarlavhasi, kalit so'zlari va indeks atamalariga asoslanadi. Klinik holat bayonlari bunday reaksiyalar qanchalik tez-tez uchrashini ko'rsata olmaydi, lekin lab vositalaridagi shi moyi ba'zi odamlarda allergik reaksiyalarga sabab bo'lishi mumkinligini ko'rsatadi."
+   }
+  },
+  "ru": {
+   "summary": "Масло ши (карите; INCI: Butyrospermum Parkii Butter; дерево также называют Vitellaria paradoxa) — растительный жир из орехов дерева ши, используемый в кремах, бальзамах для губ и других несмываемых средствах. Связанный с индустрией экспертный совет по безопасности сообщил, что ингредиенты из ши в основном выполняют функцию кондиционирующих агентов для кожи и волос. В найденных исследованиях на людях масло ши изучалось только в составе готовых средств, поэтому эффекты, присущие именно маслу ши, не установлены. В качестве предостережения приведены описания случаев контактной аллергии, в основном связанных со средствами для губ. Естественное происхождение само по себе не показывает, как конкретный человек перенесёт средство. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "shea-butter-1": "Экспертный совет по безопасности косметических ингредиентов (CIR — организация, связанная с индустрией, а не регулятор) оценил 13 ингредиентов, полученных из ши; чаще всего сообщается, что в косметике они выполняют функцию кондиционирующих агентов для кожи и волос. Поскольку готовое средство может содержать несколько растительных ингредиентов со сходными потенциально опасными компонентами, совет рекомендовал производителям не допускать опасных уровней этих компонентов и применять надлежащую производственную практику для ограничения примесей, и пришёл к выводу, что эти ингредиенты безопасны при существующей практике применения и концентрациях, если рецептура составлена так, чтобы не вызывать сенсибилизации. Это вывод спонсируемого индустрией совета, а не разрешение регулятора; он относится к описанным условиям, а не к каждому продукту или каждому человеку.",
+    "shea-butter-2": "В 6-недельном рандомизированном перекрёстном исследовании у младенцев подгузники с безводным эмолентом на основе масла ши сравнивали с подгузниками с эмолентом на основе вазелина и подгузниками без эмолента. У младенцев, перешедших с вазелиновых подгузников на подгузники без эмолента, покраснение кожи усилилось, а у перешедших на подгузники с маслом ши — нет; у младенцев в подгузниках с маслом ши вероятность отсутствия покраснения в перианальной области была в 2,6 раза выше, чем в подгузниках без эмолента. Эмолент представляет собой готовую рецептуру, а не чистое масло ши, число младенцев в аннотации не указано, а несколько авторов — сотрудники производителя подгузников, поэтому результат относится к этому конкретному продукту.",
+    "shea-butter-3": "В обзоре 27 клинических исследований 17 растительных масел и баттеров, включая масло ши, сделан вывод, что на воспалённой коже масла с высоким содержанием олеиновой и низким содержанием линолевой кислоты могут дополнительно повреждать роговой слой, тогда как масла, богатые линолевой кислотой и насыщенными жирными кислотами, могут действовать положительно; на непоражённой коже масла с высоким содержанием олеиновой кислоты могут не вызывать негативных эффектов. Это общие выводы о жирнокислотном составе многих масел, а не результаты исследования самого масла ши; авторы отмечают, что значение имеют также частота и длительность применения масла.",
+    "shea-butter-4": "В двух опубликованных описаниях клинических случаев сообщается о контактной аллергии с участием масла ши: у пациента с воспалением губ (хейлитом) и в случае тяжёлого контактного хейлита от пчелиного воска и других косметических масел, жиров и восков в бальзамах для губ, среди ключевых слов которого указано масло ши. Аннотаций к этим публикациям в PubMed нет, поэтому это утверждение опирается только на их названия, ключевые слова и индексные термины. Описания случаев не показывают, насколько часто бывают такие реакции, но показывают, что масло ши в средствах для губ может быть причастно к аллергическим реакциям у некоторых людей."
+   }
+  },
+  "ar": {
+   "summary": "زبدة الشيا (الكاريتيه؛ INCI: Butyrospermum Parkii Butter؛ وتُسمّى الشجرة أيضًا Vitellaria paradoxa) دهن نباتي يُستخرج من جوز شجرة الشيا ويُستخدم في الكريمات ومرطبات الشفاه وغيرها من المنتجات التي تبقى على الجلد. وأفادت لجنة خبراء لسلامة المكوّنات مرتبطة بالصناعة بأن المكوّنات المشتقة من الشيا تعمل في الغالب عوامل محسِّنة لحالة الجلد والشعر. ولم تختبر الدراسات البشرية التي عُثر عليها زبدة الشيا إلا ضمن منتجات مركّبة، لذا لم تثبت تأثيرات خاصة بزبدة الشيا نفسها. وأُدرجت تقارير حالات عن الحساسية التماسية، تتعلق أساسًا بمنتجات الشفاه، بوصفها تنبيهات احترازية. لا يدل الأصل الطبيعي بحد ذاته على كيفية تحمّل أي شخص للمنتج. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "shea-butter-1": "قيّمت لجنة الخبراء لسلامة المكوّنات التجميلية (CIR، وهي جهة مرتبطة بالصناعة وليست جهة تنظيمية) 13 مكوّنًا مشتقًا من الشيا، يُفاد في الغالب بأنها تعمل في مستحضرات التجميل عوامل محسِّنة لحالة الجلد والشعر. ولأن المنتج النهائي قد يحتوي على عدة مكوّنات نباتية فيها مكوّنات مثيرة للقلق متشابهة، أوصت اللجنة المصنّعين بعدم بلوغ مستويات خطرة منها وباتباع ممارسات التصنيع الجيدة للحدّ من الشوائب، وخلصت إلى أن هذه المكوّنات آمنة في ظل ممارسات الاستخدام والتراكيز الحالية عندما تُصاغ بحيث لا تسبب التحسّس. وهذا استنتاج لجنة ترعاها الصناعة وليس موافقة تنظيمية، وهو ينطبق على الظروف الموصوفة وليس على كل منتج أو كل شخص.",
+    "shea-butter-2": "في دراسة عشوائية تبادلية مدتها 6 أسابيع على الرضّع، قورنت حفاضات تحتوي على مطرٍّ لا مائي أساسه زبدة الشيا بحفاضات تحتوي على مطرٍّ أساسه الفازلين وبحفاضات بلا مطرٍّ. وازداد احمرار الجلد لدى الرضّع الذين انتقلوا من حفاضات الفازلين إلى الحفاضات الخالية من المطرّي، ولم يزدد لدى من انتقلوا إلى حفاضات زبدة الشيا، وكان احتمال خلوّ منطقة ما حول الشرج من الاحمرار لدى من استخدموا حفاضات زبدة الشيا أعلى بمقدار 2.6 مرة مقارنة بالحفاضات الخالية من المطرّي. والمطرّي مستحضر مركّب وليس زبدة شيا نقية، ولا يذكر الملخص عدد الرضّع، وعدد من الباحثين موظفون لدى الشركة المصنّعة للحفاضات، لذا تخص النتيجة هذا المنتج تحديدًا.",
+    "shea-butter-3": "خلصت مراجعة لـ27 دراسة سريرية تناولت 17 زيتًا وزبدة نباتية، منها زبدة الشيا، إلى أن الزيوت الغنية بحمض الأولييك والفقيرة بحمض اللينوليك قد تزيد الضرر في الطبقة القرنية على الجلد الملتهب، بينما قد يكون للزيوت الغنية بحمض اللينوليك والأحماض الدهنية المشبعة آثار إيجابية؛ أما على الجلد السليم فقد لا تسبب الزيوت الغنية بحمض الأولييك آثارًا سلبية. وهذه استنتاجات عامة عن تركيب الأحماض الدهنية في زيوت كثيرة، وليست نتائج دراسة على زبدة الشيا نفسها، ويشير الباحثون إلى أن عدد مرات استخدام الزيت ومدته أمران مهمان أيضًا.",
+    "shea-butter-4": "يصف تقريرا حالة منشوران حساسية تماسية تتعلق بزبدة الشيا: أحدهما لدى مريض مصاب بالتهاب الشفتين، والآخر عن التهاب شفتين تماسي شديد ناتج عن شمع النحل وغيره من الزيوت والدهون والشموع التجميلية في مرطبات الشفاه، وتتضمن كلماته المفتاحية زبدة الشيا. ولا يتوفر في PubMed ملخص لهذين التقريرين، لذا يستند هذا الطرح إلى عناوينهما وكلماتهما المفتاحية ومصطلحات فهرستهما فقط. لا تستطيع تقارير الحالات أن تبيّن مدى شيوع هذه التفاعلات، لكنها تُظهر أن زبدة الشيا في منتجات الشفاه قد تكون من أسباب التفاعلات التحسسية لدى بعض الأشخاص."
+   }
+  }
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "inci": "Argania Spinosa Kernel Oil",
+ "slug": "argan-oil",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Argan oil (INCI: Argania Spinosa Kernel Oil) is a plant oil pressed from the kernels of the argan tree (Argania spinosa) and used in skin and hair products. Published evidence on topical use is limited: two reports from one Moroccan research group on the same 60 postmenopausal women, in whom the topical comparison was not randomised, and a small study of a gel in which argan oil was built into lipid nanocarriers. Safety points include several case reports of allergic contact dermatitis and one case of anaphylaxis after application to the skin. A natural origin does not by itself indicate how any individual will tolerate a product. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "argan-oil-1",
+   "text_en": "In a 60-day study of 60 postmenopausal women in Morocco, participants were randomised to eat either argan oil or olive oil, and all of them also applied cosmetic argan oil to the left inner forearm. The authors reported that, on the treated forearm, transepidermal water loss fell, epidermal water content rose and instrument-measured elasticity parameters improved. The randomisation concerned only the dietary oils, so the topical comparison was neither randomised nor blinded; only forearm skin was tested, and both reports come from the same research group and the same participants, so the findings need independent confirmation.",
+   "evidence_level": "C",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "26327867",
+     "doi": "10.5114/pm.2014.46470",
+     "title": "Skin hydration in postmenopausal women: argan oil benefit with oral and/or topical use.",
+     "year": 2014,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26327867/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "25673976",
+     "doi": "10.2147/CIA.S71684",
+     "title": "The effect of dietary and/or cosmetic argan oil on postmenopausal skin elasticity.",
+     "year": 2015,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25673976/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "argan-oil-2",
+   "text_en": "In a formulation study, a hydrogel containing nanostructured lipid carriers made with argan oil as the liquid lipid was applied by healthy volunteers for one month and increased measured skin hydration. The abstract does not report the number of volunteers or a comparison with plain argan oil, and the authors attribute the effect partly to the occlusive nanocarriers, so it cannot be attributed to argan oil alone.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "25143733",
+     "doi": "10.2147/IJN.S64008",
+     "title": "Design, characterization, and clinical evaluation of argan oil nanostructured lipid carriers to improve skin hydration.",
+     "year": 2014,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25143733/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "argan-oil-3",
+   "text_en": "Several published case reports describe allergic contact dermatitis attributed to argan oil, including a scalp reaction in an adult woman using a hair product and a reaction in an infant. PubMed provides no abstracts for these reports, so this statement relies only on their titles, keywords and indexing terms (patch testing is listed for some of them). Case reports cannot show how common such reactions are, but they show that argan oil can cause allergic skin reactions in some people.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "25155076",
+     "doi": "10.1111/cod.12233",
+     "title": "Allergic contact dermatitis caused by argan oil.",
+     "year": 2014,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25155076/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "25345797",
+     "doi": "10.1111/cod.12292",
+     "title": "Allergic contact dermatitis caused by argan oil in an infant.",
+     "year": 2014,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25345797/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "27775969",
+     "doi": "10.1097/DER.0000000000000228",
+     "title": "Allergic Contact Dermatitis Caused by Argan Oil.",
+     "year": 2016,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27775969/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "argan-oil-4",
+   "text_en": "A single case report described anaphylaxis (a severe, whole-body allergic reaction) after argan oil was applied to the skin. PubMed provides no abstract, so this statement relies only on the title, keywords and indexing terms, which also mention angioedema, low blood pressure, food allergy and immunoblotting. One case cannot show how often this happens, but it shows that severe allergic reactions after skin contact with argan oil have been reported.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "32938575",
+     "doi": "10.18176/jiaci.0596",
+     "title": "Anaphylaxis After Cutaneous Application of Argan Oil.",
+     "year": 2021,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32938575/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Argan moyi (INCI: Argania Spinosa Kernel Oil) argan daraxti (Argania spinosa) mag'zidan siqib olinadigan o'simlik moyi bo'lib, teri va soch vositalarida ishlatiladi. Teriga surtib qo'llash bo'yicha chop etilgan dalillar cheklangan: Marokashdagi bitta tadqiqot guruhining menopauzadan keyingi o'sha 60 nafar ayol ishtirok etgan ikki maqolasi (ularda teriga surtish bo'yicha solishtirish randomizatsiyalanmagan) hamda argan moyi lipid nanotashuvchilarga joylangan gel bo'yicha kichik tadqiqot. Xavfsizlik bo'yicha allergik kontakt dermatitning bir nechta klinik holat bayoni va teriga surtilgandan keyin anafilaksiya kuzatilgan bitta holat keltirilgan. Tabiiy kelib chiqish o'z-o'zidan har bir kishi vositani qanday ko'tarishini ko'rsatmaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "argan-oil-1": "Marokashda menopauzadan keyingi 60 nafar ayol ishtirok etgan 60 kunlik tadqiqotda qatnashchilar tasodifiy ravishda argan moyi yoki zaytun moyini iste'mol qilish guruhlariga ajratilgan, barchasi esa qo'shimcha ravishda chap bilakning ichki tomoniga kosmetik argan moyi surtgan. Mualliflar surtilgan bilakda transepidermal suv yo'qotilishi kamayganini, epidermisdagi suv miqdori oshganini va asboblar bilan o'lchangan elastiklik ko'rsatkichlari yaxshilanganini qayd etgan. Randomizatsiya faqat iste'mol qilinadigan moylarga tegishli bo'lgan, shuning uchun teriga surtish bo'yicha solishtirish randomizatsiyalanmagan va ko'r usulda o'tkazilmagan; faqat bilak terisi tekshirilgan, ikkala maqola ham bitta tadqiqot guruhi va o'sha qatnashchilarga tegishli, shu sababli natijalar mustaqil tasdiqlanishi kerak.",
+    "argan-oil-2": "Formulatsiya tadqiqotida suyuq lipid sifatida argan moyidan tayyorlangan nanostrukturali lipid tashuvchilar qo'shilgan gidrogelni sog'lom ko'ngillilar bir oy davomida qo'llagan va o'lchangan teri namligi oshgan. Annotatsiyada ko'ngillilar soni ham, oddiy argan moyi bilan solishtirish ham keltirilmagan; mualliflar ta'sirni qisman nanotashuvchilarning okklyuziv (teri yuzasida parda hosil qiluvchi) xususiyatiga bog'laydi, shuning uchun uni faqat argan moyiga bog'lab bo'lmaydi.",
+    "argan-oil-3": "Chop etilgan bir nechta klinik holat bayonlarida argan moyiga bog'langan allergik kontakt dermatit tasvirlangan, jumladan, soch vositasidan foydalangan katta yoshli ayolda bosh terisidagi reaksiya va go'dakdagi reaksiya. Bu maqolalarning PubMed'da annotatsiyasi yo'q, shu sababli bu da'vo faqat ularning sarlavhasi, kalit so'zlari va indeks atamalariga asoslanadi (ayrimlarida patch-test, ya'ni teri allergik sinamasi ko'rsatilgan). Klinik holat bayonlari bunday reaksiyalar qanchalik tez-tez uchrashini ko'rsata olmaydi, lekin argan moyi ba'zi odamlarda allergik teri reaksiyasini chaqirishi mumkinligini ko'rsatadi.",
+    "argan-oil-4": "Bitta klinik holat bayonida argan moyi teriga surtilgandan keyin anafilaksiya (og'ir, butun organizmni qamrab oluvchi allergik reaksiya) tasvirlangan. PubMed'da annotatsiya yo'q, shu sababli bu da'vo faqat sarlavha, kalit so'zlar va indeks atamalariga asoslanadi; ularda angioedema, qon bosimining pasayishi, oziq-ovqat allergiyasi va immunoblotting ham qayd etilgan. Bitta holat bu qanchalik tez-tez uchrashini ko'rsata olmaydi, lekin argan moyi teriga tekkanidan keyin og'ir allergik reaksiyalar qayd etilganini ko'rsatadi."
+   }
+  },
+  "ru": {
+   "summary": "Аргановое масло (INCI: Argania Spinosa Kernel Oil) — растительное масло, получаемое отжимом из ядер плодов арганового дерева (Argania spinosa) и используемое в средствах для кожи и волос. Опубликованные данные о наружном применении ограничены: две публикации одной марокканской исследовательской группы об одних и тех же 60 женщинах в постменопаузе, у которых сравнение при нанесении на кожу не было рандомизированным, и небольшое исследование геля, в котором аргановое масло входило в состав липидных наноносителей. С точки зрения безопасности описаны несколько случаев аллергического контактного дерматита и один случай анафилаксии после нанесения на кожу. Естественное происхождение само по себе не показывает, как конкретный человек перенесёт средство. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "argan-oil-1": "В 60-дневном исследовании с участием 60 женщин в постменопаузе в Марокко участниц случайным образом распределили на употребление в пищу арганового или оливкового масла, и все они дополнительно наносили косметическое аргановое масло на внутреннюю сторону левого предплечья. Авторы сообщили, что на обработанном предплечье трансэпидермальная потеря воды снизилась, содержание воды в эпидермисе выросло, а измеренные приборами показатели эластичности улучшились. Рандомизация касалась только пищевых масел, поэтому сравнение при нанесении на кожу не было ни рандомизированным, ни слепым; исследовалась только кожа предплечья, а обе публикации принадлежат одной группе и описывают одних и тех же участниц, так что результаты нуждаются в независимом подтверждении.",
+    "argan-oil-2": "В исследовании рецептуры гидрогель с наноструктурированными липидными носителями, в которых аргановое масло служило жидким липидом, здоровые добровольцы наносили в течение месяца, и измеренная увлажнённость кожи повысилась. В аннотации не указаны ни число добровольцев, ни сравнение с обычным аргановым маслом, а авторы связывают эффект отчасти с окклюзионным действием наноносителей, поэтому его нельзя приписать только аргановому маслу.",
+    "argan-oil-3": "В нескольких опубликованных описаниях клинических случаев сообщается об аллергическом контактном дерматите, связываемом с аргановым маслом, в том числе о реакции кожи головы у взрослой женщины, пользовавшейся средством для волос, и о реакции у младенца. Аннотаций к этим публикациям в PubMed нет, поэтому это утверждение опирается только на их названия, ключевые слова и индексные термины (для части из них указаны патч-тесты, то есть кожные аллергопробы). Описания случаев не показывают, насколько часто бывают такие реакции, но показывают, что аргановое масло может вызывать аллергические реакции кожи у некоторых людей.",
+    "argan-oil-4": "В одном описании клинического случая сообщается об анафилаксии (тяжёлой общей аллергической реакции) после нанесения арганового масла на кожу. Аннотации в PubMed нет, поэтому это утверждение опирается только на название, ключевые слова и индексные термины, где упоминаются также ангиоотёк, снижение артериального давления, пищевая аллергия и иммуноблоттинг. Один случай не позволяет судить о частоте, но показывает, что тяжёлые аллергические реакции после контакта кожи с аргановым маслом описаны."
+   }
+  },
+  "ar": {
+   "summary": "زيت الأرغان (INCI: Argania Spinosa Kernel Oil) زيت نباتي يُعصر من لبّ نوى ثمار شجرة الأرغان (Argania spinosa) ويُستخدم في منتجات العناية بالبشرة والشعر. الأدلة المنشورة حول استخدامه الموضعي محدودة: تقريران من مجموعة بحثية مغربية واحدة عن النساء الستين أنفسهن بعد سن اليأس، ولم تكن المقارنة الموضعية فيهما عشوائية، ودراسة صغيرة لجل أُدمج فيه زيت الأرغان في حاملات دهنية نانوية. ومن نقاط السلامة عدة تقارير حالات عن التهاب الجلد التماسي التحسسي وحالة واحدة من التأق (الحساسية المفرطة) بعد وضعه على الجلد. لا يدل الأصل الطبيعي بحد ذاته على كيفية تحمّل أي شخص للمنتج. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "argan-oil-1": "في دراسة مدتها 60 يومًا شملت 60 امرأة بعد سن اليأس في المغرب، وُزّعت المشاركات عشوائيًا على تناول زيت الأرغان أو زيت الزيتون غذائيًا، ووضعن جميعًا كذلك زيت الأرغان التجميلي على الجهة الداخلية من الساعد الأيسر. وأفاد الباحثون بأن فقدان الماء عبر البشرة انخفض في الساعد المعالَج، وارتفع محتوى الماء في البشرة، وتحسّنت مؤشرات المرونة المقاسة بالأجهزة. وقد اقتصر التوزيع العشوائي على الزيوت الغذائية، فلم تكن المقارنة الموضعية عشوائية ولا معمّاة، واقتصر الفحص على جلد الساعد، ويصدر التقريران عن المجموعة البحثية نفسها وعن المشاركات أنفسهن، لذا تحتاج النتائج إلى تأكيد مستقل.",
+    "argan-oil-2": "في دراسة لتطوير مستحضر، استخدم متطوعون أصحاء لمدة شهر جلًا مائيًا يحتوي على حاملات دهنية نانوية البنية صُنعت باستخدام زيت الأرغان بوصفه الدهن السائل، فارتفع ترطيب الجلد المقاس. ولا يذكر الملخص عدد المتطوعين ولا مقارنة بزيت الأرغان العادي، ويعزو الباحثون التأثير جزئيًا إلى الأثر الإطباقي للحاملات النانوية، لذلك لا يمكن نسبته إلى زيت الأرغان وحده.",
+    "argan-oil-3": "تصف عدة تقارير حالات منشورة التهاب الجلد التماسي التحسسي المنسوب إلى زيت الأرغان، ومنها تفاعل في فروة الرأس لدى امرأة بالغة استخدمت منتجًا للشعر، وتفاعل لدى رضيع. ولا يتوفر في PubMed ملخص لهذه التقارير، لذا يستند هذا الطرح إلى عناوينها وكلماتها المفتاحية ومصطلحات فهرستها فقط (وتُذكر اختبارات اللصقة لبعضها). لا تستطيع تقارير الحالات أن تبيّن مدى شيوع هذه التفاعلات، لكنها تُظهر أن زيت الأرغان قد يسبب تفاعلات جلدية تحسسية لدى بعض الأشخاص.",
+    "argan-oil-4": "وصف تقرير حالة واحد حدوث التأق (تفاعل تحسسي شديد يشمل الجسم كله) بعد وضع زيت الأرغان على الجلد. ولا يتوفر ملخص في PubMed، لذا يستند هذا الطرح إلى العنوان والكلمات المفتاحية ومصطلحات الفهرسة فقط، وهي تذكر أيضًا الوذمة الوعائية وانخفاض ضغط الدم والحساسية الغذائية واللطخة المناعية. لا تكفي حالة واحدة لمعرفة مدى تكرر ذلك، لكنها تُظهر أن تفاعلات تحسسية شديدة بعد ملامسة الجلد لزيت الأرغان قد وُثّقت."
+   }
+  }
+ }
+}

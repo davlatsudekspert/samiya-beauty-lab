@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
       ('skin', l.tileSkin, Icons.face_retouching_natural_rounded, () => context.safePush('/home/skin')),
       ('routine', l.tileRoutine, Icons.spa_rounded, () => context.safePush('/home/routine')),
       ('academy', l.tileAcademy, Icons.school_rounded, () => context.go('/academy')),
-      ('ai', l.tileAi, Icons.auto_awesome_rounded, () => _soon(context)),
+      ('ai', l.tileAi, Icons.auto_awesome_rounded, () => context.safePush('/home/ai')),
       ('journal', l.tileJournal, Icons.edit_note_rounded, () => context.go('/journal')),
     ];
     final repo = AppScope.of(context).ingredients;

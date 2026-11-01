@@ -43,13 +43,16 @@ void main() {
         r'(\d+\s*%\s*(safe|xavfsiz|безопас)|halal[\s-]*certif|safe for all|\bcures?\b|\bheals?\b|\bguarantee|davolaydi|гарантир|лечит)',
         caseSensitive: false);
 
-    test('28 ingredient/usul/ogohlantirish, har biri 4 tilda xulosa bilan, hammasi draft', () {
+    test('40 ingredient/usul/ogohlantirish, har biri 4 tilda xulosa bilan, hammasi draft', () {
       expect(repo.all.map((e) => e.slug).toSet(), {
         'niacinamide', 'hyaluronic-acid', 'salicylic-acid', 'ascorbic-acid', 'retinol',
         'glycerin', 'panthenol', 'ceramide-np', 'zinc-oxide', 'urea', 'glycolic-acid',
         'honey', 'aloe-vera', 'coconut-oil', 'nigella-sativa-oil', 'rosehip-oil', 'cucumber', 'banana', 'oat', 'green-tea',
         'olive-oil', 'chamomile', 'rose-water', 'turmeric', 'lemon-juice', 'baking-soda', 'facial-massage', 'gua-sha',
+        'azelaic-acid', 'lactic-acid', 'bakuchiol', 'squalane', 'tocopherol', 'tranexamic-acid',
+        'argan-oil', 'shea-butter', 'jojoba-oil', 'centella-asiatica', 'licorice-root', 'sunflower-seed-oil',
       });
+      expect(repo.all.where((i) => i.isNatural).length, greaterThanOrEqualTo(19));
       for (final i in repo.all) {
         expect(i.status, 'draft', reason: i.slug);
         for (final l in ['en', 'uz', 'ru', 'ar']) {

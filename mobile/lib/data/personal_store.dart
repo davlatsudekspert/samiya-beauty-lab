@@ -28,11 +28,11 @@ class JournalEntry {
   final String note;
   Map<String, dynamic> toJson() => {'id': id, 'date': date.toIso8601String(), 'feeling': feeling.name, 'note': note};
   factory JournalEntry.fromJson(Map<String, dynamic> j) => JournalEntry(
-        id: j['id'] as String,
-        date: DateTime.parse(j['date'] as String),
-        feeling: SkinFeeling.values.where((f) => f.name == j['feeling']).firstOrNull ?? SkinFeeling.okay,
-        note: (j['note'] as String?) ?? '',
-      );
+    id: j['id'] as String,
+    date: DateTime.parse(j['date'] as String),
+    feeling: SkinFeeling.values.where((f) => f.name == j['feeling']).firstOrNull ?? SkinFeeling.okay,
+    note: (j['note'] as String?) ?? '',
+  );
 }
 
 /// Shaxsiy ma'lumotlar (teri afzalliklari, parvarish rejasi, kundalik): FAQAT qurilmada saqlanadi.
@@ -90,7 +90,9 @@ class PersonalStore extends ChangeNotifier {
       jsonEncode({
         'skinType': skinType?.name,
         'avoid': avoid,
-        'routine': {for (final e in routine.entries) e.key: [for (final s in e.value) s.toJson()]},
+        'routine': {
+          for (final e in routine.entries) e.key: [for (final s in e.value) s.toJson()],
+        },
         'doneOn': _doneOn,
         'journal': [for (final e in journal) e.toJson()],
       }),
@@ -119,7 +121,10 @@ class PersonalStore extends ChangeNotifier {
   /// Tarkibdagi nomlardan qaysilari foydalanuvchining "chetlab o'tish" ro'yxatida (aniq nom bo'yicha).
   List<String> avoidHits(Iterable<String> names) {
     final keys = {for (final a in avoid) inciKey(a)};
-    return [for (final n in names) if (keys.contains(inciKey(n))) n];
+    return [
+      for (final n in names)
+        if (keys.contains(inciKey(n))) n,
+    ];
   }
 
   Future<bool> addStep(String slot, String name) async {

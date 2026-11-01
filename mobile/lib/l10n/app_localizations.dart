@@ -1379,6 +1379,114 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Read'**
   String get lessonDone;
+
+  /// No description provided for @aiSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your personal beauty assistant: clear explanations grounded in scientific sources.'**
+  String get aiSubtitle;
+
+  /// No description provided for @aiDisclaimer.
+  ///
+  /// In en, this message translates to:
+  /// **'SAMIYA AI provides educational information, does not diagnose and does not recommend medicines. It can make mistakes — for important questions, see a dermatologist.'**
+  String get aiDisclaimer;
+
+  /// No description provided for @aiConsent.
+  ///
+  /// In en, this message translates to:
+  /// **'To prepare an answer, your question is sent to the Google Gemini service. Please don’t include your name, phone number or medical documents.'**
+  String get aiConsent;
+
+  /// No description provided for @aiAccept.
+  ///
+  /// In en, this message translates to:
+  /// **'Got it, start'**
+  String get aiAccept;
+
+  /// No description provided for @aiHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Type your question…'**
+  String get aiHint;
+
+  /// No description provided for @aiThinking.
+  ///
+  /// In en, this message translates to:
+  /// **'SAMIYA is thinking…'**
+  String get aiThinking;
+
+  /// No description provided for @aiSignIn.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in to use SAMIYA AI — it’s free.'**
+  String get aiSignIn;
+
+  /// No description provided for @aiSignInBtn.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in'**
+  String get aiSignInBtn;
+
+  /// No description provided for @aiNotReady.
+  ///
+  /// In en, this message translates to:
+  /// **'SAMIYA AI is launching soon. Meanwhile, explore the ingredient library, the Ibn Sina section and the Academy.'**
+  String get aiNotReady;
+
+  /// No description provided for @aiQuota.
+  ///
+  /// In en, this message translates to:
+  /// **'You’ve used today’s free questions. You can ask again tomorrow.'**
+  String get aiQuota;
+
+  /// No description provided for @aiError.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn’t get an answer. Check your connection and try again.'**
+  String get aiError;
+
+  /// No description provided for @aiRetry.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again'**
+  String get aiRetry;
+
+  /// No description provided for @aiRemaining.
+  ///
+  /// In en, this message translates to:
+  /// **'{n} questions left today'**
+  String aiRemaining(int n);
+
+  /// No description provided for @aiTry.
+  ///
+  /// In en, this message translates to:
+  /// **'Try asking:'**
+  String get aiTry;
+
+  /// No description provided for @aiS1.
+  ///
+  /// In en, this message translates to:
+  /// **'Can I use niacinamide and vitamin C together?'**
+  String get aiS1;
+
+  /// No description provided for @aiS2.
+  ///
+  /// In en, this message translates to:
+  /// **'What is a good evening routine for dry skin?'**
+  String get aiS2;
+
+  /// No description provided for @aiS3.
+  ///
+  /// In en, this message translates to:
+  /// **'How do I do gua sha correctly?'**
+  String get aiS3;
+
+  /// No description provided for @aiS4.
+  ///
+  /// In en, this message translates to:
+  /// **'What did Ibn Sina write about skin care?'**
+  String get aiS4;
 }
 
 class _AppLocalizationsDelegate

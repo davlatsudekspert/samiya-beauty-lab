@@ -4,10 +4,27 @@ import 'dart:io';
 
 /// Backend (Cloudflare Worker) mijozi.
 class BackendException implements Exception {
-  const BackendException([this.status]);
+  const BackendException([this.status, this.code]);
   final int? status; // null: tarmoq xatosi
+  final String? code; // server xato kodi (masalan quota_exceeded, ai_not_configured)
   @override
-  String toString() => 'BackendException($status)';
+  String toString() => 'BackendException($status, $code)';
+}
+
+/// SAMIYA AI javobi. [remaining]: bugun qolgan so'rovlar.
+class AiAnswer {
+  const AiAnswer({required this.answer, required this.remaining, required this.limit});
+  final String answer;
+  final int remaining;
+  final int limit;
+}
+
+/// Suhbat tarixidagi bitta xabar (role: user yoki model).
+class AiTurn {
+  const AiTurn(this.role, this.text);
+  final String role;
+  final String text;
+  Map<String, String> toJson() => {'role': role, 'text': text};
 }
 
 /// GET /api/v1/me javobi. Admin va Pro holati FAQAT serverdan (klient o'zi belgilamaydi).
@@ -84,6 +101,16 @@ abstract class BackendApi {
   /// Emailga Pro berish; [days] yo'q bo'lsa cheksiz.
   Future<void> grantPro(String idToken, String email, {int? days});
   Future<void> revokePro(String idToken, String email);
+
+  /// POST /api/v1/ai/ask: kalit faqat serverda; kunlik kvota serverda.
+  Future<AiAnswer> askAi(
+    String idToken, {
+    required String requestId,
+    required String question,
+    required String lang,
+    String context = '',
+    List<AiTurn> history = const [],
+  });
 }
 
 /// Backend hali yo'q (manzil berilmagan): server ma'lumotlari ham yo'q, shuning uchun hech narsa qilinmaydi.
@@ -105,11 +132,20 @@ class NoBackendApi implements BackendApi {
   Future<void> grantPro(String idToken, String email, {int? days}) async => throw const BackendException();
   @override
   Future<void> revokePro(String idToken, String email) async => throw const BackendException();
+  @override
+  Future<AiAnswer> askAi(
+    String idToken, {
+    required String requestId,
+    required String question,
+    required String lang,
+    String context = '',
+    List<AiTurn> history = const [],
+  }) => throw const BackendException(503, 'ai_not_configured');
 }
 
 class HttpBackendApi implements BackendApi {
   HttpBackendApi(String baseUrl, {this.timeout = const Duration(seconds: 20)})
-      : _base = baseUrl.endsWith('/') ? baseUrl.substring(0, baseUrl.length - 1) : baseUrl;
+    : _base = baseUrl.endsWith('/') ? baseUrl.substring(0, baseUrl.length - 1) : baseUrl;
   final String _base;
   final Duration timeout;
 
@@ -128,7 +164,14 @@ class HttpBackendApi implements BackendApi {
       }
       final res = await req.close().timeout(timeout);
       final text = await utf8.decoder.bind(res).join().timeout(timeout);
-      if (res.statusCode != 200) throw BackendException(res.statusCode);
+      if (res.statusCode != 200) {
+        String? code;
+        try {
+          final e = jsonDecode(text);
+          if (e is Map && e['error'] is String) code = e['error'] as String;
+        } catch (_) {}
+        throw BackendException(res.statusCode, code);
+      }
       final v = text.isEmpty ? null : jsonDecode(text);
       return v is Map<String, dynamic> ? v : <String, dynamic>{};
     } on BackendException {
@@ -157,8 +200,7 @@ class HttpBackendApi implements BackendApi {
   }
 
   @override
-  Future<AdminStats> adminStats(String idToken) async =>
-      AdminStats.fromJson(await _send('GET', '/api/v1/admin/stats', token: idToken));
+  Future<AdminStats> adminStats(String idToken) async => AdminStats.fromJson(await _send('GET', '/api/v1/admin/stats', token: idToken));
 
   @override
   Future<List<ProGrant>> listGrants(String idToken) async {
@@ -179,5 +221,29 @@ class HttpBackendApi implements BackendApi {
   @override
   Future<void> revokePro(String idToken, String email) async {
     await _send('DELETE', '/api/v1/admin/grants', token: idToken, body: {'email': email});
+  }
+
+  @override
+  Future<AiAnswer> askAi(
+    String idToken, {
+    required String requestId,
+    required String question,
+    required String lang,
+    String context = '',
+    List<AiTurn> history = const [],
+  }) async {
+    final j = await _send(
+      'POST',
+      '/api/v1/ai/ask',
+      token: idToken,
+      body: {
+        'requestId': requestId,
+        'question': question,
+        'lang': lang,
+        'context': context,
+        'history': [for (final h in history) h.toJson()],
+      },
+    );
+    return AiAnswer(answer: (j['answer'] as String?) ?? '', remaining: (j['remaining'] as num?)?.toInt() ?? 0, limit: (j['limit'] as num?)?.toInt() ?? 0);
   }
 }

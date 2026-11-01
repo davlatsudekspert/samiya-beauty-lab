@@ -1,0 +1,144 @@
+{
+ "inci": "Helianthus Annuus Seed Oil",
+ "slug": "sunflower-seed-oil",
+ "status": "draft",
+ "cosing": {
+  "functions": [],
+  "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "verified": false
+ },
+ "eu_regulation": {
+  "annex": "unverified",
+  "summary": "Not verified: EUR-Lex (Regulation (EC) No 1223/2009) and the CosIng database could not be read from this environment. Check the annexes and CosIng entry manually before publishing.",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20240416",
+  "verified": false
+ },
+ "summary_en": "Sunflower seed oil (INCI: Helianthus Annuus Seed Oil) is a plant oil, usually rich in linoleic acid, used in creams, cleansers and baby-care products. Small studies in adults and newborns have measured its effect on the skin barrier with mixed results: an adult forearm study found that it preserved barrier integrity, a small study in preterm infants suggested it may slow barrier maturation, and a large newborn trial found few differences compared with mustard oil. Case reports involving allergic contact dermatitis are included as cautions. Studies on infection or survival in newborns are outside the scope of this card. A natural origin does not by itself indicate how any individual will tolerate a product. This card summarises published evidence only and is not medical advice.",
+ "claims": [
+  {
+   "id": "sunflower-seed-oil-1",
+   "text_en": "In randomised forearm-controlled studies in 19 adult volunteers with and without a history of atopic dermatitis, one group applied six drops of olive oil to one forearm and six drops of sunflower seed oil to the other twice daily for 4 weeks. Sunflower seed oil preserved stratum corneum integrity, did not cause redness and improved hydration, whereas olive oil reduced stratum corneum integrity and caused mild redness. The study was small, short and limited to forearm skin, so it does not show how sunflower seed oil behaves in finished products or on other body areas.",
+   "evidence_level": "C",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "22995032",
+     "doi": "10.1111/j.1525-1470.2012.01865.x",
+     "title": "Effect of olive and sunflower seed oil on the adult skin barrier: implications for neonatal skin care.",
+     "year": 2012,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22995032/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "sunflower-seed-oil-2",
+   "text_en": "In a randomised trial in 22 low-birth-weight preterm infants (1,500 to 2,500 g), daily application of sunflower seed oil during the first 10 days of life was followed by a significant rise in transepidermal water loss on the abdomen, leg and buttock until day 11, which fell after the oil was stopped, and abdominal skin hydration decreased until day 21; skin in the untreated group stayed stable. The authors concluded that the oil may slow skin barrier maturation in preterm infants. The study was very small and concerns the immature skin of preterm babies, so it cannot be applied to adults or to cosmetic products.",
+   "evidence_level": "C",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "25323538",
+     "doi": "10.1159/000363380",
+     "title": "Influence of sunflower seed oil on the skin barrier function of preterm infants: a randomized controlled trial.",
+     "year": 2014,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25323538/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "sunflower-seed-oil-3",
+   "text_en": "In a randomised pilot study in 50 healthy full-term newborns, babies received either a baby lotion or sunflower seed oil for five weeks (22 and 24 babies were reported per group). In both groups skin pH fell and stratum corneum hydration rose, and transepidermal water loss fell in some areas; the authors concluded that neither regimen harmed normal barrier adaptation. There was no untreated group, so the changes may largely reflect natural skin maturation after birth rather than an effect of the oil.",
+   "evidence_level": "C",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "28070970",
+     "doi": "10.1111/jocd.12302",
+     "title": "Influence of sunflower seed oil or baby lotion on the skin barrier function of newborns: A pilot study.",
+     "year": 2017,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28070970/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "sunflower-seed-oil-4",
+   "text_en": "In a community-based cluster-randomised trial in Nepal, 995 newborns received regular full-body massage with either sunflower seed oil (495) or mustard oil (500) and were followed for 28 days. Skin pH fell slightly faster with sunflower seed oil in the first week (a difference in mean daily reduction of 0.02), while redness, rash, dryness and transepidermal water loss did not differ significantly between the oils. The comparison was only with mustard oil, in a specific low-resource setting, so the results say little about cosmetic use in adults.",
+   "evidence_level": "B",
+   "study_type": "RCT",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "31870338",
+     "doi": "10.1186/s12887-019-1871-2",
+     "title": "Impact of sunflower seed oil versus mustard seed oil on skin barrier function in newborns: a community-based, cluster-randomized trial.",
+     "year": 2019,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31870338/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  },
+  {
+   "id": "sunflower-seed-oil-5",
+   "text_en": "Two published case reports are indexed with sunflower seed oil among their keywords: one, indexed under allergic contact dermatitis and patch testing, reports in its title that sunflower oil showed no cross-reactivity with nickel or with Compositae (daisy-family) allergens, and the other describes severe contact cheilitis from beeswax and other cosmetic oils, fats and waxes in lip balms. PubMed provides no abstracts, so this statement relies only on titles, keywords and indexing terms, and the role of sunflower seed oil in each case cannot be summarised in detail. Case reports cannot show how common such reactions are.",
+   "evidence_level": "C",
+   "study_type": "observational",
+   "sources": [
+    {
+     "type": "pubmed",
+     "pmid": "40555473",
+     "doi": "10.1111/cod.14834",
+     "title": "Nothing New Under the Sun?: Sunflower Oil Shows No Cross-Reactivity With Nickel or Compositae Allergens.",
+     "year": 2025,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40555473/"
+    },
+    {
+     "type": "pubmed",
+     "pmid": "36582047",
+     "doi": "10.1111/cod.14272",
+     "title": "Severe contact cheilitis from cera alba and other cosmetic oils, fats and waxes in lip balms.",
+     "year": 2023,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36582047/"
+    }
+   ],
+   "checked_on": "2026-11-01"
+  }
+ ],
+ "translations": {
+  "uz": {
+   "summary": "Kungaboqar urug'i moyi (INCI: Helianthus Annuus Seed Oil) odatda linol kislotasiga boy o'simlik moyi bo'lib, kremlar, tozalovchi vositalar va chaqaloqlar parvarishi vositalarida ishlatiladi. Kattalar va yangi tug'ilgan chaqaloqlarda o'tkazilgan kichik tadqiqotlarda uning teri to'sig'iga ta'siri o'lchangan va natijalar turlicha bo'lgan: kattalarning bilagida o'tkazilgan tadqiqotda u to'siq butunligini saqlagan, chala tug'ilgan chaqaloqlardagi kichik tadqiqot esa u to'siqning yetilishini sekinlashtirishi mumkinligini ko'rsatgan, yangi tug'ilganlardagi yirik sinovda xantal moyiga nisbatan farqlar kam topilgan. Allergik kontakt dermatit bilan bog'liq klinik holat bayonlari ehtiyot choralari sifatida keltirilgan. Yangi tug'ilganlarda infeksiya yoki omon qolish bo'yicha tadqiqotlar bu kartochka doirasidan tashqarida. Tabiiy kelib chiqish o'z-o'zidan har bir kishi vositani qanday ko'tarishini ko'rsatmaydi. Bu kartochka faqat chop etilgan dalillarni umumlashtiradi va tibbiy maslahat emas.",
+   "claims": {
+    "sunflower-seed-oil-1": "Atopik dermatit tarixi bo'lgan va bo'lmagan 19 nafar katta yoshli ko'ngillida o'tkazilgan, bilaklar bir-biri bilan solishtirilgan randomizatsiyalangan tadqiqotlarda bir guruh 4 hafta davomida kuniga ikki marta bir bilagiga olti tomchi zaytun moyi, ikkinchisiga olti tomchi kungaboqar urug'i moyi surtgan. Kungaboqar urug'i moyi shox qavat butunligini saqlagan, qizarish chaqirmagan va namlikni yaxshilagan, zaytun moyi esa shox qavat butunligini pasaytirgan va yengil qizarish chaqirgan. Tadqiqot kichik, qisqa va faqat bilak terisi bilan cheklangan, shuning uchun kungaboqar urug'i moyining tayyor vositalarda yoki tananing boshqa sohalarida qanday ta'sir qilishini ko'rsatmaydi.",
+    "sunflower-seed-oil-2": "Kam vaznli (1500–2500 g) 22 nafar chala tug'ilgan chaqaloqda o'tkazilgan randomizatsiyalangan sinovda hayotning birinchi 10 kunida har kuni kungaboqar urug'i moyi surtilgandan keyin qorin, oyoq va dumbada transepidermal suv yo'qotilishi 11-kungacha sezilarli oshgan, moy to'xtatilgach kamaygan, qorin terisining namligi esa 21-kungacha pasaygan; ishlov berilmagan guruhda teri ko'rsatkichlari barqaror qolgan. Mualliflar moy chala tug'ilgan chaqaloqlarda teri to'sig'ining yetilishini sekinlashtirishi mumkin degan xulosaga kelgan. Tadqiqot juda kichik va chala tug'ilgan chaqaloqlarning yetilmagan terisiga tegishli, shuning uchun uni kattalarga yoki kosmetik vositalarga tatbiq etib bo'lmaydi.",
+    "sunflower-seed-oil-3": "Muddatida tug'ilgan 50 nafar sog'lom chaqaloqda o'tkazilgan randomizatsiyalangan pilot tadqiqotda chaqaloqlarga besh hafta davomida yoki bolalar losoni, yoki kungaboqar urug'i moyi qo'llangan (guruhlarda 22 va 24 nafar chaqaloq qayd etilgan). Ikkala guruhda ham teri pH darajasi pasaygan va shox qavat namligi oshgan, ayrim sohalarda transepidermal suv yo'qotilishi kamaygan; mualliflar ikkala parvarish usuli ham to'siqning normal moslashuviga zarar yetkazmagan degan xulosaga kelgan. Ishlov berilmagan guruh bo'lmagan, shuning uchun o'zgarishlar moy ta'siridan ko'ra ko'proq tug'ilgandan keyingi tabiiy teri yetilishini aks ettirishi mumkin.",
+    "sunflower-seed-oil-4": "Nepalda jamoalar darajasida o'tkazilgan klaster-randomizatsiyalangan sinovda 995 nafar yangi tug'ilgan chaqaloqqa muntazam ravishda butun tanaga kungaboqar urug'i moyi (495) yoki xantal moyi (500) bilan massaj qilingan va ular 28 kun kuzatilgan. Kungaboqar urug'i moyida birinchi haftada teri pH darajasi biroz tezroq pasaygan (o'rtacha kunlik pasayishdagi farq 0,02), qizarish, toshma, quruqlik va transepidermal suv yo'qotilishi esa moylar o'rtasida sezilarli farq qilmagan. Solishtirish faqat xantal moyi bilan, muayyan kam resursli sharoitda o'tkazilgan, shuning uchun natijalar kattalarda kosmetik qo'llash haqida kam ma'lumot beradi.",
+    "sunflower-seed-oil-5": "Chop etilgan ikki klinik holat bayoni kalit so'zlari orasida kungaboqar urug'i moyi bilan indekslangan: allergik kontakt dermatit va patch-test atamalari bilan indekslangan birining sarlavhasida kungaboqar moyi nikel yoki murakkabguldoshlar (Compositae) allergenlari bilan o'zaro reaksiya bermagani aytilgan, ikkinchisida lab balzamlaridagi asal mumi hamda boshqa kosmetik moylar, yog'lar va mumlardan kelib chiqqan og'ir kontakt xeylit tasvirlangan. PubMed'da annotatsiyalar yo'q, shu sababli bu da'vo faqat sarlavhalar, kalit so'zlar va indeks atamalariga asoslanadi va har bir holatda kungaboqar urug'i moyining roli batafsil bayon qilinmaydi. Klinik holat bayonlari bunday reaksiyalar qanchalik tez-tez uchrashini ko'rsata olmaydi."
+   }
+  },
+  "ru": {
+   "summary": "Подсолнечное масло (INCI: Helianthus Annuus Seed Oil) — растительное масло, обычно богатое линолевой кислотой, используемое в кремах, очищающих средствах и средствах по уходу за детьми. В небольших исследованиях у взрослых и новорождённых измеряли его влияние на кожный барьер, и результаты оказались неоднозначными: в исследовании на предплечьях взрослых оно сохраняло целостность барьера, небольшое исследование у недоношенных детей указывало, что оно может замедлять созревание барьера, а в крупном исследовании у новорождённых различий по сравнению с горчичным маслом было мало. Как предостережение приведены описания случаев, связанных с аллергическим контактным дерматитом. Исследования инфекций и выживаемости новорождённых выходят за рамки этой карточки. Естественное происхождение само по себе не показывает, как конкретный человек перенесёт средство. Эта карточка обобщает лишь опубликованные данные и не является медицинской рекомендацией.",
+   "claims": {
+    "sunflower-seed-oil-1": "В рандомизированных исследованиях с контролем по предплечьям у 19 взрослых добровольцев с атопическим дерматитом в анамнезе и без него одна группа дважды в день в течение 4 недель наносила шесть капель оливкового масла на одно предплечье и шесть капель подсолнечного масла на другое. Подсолнечное масло сохраняло целостность рогового слоя, не вызывало покраснения и улучшало увлажнённость, тогда как оливковое масло снижало целостность рогового слоя и вызывало лёгкое покраснение. Исследование было небольшим, коротким и ограничивалось кожей предплечья, поэтому оно не показывает, как подсолнечное масло ведёт себя в готовых средствах или на других участках тела.",
+    "sunflower-seed-oil-2": "В рандомизированном исследовании у 22 недоношенных детей с низкой массой тела (1500–2500 г) ежедневное нанесение подсолнечного масла в первые 10 дней жизни сопровождалось значимым ростом трансэпидермальной потери воды на животе, ноге и ягодицах до 11-го дня, которая снизилась после прекращения нанесения, а увлажнённость кожи живота снижалась до 21-го дня; в группе без обработки показатели оставались стабильными. Авторы пришли к выводу, что масло может замедлять созревание кожного барьера у недоношенных детей. Исследование было очень маленьким и касается незрелой кожи недоношенных младенцев, поэтому его нельзя переносить на взрослых или на косметические средства.",
+    "sunflower-seed-oil-3": "В рандомизированном пилотном исследовании у 50 здоровых доношенных новорождённых дети в течение пяти недель получали либо детский лосьон, либо подсолнечное масло (в группах указано 22 и 24 ребёнка). В обеих группах pH кожи снизился, увлажнённость рогового слоя повысилась, а трансэпидермальная потеря воды на некоторых участках уменьшилась; авторы заключили, что ни один из режимов не нарушал нормальную адаптацию барьера. Группы без ухода не было, поэтому изменения могут в основном отражать естественное созревание кожи после рождения, а не действие масла.",
+    "sunflower-seed-oil-4": "В кластерном рандомизированном исследовании на уровне общин в Непале 995 новорождённым регулярно делали массаж всего тела с подсолнечным (495) или горчичным (500) маслом и наблюдали их 28 дней. При использовании подсолнечного масла pH кожи в первую неделю снижался немного быстрее (разница в среднем суточном снижении — 0,02), а покраснение, сыпь, сухость и трансэпидермальная потеря воды значимо не различались. Сравнение проводилось только с горчичным маслом и в особых условиях с ограниченными ресурсами, поэтому результаты мало говорят о косметическом применении у взрослых.",
+    "sunflower-seed-oil-5": "Два опубликованных описания клинических случаев проиндексированы с подсолнечным маслом среди ключевых слов: в названии одного из них, проиндексированного по терминам «аллергический контактный дерматит» и «патч-тест», сообщается, что подсолнечное масло не давало перекрёстной реакции с никелем или аллергенами сложноцветных (Compositae), во втором — тяжёлый контактный хейлит от пчелиного воска и других косметических масел, жиров и восков в бальзамах для губ. Аннотаций в PubMed нет, поэтому это утверждение опирается только на названия, ключевые слова и индексные термины, и роль подсолнечного масла в каждом случае нельзя описать подробно. Описания случаев не показывают, насколько часто бывают такие реакции."
+   }
+  },
+  "ar": {
+   "summary": "زيت بذور دوار الشمس (INCI: Helianthus Annuus Seed Oil) زيت نباتي غني عادةً بحمض اللينوليك، يُستخدم في الكريمات ومنتجات التنظيف ومنتجات العناية بالرضّع. وقاست دراسات صغيرة على البالغين وحديثي الولادة تأثيره في الحاجز الجلدي وجاءت النتائج متباينة: فقد حافظ على سلامة الحاجز في دراسة على سواعد البالغين، وأشارت دراسة صغيرة على الخُدّج إلى أنه قد يبطئ نضج الحاجز، ولم تجد تجربة كبيرة على حديثي الولادة فروقًا تُذكر مقارنة بزيت الخردل. وأُدرجت تقارير حالات تتعلق بالتهاب الجلد التماسي التحسسي بوصفها تنبيهات احترازية. أما الدراسات المتعلقة بالعدوى أو البقاء على قيد الحياة لدى حديثي الولادة فهي خارج نطاق هذه البطاقة. لا يدل الأصل الطبيعي بحد ذاته على كيفية تحمّل أي شخص للمنتج. تلخّص هذه البطاقة الأدلة المنشورة فقط وليست نصيحة طبية.",
+   "claims": {
+    "sunflower-seed-oil-1": "في دراسات عشوائية قورن فيها ساعد بآخر لدى 19 متطوعًا بالغًا لديهم أو ليس لديهم تاريخ من التهاب الجلد التأتبي، وضعت إحدى المجموعات ست قطرات من زيت الزيتون على ساعد وست قطرات من زيت بذور دوار الشمس على الساعد الآخر مرتين يوميًا لمدة 4 أسابيع. وحافظ زيت بذور دوار الشمس على سلامة الطبقة القرنية ولم يسبب احمرارًا وحسّن الترطيب، بينما خفّض زيت الزيتون سلامة الطبقة القرنية وسبب احمرارًا خفيفًا. وكانت الدراسة صغيرة وقصيرة ومقتصرة على جلد الساعد، لذا لا تبيّن كيف يتصرف زيت بذور دوار الشمس في المنتجات النهائية أو في مناطق أخرى من الجسم.",
+    "sunflower-seed-oil-2": "في تجربة عشوائية على 22 رضيعًا خديجًا منخفض الوزن (1500 إلى 2500 غرام)، تبع وضع زيت بذور دوار الشمس يوميًا في الأيام العشرة الأولى من الحياة ارتفاع ملحوظ في فقدان الماء عبر البشرة في البطن والساق والأرداف حتى اليوم الحادي عشر، ثم انخفض بعد إيقاف الزيت، وتراجع ترطيب جلد البطن حتى اليوم الحادي والعشرين، في حين بقيت القياسات مستقرة في المجموعة غير المعالَجة. وخلص الباحثون إلى أن الزيت قد يبطئ نضج الحاجز الجلدي لدى الخُدّج. وكانت الدراسة صغيرة جدًا وتخص الجلد غير الناضج لدى الخُدّج، لذا لا يمكن تعميمها على البالغين أو على المنتجات التجميلية.",
+    "sunflower-seed-oil-3": "في دراسة تجريبية عشوائية على 50 مولودًا سليمًا مكتمل الحمل، تلقى الرضّع لمدة خمسة أسابيع إما غسولًا للأطفال وإما زيت بذور دوار الشمس (أُفيد بوجود 22 و24 رضيعًا في المجموعتين). وفي المجموعتين انخفض الرقم الهيدروجيني للجلد وارتفع ترطيب الطبقة القرنية، وانخفض فقدان الماء عبر البشرة في بعض المناطق، وخلص الباحثون إلى أن أيًّا من النظامين لم يضرّ بالتكيّف الطبيعي للحاجز. ولم تكن هناك مجموعة بلا عناية، لذا قد تعكس التغيّرات في معظمها النضج الطبيعي للجلد بعد الولادة لا تأثير الزيت.",
+    "sunflower-seed-oil-4": "في تجربة عنقودية عشوائية مجتمعية في نيبال، تلقى 995 مولودًا تدليكًا منتظمًا للجسم كله بزيت بذور دوار الشمس (495) أو بزيت الخردل (500) وتمت متابعتهم 28 يومًا. وانخفض الرقم الهيدروجيني للجلد بسرعة أكبر قليلًا مع زيت بذور دوار الشمس في الأسبوع الأول (فرق في متوسط الانخفاض اليومي قدره 0.02)، بينما لم يختلف الاحمرار والطفح والجفاف وفقدان الماء عبر البشرة اختلافًا ملحوظًا بين الزيتين. واقتصرت المقارنة على زيت الخردل وفي بيئة محدودة الموارد بعينها، لذا لا تقول النتائج الكثير عن الاستخدام التجميلي لدى البالغين.",
+    "sunflower-seed-oil-5": "فُهرس تقريرا حالة منشوران مع إدراج زيت بذور دوار الشمس ضمن كلماتهما المفتاحية: يذكر أحدهما، المفهرَس تحت التهاب الجلد التماسي التحسسي واختبار اللصقة، في عنوانه أن زيت دوار الشمس لم يُظهر تفاعلًا متصالبًا مع النيكل أو مع مسببات الحساسية من الفصيلة النجمية (Compositae)، ويصف الآخر التهاب شفتين تماسيًا شديدًا ناتجًا عن شمع النحل وغيره من الزيوت والدهون والشموع التجميلية في مرطبات الشفاه. ولا تتوفر ملخصات في PubMed، لذا يستند هذا الطرح إلى العناوين والكلمات المفتاحية ومصطلحات الفهرسة فقط، ولا يمكن وصف دور زيت بذور دوار الشمس في كل حالة بالتفصيل. لا تستطيع تقارير الحالات أن تبيّن مدى شيوع هذه التفاعلات."
+   }
+  }
+ }
+}

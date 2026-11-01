@@ -8,6 +8,7 @@
     "CAMPAIGN_DURATION_DAYS": "90",
     "AI_FREE_DAILY_REQUESTS": "5",
     "AI_PRO_DAILY_REQUESTS": "50",
+    "AI_MODEL": "gemini-2.5-flash-lite",
     "BILLING_ENABLED": "false",
     "ADS_ENABLED": "false",
     "FIREBASE_PROJECT_ID": "samiya-beauty-lab",
