@@ -7150,6 +7150,160 @@
    ]
   },
   {
+   "id": "aloe-cucumber-cooling-gel-mask",
+   "status": "draft",
+   "photo": "aloe-vera",
+   "title": {
+    "en": "Cooling aloe & cucumber gel mask",
+    "uz": "Aloe va bodringli salqin gel-niqob",
+    "ru": "Охлаждающая гель-маска с алоэ и огурцом",
+    "ar": "قناع جل الألوفيرا والخيار المنعش"
+   },
+   "intro": {
+    "en": "Cosmetic aloe gel and a spoonful of cucumber juice — a light, cool feeling for your face at the end of a warm day. The pleasure here comes mostly from coolness and rest.",
+    "uz": "Kosmetik aloe geli va bir qoshiq bodring sharbati — issiq kun oxirida yuzga yengil salqinlik. Asosiy yoqimli tuyg‘u salqinlik va dam olishdan keladi.",
+    "ru": "Косметический гель алоэ и ложечка огуречного сока — лёгкая прохлада для лица в конце жаркого дня. Главное удовольствие здесь — прохлада и отдых.",
+    "ar": "جل ألوفيرا تجميلي وملعقة من عصير الخيار: برودة خفيفة لوجهكِ في نهاية يوم حارّ. والمتعة هنا تأتي أساسًا من البرودة والراحة."
+   },
+   "safety": [
+    {
+     "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+     "uz": "Birinchi marta qo‘llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo‘lsa, bu retseptdan voz keching.",
+     "ru": "Перед первым применением нанесите немного смеси на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+     "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+     "en": "Use a cosmetic gel rather than a fresh leaf: the yellow leaf sap (latex) contains anthraquinones, which are phototoxic, and allergic dermatitis from home-made aloe juice has been reported.",
+     "uz": "Yangi barg emas, kosmetik geldan foydalaning: bargdagi sariq shira (lateks) tarkibida fototoksik antraxinonlar bor, uyda tayyorlangan aloe sharbatidan esa allergik dermatit qayd etilgan.",
+     "ru": "Используйте косметический гель, а не свежий лист: в жёлтом соке листа (латексе) есть фототоксичные антрахиноны, а на домашний сок алоэ описан аллергический дерматит.",
+     "ar": "استخدمي جلًا تجميليًا لا ورقة طازجة، فالعصارة الصفراء للورقة (اللاتكس) تحتوي على أنثراكينونات سامّة ضوئيًا، وقد أُبلغ عن التهاب جلد تحسّسي من عصير ألوفيرا منزلي."
+    },
+    {
+     "en": "Contact dermatitis linked to cucumber has been reported. Do not use if you are allergic to cucumber or aloe.",
+     "uz": "Bodring bilan bog‘liq kontakt dermatit haqida xabarlar bor. Bodring yoki aloega allergiyangiz bo‘lsa, ishlatmang.",
+     "ru": "Описаны случаи контактного дерматита, связанного с огурцом. Не используйте при аллергии на огурец или алоэ.",
+     "ar": "أُبلغ عن حالات التهاب جلد تماسي مرتبطة بالخيار. لا تستخدميه إذا كانت لديكِ حساسية من الخيار أو الألوفيرا."
+    },
+    {
+     "en": "This is not a burn treatment and does not protect you from the sun. If sunburn brings blisters, severe pain or fever, seek medical help.",
+     "uz": "Bu kuyishni davolash vositasi emas va quyoshdan himoya qilmaydi. Teri quyoshda kuyib, pufakchalar, kuchli og‘riq yoki isitma bo‘lsa, tibbiy yordamga murojaat qiling.",
+     "ru": "Это не средство от ожогов и не защита от солнца. При солнечном ожоге с пузырями, сильной болью или температурой обратитесь за медицинской помощью.",
+     "ar": "هذا ليس علاجًا للحروق ولا يحمي من الشمس. وإذا سبّبت حروق الشمس بثورًا مائية أو ألمًا شديدًا أو حمّى، فاطلبي المساعدة الطبية."
+    },
+    {
+     "en": "Never apply to broken, scratched, cracked or burnt skin, or over inflamed breakouts.",
+     "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek yallig‘langan toshmalar ustiga hech qachon qo‘llamang.",
+     "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённые высыпания.",
+     "ar": "لا تضعيه أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا فوق البثور الملتهبة."
+    },
+    {
+     "en": "If you feel stinging, redness or itching, rinse it off at once with lukewarm water. If the discomfort does not settle, see a doctor.",
+     "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv bilan yuvib tashlang. Noqulaylik o‘tmasa, shifokorga murojaat qiling.",
+     "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой. Если дискомфорт не проходит, обратитесь к врачу.",
+     "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسلي بشرتكِ فورًا بماء فاتر. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+     "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+     "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo‘shmang: ular terini ta‘sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o‘xshash reaksiyalarga sabab bo‘lgani qayd etilgan.",
+     "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+     "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+     "en": "Wash your hands and use a clean bowl, spoon and towel; take gel out of its container with a clean spoon and close the lid tightly.",
+     "uz": "Qo‘llaringizni yuving, toza idish, qoshiq va sochiqdan foydalaning; gelni idishdan toza qoshiq bilan oling va qopqog‘ini mahkam yoping.",
+     "ru": "Вымойте руки, используйте чистую посуду, ложку и полотенце; набирайте гель из упаковки чистой ложкой и плотно закрывайте крышку.",
+     "ar": "اغسلي يديكِ واستخدمي وعاءً وملعقة ومنشفة نظيفة، وخذي الجل من عبوته بملعقة نظيفة وأحكمي إغلاقها."
+    },
+    {
+     "en": "Make a fresh batch each time and use it straight away; do not keep leftovers — a home mixture has no preservative.",
+     "uz": "Har safar yangi miqdorda tayyorlang va darhol ishlating; qolganini saqlamang, to‘kib tashlang — uyda tayyorlangan aralashmada konservant yo‘q.",
+     "ru": "Готовьте свежую порцию каждый раз и используйте сразу; остатки не храните, а выбрасывайте — в домашней смеси нет консервантов.",
+     "ar": "حضّري كمية جديدة في كل مرة واستخدميها فورًا، ولا تحتفظي بالبقايا؛ فالخليط المنزلي لا يحتوي على مادة حافظة."
+    },
+    {
+     "en": "Keep away from the eye area and lips; if any gets into your eyes, rinse with plenty of clean water.",
+     "uz": "Ko‘z atrofi va lablardan uzoqroq tuting; ko‘zga tushsa, ko‘p miqdordagi toza suv bilan yuving.",
+     "ru": "Не наносите на область вокруг глаз и на губы; при попадании в глаза промойте их большим количеством чистой воды.",
+     "ar": "أبعديه عن محيط العينين والشفتين، وإذا دخل شيء منه إلى عينيكِ فاغسليهما بكثير من الماء النظيف."
+    }
+   ],
+   "evidence": {
+    "en": "The small studies on the aloe vera card disagree with each other, and a systematic review found that aloe gives no protection against sunburn. The cucumber card found no human study on the skin — only laboratory work and reports of reactions. The pleasant feeling comes mainly from coolness; this mask itself has not been studied.",
+    "uz": "Aloe vera kartochkasidagi kichik tadqiqotlar natijalari bir-biriga zid, tizimli sharh esa aloe quyosh kuyishidan himoya qilmasligini topgan. Bodring kartochkasida teri bo‘yicha odamlarda o‘tkazilgan birorta tadqiqot topilmagan — faqat laboratoriya ishlari va reaksiyalar haqidagi xabarlar bor. Yoqimli his asosan salqinlikdan keladi; bu niqobning o‘zi o‘rganilmagan.",
+    "ru": "Небольшие исследования в карточке алоэ вера дают противоречивые результаты, а систематический обзор показал, что алоэ не защищает от солнечного ожога. В карточке огурца не найдено ни одного исследования на коже людей — только лабораторные работы и сообщения о реакциях. Приятное ощущение дают прежде всего прохлада; сама маска не изучалась.",
+    "ar": "تتعارض نتائج الدراسات الصغيرة في بطاقة الألوفيرا، ووجدت مراجعة منهجية أن الألوفيرا لا تحمي من حروق الشمس. ولم تعثر بطاقة الخيار على أي دراسة بشرية على الجلد، بل على أعمال مخبرية وتقارير عن تفاعلات. والإحساس اللطيف يأتي أساسًا من البرودة، ولم يُدرس هذا القناع بحدّ ذاته."
+   },
+   "ingredients": [
+    "aloe-vera",
+    "cucumber"
+   ],
+   "minutes": 25,
+   "items": [
+    {
+     "en": "2 teaspoons cosmetic aloe vera gel: Aloe Barbadensis Leaf Juice near the top of the ingredient list, with no alcohol or added fragrance",
+     "uz": "2 choy qoshiq kosmetik aloe geli: tarkib ro‘yxati boshida Aloe Barbadensis Leaf Juice, spirt va xushbo‘ylantirgichsiz",
+     "ru": "2 ч. ложки косметического геля алоэ: Aloe Barbadensis Leaf Juice в начале состава, без спирта и отдушек",
+     "ar": "ملعقتان صغيرتان من جل الألوفيرا التجميلي: يأتي Aloe Barbadensis Leaf Juice في أول قائمة المكوّنات، بلا كحول ولا عطور مضافة"
+    },
+    {
+     "en": "About 5 cm of cucumber, chilled in the fridge",
+     "uz": "Taxminan 5 sm bodring bo‘lagi, muzlatkichda sovitilgan",
+     "ru": "Кусочек огурца длиной около 5 см, охлаждённый в холодильнике",
+     "ar": "قطعة خيار بطول 5 سم تقريبًا، مبرّدة في الثلاجة"
+    },
+    {
+     "en": "A clean grater, a fine sieve or clean muslin, a bowl and a spoon",
+     "uz": "Toza qirg‘ich, mayda elak yoki toza doka, idish va qoshiq",
+     "ru": "Чистая тёрка, мелкое сито или чистая марля, миска и ложка",
+     "ar": "مبشرة نظيفة، ومصفاة ناعمة أو قطعة شاش نظيفة، ووعاء وملعقة"
+    },
+    {
+     "en": "A soft, clean towel",
+     "uz": "Yumshoq toza sochiq",
+     "ru": "Мягкое чистое полотенце",
+     "ar": "منشفة ناعمة نظيفة"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Wash the cucumber well under running water, grate it finely and press it through the sieve or muslin to collect 1 teaspoon of juice.",
+     "uz": "Bodringni oqar suvda yaxshilab yuving, mayda qirg‘ichda qirib, elak yoki doka orqali siqib, 1 choy qoshiq sharbat oling.",
+     "ru": "Тщательно вымойте огурец под проточной водой, натрите на мелкой тёрке и отожмите через сито или марлю 1 ч. ложку сока.",
+     "ar": "اغسلي الخيار جيدًا تحت الماء الجاري، وابشريه ناعمًا، ثم اعصريه عبر المصفاة أو الشاش لتحصلي على ملعقة صغيرة من العصير."
+    },
+    {
+     "en": "Stir the aloe gel and cucumber juice together in the bowl with a clean spoon.",
+     "uz": "Idishda aloe geli va bodring sharbatini toza qoshiq bilan aralashtiring.",
+     "ru": "Смешайте в миске чистой ложкой гель алоэ и огуречный сок.",
+     "ar": "امزجي جل الألوفيرا وعصير الخيار في الوعاء بملعقة نظيفة."
+    },
+    {
+     "en": "Chill the bowl in the fridge (not the freezer) for 10 minutes.",
+     "uz": "Idishni muzlatkichga (morozilnikka emas) 10 daqiqaga qo‘ying.",
+     "ru": "Поставьте миску в холодильник (не в морозилку) на 10 минут.",
+     "ar": "ضعي الوعاء في الثلاجة (لا في المجمّد) عشر دقائق."
+    },
+    {
+     "en": "Smooth a thin layer over your clean face, avoiding the eye area and lips.",
+     "uz": "Toza yuzga yupqa qatlam surting; ko‘z atrofi va lablarni chetlab o‘ting.",
+     "ru": "Нанесите тонкий слой на чистое лицо, обходя область вокруг глаз и губы.",
+     "ar": "وزّعي طبقة رقيقة على وجهكِ النظيف متجنبةً محيط العينين والشفتين."
+    },
+    {
+     "en": "Rest quietly for 10 minutes. If your skin starts to feel tight, rinse sooner.",
+     "uz": "10 daqiqa xotirjam dam oling. Teri tortisha boshlasa, oldinroq yuving.",
+     "ru": "Спокойно отдохните 10 минут. Если кожу начнёт стягивать, смойте раньше.",
+     "ar": "استرخي بهدوء عشر دقائق، وإن بدأتِ تشعرين بشدّ في بشرتكِ فاغسليه قبل ذلك."
+    },
+    {
+     "en": "Rinse with cool water, pat dry and apply your moisturiser. Throw away any leftover mixture.",
+     "uz": "Salqin suv bilan yuving, sochiq bilan bosib quriting va namlovchi krem surting. Qolgan aralashmani to‘kib tashlang.",
+     "ru": "Смойте прохладной водой, промокните полотенцем и нанесите увлажняющий крем. Остатки смеси выбросьте.",
+     "ar": "اغسلي وجهكِ بماء بارد، وجففيه بالتربيت، وضعي مرطّبكِ، ثم تخلّصي من بقية الخليط."
+    }
+   ]
+  },
+  {
    "id": "banana-honey-mask",
    "status": "draft",
    "photo": "banana",
@@ -7862,6 +8016,288 @@
    ]
   },
   {
+   "id": "green-tea-ice-cubes",
+   "status": "draft",
+   "photo": "green-tea",
+   "title": {
+    "en": "Green tea ice cubes",
+    "uz": "Yashil choyli muz kublari",
+    "ru": "Ледяные кубики из зелёного чая",
+    "ar": "مكعّبات ثلج الشاي الأخضر"
+   },
+   "intro": {
+    "en": "Tea brewed and frozen the evening before, then a minute of cool freshness in the morning with a cube wrapped in cloth. Always moving, always wrapped and always brief.",
+    "uz": "Kechqurun damlab muzlatilgan choy, ertalab esa matoga o‘ralgan kub bilan bir daqiqalik salqin tetiklik. Doim harakatda, doim o‘ralgan holda va juda qisqa.",
+    "ru": "Чай, заваренный и замороженный с вечера, а утром — минута прохладной свежести с кубиком, завёрнутым в ткань. Всегда в движении, всегда в ткани и совсем недолго.",
+    "ar": "شاي يُنقع ويُجمَّد في المساء، ثم دقيقة من الانتعاش البارد صباحًا بمكعّب ملفوف بقماش: دائمًا متحرّكًا، ودائمًا ملفوفًا، ودائمًا لوقت قصير."
+   },
+   "safety": [
+    {
+     "en": "Never put ice straight onto your skin or hold it in one spot: intense cold can injure the skin. Stop at once if your skin turns white, goes numb or hurts.",
+     "uz": "Muzni hech qachon to‘g‘ridan-to‘g‘ri teriga qo‘ymang va bir joyda ushlab turmang: haddan tashqari sovuq terini shikastlashi mumkin. Teri oqarsa, uvishsa yoki og‘risa, darhol to‘xtating.",
+     "ru": "Никогда не прикладывайте лёд прямо к коже и не держите его на одном месте: сильный холод может повредить кожу. Если кожа побелела, онемела или болит, сразу остановитесь.",
+     "ar": "لا تضعي الثلج مباشرة على بشرتكِ أبدًا ولا تثبّتيه في موضع واحد، فالبرد الشديد قد يؤذي الجلد. وتوقّفي فورًا إذا ابيضّ الجلد أو خدر أو تألّم."
+    },
+    {
+     "en": "Do not use this recipe if you have cold urticaria or Raynaud's, or if rosacea or very sensitive skin flushes in the cold.",
+     "uz": "Sovuqqa allergiya (sovuq eshakemi), Reyno sindromi bo‘lsa yoki rozatsea va juda sezgir teringiz sovuqdan qizarib ketsa, bu retseptni ishlatmang.",
+     "ru": "Не используйте этот рецепт при холодовой крапивнице, синдроме Рейно, а также если кожа с розацеа или очень чувствительная краснеет от холода.",
+     "ar": "لا تستخدمي هذه الوصفة إذا كان لديكِ شرى البرد أو متلازمة رينو، أو إذا كانت بشرتكِ المصابة بالوردية أو شديدة الحساسية تحمرّ من البرد."
+    },
+    {
+     "en": "Before the first use, apply a little cooled tea to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+     "uz": "Birinchi marta qo‘llashdan oldin ozgina sovitilgan choyni bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo‘lsa, bu retseptdan voz keching.",
+     "ru": "Перед первым применением нанесите немного остывшего чая на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+     "ar": "قبل الاستخدام الأول، ضعي قليلًا من الشاي المبرّد على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+     "en": "Do not use on the eyelids or around the eyes, and do not let meltwater run into your eyes. If it does, rinse with plenty of clean water.",
+     "uz": "Ko‘z qovoqlari va ko‘z atrofiga qo‘ymang; eriyotgan suv ko‘zga oqib tushmasin. Tushsa, ko‘p miqdordagi toza suv bilan yuving.",
+     "ru": "Не прикладывайте к векам и области вокруг глаз; следите, чтобы талая вода не стекала в глаза. Если попала — промойте большим количеством чистой воды.",
+     "ar": "لا تضعيه على الجفنين أو حول العينين، ولا تدعي الماء الذائب يسيل إلى عينيكِ، فإن حدث فاغسليهما بكثير من الماء النظيف."
+    },
+    {
+     "en": "Never apply to broken, scratched, cracked or burnt skin, or over inflamed breakouts.",
+     "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek yallig‘langan toshmalar ustiga hech qachon qo‘llamang.",
+     "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённые высыпания.",
+     "ar": "لا تضعيه أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا فوق البثور الملتهبة."
+    },
+    {
+     "en": "If you feel stinging, redness or itching, stop and rinse with lukewarm water. If the discomfort does not settle, see a doctor.",
+     "uz": "Achishish, qizarish yoki qichishish sezsangiz, to‘xtating va iliq suv bilan yuving. Noqulaylik o‘tmasa, shifokorga murojaat qiling.",
+     "ru": "Если почувствуете жжение, покраснение или зуд, остановитесь и умойтесь тёплой водой. Если дискомфорт не проходит, обратитесь к врачу.",
+     "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فتوقّفي واغسلي بشرتكِ بماء فاتر. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+     "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+     "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo‘shmang: ular terini ta‘sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o‘xshash reaksiyalarga sabab bo‘lgani qayd etilgan.",
+     "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+     "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+     "en": "Wash your hands and keep the tray covered and away from food. Use the cubes within a week, never refreeze a used one, and use a clean cloth every time.",
+     "uz": "Qo‘llaringizni yuving, qolipni yopiq va oziq-ovqatdan alohida saqlang. Kublarni bir hafta ichida ishlating, ishlatilganini qayta muzlatmang va har safar toza matodan foydalaning.",
+     "ru": "Мойте руки, храните форму закрытой и отдельно от продуктов. Используйте кубики в течение недели, использованные повторно не замораживайте и каждый раз берите чистую ткань.",
+     "ar": "اغسلي يديكِ، واحفظي القالب مغطّى وبعيدًا عن الطعام. استخدمي المكعّبات خلال أسبوع، ولا تعيدي تجميد مكعّب مستعمل، واستخدمي قماشًا نظيفًا في كل مرة."
+    }
+   ],
+   "evidence": {
+    "en": "The studies on the green tea card used standardised extracts or EGCG creams, not home-brewed tea, and animal tests showed signs of irritation and sensitisation. The strength of a home brew is unknown, and the pleasant feeling comes mainly from coolness. This method itself has not been studied, and it does not promise to shrink pores or remove puffiness.",
+    "uz": "Yashil choy kartochkasidagi tadqiqotlarda uyda damlangan choy emas, standartlashtirilgan ekstraktlar yoki EGCG kremlari ishlatilgan; hayvonlarda o‘tkazilgan sinovlarda esa ta‘sirlanish va sezuvchanlik belgilari kuzatilgan. Uydagi choyning kuchi noma‘lum; yoqimli his asosan salqinlikdan keladi. Bu usulning o‘zi o‘rganilmagan va u teshiklarni toraytirish yoki shishni yo‘qotishni va‘da qilmaydi.",
+    "ru": "В исследованиях из карточки зелёного чая использовали стандартизированные экстракты или кремы с EGCG, а не домашнюю заварку; в тестах на животных отмечались признаки раздражения и сенсибилизации. Крепость домашнего чая неизвестна; приятное ощущение дают прежде всего прохлада. Сам этот способ не изучался и не обещает сузить поры или убрать отёки.",
+    "ar": "استخدمت الدراسات في بطاقة الشاي الأخضر مستخلصات موحّدة المعايير أو كريمات EGCG، لا شايًا منزليًا، وأظهرت اختبارات على الحيوانات علامات تهيّج وتحسّس. وتركيز الشاي المنزلي غير معروف، والإحساس اللطيف يأتي أساسًا من البرودة. ولم تُدرس هذه الطريقة بحدّ ذاتها، ولا تَعِد بتضييق المسام أو إزالة الانتفاخ."
+   },
+   "ingredients": [
+    "green-tea"
+   ],
+   "minutes": 5,
+   "items": [
+    {
+     "en": "1 bag plain green tea (no added flavourings)",
+     "uz": "1 paket oddiy yashil choy (ta‘m beruvchi qo‘shimchalarsiz)",
+     "ru": "1 пакетик обычного зелёного чая (без ароматизаторов)",
+     "ar": "كيس واحد من الشاي الأخضر العادي (بلا منكّهات مضافة)"
+    },
+    {
+     "en": "200 ml freshly boiled water",
+     "uz": "200 ml yangi qaynatilgan suv",
+     "ru": "200 мл только что вскипевшей воды",
+     "ar": "200 مل من الماء المغليّ للتوّ"
+    },
+    {
+     "en": "A clean ice cube tray with a lid (kept just for this)",
+     "uz": "Qopqoqli toza muz qolipi (faqat shu maqsad uchun)",
+     "ru": "Чистая форма для льда с крышкой (только для этой цели)",
+     "ar": "قالب ثلج نظيف بغطاء (مخصّص لهذا الغرض فقط)"
+    },
+    {
+     "en": "A thin, clean cotton cloth or handkerchief",
+     "uz": "Yupqa toza paxta mato yoki ro‘molcha",
+     "ru": "Тонкая чистая хлопковая ткань или платок",
+     "ar": "قطعة قماش قطنية رقيقة نظيفة أو منديل قماشي"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Steep the tea for 3 minutes, remove the bag and let it cool completely to room temperature.",
+     "uz": "Choyni 3 daqiqa damlang, paketni oling va xona haroratigacha to‘liq soviting.",
+     "ru": "Заварите чай 3 минуты, выньте пакетик и полностью остудите до комнатной температуры.",
+     "ar": "انقعي الشاي ثلاث دقائق، ثم أخرجي الكيس واتركيه يبرد تمامًا حتى درجة حرارة الغرفة."
+    },
+    {
+     "en": "Pour into the tray, cover it, label it with the date and freeze overnight.",
+     "uz": "Qolipga quying, qopqog‘ini yoping, sanani yozib qo‘ying va bir kechaga muzlatkichning muzlatish bo‘limiga qo‘ying.",
+     "ru": "Разлейте по форме, закройте крышкой, подпишите дату и оставьте в морозилке на ночь.",
+     "ar": "اسكبيه في القالب، وأغلقيه، واكتبي عليه التاريخ، وضعيه في المجمّد طوال الليل."
+    },
+    {
+     "en": "Wash and dry your face. Wrap one cube fully in the cloth — the ice must never touch your skin directly.",
+     "uz": "Yuzingizni yuving va quriting. Bitta kubni matoga to‘liq o‘rang — muz teriga bevosita tegmasin.",
+     "ru": "Умойтесь и промокните лицо. Полностью заверните один кубик в ткань — лёд не должен касаться кожи напрямую.",
+     "ar": "اغسلي وجهكِ وجففيه، ثم لفّي مكعّبًا واحدًا بالقماش لفًّا كاملًا؛ فلا يجوز أن يلامس الثلج بشرتكِ مباشرة."
+    },
+    {
+     "en": "Glide the wrapped cube over your forehead, cheeks and chin without stopping, for no more than a minute in total on each area.",
+     "uz": "O‘ralgan kubni peshona, yonoqlar va iyak bo‘ylab to‘xtamay sirpantiring; har bir joyda jami bir daqiqadan oshmasin.",
+     "ru": "Не останавливаясь, скользите завёрнутым кубиком по лбу, щекам и подбородку — не более минуты на каждую зону в сумме.",
+     "ar": "مرّري المكعّب الملفوف على الجبين والخدّين والذقن دون توقّف، على ألّا يتجاوز المجموع دقيقة واحدة لكل منطقة."
+    },
+    {
+     "en": "Throw the used cube away and put the cloth in the wash.",
+     "uz": "Ishlatilgan kubni tashlab yuboring, matoni yuvishga qo‘ying.",
+     "ru": "Использованный кубик выбросьте, ткань отправьте в стирку.",
+     "ar": "تخلّصي من المكعّب المستعمل وضعي القماش للغسيل."
+    },
+    {
+     "en": "Pat your skin dry and apply your moisturiser.",
+     "uz": "Terini bosib quriting va namlovchi krem surting.",
+     "ru": "Промокните кожу и нанесите увлажняющий крем.",
+     "ar": "جففي بشرتكِ بالتربيت وضعي مرطّبكِ."
+    }
+   ]
+  },
+  {
+   "id": "honey-lip-softener",
+   "status": "draft",
+   "photo": "honey",
+   "title": {
+    "en": "Honey lip softener",
+    "uz": "Lablar uchun asalli yumshatish",
+    "ru": "Медовое смягчение для губ",
+    "ar": "تنعيم الشفتين بالعسل"
+   },
+   "intro": {
+    "en": "A drop of honey and a few quiet minutes — a simple, pleasant treat for dry lips. No scrub, no rubbing.",
+    "uz": "Bir tomchi asal va bir necha daqiqa sukunat — quruq lablar uchun yoqimli, oddiy parvarish. Skrabsiz, ishqalamasdan.",
+    "ru": "Капелька мёда и несколько минут тишины — простой и приятный уход для сухих губ. Без скраба и без трения.",
+    "ar": "قطرة عسل وبضع دقائق من الهدوء: عناية بسيطة لطيفة للشفتين الجافتين، بلا تقشير ولا فرك."
+   },
+   "safety": [
+    {
+     "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+     "uz": "Birinchi marta qo‘llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo‘lsa, bu retseptdan voz keching.",
+     "ru": "Перед первым применением нанесите немного мёда на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+     "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+     "en": "Do not use if you are allergic to bee products (honey, propolis, pollen). Contact allergy to propolis-enriched honey has been reported, so choose plain honey without additions.",
+     "uz": "Ari mahsulotlariga (asal, propolis, gulchang) allergiyangiz bo‘lsa, ishlatmang. Propolis qo‘shilgan asaldan kontakt allergiya kelib chiqqani haqida xabar bor, shuning uchun qo‘shimchasiz oddiy asal tanlang.",
+     "ru": "Не используйте при аллергии на продукты пчеловодства (мёд, прополис, пыльцу). Описан случай контактной аллергии на мёд с прополисом, поэтому выбирайте обычный мёд без добавок.",
+     "ar": "لا تستخدميه إذا كانت لديكِ حساسية من منتجات النحل (العسل أو البروبوليس أو حبوب اللقاح). وقد أُبلغ عن حساسية تماسية من عسل مُضاف إليه البروبوليس، لذا اختاري عسلًا عاديًا بلا إضافات."
+    },
+    {
+     "en": "If your lips swell, itch or sting, rinse the honey off at once with lukewarm water. If swelling grows or breathing becomes difficult, get urgent medical help.",
+     "uz": "Lablar shishsa, qichisa yoki achishsa, darhol iliq suv bilan yuvib tashlang. Shish kuchaysa yoki nafas olish qiyinlashsa, zudlik bilan tibbiy yordam chaqiring.",
+     "ru": "Если губы отекают, зудят или жжёт, сразу смойте мёд тёплой водой. Если отёк нарастает или становится трудно дышать, срочно обратитесь за медицинской помощью.",
+     "ar": "إذا تورّمت شفتاكِ أو حكّتاكِ أو شعرتِ بلسعة، فاغسلي العسل فورًا بماء فاتر. وإذا ازداد التورّم أو صعب التنفّس، فاطلبي مساعدة طبية عاجلة."
+    },
+    {
+     "en": "Do not use on lips with sores, bleeding cracks or a cold sore. If cracks or sores do not heal, see a doctor.",
+     "uz": "Labda yara, qonaydigan yoriq yoki uchuq (gerpes) bo‘lsa, ishlatmang. Yoriqlar yoki yaralar uzoq bitmasa, shifokorga murojaat qiling.",
+     "ru": "Не используйте, если на губах есть ранки, кровоточащие трещины или герпес. Если трещины или ранки долго не заживают, обратитесь к врачу.",
+     "ar": "لا تستخدميه على شفتين فيهما قروح أو تشقّقات تنزف أو قرحة برد (هربس). وإذا لم تلتئم التشقّقات أو القروح، فراجعي الطبيب."
+    },
+    {
+     "en": "Do not turn it into a sugar scrub, and do not add lemon juice, baking soda or essential oils: they can irritate the thin skin of the lips, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+     "uz": "Shakar qo‘shib skrab qilmang va limon sharbati, ichimlik sodasi yoki efir moylarini qo‘shmang: ular nozik lab terisini ta‘sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o‘xshash reaksiyalarga sabab bo‘lgani qayd etilgan.",
+     "ru": "Не превращайте мёд в скраб с сахаром и не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать тонкую кожу губ, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+     "ar": "لا تحوّليه إلى مقشّر بالسكر، ولا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج جلد الشفتين الرقيق، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+     "en": "Never put honey on the lips of babies under one year old: honey is not recommended at this age because of the risk of botulism.",
+     "uz": "Bir yoshgacha bo‘lgan chaqaloqlarning lablariga asal surtmang: bu yoshda asal botulizm xavfi tufayli tavsiya etilmaydi.",
+     "ru": "Не наносите мёд на губы младенцам до года: в этом возрасте мёд не рекомендуют из-за риска ботулизма.",
+     "ar": "لا تضعي العسل أبدًا على شفاه الرُّضّع دون عمر السنة، فالعسل غير موصى به في هذه السنّ بسبب خطر التسمّم الوشيقي."
+    },
+    {
+     "en": "Wash your hands, use a clean spoon and cloth, and take a fresh portion each time.",
+     "uz": "Qo‘llaringizni yuving, toza qoshiq va matodan foydalaning; har safar yangi miqdorda oling.",
+     "ru": "Вымойте руки, используйте чистую ложку и ткань; каждый раз берите свежую порцию.",
+     "ar": "اغسلي يديكِ، واستخدمي ملعقة وقماشًا نظيفين، وخذي كمية جديدة في كل مرة."
+    },
+    {
+     "en": "Keep away from your eyes; if any gets in, rinse with plenty of clean water.",
+     "uz": "Ko‘zdan uzoqroq tuting; ko‘zga tushsa, ko‘p miqdordagi toza suv bilan yuving.",
+     "ru": "Не допускайте попадания в глаза; если попало — промойте большим количеством чистой воды.",
+     "ar": "أبعديه عن عينيكِ، وإذا دخل شيء منه فاغسليهما بكثير من الماء النظيف."
+    }
+   ],
+   "evidence": {
+    "en": "In a small 4-week study on the honey card, hand creams containing honey raised skin hydration more than a honey-free cream, but this was hand skin and no barrier benefit specific to honey was shown. Honey on the lips has not been studied, and neither has this recipe.",
+    "uz": "Asal kartochkasidagi kichik, 4 haftalik tadqiqotda asalli qo‘l kremlari asalsiz kremga qaraganda teri namligini ko‘proq oshirgan, ammo bu qo‘l terisi bo‘lib, asalga xos to‘siq foydasi ko‘rsatilmagan. Lablarga surtilgan asal o‘rganilmagan, bu retseptning o‘zi ham o‘rganilmagan.",
+    "ru": "В небольшом 4-недельном исследовании из карточки мёда кремы для рук с мёдом повышали увлажнённость кожи сильнее, чем крем без мёда, но речь шла о коже рук, и специфической пользы мёда для барьера показано не было. Мёд на губах не изучался, как и сам этот рецепт.",
+    "ar": "في دراسة صغيرة مدتها أربعة أسابيع وردت في بطاقة العسل، رفعت كريمات اليدين المحتوية على العسل ترطيب البشرة أكثر من كريم خالٍ منه، لكنها أُجريت على جلد اليدين ولم تثبت فائدة خاصة بالعسل لحاجز البشرة. ولم يُدرس العسل على الشفتين، ولا هذه الوصفة بحدّ ذاتها."
+   },
+   "ingredients": [
+    "honey"
+   ],
+   "minutes": 10,
+   "items": [
+    {
+     "en": "1/4 teaspoon runny natural honey (no propolis or other additions)",
+     "uz": "Chorak choy qoshiq suyuq tabiiy asal (propolis va boshqa qo‘shimchalarsiz)",
+     "ru": "1/4 ч. ложки жидкого натурального мёда (без прополиса и других добавок)",
+     "ar": "ربع ملعقة صغيرة من العسل الطبيعي السائل (بلا بروبوليس أو إضافات أخرى)"
+    },
+    {
+     "en": "A clean spoon or small dish",
+     "uz": "Toza qoshiq yoki kichik idish",
+     "ru": "Чистая ложка или маленькая мисочка",
+     "ar": "ملعقة نظيفة أو وعاء صغير"
+    },
+    {
+     "en": "A soft, clean cloth",
+     "uz": "Yumshoq toza mato",
+     "ru": "Мягкая чистая ткань",
+     "ar": "قطعة قماش ناعمة نظيفة"
+    },
+    {
+     "en": "Your usual lip balm",
+     "uz": "Odatiy lab balzamingiz",
+     "ru": "Ваш привычный бальзам для губ",
+     "ar": "بلسم الشفاه المعتاد لديكِ"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Wash your hands. Take the honey from the jar with a clean spoon — not your finger.",
+     "uz": "Qo‘llaringizni yuving. Asalni bankadan toza qoshiq bilan oling — barmoq tiqmang.",
+     "ru": "Вымойте руки. Наберите мёд из баночки чистой ложкой — не пальцем.",
+     "ar": "اغسلي يديكِ، وخذي العسل من البرطمان بملعقة نظيفة لا بإصبعكِ."
+    },
+    {
+     "en": "With a clean fingertip, spread a thin layer over your lips.",
+     "uz": "Toza barmoq uchi bilan lablarga yupqa qatlam surting.",
+     "ru": "Чистой подушечкой пальца нанесите на губы тонкий слой.",
+     "ar": "بطرف إصبع نظيف، وزّعي طبقة رقيقة على شفتيكِ."
+    },
+    {
+     "en": "Rest for 5–10 minutes and try not to lick your lips.",
+     "uz": "5–10 daqiqa dam oling va lablaringizni yalamaslikka harakat qiling.",
+     "ru": "Отдохните 5–10 минут и постарайтесь не облизывать губы.",
+     "ar": "استرخي من خمس إلى عشر دقائق، وحاولي ألّا تلعقي شفتيكِ."
+    },
+    {
+     "en": "Gently wipe the honey away with the cloth dampened in lukewarm water — do not rub at flakes.",
+     "uz": "Iliq suvda namlangan mato bilan asalni ohista artib oling — po‘stloqlarni ishqalamang.",
+     "ru": "Мягко снимите мёд тканью, смоченной тёплой водой, — не стирайте шелушки.",
+     "ar": "امسحي العسل برفق بالقماش المبلّل بماء فاتر، دون فرك القشور."
+    },
+    {
+     "en": "Pat your lips dry and apply your usual lip balm.",
+     "uz": "Lablarni bosib quriting va odatiy lab balzamingizni surting.",
+     "ru": "Промокните губы и нанесите привычный бальзам.",
+     "ar": "جففي شفتيكِ بالتربيت، ثم ضعي بلسمكِ المعتاد."
+    },
+    {
+     "en": "Do not return any leftover honey from the spoon or dish to the jar.",
+     "uz": "Qoshiq yoki idishdagi qoldiqni bankaga qaytarmang.",
+     "ru": "Остатки с ложки или из мисочки обратно в баночку не возвращайте.",
+     "ar": "لا تعيدي بقايا العسل من الملعقة أو الوعاء إلى البرطمان."
+    }
+   ]
+  },
+  {
    "id": "honey-oat-mask",
    "status": "draft",
    "photo": "oat",
@@ -8010,6 +8446,294 @@
    ]
   },
   {
+   "id": "oat-milk-gentle-cleanse",
+   "status": "draft",
+   "photo": "oat",
+   "title": {
+    "en": "Gentle oat milk rinse",
+    "uz": "Suli suti bilan yumshoq yuvinish",
+    "ru": "Мягкое умывание овсяным молочком",
+    "ar": "غسول حليب الشوفان اللطيف"
+   },
+   "intro": {
+    "en": "Oats soaked in water give a soft, milky liquid. A calm way to rinse your face gently in the morning or after removing make-up.",
+    "uz": "Suvda ivitilgan suli sutsimon, mayin suyuqlik beradi. Ertalab yoki pardoz olib tashlangandan keyin yuzni ohista chayish uchun sokin usul.",
+    "ru": "Овёс, настоянный в воде, даёт мягкую, похожую на молоко жидкость. Спокойный способ бережно умыться утром или после снятия макияжа.",
+    "ar": "يمنح الشوفان المنقوع في الماء سائلًا ناعمًا يشبه الحليب: طريقة هادئة لشطف وجهكِ برفق صباحًا أو بعد إزالة المكياج."
+   },
+   "safety": [
+    {
+     "en": "Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+     "uz": "Birinchi marta qo‘llashdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo‘lsa, bu retseptdan voz keching.",
+     "ru": "Перед первым применением нанесите немного на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+     "ar": "قبل الاستخدام الأول، ضعي كمية صغيرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+     "en": "Do not use if you are allergic to oats. Sensitisation to oat in skin products has been reported mainly in people with atopic dermatitis — if you have it, check with your doctor first.",
+     "uz": "Sulili mahsulotlarga allergiyangiz bo‘lsa, ishlatmang. Sulili surtma vositalarga sezuvchanlik asosan atopik dermatitli odamlarda qayd etilgan — atopik dermatitingiz bo‘lsa, avval shifokor bilan maslahatlashing.",
+     "ru": "Не используйте при аллергии на овёс. Сенсибилизация к овсу в средствах для кожи описана в основном у людей с атопическим дерматитом — если он у вас есть, сначала посоветуйтесь с врачом.",
+     "ar": "لا تستخدميه إذا كانت لديكِ حساسية من الشوفان. وقد سُجّل التحسّس من الشوفان في منتجات البشرة غالبًا لدى المصابين بالتهاب الجلد التأتبي، فإن كنتِ منهم فاستشيري طبيبكِ أولًا."
+    },
+    {
+     "en": "Oat milk will not fully remove make-up or sunscreen; use it as a gentle rinse, not as a replacement for a cleanser.",
+     "uz": "Suli suti pardoz va quyoshdan himoya kremini to‘liq olib tashlamaydi; uni tozalovchi vosita o‘rnida emas, yumshoq chayish sifatida ishlating.",
+     "ru": "Овсяное молочко не смывает полностью макияж и солнцезащитный крем; используйте его как мягкое ополаскивание, а не вместо очищающего средства.",
+     "ar": "لا يزيل حليب الشوفان المكياج وواقي الشمس إزالة كاملة، فاستخدميه شطفًا لطيفًا لا بديلًا عن المنظّف."
+    },
+    {
+     "en": "Never apply to broken, scratched, cracked or burnt skin, or over inflamed breakouts.",
+     "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek yallig‘langan toshmalar ustiga hech qachon qo‘llamang.",
+     "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённые высыпания.",
+     "ar": "لا تضعيه أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا فوق البثور الملتهبة."
+    },
+    {
+     "en": "If you feel stinging, redness or itching, rinse it off at once with lukewarm water. If the discomfort does not settle, see a doctor.",
+     "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv bilan yuvib tashlang. Noqulaylik o‘tmasa, shifokorga murojaat qiling.",
+     "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой. Если дискомфорт не проходит, обратитесь к врачу.",
+     "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسلي بشرتكِ فورًا بماء فاتر. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+     "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+     "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo‘shmang: ular terini ta‘sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o‘xshash reaksiyalarga sabab bo‘lgani qayd etilgan.",
+     "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+     "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+     "en": "Wash your hands and use a clean bowl, sieve and towel.",
+     "uz": "Qo‘llaringizni yuving, toza idish, elak va sochiqdan foydalaning.",
+     "ru": "Вымойте руки, используйте чистую посуду, сито и полотенце.",
+     "ar": "اغسلي يديكِ واستخدمي وعاءً ومصفاة ومنشفة نظيفة."
+    },
+    {
+     "en": "Make a fresh batch each time and use it straight away; do not keep leftovers — oat milk spoils quickly and has no preservative.",
+     "uz": "Har safar yangi miqdorda tayyorlang va darhol ishlating; qolganini saqlamang, to‘kib tashlang — suli suti tez buziladi va unda konservant yo‘q.",
+     "ru": "Готовьте свежую порцию каждый раз и используйте сразу; остатки не храните, а выливайте — овсяное молочко быстро портится, и в нём нет консервантов.",
+     "ar": "حضّري كمية جديدة في كل مرة واستخدميها فورًا، ولا تحتفظي بالبقايا؛ فحليب الشوفان يفسد سريعًا ولا يحتوي على مادة حافظة."
+    },
+    {
+     "en": "Keep it out of your eyes; if any gets in, rinse with plenty of clean water.",
+     "uz": "Ko‘zga tushirmang; tushsa, ko‘p miqdordagi toza suv bilan yuving.",
+     "ru": "Не допускайте попадания в глаза; если попало — промойте большим количеством чистой воды.",
+     "ar": "أبعديه عن عينيكِ، وإذا دخل شيء منه فاغسليهما بكثير من الماء النظيف."
+    }
+   ],
+   "evidence": {
+    "en": "The oat card describes small studies of finished products — creams and washes containing colloidal oatmeal — in which the effect of oat could not be separated from the formulation, plus laboratory findings. Oats soaked at home are not the same as standardised colloidal oatmeal, and this rinse itself has not been studied.",
+    "uz": "Suli kartochkasidagi dalillar tayyor mahsulotlar — kolloid suli qo‘shilgan kremlar va yuvish vositalari ustidagi kichik tadqiqotlardan iborat bo‘lib, ularda sulining o‘z ta‘sirini formuladan ajratib bo‘lmagan; qolganlari laboratoriya natijalari. Uyda ivitilgan suli standartlashtirilgan kolloid suli bilan bir xil emas va bu usulning o‘zi o‘rganilmagan.",
+    "ru": "Данные в карточке овса получены в небольших исследованиях готовых средств — кремов и средств для умывания с коллоидной овсянкой, где эффект овса нельзя отделить от формулы; остальное — лабораторные результаты. Овёс, настоянный дома, не равен стандартизированной коллоидной овсянке, а сам этот способ не изучался.",
+    "ar": "تصف بطاقة الشوفان دراسات صغيرة على منتجات جاهزة، كريمات وغسولات تحتوي على الشوفان الغرواني، لم يمكن فيها فصل أثر الشوفان عن التركيبة، إلى جانب نتائج مخبرية. والشوفان المنقوع في البيت ليس كالشوفان الغرواني الموحّد المعايير، ولم يُدرس هذا الغسول بحدّ ذاته."
+   },
+   "ingredients": [
+    "oat"
+   ],
+   "minutes": 15,
+   "items": [
+    {
+     "en": "2 tablespoons plain rolled oats (no sugar or flavourings)",
+     "uz": "2 osh qoshiq oddiy suli yormasi (shakar va ta‘m beruvchi qo‘shimchalarsiz)",
+     "ru": "2 ст. ложки обычных овсяных хлопьев (без сахара и ароматизаторов)",
+     "ar": "ملعقتان كبيرتان من رقائق الشوفان العادية (بلا سكر أو منكّهات)"
+    },
+    {
+     "en": "120 ml boiled water, cooled until just warm",
+     "uz": "120 ml qaynatib, iliq holatgacha sovitilgan suv",
+     "ru": "120 мл кипячёной воды, остуженной до тёплой",
+     "ar": "120 مل من ماء مغليّ مبرّد حتى يصير دافئًا"
+    },
+    {
+     "en": "A clean bowl and a fine sieve or clean muslin",
+     "uz": "Toza idish, mayda elak yoki toza doka",
+     "ru": "Чистая миска, мелкое сито или чистая марля",
+     "ar": "وعاء نظيف ومصفاة ناعمة أو قطعة شاش نظيفة"
+    },
+    {
+     "en": "A soft, clean towel",
+     "uz": "Yumshoq toza sochiq",
+     "ru": "Мягкое чистое полотенце",
+     "ar": "منشفة ناعمة نظيفة"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Put the oats in the bowl, pour over the warm water and leave to soak for 10 minutes, stirring now and then.",
+     "uz": "Sulini idishga soling, iliq suv quying va 10 daqiqa ivitib qo‘ying, vaqti-vaqti bilan aralashtirib turing.",
+     "ru": "Насыпьте хлопья в миску, залейте тёплой водой и оставьте на 10 минут, время от времени помешивая.",
+     "ar": "ضعي الشوفان في الوعاء، واسكبي عليه الماء الدافئ، واتركيه منقوعًا عشر دقائق مع التحريك من حين لآخر."
+    },
+    {
+     "en": "Strain through the sieve or muslin into a second clean bowl, pressing the oats lightly — you will be left with a milky liquid. Discard the oats.",
+     "uz": "Elak yoki doka orqali boshqa toza idishga suzib oling, sulini yengil siqing — sutsimon suyuqlik qoladi. Sulining o‘zini tashlab yuboring.",
+     "ru": "Процедите через сито или марлю в другую чистую миску, слегка отжав хлопья, — останется молочная жидкость. Сами хлопья выбросьте.",
+     "ar": "صفّي الخليط عبر المصفاة أو الشاش في وعاء نظيف آخر مع عصر الشوفان بخفّة، فيبقى سائل حليبي، ثم تخلّصي من الشوفان."
+    },
+    {
+     "en": "Wash your hands. If you are wearing make-up or sunscreen, remove it first with your usual product.",
+     "uz": "Qo‘llaringizni yuving. Pardoz yoki quyoshdan himoya kremi bo‘lsa, avval ularni odatiy vositangiz bilan olib tashlang.",
+     "ru": "Вымойте руки. Если на лице макияж или солнцезащитный крем, сначала снимите их привычным средством.",
+     "ar": "اغسلي يديكِ. وإن كان على وجهكِ مكياج أو واقي شمس، فأزيليه أولًا بمنتجكِ المعتاد."
+    },
+    {
+     "en": "Splash the oat milk onto your face with your palms and massage gently with your fingertips for 30–60 seconds.",
+     "uz": "Kaftlar bilan suli sutini yuzga sepib, 30–60 soniya barmoq uchlari bilan yengil siling.",
+     "ru": "Ладонями наносите овсяное молочко на лицо и 30–60 секунд мягко массируйте подушечками пальцев.",
+     "ar": "انثري حليب الشوفان على وجهكِ براحتيكِ، ودلّكيه بأطراف أصابعكِ برفق مدة 30 إلى 60 ثانية."
+    },
+    {
+     "en": "Rinse with lukewarm water and pat dry with the towel.",
+     "uz": "Iliq suv bilan chaying va sochiq bilan bosib quriting.",
+     "ru": "Смойте тёплой водой и промокните лицо полотенцем.",
+     "ar": "اشطفي وجهكِ بماء فاتر وجففيه بالتربيت بالمنشفة."
+    },
+    {
+     "en": "Finish with your moisturiser and pour away the leftover oat milk.",
+     "uz": "Namlovchi krem bilan yakunlang va qolgan suli sutini to‘kib tashlang.",
+     "ru": "Завершите увлажняющим кремом, а остатки овсяного молочка вылейте.",
+     "ar": "اختمي بالمرطّب، وتخلّصي مما تبقّى من حليب الشوفان."
+    }
+   ]
+  },
+  {
+   "id": "olive-oil-hand-softening",
+   "status": "draft",
+   "photo": "olive-oil",
+   "title": {
+    "en": "Olive oil hand softening",
+    "uz": "Zaytun moyi bilan qo‘llarni yumshatish",
+    "ru": "Смягчение рук оливковым маслом",
+    "ar": "تنعيم اليدين بزيت الزيتون"
+   },
+   "intro": {
+    "en": "A teaspoon of oil, cotton gloves and ten minutes of rest — an occasional, comforting treat for dry hands. Not a daily habit, but a way to spoil yourself now and then.",
+    "uz": "Bir choy qoshiq moy, paxta qo‘lqoplar va o‘n daqiqa dam — quruq qo‘llar uchun vaqti-vaqti bilan qilinadigan iliq parvarish. Har kunlik odat emas, balki ba‘zan o‘zingizni erkalash uchun.",
+    "ru": "Чайная ложка масла, хлопковые перчатки и десять минут отдыха — тёплый уход для сухих рук время от времени. Не ежедневная привычка, а повод иногда себя побаловать.",
+    "ar": "ملعقة صغيرة من الزيت وقفّازان قطنيان وعشر دقائق من الراحة: عناية دافئة لليدين الجافتين من حين لآخر. ليست عادة يومية، بل تدليل لنفسكِ بين الحين والآخر."
+   },
+   "safety": [
+    {
+     "en": "Before the first use, apply a little to the inside of your wrist and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+     "uz": "Birinchi marta qo‘llashdan oldin ozgina miqdorini bilakning ichki tomoniga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo‘lsa, bu retseptdan voz keching.",
+     "ru": "Перед первым применением нанесите немного масла на внутреннюю сторону запястья и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+     "ar": "قبل الاستخدام الأول، ضعي قليلًا منه على باطن معصمكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+     "en": "Do this occasionally, not every day. In a small study on the olive oil card, olive oil applied to the forearm twice daily for four weeks was linked to reduced integrity of the skin's outer layer and mild redness; reviews attribute this to its oleic acid.",
+     "uz": "Buni vaqti-vaqti bilan qiling, har kuni emas. Zaytun moyi kartochkasidagi kichik tadqiqotda bilakka to‘rt hafta kuniga ikki marta surtilgan zaytun moyi terining ustki qatlami yaxlitligini pasaytirgan va yengil qizarish bilan bog‘langan; sharhlar buni oleyn kislotasi bilan bog‘laydi.",
+     "ru": "Делайте это время от времени, а не каждый день. В небольшом исследовании из карточки оливкового масла нанесение на предплечье дважды в день в течение четырёх недель было связано со снижением целостности рогового слоя и лёгким покраснением; обзоры связывают это с олеиновой кислотой.",
+     "ar": "افعلي ذلك من حين لآخر لا كل يوم. ففي دراسة صغيرة في بطاقة زيت الزيتون، ارتبط وضع الزيت على الساعد مرتين يوميًا أربعة أسابيع بانخفاض سلامة الطبقة الخارجية للجلد واحمرار خفيف، وتعزو المراجعات ذلك إلى حمض الأوليك."
+    },
+    {
+     "en": "If you have hand eczema or atopic dermatitis, do not use this recipe and plan your hand care with a doctor. Do not use olive oil on babies' skin: paediatric guidance prefers other oils.",
+     "uz": "Qo‘lda ekzema yoki atopik dermatit bo‘lsa, bu retseptni ishlatmang va qo‘l parvarishini shifokor bilan kelishing. Chaqaloqlar terisiga zaytun moyini surtmang: pediatriya tavsiyalari boshqa moylarni afzal ko‘radi.",
+     "ru": "При экземе на руках или атопическом дерматите не используйте этот рецепт и согласуйте уход за руками с врачом. Не наносите оливковое масло на кожу младенцев: педиатрические рекомендации отдают предпочтение другим маслам.",
+     "ar": "إذا كانت لديكِ إكزيما في اليدين أو التهاب الجلد التأتبي، فلا تستخدمي هذه الوصفة، ونسّقي العناية بيديكِ مع الطبيب. ولا تضعي زيت الزيتون على بشرة الرُّضّع، فإرشادات طب الأطفال تفضّل زيوتًا أخرى."
+    },
+    {
+     "en": "Never apply to broken, scratched, cracked or burnt skin, or to inflamed skin around the nails.",
+     "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek tirnoq atrofidagi yallig‘langan joylarga hech qachon qo‘llamang.",
+     "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённую кожу вокруг ногтей.",
+     "ar": "لا تضعيه أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا على الجلد الملتهب حول الأظافر."
+    },
+    {
+     "en": "If you feel stinging, redness or itching, wash it off at once with lukewarm water and mild soap. If the discomfort does not settle, see a doctor.",
+     "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv va yumshoq sovun bilan yuvib tashlang. Noqulaylik o‘tmasa, shifokorga murojaat qiling.",
+     "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой с мягким мылом. Если дискомфорт не проходит, обратитесь к врачу.",
+     "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسليه فورًا بماء فاتر وصابون لطيف. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+     "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+     "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo‘shmang: ular terini ta‘sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o‘xshash reaksiyalarga sabab bo‘lgani qayd etilgan.",
+     "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+     "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+     "en": "Wash your hands and use a clean dish and towel. Do not use oil that smells rancid; take a fresh portion each time and never pour leftovers back into the bottle.",
+     "uz": "Qo‘llaringizni yuving, toza idish va sochiqdan foydalaning. Achigan, yoqimsiz hidli moyni ishlatmang; har safar yangi miqdorda oling va qoldig‘ini shishaga qaytarmang.",
+     "ru": "Вымойте руки, используйте чистую посуду и полотенце. Не используйте прогорклое масло с неприятным запахом; каждый раз берите свежую порцию и не сливайте остатки обратно в бутылку.",
+     "ar": "اغسلي يديكِ واستخدمي وعاءً ومنشفة نظيفين. ولا تستخدمي زيتًا ذا رائحة زنخة، وخذي كمية جديدة في كل مرة، ولا تعيدي البقايا إلى الزجاجة."
+    },
+    {
+     "en": "Do not rub your eyes with oily hands; if any gets into your eyes, rinse with plenty of clean water. Oily hands are slippery — take care with dishes and your phone.",
+     "uz": "Moyli qo‘llar bilan ko‘zingizni ishqalamang; ko‘zga tushsa, ko‘p miqdordagi toza suv bilan yuving. Moyli qo‘llar sirpanchiq bo‘ladi — idish va telefonni ehtiyotkorlik bilan ushlang.",
+     "ru": "Не трите глаза руками в масле; при попадании в глаза промойте их большим количеством чистой воды. Руки в масле скользкие — осторожно берите посуду и телефон.",
+     "ar": "لا تفركي عينيكِ بيدين عليهما زيت، وإذا دخل شيء منه إلى عينيكِ فاغسليهما بكثير من الماء النظيف. واليدان الزيتيتان زلقتان، فانتبهي للأواني والهاتف."
+    }
+   ],
+   "evidence": {
+    "en": "The studies on the olive oil card are small and were mostly done on forearm skin: in one, olive oil raised hydration but did not reduce water loss; in another, it reduced barrier integrity. Use on the hands has not been studied separately, and neither has this recipe.",
+    "uz": "Zaytun moyi kartochkasidagi tadqiqotlar kichik va asosan bilak terisida o‘tkazilgan: birida zaytun moyi namlikni oshirgan, lekin suv bug‘lanishini kamaytirmagan, boshqasida esa to‘siq yaxlitligini pasaytirgan. Qo‘lga surtish alohida o‘rganilmagan, bu retseptning o‘zi ham o‘rganilmagan.",
+    "ru": "Исследования в карточке оливкового масла небольшие и проводились в основном на коже предплечья: в одном масло повышало увлажнённость, но не снижало потерю влаги, в другом — ослабляло целостность барьера. Нанесение на руки отдельно не изучалось, как и сам этот рецепт.",
+    "ar": "الدراسات في بطاقة زيت الزيتون صغيرة وأُجريت غالبًا على جلد الساعد: ففي إحداها رفع الزيت الترطيب لكنه لم يقلّل فقدان الماء، وفي أخرى خفّض سلامة الحاجز. ولم يُدرس استخدامه على اليدين بشكل مستقل، ولا هذه الوصفة بحدّ ذاتها."
+   },
+   "ingredients": [
+    "olive-oil"
+   ],
+   "minutes": 15,
+   "items": [
+    {
+     "en": "1 teaspoon plain olive oil (not infused with spices, garlic or herbs)",
+     "uz": "1 choy qoshiq oddiy zaytun moyi (ziravor, sarimsoq yoki o‘tlar qo‘shilmagan)",
+     "ru": "1 ч. ложка обычного оливкового масла (без специй, чеснока и трав)",
+     "ar": "ملعقة صغيرة من زيت الزيتون العادي (غير منكّه بالتوابل أو الثوم أو الأعشاب)"
+    },
+    {
+     "en": "A small, clean dish",
+     "uz": "Kichik toza idish",
+     "ru": "Небольшая чистая мисочка",
+     "ar": "وعاء صغير نظيف"
+    },
+    {
+     "en": "A pair of clean cotton gloves (optional)",
+     "uz": "Bir juft toza paxta qo‘lqop (ixtiyoriy)",
+     "ru": "Пара чистых хлопковых перчаток (по желанию)",
+     "ar": "زوج من القفّازات القطنية النظيفة (اختياري)"
+    },
+    {
+     "en": "A soft towel or paper towel",
+     "uz": "Yumshoq sochiq yoki qog‘oz salfetka",
+     "ru": "Мягкое полотенце или бумажная салфетка",
+     "ar": "منشفة ناعمة أو منديل ورقي"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Wash your hands with lukewarm water and mild soap, then pat them so they stay slightly damp.",
+     "uz": "Qo‘llaringizni iliq suv va yumshoq sovun bilan yuving, sochiq bilan bosib, biroz nam qoldiring.",
+     "ru": "Вымойте руки тёплой водой с мягким мылом и промокните полотенцем, оставив их чуть влажными.",
+     "ar": "اغسلي يديكِ بماء فاتر وصابون لطيف، ثم ربّتي عليهما بالمنشفة مع إبقائهما رطبتين قليلًا."
+    },
+    {
+     "en": "Pour the oil into the dish rather than dipping your fingers into the bottle. Do not heat it on the stove; warming it between your palms is enough.",
+     "uz": "Moyni idishga quying — shishaga barmoq tiqmang. Plitada qizitmang; kaftlarda ishqalab isitish yetarli.",
+     "ru": "Налейте масло в мисочку — не макайте пальцы в бутылку. Не нагревайте его на плите: достаточно согреть, растерев в ладонях.",
+     "ar": "اسكبي الزيت في الوعاء بدل غمس أصابعكِ في الزجاجة، ولا تسخّنيه على الموقد؛ يكفي تدفئته بفركه بين راحتيكِ."
+    },
+    {
+     "en": "Slowly massage the oil into the backs of your hands, knuckles, fingers and around your nails for 2–3 minutes.",
+     "uz": "Moyni qo‘lning orqa tomoni, bo‘g‘imlar, barmoqlar va tirnoq atrofiga 2–3 daqiqa sekin surting.",
+     "ru": "2–3 минуты медленно втирайте масло в тыльную сторону кистей, костяшки, пальцы и кожу вокруг ногтей.",
+     "ar": "دلّكي الزيت ببطء على ظاهر اليدين والمفاصل والأصابع وحول الأظافر مدة دقيقتين إلى ثلاث."
+    },
+    {
+     "en": "If you like, slip on the cotton gloves and rest for 10 minutes.",
+     "uz": "Xohlasangiz, paxta qo‘lqop kiyib, 10 daqiqa dam oling.",
+     "ru": "По желанию наденьте хлопковые перчатки и отдохните 10 минут.",
+     "ar": "إن شئتِ، البسي القفّازين القطنيين واسترخي عشر دقائق."
+    },
+    {
+     "en": "Take off the gloves and blot away any excess oil with the towel.",
+     "uz": "Qo‘lqoplarni yeching va ortiqcha moyni salfetka bilan bosib oling.",
+     "ru": "Снимите перчатки и промокните излишки масла салфеткой.",
+     "ar": "انزعي القفّازين وانشفي الزيت الزائد بالمنديل."
+    },
+    {
+     "en": "Pour away what is left in the dish and wash the gloves.",
+     "uz": "Idishdagi qoldiqni to‘kib tashlang, qo‘lqoplarni yuving.",
+     "ru": "Остатки масла из мисочки вылейте, перчатки постирайте.",
+     "ar": "تخلّصي مما تبقّى في الوعاء واغسلي القفّازين."
+    }
+   ]
+  },
+  {
    "id": "rose-water-toning",
    "status": "draft",
    "photo": "rose-water",
@@ -8125,9 +8849,480 @@
      "ar": "أغلقي الزجاجة بإحكام واحفظيها في مكان بارد ومظلم كما هو مدوّن على الملصق."
     }
    ]
+  },
+  {
+   "id": "rosehip-oil-night-drops",
+   "status": "draft",
+   "photo": "rosehip-oil",
+   "title": {
+    "en": "Rosehip oil night drops",
+    "uz": "Na‘matak moyining kechki tomchilari",
+    "ru": "Вечерние капли масла шиповника",
+    "ar": "قطرات زيت ثمر الورد الليلية"
+   },
+   "intro": {
+    "en": "Nothing to mix: two or three drops of a ready-made cosmetic oil and a warm, one-minute pause in your evening routine. Less is more.",
+    "uz": "Hech narsa aralashtirilmaydi: tayyor kosmetik moyning ikki-uch tomchisi va kechki parvarishga bir daqiqalik iliq to‘xtam. Kam — ko‘proq.",
+    "ru": "Ничего не нужно смешивать: две-три капли готового косметического масла и минутная тёплая пауза в вечернем уходе. Меньше — значит лучше.",
+    "ar": "لا شيء يُمزج: قطرتان أو ثلاث من زيت تجميلي جاهز، ووقفة دافئة لدقيقة في روتينكِ المسائي. فالقليل هنا أفضل."
+   },
+   "safety": [
+    {
+     "en": "Before the first use, apply a drop to the inside of your wrist or behind your ear and wait 24 hours. If redness, itching or swelling appears, skip this recipe.",
+     "uz": "Birinchi marta qo‘llashdan oldin bir tomchisini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Qizarish, qichishish yoki shish paydo bo‘lsa, bu retseptdan voz keching.",
+     "ru": "Перед первым применением нанесите каплю масла на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились покраснение, зуд или отёк, откажитесь от этого рецепта.",
+     "ar": "قبل الاستخدام الأول، ضعي قطرة على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. إذا ظهر احمرار أو حكة أو تورّم، فاستغني عن هذه الوصفة."
+    },
+    {
+     "en": "Allergic contact dermatitis from rosehip oil has been reported. Do not use if you are allergic to rosehip or plants of the rose family.",
+     "uz": "Na‘matak moyidan allergik kontakt dermatit kelib chiqqani haqida xabar bor. Na‘matak yoki atirgul oilasi o‘simliklariga allergiyangiz bo‘lsa, ishlatmang.",
+     "ru": "Описан случай аллергического контактного дерматита на масло шиповника. Не используйте при аллергии на шиповник или растения семейства розовых.",
+     "ar": "أُبلغ عن حالة التهاب جلد تماسي تحسّسي من زيت ثمر الورد. لا تستخدميه إذا كانت لديكِ حساسية من ثمر الورد أو نباتات الفصيلة الوردية."
+    },
+    {
+     "en": "Never apply to broken, scratched, cracked or burnt skin, or over inflamed breakouts. A review on the card found the evidence insufficient to recommend rosehip oil for wounds.",
+     "uz": "Yara, tirnalgan, yorilgan yoki kuygan teriga, shuningdek yallig‘langan toshmalar ustiga hech qachon qo‘llamang. Kartochkadagi sharhga ko‘ra, dalillar na‘matak moyini yaralar uchun tavsiya qilishga yetarli emas.",
+     "ru": "Никогда не наносите на ранки, царапины, трещины, ожоги и воспалённые высыпания. По обзору из карточки, данных недостаточно, чтобы рекомендовать масло шиповника для ран.",
+     "ar": "لا تضعيه أبدًا على جلد مجروح أو مخدوش أو متشقق أو محروق، ولا فوق البثور الملتهبة. فقد وجدت مراجعة في البطاقة أن الأدلة غير كافية للتوصية بزيت ثمر الورد للجروح."
+    },
+    {
+     "en": "If new breakouts appear or your skin feels too greasy after using the oil, stop using it.",
+     "uz": "Moyni ishlatgandan keyin yangi toshmalar paydo bo‘lsa yoki teri yog‘lanib ketsa, foydalanishni to‘xtating.",
+     "ru": "Если после масла появились новые высыпания или кожа стала слишком жирной, прекратите его использовать.",
+     "ar": "إذا ظهرت حبوب جديدة أو صارت بشرتكِ دهنية أكثر من اللازم بعد استخدام الزيت، فتوقّفي عنه."
+    },
+    {
+     "en": "If you feel stinging, redness or itching, wash it off at once with lukewarm water and a gentle cleanser. If the discomfort does not settle, see a doctor.",
+     "uz": "Achishish, qizarish yoki qichishish sezsangiz, darhol iliq suv va yumshoq vosita bilan yuvib tashlang. Noqulaylik o‘tmasa, shifokorga murojaat qiling.",
+     "ru": "Если почувствуете жжение, покраснение или зуд, сразу смойте тёплой водой с мягким средством. Если дискомфорт не проходит, обратитесь к врачу.",
+     "ar": "إذا شعرتِ بلسعة أو احمرار أو حكة، فاغسليه فورًا بماء فاتر ومنظّف لطيف. وإذا لم يزل الانزعاج، فاستشيري الطبيب."
+    },
+    {
+     "en": "Do not add lemon juice, baking soda or essential oils: they can irritate the skin, and lemon juice followed by sunlight has been linked in case reports to burn-like reactions.",
+     "uz": "Limon sharbati, ichimlik sodasi yoki efir moylarini qo‘shmang: ular terini ta‘sirlantirishi mumkin, limon sharbati esa quyosh nuri bilan birga kuyishga o‘xshash reaksiyalarga sabab bo‘lgani qayd etilgan.",
+     "ru": "Не добавляйте лимонный сок, пищевую соду или эфирные масла: они могут раздражать кожу, а лимонный сок в сочетании с солнцем, по описанным случаям, вызывал реакции, похожие на ожог.",
+     "ar": "لا تضيفي عصير الليمون أو بيكربونات الصوديوم أو الزيوت العطرية: فقد تهيّج البشرة، وقد رُبط عصير الليمون مع التعرّض للشمس في تقارير حالات بتفاعلات تشبه الحروق."
+    },
+    {
+     "en": "Wash your hands, keep the dropper from touching skin or fingers and close the bottle tightly. In the laboratory, rosehip oil oxidised under UV light, so store it away from sunlight and watch the expiry date.",
+     "uz": "Qo‘llaringizni yuving, tomizgichni teri va barmoqlarga tekkizmang, shishani mahkam yoping. Laboratoriyada na‘matak moyi UV nuri ta‘sirida oksidlangan, shuning uchun uni quyoshdan uzoqda saqlang va yaroqlilik muddatiga e‘tibor bering.",
+     "ru": "Мойте руки, не касайтесь пипеткой кожи и пальцев, плотно закрывайте флакон. В лаборатории масло шиповника окислялось под действием УФ, поэтому храните его вдали от солнца и следите за сроком годности.",
+     "ar": "اغسلي يديكِ، ولا تدعي القطّارة تلمس البشرة أو الأصابع، وأحكمي إغلاق الزجاجة. وقد تأكسد زيت ثمر الورد في المختبر تحت الأشعة فوق البنفسجية، فاحفظيه بعيدًا عن الشمس وانتبهي لتاريخ الصلاحية."
+    },
+    {
+     "en": "Keep away from the eye area; if any gets into your eyes, rinse with plenty of clean water.",
+     "uz": "Ko‘z atrofidan uzoqroq tuting; ko‘zga tushsa, ko‘p miqdordagi toza suv bilan yuving.",
+     "ru": "Не наносите на область вокруг глаз; при попадании в глаза промойте их большим количеством чистой воды.",
+     "ar": "أبعديه عن محيط العينين، وإذا دخل شيء منه إلى عينيكِ فاغسليهما بكثير من الماء النظيف."
+    }
+   ],
+   "evidence": {
+    "en": "The evidence on the rosehip oil card is limited: a review of scar studies judged it insufficient, a randomised trial of a multi-ingredient cream found no change in the overall rate of stretch marks, and in a small measurement study of eight volunteers the oil was only a comparator. No suitable studies on photoaging were found. This method itself has not been studied, and it does not promise to remove wrinkles, dark spots or scars.",
+    "uz": "Na‘matak moyi kartochkasidagi dalillar cheklangan: chandiqlar bo‘yicha sharh dalillarni yetarli emas deb topgan, ko‘p komponentli kremning tasodifiy tadqiqotida cho‘zilish izlari umumiy chastotasi o‘zgarmagan, sakkiz ko‘ngilli ishtirok etgan kichik o‘lchovda esa moy faqat taqqoslash vositasi bo‘lgan. Fotoqarish bo‘yicha mos tadqiqot topilmagan. Bu usulning o‘zi o‘rganilmagan va u ajinlar, dog‘lar yoki chandiqlarni yo‘qotishni va‘da qilmaydi.",
+    "ru": "Данные в карточке масла шиповника ограничены: обзор по рубцам счёл доказательства недостаточными, в рандомизированном исследовании многокомпонентного крема общая частота растяжек не изменилась, а в небольшом измерении на восьми добровольцах масло было лишь веществом для сравнения. Подходящих исследований по фотостарению не найдено. Сам этот способ не изучался и не обещает избавить от морщин, пятен или рубцов.",
+    "ar": "الأدلة في بطاقة زيت ثمر الورد محدودة: فقد عدّت مراجعة لدراسات الندبات الأدلةَ غير كافية، ولم تجد تجربة عشوائية لكريم متعدد المكوّنات تغيّرًا في المعدّل العام لعلامات التمدّد، وفي دراسة قياس صغيرة على ثماني متطوّعات ومتطوّعين كان الزيت مادة مقارنة فقط. ولم يُعثر على دراسات مناسبة عن الشيخوخة الضوئية. ولم تُدرس هذه الطريقة بحدّ ذاتها، ولا تَعِد بإزالة التجاعيد أو البقع الداكنة أو الندبات."
+   },
+   "ingredients": [
+    "rosehip-oil"
+   ],
+   "minutes": 3,
+   "items": [
+    {
+     "en": "Cosmetic rosehip oil (INCI: Rosa Canina Fruit Oil) in a dark bottle with a dropper",
+     "uz": "Kosmetik na‘matak moyi (INCI: Rosa Canina Fruit Oil), qorong‘i shishada, tomizgich bilan",
+     "ru": "Косметическое масло шиповника (INCI: Rosa Canina Fruit Oil) в тёмном флаконе с пипеткой",
+     "ar": "زيت ثمر الورد التجميلي (INCI: Rosa Canina Fruit Oil) في زجاجة داكنة بقطّارة"
+    },
+    {
+     "en": "2–3 drops per use",
+     "uz": "Har safar 2–3 tomchi",
+     "ru": "2–3 капли на одно применение",
+     "ar": "قطرتان إلى ثلاث في كل استخدام"
+    },
+    {
+     "en": "Clean hands",
+     "uz": "Toza qo‘llar",
+     "ru": "Чистые руки",
+     "ar": "يدان نظيفتان"
+    }
+   ],
+   "steps": [
+    {
+     "en": "In the evening, wash your face with a gentle cleanser and pat it dry.",
+     "uz": "Kechqurun yuzingizni yumshoq vosita bilan yuving va bosib quriting.",
+     "ru": "Вечером умойтесь мягким средством и промокните лицо.",
+     "ar": "في المساء، اغسلي وجهكِ بمنظّف لطيف وجففيه بالتربيت."
+    },
+    {
+     "en": "Check the smell and colour of the oil: if it smells rancid, do not use it.",
+     "uz": "Moyning hidi va rangini tekshiring: achigan hid kelsa, ishlatmang.",
+     "ru": "Проверьте запах и цвет масла: если оно пахнет прогорклым, не используйте его.",
+     "ar": "تحقّقي من رائحة الزيت ولونه، فإن كانت رائحته زنخة فلا تستخدميه."
+    },
+    {
+     "en": "Drip 2–3 drops onto your fingertips without letting the dropper touch your skin.",
+     "uz": "2–3 tomchini barmoq uchlariga tomizing; tomizgich teriga tegmasin.",
+     "ru": "Нанесите 2–3 капли на подушечки пальцев так, чтобы пипетка не касалась кожи.",
+     "ar": "قطّري قطرتين أو ثلاثًا على أطراف أصابعكِ دون أن تلمس القطّارة بشرتكِ."
+    },
+    {
+     "en": "Warm it between your fingers and press it lightly onto your cheeks, forehead and chin, avoiding the eye area.",
+     "uz": "Barmoqlar orasida isitib, yonoqlar, peshona va iyakka yengil bosib surting; ko‘z atrofini chetlab o‘ting.",
+     "ru": "Согрейте масло между пальцами и мягкими прижатиями нанесите на щёки, лоб и подбородок, обходя область вокруг глаз.",
+     "ar": "دفّئيه بين أصابعكِ واضغطيه بخفّة على الخدّين والجبين والذقن، متجنبةً محيط العينين."
+    },
+    {
+     "en": "If you prefer, mix a single drop into your night cream instead of applying it on its own.",
+     "uz": "Xohlasangiz, moyni alohida emas, bir tomchisini kechki kremingizga aralashtirib surting.",
+     "ru": "При желании вместо отдельного нанесения добавьте одну каплю в вечерний крем.",
+     "ar": "وإن شئتِ، امزجي قطرة واحدة مع كريمكِ الليلي بدل وضع الزيت وحده."
+    },
+    {
+     "en": "Give it a few minutes to sink in before lying down. Close the bottle tightly and store it somewhere cool and dark.",
+     "uz": "Yotishdan oldin bir necha daqiqa so‘rilishini kuting. Shishani mahkam yopib, salqin va qorong‘i joyda saqlang.",
+     "ru": "Перед сном подождите несколько минут, пока масло впитается. Плотно закройте флакон и храните в прохладном тёмном месте.",
+     "ar": "امنحيه بضع دقائق ليتشرّب قبل أن تستلقي، ثم أحكمي إغلاق الزجاجة واحفظيها في مكان بارد مظلم."
+    }
+   ]
   }
  ],
  "rituals": [
+  {
+   "id": "before-sleep-wind-down",
+   "status": "draft",
+   "photo": "deco_lavender",
+   "title": {
+    "en": "Before-sleep wind-down",
+    "uz": "Uyqu oldidan sokinlik",
+    "ru": "Спокойствие перед сном",
+    "ar": "سكينة ما قبل النوم"
+   },
+   "intro": {
+    "en": "Dim the lights and put your phone aside. Five minutes to care for your skin and gently close the day with slow breathing.",
+    "uz": "Chiroqni xira qiling, telefonni chetga qo‘ying. Besh daqiqa — terini parvarish qilish va sekin nafas bilan kunni ohista yopish uchun.",
+    "ru": "Приглушите свет, отложите телефон. Пять минут, чтобы позаботиться о коже и мягко закрыть день медленным дыханием.",
+    "ar": "خفّفي الإضاءة وضعي هاتفكِ جانبًا. خمس دقائق للعناية ببشرتكِ ولإغلاق يومكِ برفق مع تنفّس بطيء."
+   },
+   "safety": [
+    {
+     "en": "Keep the breathing easy and comfortable. If you feel dizzy, short of breath or more anxious, return to normal breathing. If you have a heart or lung condition, do not hold your breath and adjust the counts to suit you.",
+     "uz": "Nafas mashqi yengil va qulay bo‘lsin. Bosh aylansa, havo yetishmasa yoki xavotir kuchaysa, odatiy nafasga qayting. Yurak yoki o‘pka kasalligingiz bo‘lsa, nafasni ushlab turmang va sanoqni o‘zingizga moslang.",
+     "ru": "Дыхательная практика должна быть лёгкой и комфортной. Если кружится голова, не хватает воздуха или усиливается тревога, вернитесь к обычному дыханию. При заболеваниях сердца или лёгких не задерживайте дыхание и подстройте счёт под себя.",
+     "ar": "ليكن تمرين التنفّس سهلًا ومريحًا. وإذا شعرتِ بدوخة أو ضيق نفس أو ازدياد في القلق، فعودي إلى تنفّسكِ العادي. وإن كانت لديكِ حالة في القلب أو الرئتين، فلا تحبسي نفسكِ وعدّلي العدّ بما يناسبكِ."
+    },
+    {
+     "en": "If sleeplessness lasts, or you have daytime exhaustion, strong anxiety or low mood, see a doctor — this ritual does not replace treatment.",
+     "uz": "Uyqusizlik uzoq davom etsa, kunduzgi holsizlik, kuchli xavotir yoki tushkunlik bo‘lsa, shifokorga murojaat qiling — bu marosim davolash o‘rnini bosmaydi.",
+     "ru": "При длительной бессоннице, дневной разбитости, сильной тревоге или подавленности обратитесь к врачу — этот ритуал не заменяет лечения.",
+     "ar": "إذا طال الأرق، أو صاحبه إرهاق نهاري أو قلق شديد أو مزاج منخفض، فراجعي الطبيب؛ فهذا الطقس لا يغني عن العلاج."
+    },
+    {
+     "en": "Do not rub over active breakouts, inflammation, rashes or cuts. Do not press on the front of your neck.",
+     "uz": "Faol husnbuzar, yallig‘lanish, toshma yoki yara bo‘lgan joylarni ishqalamang. Bo‘yinning old qismini bosmang.",
+     "ru": "Не трите участки с активными высыпаниями, воспалением, сыпью или ранками. Не давите на переднюю часть шеи.",
+     "ar": "لا تفركي المناطق التي فيها حبوب نشطة أو التهاب أو طفح أو جروح، ولا تضغطي على مقدّمة الرقبة."
+    },
+    {
+     "en": "Use a cleanser and cream your skin already tolerates well, and keep them out of your eyes.",
+     "uz": "Teringiz yaxshi ko‘taradigan, avval sinab ko‘rilgan krem va yuvish vositasidan foydalaning; ko‘zga tushirmang.",
+     "ru": "Используйте крем и умывающее средство, которые ваша кожа уже хорошо переносит; не допускайте попадания в глаза.",
+     "ar": "استخدمي منظّفًا وكريمًا اعتادتهما بشرتكِ وتتحمّلهما جيدًا، وأبعديهما عن عينيكِ."
+    },
+    {
+     "en": "Wash your hands, use a clean towel and change your pillowcase regularly.",
+     "uz": "Qo‘llaringizni yuving va toza sochiqdan foydalaning; yostiq jildini muntazam almashtiring.",
+     "ru": "Мойте руки и пользуйтесь чистым полотенцем; регулярно меняйте наволочку.",
+     "ar": "اغسلي يديكِ، واستخدمي منشفة نظيفة، وغيّري غطاء الوسادة بانتظام."
+    }
+   ],
+   "evidence": {
+    "en": "One small study on the facial massage card linked a gentle smoothing-and-press gesture with lower stress and greater comfort in the short term, but it measured no skin outcomes. There is no separate card on breathing practices in the app yet, and this ritual itself has not been studied. It does not promise to cure sleeplessness or rejuvenate your skin — it is a way to end the day calmly.",
+    "uz": "Yuz massaji kartochkasidagi bitta kichik tadqiqotda yumshoq silash va bosish qisqa muddatli xotirjamlik va qulaylik hissi bilan bog‘langan, ammo unda teri o‘lchanmagan. Nafas mashqlari bo‘yicha ilovada alohida kartochka hozircha yo‘q, bu marosimning o‘zi ham o‘rganilmagan. U uyqusizlikni davolash yoki terini yoshartirishni va‘da qilmaydi — bu kunni sokin yakunlash uchun.",
+    "ru": "В одном небольшом исследовании из карточки массажа лица мягкое поглаживание с надавливанием было связано с кратковременным снижением стресса и ощущением комфорта, но состояние кожи там не измеряли. Отдельной карточки о дыхательных практиках в приложении пока нет, и сам ритуал не изучался. Он не обещает излечить бессонницу или омолодить кожу — это способ спокойно завершить день.",
+    "ar": "ربطت دراسة صغيرة واحدة في بطاقة تدليك الوجه المسح مع الضغط اللطيف بانخفاض التوتر وزيادة الشعور بالراحة على المدى القصير، لكنها لم تقِس أي أثر على البشرة. ولا توجد بعدُ في التطبيق بطاقة مستقلة عن تمارين التنفّس، ولم يُدرس هذا الطقس بحدّ ذاته. لا يَعِد بعلاج الأرق أو بتجديد شباب البشرة، بل هو طريقة لإنهاء يومكِ بهدوء."
+   },
+   "steps": [
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Set the scene",
+      "uz": "Sokin muhit",
+      "ru": "Тихая обстановка",
+      "ar": "تهيئة الأجواء"
+     },
+     "text": {
+      "en": "Dim the lights, switch your phone to silent and put it out of reach.",
+      "uz": "Chiroqni xira qiling, telefonni ovozsiz rejimga o‘tkazib, qo‘l yetmaydigan joyga qo‘ying.",
+      "ru": "Приглушите свет, включите на телефоне беззвучный режим и уберите его подальше.",
+      "ar": "خفّفي الإضاءة، واجعلي هاتفكِ صامتًا، وضعيه بعيدًا عن متناول يدكِ."
+     }
+    },
+    {
+     "seconds": 60,
+     "title": {
+      "en": "Cleanse",
+      "uz": "Tozalash",
+      "ru": "Очищение",
+      "ar": "التنظيف"
+     },
+     "text": {
+      "en": "Wash your face with lukewarm water and a gentle cleanser, then pat dry with a clean towel. If you wear make-up, remove it first.",
+      "uz": "Yuzingizni iliq suv va yumshoq vosita bilan yuving, toza sochiq bilan bosib quriting. Pardoz bo‘lsa, avval uni olib tashlang.",
+      "ru": "Умойтесь тёплой водой с мягким средством и промокните лицо чистым полотенцем. Если на лице макияж, сначала снимите его.",
+      "ar": "اغسلي وجهكِ بماء فاتر ومنظّف لطيف، وجففيه بالتربيت بمنشفة نظيفة. وإن كان عليكِ مكياج، فأزيليه أولًا."
+     }
+    },
+    {
+     "seconds": 45,
+     "title": {
+      "en": "Moisturise",
+      "uz": "Namlash",
+      "ru": "Увлажнение",
+      "ar": "الترطيب"
+     },
+     "text": {
+      "en": "Warm your night cream between your palms and press it slowly onto your face — forehead, cheeks, chin.",
+      "uz": "Kechki kremingizni kaftlarda isiting va yuzga sekin bosib-bosib surting — peshona, yonoqlar, iyak.",
+      "ru": "Согрейте вечерний крем в ладонях и медленными прижатиями нанесите на лицо — лоб, щёки, подбородок.",
+      "ar": "دفّئي كريمكِ الليلي بين راحتيكِ، واضغطيه ببطء على وجهكِ: الجبين، فالخدّين، فالذقن."
+     }
+    },
+    {
+     "seconds": 60,
+     "title": {
+      "en": "Palms and breath",
+      "uz": "Kaftlar va nafas",
+      "ru": "Ладони и дыхание",
+      "ar": "الراحتان والنَّفَس"
+     },
+     "text": {
+      "en": "Rest your palms lightly over your face. Breathe in through your nose for a count of four and out slowly for six. Repeat five or six times if it feels comfortable.",
+      "uz": "Kaftlarni yuzga yengil qo‘ying. To‘rtgacha sanab burun orqali nafas oling, oltigacha sanab sekin chiqaring. Qulay bo‘lsa, besh-olti marta takrorlang.",
+      "ru": "Мягко приложите ладони к лицу. Вдохните носом на четыре счёта и медленно выдохните на шесть. Если комфортно, повторите пять-шесть раз.",
+      "ar": "ضعي راحتيكِ برفق على وجهكِ. تنفّسي من أنفكِ وأنتِ تعدّين إلى أربعة، وازفري ببطء حتى ستة، وكرّري ذلك خمس أو ست مرات إن كان مريحًا."
+     }
+    },
+    {
+     "seconds": 40,
+     "title": {
+      "en": "Shoulders and neck",
+      "uz": "Yelka va bo‘yin",
+      "ru": "Плечи и шея",
+      "ar": "الكتفان والرقبة"
+     },
+     "text": {
+      "en": "Lift your shoulders towards your ears, then let them drop. With your palms, stroke lightly down the sides of your neck from below your ears to your collarbones.",
+      "uz": "Yelkalarni quloqqa tomon ko‘tarib, so‘ng erkin tushiring. Kaftlar bilan bo‘yinning yon tomonlarini quloq ostidan o‘mrov tomon yengil pastga silang.",
+      "ru": "Поднимите плечи к ушам и свободно опустите. Ладонями легко поглаживайте боковые стороны шеи вниз — от области под ушами к ключицам.",
+      "ar": "ارفعي كتفيكِ نحو أذنيكِ ثم أسقطيهما بارتخاء، وامسحي بباطن كفّيكِ بخفّة على جانبي الرقبة من أسفل الأذنين نحو الترقوتين."
+     }
+    },
+    {
+     "seconds": 60,
+     "title": {
+      "en": "Belly breathing",
+      "uz": "Qorin bilan nafas",
+      "ru": "Дыхание животом",
+      "ar": "التنفّس من البطن"
+     },
+     "text": {
+      "en": "Place one palm on your chest and the other on your belly. Feel your belly rise as you breathe in and fall as you breathe out, while your chest stays almost still.",
+      "uz": "Bir kaftni ko‘krakka, ikkinchisini qoringa qo‘ying. Nafas olganda qorin ko‘tarilib, chiqarganda pasayishini his qiling; ko‘krak deyarli harakatsiz qolsin.",
+      "ru": "Положите одну ладонь на грудь, другую — на живот. Почувствуйте, как на вдохе живот поднимается, а на выдохе опускается; грудь почти неподвижна.",
+      "ar": "ضعي راحة على صدركِ والأخرى على بطنكِ، واستشعري ارتفاع البطن مع الشهيق وانخفاضه مع الزفير، بينما يبقى الصدر شبه ساكن."
+     }
+    },
+    {
+     "seconds": 15,
+     "title": {
+      "en": "Close",
+      "uz": "Yakun",
+      "ru": "Завершение",
+      "ar": "الختام"
+     },
+     "text": {
+      "en": "Let your breathing return to normal, turn off the light and lie down.",
+      "uz": "Nafasingizni odatiy holiga qaytaring, chiroqni o‘chiring va to‘shakka yoting.",
+      "ru": "Вернитесь к обычному дыханию, выключите свет и ложитесь.",
+      "ar": "دعي تنفّسكِ يعود إلى طبيعته، وأطفئي الضوء، واستلقي في فراشكِ."
+     }
+    }
+   ]
+  },
+  {
+   "id": "double-cleanse-evening",
+   "status": "draft",
+   "photo": "deco_rose",
+   "title": {
+    "en": "Evening double cleanse",
+    "uz": "Kechki ikki bosqichli tozalash",
+    "ru": "Вечернее двойное очищение",
+    "ar": "التنظيف المزدوج المسائي"
+   },
+   "intro": {
+    "en": "First an oil or balm melts away make-up and sunscreen, then a gentle cleanser washes the skin. Four minutes to softly rinse the day from your face.",
+    "uz": "Avval moy yoki balzam pardoz va quyoshdan himoya kremini eritadi, so‘ng yumshoq vosita terini yuvadi. To‘rt daqiqa — kunni yuzingizdan ohista olib tashlash uchun.",
+    "ru": "Сначала масло или бальзам растворяют макияж и солнцезащитный крем, затем мягкое средство умывает кожу. Четыре минуты, чтобы бережно смыть с лица прошедший день.",
+    "ar": "يذيب الزيت أو البلسم أولًا المكياج وواقي الشمس، ثم يغسل منظّف لطيف البشرة. أربع دقائق لتزيلي النهار عن وجهكِ برفق."
+   },
+   "safety": [
+    {
+     "en": "For the first step, choose a ready-made cleansing oil or balm designed to rinse off. Kitchen oils do not rinse away well; the olive oil card found no study of olive oil as a cleansing oil, and possible barrier-weakening effects of its oleic acid are discussed.",
+     "uz": "Birinchi bosqich uchun yuvilish uchun mo‘ljallangan tayyor gidrofil moy yoki balzam tanlang. Oshxona moylari suv bilan yaxshi yuvilmaydi; zaytun moyi kartochkasida uni yuvish moyi sifatida o‘rgangan tadqiqot topilmagan va oleyn kislotasi bilan bog‘liq to‘siq zaiflashuvi ehtimoli muhokama qilinadi.",
+     "ru": "Для первого этапа выбирайте готовое гидрофильное масло или бальзам, рассчитанные на смывание. Кухонные масла плохо смываются водой; в карточке оливкового масла не найдено исследований его применения как очищающего масла, а возможное ослабление барьера из-за олеиновой кислоты обсуждается.",
+     "ar": "اختاري للخطوة الأولى زيت تنظيف أو بلسمًا جاهزًا مصمّمًا للشطف. فزيوت المطبخ لا تُشطف جيدًا بالماء، ولم تجد بطاقة زيت الزيتون أي دراسة عنه كزيت تنظيف، ويُناقَش احتمال إضعاف حمض الأوليك لحاجز البشرة."
+    },
+    {
+     "en": "Double cleansing is not needed every night. On days without make-up or sunscreen, or if your skin feels dry and tight, one gentle cleanse is enough.",
+     "uz": "Ikki bosqichli tozalash har kuni shart emas. Pardoz yoki quyoshdan himoya kremi surtmagan kunlari, yoki teri quruq va tortishib qolsa, bitta yumshoq yuvish yetarli.",
+     "ru": "Двойное очищение не обязательно каждый день. В дни без макияжа и солнцезащитного крема или если кожа сухая и стянутая, достаточно одного мягкого умывания.",
+     "ar": "التنظيف المزدوج ليس ضروريًا كل ليلة. ففي الأيام التي لا تضعين فيها مكياجًا أو واقي شمس، أو إذا شعرتِ بجفاف البشرة وشدّها، يكفي تنظيف لطيف واحد."
+    },
+    {
+     "en": "Do not scrub hard, add scrubs or brushes, or use hot water: these can dry out and irritate the skin.",
+     "uz": "Qattiq ishqalamang, skrab yoki cho‘tka qo‘shmang va issiq suvdan foydalanmang: bular terini quritishi va ta‘sirlantirishi mumkin.",
+     "ru": "Не трите сильно, не добавляйте скрабы и щёточки и не умывайтесь горячей водой: это может пересушить и раздражить кожу.",
+     "ar": "لا تفركي بقوة، ولا تضيفي مقشّرًا أو فرشاة، ولا تستخدمي ماءً ساخنًا؛ فكلّ ذلك قد يجفّف البشرة ويهيّجها."
+    },
+    {
+     "en": "Keep products out of your eyes; if any gets in, rinse with plenty of clean water. For waterproof eye make-up, use a separate gentle remover.",
+     "uz": "Vositalarni ko‘zdan uzoq tuting; ko‘zga tushsa, ko‘p miqdordagi toza suv bilan yuving. Suvga chidamli ko‘z pardozi uchun alohida yumshoq vositadan foydalaning.",
+     "ru": "Не допускайте попадания средств в глаза; если попали — промойте большим количеством чистой воды. Для водостойкого макияжа глаз используйте отдельное мягкое средство.",
+     "ar": "أبعدي المنتجات عن عينيكِ، وإذا دخل شيء منها فاغسليهما بكثير من الماء النظيف. واستخدمي مزيلًا لطيفًا منفصلًا لمكياج العينين المقاوم للماء."
+    },
+    {
+     "en": "Before using a new product for the first time, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If stinging, redness, itching or new breakouts appear, stop using it.",
+     "uz": "Yangi vositani birinchi marta ishlatishdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Achishish, qizarish, qichishish yoki yangi toshmalar paydo bo‘lsa, undan voz keching.",
+     "ru": "Перед первым применением нового средства нанесите немного на внутреннюю сторону запястья или за ухо и подождите 24 часа. Если появились жжение, покраснение, зуд или новые высыпания, откажитесь от него.",
+     "ar": "قبل استخدام منتج جديد لأول مرة، ضعي قليلًا منه على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة. وإذا ظهرت لسعة أو احمرار أو حكة أو حبوب جديدة، فتوقّفي عن استخدامه."
+    },
+    {
+     "en": "Do not massage over cuts, burns or inflamed breakouts. If you use treatments prescribed by a doctor, check your cleansing routine with them.",
+     "uz": "Yara, kuyish yoki yallig‘langan toshmalar ustini ishqalamang. Shifokor buyurgan davolash vositalaridan foydalansangiz, tozalash tartibini u bilan kelishing.",
+     "ru": "Не массируйте поверх ранок, ожогов и воспалённых высыпаний. Если вы пользуетесь назначенными врачом средствами, согласуйте с ним порядок очищения.",
+     "ar": "لا تدلّكي فوق الجروح أو الحروق أو البثور الملتهبة. وإذا كنتِ تستخدمين علاجات وصفها الطبيب، فاتّفقي معه على روتين التنظيف."
+    },
+    {
+     "en": "Wash your hands and use a clean towel each evening.",
+     "uz": "Qo‘llaringizni yuving va har kecha toza sochiqdan foydalaning.",
+     "ru": "Мойте руки и пользуйтесь каждый вечер чистым полотенцем.",
+     "ar": "اغسلي يديكِ واستخدمي منشفة نظيفة كل مساء."
+    }
+   ],
+   "evidence": {
+    "en": "There is no separate evidence card on double cleansing in the app yet, and this ritual itself has not been studied. It is a practical way to remove oil-based make-up and sunscreen. The olive oil card found no study of olive oil used as a cleansing oil. This ritual does not promise 'deep pore cleansing' or a 'detox'.",
+    "uz": "Ikki bosqichli tozalash bo‘yicha ilovada alohida dalil kartochkasi hozircha yo‘q, bu marosimning o‘zi ham o‘rganilmagan. Bu — moyga asoslangan pardoz va quyoshdan himoya kremini olib tashlashning amaliy usuli. Zaytun moyi kartochkasida zaytun moyini yuvish moyi sifatida o‘rgangan tadqiqot topilmagan. Marosim «teshiklarni chuqur tozalash» yoki «detoks»ni va‘da qilmaydi.",
+    "ru": "Отдельной карточки доказательств о двойном очищении в приложении пока нет, и сам ритуал не изучался. Это практичный способ смыть макияж и солнцезащитный крем на масляной основе. В карточке оливкового масла не найдено исследований его применения как очищающего масла. Ритуал не обещает «глубокого очищения пор» или «детокса».",
+    "ar": "لا توجد بعدُ في التطبيق بطاقة أدلة مستقلة عن التنظيف المزدوج، ولم يُدرس هذا الطقس بحدّ ذاته. إنه طريقة عملية لإزالة المكياج وواقي الشمس ذوَي القوام الزيتي. ولم تجد بطاقة زيت الزيتون أي دراسة عن استخدامه زيتًا للتنظيف. لا يَعِد هذا الطقس بـ«تنظيف عميق للمسام» أو «تخليص البشرة من السموم»."
+   },
+   "steps": [
+    {
+     "seconds": 20,
+     "title": {
+      "en": "Prepare",
+      "uz": "Tayyorgarlik",
+      "ru": "Подготовка",
+      "ar": "التحضير"
+     },
+     "text": {
+      "en": "Tie back your hair, wash and dry your hands, and remove contact lenses. The first step is done with dry hands on a dry face.",
+      "uz": "Sochingizni yig‘ing, qo‘llaringizni yuving va quriting, kontakt linzalarni yeching. Birinchi bosqich quruq yuz va quruq qo‘llar bilan qilinadi.",
+      "ru": "Уберите волосы, вымойте и вытрите руки, снимите контактные линзы. Первый этап делается сухими руками по сухому лицу.",
+      "ar": "اجمعي شعركِ، واغسلي يديكِ وجففيهما، وانزعي العدسات اللاصقة. تتمّ الخطوة الأولى بيدين جافتين على وجه جاف."
+     }
+    },
+    {
+     "seconds": 60,
+     "title": {
+      "en": "Oil or balm",
+      "uz": "Moy yoki balzam",
+      "ru": "Масло или бальзам",
+      "ar": "الزيت أو البلسم"
+     },
+     "text": {
+      "en": "Take one or two pumps of cleansing oil, or a hazelnut-sized scoop of balm, and massage it over your dry face in slow circles. Around the eyes, stroke softly — no rubbing.",
+      "uz": "Kaftga bir-ikki dozator gidrofil moy yoki o‘rmon yong‘og‘idek balzam oling va quruq yuzga sekin aylanma harakatlar bilan surting. Ko‘z atrofida faqat yumshoq siling, ishqalamang.",
+      "ru": "Возьмите на ладонь одно-два нажатия гидрофильного масла или бальзам размером с фундук и медленными кругами распределите по сухому лицу. Вокруг глаз — только мягкие касания, без трения.",
+      "ar": "خذي ضغطة أو ضغطتين من زيت التنظيف أو مقدار حبّة بندق من البلسم، ودلّكي به وجهكِ الجاف بدوائر بطيئة، ومرّري يدكِ حول العينين بنعومة دون فرك."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Emulsify",
+      "uz": "Emulsiya",
+      "ru": "Эмульгирование",
+      "ar": "الاستحلاب"
+     },
+     "text": {
+      "en": "Wet your fingertips with lukewarm water and massage again: the oil turns milky and white — that is what lets it rinse away easily.",
+      "uz": "Barmoqlarni iliq suv bilan namlab, yana yuzni siling: moy sutsimon bo‘lib oqara boshlaydi — shunda u oson yuviladi.",
+      "ru": "Смочите пальцы тёплой водой и снова помассируйте лицо: масло побелеет и станет похожим на молочко — так оно легко смоется.",
+      "ar": "بلّلي أطراف أصابعكِ بماء فاتر ودلّكي وجهكِ مجددًا، فيتحوّل الزيت إلى سائل حليبي أبيض يسهل شطفه."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Rinse",
+      "uz": "Chayish",
+      "ru": "Смывание",
+      "ar": "الشطف"
+     },
+     "text": {
+      "en": "Rinse well with lukewarm (not hot) water, including your hairline and under your jaw.",
+      "uz": "Iliq (issiq emas) suv bilan yaxshilab chaying; soch chizig‘i va jag‘ ostini unutmang.",
+      "ru": "Тщательно смойте тёплой (не горячей) водой, не забывая про линию роста волос и область под подбородком.",
+      "ar": "اشطفي جيدًا بماء فاتر لا ساخن، ولا تنسي منبت الشعر وأسفل الفكّ."
+     }
+    },
+    {
+     "seconds": 45,
+     "title": {
+      "en": "Gentle cleanser",
+      "uz": "Yumshoq yuvish vositasi",
+      "ru": "Мягкое умывание",
+      "ar": "المنظّف اللطيف"
+     },
+     "text": {
+      "en": "Massage a pea-sized amount of gentle cleanser over your damp face with your fingertips for about 30 seconds.",
+      "uz": "Nam yuzga no‘xatdek yumshoq yuvish vositasini surting va barmoq uchlari bilan taxminan 30 soniya siling.",
+      "ru": "Нанесите на влажное лицо мягкое умывающее средство размером с горошину и около 30 секунд массируйте подушечками пальцев.",
+      "ar": "دلّكي وجهكِ الرطب بمقدار حبّة بازلاء من منظّف لطيف بأطراف أصابعكِ نحو 30 ثانية."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Rinse again",
+      "uz": "Yana chayish",
+      "ru": "Снова смойте",
+      "ar": "الشطف مجددًا"
+     },
+     "text": {
+      "en": "Rinse thoroughly with lukewarm water and pat dry with a clean, soft towel, without rubbing.",
+      "uz": "Iliq suv bilan yaxshilab chaying, toza yumshoq sochiq bilan bosib quriting, ishqalamang.",
+      "ru": "Тщательно смойте тёплой водой и промокните лицо чистым мягким полотенцем, не растирая.",
+      "ar": "اشطفي جيدًا بماء فاتر، ثم جففي وجهكِ بالتربيت بمنشفة نظيفة ناعمة دون فرك."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Moisturise",
+      "uz": "Namlash",
+      "ru": "Увлажнение",
+      "ar": "الترطيب"
+     },
+     "text": {
+      "en": "While your skin is still slightly damp, apply your usual evening care and moisturiser.",
+      "uz": "Teri hali biroz nam ekan, odatiy kechki parvarishingiz va namlovchi kremingizni surting.",
+      "ru": "Пока кожа ещё слегка влажная, нанесите привычный вечерний уход и увлажняющий крем.",
+      "ar": "وبشرتكِ ما زالت رطبة قليلًا، ضعي عنايتكِ المسائية المعتادة ومرطّبكِ."
+     }
+    }
+   ]
+  },
   {
    "id": "evening-gua-sha",
    "status": "draft",
@@ -8714,6 +9909,174 @@
    ]
   },
   {
+   "id": "hand-and-cuticle-care",
+   "status": "draft",
+   "photo": "deco_peony",
+   "title": {
+    "en": "Hand and cuticle care",
+    "uz": "Qo‘l va tirnoq atrofi parvarishi",
+    "ru": "Уход за руками и кутикулой",
+    "ar": "العناية باليدين والجلد حول الأظافر"
+   },
+   "intro": {
+    "en": "Our hands meet water, soap and cold all day long. Four minutes of warm care is a way to thank them and to give yourself a moment.",
+    "uz": "Qo‘llarimiz kun bo‘yi suv, sovun va sovuq bilan ishlaydi. To‘rt daqiqalik iliq parvarish — ularga minnatdorlik bildirish va o‘zingizga bir lahza ajratish usuli.",
+    "ru": "Наши руки весь день встречаются с водой, мылом и холодом. Четыре минуты тёплой заботы — способ поблагодарить их и подарить себе минутку.",
+    "ar": "تلقى يداكِ الماء والصابون والبرد طوال اليوم. أربع دقائق من العناية الدافئة طريقة لشكرهما ولمنح نفسكِ لحظة."
+   },
+   "safety": [
+    {
+     "en": "Do not cut or tear your cuticles: they help protect the base of the nail from infection. If the skin around a nail becomes red, swollen, painful or has pus, see a doctor.",
+     "uz": "Kutikulani kesmang va yulmang: u tirnoq ildizini infeksiyadan himoya qiladi. Tirnoq atrofi qizarsa, shishsa, og‘risa yoki yiring bo‘lsa, shifokorga murojaat qiling.",
+     "ru": "Не срезайте и не обрывайте кутикулу: она защищает основание ногтя от инфекции. Если кожа вокруг ногтя покраснела, отекла, болит или появился гной, обратитесь к врачу.",
+     "ar": "لا تقصّي الجليدة ولا تنزعيها، فهي تحمي قاعدة الظفر من العدوى. وإذا احمرّ الجلد حول الظفر أو تورّم أو تألّم أو ظهر فيه صديد، فراجعي الطبيب."
+    },
+    {
+     "en": "If you have hand eczema, bleeding cracks, strong itching or dryness that does not settle, see a doctor; home care does not replace treatment.",
+     "uz": "Qo‘lda ekzema, qonaydigan yoriqlar, kuchli qichishish yoki uzoq o‘tmaydigan quruqlik bo‘lsa, shifokorga ko‘rining; uyda parvarish davolash o‘rnini bosmaydi.",
+     "ru": "При экземе на руках, кровоточащих трещинах, сильном зуде или стойкой сухости покажитесь врачу; домашний уход не заменяет лечения.",
+     "ar": "إذا كان لديكِ إكزيما في اليدين، أو تشقّقات تنزف، أو حكة شديدة، أو جفاف لا يزول، فراجعي الطبيب؛ فالعناية المنزلية لا تغني عن العلاج."
+    },
+    {
+     "en": "Before using a new cream or oil for the first time, apply a little to the inside of your wrist and wait 24 hours. If it stings, reddens or itches, do not use it.",
+     "uz": "Yangi krem yoki moyni birinchi marta ishlatishdan oldin ozgina miqdorini bilakning ichki tomoniga surtib, 24 soat kuting. Achishish, qizarish yoki qichishish bo‘lsa, undan voz keching.",
+     "ru": "Перед первым применением нового крема или масла нанесите немного на внутреннюю сторону запястья и подождите 24 часа. При жжении, покраснении или зуде откажитесь от него.",
+     "ar": "قبل استخدام كريم أو زيت جديد لأول مرة، ضعي قليلًا منه على باطن معصمكِ وانتظري 24 ساعة، وإذا سبّب لسعة أو احمرارًا أو حكة فلا تستخدميه."
+    },
+    {
+     "en": "Do not apply oil or cream to cuts, scratches, cracks or inflamed skin around the nails.",
+     "uz": "Yara, tirnalgan yoki yorilgan teriga, shuningdek tirnoq atrofidagi yallig‘langan joylarga moy va krem surtmang.",
+     "ru": "Не наносите масло и крем на ранки, царапины, трещины и воспалённую кожу вокруг ногтей.",
+     "ar": "لا تضعي الزيت أو الكريم على الجروح أو الخدوش أو التشقّقات أو الجلد الملتهب حول الأظافر."
+    },
+    {
+     "en": "Do not rub your eyes with oily or creamy hands, and take care handling dishes while your hands are slippery.",
+     "uz": "Moy yoki krem tegan qo‘llar bilan ko‘zingizni ishqalamang. Sirpanchiq qo‘llar bilan idishlarni ehtiyotkorlik bilan ushlang.",
+     "ru": "Не трите глаза руками, на которых масло или крем. Осторожно берите посуду скользкими руками.",
+     "ar": "لا تفركي عينيكِ بيدين عليهما زيت أو كريم، وانتبهي عند الإمساك بالأواني ويداكِ زلقتان."
+    },
+    {
+     "en": "Wearing gloves for washing up and cleaning protects your hands from water and detergents.",
+     "uz": "Idish yuvish va tozalash ishlarida qo‘lqop kiyish qo‘llarni suv va yuvish vositalaridan himoya qiladi.",
+     "ru": "Перчатки при мытье посуды и уборке защищают руки от воды и моющих средств.",
+     "ar": "يحمي ارتداء القفّازات عند غسل الأواني والتنظيف يديكِ من الماء والمنظّفات."
+    }
+   ],
+   "evidence": {
+    "en": "There is no separate card on hand care in the app yet, and this ritual itself has not been studied. In a small 4-week study on the honey card, even the honey-free placebo hand cream raised skin hydration by about 11% — so the main work is regular moisturising. This ritual does not promise stronger or faster-growing nails.",
+    "uz": "Qo‘l parvarishi bo‘yicha ilovada alohida kartochka hozircha yo‘q, bu marosimning o‘zi ham o‘rganilmagan. Asal kartochkasidagi kichik, 4 haftalik tadqiqotda hatto asalsiz platsebo qo‘l kremi ham teri namligini taxminan 11% ga oshirgan — demak, asosiy ish muntazam namlashda. Marosim tirnoqlarni mustahkamlash yoki o‘stirishni va‘da qilmaydi.",
+    "ru": "Отдельной карточки об уходе за руками в приложении пока нет, и сам ритуал не изучался. В небольшом 4-недельном исследовании из карточки мёда даже крем для рук без мёда (плацебо) повышал увлажнённость кожи примерно на 11% — то есть главное здесь регулярное увлажнение. Ритуал не обещает укрепления или роста ногтей.",
+    "ar": "لا توجد بعدُ في التطبيق بطاقة مستقلة عن العناية باليدين، ولم يُدرس هذا الطقس بحدّ ذاته. وفي دراسة صغيرة مدتها أربعة أسابيع وردت في بطاقة العسل، رفع حتى كريم اليدين الخالي من العسل (الدواء الوهمي) ترطيب البشرة بنحو 11%، أي أن الأساس هو الترطيب المنتظم. لا يَعِد هذا الطقس بتقوية الأظافر أو تسريع نموّها."
+   },
+   "steps": [
+    {
+     "seconds": 40,
+     "title": {
+      "en": "Wash",
+      "uz": "Yuvish",
+      "ru": "Мытьё",
+      "ar": "الغسل"
+     },
+     "text": {
+      "en": "Wash your hands with lukewarm (not hot) water and mild soap, including between your fingers.",
+      "uz": "Qo‘llaringizni iliq (issiq emas) suv va yumshoq sovun bilan yuving, barmoqlar orasini ham unutmang.",
+      "ru": "Вымойте руки тёплой (не горячей) водой с мягким мылом, не забывая промежутки между пальцами.",
+      "ar": "اغسلي يديكِ بماء فاتر لا ساخن وصابون لطيف، ولا تنسي ما بين الأصابع."
+     }
+    },
+    {
+     "seconds": 20,
+     "title": {
+      "en": "Pat dry",
+      "uz": "Quritish",
+      "ru": "Промокните",
+      "ar": "التجفيف"
+     },
+     "text": {
+      "en": "Pat dry with a clean towel, including between your fingers and around your nails.",
+      "uz": "Toza sochiq bilan bosib quriting; barmoqlar orasi va tirnoq atrofi ham quruq bo‘lsin.",
+      "ru": "Промокните руки чистым полотенцем, включая промежутки между пальцами и кожу вокруг ногтей.",
+      "ar": "جففي يديكِ بالتربيت بمنشفة نظيفة، بما في ذلك ما بين الأصابع وحول الأظافر."
+     }
+    },
+    {
+     "seconds": 45,
+     "title": {
+      "en": "Hand cream",
+      "uz": "Qo‘l kremi",
+      "ru": "Крем для рук",
+      "ar": "كريم اليدين"
+     },
+     "text": {
+      "en": "Warm a pea-sized amount of hand cream between your palms and smooth it first over the palms, then the backs of your hands and wrists.",
+      "uz": "No‘xatdek qo‘l kremini kaftlarda isiting, avval kaftlarga, so‘ng qo‘lning orqa tomoni va bilaklarga surting.",
+      "ru": "Согрейте в ладонях крем для рук размером с горошину и нанесите сначала на ладони, затем на тыльную сторону кистей и запястья.",
+      "ar": "دفّئي مقدار حبّة بازلاء من كريم اليدين بين راحتيكِ، ثم وزّعيه على باطن الكفّين أولًا، فظاهر اليدين والمعصمين."
+     }
+    },
+    {
+     "seconds": 60,
+     "title": {
+      "en": "Fingers",
+      "uz": "Barmoqlar",
+      "ru": "Пальцы",
+      "ar": "الأصابع"
+     },
+     "text": {
+      "en": "Slowly stroke each finger from base to tip between the thumb and index finger of your other hand, as if pulling on a glove.",
+      "uz": "Har bir barmoqni asosidan uchigacha boshqa qo‘lning bosh va ko‘rsatkich barmoqlari bilan sekin silab chiqing, go‘yo qo‘lqop kiygizayotgandek.",
+      "ru": "Медленно проведите большим и указательным пальцами другой руки по каждому пальцу от основания к кончику, словно надеваете перчатку.",
+      "ar": "امسحي ببطء كل إصبع من قاعدته إلى طرفه بين إبهام اليد الأخرى وسبّابتها، كأنكِ تلبسين قفّازًا."
+     }
+    },
+    {
+     "seconds": 45,
+     "title": {
+      "en": "Cuticles",
+      "uz": "Tirnoq atrofi",
+      "ru": "Кутикула",
+      "ar": "حول الأظافر"
+     },
+     "text": {
+      "en": "Dab a little cream or a drop of cosmetic oil onto the skin around each nail and work it in with small circles of your thumb.",
+      "uz": "Har bir tirnoq atrofidagi teriga ozgina krem yoki bir tomchi kosmetik moy surting va bosh barmoq bilan kichik aylanma harakatlar bilan siling.",
+      "ru": "Нанесите на кожу вокруг каждого ногтя немного крема или каплю косметического масла и вотрите маленькими круговыми движениями большого пальца.",
+      "ar": "ضعي قليلًا من الكريم أو قطرة من زيت تجميلي على الجلد حول كل ظفر، ودلّكيه بدوائر صغيرة بإبهامكِ."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Gently ease back",
+      "uz": "Yumshoq itarish",
+      "ru": "Мягко отодвиньте",
+      "ar": "الدفع اللطيف"
+     },
+     "text": {
+      "en": "If you like, ease the softened cuticles back very lightly with the corner of a towel. Do not cut, tear or force them.",
+      "uz": "Xohlasangiz, yumshagan kutikulani sochiq uchi bilan juda yengil orqaga itaring. Kesmang, yulmang va kuch ishlatmang.",
+      "ru": "При желании очень легко отодвиньте размягчённую кутикулу краешком полотенца. Не срезайте, не обрывайте и не прилагайте усилий.",
+      "ar": "إن شئتِ، ادفعي الجليدة الطرية إلى الخلف بخفّة شديدة بطرف المنشفة، دون قصّها أو نزعها أو الضغط بقوة."
+     }
+    },
+    {
+     "seconds": 20,
+     "title": {
+      "en": "Close",
+      "uz": "Yakun",
+      "ru": "Завершение",
+      "ar": "الختام"
+     },
+     "text": {
+      "en": "Spread your fingers wide, then slowly curl them into a soft fist — three times. Take one deep breath.",
+      "uz": "Barmoqlarni keng yoyib, so‘ng sekin musht qiling — uch marta. Bir marta chuqur nafas oling.",
+      "ru": "Широко раскройте пальцы, затем медленно сожмите кулак — три раза. Сделайте глубокий вдох.",
+      "ar": "افردي أصابعكِ على اتساعها ثم اقبضيها ببطء قبضة لينة، ثلاث مرات، وخذي نفسًا عميقًا."
+     }
+    }
+   ]
+  },
+  {
    "id": "jawline-and-jaw-release",
    "status": "draft",
    "photo": "deco_peony",
@@ -8898,6 +10261,174 @@
       "uz": "Qo‘llaringizni tushiring, lablar yopiq, tishlar ajralgan holda bir marta chuqur nafas oling. Kun davomida jag‘ingizni shu holatda eslab turing.",
       "ru": "Опустите руки и сделайте глубокий вдох: губы сомкнуты, зубы разомкнуты. Вспоминайте об этом положении челюсти в течение дня.",
       "ar": "أنزلي يديكِ وخذي نفسًا عميقًا والشفتان مطبقتان والأسنان متباعدة، وعودي إلى هذه الوضعية كلما تذكّرتِ خلال اليوم."
+     }
+    }
+   ]
+  },
+  {
+   "id": "lip-care-ritual",
+   "status": "draft",
+   "photo": "deco_rose",
+   "title": {
+    "en": "Gentle lip care",
+    "uz": "Lablar uchun nozik parvarish",
+    "ru": "Бережный уход за губами",
+    "ar": "عناية لطيفة بالشفتين"
+   },
+   "intro": {
+    "en": "The skin of the lips is thin and dries out quickly. Three minutes of warmth, balm and light touch — no scrubs, no hurry.",
+    "uz": "Lablarning terisi yupqa va tez quriydi. Uch daqiqalik iliqlik, balzam va yengil teginish — skrabsiz, shoshilmasdan.",
+    "ru": "Кожа губ тонкая и быстро пересыхает. Три минуты тепла, бальзама и лёгких касаний — без скрабов и без спешки.",
+    "ar": "جلد الشفتين رقيق ويجفّ سريعًا. ثلاث دقائق من الدفء والبلسم واللمس الخفيف، بلا مقشّرات ولا استعجال."
+   },
+   "safety": [
+    {
+     "en": "Do not scrub your lips, bite off flakes or lick them: as saliva dries, it leaves lips even drier.",
+     "uz": "Lablarni skrablamang, po‘stloqlarni tishlamang va yalamang: so‘lak quriganda lablar yanada quruqlashadi.",
+     "ru": "Не скрабируйте губы, не скусывайте шелушки и не облизывайте губы: высыхая, слюна сушит их ещё больше.",
+     "ar": "لا تقشّري شفتيكِ ولا تقضمي القشور ولا تلعقيهما؛ فاللعاب حين يجفّ يزيدهما جفافًا."
+    },
+    {
+     "en": "If you have a cold sore, do not touch it, wash your hands afterwards, do not share your balm, and ask a pharmacist or doctor for advice.",
+     "uz": "Labda uchuq (gerpes) bo‘lsa, unga tegmang, keyin qo‘llaringizni yuving, balzamni boshqalar bilan bo‘lishmang va farmatsevt yoki shifokor bilan maslahatlashing.",
+     "ru": "При герпесе на губах не трогайте его, мойте руки после касания, не делитесь бальзамом и посоветуйтесь с фармацевтом или врачом.",
+     "ar": "إذا ظهرت لديكِ قرحة برد (هربس) على الشفة، فلا تلمسيها، واغسلي يديكِ بعد أي لمس، ولا تشاركي البلسم مع أحد، واستشيري الصيدلي أو الطبيب."
+    },
+    {
+     "en": "If cracks at the corners of your mouth will not heal, or you notice a sore that does not heal, a lump or a change in colour on your lip, see a doctor.",
+     "uz": "Lab burchaklaridagi yoriqlar uzoq o‘tmasa, labda bitmaydigan yara, tuguncha yoki rang o‘zgarishi bo‘lsa, shifokorga murojaat qiling.",
+     "ru": "Если трещины в уголках рта долго не заживают или на губе появилась незаживающая ранка, уплотнение либо изменился цвет, обратитесь к врачу.",
+     "ar": "إذا لم تلتئم التشقّقات عند زاويتي الفم، أو لاحظتِ على الشفة قرحة لا تلتئم أو كتلة أو تغيّرًا في اللون، فراجعي الطبيب."
+    },
+    {
+     "en": "Balms with menthol, camphor or strong fragrance sometimes irritate the lips. Contact allergy to propolis-enriched honey has been reported — if you are allergic to bee products, check the ingredients.",
+     "uz": "Mentol, kamfora yoki kuchli xushbo‘y moddalar qo‘shilgan balzamlar ba‘zan lablarni ta‘sirlantiradi. Propolis qo‘shilgan asal mahsulotiga kontakt allergiya haqida xabar bor — ari mahsulotlariga allergiyangiz bo‘lsa, tarkibni tekshiring.",
+     "ru": "Бальзамы с ментолом, камфорой или сильными отдушками иногда раздражают губы. Описан случай контактной аллергии на мёд с прополисом — при аллергии на продукты пчеловодства проверяйте состав.",
+     "ar": "قد تهيّج البلاسم المحتوية على المنثول أو الكافور أو العطور القوية الشفتين أحيانًا. وقد أُبلغ عن حساسية تماسية من عسل مُضاف إليه البروبوليس، فإن كانت لديكِ حساسية من منتجات النحل فتحقّقي من المكوّنات."
+    },
+    {
+     "en": "If your lips swell, itch or sting, wipe the balm off and rinse with lukewarm water. If swelling grows or breathing becomes difficult, get urgent medical help.",
+     "uz": "Lablar shishsa, qichisa yoki achishsa, balzamni artib tashlang va iliq suv bilan yuving. Shish kuchaysa yoki nafas olish qiyinlashsa, darhol tibbiy yordam chaqiring.",
+     "ru": "Если губы отекают, зудят или жжёт, сотрите бальзам и умойтесь тёплой водой. Если отёк нарастает или становится трудно дышать, срочно обратитесь за медицинской помощью.",
+     "ar": "إذا تورّمت شفتاكِ أو حكّتاكِ أو شعرتِ بلسعة، فامسحي البلسم واغسليهما بماء فاتر. وإذا ازداد التورّم أو صعب التنفّس، فاطلبي مساعدة طبية عاجلة."
+    },
+    {
+     "en": "Wash your hands and use a clean cloth each time; if you scoop balm from a pot with your finger, wash your hands first.",
+     "uz": "Qo‘llaringizni yuving va har safar toza matodan foydalaning; balzam idishiga barmoq bilan tegsangiz, avval qo‘llaringizni yuving.",
+     "ru": "Мойте руки и каждый раз берите чистую ткань; если набираете бальзам из баночки пальцем, сначала вымойте руки.",
+     "ar": "اغسلي يديكِ واستخدمي قطعة قماش نظيفة في كل مرة، وإن كنتِ تأخذين البلسم من علبة بإصبعكِ فاغسلي يديكِ أولًا."
+    }
+   ],
+   "evidence": {
+    "en": "There is no separate evidence card on lip care in the app yet, and this ritual itself has not been studied. The honey card notes one report of contact allergy to propolis-enriched honey — a reminder to look at what is in your balm. This ritual does not promise plumper or rosier lips; it is about being gentle with thin skin.",
+    "uz": "Lab parvarishi bo‘yicha ilovada alohida dalil kartochkasi hozircha yo‘q, bu marosimning o‘zi ham o‘rganilmagan. Asal kartochkasida propolis qo‘shilgan asalga kontakt allergiya haqidagi bitta xabar bor — bu balzam tarkibiga e‘tibor berish kerakligini eslatadi. Marosim lablarni «to‘ldirish» yoki rangini o‘zgartirishni va‘da qilmaydi; bu nozik terini avaylash uchun.",
+    "ru": "Отдельной карточки доказательств об уходе за губами в приложении пока нет, и сам ритуал не изучался. В карточке мёда описан один случай контактной аллергии на мёд с прополисом — это напоминание внимательно смотреть на состав бальзама. Ритуал не обещает увеличения объёма или изменения цвета губ — это бережность к тонкой коже.",
+    "ar": "لا توجد بعدُ في التطبيق بطاقة أدلة مستقلة عن العناية بالشفتين، ولم يُدرس هذا الطقس بحدّ ذاته. وتذكر بطاقة العسل تقريرًا واحدًا عن حساسية تماسية من عسل مُضاف إليه البروبوليس، وهو تذكير بالانتباه إلى مكوّنات البلسم. لا يَعِد هذا الطقس بتكبير الشفتين أو تغيير لونهما، بل هو رفق بجلد رقيق."
+   },
+   "steps": [
+    {
+     "seconds": 15,
+     "title": {
+      "en": "Check",
+      "uz": "Qarab chiqing",
+      "ru": "Осмотр",
+      "ar": "التفقّد"
+     },
+     "text": {
+      "en": "Wash your hands and look at your lips in the mirror. If there are sores, blisters or bleeding cracks, skip the ritual today.",
+      "uz": "Qo‘llaringizni yuving va lablaringizga ko‘zguda qarang. Yara, pufakcha yoki qonaydigan yoriq bo‘lsa, marosimni bugun o‘tkazmang.",
+      "ru": "Вымойте руки и посмотрите на губы в зеркало. Если есть ранки, пузырьки или кровоточащие трещины, сегодня ритуал пропустите.",
+      "ar": "اغسلي يديكِ وانظري إلى شفتيكِ في المرآة. وإن كانت فيهما قروح أو بثور مائية أو تشقّقات تنزف، فتجاوزي الطقس اليوم."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Warm compress",
+      "uz": "Iliq kompress",
+      "ru": "Тёплый компресс",
+      "ar": "كمادة دافئة"
+     },
+     "text": {
+      "en": "Soak a clean, soft cloth in lukewarm (not hot) water, wring it out and hold it against your lips for 30 seconds.",
+      "uz": "Toza yumshoq matoni iliq (issiq emas) suvda namlab, siqib oling va lablarga 30 soniya bosib turing.",
+      "ru": "Смочите чистую мягкую ткань тёплой (не горячей) водой, отожмите и приложите к губам на 30 секунд.",
+      "ar": "بلّلي قطعة قماش ناعمة نظيفة بماء فاتر لا ساخن، واعصريها، ثم ضعيها على شفتيكِ 30 ثانية."
+     }
+    },
+    {
+     "seconds": 15,
+     "title": {
+      "en": "Pat dry",
+      "uz": "Quritish",
+      "ru": "Промокните",
+      "ar": "التجفيف"
+     },
+     "text": {
+      "en": "Pat your lips dry with the cloth. Do not rub or pull off any flakes.",
+      "uz": "Lablarni mato bilan yengil bosib quriting. Po‘stloqlarni ishqalab yoki tortib olib tashlamang.",
+      "ru": "Легко промокните губы тканью. Не стирайте и не отрывайте шелушки.",
+      "ar": "جففي شفتيكِ بالتربيت بالقماش، ولا تفركي القشور أو تنزعيها."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Balm",
+      "uz": "Balzam",
+      "ru": "Бальзам",
+      "ar": "البلسم"
+     },
+     "text": {
+      "en": "Smooth on a thin layer of a simple, fragrance-free lip balm, taking it just past the edge of your lips.",
+      "uz": "Xushbo‘ylantirgichsiz, oddiy lab balzamini yupqa qatlam qilib surting — lab chegarasidan biroz chiqib ham.",
+      "ru": "Нанесите тонким слоем простой бальзам для губ без отдушек — чуть заходя за контур губ.",
+      "ar": "ضعي طبقة رقيقة من بلسم شفاه بسيط خالٍ من العطور، وامدّيه قليلًا إلى ما بعد حدود الشفتين."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Soft massage",
+      "uz": "Yengil silash",
+      "ru": "Лёгкий массаж",
+      "ar": "تدليك خفيف"
+     },
+     "text": {
+      "en": "With the pad of your ring finger, make very slow, small circles across your lips from the centre to the corners.",
+      "uz": "Nomsiz barmoq uchi bilan lablarni o‘rtadan burchaklarga tomon juda sekin, kichik aylanma harakatlar bilan siling.",
+      "ru": "Подушечкой безымянного пальца очень медленно, маленькими кругами проведите по губам от центра к уголкам.",
+      "ar": "بطرف إصبع البنصر، ارسمي دوائر صغيرة بطيئة جدًا على شفتيكِ من الوسط نحو الزاويتين."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Around the mouth",
+      "uz": "Og‘iz atrofi",
+      "ru": "Вокруг рта",
+      "ar": "حول الفم"
+     },
+     "text": {
+      "en": "Make light circles at the corners of your mouth and above your upper lip, then relax your lips and breathe out slowly.",
+      "uz": "Lab burchaklari va lab ustidagi teriga yengil aylanma harakatlar qiling, so‘ng lablarni bo‘shashtirib, sekin nafas chiqaring.",
+      "ru": "Сделайте лёгкие круговые движения в уголках рта и над верхней губой, затем расслабьте губы и медленно выдохните.",
+      "ar": "ارسمي دوائر خفيفة عند زاويتي الفم وفوق الشفة العليا، ثم أرخي شفتيكِ وازفري ببطء."
+     }
+    },
+    {
+     "seconds": 20,
+     "title": {
+      "en": "Close",
+      "uz": "Yakun",
+      "ru": "Завершение",
+      "ar": "الختام"
+     },
+     "text": {
+      "en": "In the daytime, add a lip balm with SPF before going outdoors. At night, a layer of plain balm is enough.",
+      "uz": "Kunduzi tashqariga chiqsangiz, ustidan SPF li lab balzamini surting. Kechasi oddiy balzam qatlami yetarli.",
+      "ru": "Днём перед выходом на улицу нанесите сверху бальзам для губ с SPF. Вечером достаточно слоя обычного бальзама.",
+      "ar": "في النهار، ضعي فوقه بلسم شفاه بعامل حماية من الشمس قبل الخروج. أما ليلًا فتكفي طبقة من البلسم العادي."
      }
     }
    ]
@@ -9113,6 +10644,189 @@
    ]
   },
   {
+   "id": "morning-skincare-sequence",
+   "status": "draft",
+   "photo": "deco_jasmine",
+   "title": {
+    "en": "Morning skincare sequence",
+    "uz": "Ertalabki parvarish tartibi",
+    "ru": "Утренний порядок ухода",
+    "ar": "تسلسل العناية الصباحية"
+   },
+   "intro": {
+    "en": "Cleanse, serum, moisturiser and sun protection — each in its own time. Six calm minutes in which every layer settles without hurry.",
+    "uz": "Tozalash, zardob, namlovchi krem va quyoshdan himoya — har biriga o‘z vaqti. Olti daqiqalik sokin tartib, unda qatlamlar bir-biriga shoshilmasdan joylashadi.",
+    "ru": "Очищение, сыворотка, увлажняющий крем и защита от солнца — каждому своё время. Шесть минут спокойного порядка, в котором слои ложатся без спешки.",
+    "ar": "التنظيف، فالسيروم، فالمرطّب، فالحماية من الشمس، ولكلٍّ وقته. ست دقائق هادئة تستقرّ فيها كل طبقة دون استعجال."
+   },
+   "safety": [
+    {
+     "en": "Introduce new products one at a time, with a gap in between. Before the first use, apply a little to the inside of your wrist or behind your ear and wait 24 hours.",
+     "uz": "Yangi vositalarni bittadan, oraliq bilan kiriting. Birinchi marta ishlatishdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting.",
+     "ru": "Вводите новые средства по одному и с перерывом. Перед первым применением нанесите немного на внутреннюю сторону запястья или за ухо и подождите 24 часа.",
+     "ar": "أدخلي المنتجات الجديدة واحدًا تلو الآخر بفاصل زمني. وقبل الاستخدام الأول، ضعي قليلًا منها على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة."
+    },
+    {
+     "en": "If you use products with actives (such as acids, vitamin C or retinoids), follow the label; retinoids are usually applied in the evening. If stinging or redness builds up, rinse the product off and stop using it.",
+     "uz": "Faol moddali vositalardan (masalan, kislotalar, C vitamini, retinoidlar) foydalansangiz, qadoqdagi ko‘rsatmaga amal qiling; retinoidlar odatda kechqurun ishlatiladi. Achishish yoki qizarish kuchaysa, vositani yuvib tashlang va undan foydalanishni to‘xtating.",
+     "ru": "Если вы пользуетесь средствами с активными веществами (кислотами, витамином C, ретиноидами), следуйте инструкции на упаковке; ретиноиды обычно наносят вечером. При усиливающемся жжении или покраснении смойте средство и прекратите его использовать.",
+     "ar": "إن كنتِ تستخدمين منتجات بمواد فعّالة (كالأحماض أو فيتامين C أو الريتينويدات)، فاتّبعي تعليمات العبوة، فالريتينويدات تُستخدم عادة مساءً. وإذا اشتدّت اللسعة أو الاحمرار، فاغسلي المنتج وتوقّفي عن استخدامه."
+    },
+    {
+     "en": "If you are pregnant or breastfeeding, or use skin treatments prescribed by a doctor, check any active ingredients with your doctor.",
+     "uz": "Homiladorlik yoki emizish davrida, shuningdek shifokor buyurgan teri vositalaridan foydalansangiz, faol moddalarni shifokor bilan kelishing.",
+     "ru": "Во время беременности и кормления грудью, а также если вы используете назначенные врачом средства для кожи, согласуйте активные компоненты с врачом.",
+     "ar": "إن كنتِ حاملًا أو مرضعًا، أو تستخدمين علاجات جلدية وصفها الطبيب، فراجعي معه أي مواد فعّالة."
+    },
+    {
+     "en": "Keep products out of your eyes; if any gets in, rinse with plenty of clean water.",
+     "uz": "Vositalarni ko‘zdan uzoq tuting; ko‘zga tushsa, ko‘p miqdordagi toza suv bilan yuving.",
+     "ru": "Не допускайте попадания средств в глаза; если попали — промойте большим количеством чистой воды.",
+     "ar": "أبعدي المنتجات عن عينيكِ، وإذا دخل شيء منها فاغسليهما بكثير من الماء النظيف."
+    },
+    {
+     "en": "Sunscreen is only part of sun protection: shade, a hat, sunglasses and avoiding the strongest midday sun matter too.",
+     "uz": "Quyoshdan himoya kremi — himoyaning faqat bir qismi: soya, bosh kiyimi, quyosh ko‘zoynagi va kunning eng issiq soatlarida quyoshdan qochish ham muhim.",
+     "ru": "Солнцезащитный крем — лишь часть защиты: важны также тень, головной убор, солнцезащитные очки и избегание солнца в самые жаркие часы.",
+     "ar": "واقي الشمس جزء واحد من الحماية فقط، فالظلّ والقبعة والنظارات الشمسية وتجنّب شمس الظهيرة القوية مهمّة أيضًا."
+    },
+    {
+     "en": "Wash your hands, check expiry dates and close lids tightly.",
+     "uz": "Qo‘llaringizni yuving, vositalarning yaroqlilik muddatini tekshiring va qopqoqlarini mahkam yoping.",
+     "ru": "Мойте руки, проверяйте срок годности средств и плотно закрывайте крышки.",
+     "ar": "اغسلي يديكِ، وتحقّقي من تواريخ الصلاحية، وأحكمي إغلاق العبوات."
+    }
+   ],
+   "evidence": {
+    "en": "This order and the waiting times are practical advice, not tested in studies: they help layers sit well and avoid pilling. Much of the evidence on the app's ingredient cards comes from small studies of finished products. How well a sunscreen protects depends on the whole formulation and on applying enough of it. This ritual does not promise anti-ageing or skin whitening.",
+    "uz": "Bu tartib va kutish vaqtlari amaliy maslahat bo‘lib, tadqiqotlarda sinalmagan: ular qatlamlar bir-biriga yaxshi o‘rnashishi va yumaloqlanmasligi uchun. Ilovadagi ingrediyent kartochkalarining ko‘p dalillari tayyor mahsulotlar ustidagi kichik tadqiqotlarga asoslangan. Quyoshdan himoya darajasi butun formulaga va yetarli miqdorda surtishga bog‘liq. Marosim yoshartirish yoki terini oqartirishni va‘da qilmaydi.",
+    "ru": "Этот порядок и паузы — практический совет, а не результат исследований: они нужны, чтобы слои хорошо ложились и не скатывались. Многие данные в карточках ингредиентов приложения получены в небольших исследованиях готовых средств. Степень защиты от солнца зависит от всей формулы и от достаточного количества средства. Ритуал не обещает омоложения или отбеливания кожи.",
+    "ar": "هذا الترتيب وأوقات الانتظار نصيحة عملية لم تُختبر في دراسات، والغاية منها أن تستقرّ الطبقات جيدًا ولا تتكتّل. ومعظم الأدلة في بطاقات المكوّنات في التطبيق مأخوذة من دراسات صغيرة على منتجات جاهزة. وتعتمد حماية الواقي على تركيبته كاملة وعلى وضع كمية كافية منه. لا يَعِد هذا الطقس بمكافحة الشيخوخة أو بتبييض البشرة."
+   },
+   "steps": [
+    {
+     "seconds": 45,
+     "title": {
+      "en": "Cleanse",
+      "uz": "Tozalash",
+      "ru": "Очищение",
+      "ar": "التنظيف"
+     },
+     "text": {
+      "en": "Rinse your face with lukewarm water, or use a little gentle cleanser if your skin is oily. Do not scrub.",
+      "uz": "Yuzingizni iliq suv bilan chaying yoki teringiz yog‘li bo‘lsa, ozgina yumshoq yuvish vositasidan foydalaning. Qattiq ishqalamang.",
+      "ru": "Умойтесь тёплой водой, а если кожа жирная — небольшим количеством мягкого средства. Не трите сильно.",
+      "ar": "اشطفي وجهكِ بماء فاتر، أو استخدمي قليلًا من منظّف لطيف إن كانت بشرتكِ دهنية، ودون فرك قوي."
+     }
+    },
+    {
+     "seconds": 15,
+     "title": {
+      "en": "Pat dry",
+      "uz": "Quritish",
+      "ru": "Промокните",
+      "ar": "التجفيف"
+     },
+     "text": {
+      "en": "Pat your face dry with a clean towel.",
+      "uz": "Toza sochiq bilan yuzni yengil bosib quriting.",
+      "ru": "Промокните лицо чистым полотенцем.",
+      "ar": "جففي وجهكِ بالتربيت بمنشفة نظيفة."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Serum",
+      "uz": "Zardob",
+      "ru": "Сыворотка",
+      "ar": "السيروم"
+     },
+     "text": {
+      "en": "If you use a serum, take one or two drops as the label directs and press it into your skin with your palms. If you do not use one, skip this step.",
+      "uz": "Agar zardob ishlatsangiz, qadoqdagi ko‘rsatmaga ko‘ra bir-ikki tomchisini kaftlarga oling va yuzga bosib-bosib surting. Zardob ishlatmasangiz, bu qadamni o‘tkazib yuboring.",
+      "ru": "Если пользуетесь сывороткой, возьмите одну-две капли по инструкции на упаковке и вбейте в кожу мягкими прижатиями ладоней. Если сыворотки нет, пропустите этот шаг.",
+      "ar": "إن كنتِ تستخدمين سيرومًا، فخذي قطرة أو قطرتين بحسب تعليمات العبوة واضغطيه على بشرتكِ براحتيكِ. وإن لم تستخدميه، فتجاوزي هذه الخطوة."
+     }
+    },
+    {
+     "seconds": 60,
+     "title": {
+      "en": "Pause",
+      "uz": "Kutish",
+      "ru": "Пауза",
+      "ar": "انتظار"
+     },
+     "text": {
+      "en": "Wait a minute until the serum has sunk in and your skin no longer feels tacky. You can brush your hair or drink some water meanwhile.",
+      "uz": "Bir daqiqa kuting, toki zardob so‘rilib, teri yopishqoq bo‘lmay qolsin. Bu vaqtda sochingizni tarashingiz yoki suv ichishingiz mumkin.",
+      "ru": "Подождите минуту, пока сыворотка впитается и кожа перестанет быть липкой. Можно пока причесаться или выпить воды.",
+      "ar": "انتظري دقيقة حتى يتشرّب السيروم ولا تعود بشرتكِ لزجة، ويمكنكِ في أثنائها تمشيط شعركِ أو شرب الماء."
+     }
+    },
+    {
+     "seconds": 45,
+     "title": {
+      "en": "Moisturiser",
+      "uz": "Namlovchi krem",
+      "ru": "Увлажняющий крем",
+      "ar": "المرطّب"
+     },
+     "text": {
+      "en": "Smooth a pea-sized amount of moisturiser over your face and neck in a thin, even layer.",
+      "uz": "No‘xatdek namlovchi kremni yuz va bo‘yinga yupqa, bir tekis qatlam qilib surting.",
+      "ru": "Распределите увлажняющий крем размером с горошину тонким ровным слоем по лицу и шее.",
+      "ar": "وزّعي مقدار حبّة بازلاء من المرطّب على وجهكِ ورقبتكِ بطبقة رقيقة متساوية."
+     }
+    },
+    {
+     "seconds": 60,
+     "title": {
+      "en": "Pause",
+      "uz": "Kutish",
+      "ru": "Пауза",
+      "ar": "انتظار"
+     },
+     "text": {
+      "en": "Wait another minute. Layers applied in a rush can pill and push each other around.",
+      "uz": "Yana bir daqiqa kuting. Shoshilib surtilgan qatlamlar yumaloqlanib, bir-birini «surib» ketishi mumkin.",
+      "ru": "Подождите ещё минуту. Слои, нанесённые впопыхах, могут скатываться и сдвигать друг друга.",
+      "ar": "انتظري دقيقة أخرى، فالطبقات الموضوعة على عجل قد تتكتّل ويزيح بعضها بعضًا."
+     }
+    },
+    {
+     "seconds": 60,
+     "title": {
+      "en": "Sunscreen",
+      "uz": "Quyoshdan himoya",
+      "ru": "Защита от солнца",
+      "ar": "واقي الشمس"
+     },
+     "text": {
+      "en": "The last layer is a broad-spectrum sunscreen with SPF 30 or higher. For face and neck, use about two finger-lengths and spread it evenly, including your ears and hairline.",
+      "uz": "Oxirgi qatlam — keng spektrli, SPF 30 yoki undan yuqori himoya kremi. Yuz va bo‘yin uchun taxminan ikki barmoq uzunligida oling va bir tekis surting; quloqlar va soch chizig‘ini unutmang.",
+      "ru": "Последний слой — солнцезащитное средство широкого спектра с SPF 30 или выше. Для лица и шеи возьмите примерно две полоски длиной с палец и распределите равномерно, не забывая уши и линию роста волос.",
+      "ar": "الطبقة الأخيرة واقٍ من الشمس واسع الطيف بعامل حماية 30 أو أعلى. استخدمي للوجه والرقبة نحو طول إصبعين، ووزّعيه بالتساوي، ولا تنسي الأذنين ومنبت الشعر."
+     }
+    },
+    {
+     "seconds": 60,
+     "title": {
+      "en": "Let it set",
+      "uz": "Yakun",
+      "ru": "Завершение",
+      "ar": "الثبات"
+     },
+     "text": {
+      "en": "If you wear make-up, wait a minute or two for the sunscreen to set. If you will be outdoors for long, plan to reapply during the day.",
+      "uz": "Pardoz qilsangiz, himoya kremi o‘rnashib olishi uchun bir-ikki daqiqa kuting. Ochiq havoda uzoq bo‘lsangiz, uni kun davomida yangilashni rejalashtiring.",
+      "ru": "Если наносите макияж, подождите минуту-две, чтобы солнцезащитный крем схватился. Если долго будете на улице, запланируйте его обновление в течение дня.",
+      "ar": "إن كنتِ تضعين المكياج، فانتظري دقيقة أو دقيقتين حتى يثبت الواقي. وإن كنتِ ستمكثين طويلًا في الخارج، فخطّطي لتجديده خلال اليوم."
+     }
+    }
+   ]
+  },
+  {
    "id": "relax-scalp-neck",
    "status": "draft",
    "photo": "deco_peony",
@@ -9288,6 +11002,180 @@
       "uz": "Kaftlarni ishqalab isiting va yopiq ko‘zlar ustiga bosmasdan qo‘ying. Bir necha marta sekin nafas oling.",
       "ru": "Согрейте ладони, потерев их, и положите на закрытые глаза, не надавливая. Сделайте несколько медленных вдохов.",
       "ar": "افركي راحتيكِ حتى تدفأا، وضعيهما على عينيكِ المغلقتين دون ضغط، وخذي بضعة أنفاس بطيئة."
+     }
+    }
+   ]
+  },
+  {
+   "id": "sunscreen-application-guide",
+   "status": "draft",
+   "photo": "deco_jasmine",
+   "title": {
+    "en": "How to apply sunscreen",
+    "uz": "Quyoshdan himoya kremini to‘g‘ri surtish",
+    "ru": "Как правильно наносить SPF",
+    "ar": "كيف تضعين واقي الشمس"
+   },
+   "intro": {
+    "en": "The SPF on the label only lives up to its number when you apply enough. Four minutes for the right amount, an even layer and a plan to reapply.",
+    "uz": "Himoya kremi yorlig‘idagi SPF faqat yetarli miqdor surtilganda o‘zini oqlaydi. To‘rt daqiqa — miqdor, tekis qatlam va yangilash rejasi uchun.",
+    "ru": "SPF на этикетке работает в полную силу, только если средства нанесено достаточно. Четыре минуты — на правильное количество, ровный слой и план обновления.",
+    "ar": "لا يحقّق عامل الحماية المكتوب على العبوة رقمه إلا بوضع كمية كافية. أربع دقائق للكمية الصحيحة، والطبقة المتساوية، وخطة التجديد."
+   },
+   "safety": [
+    {
+     "en": "Sunscreen is only part of sun protection: shade, a wide-brimmed hat, covering clothes, sunglasses and avoiding the strongest midday sun matter too. Sunscreen is not a reason to stay in the sun longer.",
+     "uz": "Quyoshdan himoya kremi — himoyaning faqat bir qismi: soya, keng hoshiyali shlyapa, yopiq kiyim, quyosh ko‘zoynagi va kunning eng issiq soatlarida quyoshdan qochish ham muhim. Himoya kremi bilan quyoshda uzoqroq qolish mumkin degan fikr noto‘g‘ri.",
+     "ru": "Солнцезащитный крем — лишь часть защиты: важны также тень, широкополая шляпа, закрытая одежда, солнцезащитные очки и избегание солнца в самые жаркие часы. Крем не повод дольше оставаться на солнце.",
+     "ar": "واقي الشمس جزء واحد من الحماية فقط، فالظلّ والقبعة العريضة والملابس الساترة والنظارات الشمسية وتجنّب شمس الظهيرة القوية مهمّة أيضًا. ولا يعني الواقي أنه يمكنكِ البقاء تحت الشمس مدة أطول."
+    },
+    {
+     "en": "Do not spray sunscreen straight onto your face or breathe it in: spray it into your palm first, then apply. Reviews on the zinc oxide card note a possible inhalation risk with nanoparticle sprays.",
+     "uz": "Sprey ko‘rinishidagi kremni to‘g‘ridan-to‘g‘ri yuzga sepmang va nafas bilan yutmang: avval kaftga seping, so‘ng yuzga surting. Rux oksidi kartochkasidagi sharhlarda nanozarrachali spreylarni nafas bilan yutish xavfi qayd etilgan.",
+     "ru": "Не распыляйте спрей прямо на лицо и не вдыхайте его: сначала распылите на ладонь, затем нанесите на лицо. В обзорах из карточки оксида цинка отмечен возможный риск при вдыхании спреев с наночастицами.",
+     "ar": "لا ترشّي الواقي مباشرة على وجهكِ ولا تستنشقيه، بل رشّيه في راحة يدكِ أولًا ثم ضعيه. وتشير مراجعات في بطاقة أكسيد الزنك إلى خطر محتمل عند استنشاق البخاخات المحتوية على جسيمات نانوية."
+    },
+    {
+     "en": "Before using a new sunscreen for the first time, apply a little to the inside of your wrist or behind your ear and wait 24 hours. If it stings, reddens or causes a rash, choose a different formula.",
+     "uz": "Yangi himoya kremini birinchi marta ishlatishdan oldin ozgina miqdorini bilakning ichki tomoniga yoki quloq orqasiga surtib, 24 soat kuting. Achishish, qizarish yoki toshma paydo bo‘lsa, boshqa formulani tanlang.",
+     "ru": "Перед первым применением нового солнцезащитного средства нанесите немного на внутреннюю сторону запястья или за ухо и подождите 24 часа. При жжении, покраснении или сыпи выберите другую формулу.",
+     "ar": "قبل استخدام واقٍ جديد لأول مرة، ضعي قليلًا منه على باطن معصمكِ أو خلف أذنكِ وانتظري 24 ساعة، وإن سبّب لسعة أو احمرارًا أو طفحًا فاختاري تركيبة أخرى."
+    },
+    {
+     "en": "If sunscreen gets into your eyes, rinse with plenty of clean water. If it stings around the eyes, choose a mineral formula or one labelled as tested around the eyes for that area.",
+     "uz": "Krem ko‘zga tushsa, ko‘p miqdordagi toza suv bilan yuving. Ko‘z atrofi achishsa, bu joy uchun mineral yoki «ko‘z atrofi uchun sinalgan» deb belgilangan formulani tanlang.",
+     "ru": "Если крем попал в глаза, промойте их большим количеством чистой воды. Если щиплет вокруг глаз, выберите для этой зоны минеральную формулу или средство с пометкой о тестировании вокруг глаз.",
+     "ar": "إذا دخل الواقي إلى عينيكِ، فاغسليهما بكثير من الماء النظيف. وإن سبّب لسعة حولهما، فاختاري لهذه المنطقة تركيبة معدنية أو منتجًا مكتوبًا عليه أنه مُختبر حول العينين."
+    },
+    {
+     "en": "Keep babies under 6 months out of direct sun, and ask a paediatrician about sunscreen for them.",
+     "uz": "6 oylikkacha chaqaloqlarni to‘g‘ridan-to‘g‘ri quyoshdan saqlang va ularga himoya kremi haqida pediatr bilan maslahatlashing.",
+     "ru": "Младенцев до 6 месяцев держите вне прямого солнца, а о солнцезащитных средствах для них посоветуйтесь с педиатром.",
+     "ar": "أبعدي الرُّضّع دون ستة أشهر عن الشمس المباشرة، واستشيري طبيب الأطفال بشأن واقي الشمس لهم."
+    },
+    {
+     "en": "If you notice a new or changing mole, or a spot that bleeds or will not heal, see a dermatologist.",
+     "uz": "Yangi yoki o‘zgarayotgan xol, qon ketadigan yoki bitmaydigan dog‘ sezsangiz, dermatologga ko‘rining.",
+     "ru": "Если заметили новую или меняющуюся родинку, кровоточащее или незаживающее пятно, покажитесь дерматологу.",
+     "ar": "إذا لاحظتِ شامة جديدة أو متغيّرة، أو بقعة تنزف أو لا تلتئم، فراجعي طبيب الجلدية."
+    },
+    {
+     "en": "Wash your hands, close the bottle tightly and do not leave it in a hot car; do not use sunscreen past its expiry date.",
+     "uz": "Qo‘llaringizni yuving, idishni mahkam yoping va issiq mashinada qoldirmang; muddati o‘tgan kremni ishlatmang.",
+     "ru": "Мойте руки, плотно закрывайте флакон и не оставляйте его в горячей машине; не пользуйтесь просроченным средством.",
+     "ar": "اغسلي يديكِ، وأحكمي إغلاق العبوة، ولا تتركيها في سيارة حارّة، ولا تستخدمي واقيًا منتهي الصلاحية."
+    }
+   ],
+   "evidence": {
+    "en": "The SPF on the label is measured in a laboratory with a fairly thick layer (2 mg per square centimetre); the two-finger rule is a rough home guide to get closer to that amount, not a precise measure. The evidence on the zinc oxide card comes from reviews and small studies and stresses that protection depends on the whole formulation. This guide itself has not been studied; it does not promise to remove wrinkles or whiten the skin.",
+    "uz": "Yorliqdagi SPF laboratoriyada ancha qalin qatlam (har kvadrat santimetrga 2 mg) bilan o‘lchanadi; ikki barmoq qoidasi shu miqdorga yaqinlashish uchun taxminiy uy usuli, aniq o‘lchov emas. Rux oksidi kartochkasidagi dalillar sharhlar va kichik tadqiqotlardan iborat bo‘lib, himoya butun formulaga bog‘liqligini ta‘kidlaydi. Bu qo‘llanmaning o‘zi alohida o‘rganilmagan; u ajinlarni yo‘qotish yoki terini oqartirishni va‘da qilmaydi.",
+    "ru": "SPF на этикетке измеряют в лаборатории при довольно толстом слое (2 мг на квадратный сантиметр); правило двух пальцев — примерный домашний способ приблизиться к этому количеству, а не точная мера. Данные в карточке оксида цинка получены из обзоров и небольших исследований и подчёркивают, что защита зависит от всей формулы. Само это руководство отдельно не изучалось; оно не обещает избавить от морщин или отбелить кожу.",
+    "ar": "يُقاس عامل الحماية المكتوب على العبوة في المختبر بطبقة سميكة نسبيًا (2 ملغ لكل سنتيمتر مربع)، وقاعدة الإصبعين وسيلة منزلية تقريبية للاقتراب من هذه الكمية لا مقياس دقيق. وأدلة بطاقة أكسيد الزنك مأخوذة من مراجعات ودراسات صغيرة، وتؤكد أن الحماية تعتمد على التركيبة كاملة. ولم يُدرس هذا الدليل بحدّ ذاته، ولا يَعِد بإزالة التجاعيد أو تبييض البشرة."
+   },
+   "steps": [
+    {
+     "seconds": 20,
+     "title": {
+      "en": "Check",
+      "uz": "Tekshiring",
+      "ru": "Проверьте",
+      "ar": "التحقّق"
+     },
+     "text": {
+      "en": "Choose a broad-spectrum (UVA and UVB) sunscreen with SPF 30 or higher and check the expiry date. Shake the bottle if the label says so.",
+      "uz": "Keng spektrli (UVA va UVB), SPF 30 yoki undan yuqori himoya kremini tanlang va yaroqlilik muddatini tekshiring. Kerak bo‘lsa, idishni silkiting.",
+      "ru": "Выберите средство широкого спектра (UVA и UVB) с SPF 30 или выше и проверьте срок годности. При необходимости встряхните флакон.",
+      "ar": "اختاري واقيًا واسع الطيف (UVA وUVB) بعامل حماية 30 أو أعلى، وتحقّقي من تاريخ الصلاحية، ورجّي العبوة إن طلبت التعليمات ذلك."
+     }
+    },
+    {
+     "seconds": 20,
+     "title": {
+      "en": "Two-finger rule",
+      "uz": "Ikki barmoq qoidasi",
+      "ru": "Правило двух пальцев",
+      "ar": "قاعدة الإصبعين"
+     },
+     "text": {
+      "en": "Squeeze one line of sunscreen along your index finger and one along your middle finger, from base to tip. That is roughly enough for your face and neck.",
+      "uz": "Ko‘rsatkich va o‘rta barmoqlaringiz bo‘ylab, asosidan uchigacha, bittadan chiziq qilib krem siqing. Bu taxminan yuz va bo‘yin uchun yetarli miqdor.",
+      "ru": "Выдавите по полоске крема вдоль указательного и среднего пальцев — от основания до кончика. Это примерно нужное количество для лица и шеи.",
+      "ar": "اعصري خطًّا من الواقي على طول السبّابة وآخر على طول الوسطى، من القاعدة حتى الطرف، فهذه تقريبًا الكمية الكافية للوجه والرقبة."
+     }
+    },
+    {
+     "seconds": 30,
+     "title": {
+      "en": "Dot it on",
+      "uz": "Nuqtalar",
+      "ru": "Точки",
+      "ar": "النقاط"
+     },
+     "text": {
+      "en": "Dot the sunscreen over your forehead, both cheeks, nose, chin and neck so it does not pile up in one place.",
+      "uz": "Kremni peshona, ikki yonoq, burun, iyak va bo‘yinga nuqta-nuqta qilib qo‘ying, shunda u bir joyga to‘planib qolmaydi.",
+      "ru": "Распределите крем точками на лоб, обе щеки, нос, подбородок и шею, чтобы он не скапливался в одном месте.",
+      "ar": "وزّعي الواقي نقاطًا على الجبين والخدّين والأنف والذقن والرقبة، كي لا يتراكم في موضع واحد."
+     }
+    },
+    {
+     "seconds": 45,
+     "title": {
+      "en": "Spread evenly",
+      "uz": "Tekis yoyish",
+      "ru": "Равномерно распределите",
+      "ar": "التوزيع المتساوي"
+     },
+     "text": {
+      "en": "Spread it evenly with your fingertips without rubbing hard. Reach the sides of your nose and under your chin too.",
+      "uz": "Kremni barmoq uchlari bilan bir tekis yoying — qattiq ishqalamang. Burun yonlari va iyak ostiga ham yetkazing.",
+      "ru": "Подушечками пальцев равномерно распределите крем, не втирая с силой. Не пропустите крылья носа и область под подбородком.",
+      "ar": "وزّعيه بالتساوي بأطراف أصابعكِ دون فرك قوي، وأوصليه إلى جانبي الأنف وأسفل الذقن أيضًا."
+     }
+    },
+    {
+     "seconds": 40,
+     "title": {
+      "en": "Easy-to-miss spots",
+      "uz": "Unutiladigan joylar",
+      "ru": "Забытые места",
+      "ar": "المواضع المنسيّة"
+     },
+     "text": {
+      "en": "Cover your ears, hairline, the back of your neck and the bony area around your eyes (without going onto the eyelid). Use a lip balm with SPF on your lips.",
+      "uz": "Quloqlar, soch chizig‘i, bo‘yinning orqasi va ko‘z atrofidagi suyakni (qovoqqa yaqinlashmasdan) qamrab oling. Lablarga SPF li lab balzamini surting.",
+      "ru": "Охватите уши, линию роста волос, заднюю поверхность шеи и костный край вокруг глаз (не заходя на веко). На губы нанесите бальзам с SPF.",
+      "ar": "غطّي الأذنين ومنبت الشعر ومؤخرة الرقبة والمنطقة العظمية حول العينين (دون الاقتراب من الجفن)، وضعي على شفتيكِ بلسمًا بعامل حماية."
+     }
+    },
+    {
+     "seconds": 60,
+     "title": {
+      "en": "Let it set",
+      "uz": "O‘rnashsin",
+      "ru": "Дайте схватиться",
+      "ar": "دعيه يثبت"
+     },
+     "text": {
+      "en": "Wait a minute or two before make-up or going outside so the sunscreen can settle on your skin.",
+      "uz": "Pardoz qilishdan yoki tashqariga chiqishdan oldin bir-ikki daqiqa kuting, toki krem teriga o‘rnashsin.",
+      "ru": "Перед макияжем или выходом на улицу подождите минуту-две, чтобы крем схватился на коже.",
+      "ar": "انتظري دقيقة أو دقيقتين قبل المكياج أو الخروج حتى يستقرّ الواقي على بشرتكِ."
+     }
+    },
+    {
+     "seconds": 20,
+     "title": {
+      "en": "Reapply plan",
+      "uz": "Yangilash rejasi",
+      "ru": "План обновления",
+      "ar": "خطة التجديد"
+     },
+     "text": {
+      "en": "Outdoors, reapply every 2 hours and straight after swimming, heavy sweating or towelling off — follow the directions on the label.",
+      "uz": "Ochiq havoda har 2 soatda, shuningdek suzish, kuchli terlash yoki sochiq bilan artinishdan keyin darhol yangilang — yorliqdagi ko‘rsatmaga amal qiling.",
+      "ru": "На улице обновляйте каждые 2 часа, а также сразу после купания, сильного потоотделения или вытирания полотенцем — следуйте инструкции на этикетке.",
+      "ar": "في الخارج، جدّديه كل ساعتين، وفورًا بعد السباحة أو التعرّق الشديد أو التجفيف بالمنشفة، مع اتّباع تعليمات العبوة."
      }
     }
    ]

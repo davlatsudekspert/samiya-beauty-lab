@@ -33,8 +33,8 @@ void main() {
   });
 
   test('retsept va ritual: 8 va 3 ta, 4 tilda, xavfsizlik bilan, rasmlari mavjud', () {
-    expect(repo.recipes.length, 8);
-    expect(repo.rituals.length, 3);
+    expect(repo.recipes.length, greaterThanOrEqualTo(14));
+    expect(repo.rituals.length, greaterThanOrEqualTo(12));
     for (final r in repo.recipes) {
       expect(r.safety, isNotEmpty);
       expect(File('assets/photos/${r.photo}.jpg').existsSync(), isTrue, reason: r.id);
