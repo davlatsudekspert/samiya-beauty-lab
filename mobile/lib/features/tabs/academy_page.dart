@@ -6,6 +6,7 @@ import '../../app/app_state.dart';
 import '../../ui/arch_photo.dart';
 import '../../ui/safe_nav.dart';
 import '../academy/lesson_models.dart';
+import '../academy/lesson_page.dart' show lessonPhotos;
 import '../../app/pro_gate.dart';
 import '../pro/pro_page.dart';
 
@@ -58,10 +59,28 @@ class AcademyPage extends StatelessWidget {
                   ),
                   child: Row(
                     children: [
-                      Text(
-                        '${i + 1}'.padLeft(2, '0'),
-                        textDirection: TextDirection.ltr,
-                        style: const TextStyle(fontFamily: 'CormorantGaramond', fontWeight: FontWeight.w600, fontSize: 26, color: SamiyaColors.gold),
+                      SizedBox(
+                        width: 58,
+                        height: 70,
+                        child: Stack(fit: StackFit.expand, children: [
+                          ClipRRect(
+                            borderRadius: const BorderRadius.vertical(top: Radius.circular(29), bottom: Radius.circular(10)),
+                            child: i < lessons.length
+                                ? Image.asset(lessonPhotos[lessons[i].id] ?? 'assets/photos/deco_peony.jpg', fit: BoxFit.cover)
+                                : const ColoredBox(color: SamiyaColors.blush),
+                          ),
+                          Align(
+                            alignment: Alignment.bottomCenter,
+                            child: Container(
+                              margin: const EdgeInsets.only(bottom: 4),
+                              padding: const EdgeInsets.symmetric(horizontal: 6),
+                              decoration: BoxDecoration(color: const Color(0xCC3B1E2B), borderRadius: BorderRadius.circular(8)),
+                              child: Text('${i + 1}'.padLeft(2, '0'),
+                                  textDirection: TextDirection.ltr,
+                                  style: const TextStyle(fontFamily: 'CormorantGaramond', fontWeight: FontWeight.w700, fontSize: 15, color: Color(0xFFE9D3A8))),
+                            ),
+                          ),
+                        ]),
                       ),
                       const SizedBox(width: 16),
                       Expanded(
