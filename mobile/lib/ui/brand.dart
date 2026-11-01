@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../app/theme.dart';
 
-/// SAMIYA monogrammasi: ingichka oltin ravoq (arka) ichida kursiv serif "S".
+/// SAMIYA monogrammasi: ingichka oltin ravoq (arka) ichida tik serif "S".
 class SamiyaMark extends StatelessWidget {
   const SamiyaMark({super.key, this.size = 96, this.color = SamiyaColors.gold, this.letterColor});
   final double size;
@@ -21,9 +21,8 @@ class SamiyaMark extends StatelessWidget {
           child: Text('S',
               style: TextStyle(
                 fontFamily: 'CormorantGaramond',
-                fontStyle: FontStyle.italic,
-                fontWeight: FontWeight.w500,
-                fontSize: size * 0.74,
+                fontWeight: FontWeight.w600,
+                fontSize: size * 0.72,
                 height: 1,
                 color: letterColor ?? color,
               )),
