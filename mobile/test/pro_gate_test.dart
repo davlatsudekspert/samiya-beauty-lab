@@ -40,6 +40,8 @@ void main() {
     await pumpApp(t, state: st(after), initial: '/academy');
     expect(find.text('Pro'), findsWidgets);
     await t.ensureVisible(find.byKey(const Key('academy-topic-2')));
+    await t.drag(find.byType(Scrollable).first, const Offset(0, -250));
+    await t.pumpAndSettle();
     await t.tap(find.byKey(const Key('academy-topic-2')));
     await t.pumpAndSettle();
     expect(find.byKey(const Key('pro-page')), findsOneWidget);

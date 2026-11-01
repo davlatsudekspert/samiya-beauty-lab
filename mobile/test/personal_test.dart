@@ -91,9 +91,12 @@ void main() {
     final p = PersonalStore(persist: false);
     await pumpApp(t, state: app(p: p), initial: '/home/skin');
     expect(k('skin-note'), findsOneWidget);
+    await t.ensureVisible(k('skin-type-sensitive'));
     await t.tap(k('skin-type-sensitive'));
     await t.pumpAndSettle();
     expect(p.skinType, SkinType.sensitive);
+    await t.ensureVisible(k('avoid-add'));
+    await t.pumpAndSettle();
     await t.enterText(k('avoid-input'), 'Parfum');
     await t.tap(k('avoid-add'));
     await t.pumpAndSettle();

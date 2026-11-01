@@ -68,6 +68,9 @@ void main() {
 
   testWidgets('retsept: ro\'yxatdan ochiladi, xavfsizlik bloki bor', (t) async {
     await pumpApp(t, state: state(), initial: '/home/recipes');
+    await t.scrollUntilVisible(find.byKey(const Key('recipe-0')), 200, scrollable: find.byType(Scrollable).first);
+    await t.drag(find.byType(Scrollable).first, const Offset(0, -150));
+    await t.pumpAndSettle();
     await t.tap(find.byKey(const Key('recipe-0')));
     await t.pumpAndSettle();
     expect(find.text('Suli niqobi uz'), findsOneWidget);
