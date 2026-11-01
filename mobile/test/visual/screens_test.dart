@@ -77,6 +77,12 @@ void main() {
     '21_natural_detail': ('/scanner/ingredient/honey', const Size(780, 1688)),
     '22_ibn_sina': ('/scanner/ibn-sina', const Size(780, 1688)),
     '24_banana': ('/scanner/ingredient/banana', const Size(780, 1688)),
+    '25_skin': ('/home/skin', const Size(780, 1688)),
+    '26_routine': ('/home/routine', const Size(780, 1688)),
+    '27_journal': ('/journal', const Size(780, 1688)),
+    '28_academy': ('/academy', const Size(780, 1688)),
+    '29_scanner': ('/scanner', const Size(780, 1688)),
+    '30_profile': ('/profile', const Size(780, 1688)),
     '23_honey_full': ('/scanner/ingredient/honey', const Size(780, 4200)),
   };
   for (final lang in ['uz', 'ar']) {
