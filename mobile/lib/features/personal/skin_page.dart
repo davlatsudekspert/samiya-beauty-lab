@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../ui/arch_photo.dart';
+
 import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../data/personal_store.dart';
@@ -56,6 +58,8 @@ class _SkinPageState extends State<SkinPage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         const SizedBox(height: 8),
+                        const ArchPhoto('assets/tiles/skin.jpg', height: 180),
+                        const SizedBox(height: 14),
                         SoftNote(key: const Key('skin-note'), icon: Icons.info_outline_rounded, text: l.skinNote),
                         const SizedBox(height: 18),
                         SectionTitle(l.skinTypeTitle),

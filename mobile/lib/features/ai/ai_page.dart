@@ -8,7 +8,7 @@ import '../../app/app_state.dart';
 import '../../app/theme.dart';
 import '../../data/backend_api.dart';
 import '../../l10n/app_localizations.dart';
-import '../../ui/brand.dart';
+import '../../ui/arch_photo.dart';
 import '../../ui/honest_note.dart';
 import '../../ui/safe_nav.dart';
 import '../../ui/widgets.dart';
@@ -131,7 +131,7 @@ class _AiPageState extends State<AiPage> {
                   padding: const EdgeInsetsDirectional.fromSTEB(20, 4, 20, 16),
                   children: [
                     const SizedBox(height: 6),
-                    const Center(child: SamiyaMark(size: 72)),
+                    const ArchPhoto('assets/tiles/ai.jpg', height: 200),
                     const SizedBox(height: 14),
                     Text(l.tileAi, textAlign: TextAlign.center, style: t.headlineMedium?.copyWith(fontSize: 30)),
                     const SizedBox(height: 6),

@@ -35,7 +35,7 @@ class ShelfPage extends StatelessWidget {
                     child: ListView(
                       padding: const EdgeInsetsDirectional.fromSTEB(20, 4, 20, 24),
                       children: [
-                        const ArchPhoto('assets/photos/deco_rose.jpg', height: 150),
+                        const ArchPhoto('assets/tiles/shelf.jpg', height: 190),
                         const SizedBox(height: 14),
                         Text(l.shelfTitle, style: t.headlineMedium?.copyWith(fontSize: 30)),
                         const SizedBox(height: 6),

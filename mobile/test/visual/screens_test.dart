@@ -57,6 +57,9 @@ void main() {
           }
           await precacheImage(const AssetImage('assets/images/logo_square.jpg'), ctx);
           await precacheImage(const AssetImage('assets/images/hero_card.jpg'), ctx);
+          for (final b in Directory('assets/tiles').listSync().whereType<File>()) {
+            await precacheImage(AssetImage('assets/tiles/${b.uri.pathSegments.last}'), ctx);
+          }
           for (final b in Directory('assets/photos').listSync().whereType<File>().where((f) => f.path.endsWith('.jpg'))) {
             await precacheImage(AssetImage('assets/photos/${b.uri.pathSegments.last}'), ctx);
           }

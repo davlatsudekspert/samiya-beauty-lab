@@ -504,16 +504,8 @@ class _Collection extends StatelessWidget {
 }
 
 /// Bo'lim rasmlari (CC0, assets/photos).
-const _tilePhotos = {
-  'scanner': 'assets/photos/rose-water.jpg',
-  'skin': 'assets/photos/chamomile.jpg',
-  'routine': 'assets/photos/deco_jasmine.jpg',
-  'academy': 'assets/photos/deco_peony.jpg',
-  'ai': 'assets/photos/deco_lavender.jpg',
-  'journal': 'assets/photos/deco_rose.jpg',
-  'recipes': 'assets/photos/oat.jpg',
-  'rituals': 'assets/photos/rosehip-oil.jpg',
-  'shelf': 'assets/photos/olive-oil.jpg',
+final _tilePhotos = {
+  for (final k in ['scanner', 'skin', 'routine', 'academy', 'ai', 'journal', 'recipes', 'rituals', 'shelf']) k: 'assets/tiles/$k.jpg',
 };
 
 /// Jurnal muqovasi uslubidagi bosh kartochka: portret, ud-olxo'ri gradiyenti va serif sarlavha.

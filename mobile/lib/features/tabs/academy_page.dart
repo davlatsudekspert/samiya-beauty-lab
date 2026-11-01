@@ -29,7 +29,7 @@ class AcademyPage extends StatelessWidget {
       child: ListView(
         padding: const EdgeInsetsDirectional.fromSTEB(20, 28, 20, 28),
         children: [
-          const ArchPhoto('assets/photos/deco_peony.jpg', height: 190, alignment: Alignment(0, -0.2)),
+          const ArchPhoto('assets/tiles/academy.jpg', height: 210, alignment: Alignment(0, -0.2)),
           const SizedBox(height: 18),
           Text(l.navAcademy, textAlign: TextAlign.center, style: t.headlineMedium?.copyWith(fontSize: 34)),
           const SizedBox(height: 8),

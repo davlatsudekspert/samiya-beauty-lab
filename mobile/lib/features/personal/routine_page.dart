@@ -55,7 +55,7 @@ class _RoutinePageState extends State<RoutinePage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const SizedBox(height: 8),
-                          const ArchPhoto('assets/photos/deco_jasmine.jpg', height: 150, alignment: Alignment(0, -0.3)),
+                          const ArchPhoto('assets/tiles/routine.jpg', height: 190),
                           const SizedBox(height: 16),
                           Wrap(
                             spacing: 8,

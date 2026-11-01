@@ -161,7 +161,7 @@ class RecipesPage extends StatelessWidget {
       title: l.recipesTitle,
       back: '/home',
       children: [
-        const ArchPhoto('assets/photos/deco_jasmine.jpg', height: 160),
+        const ArchPhoto('assets/tiles/recipes.jpg', height: 190),
         const SizedBox(height: 14),
         Text(l.recipesTitle, style: t.headlineMedium?.copyWith(fontSize: 30)),
         const SizedBox(height: 6),
@@ -263,7 +263,7 @@ class RitualsPage extends StatelessWidget {
       title: l.ritualsTitle,
       back: '/home',
       children: [
-        const ArchPhoto('assets/photos/deco_lavender.jpg', height: 160),
+        const ArchPhoto('assets/tiles/rituals.jpg', height: 190),
         const SizedBox(height: 14),
         Text(l.ritualsTitle, style: t.headlineMedium?.copyWith(fontSize: 30)),
         const SizedBox(height: 6),

@@ -118,7 +118,7 @@ class JournalPage extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 14),
-            const ArchPhoto('assets/photos/deco_lavender.jpg', height: 150, alignment: Alignment(0, -0.2)),
+            const ArchPhoto('assets/tiles/journal.jpg', height: 190),
             const SizedBox(height: 16),
             if (p.journal.isEmpty)
               ElegantEmpty(key: const Key('journal-empty'), title: l.journalEmptyTitle, body: l.journalEmpty)

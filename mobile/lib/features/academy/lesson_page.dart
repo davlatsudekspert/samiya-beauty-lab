@@ -14,12 +14,12 @@ import '../pro/pro_page.dart';
 
 /// Har bir dars uchun nafis sarlavha rasmi (CC0, assets/photos).
 const lessonPhotos = {
-  'skin': 'assets/photos/deco_peony.jpg',
-  'inci': 'assets/photos/chamomile.jpg',
-  'spf': 'assets/photos/deco_rose.jpg',
-  'moist': 'assets/photos/aloe-vera.jpg',
-  'hygiene': 'assets/photos/deco_lavender.jpg',
-  'safety': 'assets/photos/deco_jasmine.jpg',
+  'skin': 'assets/tiles/skin.jpg',
+  'inci': 'assets/tiles/scanner.jpg',
+  'spf': 'assets/tiles/routine.jpg',
+  'moist': 'assets/tiles/rituals.jpg',
+  'hygiene': 'assets/tiles/shelf.jpg',
+  'safety': 'assets/tiles/academy.jpg',
 };
 
 class LessonPage extends StatelessWidget {
